@@ -1,0 +1,1695 @@
+html, body {
+     height: 100vh;
+}
+
+@media (min-width: 800px) {
+     .widescreen {
+          display: block;
+     }
+
+     .mobile {
+          display: none;
+     }
+}
+
+@media (max-width: 799.99px) {
+     .widescreen {
+          display: none;
+     }
+
+     .mobile {
+          display: block;
+     }
+}
+
+@media (min-width: 767px) {
+     .responsiveMobile {
+          display: none;
+     }
+}
+
+.navbar {
+     background-color: #FFBF00;
+     background: rgba(255, 191, 0, 0.7);
+     -webkit-backdrop-filter: blur(5px);
+     backdrop-filter: blur(5px);
+     border-bottom-color: transparent;
+}
+
+.navbar-background {
+     width: 100%;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 998;
+}
+
+.navbar-close {
+     color: #FFFFFF;
+}
+
+.navbar-brand {
+     margin-top: 3px;
+     font-family: 'Montserrat Alternates', sans-serif;
+     letter-spacing: 1px;
+     font-weight: 600;
+     font-size: 18px;;
+     color: #FFFFFF;
+}
+
+.navbar-header {
+     background-color: transparent;
+}
+
+.navbar-nav {
+     background-color: transparent;
+     padding-top: 5px;
+     font-family: 'Exo', sans-serif;
+     font-size: 18px;
+     color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+     color: #FFFFFF;
+     background-color: transparent
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+     color: #000000;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+     border-color: transparent;
+     color: #FFBF00;
+     background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+     color: #FFFFFF;
+}
+
+@media (min-width: 767px){
+     .navbar-brand {
+          font-family: 'Montserrat Alternates', sans-serif;
+          font-weight: 700;
+          font-size: 26px;
+          color: #FFFFFF;
+     }
+
+     .brandUnderscore {
+          font-family: 'Caveat Brush', cursive;
+     }
+
+     .dropdown a:hover {
+          background-color: #FFFFFF
+     }
+
+     .nav-dropdown:hover .nav-dropdown-menu {
+          color: #FFFFFF;
+          display: block;
+          border-color: transparent
+     }
+
+     .container {
+          padding-left: 0px;
+          padding-right: 0px;
+     }
+}
+
+@media (max-width: 766.99px) {
+     .navbar {
+          overflow: scroll;
+     }
+
+     .navbar::-webkit-scrollbar-thumb {
+          -webkit-border-radius: 10px;
+          border-radius: 10px;
+          background: #FFFFFF;
+          -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+     }
+
+     .navbar-brand {
+          margin-top: 0px;
+          font-size: 18px;;
+     }
+
+     .brandUnderscore {
+          font-family: 'Caveat Brush', cursive;
+     }
+
+     .navbar-inverse .navbar-nav > li > a {
+          color: #FFFFFF;
+          text-align: right;
+          margin-right: 10px;
+     }
+
+     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+          padding: 5px;
+          color: #FFFFFF;
+          background-color: #F76D50;
+          background-color: transparent;
+     }
+
+     .nav > li > a {
+          padding: 10px 18px;;
+     }
+
+     .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+          background: #F76D50;
+          border-color: transparent;
+          background-color: rgba(0, 0, 0, .4);
+          padding-bottom: 60px;
+     }
+
+     .navbar-inverse .navbar-toggle .icon-bar {
+          background-color: #FFFFFF;
+          color: #000000;
+     }
+
+     .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle {
+          border-color: transparent;
+          margin-right: 5px;
+          color: #FFFFFF;
+     }
+
+     .navbar-close {
+          padding: 0px;
+          margin: -5px 5px -5px 0px;
+     }
+
+     .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+          min-height: 100vh;
+          overflow: auto;
+     }
+}
+
+@media (max-width: 384px) {
+     .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle {
+          border-color: transparent;
+          margin-right: 5px;
+          color: #FFFFFF
+     }
+
+     .brandUnderscore {
+          font-family: 'Caveat Brush', cursive;
+     }
+
+     .navbar-header{
+          padding-top: 5px;
+          width: auto;
+     }
+
+     .nav{
+          width: auto;
+     }
+}
+
+@media (max-width: 360px) {
+     .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle {
+          border-color: transparent;
+          margin-right: 5px;
+          color: #FFFFFF
+     }
+
+     .brandUnderscore {
+          font-family: 'Caveat Brush', cursive;
+     }
+
+     .navbar-header{
+          width: auto;
+     }
+
+     .nav{
+          width: auto;
+     }
+}
+
+@media (max-width: 318px;) {
+     .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle {
+          border-color: transparent;
+          margin-right: 5px;
+          color: #FFFFFF
+     }
+
+     .brandUnderscore {
+          font-family: 'Caveat Brush', cursive;
+     }
+
+     .navbar-header{
+          width: auto;
+     }
+
+     .nav{
+          width: auto;
+     }
+}
+
+@media (max-height: 318px;) {
+     .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+          background: #F76D50;
+          border-color: transparent;
+          background-color: rgba(0, 0, 0, .4);
+          padding-bottom: 118px;;
+     }
+}
+
+@media (min-width: 800px) {
+     .dropdown-menu {
+          color: #FFFFFF;
+          text-align: right;
+          font-size: 18px;
+     }
+}
+
+@media (max-width: 799.99px) {
+     .dropdown-menu {
+          height: auto;
+          color: #FFFFFF;
+          text-align: right;
+          font-size: 16px;
+          margin-right: 40px;
+     }
+}
+
+@media (max-width: 480px) {
+     .dropdown-menu {
+          height: auto;
+          color: #FFFFFF;
+          text-align: right;
+          font-size: 16px;
+          margin-right: 40px;
+     }
+}
+
+@media (max-width: 340px) {
+     .dropdown-menu {
+          height: auto;
+          color: #FFFFFF;
+          text-align: right;
+          font-size: 16px;
+          margin-right: 15px;
+     }
+}
+
+/* ============================================================================== */
+/* CSS required for survey home page                                              */
+/* ============================================================================== */
+
+@media (min-width: 860px) {
+     .homePageHeader {
+          padding: 100px 16% 0px 16%;
+          font-family: 'Vollkorn SC', serif;
+          font-size: 60px;
+          text-align: left;
+          color: #FFBF00;
+          background-color: #FFFFFF;
+     }
+
+     .homePageSubHeader {
+          padding: 0px 16% 0px 16.2%;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;;
+          line-height: 26px;
+          text-align: left;
+          color: #999999;
+          background-color: #FFFFFF;
+     }
+
+     .surveyButtonsRow {
+          padding: 18px 16% 10px 16%;
+     }
+
+     .startSurveyButton {
+          height: 50px;
+          background-color: transparent;
+          color: #999999;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;;
+          line-height: 32px;
+          border: #FFBF00 solid 3px;
+          border-radius: 10px;
+     }
+
+     .startSurveyButton:hover {
+          height: 50px;
+          background-color: transparent;
+          color: #999999;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;;
+          line-height: 32px;
+          border: #FFBF00 solid 3px;
+          border-radius: 10px;
+     }
+
+     .startSurveyButton:active {
+          height: 50px;
+          background-color: transparent;
+          color: #999999;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;;
+          line-height: 32px;
+          border: #FFBF00 solid 3px;
+          border-radius: 10px;
+     }
+
+     .startSurveyButton:focus {
+          height: 50px;
+          background-color: transparent;
+          color: #999999;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;;
+          line-height: 32px;
+          border: #FFBF00 solid 3px;
+          border-radius: 10px;
+     }
+
+     .homePageSubHeaderHindi {
+          padding: 10px 0px 0px 0px;
+          font-family: 'Sahitya', serif;
+          font-size: 36px;
+          line-height: 38px;
+          font-weight: 500;
+          text-align: center;
+          color: #999999;
+          background-color: #FFFFFF;
+     }
+
+     .homePageForm {
+          max-width: 700px;
+          margin: 0 auto;
+          padding: 18px; 18px; 0px 18px;;
+     }
+
+     .homePageFormRow {
+          display: flex;
+          text-align: center;
+          box-shadow: 0 4px 8px -5px gray;
+          border: darkgray solid 2px;
+          border-radius: 10px;
+     }
+
+     .homePageSearchIcon {
+          color: #FFBF00;
+          height: auto;
+          width: 50px;
+          font-size: 28px;
+          text-align: center;
+          padding: 11px 0px 0px 10px;
+          opacity: 0.7;
+     }
+
+     .homePageTextbox {
+          height: 50px;
+          border: transparent solid 0px;
+          border-radius: 10px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 18px;
+          line-height: 18px;
+          box-shadow: 0 0px 0px 0px transparent;
+          padding: 0px 18px 0px 10px;
+     }
+
+     .homePageTextbox:focus {
+          height: 50px;
+          border: transparent solid 0px;
+          border-radius: 10px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 18px;
+          line-height: 18px;
+          box-shadow: 0 0px 0px 0px transparent;
+          padding: 0px 18px 0px 10px;
+     }
+
+     .ui-widget.ui-widget-content {
+          border: transparent solid 0px;
+          border-radius: 10px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 18px;
+          line-height: 24px;
+          padding: 10px 0px 10px 0px;
+     }
+
+     #ui-id-1 {
+          width: 200px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin: 0px 18px; 0px 0px;
+     }
+}
+
+@media (max-width: 859.99px) {
+     .homePageHeader {
+          padding: 100px 10% 0px 10%;
+          font-family: 'Vollkorn SC', serif;
+          font-size: 50px;
+          text-align: left;
+          color: #FFBF00;
+          background-color: #FFFFFF;
+     }
+
+     .homePageSubHeader {
+          padding: 0px 10% 0px 10.2%;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;;
+          line-height: 25px;
+          text-align: left;
+          color: #999999;
+          background-color: #FFFFFF;
+     }
+
+     .surveyButtonsRow {
+          padding: 18px; 10% 10px 10%;
+     }
+
+     .startSurveyButton {
+          height: 46px;
+          background-color: transparent;
+          color: #999999;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;;
+          line-height: 25px;
+          border: #FFBF00 solid 3px;
+          border-radius: 10px;
+     }
+
+     .homePageSubHeaderHindi {
+          padding: 0px 0px 0px 0px;
+          font-family: 'Laila', serif;
+          font-size: 32px;
+          line-height: 32px;
+          text-align: center;
+          color: #999999;
+          background-color: #FFFFFF;
+     }
+
+     .homePageForm {
+          max-width: 700px;
+          margin: 0 auto;
+          padding: 18px; 18px; 0px 18px;;
+     }
+
+     .homePageFormRow {
+          display: flex;
+          text-align: center;
+          box-shadow: 0 4px 8px -5px gray;
+          border: darkgray solid 2px;
+          border-radius: 10px;
+     }
+
+     .homePageSearchIcon {
+          color: #FFBF00;
+          height: auto;
+          width: 50px;
+          font-size: 28px;
+          text-align: center;
+          padding: 11px 0px 0px 10px;
+          opacity: 0.7;
+     }
+
+     .homePageTextbox {
+          height: 50px;
+          border: transparent solid 0px;
+          border-radius: 10px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 18px;
+          line-height: 18px;
+          box-shadow: 0 0px 0px 0px transparent;
+          padding: 0px 18px; 0px 10px;
+     }
+
+     .homePageTextbox:focus {
+          height: 50px;
+          border: transparent solid 0px;
+          border-radius: 15px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 18px;
+          line-height: 18px;
+          box-shadow: 0 0px 0px 0px transparent;
+          padding: 0px 18px; 0px 10px;
+     }
+
+     .ui-widget.ui-widget-content {
+          border: transparent solid 0px;
+          border-radius: 10px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 18px;
+          line-height: 24px;
+          padding: 10px 0px 10px 0px;
+     }
+
+     #ui-id-1 {
+          width: 200px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin: 0px 18px; 0px 0px;
+     }
+}
+
+@media (max-width: 767.99px) {
+     .homePageHeader {
+          padding: 80px 5% 0px 5%;
+          font-family: 'Vollkorn SC', serif;
+          font-size: 28px;
+          line-height: 28px;
+          text-align: left;
+          color: #FFBF00;
+          background-color: #FFFFFF;
+          content: '&#10016; Iesus &#10016;<br> &#10016; est &#10016;<br> &#10016;  Dominus &#10016;';
+     }
+
+     .homePageSubHeader {
+          padding: 0px 5% 0px 5.2%;
+          font-family: 'Montserrat', serif;
+          font-size: 16px;
+          line-height: 18px;
+          text-align: left;
+          color: #999999;
+          background-color: #FFFFFF;
+     }
+
+     .surveyButtonsRow {
+          padding: 18px; 5% 10px 5%;
+     }
+
+     .startSurveyButton {
+          height: 46px;
+          background-color: transparent;
+          color: #999999;
+          font-family: 'Montserrat', serif;
+          font-size: 16px;
+          line-height: 18px;
+          border: #FFBF00 solid 3px;
+          border-radius: 10px;
+     }
+
+     .homePageSubHeaderHindi {
+          padding: 0px 0px 0px 0px;
+          font-family: 'Laila', serif;
+          font-size: 18px;
+          line-height: 18px;
+          text-align: center;
+          color: #999999;
+          background-color: #FFFFFF;
+     }
+
+     .homePageForm {
+          max-width: 700px;
+          margin: 0 auto;
+          padding: 15px 18px; 0px 18px;;
+     }
+
+     .homePageFormRow {
+          display: flex;
+          text-align: center;
+          box-shadow: 0 2px 8px -5px gray;
+          border: darkgray solid 1.5px;
+          border-radius: 10px;
+     }
+
+     .homePageSearchIcon {
+          color: #FFBF00;
+          height: auto;
+          width: 40px;
+          font-size: 18px;;
+          text-align: center;
+          padding: 9px 0px 0px 10px;
+          opacity: 0.7;
+     }
+
+     .homePageTextbox {
+          height: 36px;
+          border-radius: 8px;
+          border: transparent solid 0px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 16px;
+          line-height: 16px;
+          box-shadow: 0 0px 0px 0px transparent;
+          padding: 0px 18px; 0px 10px;
+     }
+
+     .homePageTextbox:focus {
+          height: 36px;
+          border-radius: 8px;
+          border: transparent solid 0px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 16px;
+          line-height: 16px;
+          box-shadow: 0 0px 0px 0px transparent;
+          padding: 0px 18px; 0px 10px;
+     }
+
+     .ui-widget.ui-widget-content {
+          border: transparent solid 0px;
+          border-radius: 10px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 16px;
+          line-height: 18px;;
+          padding: 6px 0px 6px 0px;
+     }
+
+     #ui-id-1 {
+          width: 200px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin: 0px 18px; 0px 0px;
+     }
+}
+
+/* ============================================================================== */
+/* CSS required for survey sections page                                          */
+/* ============================================================================== */
+
+@media (min-width: 860px) {
+     .surveySection {
+          padding: 60px 16% 0px 16%;
+     }
+
+     .surveyRow {
+          padding: 18px 0px 0px 0px;
+     }
+
+     .surveySectOne {
+          /* visibility: hidden;
+          opacity: 0.0; */
+     }
+
+     .surveySectionHeader {
+          font-family: 'Vollkorn SC', serif;
+          font-size: 36px;
+          line-height: 36px;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQText {
+          font-family: 'Montserrat', serif;
+          font-size: 18px;;
+          line-height: 26px;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ001RadioButtons {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;
+          line-height: 0px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ002 {
+          display: none;
+          opacity: 0.0;
+     }
+
+     .sSQ002TB01 {
+          margin: 10px 0px 0px 30px;
+          width: auto;
+          max-width: 300px;
+          height: 36px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;;
+          line-height: 28px;
+          text-align: left;
+          color: #999999;
+          border: #999999 solid 2px;
+     }
+
+     .surveySectTwo {
+          /* display: none;
+          visibility: hidden;
+          opacity: 0.0; */
+     }
+
+     .sSQ003Dropdown {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          width: 180px;
+          font-size: 18px;;
+          line-height: 26px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ003DropdownButton {
+          background-color: #EEEEEE;
+          width: 260px;;
+          font-size: 18px;;
+          line-height: 24px;
+          height: 36px;
+          color: #333333;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+
+     .sSQ003DropdownOption {
+          width: 400px;
+          text-align: left;
+          padding: 6px 0px;
+          max-height: 260px;;
+          overflow-y: auto;
+     }
+
+     .sSQ003DropdownItem {
+          width: 100%;
+          height: 100%;
+          color: #333333;
+          cursor: pointer;
+          word-wrap: normal;
+          padding: 0px 12px;
+     }
+
+     .sSQ003DropdownItem:hover {
+          background-color: #FFBF00;
+          color: #FFFFFF;
+     }
+
+     .sSQ004Dropdown {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          width: 180px;
+          font-size: 18px;;
+          line-height: 26px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ004DropdownButton {
+          background-color: #EEEEEE;
+          width: 260px;;
+          font-size: 18px;;
+          line-height: 24px;
+          height: 36px;
+          color: #333333;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+
+     .sSQ004DropdownOption {
+          width: 400px;
+          text-align: left;
+          padding: 6px 0px;
+          max-height: 260px;;
+          text-align: left;
+          text-overflow: ellipsis;
+          overflow-y: auto;
+     }
+
+     .sSQ004DropdownItem {
+          width: 100%;
+          color: #333333;
+          cursor: pointer;
+          word-wrap: normal;
+          padding: 0px 12px;
+     }
+
+     .sSQ004DropdownItem:hover {
+          background-color: #FFBF00;
+          color: #FFFFFF;
+     }
+
+     .sSQ005Dropdown {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          width: 180px;
+          font-size: 18px;;
+          line-height: 26px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ005DropdownButton {
+          background-color: #EEEEEE;
+          width: 260px;;
+          font-size: 18px;;
+          line-height: 24px;
+          height: 36px;
+          color: #333333;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+
+     .sSQ005DropdownOption {
+          width: 400px;
+          text-align: left;
+          padding: 6px 0px;
+          max-height: 260px;;
+          overflow-y: auto;
+     }
+
+     .sSQ005DropdownItem {
+          width: 100%;
+          height: 100%;
+          color: #333333;
+          cursor: pointer;
+          word-wrap: normal;
+          padding: 0px 12px;
+     }
+
+     .sSQ005DropdownItem:hover {
+          background-color: #FFBF00;
+          color: #FFFFFF;
+     }
+
+     .sSQ006Dropdown {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          width: 180px;
+          font-size: 18px;;
+          line-height: 26px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ006DropdownButton {
+          background-color: #EEEEEE;
+          width: 260px;;
+          font-size: 18px;;
+          line-height: 24px;
+          height: 36px;
+          color: #333333;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+
+     .sSQ006DropdownOption {
+          width: 400px;
+          text-align: left;
+          padding: 6px 0px;
+          max-height: 260px;;
+          text-align: left;
+          text-overflow: ellipsis;
+          overflow-y: auto;
+     }
+
+     .sSQ006DropdownItem {
+          width: 100%;
+          color: #333333;
+          cursor: pointer;
+          word-wrap: normal;
+          padding: 0px 12px;
+     }
+
+     .sSQ006DropdownItem:hover {
+          background-color: #FFBF00;
+          color: #FFFFFF;
+     }
+
+     .sSQ007RadioButtons {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;
+          line-height: 0px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ008RadioButtons {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;
+          line-height: 0px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ009Dropdown {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          width: 180px;
+          font-size: 18px;;
+          line-height: 26px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ009DropdownButton {
+          background-color: #EEEEEE;
+          width: 260px;;
+          font-size: 18px;;
+          line-height: 24px;
+          height: 36px;
+          color: #333333;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+
+     .sSQ009DropdownOption {
+          width: 300px;
+          text-align: left;
+          padding: 6px 0px;
+          max-height: 260px;
+          text-align: left;
+          text-overflow: ellipsis;
+          overflow-y: auto;
+     }
+
+     .sSQ009DropdownItem {
+          width: 100%;
+          color: #333333;
+          cursor: pointer;
+          word-wrap: normal;
+          padding: 0px 12px;
+     }
+
+     .sSQ009DropdownItem:hover {
+          background-color: #FFBF00;
+          color: #FFFFFF;
+     }
+
+     .sSQ010Dropdown {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          width: 180px;
+          font-size: 18px;;
+          line-height: 26px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ010DropdownButton {
+          background-color: #EEEEEE;
+          width: 260px;;
+          font-size: 18px;;
+          line-height: 24px;
+          height: 36px;
+          color: #333333;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+
+     .sSQ010DropdownOption {
+          width: 300px;
+          text-align: left;
+          padding: 6px 0px;
+          max-height: 260px;;
+          text-align: left;
+          text-overflow: ellipsis;
+          overflow-y: auto;
+     }
+
+     .sSQ010DropdownItem {
+          width: 100%;
+          color: #333333;
+          cursor: pointer;
+          word-wrap: normal;
+          padding: 0px 12px;
+     }
+
+     .sSQ010DropdownItem:hover {
+          background-color: #FFBF00;
+          color: #FFFFFF;
+     }
+
+     .surveySectThree {
+          /* display: none;
+          visibility: hidden;
+          opacity: 0.0; */
+          /* padding-bottom: 60px; */
+     }
+
+     .sSQ011RadioButtons {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;
+          line-height: 0px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ012 {
+          display: none;
+          opacity: 0.0;
+     }
+
+     .sSQ012TB01 {
+          margin: 10px 0px 0px 30px;
+          width: auto;
+          max-width: 300px;
+          height: 36px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;;
+          line-height: 28px;
+          text-align: left;
+          color: #999999;
+          border: #999999 solid 2px;
+     }
+
+     .sSQ013 {
+          display: none;
+          opacity: 0.0;
+     }
+
+     .sSQ013Dropdown {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          width: 180px;
+          font-size: 18px;;
+          line-height: 26px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ013DropdownButton {
+          background-color: #EEEEEE;
+          width: 260px;;
+          font-size: 18px;;
+          line-height: 24px;
+          height: 36px;
+          color: #333333;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+
+     .sSQ013DropdownOption {
+          width: 300px;
+          text-align: left;
+          padding: 6px 0px;
+          max-height: 260px;;
+          text-align: left;
+          text-overflow: ellipsis;
+          overflow-y: auto;
+     }
+
+     .sSQ013DropdownItem {
+          width: 100%;
+          color: #333333;
+          cursor: pointer;
+          word-wrap: normal;
+          padding: 0px 12px;
+     }
+
+     .sSQ013DropdownItem:hover {
+          background-color: #FFBF00;
+          color: #FFFFFF;
+     }
+
+     .sSQ014 {
+          display: none;
+          opacity: 0.0;
+     }
+
+     .sSQ014TB01 {
+          margin: 10px 0px 0px 30px;
+          width: auto;
+          max-width: 300px;
+          height: 36px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;;
+          line-height: 28px;
+          text-align: left;
+          color: #999999;
+          border: #999999 solid 2px;
+     }
+
+     .sSQ015 {
+          display: none;
+          opacity: 0.0;
+     }
+
+     .sSQ015TB01 {
+          margin: 10px 0px 0px 30px;
+          width: auto;
+          max-width: 300px;
+          height: 36px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;;
+          line-height: 28px;
+          text-align: left;
+          color: #999999;
+          border: #999999 solid 2px;
+     }
+
+     .sSQ016 {
+          /* display: none;
+          opacity: 0.0; */
+     }
+
+     .sSQ016Dropdown {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          width: 180px;
+          font-size: 18px;;
+          line-height: 26px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ016DropdownButton {
+          background-color: #EEEEEE;
+          width: 260px;;
+          font-size: 18px;;
+          line-height: 24px;
+          height: 36px;
+          color: #333333;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+
+     .sSQ016DropdownOption {
+          width: 400px;
+          text-align: left;
+          padding: 6px 0px;
+          max-height: 260px;;
+          text-align: left;
+          text-overflow: ellipsis;
+          overflow-y: auto;
+     }
+
+     .sSQ016DropdownItem {
+          width: 100%;
+          color: #333333;
+          cursor: pointer;
+          word-wrap: normal;
+          padding: 0px 12px;
+     }
+
+     .sSQ016DropdownItem:hover {
+          background-color: #FFBF00;
+          color: #FFFFFF;
+     }
+
+     .surveySectFour {
+          /* display: none;
+          visibility: hidden;
+          opacity: 0.0; */
+          /* padding-bottom: 60px; */
+     }
+
+     .sSQ017 {
+          /* display: none;
+          opacity: 0.0; */
+     }
+
+     .sSQ017Dropdown {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          width: 180px;
+          font-size: 18px;
+          line-height: 26px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ017DropdownButton {
+          background-color: #EEEEEE;
+          width: 260px;
+          font-size: 18px;
+          line-height: 24px;
+          height: 36px;
+          color: #333333;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+
+     .sSQ017DropdownOption {
+          width: 400px;
+          text-align: left;
+          padding: 6px 0px;
+          max-height: 260px;
+          text-align: left;
+          text-overflow: ellipsis;
+          overflow-y: auto;
+     }
+
+     .sSQ017DropdownItem {
+          width: 100%;
+          color: #333333;
+          cursor: pointer;
+          word-wrap: normal;
+          padding: 0px 12px;
+     }
+
+     .sSQ017DropdownItem:hover {
+          background-color: #FFBF00;
+          color: #FFFFFF;
+     }
+
+     .sSQ018 {
+          /* display: none;
+          opacity: 0.0; */
+     }
+
+     .sSQ018Dropdown_a {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          width: 180px;
+          font-size: 18px;
+          line-height: 26px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ018DropdownButton_a {
+          background-color: #EEEEEE;
+          width: 260px;
+          font-size: 18px;
+          line-height: 24px;
+          height: 36px;
+          color: #333333;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+
+     .sSQ018DropdownOption_a {
+          width: 400px;
+          text-align: left;
+          padding: 6px 0px;
+          max-height: 260px;
+          text-align: left;
+          text-overflow: ellipsis;
+          overflow-y: auto;
+     }
+
+     .sSQ018DropdownItem_a {
+          width: 100%;
+          color: #333333;
+          cursor: pointer;
+          word-wrap: normal;
+          padding: 0px 12px;
+     }
+
+     .sSQ018DropdownItem_a:hover {
+          background-color: #FFBF00;
+          color: #FFFFFF;
+     }
+
+     .sSQ018Dropdown_b {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          width: 180px;
+          font-size: 18px;
+          line-height: 26px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ018DropdownButton_b {
+          background-color: #EEEEEE;
+          width: 260px;
+          font-size: 18px;
+          line-height: 24px;
+          height: 36px;
+          color: #333333;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+
+     .sSQ018DropdownOption_b {
+          width: 400px;
+          text-align: left;
+          padding: 6px 0px;
+          max-height: 260px;
+          text-align: left;
+          text-overflow: ellipsis;
+          overflow-y: auto;
+     }
+
+     .sSQ018DropdownItem_b {
+          width: 100%;
+          color: #333333;
+          cursor: pointer;
+          word-wrap: normal;
+          padding: 0px 12px;
+     }
+
+     .sSQ018DropdownItem_b:hover {
+          background-color: #FFBF00;
+          color: #FFFFFF;
+     }
+
+     .sSQ018Dropdown_c {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          width: 180px;
+          font-size: 18px;
+          line-height: 26px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ018DropdownButton_c {
+          background-color: #EEEEEE;
+          width: 260px;
+          font-size: 18px;
+          line-height: 24px;
+          height: 36px;
+          color: #333333;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+
+     .sSQ018DropdownOption_c {
+          width: 400px;
+          text-align: left;
+          padding: 6px 0px;
+          max-height: 260px;
+          text-align: left;
+          text-overflow: ellipsis;
+          overflow-y: auto;
+     }
+
+     .sSQ018DropdownItem_c {
+          width: 100%;
+          color: #333333;
+          cursor: pointer;
+          word-wrap: normal;
+          padding: 0px 12px;
+     }
+
+     .sSQ018DropdownItem_c:hover {
+          background-color: #FFBF00;
+          color: #FFFFFF;
+     }
+
+     .sSQ019RadioButtons {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;
+          line-height: 0px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ020RadioButtons {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;
+          line-height: 0px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ021RadioButtons {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;
+          line-height: 0px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ022Dropdown {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          width: 180px;
+          font-size: 18px;
+          line-height: 26px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ022DropdownButton {
+          background-color: #EEEEEE;
+          width: 260px;
+          font-size: 18px;
+          line-height: 24px;
+          height: 36px;
+          color: #333333;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+
+     .sSQ022DropdownOption {
+          width: 400px;
+          text-align: left;
+          padding: 6px 0px;
+          max-height: 260px;
+          text-align: left;
+          text-overflow: ellipsis;
+          overflow-y: auto;
+     }
+
+     .sSQ022DropdownItem {
+          width: 100%;
+          color: #333333;
+          cursor: pointer;
+          word-wrap: normal;
+          padding: 0px 12px;
+     }
+
+     .sSQ022DropdownItem:hover {
+          background-color: #FFBF00;
+          color: #FFFFFF;
+     }
+
+     .sSQ022RadioButtons {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;
+          line-height: 0px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .surveySectFive {
+          /* display: none;
+          visibility: hidden;
+          opacity: 0.0; */
+          padding-bottom: 60px;
+     }
+
+     .sSQ023RadioButtons {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;
+          line-height: 0px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ024RadioButtons {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;
+          line-height: 0px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ025RadioButtons {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;
+          line-height: 0px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ026Dropdown {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          width: 180px;
+          font-size: 18px;
+          line-height: 26px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ026DropdownButton {
+          background-color: #EEEEEE;
+          width: 260px;
+          font-size: 18px;
+          line-height: 24px;
+          height: 36px;
+          color: #333333;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+
+     .sSQ026DropdownOption {
+          width: 400px;
+          text-align: left;
+          padding: 6px 0px;
+          max-height: 260px;
+          text-align: left;
+          text-overflow: ellipsis;
+          overflow-y: auto;
+     }
+
+     .sSQ026DropdownItem {
+          width: 100%;
+          color: #333333;
+          cursor: pointer;
+          word-wrap: normal;
+          padding: 0px 12px;
+     }
+
+     .sSQ026DropdownItem:hover {
+          background-color: #FFBF00;
+          color: #FFFFFF;
+     }
+
+     .sSQ027Dropdown {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          width: 180px;
+          font-size: 18px;
+          line-height: 26px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ027DropdownButton {
+          background-color: #EEEEEE;
+          width: 260px;
+          font-size: 18px;
+          line-height: 24px;
+          height: 36px;
+          color: #333333;
+          text-align: left;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+
+     .sSQ027DropdownOption {
+          width: 400px;
+          text-align: left;
+          padding: 6px 0px;
+          max-height: 260px;
+          text-align: left;
+          text-overflow: ellipsis;
+          overflow-y: auto;
+     }
+
+     .sSQ027DropdownItem {
+          width: 100%;
+          color: #333333;
+          cursor: pointer;
+          word-wrap: normal;
+          padding: 0px 12px;
+     }
+
+     .sSQ027DropdownItem:hover {
+          background-color: #FFBF00;
+          color: #FFFFFF;
+     }
+
+     .sSQ028RadioButtons {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;
+          line-height: 0px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .sSQ029RadioButtons {
+          padding: 10px 0px 0px 30px;
+          font-family: 'Montserrat', serif;
+          font-size: 18px;
+          line-height: 0px;
+          font-weight: 100;
+          text-align: left;
+          color: #999999;
+     }
+
+     .radio-button {
+          width: 16px;
+          height: 16px;
+          line-height: 24px;
+          color: #FFBF00;
+     }
+
+     .radio-inline {
+          margin-bottom: 6px;
+     }
+
+     .form-check-input {
+          height: 16px;
+          width: 16px;
+          line-height: 16px;;
+          background-color: #FFBF00;
+     }
+
+     .form-check-label {
+          padding: 0px 0px 0px 10px;
+          font-weight: 100;
+     }
+
+     .bigNextLine {
+          margin: 6px 0px;
+     }
+}
+
+@media (max-width: 859.99px) {
+     .surveySection {
+          padding: 50px 5% 600px 5%;
+     }
+
+     .surveySectOne {
+          font-family: 'Montserrat', serif;
+          font-size: 18px;;
+          line-height: 26px;
+          text-align: left;
+          color: #3D4849;
+          visibility: hidden;
+     }
+
+     .surveySectionOneHeader:before, .surveySectionOneHeader:after {
+          content: '\a0';
+     }
+}
+
+@media (max-width: 766.99px) {
+     .surveySection {
+          padding: 50px 5% 600px 5%;
+     }
+
+     .surveySectOne {
+          font-family: 'Montserrat', serif;
+          font-size: 18px;;
+          line-height: 26px;
+          text-align: left;
+          color: #999999;
+          /* visibility: hidden; */
+     }
+
+     .surveySectionOneHeader:before, .surveySectionOneHeader:after {
+          content: '\a0';
+     }
+}
+
+/* */

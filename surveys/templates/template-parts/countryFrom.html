@@ -1,0 +1,6 @@
+{% load static %}
+{% block head %}
+{% endblock %}
+{% for state in statesList %}
+     <div class="dropdown-item sSQ004DropdownItem" onclick="clickBirthState(this);">{{ state }}</div>
+{% endfor %}

@@ -1,0 +1,957 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" class=" js cssanimations" dir="ltr">
+
+<head>
+
+     <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="Dei Gloriam | Catholic Blog">
+	<meta name="author" content="Dei Gloriam">
+	<link rel="icon" href="favicon.ico">
+     <meta name="viewport" content="width = device-width, initial-scale = 1, shrink-to-fit = no">
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script language="javascript" type="text/javascript"></script>
+
+     <title>Ave Christus Rex</title>
+
+     <!-- Bootstrap core CSS -->
+     <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+
+     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+     <link href="{% static 'css/ie10-viewport-bug-workaround.css' %}" rel="stylesheet">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+     <script src="{% static 'js/jsForSurveys.js' %}"></script>
+
+     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+     <!--[if lt IE 9]>
+     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+     <![endif]-->
+
+     <link href="{% static 'css/cssForCatholicSurvey.css' %}" rel="stylesheet">
+
+     <!-- This is the link to the fonts taken from Google Fonts! -->
+     <link
+     href="https://fonts.googleapis.com/css?family=Alegreya|Advent+Pro|Bahiana|Averia+Sans+Libre|Balthazar|Belgrano|Black+Ops+One|Bungee+Inline|Cherry+Swash|Coda|Cormorant+Infant|Delius+Swash+Caps|El+Messiri|Euphoria+Script|Expletus+Sans|Fredericka+the+Great|Gafata|Graduate|Italiana|Kotta+One|Kumar+One+Outline|Lemon|Life+Savers|Londrina+Outline|Londrina+Solid|Medula+One|Montserrat+Alternates|Mouse+Memoirs|Mystery+Quest|Oleo+Script|Podkova|Port+Lligat+Slab|Raleway|Revalia|Salsa|Sue+Ellen+Francisco|Tienne|Patua+One|Russo+One|Righteous|Poiret+One|Exo|Lobster+Two|Quattrocento|Days+One|Julius+Sans+One|Jura|Lustria|Josefin+Sans|Yanone+Kaffeesatz|Nunito|Josefin+Slab|Stint+Ultra+Expanded|Junge|Italiana|Life+Savers|Athiti|Londrina+Outline|Scope+One|Kaushan+Script|Kumar+One|Orbitron|Poiret+One|Proza+Libre|Architects+Daughter|Griffy|Open+Sans+Condensed:300|Quicksand|Gloria+Hallelujah|Tulpen+One|Text+Me+One|Love+Ya+Like+A+Sister|Megrim|Cinzel+Decorative|Caveat+Brush|Vollkorn+SC|Laila:wght@600|Sumana|Yatra+One|Sahitya:wght@700Eczar:wght@500|Montserrat"
+          rel="stylesheet">
+     <!-- Last used Google Fonts Page: https://fonts.google.com/?selection.family=Advent+Pro|Alex+Brush|Amatic+SC|Anton|Black+Ops+One|Bubbler+One|Cabin+Sketch|Comfortaa|Dosis|Eagle+Lake|Exo|Fjalla+One|Flamenco|Graduate|Hammersmith+One|Josefin+Sans|Josefin+Slab|Kaushan+Script|Lobster|Megrim|Monda|Montserrat|Montserrat+Alternates|Montserrat+Subrayada|Neucha|Nixie+One|Open+Sans+Condensed:300|Oswald|Patua+One|Philosopher|Play|Playfair+Display|Poiret+One|Proza+Libre|Quicksand|Raleway|Righteous|Russo+One|Schoolbell|Viga&sort=date !-->
+
+     <!-- Custom JavaScript -->
+     <script src=""></script>
+
+     <!-- jQuery -->
+     <script src="{% static 'js/jquery.js' %}"></script>
+
+     <!-- Bootstrap Core JavaScript -->
+     <script src="{% static 'js/bootstrap.min.js' %}"></script>
+     <script src="{% static 'js/progressbar.js' %}"></script>
+
+     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+     <script>
+          // $(function() {
+          // 	var availableTags = {{ autocompleteStrings|safe }};
+          // 	$("#homePageTextbox").autocomplete({
+          // 		 source: function(request, response) {
+          //                 var results = $.ui.autocomplete.filter(availableTags, request.term);
+          //                 response(results.slice(0, 6));
+          //            }
+          // 	});
+          // });
+     </script>
+
+</head>
+
+<body>
+
+     <nav class="navbar navbar-inverse navbar-fixed-top navbarTop">
+		<div class="container">
+			<div class="navbar-header">
+				<button id="changeToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+					aria-expanded="false" aria-controls="navbar">
+					<div id="navbar-hamburger" class="navbar-hamburger">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</div>
+					<div id="navbar-close" class="hidden navbar-close">
+						<img src="{% static 'images/close.png' %}" alt="{% static 'images/close.png' %}"
+							width="15" height="15">
+						<!-- <span class="glyphicon glyphicon-remove"></span> -->
+						<!-- <span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> -->
+					</div>
+				</button>
+				<a class="navbar-brand" style="color: #FFFFFF" href="http://deigloriam.com">ave christus rex</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse" aria-expanded="false" style="height: 1px">
+				<ul class="nav navbar-nav navbar-right">
+                         <li class="dropdown nav-dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+						  aria-expanded="true" style="color: #FFFFFF">About Us&nbsp;<span class="caret"></span></a>
+						<ul class="shadow p-3 mb-5 bg-white rounded dropdown-menu nav-dropdown-menu">
+							<li><a id="howWeStarted" href="#myCarousel">Who we are<span class="responsiveMobile"><span class="responsiveMobile">&nbsp;&#9666;</span></span></a></li>
+                                   <li><a id="wwdDataAnalytics" href="#myCarousel">How we started<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+							<li><a id="gitLetsGetWorking" href="#myCarousel">Christianity: Faith and Religion<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">Technology and Tradition<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">Society and Scripture<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">Morals; Ethics; Values<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+							<li><a id="gitLetsGetWorking" href="#myCarousel">No money; More Support<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+						</ul>
+					</li>
+                         <li class="dropdown nav-dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+						  aria-expanded="true" style="color: #FFFFFF">Our Faith&nbsp;<span class="caret"></span></a>
+						<ul class="shadow p-3 mb-5 bg-white rounded dropdown-menu nav-dropdown-menu">
+							<li><a id="projDataAnalytics" href="#myCarousel">God, His Creation and Us<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="projDataAnalytics" href="#myCarousel">God: Father; Son; Holy Spirit<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="projCloudComputing" href="#myCarousel">Separation from God<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+							<li><a id="projWebAppDev" href="#myCarousel">Salvation in Jesus Christ<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+							<li><a id="projMachineLearning" href="#myCarousel">Our Mission as Christians<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+							<li><a id="projDigitalAdoption" href="#myCarousel">Heaven, Hell and Purgatory<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="projDigitalAdoption" href="#myCarousel">Intercession of the Saints<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="projDigitalAdoption" href="#myCarousel">The Blessed Virgin Mary<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="projDigitalAdoption" href="#myCarousel">St. Joseph, father of Jesus<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="projDigitalAdoption" href="#myCarousel">The Holy Family<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">Intercession of the Saints<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">Church Militant: Faithful On Earth<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">Church Penitent: Souls in Purgatory<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">Church Triumphant: Life in Heaven<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">See more...<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+						</ul>
+					</li>
+                         <li class="dropdown nav-dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+						  aria-expanded="true" style="color: #FFFFFF">Our Religion&nbsp;<span class="caret"></span></a>
+						<ul class="shadow p-3 mb-5 bg-white rounded dropdown-menu nav-dropdown-menu">
+							<li><a id="gitCareers" href="#myCarousel">The Church is Catholic<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+							<li><a id="gitLetsGetWorking" href="#myCarousel">The Holy Mass: How we Worship<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">Sacred Tradition through the Ages<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">Sacred Scripture: the Word of God<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">Magisterium of the Church<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">Sacraments of the Catholic Church<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">Catholic Prayers and Devotions<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">Catechism of the Catholic Church<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">The Priest: Leading the Church<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">The Catholic Religious Life<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">Manhood: Christlike Leadership<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">Womanhood: Christlike Discipleship<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">Family: Image of the Trinity<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">The Saints: Men and Women of God<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                   <li><a id="gitLetsGetWorking" href="#myCarousel">See more...<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+						</ul>
+					</li>
+					<!-- <li><a href="Build a Video Tutorial with Me.html">Learn more about me!</a></li> !-->
+                         <li><a id="getInTouch" href="#">Get in touch</a></li>
+				</ul>
+			</div>
+		<!--/.nav-collapse -->
+		</div>
+	</nav>
+
+     <nav class="navbar-fixed-top navbar-background" style="background: #FFBF00">
+	</nav>
+
+     <div id="homePage" class="homePage">
+          <div id="homePageHeader" class="homePageHeader">
+               Catholic Survey
+          </div>
+          <div id="homePageSubHeader" class="homePageSubHeader">
+               Our website is dedicated to revival of the Tridentine Latin Mass, the pre-Vatican II Catholic Tradition
+               that may be the key to Christianity's resurgence in the modern age.
+               <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We acknowledge the many reasons why our churches
+               forsook the Tridentine Mass after the Second Ecumenical Council of the Vatican, one of them being the relative
+               inaccessibility of the Latin language itself. However, with technology, we can help Catholics warm up to the use
+               of Latin in the liturgy of the Western Church.
+               <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This survey will help us learn about our potential target audience, and help us
+               create and organise our content that will impact the lives and faith of as many people as possible.
+               <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;May our Lord Jesus Christ bless you all.
+          </div>
+          <div id="surveyButtonsRow" class="surveyButtonsRow">
+               <a type="button" class="btn startSurveyButton" href="#surveySectOne">Start Survey</a>
+          </div>
+     </div>
+
+     <div id="surveySectOne" class="surveySection surveySectOne">
+          <div id="surveySectionOneHeader" class="surveySectionHeader">
+               Section One: Initiation
+          </div>
+          <div id="sSQ001" class="sSQ001 surveyRow">
+               <div class="sSQ001Text sSQText">
+                    <b>Have you participated in this survey before?</b>
+               </div>
+               <div class="sSQ001RadioButtons">
+                    <input type="radio" name="survey" id="sSQ001RB_Yes" class="radio-button" value="Yes" onclick="clickRBSurvey(this);">
+                    <label class="radio-inline" for="sSQ001RB_Yes">
+                         Yes
+                    </label>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <input type="radio" name="survey" id="sSQ001RB_No" class="radio-button" value="No" onclick="clickRBSurvey(this);" checked>
+                    <label class="radio-inline" for="sSQ001RB_No">
+                         No
+                    </label>
+               </div>
+          </div>
+          <div id="sSQ002" class="sSQ002 surveyRow">
+               <div class="sSQ002Text sSQText">
+                    <b>Please enter your last survey number if you remember it:</b>
+               </div>
+               <input type="text" class="form-control mb-2 sSQ002TB01" id="sSQ002TB01" placeholder="xxxx-xxxxxxx">
+          </div>
+     </div>
+
+     <div id="surveySectTwo" class="surveySection surveySectTwo">
+          <div id="surveySectioTwoHeader" class="surveySectionHeader">
+               Section Two: Residency
+          </div>
+          <div id="sSQ003" class="sSQ003 surveyRow">
+               <div id="sSQ003Text" class="sSQ003Text sSQText">
+                    <b>Which country were you born in?</b>
+               </div>
+               <div class="sSQ003Dropdown">
+                    <div class="dropdown">
+                         <button class="btn btn-secondary dropdown-toggle sSQ003DropdownButton" type="button" id="sSQ003DropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Select country  &#9662;
+                         </button>
+                         <div class="dropdown-menu sSQ003DropdownOption" aria-labelledby="sSQ003DropdownButton">
+                         {% for country in countryList %}
+                              <div class="dropdown-item sSQ003DropdownItem" onclick="clickBirthCountry(this);">{{ country }}</div>
+                         {% endfor %}
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div id="sSQ004" class="sSQ004 surveyRow">
+               <div class="sSQ004Text sSQText">
+                    <b>Which state or province were you born in?</b>
+               </div><div class="sSQ004Dropdown">
+                    <div class="dropdown">
+                         <button class="btn btn-secondary dropdown-toggle sSQ004DropdownButton" type="button" id="sSQ004DropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Select state  &#9662;
+                         </button>
+                         <div id="sSQ004DropdownOption" class="dropdown-menu sSQ004DropdownOption" aria-labelledby="sSQ004DropdownButton">
+                              {% include 'template-parts/countryFrom.html' %}
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div id="sSQ005" class="sSQ005 surveyRow">
+               <div class="sSQ005Text sSQText">
+                    <b>Which country do you currently live in?</b>
+               </div>
+               <div class="sSQ005Dropdown">
+                    <div class="dropdown">
+                         <button class="btn btn-secondary dropdown-toggle sSQ005DropdownButton" type="button" id="sSQ005DropdownButton" data-toggle="dropdown">
+                         Select country  &#9662;
+                         </button>
+                         <div class="dropdown-menu sSQ005DropdownOption" aria-labelledby="sSQ005DropdownButton">
+                         {% for country in countryList %}
+                              <div class="dropdown-item sSQ005DropdownItem" onclick="clickLiveCountry(this);">{{ country }}</div>
+                         {% endfor %}
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div id="sSQ006" class="sSQ006 surveyRow">
+               <div class="sSQ006Text sSQText">
+                    <b>Which state or province do you currently live in?</b>
+               </div><div class="sSQ006Dropdown">
+                    <div class="dropdown">
+                         <button class="btn btn-secondary dropdown-toggle sSQ006DropdownButton" type="button" id="sSQ006DropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Select state  &#9662;
+                         </button>
+                         <div id="sSQ006DropdownOption" class="dropdown-menu sSQ006DropdownOption" aria-labelledby="sSQ006DropdownButton">
+                              {% include 'template-parts/countryIn.html' %}
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div id="sSQ007" class="sSQ007 surveyRow">
+               <div class="sSQ007Text sSQText">
+                    <b>Do you attend Holy Mass at your local parish, i.e. the parish covering your residential area, your suburb, or village?</b>
+               </div>
+               <div class="sSQ007RadioButtons">
+                    <input type="radio" name="localParish" id="sSQ007RB_Yes" class="radio-button" value="Yes" onclick="clickRBLocalParish(this);" checked>
+                    <label class="radio-inline" for="sSQ007RB_Yes">
+                         Yes
+                    </label>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <input type="radio" name="localParish" id="sSQ007RB_No" class="radio-button" value="No" onclick="clickRBLocalParish(this);">
+                    <label class="radio-inline" for="sSQ007RB_No">
+                         No
+                    </label>
+               </div>
+          </div>
+          <div id="sSQ008" class="sSQ008 surveyRow">
+               <div class="sSQ008Text sSQText">
+                    <b>Are you registered at the parish(es) that you visit for Holy Mass?</b>
+               </div>
+               <div class="sSQ008RadioButtons">
+                    <input type="radio" name="visitingParish" id="sSQ008RB_Yes" class="radio-button" value="Yes" onclick="clickRBVisitParish(this);" checked>
+                    <label class="radio-inline" for="sSQ008RB_Yes">
+                         Yes
+                    </label>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <input type="radio" name="visitingParish" id="sSQ008RB_No" class="radio-button" value="No" onclick="clickRBVisitParish(this);">
+                    <label class="radio-inline" for="sSQ008RB_No">
+                         No
+                    </label>
+               </div>
+          </div>
+          <div id="sSQ009" class="sSQ009 surveyRow">
+               <div class="sSQ009Text sSQText">
+                    <b>How many priests would you say the parishes you visit have on average?</b>
+               </div><div class="sSQ009Dropdown">
+                    <div class="dropdown">
+                         <button class="btn btn-secondary dropdown-toggle sSQ009DropdownButton" type="button" id="sSQ009DropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Select number  &#9662;
+                         </button>
+                         <div id="sSQ009DropdownOption" class="dropdown-menu sSQ009DropdownOption" aria-labelledby="sSQ009DropdownButton">
+                              <div class="dropdown-item sSQ009DropdownItem" onclick="clickNoOfPriests(this);">1</div>
+                              <div class="dropdown-item sSQ009DropdownItem" onclick="clickNoOfPriests(this);">2</div>
+                              <div class="dropdown-item sSQ009DropdownItem" onclick="clickNoOfPriests(this);">3</div>
+                              <div class="dropdown-item sSQ009DropdownItem" onclick="clickNoOfPriests(this);">4</div>
+                              <div class="dropdown-item sSQ009DropdownItem" onclick="clickNoOfPriests(this);">5 and more</div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div id="sSQ010" class="sSQ010 surveyRow">
+               <div class="sSQ010Text sSQText">
+                    <b>How would you describe the size of the parishes you visit?</b>
+               </div><div class="sSQ010Dropdown">
+                    <div class="dropdown">
+                         <button class="btn btn-secondary dropdown-toggle sSQ010DropdownButton" type="button" id="sSQ010DropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Select number  &#9662;
+                         </button>
+                         <div id="sSQ010DropdownOption" class="dropdown-menu sSQ010DropdownOption" aria-labelledby="sSQ010DropdownButton">
+                              <div class="dropdown-item sSQ010DropdownItem" onclick="clickNoOfParishioners(this);">Less than 100 people</div>
+                              <div class="dropdown-item sSQ010DropdownItem" onclick="clickNoOfParishioners(this);">100 to 250 people</div>
+                              <div class="dropdown-item sSQ010DropdownItem" onclick="clickNoOfParishioners(this);">250 to 500 people</div>
+                              <div class="dropdown-item sSQ010DropdownItem" onclick="clickNoOfParishioners(this);">500 to 1000 people</div>
+                              <div class="dropdown-item sSQ010DropdownItem" onclick="clickNoOfParishioners(this);">1000 to 5000 people</div>
+                              <div class="dropdown-item sSQ010DropdownItem" onclick="clickNoOfParishioners(this);">More than 5000 people</div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div id="surveySectThree" class="surveySection surveySectThree">
+          <div id="surveySectionThreeHeader" class="surveySectionHeader">
+               Section Three: Baptism
+          </div>
+          <div id="sSQ011" class="sSQ011 surveyRow">
+               <div class="sSQ011Text sSQText">
+                    <b>How would you describe yourself? You are not being judged.</b>
+               </div>
+               <div class="sSQ011RadioButtons">
+                    <input type="radio" name="baptism" id="sSQ011RB_CC" class="radio-button" value="Cradle" onclick="clickRBBaptism(this);" checked>
+                    <label class="radio-inline" for="sSQ011RB_CC">
+                         Cradle Catholic
+                    </label>
+                    <!-- &nbsp;
+                    &nbsp;
+                    &nbsp; -->
+                    <br><div class="bigNextLine"></div><br>
+                    <input type="radio" name="baptism" id="sSQ011RB_CConvert" class="radio-button" value="Convert" onclick="clickRBBaptism(this);">
+                    <label class="radio-inline" for="sSQ011RB_CConvert">
+                         Catholic Convert
+                    </label>
+                    <!-- &nbsp;
+                    &nbsp;
+                    &nbsp; -->
+                    <br><div class="bigNextLine"></div><br>
+                    <input type="radio" name="baptism" id="sSQ011RB_CRevert" class="radio-button" value="Revert" onclick="clickRBBaptism(this);">
+                    <label class="radio-inline" for="sSQ011RB_CRevert">
+                         Catholic Revert
+                    </label>
+               </div>
+          </div>
+          <div id="sSQ012" class="sSQ012 surveyRow">
+               <div class="sSQ012Text sSQText">
+                    <b>At what age were you baptised into the Church?</b>
+               </div>
+               <input type="text" class="form-control mb-2 sSQ012TB01" id="sSQ012TB01" placeholder="E.g.: 12, or 1 if since birth">
+          </div>
+          <div id="sSQ013" class="sSQ013 surveyRow">
+               <div id="sSQ013Text" class="sSQ013Text sSQText">
+                    <b>What religion did you identify with before your baptism into / return to the Catholic Church?</b>
+               </div>
+               <div class="sSQ013Dropdown">
+                    <div class="dropdown">
+                         <button class="btn btn-secondary dropdown-toggle sSQ013DropdownButton" type="button" id="sSQ013DropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Select religion  &#9662;
+                         </button>
+                         <div class="dropdown-menu sSQ013DropdownOption" aria-labelledby="sSQ013DropdownButton">
+                         {% for religion in religionList %}
+                              <div class="dropdown-item sSQ013DropdownItem" onclick="clickReligion(this);">{{ religion }}</div>
+                         {% endfor %}
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div id="sSQ014" class="sSQ014 surveyRow">
+               <div class="sSQ014Text sSQText">
+                    <b>At what age did you leave the Church?</b>
+               </div>
+               <input type="text" class="form-control mb-2 sSQ014TB01" id="sSQ014TB01" placeholder="E.g.: 12">
+          </div>
+          <div id="sSQ015" class="sSQ015 surveyRow">
+               <div class="sSQ015Text sSQText">
+                    <b>At what age did you return to the Church?</b>
+               </div>
+               <input type="text" class="form-control mb-2 sSQ015TB01" id="sSQ015TB01" placeholder="E.g.: 18">
+          </div>
+          <div id="sSQ016" class="sSQ016 surveyRow">
+               <div id="sSQ016Text" class="sSQ016Text sSQText">
+                    <b>Which Catholic Rite are you baptised into?</b>
+               </div>
+               <div class="sSQ016Dropdown">
+                    <div class="dropdown">
+                         <button class="btn btn-secondary dropdown-toggle sSQ016DropdownButton" type="button" id="sSQ016DropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Select Rite  &#9662;
+                         </button>
+                         <div class="dropdown-menu sSQ016DropdownOption" aria-labelledby="sSQ016DropdownButton">
+                         {% for rite in catholicRites %}
+                              <div class="dropdown-item sSQ016DropdownItem" onclick="clickRite(this);">{{ rite }}</div>
+                         {% endfor %}
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div id="surveySectFour" class="surveySection surveySectFour">
+          <div id="surveySectionFourHeader" class="surveySectionHeader">
+               Section Four: Holy Mass
+          </div>
+          <div id="sSQ017" class="sSQ017 surveyRow">
+               <div class="sSQ017Text sSQText">
+                    <b>How often do you attend Mass in a week? You are not being judged.</b>
+               </div><div class="sSQ017Dropdown">
+                    <div class="dropdown">
+                         <button class="btn btn-secondary dropdown-toggle sSQ017DropdownButton" type="button" id="sSQ017DropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Select days  &#9662;
+                         </button>
+                         <div id="sSQ017DropdownOption" class="dropdown-menu sSQ017DropdownOption" aria-labelledby="sSQ017DropdownButton">
+                              <div class="dropdown-item sSQ017DropdownItem" onclick="clickNoOfMassDays(this);">Only Sunday</div>
+                              <div class="dropdown-item sSQ017DropdownItem" onclick="clickNoOfMassDays(this);">1 day</div>
+                              <div class="dropdown-item sSQ017DropdownItem" onclick="clickNoOfMassDays(this);">2 days</div>
+                              <div class="dropdown-item sSQ017DropdownItem" onclick="clickNoOfMassDays(this);">3 days</div>
+                              <div class="dropdown-item sSQ017DropdownItem" onclick="clickNoOfMassDays(this);">4 days</div>
+                              <div class="dropdown-item sSQ017DropdownItem" onclick="clickNoOfMassDays(this);">5 days</div>
+                              <div class="dropdown-item sSQ017DropdownItem" onclick="clickNoOfMassDays(this);">6 days</div>
+                              <div class="dropdown-item sSQ017DropdownItem" onclick="clickNoOfMassDays(this);">7 days</div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div id="sSQ018" class="sSQ018 surveyRow">
+               <div id="sSQ018Text" class="sSQ018Text sSQText">
+                    <b>What languages do you attend Mass in? You can add up to three languages. You may also mention languages in former parishes you have visited.</b>
+               </div>
+               <div class="sSQ018Dropdown_a">
+                    <div class="dropdown">
+                         <button class="btn btn-secondary dropdown-toggle sSQ018DropdownButton_a" type="button" id="sSQ018DropdownButton_a" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         First language  &#9662;
+                         </button>
+                         <div class="dropdown-menu sSQ018DropdownOption_a" aria-labelledby="sSQ018DropdownButton_a">
+                         {% for language in languages %}
+                              <div class="dropdown-item sSQ018DropdownItem_a" onclick="clickLanguage_a(this);">{{ language }}</div>
+                         {% endfor %}
+                         </div>
+                    </div>
+               </div>
+               <div class="sSQ018Dropdown_b">
+                    <div class="dropdown">
+                         <button class="btn btn-secondary dropdown-toggle sSQ018DropdownButton_b" type="button" id="sSQ018DropdownButton_b" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" disabled>
+                         Second language  &#9662;
+                         </button>
+                         <div class="dropdown-menu sSQ018DropdownOption_b" aria-labelledby="sSQ018DropdownButton_b">
+                              <div class="dropdown-item sSQ018DropdownItem_b" onclick="clickLanguage_b(this);">No second language</div>
+                         {% for language in languages %}
+                              <div class="dropdown-item sSQ018DropdownItem_b" onclick="clickLanguage_b(this);">{{ language }}</div>
+                         {% endfor %}
+                         </div>
+                    </div>
+               </div>
+               <div class="sSQ018Dropdown_c">
+                    <div class="dropdown">
+                         <button class="btn btn-secondary dropdown-toggle sSQ018DropdownButton_c" type="button" id="sSQ018DropdownButton_c" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" disabled>
+                         Third language  &#9662;
+                         </button>
+                         <div class="dropdown-menu sSQ018DropdownOption_c" aria-labelledby="sSQ018DropdownButton_c">
+                              <div class="dropdown-item sSQ018DropdownItem_b" onclick="clickLanguage_c(this);">No third language</div>
+                         {% for language in languages %}
+                              <div class="dropdown-item sSQ018DropdownItem_c" onclick="clickLanguage_c(this);">{{ language }}</div>
+                         {% endfor %}
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div id="sSQ019" class="sSQ019 surveyRow">
+               <div class="sSQ019Text sSQText">
+                    <b>Does your parish offer Mass in your native tongue?</b>
+               </div>
+               <div class="sSQ019RadioButtons">
+                    <input type="radio" name="nativeLanguageMass" id="sSQ019RB_Yes" class="radio-button" value="Yes" onclick="clickRBVisitParish(this);" checked>
+                    <label class="radio-inline" for="sSQ019RB_Yes">
+                         Yes
+                    </label>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <input type="radio" name="nativeLanguageMass" id="sSQ019RB_No" class="radio-button" value="No" onclick="clickRBVisitParish(this);">
+                    <label class="radio-inline" for="sSQ019RB_No">
+                         No
+                    </label>
+               </div>
+          </div>
+          <div id="sSQ020" class="sSQ020 surveyRow">
+               <div class="sSQ020Text sSQText">
+                    <b>Do(es) the parish(es) you visit offer daily Mass before 9:00 a.m.?</b>
+               </div>
+               <div class="sSQ020RadioButtons">
+                    <input type="radio" name="massBefore0900" id="sSQ020RB_Yes" class="radio-button" value="Yes" onclick="clickMassBefore0900(this);" checked>
+                    <label class="radio-inline" for="sSQ020RB_Yes">
+                         Yes
+                    </label>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <input type="radio" name="massBefore0900" id="sSQ020RB_No" class="radio-button" value="No" onclick="clickMassBefore0900(this);">
+                    <label class="radio-inline" for="sSQ020RB_No">
+                         No
+                    </label>
+               </div>
+          </div>
+          <div id="sSQ021" class="sSQ021 surveyRow">
+               <div class="sSQ021Text sSQText">
+                    <b>Do(es) the parish(es) you visit offer daily Mass after 5:00 p.m.?</b>
+               </div>
+               <div class="sSQ021RadioButtons">
+                    <input type="radio" name="massAfter1700" id="sSQ021RB_Yes" class="radio-button" value="Yes" onclick="clickMassAfter1700(this);" checked>
+                    <label class="radio-inline" for="sSQ021RB_Yes">
+                         Yes
+                    </label>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <input type="radio" name="massAfter1700" id="sSQ021RB_No" class="radio-button" value="No" onclick="clickMassAfter1700(this);">
+                    <label class="radio-inline" for="sSQ021RB_No">
+                         No
+                    </label>
+               </div>
+          </div>
+          <div id="sSQ022" class="sSQ022 surveyRow">
+               <div class="sSQ022Text sSQText">
+                    <b>On average, how many Masses are offered daily at the parish(es) you visit?</b>
+               </div><div class="sSQ022Dropdown">
+                    <div class="dropdown">
+                         <button class="btn btn-secondary dropdown-toggle sSQ022DropdownButton" type="button" id="sSQ022DropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Select frequency  &#9662;
+                         </button>
+                         <div id="sSQ022DropdownOption" class="dropdown-menu sSQ022DropdownOption" aria-labelledby="sSQ022DropdownButton">
+                              <div class="dropdown-item sSQ022DropdownItem" onclick="clickDailyMassFrequency(this);">1</div>
+                              <div class="dropdown-item sSQ022DropdownItem" onclick="clickDailyMassFrequency(this);">2</div>
+                              <div class="dropdown-item sSQ022DropdownItem" onclick="clickDailyMassFrequency(this);">3</div>
+                              <div class="dropdown-item sSQ022DropdownItem" onclick="clickDailyMassFrequency(this);">4</div>
+                              <div class="dropdown-item sSQ022DropdownItem" onclick="clickDailyMassFrequency(this);">5</div>
+                              <div class="dropdown-item sSQ022DropdownItem" onclick="clickDailyMassFrequency(this);">6 or more</div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div id="surveySectFive" class="surveySection surveySectFive">
+          <div id="surveySectionFiveHeader" class="surveySectionHeader">
+               Section Five: The Latin Language
+          </div>
+          <div id="sSQ023" class="sSQ023 surveyRow">
+               <div class="sSQ023Text sSQText">
+                    The Tridentine Latin Mass is also called the Extraordinary Form of the Mass, and was the common form of the Mass celebrated before the Second Ecumenical Council of the Vatican (Vatican II).
+                         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;While the Council did not outlaw the use of Latin for Eucharistic gatherings (Holy Mass), it did allow Mass to be celebrated in the vernacular (local languages). This move has proven beneficial to
+                         specific communities not associated with European languages, however, it also has allowed for general decline in reverence for the Eucharist.
+                         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of the objectives of Ave Christus Rex - the admins
+                         having experienced both the Novus Ordo Mass (Mass in the vernacular post-Vatican II) and the Tridentine Latin Mass - is to make the latter popular again. We would like to know of your own experience
+                         with the Latin Mass.
+                    <br><br><b>Are you aware of the Tridentine Latin Mass? You are not being judged.</b>
+               </div>
+               <div class="sSQ023RadioButtons">
+                    <input type="radio" name="tlmAware" id="sSQ023RB_Yes" class="radio-button" value="Yes" onclick="clickMassAfter1700(this);" checked>
+                    <label class="radio-inline" for="sSQ023RB_Yes">
+                         Yes
+                    </label>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <input type="radio" name="tlmAware" id="sSQ023RB_No" class="radio-button" value="No" onclick="clickMassAfter1700(this);">
+                    <label class="radio-inline" for="sSQ023RB_No">
+                         No
+                    </label>
+               </div>
+          </div>
+          <div id="sSQ024" class="sSQ024 surveyRow">
+               <div class="sSQ024Text sSQText">
+                    <b>Do the parishes you visit offer the Tridentine Latin Mass?</b>
+               </div>
+               <div class="sSQ024RadioButtons">
+                    <input type="radio" name="tridentineMass" id="sSQ024RB_Yes" class="radio-button" value="Yes" onclick="clickRBVisitParish(this);" checked>
+                    <label class="radio-inline" for="sSQ024RB_Yes">
+                         Yes
+                    </label>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <input type="radio" name="tridentineMass" id="sSQ024RB_No" class="radio-button" value="No" onclick="clickRBVisitParish(this);">
+                    <label class="radio-inline" for="sSQ024RB_No">
+                         No
+                    </label>
+               </div>
+          </div>
+          <div id="sSQ025" class="sSQ025 surveyRow">
+               <div class="sSQ025Text sSQText">
+                    <b>Do the Priests and Choir sing the Latin Mass at the parishes you visit?</b>
+               </div>
+               <div class="sSQ025RadioButtons">
+                    <input type="radio" name="sungLatinMass" id="sSQ025RB_Yes" class="radio-button" value="Yes" onclick="clickRBVisitParish(this);" checked>
+                    <label class="radio-inline" for="sSQ025RB_Yes">
+                         Yes
+                    </label>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <input type="radio" name="sungLatinMass" id="sSQ025RB_No" class="radio-button" value="No" onclick="clickRBVisitParish(this);">
+                    <label class="radio-inline" for="sSQ025RB_No">
+                         No
+                    </label>
+               </div>
+          </div>
+          <div id="sSQ026" class="sSQ026 surveyRow">
+               <div class="sSQ026Text sSQText">
+                    <b>How did you become aware of the Tridentine Latin Mass?</b>
+               </div><div class="sSQ026Dropdown">
+                    <div class="dropdown">
+                         <button class="btn btn-secondary dropdown-toggle sSQ026DropdownButton" type="button" id="sSQ026DropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Select option  &#9662;
+                         </button>
+                         <div id="sSQ026DropdownOption" class="dropdown-menu sSQ026DropdownOption" aria-labelledby="sSQ026DropdownButton">
+                              <div class="dropdown-item sSQ026DropdownItem" onclick="clickTLMIntro(this);">Baptised into Latin Mass</div>
+                              <div class="dropdown-item sSQ026DropdownItem" onclick="clickTLMIntro(this);">Invited by spouse</div>
+                              <div class="dropdown-item sSQ026DropdownItem" onclick="clickTLMIntro(this);">Invited by friends</div>
+                              <div class="dropdown-item sSQ026DropdownItem" onclick="clickTLMIntro(this);">Parish priest</div>
+                              <div class="dropdown-item sSQ026DropdownItem" onclick="clickTLMIntro(this);">Spiritual Director</div>
+                              <div class="dropdown-item sSQ026DropdownItem" onclick="clickTLMIntro(this);">Catholic retreat</div>
+                              <div class="dropdown-item sSQ026DropdownItem" onclick="clickTLMIntro(this);">Internet</div>
+                              <div class="dropdown-item sSQ026DropdownItem" onclick="clickTLMIntro(this);">Walked in by accident</div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div id="sSQ027" class="sSQ027 surveyRow">
+               <div class="sSQ027Text sSQText">
+                    <b>How often do you attend the Tridentine Latin Mass? You are not being judged.</b>
+               </div><div class="sSQ027Dropdown">
+                    <div class="dropdown">
+                         <button class="btn btn-secondary dropdown-toggle sSQ027DropdownButton" type="button" id="sSQ027DropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Select frequency  &#9662;
+                         </button>
+                         <div id="sSQ027DropdownOption" class="dropdown-menu sSQ027DropdownOption" aria-labelledby="sSQ027DropdownButton">
+                              <div class="dropdown-item sSQ027DropdownItem" onclick="clickTLMFrequency(this);">Never attended</div>
+                              <div class="dropdown-item sSQ027DropdownItem" onclick="clickTLMFrequency(this);">Only attend Latin Mass</div>
+                              <div class="dropdown-item sSQ027DropdownItem" onclick="clickTLMFrequency(this);">Only solemnities and feasts</div>
+                              <div class="dropdown-item sSQ027DropdownItem" onclick="clickTLMFrequency(this);">At least once a month</div>
+                              <div class="dropdown-item sSQ027DropdownItem" onclick="clickTLMFrequency(this);">At least once a week</div>
+                              <div class="dropdown-item sSQ027DropdownItem" onclick="clickTLMFrequency(this);">At least thrice a week</div>
+                              <div class="dropdown-item sSQ027DropdownItem" onclick="clickTLMFrequency(this);">Every Sunday</div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div id="sSQ028" class="sSQ028 surveyRow">
+               <div class="sSQ028Text sSQText">
+                    <b>Do you own a Missal for the Tridentine Latin Mass?</b>
+               </div>
+               <div class="sSQ028RadioButtons">
+                    <input type="radio" name="tlmMissal" id="sSQ028RB_Yes" class="radio-button" value="Yes" onclick="clickRBVisitParish(this);" checked>
+                    <label class="radio-inline" for="sSQ028RB_Yes">
+                         Yes
+                    </label>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <input type="radio" name="tlmMissal" id="sSQ028RB_No" class="radio-button" value="No" onclick="clickRBVisitParish(this);">
+                    <label class="radio-inline" for="sSQ028RB_No">
+                         No
+                    </label>
+               </div>
+          </div>
+          <div id="sSQ029" class="sSQ029 surveyRow">
+               <div class="sSQ029Text sSQText">
+                    <b>Do the parishes you visit provide translations of the Mass from Latin to local languages?</b>
+               </div>
+               <div class="sSQ029RadioButtons">
+                    <input type="radio" name="tlmTranslation" id="sSQ029RB_Yes" class="radio-button" value="Yes" onclick="clickRBVisitParish(this);" checked>
+                    <label class="radio-inline" for="sSQ029RB_Yes">
+                         Yes
+                    </label>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <input type="radio" name="tlmTranslation" id="sSQ029RB_No" class="radio-button" value="No" onclick="clickRBVisitParish(this);">
+                    <label class="radio-inline" for="sSQ029RB_No">
+                         No
+                    </label>
+               </div>
+          </div>
+          <!-- <div id="sSQ026" class="sSQ026 surveyRow">
+               <div class="sSQ026Text sSQText">
+                    <b>Have you heard of the Tridentine Latin Mass?</b>
+               </div>
+               <div class="sSQ026RadioButtons">
+                    <input type="radio" name="tlmAware" id="sSQ026RB_Yes" class="radio-button" value="Yes" onclick="clickRBVisitParish(this);" checked>
+                    <label class="radio-inline" for="sSQ026RB_Yes">
+                         Yes
+                    </label>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <input type="radio" name="tlmAware" id="sSQ026RB_No" class="radio-button" value="No" onclick="clickRBVisitParish(this);">
+                    <label class="radio-inline" for="sSQ026RB_No">
+                         No
+                    </label>
+               </div>
+          </div>
+          <div id="" class="">
+               <div id="sSQ019" class="sSQ019 surveyRow">
+                    <div class="sSQ019Text sSQText">
+                         <b>Does your parish offer the Tridentine Latin Mass?</b>
+                    </div>
+                    <div class="sSQ019RadioButtons">
+                         <input type="radio" name="tridentineMass" id="sSQ019RB_Yes" class="radio-button" value="Yes" onclick="clickRBVisitParish(this);" checked>
+                         <label class="radio-inline" for="sSQ019RB_Yes">
+                              Yes
+                         </label>
+                         &nbsp;
+                         &nbsp;
+                         &nbsp;
+                         <input type="radio" name="tridentineMass" id="sSQ019RB_No" class="radio-button" value="No" onclick="clickRBVisitParish(this);">
+                         <label class="radio-inline" for="sSQ019RB_No">
+                              No
+                         </label>
+                    </div>
+               </div>
+               <div id="sSQ021" class="sSQ021 surveyRow">
+                    <div class="sSQ021Text sSQText">
+                         <b>How often do you attend the Tridentine Latin Mass? You are not being judged.</b>
+                    </div><div class="sSQ021Dropdown">
+                         <div class="dropdown">
+                              <button class="btn btn-secondary dropdown-toggle sSQ021DropdownButton" type="button" id="sSQ021DropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Select frequency  &#9662;
+                              </button>
+                              <div id="sSQ021DropdownOption" class="dropdown-menu sSQ021DropdownOption" aria-labelledby="sSQ021DropdownButton">
+                                   <div class="dropdown-item sSQ021DropdownItem" onclick="clickTLMFrequency(this);">Never attended</div>
+                                   <div class="dropdown-item sSQ021DropdownItem" onclick="clickTLMFrequency(this);">Only attend Latin Mass</div>
+                                   <div class="dropdown-item sSQ021DropdownItem" onclick="clickTLMFrequency(this);">Only solemnities and feasts</div>
+                                   <div class="dropdown-item sSQ021DropdownItem" onclick="clickTLMFrequency(this);">At least once a month</div>
+                                   <div class="dropdown-item sSQ021DropdownItem" onclick="clickTLMFrequency(this);">At least once a week</div>
+                                   <div class="dropdown-item sSQ021DropdownItem" onclick="clickTLMFrequency(this);">At least thrice a week</div>
+                                   <div class="dropdown-item sSQ021DropdownItem" onclick="clickTLMFrequency(this);">Every Sunday</div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div id="sSQ022" class="sSQ022 surveyRow">
+                    <div class="sSQ022Text sSQText">
+                         <b>Do you attend Tridentine Latin Mass at your own parish?</b>
+                    </div>
+                    <div class="sSQ022RadioButtons">
+                         <input type="radio" name="tlmLocalOrNot" id="sSQ022RB_Yes" class="radio-button" value="Yes" onclick="clickRBVisitParish(this);" checked>
+                         <label class="radio-inline" for="sSQ022RB_Yes">
+                              Yes
+                         </label>
+                         &nbsp;
+                         &nbsp;
+                         &nbsp;
+                         <input type="radio" name="tlmLocalOrNot" id="sSQ022RB_No" class="radio-button" value="No" onclick="clickRBVisitParish(this);">
+                         <label class="radio-inline" for="sSQ022RB_No">
+                              No
+                         </label>
+                    </div>
+               </div>
+               <div id="sSQ023" class="sSQ023 surveyRow">
+                    <div class="sSQ023Text sSQText">
+                         <b>How did you become aware of the Tridentine Latin Mass?</b>
+                    </div><div class="sSQ023Dropdown">
+                         <div class="dropdown">
+                              <button class="btn btn-secondary dropdown-toggle sSQ023DropdownButton" type="button" id="sSQ023DropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Select option  &#9662;
+                              </button>
+                              <div id="sSQ023DropdownOption" class="dropdown-menu sSQ023DropdownOption" aria-labelledby="sSQ023DropdownButton">
+                                   <div class="dropdown-item sSQ023DropdownItem" onclick="clickTLMIntro(this);">Baptised into Latin Mass</div>
+                                   <div class="dropdown-item sSQ023DropdownItem" onclick="clickTLMIntro(this);">Invited by spouse</div>
+                                   <div class="dropdown-item sSQ023DropdownItem" onclick="clickTLMIntro(this);">Invited by friends</div>
+                                   <div class="dropdown-item sSQ023DropdownItem" onclick="clickTLMIntro(this);">Parish priest</div>
+                                   <div class="dropdown-item sSQ023DropdownItem" onclick="clickTLMIntro(this);">Spiritual Director</div>
+                                   <div class="dropdown-item sSQ023DropdownItem" onclick="clickTLMIntro(this);">Catholic retreat</div>
+                                   <div class="dropdown-item sSQ023DropdownItem" onclick="clickTLMIntro(this);">Internet</div>
+                                   <div class="dropdown-item sSQ023DropdownItem" onclick="clickTLMIntro(this);">Walked in by accident</div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div id="sSQ024" class="sSQ024 surveyRow">
+                    <div class="sSQ024Text sSQText">
+                         <b>Do(es) the parish(es) you visit provide translations of the Mass from Latin to local languages?</b>
+                    </div>
+                    <div class="sSQ024RadioButtons">
+                         <input type="radio" name="tlmTranslation" id="sSQ024RB_Yes" class="radio-button" value="Yes" onclick="clickRBVisitParish(this);" checked>
+                         <label class="radio-inline" for="sSQ024RB_Yes">
+                              Yes
+                         </label>
+                         &nbsp;
+                         &nbsp;
+                         &nbsp;
+                         <input type="radio" name="tlmTranslation" id="sSQ024RB_No" class="radio-button" value="No" onclick="clickRBVisitParish(this);">
+                         <label class="radio-inline" for="sSQ024RB_No">
+                              No
+                         </label>
+                    </div>
+               </div>
+               <div id="sSQ025" class="sSQ025 surveyRow">
+                    <div class="sSQ025Text sSQText">
+                         <b>Do you own a Missal for the Tridentine Latin Mass?</b>
+                    </div>
+                    <div class="sSQ025RadioButtons">
+                         <input type="radio" name="tlmMissal" id="sSQ025RB_Yes" class="radio-button" value="Yes" onclick="clickRBVisitParish(this);" checked>
+                         <label class="radio-inline" for="sSQ025RB_Yes">
+                              Yes
+                         </label>
+                         &nbsp;
+                         &nbsp;
+                         &nbsp;
+                         <input type="radio" name="tlmMissal" id="sSQ025RB_No" class="radio-button" value="No" onclick="clickRBVisitParish(this);">
+                         <label class="radio-inline" for="sSQ025RB_No">
+                              No
+                         </label>
+                    </div>
+               </div> -->
+          </div>
+     </div>
+
+     <!-- <div id="homePageWrapper" class="homePageWrapper">
+          <div id="homePageLeft" class="homePageLeft">
+               <div id="homePageHeader" class="homePageHeader">
+                    Kevin Sequeira
+               </div>
+               <div id="homePageSubheader" class="homePageSubheader">
+                    <b>Analytics &nbsp;-&nbsp; Cloud Services &nbsp;-&nbsp; Application Development</b>
+               </div>
+               <div id="homePageSubheader" class="homePageSubheaderMobile">
+                    Analytics &nbsp;-&nbsp; Cloud Services &nbsp;-&nbsp; Application Development
+               </div>
+          </div>
+          <div id="homePageRight" class="homePageRight">
+
+          </div>
+     </div>
+
+     <div id="servicesCardsWrapper" class="servicesCardsWrapper">
+          <div id="servicesCardsRow" class="servicesCardsRow">
+               <div id="analyticsCardWrapper" class="analyticsCardWrapper col-md-4">
+                    <div id="analyticsCard" class="analyticsCard">
+                         <div id="analyticsCardHeader" class="analyticsCardHeader">
+                              <b>Develop an<br>Analytics Capability</b>
+                         </div>
+                         <div id="analyticsCardBody" class="analyticsCardBody">
+                              Leverage both public and private data to gain insights and drive business decisions.
+                         </div>
+                    </div>
+               </div>
+               <div id="appDevelopmentCardWrapper" class="appDevelopmentCardWrapper col-md-4">
+                    <div id="appDevelopmentCard" class="appDevelopmentCard">
+                         <div id="appDevelopmentCardHeader" class="appDevelopmentCardHeader">
+                              <b>Extend your reach with<br>Mobile and Web Apps</b>
+                         </div>
+                         <div id="appDevelopmentCardBody" class="appDevelopmentCardBody">
+                              Make yourself visible to<br>customers and patrons<br>on multiple platforms.
+                         </div>
+                    </div>
+               </div>
+               <div id="cloudCardWrapper" class="cloudCardWrapper col-md-4">
+                    <div id="cloudCard" class="cloudCard">
+                         <div id="cloudCardHeader" class="cloudCardHeader">
+                              <b>Move your Organization<br>to the Cloud</b>
+                         </div>
+                         <div id="cloudCardBody" class="cloudCardBody">
+                              Switch to cheaper and smarter solutions by migrating to the cloud.
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div id="learningCardsWrapper" class="learningCardsWrapper">
+          <div id="learningCardsRow" class="learningCardsRow">
+               <div id="analyticsCardWrapper" class="analyticsCardWrapper col-md-4">
+                    <div id="analyticsCard" class="analyticsCard">
+                         <div id="pythonCardHeader" class="pythonCardHeader">
+                              <b>Develop an<br>Analytics Capability</b>
+                         </div>
+                         <div id="analyticsCardBody" class="analyticsCardBody">
+                              Leverage both public and<br>private data to gain insights<br>and drive business decisions.
+                         </div>
+                    </div>
+               </div>
+               <div id="appDevelopmentCardWrapper" class="appDevelopmentCardWrapper col-md-4">
+                    <div id="appDevelopmentCard" class="appDevelopmentCard">
+                         <div id="androidCardHeader" class="androidCardHeader">
+                              <b>Extend your reach with<br>Mobile and Web Apps</b>
+                         </div>
+                         <div id="appDevelopmentCardBody" class="appDevelopmentCardBody">
+                              Make yourself visible to<br>customers and patrons<br>on multiple platforms.
+                         </div>
+                    </div>
+               </div>
+               <div id="cloudCardWrapper" class="cloudCardWrapper col-md-4">
+                    <div id="cloudCard" class="cloudCard">
+                         <div id="machineLearningCardHeader" class="machineLearningCardHeader">
+                              <b>Move your Organization<br>to the Cloud</b>
+                         </div>
+                         <div id="cloudCardBody" class="cloudCardBody">
+                              Switch to cheaper and smarter<br>solutions by migrating your<br>systems to the cloud.
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div id="slidingBackground" class="slidingBackground">
+
+     </div> -->
+
+</body>
+
+</html>
