@@ -2,5 +2,7 @@
 {% block head %}
 {% endblock %}
 {% for state in statesList %}
-     <div class="dropdown-item sSQ004DropdownItem" onclick="clickBirthState(this);">{{ state }}</div>
+      <div class="dropdown-item sSQ004DropdownItem" onclick="clickBirthState(this);">{{ state }}</div>
+{% empty %}
+      <div class="dropdown-item sSQ004DropdownItem" onclick="clickBirthState(this);">No states available</div>
 {% endfor %}

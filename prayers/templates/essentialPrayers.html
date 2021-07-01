@@ -1,0 +1,514 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" class=" js cssanimations" dir="ltr">
+
+<head>
+
+     <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="Prayers | Ave Christus Rex">
+	<meta name="author" content="Dei Gloriam">
+	<link rel="icon" href="favicon.ico">
+     <meta name="viewport" content="width = device-width, initial-scale = 1, shrink-to-fit = no">
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script language="javascript" type="text/javascript"></script>
+
+     <title>Essential Prayers | Ave Christus Rex</title>
+
+     <!-- Bootstrap core CSS -->
+     <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+
+     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+     <link href="{% static 'css/ie10-viewport-bug-workaround.css' %}" rel="stylesheet">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+     <script src="{% static 'js/jsForSurveys.js' %}"></script>
+
+     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+     <!--[if lt IE 9]>
+     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+     <![endif]-->
+
+     <link href="{% static 'css/cssForCatholicPrayers.css' %}" rel="stylesheet">
+
+     <!-- This is the link to the fonts taken from Google Fonts! -->
+     <link
+     href="https://fonts.googleapis.com/css?family=Alegreya|Advent+Pro|Bahiana|Averia+Sans+Libre|Balthazar|Belgrano|Black+Ops+One|Bungee+Inline|Cherry+Swash|Coda|Cormorant+Infant|Delius+Swash+Caps|El+Messiri|Euphoria+Script|Expletus+Sans|Fredericka+the+Great|Gafata|Graduate|Italiana|Kotta+One|Kumar+One+Outline|Lemon|Life+Savers|Londrina+Outline|Londrina+Solid|Medula+One|Montserrat+Alternates|Mouse+Memoirs|Mystery+Quest|Oleo+Script|Podkova|Port+Lligat+Slab|Raleway|Revalia|Salsa|Sue+Ellen+Francisco|Tienne|Patua+One|Russo+One|Righteous|Poiret+One|Exo|Lobster+Two|Quattrocento|Days+One|Julius+Sans+One|Jura|Lustria|Josefin+Sans|Yanone+Kaffeesatz|Nunito|Josefin+Slab|Stint+Ultra+Expanded|Junge|Italiana|Life+Savers|Athiti|Londrina+Outline|Scope+One|Kaushan+Script|Kumar+One|Orbitron|Poiret+One|Proza+Libre|Architects+Daughter|Griffy|Open+Sans+Condensed:300|Quicksand|Gloria+Hallelujah|Tulpen+One|Text+Me+One|Love+Ya+Like+A+Sister|Megrim|Cinzel+Decorative|Caveat+Brush|Vollkorn+SC|Laila:wght@600|Sumana|Yatra+One|Sahitya:wght@700Eczar:wght@500|Montserrat|Vollkorn"
+          rel="stylesheet">
+     <!-- Last used Google Fonts Page: https://fonts.google.com/?selection.family=Advent+Pro|Alex+Brush|Amatic+SC|Anton|Black+Ops+One|Bubbler+One|Cabin+Sketch|Comfortaa|Dosis|Eagle+Lake|Exo|Fjalla+One|Flamenco|Graduate|Hammersmith+One|Josefin+Sans|Josefin+Slab|Kaushan+Script|Lobster|Megrim|Monda|Montserrat|Montserrat+Alternates|Montserrat+Subrayada|Neucha|Nixie+One|Open+Sans+Condensed:300|Oswald|Patua+One|Philosopher|Play|Playfair+Display|Poiret+One|Proza+Libre|Quicksand|Raleway|Righteous|Russo+One|Schoolbell|Viga&sort=date !-->
+
+     <!-- Custom JavaScript -->
+     <script src=""></script>
+
+     <!-- jQuery -->
+     <script src="{% static 'js/jquery.js' %}"></script>
+
+     <!-- Bootstrap Core JavaScript -->
+     <script src="{% static 'js/bootstrap.min.js' %}"></script>
+     <script src="{% static 'js/progressbar.js' %}"></script>
+
+     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+     <script>
+          // $(function() {
+          // 	var availableTags = {{ autocompleteStrings|safe }};
+          // 	$("#homePageTextbox").autocomplete({
+          // 		 source: function(request, response) {
+          //                 var results = $.ui.autocomplete.filter(availableTags, request.term);
+          //                 response(results.slice(0, 6));
+          //            }
+          // 	});
+          // });
+     </script>
+
+</head>
+
+<body>
+
+      <nav class="navbar navbar-inverse navbar-fixed-top navbarTop">
+            <div class="container">
+                  <div class="navbar-header">
+                        <button id="changeToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                        <div id="navbar-hamburger" class="navbar-hamburger">
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                        </div>
+                        <div id="navbar-close" class="hidden navbar-close">
+                              <img src="{% static 'images/close.png' %}" alt="{% static 'images/close.png' %}"
+                              width="15" height="15">
+                              <!-- <span class="glyphicon glyphicon-remove"></span> -->
+                              <!-- <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span> -->
+                        </div>
+                        </button>
+                        <a class="navbar-brand" style="color: #FFFFFF" href="http://avechristusrex.com">ave christus rex</a>
+                  </div>
+                  <div id="navbar" class="collapse navbar-collapse" aria-expanded="false" style="height: 1px">
+                        <ul class="nav navbar-nav navbar-right">
+                              <li class="dropdown nav-dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-expanded="true" style="color: #FFFFFF">About Us&nbsp;<span class="caret"></span></a>
+                                    <ul class="shadow p-3 mb-5 bg-white rounded dropdown-menu nav-dropdown-menu">
+                                          <li><a id="howWeStarted" href="#myCarousel">Who we are<span class="responsiveMobile"><span class="responsiveMobile">&nbsp;&#9666;</span></span></a></li>
+                                          <li><a id="wwdDataAnalytics" href="#myCarousel">How we started<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Christianity: Faith and Religion<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Technology and Tradition<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Society and Scripture<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Morals; Ethics; Values<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">No money; More Support<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                    </ul>
+                              </li>
+                              <li class="dropdown nav-dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-expanded="true" style="color: #FFFFFF">Our Faith&nbsp;<span class="caret"></span></a>
+                                    <ul class="shadow p-3 mb-5 bg-white rounded dropdown-menu nav-dropdown-menu">
+                                          <li><a id="projDataAnalytics" href="#myCarousel">God, His Creation and Us<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="projDataAnalytics" href="#myCarousel">God: Father; Son; Holy Spirit<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="projCloudComputing" href="#myCarousel">Separation from God<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="projWebAppDev" href="#myCarousel">Salvation in Jesus Christ<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="projMachineLearning" href="#myCarousel">Our Mission as Christians<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="projDigitalAdoption" href="#myCarousel">Heaven, Hell and Purgatory<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="projDigitalAdoption" href="#myCarousel">Intercession of the Saints<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="projDigitalAdoption" href="#myCarousel">The Blessed Virgin Mary<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="projDigitalAdoption" href="#myCarousel">St. Joseph, father of Jesus<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="projDigitalAdoption" href="#myCarousel">The Holy Family<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Intercession of the Saints<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Church Militant: Faithful On Earth<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Church Penitent: Souls in Purgatory<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Church Triumphant: Life in Heaven<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">See more...<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                    </ul>
+                              </li>
+                              <li class="dropdown nav-dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-expanded="true" style="color: #FFFFFF">Our Religion&nbsp;<span class="caret"></span></a>
+                                    <ul class="shadow p-3 mb-5 bg-white rounded dropdown-menu nav-dropdown-menu">
+                                          <li><a id="gitCareers" href="#myCarousel">The Church is Catholic<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">The Holy Mass: How we Worship<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Sacred Tradition through the Ages<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Sacred Scripture: the Word of God<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Magisterium of the Church<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Sacraments of the Catholic Church<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Catholic Prayers and Devotions<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Catechism of the Catholic Church<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">The Priest: Leading the Church<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">The Catholic Religious Life<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Manhood: Christlike Leadership<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Womanhood: Christlike Discipleship<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Family: Image of the Trinity<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">The Saints: Men and Women of God<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">See more...<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                    </ul>
+                              </li>
+                              <!-- <li><a href="Build a Video Tutorial with Me.html">Learn more about me!</a></li> !-->
+                              <li><a id="getInTouch" href="#">Get in touch</a></li>
+                        </ul>
+                  </div>
+            <!--/.nav-collapse -->
+            </div>
+      </nav>
+
+      <nav class="navbar-fixed-top navbar-background" style="background: #FFBF00">
+      </nav>
+
+      <div id="homePage" class="homePage">
+            <div id="homePageHeader" class="homePageHeader">
+                  Essential Prayers
+            </div>
+            <div id="homePageSubHeader" class="homePageSubHeader">
+                  Faithful Christians are called to keep the Word of God in their hearts and the Name of the Lord on their lips. Yet, there are times when we feel God is far away, and when we cannot find
+                  the courage to pray. We feel lost for words. At such times it helps to turn to Holy Scripture, to the Catechism, and to the wisdom of the Saints.
+                  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Catholic Church encourages us to learn these essential prayers, and to turn to them whenever we are in need. These prayers are founded both in Holy Scripture
+                  and in Holy Tradition, and they are a wellspring of graces.
+            </div>
+      </div>
+
+      <div id="essentialPrayerDashboard" class="essentialPrayerDashboard">
+            <div id="essentialPrayerDashboardRow" class="row essentialPrayerDashboardRow">
+                  <div id="prayerDashboardColumn" class="prayerDashboardColumn">
+                        <a class="prayersCardLink" href="{% url 'prayers' %}prayer-details/in-nomine-patris" target="_blank">
+                              <div id="inNominePatrisCard" class="individualPrayersCard inNominePatrisCard">
+                                    <div id="inNominePatrisCardHeader" class="prayersCardHeader inNominePatrisCardHeader">
+                                          Signum Crucis
+                                    </div>
+                                    <div id="inNominePatrisCardSubHeader" class="prayersCardSubHeader inNominePatrisCardSubHeader">
+                                          Always start your prayers with the Trinitarian Formula.
+                                          <!-- <br>Also known as the <q>Sign of the Cross</q>, this prayer is a statement of faith, both to ourselves and to the world to whom we witness Jesus Christ.
+                                          To Catholic, this prayer must be as second nature, but also a mark of reverence. In the <q>In Nomine Patris</q> we declare the direction of our prayers and the source of our faith. -->
+                                    </div>
+                                    <div id="inNominePatrisCardBody" class="prayersCardBody latinColor inNominePatrisCardBody">
+                                          <i>IN NOMINE PATRIS, et Fili, et Spiritus Sancti. Amen.</i>
+                                    </div>
+                                    <div id="inNominePatrisCardBody" class="prayersCardBody inNominePatrisCardBody">
+                                          IN THE NAME OF THE FATHER, and of the Son, and of the Holy Spirit. Amen.
+                                    </div>
+                                    <span class="widescreen"><br></span>
+                                    <div class="prayersCardGoFurther">
+                                          <i><b>Click to learn.</b></i>
+                                    </div>
+                              </div>
+                        </a>
+                        <a class="prayersCardLink" href="{% url 'surveys' %}" target="_blank">
+                              <div id="paterNosterCard" class="individualPrayersCard paterNosterCard">
+                                    <div id="paterNosterCardHeader" class="prayersCardHeader paterNosterCardHeader">
+                                          Pater Noster
+                                    </div>
+                                    <div id="paterNosterCardSubHeader" class="prayersCardSubHeader paterNosterCardSubHeader">
+                                          Learn to pray in the words that our Lord Jesus Christ Himself taught us.
+                                    </div>
+                                    <div id="paterNosterCardBody" class="prayersCardBody latinColor paterNosterCardBody">
+                                          <i>
+                                                PATER NOSTER,
+                                                qui es in caelis,
+                                                sanctificetur nomen tuum.
+                                                Adveniat regnum tuum.
+                                                Fiat voluntas tua,
+                                                sicut in caelo et in terra.
+                                                Panem nostrum quotidianum da nobis hodie,
+                                                et dimitte nobis debita nostra
+                                                sicut et nos dimittimus debitoribus nostris.
+                                                Et ne nos inducas in tentationem,
+                                                sed libera nos a malo.
+                                                Amen.
+                                          </i>
+                                    </div>
+                                    <div id="paterNosterCardBody" class="prayersCardBody paterNosterCardBody">
+                                          OUR FATHER,
+                                          who art in Heaven,
+                                          hallowed be Thy name.
+                                          Thy kingdom come.
+                                          Thy will be done on earth,
+                                          as it is in heaven.
+                                          Give us this day our daily bread,
+                                          and forgive us our trespasses,
+                                          as we forgive those who trespass against us.
+                                          And lead us not into temptation,
+                                          but deliver us from evil. Amen.
+                                    </div>
+                                    <span class="widescreen"><br></span>
+                                    <div class="prayersCardGoFurther">
+                                          <i><b>Click to learn.</b></i>
+                                    </div>
+                              </div>
+                        </a>
+                        <a class="prayersCardLink" href="http://example.com" target="_blank">
+                              <div id="aveMariaCard" class="individualPrayersCard aveMariaCard">
+                                    <div id="aveMariaCardHeader" class="prayersCardHeader aveMariaCardHeader">
+                                          Ave Maria
+                                    </div>
+                                    <div id="aveMariaCardSubHeader" class="prayersCardSubHeader aveMariaCardSubHeader">
+                                          Ask for the Blessed Virgin Mary's intercession, in accordance with Holy Scripture.
+                                    </div>
+                                    <div id="aveMariaCardBody" class="prayersCardBody latinColor aveMariaCardBody">
+                                          <i>
+                                                AVE MARIA, gratia plena,
+                                                Dominus tecum.
+                                                Benedicta tu in mulieribus,
+                                                et benedictus fructus ventris tui, Iesus.
+                                                Sancta Maria, Mater Dei,
+                                                ora pro nobis peccatoribus,
+                                                nunc, et in hora mortis nostrae.
+                                                Amen.
+                                          </i>
+                                    </div>
+                                    <div id="aveMariaCardBody" class="prayersCardBody aveMariaCardBody">
+                                          HAIL MARY, full of Grace,
+                                          the Lord is with thee.
+                                          Blessed art thou among women,
+                                          and blessed is the fruit of thy womb, Jesus.
+                                          Holy Mary, Mother of God.
+                                          Pray for us sinners,
+                                          now and the hour of our death.
+                                          Amen.
+                                    </div>
+                                    <span class="widescreen"><br></span>
+                                    <div class="prayersCardGoFurther">
+                                          <i><b>Click to learn.</b></i>
+                                    </div>
+                              </div>
+                        </a>
+                        <a class="prayersCardLink" href="http://example.com" target="_blank">
+                              <div id="gloriaPatriCard" class="individualPrayersCard gloriaPatriCard">
+                                    <div id="gloriaPatriCardHeader" class="prayersCardHeader gloriaPatriCardHeader">
+                                          Gloria Patri
+                                    </div>
+                                    <div id="gloriaPatriCardSubHeader" class="prayersCardSubHeader gloriaPatriCardSubHeader">
+                                          Give all glory to God in the Highest who reigns for ever and ever!
+                                    </div>
+                                    <div id="gloriaPatriCardBody" class="prayersCardBody latinColor gloriaPatriCardBody">
+                                          <i>
+                                                GLORIA PATRI,
+                                                et Filio,
+                                                et Spiritui Sancto.
+                                                Sicut erat in principio,
+                                                et nunc, et semper,
+                                                et in saecula saeculorum. Amen.
+                                          </i>
+                                    </div>
+                                    <div id="gloriaPatriCardBody" class="prayersCardBody gloriaPatriCardBody">
+                                          GLORY BE TO THE FATHER,
+                                          and to the Son,
+                                          and to the Holy Spirit.
+                                          As it was in the beginning,
+                                          is now, and ever shall be,
+                                          world without end. Amen.
+                                    </div>
+                                    <span class="widescreen"><br></span>
+                                    <div class="prayersCardGoFurther">
+                                          <i><b>Click to learn.</b></i>
+                                    </div>
+                              </div>
+                        </a>
+                        <a class="prayersCardLink" href="http://example.com" target="_blank">
+                              <div id="credoCard" class="individualPrayersCard credoCard">
+                                    <div id="credoCardHeader" class="prayersCardHeader credoCardHeader">
+                                          Credo
+                                    </div>
+                                    <div id="credoCardSubHeader" class="prayersCardSubHeader credoCardSubHeader">
+                                          Declare your faith in God the Father, the Son, and the Holy Ghost.
+                                    </div>
+                                    <div id="credoCardBody" class="prayersCardBody latinColor credoCardBody">
+                                          <i>
+                                                CREDO IN DEUM Patrem omnipotentem, Creatorem caeli et terrae.
+                                                Et in Iesum Christum, Filium eius unicum,
+                                                Dominum nostrum, qui conceptus est de Spiritu Sancto,
+                                                natus ex Maria Virgine,
+                                                passus sub Pontio Pilato,
+                                                crucifixus, mortuus, et sepultus,
+                                                descendit ad infernos,
+                                                tertia die resurrexit a mortuis,
+                                                ascendit ad caelos, sedet ad dexteram Dei Patris omnipotentis,
+                                                inde venturus est iudicare vivos et mortuos.
+                                                Credo in Spiritum Sanctum,
+                                                anctam Ecclesiam catholicam, sanctorum communionem,
+                                                remissionem peccatorum,
+                                                carnis resurrectionem,
+                                                vitam aeternam. Amen.
+                                          </i>
+                                    </div>
+                                    <div id="credoCardBody" class="prayersCardBody credoCardBody">
+                                          I BELIEVE IN GOD the Father Almighty, Creator of Heaven and Earth.
+                                          And in Jesus Christ, His only Son our Lord;
+                                          Who was conceived by the power of the Holy Spirit;
+                                          Born of the Virgin Mary;
+                                          Suffered under Pontius Pilate;
+                                          Was crucified, dead and buried;
+                                          He descended into Hell;
+                                          The third day He rose again from the dead;
+                                          He ascended into heaven;
+                                          And sitteth on the right hand of God the Father Almighty;
+                                          From thence He shall come to judge the living and the dead.
+                                          I believe in the Holy Spirit;
+                                          The Holy Catholic Church, the Communion of Saints;
+                                          The Forgiveness of sins;
+                                          The Resurrection of the body;
+                                          And the life everlasting. Amen.
+                                    </div>
+                                    <span class="widescreen"><br></span>
+                                    <div class="prayersCardGoFurther">
+                                          <i><b>Click to learn.</b></i>
+                                    </div>
+                              </div>
+                        </a>
+                        <a class="prayersCardLink" href="http://example.com" target="_blank">
+                              <div id="confiteorCard" class="individualPrayersCard confiteorCard">
+                                    <div id="confiteorCardHeader" class="prayersCardHeader confiteorCardHeader">
+                                          Confiteor
+                                    </div>
+                                    <div id="confiteorCardSubHeader" class="prayersCardSubHeader confiteorCardSubHeader">
+                                          Confess your sins and ask for forgiveness before God and your neighbour.
+                                    </div>
+                                    <div id="confiteorCardBody" class="prayersCardBody latinColor confiteorCardBody">
+                                          <i>
+                                                CONFITEOR Deo Omnipotenti,
+                                                beatae Mariae semper Virgini,
+                                                beato Michaeli Archangelo,
+                                                beato Ioanni Baptistae,
+                                                sanctis Apostolis Petro et Paulo,
+                                                et omnibus Sanctis,
+                                                quia peccavi nimis
+                                                cogitatione, verbo et opere:
+                                                mea culpa,
+                                                mea culpa,
+                                                mea maxima culpa.
+                                                Ideo precor beatam Mariam semper Virginem,
+                                                beatum Michaelem Archangelum,
+                                                beatum Ioannem Baptistam,
+                                                sanctos Apostolos Petrum et Paulum,
+                                                et omnes Sanctos,
+                                                orare pro me ad Dominum Deum nostrum. Amen.
+                                          </i>
+                                    </div>
+                                    <div id="confiteorCardBody" class="prayersCardBody confiteorCardBody">
+                                          I CONFESS to Almighty God,
+                                          to blessed Mary ever Virgin,
+                                          to blessed Michael the Archangel,
+                                          to blessed John the Baptist,
+                                          to the holy apostles Peter and Paul,
+                                          and to all the saints
+                                          that I have sinned exceedingly:
+                                          in thought, word, and deed,
+                                          through my fault,
+                                          through my fault,
+                                          through my most grievous fault.
+                                          Therefore, I beseech blessed Mary ever Virgin,
+                                          blessed Michael the Archangel,
+                                          blessed John the Baptist,
+                                          the holy Apostles Peter and Paul,
+                                          and all the saints,
+                                          to pray to the Lord our God for me.
+                                          Amen.
+                                    </div>
+                                    <span class="widescreen"><br></span>
+                                    <div class="prayersCardGoFurther">
+                                          <i><b>Click to learn.</b></i>
+                                    </div>
+                              </div>
+                        </a>
+                        <a class="prayersCardLink" href="http://example.com" target="_blank">
+                              <div id="salveReginaCard" class="individualPrayersCard salveReginaCard">
+                                    <div id="salveReginaCardHeader" class="prayersCardHeader salveReginaCardHeader">
+                                          Salve Regina
+                                    </div>
+                                    <div id="salveReginaCardSubHeader" class="prayersCardSubHeader salveReginaCardSubHeader">
+                                          Sing praises to the Blessed Virgin Mary, Queen of the Faithful, Mother of God.
+                                    </div>
+                                    <div id="salveReginaCardBody" class="prayersCardBody latinColor salveReginaCardBody">
+                                          <i>
+                                                SALVE REGINA, Mater Misericordiae.
+                                                Vita, dulcedo, et spes nostra, salve.
+                                                Ad te clamamus
+                                                exsules filii Hevae.
+                                                Ad te Suspiramus, gementes et flentes in hac lacrimarum valle.
+                                                Eia ergo, Advocata nostra,
+                                                illos tuos misericordes oculos ad nos converte.
+                                                Et Iesum, benedictum fructum ventris tui,
+                                                nobis post hoc exsilium ostende.
+                                                O clemens, o pia,
+                                                o dulcis Virgo Maria.
+                                          </i>
+                                    </div>
+                                    <div id="salveReginaCardBody" class="prayersCardBody salveReginaCardBody">
+                                          HAIL, HOLY QUEEN, Mother of Mercy.
+                                          Hail our life, our sweetness and our hope.
+                                          To thee do we cry,
+                                          poor banished children of Eve.
+                                          To thee do we send up our sighs,
+                                          mourning and weeping in this valley of tears.
+                                          Turn then, most gracious advocate,
+                                          thine eyes of mercy toward us.
+                                          And after this our exile,
+                                          show unto us the blessed fruit of thy womb, Jesus.
+                                          O clement, O loving,
+                                          o sweet Virgin Mary.
+                                    </div>
+                                    <span class="widescreen"><br></span>
+                                    <div class="prayersCardGoFurther">
+                                          <i><b>Click to learn.</b></i>
+                                    </div>
+                              </div>
+                        </a>
+                        <a class="prayersCardLink" href="http://example.com" target="_blank">
+                              <div id="memorareCard" class="individualPrayersCard memorareCard">
+                                    <div id="memorareCardHeader" class="prayersCardHeader memorareCardHeader">
+                                          Memorare
+                                    </div>
+                                    <div id="memorareCardSubHeader" class="prayersCardSubHeader memorareCardSubHeader">
+                                          Seek the loving protection of the Mother of Christ, whose intercession never fails.
+                                    </div>
+                                    <div id="salveReginaCardBody" class="prayersCardBody latinColor salveReginaCardBody">
+                                          <i>
+                                                MEMORARE, O piissima Virgo Maria,
+                                                non esse auditum a saeculo, quemquam ad tua currentem praesidia,
+                                                tua implorantem auxilia,
+                                                tua petentem suffragia, esse derelictum.
+                                                Ego tali animatus confidentia, ad te,
+                                                Virgo Virginum, Mater,
+                                                curro, ad te venio, coram te gemens peccator assisto.
+                                                Noli, Mater Verbi,
+                                                verba mea despicere;
+                                                sed audi propitia et exaudi.
+                                                Amen.
+                                          </i>
+                                    </div>
+                                    <div id="salveReginaCardBody" class="prayersCardBody salveReginaCardBody">
+                                          REMEMBER, O most gracious Virgin Mary,
+                                          that never was it known that anyone who fled to thy protection,
+                                          implored thy help,
+                                          or sought thine intercession was left unaided.
+                                          Inspired by this confidence, I fly unto thee,
+                                          O Virgin of virgins, my mother;
+                                          To thee do I come, before thee I stand, sinful and sorrowful.
+                                          O Mother of the Word Incarnate,
+                                          despise not my petitions,
+                                          but in thy mercy hear and answer me.
+                                          Amen.
+                                    </div>
+                                    <span class="widescreen"><br></span>
+                                    <div class="prayersCardGoFurther">
+                                          <i><b>Click to learn.</b></i>
+                                    </div>
+                              </div>
+                        </a>
+                  </div>
+            </div>
+      </div>
+
+</body>
+
+</html>

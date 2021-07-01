@@ -18,8 +18,7 @@ from django.urls import path, re_path
 from . import views
 
 urlpatterns = [
-    path("", views.surveys, name = "surveys"),
-    re_path(r'^catholic-survey$', views.catholic, name = "catholic-survey"),
-    re_path(r'^countryFrom/(?P<countryName>\w+)/$', views.countryFrom, name = "countryFrom"),
-    re_path(r'^countryIn/(?P<countryName>\w+)/$', views.countryIn, name = "countryIn"),
+    path("", views.prayers, name = "prayers"),
+    path("essentialPrayers", views.essentialPrayers, name = "essentialPrayers"),
+    re_path(r'^prayer-details/(?P<page_alias>.+?)/$', views.prayerDetails , name = "prayerDetails")
 ]

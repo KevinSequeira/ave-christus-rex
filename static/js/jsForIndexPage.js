@@ -28,13 +28,13 @@ $(document).ready(function () {
 		} // End if
 	});
 
-	$('.navbar-background').css('min-height', navBarHeight + 2 + 'px');
+	$('.navbar-background').css('min-height', navBarHeight + 'px');
 });
 
 $(window).resize(function(event) {
 	// var navBarHeight = $('.navbar-header').height();
 	var navbarHeight = $('.navbar-header').outerHeight();
-	$('.navbar-background').css('min-height', navbarHeight + 2 + 'px');
+	$('.navbar-background').css('min-height', navbarHeight + 'px');
 });
 
 $(function() {

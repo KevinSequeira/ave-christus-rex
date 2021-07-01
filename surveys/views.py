@@ -82,6 +82,13 @@ def catholic(request):
                "languages": getLanguages()}
     return render(request, "catholic.html", context)
 
+def surveys(request):
+    context = {"countryList": getListOfCountries(),
+               "religionList": getListOfReligions(),
+               "catholicRites": getCatholicRites(),
+               "languages": getLanguages()}
+    return render(request, "catholic.html", context)
+
 def countryFrom(request, countryName):
     if request.method == "GET":
         countryStates = {"India": ["Andaman and Nicobar Islands", "Andhra Pradesh", "Arunachal Pradesh", "Assam",
