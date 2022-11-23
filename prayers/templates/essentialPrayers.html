@@ -41,7 +41,7 @@
 
      <!-- This is the link to the fonts taken from Google Fonts! -->
      <link
-     href="https://fonts.googleapis.com/css?family=Alegreya|Advent+Pro|Bahiana|Averia+Sans+Libre|Balthazar|Belgrano|Black+Ops+One|Bungee+Inline|Cherry+Swash|Coda|Cormorant+Infant|Delius+Swash+Caps|El+Messiri|Euphoria+Script|Expletus+Sans|Fredericka+the+Great|Gafata|Graduate|Italiana|Kotta+One|Kumar+One+Outline|Lemon|Life+Savers|Londrina+Outline|Londrina+Solid|Medula+One|Montserrat+Alternates|Mouse+Memoirs|Mystery+Quest|Oleo+Script|Podkova|Port+Lligat+Slab|Raleway|Revalia|Salsa|Sue+Ellen+Francisco|Tienne|Patua+One|Russo+One|Righteous|Poiret+One|Exo|Lobster+Two|Quattrocento|Days+One|Julius+Sans+One|Jura|Lustria|Josefin+Sans|Yanone+Kaffeesatz|Nunito|Josefin+Slab|Stint+Ultra+Expanded|Junge|Italiana|Life+Savers|Athiti|Londrina+Outline|Scope+One|Kaushan+Script|Kumar+One|Orbitron|Poiret+One|Proza+Libre|Architects+Daughter|Griffy|Open+Sans+Condensed:300|Quicksand|Gloria+Hallelujah|Tulpen+One|Text+Me+One|Love+Ya+Like+A+Sister|Megrim|Cinzel+Decorative|Caveat+Brush|Vollkorn+SC|Laila:wght@600|Sumana|Yatra+One|Sahitya:wght@700Eczar:wght@500|Montserrat|Vollkorn"
+     href="https://fonts.googleapis.com/css?family=Alegreya|Advent+Pro|Bahiana|Averia+Sans+Libre|Balthazar|Belgrano|Black+Ops+One|Bungee+Inline|Cherry+Swash|Coda|Cormorant+Infant|Delius+Swash+Caps|El+Messiri|Euphoria+Script|Expletus+Sans|Fredericka+the+Great|Gafata|Graduate|Italiana|Kotta+One|Kumar+One+Outline|Lemon|Life+Savers|Londrina+Outline|Londrina+Solid|Medula+One|Montserrat+Alternates|Mouse+Memoirs|Mystery+Quest|Oleo+Script|Podkova|Port+Lligat+Slab|Raleway|Revalia|Salsa|Sue+Ellen+Francisco|Tienne|Patua+One|Russo+One|Righteous|Poiret+One|Exo|Lobster+Two|Quattrocento|Days+One|Julius+Sans+One|Jura|Lustria|Josefin+Sans|Yanone+Kaffeesatz|Nunito|Josefin+Slab|Stint+Ultra+Expanded|Junge|Italiana|Life+Savers|Athiti|Londrina+Outline|Scope+One|Kaushan+Script|Kumar+One|Orbitron|Poiret+One|Proza+Libre|Architects+Daughter|Griffy|Open+Sans+Condensed:300|Quicksand|Gloria+Hallelujah|Tulpen+One|Text+Me+One|Love+Ya+Like+A+Sister|Megrim|Cinzel+Decorative|Caveat+Brush|Vollkorn+SC|Laila:wght@600|Sumana|Yatra+One|Sahitya:wght@700Eczar:wght@500|Montserrat|Vollkorn|Shobhika"
           rel="stylesheet">
      <!-- Last used Google Fonts Page: https://fonts.google.com/?selection.family=Advent+Pro|Alex+Brush|Amatic+SC|Anton|Black+Ops+One|Bubbler+One|Cabin+Sketch|Comfortaa|Dosis|Eagle+Lake|Exo|Fjalla+One|Flamenco|Graduate|Hammersmith+One|Josefin+Sans|Josefin+Slab|Kaushan+Script|Lobster|Megrim|Monda|Montserrat|Montserrat+Alternates|Montserrat+Subrayada|Neucha|Nixie+One|Open+Sans+Condensed:300|Oswald|Patua+One|Philosopher|Play|Playfair+Display|Poiret+One|Proza+Libre|Quicksand|Raleway|Righteous|Russo+One|Schoolbell|Viga&sort=date !-->
 
@@ -171,7 +171,7 @@
                   Essential Prayers
             </div>
             <div id="homePageSubHeader" class="homePageSubHeader">
-                  Faithful Christians are called to keep the Word of God in their hearts and the Name of the Lord on their lips. Yet, there are times when we feel God is far away, and when we cannot find
+                  Faithful Christians are called to keep the Word of God in their hearts and the Name of the <span style="font-variant: small-caps;"><b>Lord</b></span> on their lips. Yet, there are times when we feel God is far away, and when we cannot find
                   the courage to pray. We feel lost for words. At such times it helps to turn to Holy Scripture, to the Catechism, and to the wisdom of the Saints.
                   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Catholic Church encourages us to learn these essential prayers, and to turn to them whenever we are in need. These prayers are founded both in Holy Scripture
                   and in Holy Tradition, and they are a wellspring of graces.
@@ -197,13 +197,13 @@
                                     <div id="inNominePatrisCardBody" class="prayersCardBody inNominePatrisCardBody">
                                           IN THE NAME OF THE FATHER, and of the Son, and of the Holy Spirit. Amen.
                                     </div>
-                                    <span class="widescreen"><br></span>
+                                    <br>
                                     <div class="prayersCardGoFurther">
                                           <i><b>Click to learn.</b></i>
                                     </div>
                               </div>
                         </a>
-                        <a class="prayersCardLink" href="{% url 'surveys' %}" target="_blank">
+                        <a class="prayersCardLink" href="{% url 'prayers' %}prayer-details/pater-noster" target="_blank">
                               <div id="paterNosterCard" class="individualPrayersCard paterNosterCard">
                                     <div id="paterNosterCardHeader" class="prayersCardHeader paterNosterCardHeader">
                                           Pater Noster
@@ -240,7 +240,7 @@
                                           And lead us not into temptation,
                                           but deliver us from evil. Amen.
                                     </div>
-                                    <span class="widescreen"><br></span>
+                                    <br>
                                     <div class="prayersCardGoFurther">
                                           <i><b>Click to learn.</b></i>
                                     </div>
@@ -276,7 +276,7 @@
                                           now and the hour of our death.
                                           Amen.
                                     </div>
-                                    <span class="widescreen"><br></span>
+                                    <br>
                                     <div class="prayersCardGoFurther">
                                           <i><b>Click to learn.</b></i>
                                     </div>
@@ -308,7 +308,7 @@
                                           is now, and ever shall be,
                                           world without end. Amen.
                                     </div>
-                                    <span class="widescreen"><br></span>
+                                    <br>
                                     <div class="prayersCardGoFurther">
                                           <i><b>Click to learn.</b></i>
                                     </div>
@@ -359,7 +359,7 @@
                                           The Resurrection of the body;
                                           And the life everlasting. Amen.
                                     </div>
-                                    <span class="widescreen"><br></span>
+                                    <br>
                                     <div class="prayersCardGoFurther">
                                           <i><b>Click to learn.</b></i>
                                     </div>
@@ -414,7 +414,7 @@
                                           to pray to the Lord our God for me.
                                           Amen.
                                     </div>
-                                    <span class="widescreen"><br></span>
+                                    <br>
                                     <div class="prayersCardGoFurther">
                                           <i><b>Click to learn.</b></i>
                                     </div>
@@ -457,7 +457,7 @@
                                           O clement, O loving,
                                           o sweet Virgin Mary.
                                     </div>
-                                    <span class="widescreen"><br></span>
+                                    <br>
                                     <div class="prayersCardGoFurther">
                                           <i><b>Click to learn.</b></i>
                                     </div>
@@ -499,7 +499,7 @@
                                           but in thy mercy hear and answer me.
                                           Amen.
                                     </div>
-                                    <span class="widescreen"><br></span>
+                                    <br>
                                     <div class="prayersCardGoFurther">
                                           <i><b>Click to learn.</b></i>
                                     </div>

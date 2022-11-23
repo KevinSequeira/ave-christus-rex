@@ -20,5 +20,6 @@ from . import views
 urlpatterns = [
     path("", views.prayers, name = "prayers"),
     path("essentialPrayers", views.essentialPrayers, name = "essentialPrayers"),
+    path("simplePrayers", views.simplePrayers, name = "simplePrayers"),
     re_path(r'^prayer-details/(?P<page_alias>.+?)/$', views.prayerDetails , name = "prayerDetails")
 ]

@@ -19,6 +19,12 @@ html, body {
           display: none;
      }
 
+     .text-indent {
+           display: block;
+           padding-left: 20px;
+           text-indent: -20px;
+     }
+
      .mobile {
           display: block;
      }
@@ -318,7 +324,7 @@ html, body {
 
 @media (min-width: 860px) {
      .homePageHeader {
-          padding: 100px 16% 0px 16%;
+          padding: 100px 20% 0px 20%;
           font-family: 'Vollkorn SC', serif;
           font-size: 60px;
           line-height: 60px;
@@ -328,7 +334,7 @@ html, body {
      }
 
      .homePageSubHeader {
-          padding: 0px 16% 0px 16.3%;
+          padding: 0px 20% 0px 20.3%;
           font-family: 'Montserrat', serif;
           font-size: 15px;
           line-height: 22px;
@@ -459,14 +465,14 @@ html, body {
       .prayersCardBody {
             padding: 10px 0px 0px 0px;
             font-family: 'Vollkorn', serif;
-            font-size: 18px;
-            line-height: 22px;
+            font-size: 17px;
+            line-height: 20px;
             text-align: left;
             color: #999999;
       }
 
       .essentialPrayerDashboardRow {
-            padding: 20px 16% 10px 16%;
+            margin: 20px 20% 10px 20%;
             background-color: #FFFFFF;
       }
 
@@ -577,8 +583,8 @@ html, body {
       .prayersCardBody {
             padding: 10px 0px 0px 0px;
             font-family: 'Vollkorn', serif;
-            font-size: 18px;
-            line-height: 22px;
+            font-size: 17px;
+            line-height: 20px;
             text-align: left;
             color: #999999;
       }
@@ -732,7 +738,7 @@ html, body {
      }
 
      .prayersCardGoFurther {
-           padding: 10px 0px 0px 0px;
+           /* padding: 10px 0px 0px 0px; */
            font-family: 'Montserrat', serif;
            font-size: 12px;
            line-height: 16px;
@@ -747,25 +753,26 @@ html, body {
 /* ============================================================================== */
 
 @media (min-width: 860px) {
-     .prayerDetailsHeader {
-          padding: 100px 1% 0px 1%;
-          margin: 0px 16% 0px 16%;
+      .prayerDetailsHeader {
+          padding: 100px 1% 0px 0%;
+          margin: 0px 20% 0px 20%;
           font-family: 'Vollkorn SC', serif;
           font-size: 60px;
           line-height: 60px;
           text-align: left;
           color: #FFBF00;
           background-color: #FFFFFF;
-          /* border-bottom: solid #A9A9A9 3px;
-          border-radius: 8px */
+          content: '&#10016; Iesus &#10016;<br> &#10016; est &#10016;<br> &#10016;  Dominus &#10016;';
+          /* border-bottom: solid #A9A9A9 2px;
+          border-radius: 6px; */
      }
 
      .prayerDetailsTabs {
-          margin: 30px 2% 0px 2%;
+           margin: 0px 0px 0px 0px;
      }
 
      .prayerDetailsBody {
-           padding: 0px 0% 0px 0%;
+          padding: 0px 0px 0px 0px;
           font-family: 'Montserrat', serif;
           font-size: 15px;
           line-height: 22px;
@@ -775,127 +782,21 @@ html, body {
      }
 
      .prayerDetailsDashboard {
-          padding: 30px 16% 0px 16%;
+          padding: 16px 20% 10px 20%;
+          align-items: center;
      }
 
      .prayerDetailsPills {
-           margin: 0px 0% 0px 0%;
+           margin: 0px 0% 16px 0%;
             font-family: 'Montserrat', serif;
             font-size: 15px;
-           line-height: 22px;
+            line-height: 22px;
             text-align: left;
             color: #999999 !important;
             background-color: #FFFFFF !important;
             border: solid #FFBF00 2px;
             border-radius: 6px;
             box-shadow: #FFBF00 0px 0px 12px;
-     }
-
-     .pillBox {
-           position: inherit;
-           display: inline-grid;
-           margin: 0px 0px 0px 0px;
-           color: #999999;
-           width: 25%;
-     }
-
-     .prayerDetailsPills > li + li {
-           margin-left: 0px;
-      }
-
-     .prayerDetailsPills > li > a,
-     .prayerDetailsPills > li:hover > a {
-           padding: 15px 0px 15px 0px;
-           text-align: center;
-           color: #999999;
-           background-color: transparent;
-           border-radius: 0px;
-     }
-
-     .prayerDetailsPills > li.active > a,
-     .prayerDetailsPills > li.active > a:focus,
-     .prayerDetailsPills > li.active > a:hover {
-            color: #964B00;
-            background-color: transparent;
-            border-radius: 0px;
-            box-shadow: inset #FFBF00 0px 0px 40px;
-     }
-
-     .prayTabBody {
-          padding: 0px 0% 10px 0%;
-          text-align: left;
-          color: #999999;
-     }
-
-     .languageTag {
-          color: #000000;
-     }
-
-     .latinColor {
-          color: #FF007F;
-     }
-
-     .latinScript {
-          font-family: 'Vollkorn', serif;
-          font-size: 18px;
-          line-height: 22px;
-     }
-
-     .devnagariScript {
-          font-family: 'Sahitya', serif;
-          font-size: 19px;
-          line-height: 23px;
-     }
-
-     .btn-secondary {
-           margin: 0px;
-           text-align: left;
-     }
-}
-
-@media (max-width: 859.99px) {
-     .prayerDetailsHeader {
-          padding: 100px 1% 0px 1%;
-          margin: 0px 6% 0px 6%;
-          font-family: 'Vollkorn SC', serif;
-          font-size: 40px;
-          line-height: 40px;
-          text-align: left;
-          color: #FFBF00;
-          background-color: #FFFFFF;
-          /* border-bottom: solid #A9A9A9 3px;
-          border-radius: 8px */
-     }
-
-     .prayerDetailsTabs {
-          margin: 0px 1% 0px 1%;
-     }
-
-     .prayerDetailsBody {
-          font-family: 'Montserrat', serif;
-          font-size: 14px;
-          line-height: 21px;
-          text-align: left;
-          color: #999999;
-          background-color: #FFFFFF;
-     }
-
-     .prayerDetailsDashboard {
-           padding: 20px 6% 0px 6%;
-           align-items: center;
-     }
-
-     .prayerDetailsPills {
-           margin: 0px 0% 0px 0%;
-            font-family: 'Montserrat', serif;
-            font-size: 14px;
-           line-height: 21px;
-            text-align: left;
-            color: #999999 !important;
-            background-color: #FFFFFF !important;
-            border: solid #FFBF00 2px;
-            border-radius: 6px;
-            /* box-shadow: #FFBF00 0px 0px 12px; */
      }
 
      .pillBox,
@@ -913,52 +814,300 @@ html, body {
       }
 
      .prayerDetailsPills > li > a,
-     .prayerDetailsPills > li > a:hover {
-           padding: 14px 0px 14px 0px;
+     .prayerDetailsPills > li:hover > a {
+           padding: 12px 0px 12px 0px;
            text-align: center;
            color: #999999;
            background-color: transparent;
+           border-radius: 0px;
      }
 
      .prayerDetailsPills > li.active > a,
      .prayerDetailsPills > li.active > a:focus,
      .prayerDetailsPills > li.active > a:hover {
             color: #964B00;
+            font-style: normal;
             background-color: transparent;
             border-radius: 0px;
             box-shadow: inset #FFBF00 0px 0px 40px;
      }
 
-     .prayTabBody {
-           padding: 0px 0% 10px 0%;
-           text-align: left;
+      .tabCard {
+            padding: 10px 16px 30px 16px;
+            margin: 10px 0px 30px 0px;
+            min-height: 300px;
+            border: solid 2px #FFBF00;
+            border-radius: 10px;
+            box-shadow: 0px 0px 14px #FFBF00;
+      }
+
+      .prayTabBody {
+            padding: 10px 2% 0px 2%;
+            text-align: left;
+            color: #999999;
+      }
+
+      .aboutTabBody {
+            padding: 15px 2% 10px 2%;
+            text-align: left;
+            color: #999999;
+      }
+
+      .prayTabNote {
+            display: inline-block;
+            padding: 10px 5px 0px 5px;
+            font-size: 15px;
+            line-height: 15px;
+            vertical-align: middle;
+      }
+
+      .prayTabDropdown {
+            padding: 5px 2% 0px 2%;
+            text-align: right;
+      }
+
+      .prayTabDropdownText {
+            display: inline-block;
+            padding: 4px 5px 0px 0px;
+            font-size: 15px;
+            line-height: 15px;
+            vertical-align: middle;
+      }
+
+      .prayTabDropdownButton {
+            padding: 10px 15px 8px 10px;
+            margin: 8px 0px 4px 0px;
+            font-family: 'Vollkorn', serif;
+            font-size: 17px;
+            line-height: 17px;
+            text-align: right;
+            /* width: 150px; */
+            color: #000000;
+      }
+
+      .prayTabDropdownOption {
+            margin: 16px 0px 30px 0px;
+            /* position: fixed; */
+            border: 2px solid #FFBF00;
+            border-radius: 4px;
+            width: 260px;
+            height: 220px;
+            overflow: scroll;
+            z-index: 997;
+      }
+
+      .prayTabDropdownItem {
+            padding: 4px 10px 4px 10px;
+            font-family: 'Vollkorn', serif;
+            font-size: 17px;
+            line-height: 17px;
+            text-align: left;
+            color: #999999;
+      }
+
+      .languageTag {
+            font-family: 'Vollkorn', serif;
+            font-size: 16px;
+            line-height: 18px;
+            color: #000000;
+      }
+
+      .latinColor {
+            color: #FF007F;
+      }
+
+      .latinScript {
+            font-family: 'Vollkorn', serif;
+            font-size: 17px;
+            line-height: 17px;
+      }
+
+      .devnagariScript {
+            font-family: 'Sahitya', serif;
+            font-size: 19px;
+            line-height: 20px;
+      }
+}
+
+@media (max-width: 859.99px) {
+      .prayerDetailsHeader {
+          padding: 100px 0% 0px 0px;
+          margin: 0px 5% 0px 5%;
+          font-family: 'Vollkorn SC', serif;
+          font-size: 40px;
+          line-height: 40px;
+          text-align: left;
+          color: #FFBF00;
+          background-color: #FFFFFF;
+          content: '&#10016; Iesus &#10016;<br> &#10016; est &#10016;<br> &#10016;  Dominus &#10016;';
+          /* border-bottom: solid #A9A9A9 2px;
+          border-radius: 6px; */
+     }
+
+     .prayerDetailsTabs {
+           margin: 0px 0px 0px 0px;
+     }
+
+     .prayerDetailsBody {
+          padding: 0px 0px 0px 0px;
+          font-family: 'Montserrat', serif;
+          font-size: 14px;
+          line-height: 21px;
+          text-align: left;
+          color: #999999;
+          background-color: #FFFFFF;
+     }
+
+     .prayerDetailsDashboard {
+          padding: 10px 5% 0px 5%;
+          align-items: center;
+     }
+
+     .prayerDetailsPills {
+           margin: 0px 0% 10px 0%;
+            font-family: 'Montserrat', serif;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: left;
+            color: #999999 !important;
+            background-color: #FFFFFF !important;
+            border: solid #FFBF00 2px;
+            border-radius: 6px;
+            box-shadow: #FFBF00 0px 0px 12px;
+     }
+
+     .pillBox,
+     .pillBox:hover {
+           position: inherit;
+           display: inline-grid;
+           margin: 0px 0px 0px 0px;
            color: #999999;
+           background-color: transparent;
+           width: 25%;
      }
 
-     .languageTag {
-           color: #000000;
+     .prayerDetailsPills > li + li {
+           margin-left: 0px;
+      }
+
+     .prayerDetailsPills > li > a,
+     .prayerDetailsPills > li:hover > a {
+           padding: 12px 0px 12px 0px;
+           text-align: center;
+           color: #999999;
+           background-color: transparent;
+           border-radius: 0px;
      }
 
-     .latinColor {
-           color: #FF007F;
+     .prayerDetailsPills > li.active > a,
+     .prayerDetailsPills > li.active > a:focus,
+     .prayerDetailsPills > li.active > a:hover {
+            color: #964B00;
+            font-style: normal;
+            background-color: transparent;
+            border-radius: 0px;
+            box-shadow: inset #FFBF00 0px 0px 40px;
      }
 
-     .latinScript {
-           font-family: 'Vollkorn', serif;
-           font-size: 18px;
-           line-height: 22px;
-     }
+      .tabCard {
+            padding: 10px 16px 20px 16px;
+            margin: 10px 0px 30px 0px;
+            min-height: 300px;
+            border: solid 2px #FFBF00;
+            border-radius: 10px;
+            box-shadow: 0px 0px 14px #FFBF00;
+      }
 
-     .devnagariScript {
-           font-family: 'Sahitya', serif;
-           font-size: 20px;
-           line-height: 24px;
-     }
+      .prayTabBody {
+            padding: 10px 2% 0px 2%;
+            text-align: left;
+            color: #999999;
+      }
+
+      .aboutTabBody {
+            padding: 15px 2% 10px 2%;
+            text-align: left;
+            color: #999999;
+      }
+
+      .prayTabNote {
+            display: inline-block;
+            padding: 10px 5px 0px 5px;
+            font-size: 14px;
+            line-height: 14px;
+            vertical-align: middle;
+      }
+
+      .prayTabDropdown {
+            padding: 5px 2% 0px 2%;
+            text-align: right;
+            position: static;
+      }
+
+      .prayTabDropdownText {
+            display: inline-block;
+            padding: 4px 5px 0px 0px;
+            font-size: 14px;
+            line-height: 14px;
+            vertical-align: middle;
+      }
+
+      .prayTabDropdownButton {
+            padding: 10px 15px 8px 10px;
+            margin: 8px 0px 4px 0px;
+            font-family: 'Vollkorn', serif;
+            font-size: 16px;
+            line-height: 16px;
+            text-align: right;
+            /* width: 150px; */
+            color: #000000;
+      }
+
+      .prayTabDropdownOption {
+            margin: 16px 0px 20px 0px;
+            /* position: fixed; */
+            width: 260px;
+            height: 212px;
+            overflow: scroll;
+            z-index: 997;
+      }
+
+      .prayTabDropdownItem {
+            padding: 4px 10px 4px 10px;
+            font-family: 'Vollkorn', serif;
+            font-size: 16px;
+            line-height: 16px;
+            text-align: left;
+            color: #999999;
+      }
+
+      .languageTag {
+            font-family: 'Vollkorn', serif;
+            font-size: 16px;
+            line-height: 18px;
+            color: #000000;
+      }
+
+      .latinColor {
+            color: #FF007F;
+      }
+
+      .latinScript {
+            font-family: 'Vollkorn', serif;
+            font-size: 16px;
+            line-height: 16px;
+      }
+
+      .devnagariScript {
+            font-family: 'Sahitya', serif;
+            font-size: 18px;
+            line-height: 19px;
+      }
 }
 
 @media (max-width: 767.99px) {
      .prayerDetailsHeader {
-          padding: 80px 0% 0px 5px;
+          padding: 80px 0% 0px 0px;
           margin: 0px 5% 0px 5%;
           font-family: 'Vollkorn SC', serif;
           font-size: 28px;
@@ -967,8 +1116,6 @@ html, body {
           color: #FFBF00;
           background-color: #FFFFFF;
           content: '&#10016; Iesus &#10016;<br> &#10016; est &#10016;<br> &#10016;  Dominus &#10016;';
-          /* border-bottom: solid #A9A9A9 2px;
-          border-radius: 6px; */
      }
 
      .prayerDetailsTabs {
@@ -1039,6 +1186,7 @@ html, body {
       .tabCard {
             padding: 10px 16px 20px 16px;
             margin: 10px 0px 30px 0px;
+            min-height: inherit;
             border: solid 2px #FFBF00;
             border-radius: 10px;
             box-shadow: 0px 0px 14px #FFBF00;
@@ -1093,7 +1241,7 @@ html, body {
             margin: 16px 0px 20px 0px;
             /* position: fixed; */
             width: 260px;
-            height: 196px;
+            height: 170px;
             overflow: scroll;
             z-index: 997;
       }

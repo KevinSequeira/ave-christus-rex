@@ -6,13 +6,21 @@ def prayers(request):
     context = {}
     return render(request, "prayers.html", context)
 
+def simplePrayers(request):
+    context = {}
+    return render(request, "simplePrayers.html", context)
+
 def essentialPrayers(request):
     context = {}
     return render(request, "essentialPrayers.html", context)
 
-def prayerDetails(request, page_alias="this"):
+def prayerDetails(request, page_alias = "this"):
     context = {
-        page_alias: 'in-nomine-patris',
+        page_alias: "in-nomine-patris",
         "prayer_dictionary": prayerdictionary()
     }
-    return render(request, "prayerDetails.html", context)
+    prayerPages = {
+        "in-nomine-patris": "signumCrucis.html",
+        "pater-noster": "paterNoster.html"
+    }
+    return render(request, prayerPages[page_alias], context)

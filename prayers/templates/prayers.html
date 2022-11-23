@@ -1,196 +1,369 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en" class=" js cssanimations" dir="ltr">
+<html lang="en">
+      <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+            <meta name="description" content="">
+            <meta name="author" content="">
+            <link rel="icon" href="../../favicon.ico">
+            <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/">
 
-<head>
+            <title>Prayers | Ave Christus Rex</title>
 
-     <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<meta name="description" content="Prayers | Ave Christus Rex">
-	<meta name="author" content="Dei Gloriam">
-	<link rel="icon" href="favicon.ico">
-     <meta name="viewport" content="width = device-width, initial-scale = 1, shrink-to-fit = no">
+            <!-- Bootstrap core CSS -->
+            <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
 
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-     <script language="javascript" type="text/javascript"></script>
+            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+            <link href="{% static 'css/ie10-viewport-bug-workaround.css' %}" rel="stylesheet">
 
-     <title>Prayers | Ave Christus Rex</title>
+            <!-- Custom styles for this template -->
+            <link href="{% static 'css/navbar.css' %}" rel="stylesheet">
 
-     <!-- Bootstrap core CSS -->
-     <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+            <!-- This is the link to the fonts taken from Google Fonts! -->
+            <link href="https://fonts.googleapis.com/css?family=Alegreya|Advent+Pro|Bahiana|Averia+Sans+Libre|Balthazar|Belgrano|Black+Ops+One|Bungee+Inline|Cherry+Swash|Coda|Cormorant+Infant|Delius+Swash+Caps|El+Messiri|Euphoria+Script|Expletus+Sans|Fredericka+the+Great|Gafata|Graduate|Italiana|Kotta+One|Kumar+One+Outline|Lemon|Life+Savers|Londrina+Outline|Londrina+Solid|Medula+One|Montserrat+Alternates|Mouse+Memoirs|Mystery+Quest|Oleo+Script|Podkova|Port+Lligat+Slab|Raleway|Revalia|Salsa|Sue+Ellen+Francisco|Tienne|Patua+One|Russo+One|Righteous|Poiret+One|Exo|Lobster+Two|Quattrocento|Days+One|Julius+Sans+One|Jura|Lustria|Josefin+Sans|Yanone+Kaffeesatz|Nunito|Josefin+Slab|Stint+Ultra+Expanded|Junge|Italiana|Life+Savers|Athiti|Londrina+Outline|Scope+One|Kaushan+Script|Kumar+One|Orbitron|Poiret+One|Proza+Libre|Architects+Daughter|Griffy|Open+Sans+Condensed:300|Quicksand|Gloria+Hallelujah|Tulpen+One|Text+Me+One|Love+Ya+Like+A+Sister|Megrim|Cinzel+Decorative|Caveat+Brush|Vollkorn+SC|Laila:wght@600|Sumana|Yatra+One|Sahitya:wght@700Ecar:wght@500|Montserrat"
+                  rel="stylesheet">
 
-     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-     <link href="{% static 'css/ie10-viewport-bug-workaround.css' %}" rel="stylesheet">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+            <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+            <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+            <![endif]-->
+      </head>
 
-     <script src="{% static 'js/jsForSurveys.js' %}"></script>
+      <body>
 
-     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
-     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-     <!--[if lt IE 9]>
-     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-     <![endif]-->
-
-     <link href="{% static 'css/cssForCatholicPrayers.css' %}" rel="stylesheet">
-
-     <!-- This is the link to the fonts taken from Google Fonts! -->
-     <link
-     href="https://fonts.googleapis.com/css?family=Alegreya|Advent+Pro|Bahiana|Averia+Sans+Libre|Balthazar|Belgrano|Black+Ops+One|Bungee+Inline|Cherry+Swash|Coda|Cormorant+Infant|Delius+Swash+Caps|El+Messiri|Euphoria+Script|Expletus+Sans|Fredericka+the+Great|Gafata|Graduate|Italiana|Kotta+One|Kumar+One+Outline|Lemon|Life+Savers|Londrina+Outline|Londrina+Solid|Medula+One|Montserrat+Alternates|Mouse+Memoirs|Mystery+Quest|Oleo+Script|Podkova|Port+Lligat+Slab|Raleway|Revalia|Salsa|Sue+Ellen+Francisco|Tienne|Patua+One|Russo+One|Righteous|Poiret+One|Exo|Lobster+Two|Quattrocento|Days+One|Julius+Sans+One|Jura|Lustria|Josefin+Sans|Yanone+Kaffeesatz|Nunito|Josefin+Slab|Stint+Ultra+Expanded|Junge|Italiana|Life+Savers|Athiti|Londrina+Outline|Scope+One|Kaushan+Script|Kumar+One|Orbitron|Poiret+One|Proza+Libre|Architects+Daughter|Griffy|Open+Sans+Condensed:300|Quicksand|Gloria+Hallelujah|Tulpen+One|Text+Me+One|Love+Ya+Like+A+Sister|Megrim|Cinzel+Decorative|Caveat+Brush|Vollkorn+SC|Laila:wght@600|Sumana|Yatra+One|Sahitya:wght@700Eczar:wght@500|Montserrat"
-          rel="stylesheet">
-     <!-- Last used Google Fonts Page: https://fonts.google.com/?selection.family=Advent+Pro|Alex+Brush|Amatic+SC|Anton|Black+Ops+One|Bubbler+One|Cabin+Sketch|Comfortaa|Dosis|Eagle+Lake|Exo|Fjalla+One|Flamenco|Graduate|Hammersmith+One|Josefin+Sans|Josefin+Slab|Kaushan+Script|Lobster|Megrim|Monda|Montserrat|Montserrat+Alternates|Montserrat+Subrayada|Neucha|Nixie+One|Open+Sans+Condensed:300|Oswald|Patua+One|Philosopher|Play|Playfair+Display|Poiret+One|Proza+Libre|Quicksand|Raleway|Righteous|Russo+One|Schoolbell|Viga&sort=date !-->
-
-     <!-- Custom JavaScript -->
-     <script src=""></script>
-
-     <!-- jQuery -->
-     <script src="{% static 'js/jquery.js' %}"></script>
-
-     <!-- Bootstrap Core JavaScript -->
-     <script src="{% static 'js/bootstrap.min.js' %}"></script>
-     <script src="{% static 'js/progressbar.js' %}"></script>
-
-     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-     <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-     <script>
-          // $(function() {
-          // 	var availableTags = {{ autocompleteStrings|safe }};
-          // 	$("#homePageTextbox").autocomplete({
-          // 		 source: function(request, response) {
-          //                 var results = $.ui.autocomplete.filter(availableTags, request.term);
-          //                 response(results.slice(0, 6));
-          //            }
-          // 	});
-          // });
-     </script>
-
-</head>
-
-<body>
-
-      <nav class="navbar navbar-inverse navbar-fixed-top navbarTop">
             <div class="container">
-                  <div class="navbar-header">
-                        <button id="changeToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                        aria-expanded="false" aria-controls="navbar">
-                        <div id="navbar-hamburger" class="navbar-hamburger">
-                              <span class="sr-only">Toggle navigation</span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
+
+                  <!-- Static navbar -->
+                  <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                              <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                          <span class="sr-only">Toggle navigation</span>
+                                          <span class="icon-bar"></span>
+                                          <span class="icon-bar"></span>
+                                          <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand" href="#">avechristusrex.com</a>
+                              </div>
+                              <div id="navbar" class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav">
+                                          <!-- <li class="inactive"><a href="#">Home</a></li> -->
+                                          <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prayers <span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                      <li class="dropdown-header">Learning to Pray</li>
+                                                      <li><a href="#">What is Prayer?</a></li>
+                                                      <li><a href="#">Common Prayers</a></li>
+                                                      <li><a href="#">Important Prayers</a></li>
+                                                      <li><a href="#">More...</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Christian Reading</li>
+                                                      <li><a href="#">Holy Scripture</a></li>
+                                                      <li><a href="#">Catechism of the Catholic Church</a></li>
+                                                      <li><a href="#">Book of the Week</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Devotions</li>
+                                                      <li><a href="#">Most Sacred Heart of Jesus</a></li>
+                                                      <li><a href="#">Divine Mercy</a></li>
+                                                      <li><a href="#">Most Holy Rosary</a></li>
+                                                      <li><a href="#">More...</a></li>
+                                                      <br>
+                                                </ul>
+                                          </li>
+                                          <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Liturgy <span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                      <li class="dropdown-header">Missale Romanum</li>
+                                                      <li><a href="#">Missa Tridentina</a></li>
+                                                      <li><a href="#">Novus Ordo Missæ</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Liturgy of the Hours</li>
+                                                      <li><a href="#">Matins</a></li>
+                                                      <li><a href="#">Lauds</a></li>
+                                                      <li><a href="#">Terce</a></li>
+                                                      <li><a href="#">Sext</a></li>
+                                                      <li><a href="#">None</a></li>
+                                                      <li><a href="#">Vespers</a></li>
+                                                      <li><a href="#">Compline</a></li>
+                                                      <br>
+                                                </ul>
+                                          </li>
+                                          <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sacraments <span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <br>
+                                                </ul>
+                                          </li>
+                                          <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other <span class="caret"></span></a>
+                                                <ul class="dropdown-menu last-dropdown">
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <br>
+                                                </ul>
+                                          </li>
+                                    </ul>
+                              </div><!--/.nav-collapse -->
+                        </div><!--/.container-fluid -->
+                  </nav>
+
+                  <!-- Fixed navbar -->
+                  <!-- <nav class="navbar navbar-default navbar-fixed-top">
+                        <div class="container-fluid">
+                              <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                          <span class="sr-only">Toggle navigation</span>
+                                          <span class="icon-bar"></span>
+                                          <span class="icon-bar"></span>
+                                          <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand" href="#">avechristusrex.com</a>
+                              </div>
+                              <div id="navbar" class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav">
+                                          <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prayers <span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                      <li class="dropdown-header">Learning to Pray</li>
+                                                      <li><a href="#">What is Prayer?</a></li>
+                                                      <li><a href="#">Common Prayers</a></li>
+                                                      <li><a href="#">Important Prayers</a></li>
+                                                      <li><a href="#">More...</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Christian Reading</li>
+                                                      <li><a href="#">Holy Scripture</a></li>
+                                                      <li><a href="#">Catechism of the Catholic Church</a></li>
+                                                      <li><a href="#">Book of the Week</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Devotions</li>
+                                                      <li><a href="#">Most Sacred Heart of Jesus</a></li>
+                                                      <li><a href="#">Divine Mercy</a></li>
+                                                      <li><a href="#">Most Holy Rosary</a></li>
+                                                      <li><a href="#">More...</a></li>
+                                                      <br>
+                                                </ul>
+                                          </li>
+                                          <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Liturgy <span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                      <li class="dropdown-header">Missale Romanum</li>
+                                                      <li><a href="#">Missa Tridentina</a></li>
+                                                      <li><a href="#">Novus Ordo Missæ</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Liturgy of the Hours</li>
+                                                      <li><a href="#">Matins</a></li>
+                                                      <li><a href="#">Lauds</a></li>
+                                                      <li><a href="#">Terce</a></li>
+                                                      <li><a href="#">Sext</a></li>
+                                                      <li><a href="#">None</a></li>
+                                                      <li><a href="#">Vespers</a></li>
+                                                      <li><a href="#">Compline</a></li>
+                                                      <br>
+                                                </ul>
+                                          </li>
+                                          <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sacraments <span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <br>
+                                                </ul>
+                                          </li>
+                                          <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other <span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <br>
+                                                </ul>
+                                          </li>
+                                    </ul>
+                              </div>
                         </div>
-                        <div id="navbar-close" class="hidden navbar-close">
-                              <img src="{% static 'images/close.png' %}" alt="{% static 'images/close.png' %}"
-                              width="15" height="15">
-                              <!-- <span class="glyphicon glyphicon-remove"></span> -->
-                              <!-- <span class="sr-only">Toggle navigation</span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span> -->
+                  </nav> -->
+
+                  <div class="row">
+                        <div class="col-sm-6 row-left">
+                              <div class="jumbotron simplePrayersBackground">
+                                    <h2>Simple Prayers</h2>
+                                    <p>Easy to remember prayers for when we run out of words.
+                                    Our God is never too far away from us.</p>
+                                    <a><button class="btn default">Read more...</button></a>
+                              </div>
                         </div>
-                        </button>
-                        <a class="navbar-brand" style="color: #FFFFFF" href="http://deigloriam.com">ave christus rex</a>
+                        <div class="col-sm-6 row-right">
+                              <div class="jumbotron liturgicalPrayersBackground">
+                                    <h2>Liturgical Prayers</h2>
+                                    <p>Prayers for public and private worship, rich in doctrine;
+                                          a must know for every Christian.</p>
+                                    <a><button class="btn default">Read more...</button></a>
+                              </div>
+                        </div>
                   </div>
-                  <div id="navbar" class="collapse navbar-collapse" aria-expanded="false" style="height: 1px">
-                        <ul class="nav navbar-nav navbar-right">
-                              <li class="dropdown nav-dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                    aria-expanded="true" style="color: #FFFFFF">About Us&nbsp;<span class="caret"></span></a>
-                                    <ul class="shadow p-3 mb-5 bg-white rounded dropdown-menu nav-dropdown-menu">
-                                          <li><a id="howWeStarted" href="#myCarousel">Who we are<span class="responsiveMobile"><span class="responsiveMobile">&nbsp;&#9666;</span></span></a></li>
-                                          <li><a id="wwdDataAnalytics" href="#myCarousel">How we started<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Christianity: Faith and Religion<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Technology and Tradition<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Society and Scripture<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Morals; Ethics; Values<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">No money; More Support<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                    </ul>
-                              </li>
-                              <li class="dropdown nav-dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                    aria-expanded="true" style="color: #FFFFFF">Our Faith&nbsp;<span class="caret"></span></a>
-                                    <ul class="shadow p-3 mb-5 bg-white rounded dropdown-menu nav-dropdown-menu">
-                                          <li><a id="projDataAnalytics" href="#myCarousel">God, His Creation and Us<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="projDataAnalytics" href="#myCarousel">God: Father; Son; Holy Spirit<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="projCloudComputing" href="#myCarousel">Separation from God<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="projWebAppDev" href="#myCarousel">Salvation in Jesus Christ<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="projMachineLearning" href="#myCarousel">Our Mission as Christians<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="projDigitalAdoption" href="#myCarousel">Heaven, Hell and Purgatory<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="projDigitalAdoption" href="#myCarousel">Intercession of the Saints<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="projDigitalAdoption" href="#myCarousel">The Blessed Virgin Mary<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="projDigitalAdoption" href="#myCarousel">St. Joseph, father of Jesus<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="projDigitalAdoption" href="#myCarousel">The Holy Family<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Intercession of the Saints<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Church Militant: Faithful On Earth<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Church Penitent: Souls in Purgatory<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Church Triumphant: Life in Heaven<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">See more...<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                    </ul>
-                              </li>
-                              <li class="dropdown nav-dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                    aria-expanded="true" style="color: #FFFFFF">Our Religion&nbsp;<span class="caret"></span></a>
-                                    <ul class="shadow p-3 mb-5 bg-white rounded dropdown-menu nav-dropdown-menu">
-                                          <li><a id="gitCareers" href="#myCarousel">The Church is Catholic<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">The Holy Mass: How we Worship<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Sacred Tradition through the Ages<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Sacred Scripture: the Word of God<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Magisterium of the Church<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Sacraments of the Catholic Church<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Catholic Prayers and Devotions<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Catechism of the Catholic Church<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">The Priest: Leading the Church<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">The Catholic Religious Life<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Manhood: Christlike Leadership<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Womanhood: Christlike Discipleship<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Family: Image of the Trinity<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">The Saints: Men and Women of God<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                          <li><a id="gitLetsGetWorking" href="#myCarousel">See more...<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
-                                    </ul>
-                              </li>
-                              <!-- <li><a href="Build a Video Tutorial with Me.html">Learn more about me!</a></li> !-->
-                              <li><a id="getInTouch" href="#">Get in touch</a></li>
-                        </ul>
+                  <div class="row">
+                        <div class="col-sm-6 row-left">
+                              <div class="jumbotron morningPrayersBackground">
+                                    <h2>Morning Prayers</h2>
+                                    <p>Communicating with God is the best way to begin your day.
+                                          Praise, thank, and worship Him.</p>
+                                    <a><button class="btn default">Read more...</button></a>
+                              </div>
+                        </div>
+                        <div class="col-sm-6 row-right">
+                              <div class="jumbotron eveningPrayersBackground">
+                                    <h2>Evening Prayers</h2>
+                                    <p>Talk to God before you resign for the day.
+                                          Tell him how you feel, and remain in his presence.</p>
+                                    <a><button class="btn default">Read more...</button></a>
+                              </div>
+                        </div>
                   </div>
-            <!--/.nav-collapse -->
-            </div>
-      </nav>
+                  <div class="row">
+                        <div class="col-sm-6 row-left">
+                              <div class="jumbotron mostHolyRosaryBackground">
+                                    <h2>Most Holy Rosary</h2>
+                                    <p>Pray and meditate on the words of the world's most popular Catholic devotion.</p>
+                                    <a><button class="btn default">Read more...</button></a>
+                              </div>
+                        </div>
+                        <div class="col-sm-6 row-right">
+                              <div class="jumbotron novenasBackground">
+                                    <h2>Novenas</h2>
+                                    <p>Prayers and popular spiritual exercises that help us grow closer to our Lord Jesus Christ.</p>
+                                    <a><button class="btn default">Read more...</button></a>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="row">
+                        <div class="col-sm-6 row-left">
+                              <div class="jumbotron beforeCommunionBackground">
+                                    <h2>Before Communion</h2>
+                                    <p>Prayers to prepare ourselves to receive the Most Holy Body and Blood of our Lord Jesus Christ.</p>
+                                    <a><button class="btn default">Read more...</button></a>
+                              </div>
+                        </div>
+                        <div class="col-sm-6 row-right">
+                              <div class="jumbotron afterCommunionBackground">
+                                    <h2>After Communion</h2>
+                                    <p>Prayers of thanksgiving, and supplication after we have received the Body and Blood of Christ.</p>
+                                    <a><button class="btn default">Read more...</button></a>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="row">
+                        <div class="col-sm-6 row-left">
+                              <div class="jumbotron beforeConfessionBackground">
+                                    <h2>Before Confession</h2>
+                                    <p>Here, in the Sacrament of Reconciliation, the Lord brings us healing and forgiveness.</p>
+                                    <a><button class="btn default">Read more...</button></a>
+                              </div>
+                        </div>
+                        <div class="col-sm-6 row-right">
+                              <div class="jumbotron afterConfessionBackground">
+                                    <h2>After Confession</h2>
+                                    <p>Prayers of penance and thanksgiving for the Lord has reconciled us to Himself.</p>
+                                    <a><button class="btn default">Read more...</button></a>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="row">
+                        <div class="col-sm-6 row-left">
+                              <div class="jumbotron popularDevotionsBackground">
+                                    <h2>Popular Devotions</h2>
+                                    <p>Pious practices that join us in our faith with the rest of the Universal Church of God.</p>
+                                    <a><button class="btn default">Read more...</button></a>
+                              </div>
+                        </div>
+                  </div>
 
-      <nav class="navbar-fixed-top navbar-background" style="background: #FFBF00">
-      </nav>
+                  <hr>
 
-      <div id="homePage" class="homePage">
-            <div id="homePageHeader" class="homePageHeader">
-                  Catholic Prayers
-            </div>
-            <div id="homePageSubHeader" class="homePageSubHeader">
-                  Through the centuries the Catholic Church has encouraged Christians to pray in Spirit and in Truth<sup>[1]</sup>. So that
-                  Catholic Faithful may be able to grow spiritually the Church has recorded various prayers and promoted devotional practices.
-                  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Church has formulated prayers to help Christians draw closer to God and find
-                  strength and courage in Him. Many of these prayers are rooted in Holy Scripture - the Holy Bible - while others have been revealed
-                  to Christian Saints through mystical experiences, visions and apparitions.
-                  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These formulaic prayers have brought immense graces to Christians around the world, resulting in
-                  miracles in the lives of faithful Christians, and explosions of faith in places where the Church is persecuted.
-                  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We hope this repository of prayers helps you in your own journey towards Eternal Life in Jesus Christ.
-            </div>
-      </div>
+            </div> <!-- /container -->
 
-      <div id="prayerDashboard" class="prayerDashboard">
-            <div id="prayerDashboardRow" class="row prayerDashboardRow widescreen">
-                  {% include 'template-parts/widescreenPrayers.html' %}
-            </div>
-            <div id="prayerDashboardRow" class="row prayerDashboardRow mobile">
-                  {% include 'template-parts/mobilePrayers.html' %}
-            </div>
-      </div>
 
-</body>
-
+            <!-- Bootstrap core JavaScript
+            ================================================== -->
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+            <script src="{% static 'js/bootstrap.min.js' %}"></script>
+            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+            <script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>
+            <!-- Home Page CSS -->
+            <link href="{% static 'css/cssForPrayersPage.css' %}" rel="stylesheet">
+      </body>
 </html>
