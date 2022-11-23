@@ -1,0 +1,151 @@
+body {
+      padding: 20px 0px 20px 0px;
+      /* background: url('../images/Analytics 003.png') */
+}
+
+.container-fluid {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+}
+
+.navbar {
+      margin-bottom: 20px;
+}
+
+.navbar-default .navbar-toggle:focus {
+      background: transparent;
+}
+
+.navbar-brand {
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-weight: bold;
+      line-height: 18px;
+}
+
+.navbar-default {
+      font-family: 'Merriweather', serif;
+      background-color: transparent;
+      border: 0px;
+      border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+      color: #D7B546;
+}
+
+.dropdown-header {
+      padding: 5px 15px 5px 15px;
+}
+
+.navbar-default .navbar-nav>li>a {
+      font-size: 16px;
+}
+
+.navbar-nav .open .dropdown-menu>li>a  {
+      font-size: 14px;
+      line-height: 16px;
+}
+
+@media (max-width: 767px) {
+      .container-fluid {
+          padding: 0px 15px 0px 15px;
+          margin-right: auto;
+          margin-left: auto;
+          background-color: transparent;
+      }
+
+      .navbar {
+            margin-bottom: 0px;
+      }
+
+      .navbar-header {
+            margin: 0px 0px 20px 0px;
+      }
+
+      .navbar-brand {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: bold;
+            line-height: 18px;
+      }
+
+      .navbar-default {
+            font-family: 'Merriweather', serif;
+            background-color: transparent;
+            border-color: transparent;
+      }
+
+      .navbar-default .navbar-brand {
+            color: #D7B546;
+      }
+
+      .navbar-nav .open .dropdown-menu .dropdown-header {
+            font-size: 12px;
+            padding: 5px 15px 5px 15px;
+      }
+
+      .navbar-default .navbar-nav>li>a {
+            font-size: 14px;
+      }
+
+      .navbar-nav .open .dropdown-menu>li>a  {
+            font-size: 14px;
+            line-height: 12px;
+      }
+
+      .last-dropdown {
+            margin-bottom: 20px;
+      }
+}
+
+@media (max-width: 320px) {
+      body {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            /* background: url('../images/Analytics 003.png') */
+      }
+
+      .container {
+            padding: 0px 10px 0px 10px;
+      }
+
+      .container-fluid {
+          padding-right: 10px;
+          padding-left: 10px;
+          margin-right: auto;
+          margin-left: auto;
+          background-color: transparent;
+      }
+
+      .navbar {
+            margin-bottom: 0px;
+      }
+
+      .navbar-brand {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: bold;
+            line-height: 18px;
+      }
+
+      .navbar-default {
+            font-family: 'Merriweather', serif;
+            background-color: transparent;
+            border-color: transparent;
+      }
+
+      .navbar-default .navbar-brand {
+            color: #D7B546;
+      }
+
+      .navbar-default .navbar-nav>li>a {
+            font-size: 14px;
+      }
+
+      .navbar-nav .open .dropdown-menu>li>a  {
+            font-size: 14px;
+            line-height: 12px;
+      }
+
+}

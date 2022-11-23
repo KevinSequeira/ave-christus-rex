@@ -1,0 +1,404 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" class=" js cssanimations" dir="ltr">
+
+<head>
+
+     <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="Prayers | Ave Christus Rex">
+	<meta name="author" content="Dei Gloriam">
+	<link rel="icon" href="favicon.ico">
+     <meta name="viewport" content="width = device-width, initial-scale = 1, shrink-to-fit = no">
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script language="javascript" type="text/javascript"></script>
+
+     <title>Pater Noster | Ave Christus Rex</title>
+
+     <!-- Bootstrap core CSS -->
+     <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+
+     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+     <link href="{% static 'css/ie10-viewport-bug-workaround.css' %}" rel="stylesheet">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+     <script src="{% static 'js/jsForPrayers.js' %}"></script>
+
+     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+     <!--[if lt IE 9]>
+     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+     <![endif]-->
+
+     <link href="{% static 'css/cssForCatholicPrayers.css' %}" rel="stylesheet">
+
+     <!-- This is the link to the fonts taken from Google Fonts! -->
+     <link
+     href="https://fonts.googleapis.com/css?family=Alegreya|Advent+Pro|Bahiana|Averia+Sans+Libre|Balthazar|Belgrano|Black+Ops+One|Bungee+Inline|Cherry+Swash|Coda|Cormorant+Infant|Delius+Swash+Caps|El+Messiri|Euphoria+Script|Expletus+Sans|Fredericka+the+Great|Gafata|Graduate|Italiana|Kotta+One|Kumar+One+Outline|Lemon|Life+Savers|Londrina+Outline|Londrina+Solid|Medula+One|Montserrat+Alternates|Mouse+Memoirs|Mystery+Quest|Oleo+Script|Podkova|Port+Lligat+Slab|Raleway|Revalia|Salsa|Sue+Ellen+Francisco|Tienne|Patua+One|Russo+One|Righteous|Poiret+One|Exo|Lobster+Two|Quattrocento|Days+One|Julius+Sans+One|Jura|Lustria|Josefin+Sans|Yanone+Kaffeesatz|Nunito|Josefin+Slab|Stint+Ultra+Expanded|Junge|Italiana|Life+Savers|Athiti|Londrina+Outline|Scope+One|Kaushan+Script|Kumar+One|Orbitron|Poiret+One|Proza+Libre|Architects+Daughter|Griffy|Open+Sans+Condensed:300|Quicksand|Gloria+Hallelujah|Tulpen+One|Text+Me+One|Love+Ya+Like+A+Sister|Megrim|Cinzel+Decorative|Caveat+Brush|Vollkorn+SC|Laila:wght@600|Sumana|Yatra+One|Sahitya:wght@700Eczar:wght@500|Montserrat|Vollkorn|Sumana|Sahitya"
+          rel="stylesheet">
+     <!-- Last used Google Fonts Page: https://fonts.google.com/?selection.family=Advent+Pro|Alex+Brush|Amatic+SC|Anton|Black+Ops+One|Bubbler+One|Cabin+Sketch|Comfortaa|Dosis|Eagle+Lake|Exo|Fjalla+One|Flamenco|Graduate|Hammersmith+One|Josefin+Sans|Josefin+Slab|Kaushan+Script|Lobster|Megrim|Monda|Montserrat|Montserrat+Alternates|Montserrat+Subrayada|Neucha|Nixie+One|Open+Sans+Condensed:300|Oswald|Patua+One|Philosopher|Play|Playfair+Display|Poiret+One|Proza+Libre|Quicksand|Raleway|Righteous|Russo+One|Schoolbell|Viga&sort=date !-->
+
+     <!-- Custom JavaScript -->
+     <script src=""></script>
+
+     <!-- jQuery -->
+     <script src="{% static 'js/jquery.js' %}"></script>
+
+     <!-- Bootstrap Core JavaScript -->
+     <script src="{% static 'js/bootstrap.min.js' %}"></script>
+     <script src="{% static 'js/progressbar.js' %}"></script>
+
+     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+     <script>
+          // $(function() {
+          // 	var availableTags = {{ autocompleteStrings|safe }};
+          // 	$("#homePageTextbox").autocomplete({
+          // 		 source: function(request, response) {
+          //                 var results = $.ui.autocomplete.filter(availableTags, request.term);
+          //                 response(results.slice(0, 6));
+          //            }
+          // 	});
+          // });
+     </script>
+
+</head>
+
+<body>
+
+      <nav class="navbar navbar-inverse navbar-fixed-top navbarTop">
+            <div class="container">
+                  <div class="navbar-header">
+                        <button id="changeToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                        <div id="navbar-hamburger" class="navbar-hamburger">
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                        </div>
+                        <div id="navbar-close" class="hidden navbar-close">
+                              <img src="{% static 'images/close.png' %}" alt="{% static 'images/close.png' %}"
+                              width="15" height="15">
+                              <!-- <span class="glyphicon glyphicon-remove"></span> -->
+                              <!-- <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span> -->
+                        </div>
+                        </button>
+                        <a class="navbar-brand" style="color: #FFFFFF" href="http://deigloriam.com">ave christus rex</a>
+                  </div>
+                  <div id="navbar" class="collapse navbar-collapse" aria-expanded="false" style="height: 1px">
+                        <ul class="nav navbar-nav navbar-right">
+                              <li class="dropdown nav-dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-expanded="true" style="color: #FFFFFF">About Us&nbsp;<span class="caret"></span></a>
+                                    <ul class="shadow p-3 mb-5 bg-white rounded dropdown-menu nav-dropdown-menu">
+                                          <li><a id="howWeStarted" href="#myCarousel">Who we are<span class="responsiveMobile"><span class="responsiveMobile">&nbsp;&#9666;</span></span></a></li>
+                                          <li><a id="wwdDataAnalytics" href="#myCarousel">How we started<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Christianity: Faith and Religion<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Technology and Tradition<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Society and Scripture<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Morals; Ethics; Values<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">No money; More Support<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                    </ul>
+                              </li>
+                              <li class="dropdown nav-dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-expanded="true" style="color: #FFFFFF">Our Faith&nbsp;<span class="caret"></span></a>
+                                    <ul class="shadow p-3 mb-5 bg-white rounded dropdown-menu nav-dropdown-menu">
+                                          <li><a id="projDataAnalytics" href="#myCarousel">God, His Creation and Us<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="projDataAnalytics" href="#myCarousel">God: Father; Son; Holy Spirit<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="projCloudComputing" href="#myCarousel">Separation from God<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="projWebAppDev" href="#myCarousel">Salvation in Jesus Christ<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="projMachineLearning" href="#myCarousel">Our Mission as Christians<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="projDigitalAdoption" href="#myCarousel">Heaven, Hell and Purgatory<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="projDigitalAdoption" href="#myCarousel">See more<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                    </ul>
+                              </li>
+                              <li class="dropdown nav-dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-expanded="true" style="color: #FFFFFF">Our Religion&nbsp;<span class="caret"></span></a>
+                                    <ul class="shadow p-3 mb-5 bg-white rounded dropdown-menu nav-dropdown-menu">
+                                          <li><a id="gitCareers" href="#myCarousel">The Church is Catholic<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">The Holy Mass: How we Worship<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Sacred Tradition through the Ages<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Sacred Scripture: the Word of God<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Magisterium of the Church<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">Sacraments of the Catholic Church<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                          <li><a id="gitLetsGetWorking" href="#myCarousel">See more<span class="responsiveMobile">&nbsp;&#9666;</span></a></li>
+                                    </ul>
+                              </li>
+                              <!-- <li><a href="Build a Video Tutorial with Me.html">Learn more about me!</a></li> !-->
+                              <li><a id="getInTouch" href="#">Get in touch</a></li>
+                        </ul>
+                  </div>
+            <!--/.nav-collapse -->
+            </div>
+      </nav>
+
+      <nav class="navbar-fixed-top navbar-background" style="background: #FFBF00">
+      </nav>
+
+      <div id="prayersDetailsHomePage" class="prayersDetailsHomePage">
+            <div id="prayerDetailsHeader" class="prayerDetailsHeader">
+                  Pater Noster
+            </div>
+      </div>
+
+      <div id="prayerDetailsDashboard" class="prayerDetailsDashboard">
+            <div id="prayerDetailsContent" class="prayerDetailsContent">
+                  <ul class="nav nav-pills prayerDetailsPills row">
+                        <li class="pillBox"><a class="pillColor" data-toggle="pill" href="#about">About</a></li>
+                        <li class="pillBox active"><a class="pillColor" data-toggle="pill" href="#pray">Pray</a></li>
+                        <li class="pillBox"><a class="pillColor" data-toggle="pill" href="#learn">How to</a></li>
+                        <li class="pillBox"><a class="pillColor" data-toggle="pill" href="#watch">Watch</a></li>
+                  </ul>
+                  <div class="tab-content tabCard prayerDetailsTabs">
+                        <div id="about" class="tab-pane fade">
+                              <div id="prayerDetailsBody" class="prayerDetailsBody">
+                                    <div id="aboutTabCard" class="aboutTabCard">
+
+                                    </div>
+                              </div>
+                        </div>
+                        <div id="pray" class="tab-pane fade in active">
+                              <div id="prayerDetailsBody" class="prayerDetailsBody">
+                                    <div id="prayTabCard" class="prayTabCard">
+                                          <!-- <span id="prayTabNote" class="prayTabNote">NOTE: Scroll down for more translations</span> -->
+                                          <div class="prayTabDropdown">
+                                                <span id="prayTabDropdownText" class="prayTabDropdownText">Translate to</span>
+                                                <span id="prayerLanguagesDropdown" class="dropdown prayerLanguagesDropdown">
+                                                      <button class="btn btn-secondary dropdown-toggle prayTabDropdownButton" type="button" id="prayTabDropdownButton" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+                                                            All Languages
+                                                      </button>
+                                                      <div id="prayTabDropdownOption" class="dropdown-menu dropdown-menu-right prayTabDropdownOption" aria-labelledby="prayTabDropdownButton">
+                                                            <div class="dropdown-item prayTabDropdownItem" value="prayerAll" onclick="clickPrayerLanguage(this);">All Languages</div>
+                                                            <div class="dropdown-item prayTabDropdownItem" value="prayerHindi" onclick="clickPrayerLanguage(this);">हिन्दी (Hindi)</div>
+                                                            <div class="dropdown-item prayTabDropdownItem" value="prayerDeutsch" onclick="clickPrayerLanguage(this);">Deutsch (German)</div>
+                                                            <div class="dropdown-item prayTabDropdownItem" value="prayerEspanol" onclick="clickPrayerLanguage(this);">Español (Spanish)</div>
+                                                            <div class="dropdown-item prayTabDropdownItem" value="prayerFrancais" onclick="clickPrayerLanguage(this);">Français (French)</div>
+                                                            <div class="dropdown-item prayTabDropdownItem" value="prayerGaeilge" onclick="clickPrayerLanguage(this);">Gaeilge (Irish)</div>
+                                                            <div class="dropdown-item prayTabDropdownItem" value="prayerItaliano" onclick="clickPrayerLanguage(this);">Italiano (Italian)</div>
+                                                            <div class="dropdown-item prayTabDropdownItem" value="prayerPolskie" onclick="clickPrayerLanguage(this);">Polskie (Polish)</div>
+                                                            <div class="dropdown-item prayTabDropdownItem" value="prayerPortugues" onclick="clickPrayerLanguage(this);">Português (Portuguese)</div>
+                                                            <div class="dropdown-item prayTabDropdownItem" value="prayersTagalog" onclick="clickPrayerLanguage(this);">Tagalog (Filipino)</div>
+                                                      </div>
+                                                </span>
+                                                <!-- <span id="prayTabDropdownText" class="prayTabDropdownText">Click to change language</span> -->
+                                          </div>
+                                          <div id="prayerLatinBody" class="prayTabBody latinScript latinColor inNominePatrisCardBody">
+                                                <span class="languageTag">Latin</span>
+                                                <br>PATER NOSTER,
+                                                <span class="text-indent">qui es in caelis,</span>
+                                                <span class="text-indent">sanctificetur nomen tuum.</span>
+                                                <span class="text-indent">Adveniat regnum tuum.</span>
+                                                <span class="text-indent">Fiat voluntas tua,</span>
+                                                <span class="text-indent">sicut in caelo et in terra.</span>
+                                                <span class="text-indent">Panem nostrum quotidianum da nobis hodie,</span>
+                                                <span class="text-indent">et dimitte nobis debita nostra</span>
+                                                <span class="text-indent">sicut et nos dimittimus debitoribus nostris.</span>
+                                                <span class="text-indent">Et ne nos inducas in tentationem,</span>
+                                                <span class="text-indent">sed libera nos a malo.</span>
+                                                <span class="text-indent">Amen.</span>
+                                          </div>
+                                          <div id="prayerTranslateBody" class="prayTabBody latinScript inNominePatrisCardBody">
+                                                <span class="languageTag">English</span>
+                                                <br>OUR FATHER,
+                                                <span class="text-indent">who art in heaven,</span>
+                                                <span class="text-indent">hallowed be Thy name.</span>
+                                                <span class="text-indent">Thy kingdom come.</span>
+                                                <span class="text-indent">Thy will be done on earth,</span>
+                                                <span class="text-indent">as it is in heaven.</span>
+                                                <span class="text-indent">Give us this day our daily bread,</span>
+                                                <span class="text-indent">and forgive us our trespasses,</span>
+                                                <span class="text-indent">as we forgive those who trespass against us.</span>
+                                                <span class="text-indent">And lead us not into temptation,</span>
+                                                <span class="text-indent">but deliver us from evil. Amen.</span>
+                                          </div>
+                                          <div id="prayerHindi" class="prayTabBody prayTabBodyTranslation devnagariScript inNominePatrisCardBody">
+                                                <span class="languageTag">हिन्दी (Hindi)</span>
+                                                <br>हे हमारे स्वर्गिया पिता,
+                                                <span class="text-indent">आपका नाम पवित्र किया जाए ।</span>
+                                                <span class="text-indent">आपका राज्य आये ।</span>
+                                                <span class="text-indent">आपकी आज्ञा स्वर्ग के समान पृथ्वी पर पूरी हो ।</span>
+                                                <span class="text-indent">आज हमारा प्रतिदिन का भोजन हमें दें,</span>
+                                                <span class="text-indent">और जैसे हम अपने अपराधियों को क्षमा करते है,</span>
+                                                <span class="text-indent">इसी प्रकार हमारे पापों को क्षमा करें ।</span>
+                                                <span class="text-indent">और हमारी परीक्षा न करें,</span>
+                                                <span class="text-indent">किंतु हमें दुष्ट से छुड़ाएं ।</span>
+                                                <span class="text-indent">आमेन ।</span>
+                                          </div>
+                                          <div id="prayerDeutsch" class="prayTabBody prayTabBodyTranslation latinScript inNominePatrisCardBody">
+                                                <span class="languageTag">Deutsch (German)</span><br>
+                                                UNSER VATER,
+                                                <span class="text-indent">der du im himmel bist,</span>
+                                                <span class="text-indent">geheiligt werde dein Name.</span>
+                                                <span class="text-indent">Dein Königreich komme.</span>
+                                                <span class="text-indent">Dein Wille geschehe, auf erden wie im himmel.</span>
+                                                <span class="text-indent">Gib uns heute unser tägliches brot.</span>
+                                                <span class="text-indent">Und vergib uns unsere sünden.</span>
+                                                <span class="text-indent">wie wir denen vergeben, die gegen uns sündigen.</span>
+                                                <span class="text-indent">Und führe uns nicht in versuchung,</span>
+                                                <span class="text-indent">sondern erlöse uns vom bösen.</span>
+                                                <span class="text-indent">Amen.</span>
+                                          </div>
+                                          <div id="prayerEspanol" class="prayTabBody prayTabBodyTranslation latinScript inNominePatrisCardBody">
+                                                <span class="languageTag">Español (Spanish)</span>
+                                                <br>NUESTRO PADRE,
+                                                <span class="text-indent">que estás en el cielo,</span>
+                                                <span class="text-indent">santificado sea tu nombre.</span>
+                                                <span class="text-indent">Venga tu reino.</span>
+                                                <span class="text-indent">Hágase tu voluntad en la tierra,</span>
+                                                <span class="text-indent">como en el cielo.</span>
+                                                <span class="text-indent">Danos hoy nuestro pan de cada día,</span>
+                                                <span class="text-indent">y perdona nuestras ofensas,</span>
+                                                <span class="text-indent">como nosotros perdonamos a los que nos ofenden.</span>
+                                                <span class="text-indent">Y no nos dejes caer en la tentación,</span>
+                                                <span class="text-indent">mas líbranos del mal.</span>
+                                                <span class="text-indent">Amén.</span>
+                                          </div>
+                                          <div id="prayerFrancais" class="prayTabBody prayTabBodyTranslation latinScript inNominePatrisCardBody">
+                                                <span class="languageTag">Français (French)</span>
+                                                <br>NOTRE PÈRE,
+                                                <span class="text-indent">qui es au ciel,</span>
+                                                <span class="text-indent">que ton nom soit sanctifié.</span>
+                                                <span class="text-indent">Que ton royaume vienne.</span>
+                                                <span class="text-indent">Que ta volonté soit faite sur la terre,</span>
+                                                <span class="text-indent">comme au paradis.</span>
+                                                <span class="text-indent">Donne-nous aujourd'hui notre pain quotidien,</span>
+                                                <span class="text-indent">et pardonne-nous nos offenses,</span>
+                                                <span class="text-indent">comme nous pardonnons à ceux qui nous offensent.</span>
+                                                <span class="text-indent">Et ne nous soumet pas à la tentation,</span>
+                                                <span class="text-indent">mais délivrez-nous du mal.</span>
+                                                <span class="text-indent">Amen.</span>
+                                          </div>
+                                          <div id="prayerGaeilge" class="prayTabBody prayTabBodyTranslation latinScript inNominePatrisCardBody">
+                                                <span class="languageTag">Gaeilge (Irish)</span>
+                                                <br>ÁR N-ATHAIR,
+                                                <span class="text-indent">a bhfuil ealaín ar neamh,</span>
+                                                <span class="text-indent">beannaithe go mbeadh d'ainm.</span>
+                                                <span class="text-indent">Tiocfaidh do ríocht.</span>
+                                                <span class="text-indent">Déanfar Thy ar talamh,</span>
+                                                <span class="text-indent">mar atá sé ar neamh.</span>
+                                                <span class="text-indent">Tabhair dúinn an lá seo ár n-arán laethúil,</span>
+                                                <span class="text-indent">agus maith dúinn ár bhfoghail,</span>
+                                                <span class="text-indent">mar maithimid dóibh siúd a dhéanann foghail inár gcoinne.</span>
+                                                <span class="text-indent">Agus ná bí i do theampall,</span>
+                                                <span class="text-indent">ach saor sinn ón olc.</span>
+                                                <span class="text-indent">Amen.</span>
+                                          </div>
+                                          <div id="prayerItaliano" class="prayTabBody prayTabBodyTranslation latinScript inNominePatrisCardBody">
+                                                <span class="languageTag">Italiano (Italian)</span>
+                                                <br>NOSTRO PADRE,
+                                                <span class="text-indent">che sei in paradiso,</span>
+                                                <span class="text-indent">sia santificato il tuo nome.</span>
+                                                <span class="text-indent">Venga il tuo Regno.</span>
+                                                <span class="text-indent">sia fatta la tua volontà sulla terra,</span>
+                                                <span class="text-indent">come è in paradiso.</span>
+                                                <span class="text-indent">Dacci oggi il nostro pane quotidiano,</span>
+                                                <span class="text-indent">e perdonaci i nostri debiti,</span>
+                                                <span class="text-indent">come noi perdoniamo a coloro che ci offendono.</span>
+                                                <span class="text-indent">E non ci indurre in tentazione,</span>
+                                                <span class="text-indent">ma liberaci dal male.</span>
+                                                <span class="text-indent">Amen.</span>
+                                          </div>
+                                          <div id="prayerPolskie" class="prayTabBody prayTabBodyTranslation latinScript inNominePatrisCardBody">
+                                                <span class="languageTag">Polskie (Polish)</span>
+                                                <br>NASZ OJCIEC,
+                                                <span class="text-indent">kto jest w niebie,</span>
+                                                <span class="text-indent">święć się imię twoje.</span>
+                                                <span class="text-indent">Przyjdź królestwo twoje.</span>
+                                                <span class="text-indent">Bądź wola twoja na ziemi,</span>
+                                                <span class="text-indent">jak to jest w niebie.</span>
+                                                <span class="text-indent">Chleba naszego powszedniego daj nam dzisiaj,</span>
+                                                <span class="text-indent">i przebacz nam nasze winy,</span>
+                                                <span class="text-indent">jak przebaczamy tym, którzy zgrzeszyli przeciwko nam.</span>
+                                                <span class="text-indent">I nie prowadź nas na pokuszenie,</span>
+                                                <span class="text-indent">ale wybaw nas od złego.</span>
+                                                <span class="text-indent">Amen.</span>
+                                          </div>
+                                          <div id="prayerPortugues" class="prayTabBody prayTabBodyTranslation latinScript inNominePatrisCardBody">
+                                                <span class="languageTag">Português (Portuguese)</span>
+                                                <br>NOSSO PAI,
+                                                <span class="text-indent">que estais no ceu,</span>
+                                                <span class="text-indent">santificado seja o teu nome.</span>
+                                                <span class="text-indent">Venha o teu reino.</span>
+                                                <span class="text-indent">Seja feita a tua vontade na terra,</span>
+                                                <span class="text-indent">como no céu.</span>
+                                                <span class="text-indent">O pão nosso de cada dia nos dai hoje,</span>
+                                                <span class="text-indent">e nos perdoe nossas ofensas,</span>
+                                                <span class="text-indent">como nós perdoamos aqueles que nos ofenderam.</span>
+                                                <span class="text-indent">E não nos deixes cair em tentação,</span>
+                                                <span class="text-indent">mas livrai-nos do mal.</span>
+                                                <span class="text-indent">Amen.</span>
+                                          </div>
+                                          <div id="prayersTagalog" class="prayTabBody prayTabBodyTranslation latinScript inNominePatrisCardBody">
+                                                <span class="languageTag">Tagalog (Filipino)</span>
+                                                <br>Ama namin, sumasa-langit Ka.
+                                                <span class="text-indent">Sambahin ang ngalan Mo.</span>
+                                                <span class="text-indent">Mapasa amin ang Kaharian Mo.</span>
+                                                <span class="text-indent">Sundin ang loob Mo dito sa lupa para nang sa langit.</span>
+                                                <span class="text-indent">Bigyan Mo kami ngayon ng aming kakanin sa araw-araw.</span>
+                                                <span class="text-indent">At patawarin Mo kami ng aming mga sala, para nang pagpapatawad</span>
+                                                <span class="text-indent">namin sa mg nagkakasala sa amin.</span>
+                                                <span class="text-indent">At huwag Mo kaming ipahintulot sa tukso,</span>
+                                                <span class="text-indent">at iadya Mo kami sa dilang masama.</span>
+                                                <span class="text-indent">Amen.</span>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div id="learn" class="tab-pane fade">
+                              <div id="prayerDetailsBody" class="prayerDetailsBody">
+                                    <div id="prayTabCard" class="prayTabCard">
+                                          <div id="prayerLatinBody" class="prayTabBody latinScript latinColor inNominePatrisCardBody">
+                                                <span class="languageTag">LATIN</span>
+                                                <br><i>IN NOMINE PATRIS, et Fili, et Spiritus Sancti. Amen.</i>
+                                          </div>
+                                          <div id="prayerTranslateBody" class="prayTabBody latinScript inNominePatrisCardBody">
+                                                <span class="languageTag">ENGLISH</span>
+                                                <br>IN THE NAME OF THE FATHER, and of the Son, and of the Holy Spirit. Amen.
+                                          </div>
+                                          <div id="inNominePatrisCardBody" class="prayTabBody devnagariScript inNominePatrisCardBody">
+                                                <span class="languageTag">HINDI</span>
+                                                <br>पिता और पुत्र और पवित्र आत्मा के नाम पर । तथास्तु ।
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div id="watch" class="tab-pane fade">
+                              <div id="prayerDetailsBody" class="prayerDetailsBody">
+                                    <div id="prayTabCard" class=" prayTabCard">
+                                          <div id="prayerLatinBody" class="prayTabBody latinScript latinColor inNominePatrisCardBody">
+                                                <span class="languageTag">LATIN</span>
+                                                <br><i>IN NOMINE PATRIS, et Fili, et Spiritus Sancti. Amen.</i>
+                                          </div>
+                                          <div id="prayerTranslateBody" class="prayTabBody latinScript inNominePatrisCardBody">
+                                                <span class="languageTag">ENGLISH</span>
+                                                <br>IN THE NAME OF THE FATHER, and of the Son, and of the Holy Spirit. Amen.
+                                          </div>
+                                          <div id="inNominePatrisCardBody" class="prayTabBody devnagariScript inNominePatrisCardBody">
+                                                <span class="languageTag">HINDI</span>
+                                                <br>पिता और पुत्र और पवित्र आत्मा के नाम पर । तथास्तु ।
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
+</body>
+
+</html>

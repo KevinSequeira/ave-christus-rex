@@ -1,0 +1,319 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+            <meta name="description" content="">
+            <meta name="author" content="">
+            <link rel="icon" href="{% static 'favicon.ico' %}">
+            <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/navbar/">
+
+            <title>Ave Christus Rex</title>
+
+            <!-- Bootstrap core CSS -->
+            <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+            <link href="{% static 'css/ie10-viewport-bug-workaround.css' %}" rel="stylesheet">
+
+            <!-- Custom styles for this template -->
+            <link href="{% static 'css/navbar.css' %}" rel="stylesheet">
+
+            <!-- This is the link to the fonts taken from Google Fonts! -->
+            <link href="https://fonts.googleapis.com/css?family=Alegreya|Advent+Pro|Bahiana|Averia+Sans+Libre|Balthazar|Belgrano|Black+Ops+One|Bungee+Inline|Cherry+Swash|Coda|Cormorant+Infant|Delius+Swash+Caps|El+Messiri|Euphoria+Script|Expletus+Sans|Fredericka+the+Great|Gafata|Graduate|Italiana|Kotta+One|Kumar+One+Outline|Lemon|Life+Savers|Londrina+Outline|Londrina+Solid|Medula+One|Montserrat+Alternates|Mouse+Memoirs|Mystery+Quest|Oleo+Script|Podkova|Port+Lligat+Slab|Raleway|Revalia|Salsa|Sue+Ellen+Francisco|Tienne|Patua+One|Russo+One|Righteous|Poiret+One|Exo|Lobster+Two|Quattrocento|Days+One|Julius+Sans+One|Jura|Lustria|Josefin+Sans|Yanone+Kaffeesatz|Nunito|Josefin+Slab|Stint+Ultra+Expanded|Junge|Italiana|Life+Savers|Athiti|Londrina+Outline|Scope+One|Kaushan+Script|Kumar+One|Orbitron|Poiret+One|Proza+Libre|Architects+Daughter|Griffy|Open+Sans+Condensed:300|Quicksand|Gloria+Hallelujah|Tulpen+One|Text+Me+One|Love+Ya+Like+A+Sister|Megrim|Cinzel+Decorative|Caveat+Brush|Vollkorn+SC|Laila:wght@600|Sumana|Yatra+One|Sahitya:wght@700Ecar:wght@500|Montserrat" rel="stylesheet">
+
+            <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+            <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+            <![endif]-->
+      </head>
+
+      <body>
+
+            <div class="container">
+
+                  <!-- Static navbar -->
+                  <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                              <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                          <span class="sr-only">Toggle navigation</span>
+                                          <span class="icon-bar"></span>
+                                          <span class="icon-bar"></span>
+                                          <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand" href="#">avechristusrex.com</a>
+                              </div>
+                              <div id="navbar" class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav">
+                                          <!-- <li class="inactive"><a href="#">Home</a></li> -->
+                                          <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prayers <span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                      <li class="dropdown-header">Learning to Pray</li>
+                                                      <li><a href="#">What is Prayer?</a></li>
+                                                      <li><a href="#">Common Prayers</a></li>
+                                                      <li><a href="#">Important Prayers</a></li>
+                                                      <li><a href="#">More...</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Christian Reading</li>
+                                                      <li><a href="#">Holy Scripture</a></li>
+                                                      <li><a href="#">Catechism of the Catholic Church</a></li>
+                                                      <li><a href="#">Book of the Week</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Devotions</li>
+                                                      <li><a href="#">Most Sacred Heart of Jesus</a></li>
+                                                      <li><a href="#">Divine Mercy</a></li>
+                                                      <li><a href="#">Most Holy Rosary</a></li>
+                                                      <li><a href="#">More...</a></li>
+                                                      <br>
+                                                </ul>
+                                          </li>
+                                          <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Liturgy <span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                      <li class="dropdown-header">Missale Romanum</li>
+                                                      <li><a href="#">Missa Tridentina</a></li>
+                                                      <li><a href="#">Novus Ordo Missæ</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Liturgy of the Hours</li>
+                                                      <li><a href="#">Matins</a></li>
+                                                      <li><a href="#">Lauds</a></li>
+                                                      <li><a href="#">Terce</a></li>
+                                                      <li><a href="#">Sext</a></li>
+                                                      <li><a href="#">None</a></li>
+                                                      <li><a href="#">Vespers</a></li>
+                                                      <li><a href="#">Compline</a></li>
+                                                      <br>
+                                                </ul>
+                                          </li>
+                                          <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sacraments <span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <br>
+                                                </ul>
+                                          </li>
+                                          <li class="dropdown last-dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other <span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li role="separator" class="divider"></li>
+                                                      <li class="dropdown-header">Nav header</li>
+                                                      <li><a href="#">Separated link</a></li>
+                                                      <li><a href="#">One more separated link</a></li>
+                                                      <br>
+                                                </ul>
+                                          </li>
+                                    </ul>
+                              </div><!--/.nav-collapse -->
+                        </div><!--/.container-fluid -->
+                  </nav>
+
+                  <!-- Main component for a primary marketing message or call to action -->
+                  <div class="jumbotron jumbotronBackground">
+                        <h1>Simple Prayers</h1>
+                        <p>Easy to remember prayers for when we run out of words. Our God is never too far away from us.</p>
+                  </div>
+
+                  <div class="simplePrayersBody">
+                        <div class="prayerBody">
+                              <h1>Trinitarian Formula</h1>
+                              <p class="simplePrayersTagline"><i>Also known as the &ldquo;Sign of the Cross&rdquo;,
+                                    Christians always begin with this simple but ancient prayer when they gather to worship God.</i></p>
+                              <p><span>In the Name of the Father,</span>
+                              <br><span>and of the Son,</span>
+                              <br><span>and of the Holy Ghost.</span></p>
+                              <p><span>Amen.</span></p>
+                              <p class="simplePrayersTagline"><i>By invoking the Trinitarian Formula, Christians remind
+                                    themselves that God is a tri-unity of <i>Three Co-Eternal Divine Persons</i> sharing the same Will, and that all graces
+                                    find their source in this &ldquo;<b>greatest mystery of Christian life</b>.&rdquo;</i></p>
+                        </div>
+                        <div class="prayerBody">
+                              <h1>The Lord&rsquo;s Prayer</h1>
+                              <p class="simplePrayersTagline"><i>When the disciples of our Lord Jesus Christ asked,
+                                    &ldquo;Lord, teach us how to pray,&rdquo; this is the prayer He taught them.</i></p>
+                              <p><span>Our Father, Who art in heaven</span>
+                              <br><span>Hallowed be Thy name.</span>
+                              <br><span>Thy Kingdom come.</span>
+                              <br><span>Thy will be done, on earth as it is in heaven.</span></p>
+                              <p><span>Give us this day our daily bread.</span>
+                              <br><span>And forgive us our trespasses,</span>
+                              <br><span>as we forgive those who trespass against us.</span>
+                              <br><span>And lead us not into temptation,</span>
+                              <br><span>but deliver us from Evil.</span></p>
+                              <p><span>Amen.</span></p>
+                              <p class="simplePrayersTagline"><i>When the disciples of our Lord Jesus Christ asked,
+                                    &ldquo;Lord, teach us how to pray,&rdquo; this is the prayer He taught them.</i></p>
+                        </div>
+                        <div class="prayerBody">
+                              <h1>The Apostle&rsquo;s Creed</h1>
+                              <p class="simplePrayersTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
+                              <p><span>I believe in God, the Father Almighty,</span>
+                              <br><span>Maker of heaven and earth.</span></p>
+                              <p><span>And in Jesus Christ, His Only Son, our Lord,</span>
+                              <br><span>Who was concieved by the Holy Ghost,</span>
+                              <br><span>was born of the Virgin Mary;</span>
+                              <br><span>suffered under Pontius Pilate,</span>
+                              <br><span>was crucified, died, and was buried;</span>
+                              <br><span>on the third day He rose again from the dead;</span>
+                              <br><span>He ascended into heaven;</span>
+                              <br><span>siteth at the right hand of the Father;</span>
+                              <br><span>from thence He shall come again to judge the living and the dead.</span></p>
+                              <p><span>I believe in the Holy Ghost;</span>
+                              <br><span>the Holy Catholic Church;</span>
+                              <br><span>the communion of the Saints;</span>
+                              <br><span>the forgiveness of sins;</span>
+                              <br><span>the resurrection of the dead;</span>
+                              <br><span>and life everlasting.</span></p>
+                              <p><span>Amen.</span></p>
+                        </div>
+                        <div class="prayerBody">
+                              <h1>The Nicene Creed</h1>
+                              <p class="simplePrayersTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
+                              <p><span>I believe in One God, the Father Almighty,</span>
+                              <br><span>Maker of heaven and earth,</span>
+                              <br><span>of all things visible and invisible.</span></p>
+                              <p><span>I believe in one Lord Jesus Christ,</span>
+                              <br><span>the Only-Begotten Son of God,</span>
+                              <br><span>born of the Father before all ages;</span>
+                              <br><span>God from God, Light from Light,</span>
+                              <br><span>True God from True God;</span>
+                              <br><span>begotten not made, consubstantial with the Father;</span>
+                              <br><span>through Him all things were made.</span></p>
+                              <p><span>For us and for our salvation</span>
+                              <br><span>He came down from heaven;</span>
+                              <br><span>by the power of the Holy Ghost He was incarnate of the Virgin Mary and became man.</span></p>
+                              <p><span>For our sake He was crucified under Pontius Pilate;</span>
+                              <br><span>He suffered death and was buried,</span>
+                              <br><span>and rose again on the third day</span>
+                              <br><span>in accordance with the Scriptures;</span>
+                              <br><span>He ascended into heaven, and siteth at the right hand of the Father;</span>
+                              <br><span>from thence He shall come to judge the living and the dead,</span>
+                              <br><span>and His kingdom will have no end.</span></p>
+                              <p><span>I believe in the Holy Ghost,</span>
+                              <br><span>the Lord, the Giver of Life,</span>
+                              <br><span>Who proceedeth from the Father and the Son,</span>
+                              <br><span>Who with the Father and the Son is adored and glorified,</span>
+                              <br><span>Who has spoken through the Prophets.</span></p>
+                              <p><span>I in one Holy, Catholic, Apostolic Church;</span>
+                              <br><span>I confess one baptism for the forgiveness of sins,</span>
+                              <br><span>and I look forward to the resurrection of the dead,</span>
+                              <br><span>and the life of the world to comne.</span></p>
+                              <p><span>Amen.</span></p>
+                        </div>
+                        <div class="prayerBody">
+                              <h1>Angelic Salutation</h1>
+                              <p class="simplePrayersTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
+                              <p><span>Hail Mary, full of Grace, the Lord is with thee.</span>
+                              <br><span>Blessed art thou among women,</span>
+                              <br><span>and blessed is the fruit of thy womb, Jesus.</span></p>
+                              <p><span>Holy Mary, Mother of God,</span>
+                              <br><span>pray for us sinners,</span>
+                              <br><span>now and at the hour of our death.</span></p>
+                              <p><span>Amen.</span></p>
+                        </div>
+                        <div class="prayerBody">
+                              <h1>Doxology</h1>
+                              <p class="simplePrayersTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
+                              <p><span>Glory to the Father,</span>
+                              <br><span>and the Son,</span>
+                              <br><span>and the Holy Spirit.</span></p>
+                              <p><span>As it was in the beginning, is now,</span>
+                              <br><span>and will be world without end.</span></p>
+                              <p><span>Amen.</span></p>
+                        </div>
+                        <div class="prayerBody">
+                              <h1>Prayer to <span>Michael,</span> <span>the Archangel</span></h1>
+                              <p class="simplePrayersTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
+                              <p><span>Saint Michael the Archangel,</span>
+                              <br><span>defend us in the hour of battle.</span>
+                              <br><span>Be our safeguard against the wickeness</span>
+                              <br><span>and snare of the Evil One.</span></p>
+                              <p><span>May God rebuke him, we humbly pray,</span>
+                              <br><span>and do thou, O prince of the heavenly hosts,</span>
+                              <br><span>by the power of God,</span>
+                              <br><span>cast into hell Satan and all the evil spirits</span>
+                              <br><span>that prowl the earth seeking the ruin of souls.</span></p>
+                              <p><span>Amen.</span></p>
+                        </div>
+                        <div class="prayerBody">
+                              <h1>Prayer to your <span>Guardian Angel</span></h1>
+                              <p class="simplePrayersTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
+                              <p><span>Angel of God, my guardian dear,</span>
+                              <br><span>to whom God&rsquo;s love commits me here,</span>
+                              <br><span>ever this day be at my side.</span>
+                              <br><span>to light and guard, to rule and guide.</span></p>
+                              <p><span>Amen.</span></p>
+                        </div>
+                        <div class="prayerBody">
+                              <h1>Act of Contrition</h1>
+                              <p class="simplePrayersTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
+                              <p><span>O my God,</span>
+                              <br><span>I am heartily sorry for having offended Thee,</span>
+                              <br><span>and I detest my sins above every other evil</span>
+                              <br><span>because they displease Thee,</span>
+                              <br><span>Who for Thine infinite goodness</span>
+                              <br><span>art so deserving of all my love.</span></p>
+                              <p><span>And because I love Thee,</span>
+                              <br><span>I ask for Thy grace to help me</span>
+                              <br><span>make a good confession and</span>
+                              <br><span>to do penance for my sins,</span>
+                              <br><span>to amend my life, and not sin any more.</span></p>
+                              <p><span>Amen.</span></p>
+                        </div>
+                  </div>
+
+                  <hr>
+
+            </div> <!-- /container -->
+
+
+            <!-- Bootstrap core JavaScript
+            ================================================== -->
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+            <script src="{% static 'js/bootstrap.min.js' %}"></script>
+            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+            <script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>
+            <!-- Home Page CSS -->
+            <link href="{% static 'css/cssForSimplePrayers.css' %}" rel="stylesheet">
+      </body>
+</html>

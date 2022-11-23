@@ -1,0 +1,489 @@
+.jumbotron {
+      height: 440px;
+      color: #FFFFFF;
+      padding: 240px 0px 0px 0px;
+      margin: 0px 0px 20px 0px;
+}
+
+.jumbotronBackground {
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Simple Prayers.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 280px 0px 0px 0px;
+}
+
+.simplePrayersBody {
+      background-size: cover;
+      background-position: center;
+      padding: 20px 0px 0px 0px;
+}
+
+.letUsPrayBackground {
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Let Us Pray.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 220px 0px 0px 0px;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+      padding-right: 30px;
+      padding-left: 30px;
+      border-radius: 0px;
+}
+
+.jumbotron h1 {
+      font-family: 'Vollkorn SC', serif;
+      margin-left: -2px;
+      font-size: 50px;
+      line-height: 34px;
+}
+
+.jumbotron h2 {
+      font-family: 'Vollkorn SC', serif;
+      margin-left: -2px;
+      font-size: 36px;
+      line-height: 28px;
+}
+
+.jumbotron p {
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+}
+
+.simplePrayersBody {
+      padding: 20px 30px 0px 30px;
+}
+
+.prayerBody {
+      margin: 0px 0px 40px 0px;
+}
+
+.simplePrayersBody h1 {
+      font-family: 'Vollkorn SC', serif;
+      color: #D7B546;
+      margin-left: -2px;
+      font-size: 40px;
+      line-height: 34px;
+}
+
+.simplePrayersBody h2 {
+      font-family: 'Vollkorn SC', serif;
+      margin-left: -2px;
+      font-size: 36px;
+      line-height: 28px;
+}
+
+.simplePrayersTagline {
+      color: #777777;
+}
+
+.simplePrayersBody p {
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+}
+
+.row-left {
+      padding-right: 10px;
+      padding-left: 15px;
+}
+
+.row-right {
+      padding-right: 15px;
+      padding-left: 10px;
+}
+
+.btn {
+      border: 2px solid #FFFFFF;
+      border-radius: 0px;
+      background-color: transparent;
+      font-family: 'Montserrat', sans-serif;
+      color: #FFFFFF;
+      padding: 14px 28px;
+      font-size: 14px;
+      cursor: pointer;
+}
+
+.default {
+      background-color: transparent;
+      border-color: #FFFFFF;
+      color: #FFFFFF;
+}
+
+.default:hover {
+      color: #FFFFFF;
+      background-color: rgba(255,255,255,0.4);
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+   background: #FFFFFF;
+   border-color: #FFFFFF;
+   color: #000000;
+}
+
+@media (max-width: 991px) {
+      .jumbotron {
+            color: #FFFFFF;
+            height: 300px;
+            padding: 190px 20px 20px 20px;
+            margin-bottom: 20px;
+      }
+
+      .jumbotronBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../images/Large/Simple Prayers.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .documentsBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Documents.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 140px 0px 0px 0px;
+      }
+
+      .letUsPrayBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Let Us Pray.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 140px 0px 0px 0px;
+      }
+
+      .jumbotron h1 {
+            font-family: 'Vollkorn SC', serif;
+            margin-left: -2px;
+            font-size: 30px;
+            line-height: 16px;
+      }
+
+      .jumbotron h2 {
+            font-family: 'Vollkorn SC', serif;
+            margin-left: -2px;
+            font-size: 26px;
+            line-height: 13px;
+      }
+
+      .jumbotron p {
+            font-size: 12px;
+            padding-bottom: 0px;
+            font-family: 'Montserrat', sans-serif;
+      }
+
+      .simplePrayersBody {
+            padding: 20px 30px 0px 30px;
+      }
+
+      .prayerBody {
+            margin: 0px 0px 30px 0px;
+      }
+
+      .simplePrayersBody h1 {
+            font-family: 'Vollkorn SC', serif;
+            margin-left: -2px;
+            font-size: 30px;
+            line-height: 16px;
+      }
+
+      .simplePrayersBody h2 {
+            font-family: 'Vollkorn SC', serif;
+            margin-left: -2px;
+            font-size: 26px;
+            line-height: 13px;
+      }
+
+      .simplePrayersBody p {
+            font-size: 12px;
+            padding-bottom: 0px;
+            font-family: 'Montserrat', sans-serif;
+      }
+
+      .row-left {
+            padding-right: 10px;
+            padding-left: 15px;
+      }
+
+      .row-right {
+            padding-right: 15px;
+            padding-left: 10px;
+      }
+
+      .btn {
+            border: 2px solid #FFFFFF;
+            border-radius: 0px;
+            background-color: transparent;
+            font-family: 'Montserrat', sans-serif;
+            color: #FFFFFF;
+            padding: 10px 28px;
+            font-size: 12px;
+            cursor: pointer;
+      }
+
+      .default {
+            background-color: transparent;
+            border-color: #FFFFFF;
+            color: #FFFFFF;
+      }
+
+      .default:hover {
+            color: #FFFFFF;
+            background-color: rgba(255,255,255,0.2);
+      }
+
+      .btn:focus,.btn:active {
+         outline: none !important;
+         box-shadow: none;
+         background: #FFFFFF;
+         border-color: #FFFFFF;
+         color: #000000;
+      }
+}
+
+@media (max-width: 768px) {
+      .jumbotron {
+            color: #FFFFFF;
+            height: 300px;
+            padding: 190px 0px 0px 0px;
+            margin: 0px 0px 10px 0px;
+      }
+
+      .jumbotronBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../images/Small/Simple Prayers.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .documentsBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Small/Documents.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .letUsPrayBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Small/Let Us Pray.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .container .jumbotron, .container-fluid .jumbotron {
+            padding-right: 20px;
+            padding-left: 20px;
+            margin: 0px 0px 40px 0px;
+            border-radius: 0px;
+      }
+
+      .jumbotron h1 {
+            font-family: 'Vollkorn SC', serif;
+            padding: 0px 0px 0px 0px;
+            margin-left: -2px;
+            font-size: 26px;
+            line-height: 16px;
+      }
+
+      .jumbotron h2 {
+            font-family: 'Vollkorn SC', serif;
+            margin-left: -2px;
+            font-size: 26px;
+            line-height: 16px;
+      }
+
+      .jumbotron p {
+            font-size: 11px;
+            padding-bottom: 0px;
+            font-family: 'Montserrat', sans-serif;
+      }
+
+      .simplePrayersBody {
+            padding: 0px 20px 0px 20px;
+      }
+
+      .prayerBody {
+            margin: 0px 0px 20px 0px;
+      }
+
+      .simplePrayersBody h1 {
+            font-family: 'Vollkorn SC', serif;
+            margin: 0px 0px 0px -2px;
+            font-size: 26px;
+            line-height: 26px;
+      }
+
+      .simplePrayersBody h2 {
+            font-family: 'Vollkorn SC', serif;
+            margin-left: -2px;
+            font-size: 26px;
+            line-height: 16px;
+      }
+
+      .simplePrayersBody p {
+            font-size: 11px;
+            font-family: 'Montserrat', sans-serif;
+      }
+
+      .simplePrayersBody span {
+            display: inline-block;
+            padding: 0px 0px 0px 10px;
+            text-indent: -10px;
+      }
+
+      .row-left {
+            padding-right: 15px;
+            padding-left: 15px;
+      }
+
+      .row-right {
+            padding-right: 15px;
+            padding-left: 15px;
+      }
+
+      .btn {
+            border: 2px solid #FFFFFF;
+            border-radius: 0px;
+            background-color: transparent;
+            font-family: 'Montserrat', sans-serif;
+            color: #FFFFFF;
+            padding: 10px 28px;
+            font-size: 12px;
+            cursor: pointer;
+      }
+
+      .default {
+            background-color: transparent;
+            border-color: #FFFFFF;
+            color: #FFFFFF;
+      }
+
+      .default:hover {
+            color: #FFFFFF;
+            background-color: rgba(255,255,255,0.2);
+      }
+
+      .btn:focus,.btn:active {
+         outline: none !important;
+         box-shadow: none;
+         background: #FFFFFF;
+         border-color: #FFFFFF;
+         color: #000000;
+      }
+}
+
+@media (max-width: 320px) {
+      .jumbotron {
+            color: #FFFFFF;
+            height: 300px;
+            padding: 180px 0px 0px 0px;
+            margin: 0px 0px 10px 0px;
+      }
+
+      .jumbotronBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Small/Simple Prayers.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .documentsBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Small/Documents.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .letUsPrayBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Small/Let Us Pray.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .container .jumbotron, .container-fluid .jumbotron {
+            padding-right: 10px;
+            padding-left: 10px;
+            border-radius: 0px;
+      }
+
+      .jumbotron h1 {
+            font-family: 'Vollkorn SC', serif;
+            padding: 0px 0px 0px 0px;
+            margin-left: -2px;
+            font-size: 24px;
+            line-height: 24px;
+      }
+
+      .jumbotron p {
+            font-size: 10px;
+            padding-bottom: 0px;
+            font-family: 'Montserrat', sans-serif;
+      }
+
+      .simplePrayersBody {
+            padding: 20px 10px 0px 10px;
+      }
+
+      .prayerBody {
+            margin: 0px 0px 20px 0px;
+      }
+
+      .simplePrayersBody h1 {
+            font-family: 'Vollkorn SC', serif;
+            margin: 0px 0px 0px -2px;
+            font-size: 24px;
+            line-height: 24px;
+      }
+
+      .simplePrayersBody h2 {
+            font-family: 'Vollkorn SC', serif;
+            margin-left: -2px;
+            font-size: 30px;
+            line-height: 20px;
+      }
+
+      .simplePrayersBody p {
+            font-size: 10px;
+            margin: 0px 0px 8px 0px;
+            font-family: 'Montserrat', sans-serif;
+      }
+
+      .simplePrayersBody span {
+            display: inline-block;
+            padding: 0px 0px 0px 10px;
+            text-indent: -10px;
+      }
+
+      .row-left {
+            padding-right: 15px;
+            padding-left: 15px;
+      }
+
+      .row-right {
+            padding-right: 15px;
+            padding-left: 15px;
+      }
+
+      .btn {
+            border: 2px solid #FFFFFF;
+            border-radius: 0px;
+            background-color: transparent;
+            font-family: 'Montserrat', sans-serif;
+            color: #FFFFFF;
+            padding: 10px 18px;
+            font-size: 12px;
+            cursor: pointer;
+      }
+
+      .default {
+            background-color: transparent;
+            border-color: #FFFFFF;
+            color: #FFFFFF;
+      }
+
+      .default:hover {
+            color: #FFFFFF;
+            background-color: rgba(255,255,255,0.2);
+      }
+
+      .btn:focus,.btn:active {
+         outline: none !important;
+         box-shadow: none;
+         background: #FFFFFF;
+         border-color: #FFFFFF;
+         color: #000000;
+      }
+}
