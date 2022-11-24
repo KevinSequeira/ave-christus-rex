@@ -154,19 +154,19 @@
                               <p class="liturgyForTheDayForm">{{ current_weekday }}, {{ current_qualifying_day }} {{ current_qualifying_month }}, {{ current_year }}</p>
                               <h1 class="liturgyForTheDayHeader">Liturgy for the Day</h1>
                               <p class="liturgyForTheDayWeek">{{ current_week }} Week in {{ current_season }}
-                                    <br>Year A</p>
-                              <button class="btn default">Read ...</button>
+                                    <br>Year {{ current_cycle }}</p>
+                              <a class="btn default" href="liturgyfortheday/{{ current_date }}" target="_blank" role="button">Read ...</a>
                         </div>
                   </div>
                   <div class="row">
                         <div class="col-sm-6 row-left">
                               <div class="jumbotron documentsBackground">
                                     <div class="memorialForTheDay">
-                                          <p class="memorialForTheDayForm">{{ current_weekday }}, {{ current_qualifying_day }} {{ current_qualifying_month }}, {{ current_year }}</p>
-                                          <h1 class="memorialForTheDayHeader">Feast of the Day</h1>
-                                          <p class="memorialForTheDayWeek">St. Andrew, Apostle
-                                                <br>Year A</p>
-                                          <button class="btn default">Read ...</button>
+                                          <p class="memorialForTheDayForm">{{ feast_weekday }}, {{ feast_qualifying_day }} {{ feast_qualifying_month }}, {{ feast_year }}</p>
+                                          <h1 class="memorialForTheDayHeader">Saint of the Day</h1>
+                                          <p class="memorialForTheDayWeek">{{ feast_title }}
+                                                <br>{{ feast_class }}</p>
+                                          <a><button class="btn default">Read ...</button></a>
                                     </div>
                               </div>
                         </div>

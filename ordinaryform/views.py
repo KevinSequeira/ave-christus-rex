@@ -2,12 +2,13 @@ from django.shortcuts import render
 import json
 import pandas as pan
 from datetime import datetime
+import pytz
 
 # Create your views here.
 def ordinaryform(request):
 
     # Get current date of processing
-    currentDate = datetime.today().strftime('%Y-%m-%d')
+    currentDate = datetime.now().strftime('%Y-%m-%d')
 
     # Load the date dimension table
     dateDimension = pan.read_excel(f"./static/documents/datedimension.xlsx", sheet_name = "datedimension")
@@ -19,9 +20,24 @@ def ordinaryform(request):
     currentWeekday = datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%A')
     currentQualifyingMonth = datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
     currentQualifyingDay = currentDateDimension.iloc[0]["Qualifying Day"]
+    currentCycle = "A, B, C"
+    if (currentQualifyingDay == "Sunday"):
+        currentCycle = currentDateDimension.iloc[0]["Sunday Cycle"]
+    else:
+        currentCycle = currentDateDimension.iloc[0]["Weekday Cycle"]
     currentYear = currentDateDimension.iloc[0]["Year"]
     currentWeek = currentDateDimension.iloc[0]["Week"]
     currentSeason = currentDateDimension.iloc[0]["Season"]
+
+    # Get earliest feast Day
+    earliestFeastDimension = dateDimension.loc[(dateDimension["Date"] >= currentDate) & (dateDimension["Feast Day"]).notna()]
+    feastDate = earliestFeastDimension.iloc[0]["Date"]
+    feastWeekday = datetime.strptime(earliestFeastDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%A')
+    feastQualifyingMonth = datetime.strptime(earliestFeastDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
+    feastQualifyingDay = earliestFeastDimension.iloc[0]["Qualifying Day"]
+    feastYear = earliestFeastDimension.iloc[0]["Year"]
+    feastTitle = earliestFeastDimension.iloc[0]["Feast Day"]
+    feastClass = earliestFeastDimension.iloc[0]["Feast Class"]
 
     # Load context variables
     context = {
@@ -31,41 +47,92 @@ def ordinaryform(request):
         "current_qualifying_day": currentQualifyingDay,
         "current_year": currentYear,
         "current_week": currentWeek,
-        "current_season": currentSeason
+        "current_season": currentSeason,
+        "current_cycle": currentCycle,
+
+        "feast_date": feastDate,
+        "feast_weekday": feastWeekday,
+        "feast_qualifying_month": feastQualifyingMonth,
+        "feast_qualifying_day": feastQualifyingDay,
+        "feast_year": feastYear,
+        "feast_title": feastTitle,
+        "feast_class": feastClass
     }
-    print(context)
 
     return render(request, "ordinaryform.html", context)
 
-def advent(request):
-    context = {}
-    return render(request, "firstSunday.html", context)
 
-def advent(request, week_number = "01", week_day = "sunday"):
+def liturgyfortheday(request, current_date = "2022-11-27"):
 
-    jsonFile = open(f"./static/documents/ordinaryform/advent/adventprayers.json")
+    # Get the currentDate from the request URL
+    currentDate = "2022-11-27"
+    # Load the date dimension table
+    dateDimension = pan.read_excel(f"./static/documents/datedimension.xlsx", sheet_name = "datedimension")
+
+    # Slice the date dimension table for the current date
+    currentDateIndex = dateDimension.loc[dateDimension["Date"] == currentDate].index
+    currentDateDimension = dateDimension.loc[dateDimension["Date"] == currentDate]
+    currentDate = currentDateDimension.iloc[0]["Date"]
+    currentWeekday = datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%A')
+    currentQualifyingMonth = datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
+    currentQualifyingDay = currentDateDimension.iloc[0]["Qualifying Day"]
+    currentCycle = "A, B, C"
+    if (currentQualifyingDay == "Sunday"):
+        currentCycle = currentDateDimension.iloc[0]["Sunday Cycle"]
+    else:
+        currentCycle = currentDateDimension.iloc[0]["Weekday Cycle"]
+    currentYear = currentDateDimension.iloc[0]["Year"]
+    currentWeek = currentDateDimension.iloc[0]["Week"]
+    currentSeason = currentDateDimension.iloc[0]["Season"]
+    currentSeasonShort = currentDateDimension.iloc[0]["Season Short"]
+
+    # Load context variables
+    context = {
+        "current_date": currentDate,
+        "current_weekday": currentWeekday,
+        "current_qualifying_month": currentQualifyingMonth,
+        "current_qualifying_day": currentQualifyingDay,
+        "current_year": currentYear,
+        "current_week": currentWeek,
+        "current_season": currentSeason,
+        "current_season_short": currentSeasonShort,
+        "current_cycle": currentCycle
+    }
+
+    # Add season-specific context variables
+    if (currentSeasonShort == "advent"):
+        context = advent(context)
+    elif (currentSeasonShort == "lent"):
+        context = lent(context)
+
+    return render(request, f"{currentSeasonShort}/{currentWeekday.lower()}.html", context)
+
+
+def advent(context = {}):
+
+
+    jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
     jsonFile = json.load(jsonFile)
 
-    commonPrayers = open(f"./static/documents/ordinaryform/commonPrayers.json")
+    commonPrayers = open(f"./static/documents/ordinaryform/commonprayers.json")
     commonPrayers = json.load(commonPrayers)
 
     gloria_content = ""
-    if (jsonFile["advent"][week_number][week_day]["gloria"] == "yes"):
+    if (jsonFile["gloria"] == "yes"):
         gloria_content = commonPrayers["gloria"]
 
     credo_content = ""
-    if (jsonFile["advent"][week_number][week_day]["credo"] == "apostles_creed"):
+    if (jsonFile["credo"] == "apostles_creed"):
         credo_content = commonPrayers["apostles_creed"]
-    elif (jsonFile["advent"][week_number][week_day]["credo"] == "nicene_creed"):
+    elif (jsonFile["credo"] == "nicene_creed"):
         credo_content = commonPrayers["nicene_creed"]
 
-    context = {
-        "opening_antiphon": jsonFile["advent"][week_number][week_day]["opening_antiphon"],
-        "gloria": jsonFile["advent"][week_number][week_day]["gloria"],
-        "gloria_content": gloria_content,
-        "collect": jsonFile["advent"][week_number][week_day]["collect"],
-        "offetory": jsonFile["advent"][week_number][week_day]["offetory"],
-        "credo": jsonFile["advent"][week_number][week_day]["credo"],
-        "credo_content": credo_content,
-    }
-    return render(request, f"advent/{week_number}/{week_day}.html", context)
+    context["opening_antiphon"] = jsonFile["opening_antiphon"]
+    context["gloria"] = jsonFile["gloria"]
+    context["gloria_content"] = gloria_content
+    context["collect"] = jsonFile["collect"]
+    context["offetory"] = jsonFile["offetory"]
+    context["credo"] = jsonFile["credo"]
+    context["credo_content"] = credo_content
+
+    return context

@@ -20,5 +20,6 @@ from . import views
 urlpatterns = [
     path("", views.ordinaryform, name = "ordinaryform"),
     # path("advent", views.advent, name = "advent"),
+    re_path(r'^liturgyfortheday/(?P<current_date>.+?)/$', views.liturgyfortheday , name = "liturgyfortheday"),
     re_path(r'^advent/(?P<week_number>.+?)/(?P<week_day>.+?)/$', views.advent , name = "advent")
 ]

@@ -1,11 +1,11 @@
 .jumbotron {
-      height: 440px;
+      height: 500px;
       color: #FFFFFF;
       margin: 0px 0px 20px 0px;
 }
 
 .jumbotronBackground {
-      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Vatican 002.jpg');
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../images/Large/Vatican 002.jpg');
       background-size: cover;
       background-position: center;
       position: relative;
@@ -162,14 +162,14 @@ p.memorialForTheDayWeek {
       }
 
       p.liturgyForTheDayForm {
-            margin: 0px 0px 10px 0px;
+            margin: 0px 0px 6px 0px;
             font-size: 16px;
             font-family: 'Merriweather', serif;
       }
 
       h1.liturgyForTheDayHeader {
             font-family: 'Vollkorn SC', serif;
-            margin: 0px 0px 10px -2px;
+            margin: 0px 0px 6px -2px;
             font-size: 40px;
             line-height: 30px;
       }
@@ -185,19 +185,20 @@ p.memorialForTheDayWeek {
       }
 
       p.memorialForTheDayForm {
-            margin: 0px 0px 10px 0px;
+            margin: 0px 0px 6px 0px;
             font-size: 14px;
             font-family: 'Merriweather', serif;
       }
 
       h1.memorialForTheDayHeader {
             font-family: 'Vollkorn SC', serif;
-            margin: 0px 0px 10px -2px;
+            margin: 0px 0px 6px -2px;
             font-size: 30px;
             line-height: 30px;
       }
 
       p.memorialForTheDayWeek {
+            margin-right: 30px;
             font-size: 14px;
             font-family: 'Merriweather', serif;
       }
@@ -246,7 +247,7 @@ p.memorialForTheDayWeek {
 @media (max-width: 768px) {
       .jumbotron {
             color: #FFFFFF;
-            height: 300px;
+            height: 350px;
             padding: 190px 0px 0px 0px;
             margin: 0px 0px 10px 0px;
       }
