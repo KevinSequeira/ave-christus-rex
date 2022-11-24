@@ -32,32 +32,27 @@
       border-radius: 0px;
 }
 
-.jumbotron h1 {
-      display: inline-block;
-      font-family: 'Vollkorn SC', serif;
-      margin-left: -2px;
-      font-size: 40px;
-      line-height: 40px;
+.liturgyForTheDay {
       position: absolute;
-      bottom: 30px;
+      bottom: 40px;
 }
 
-.jumbotron h2 {
+p.liturgyForTheDayForm {
+      margin: 0px 0px 10px 0px;
+      font-size: 20px;
+      font-family: 'Merriweather', serif;
+}
+
+h1.liturgyForTheDayHeader {
       font-family: 'Vollkorn SC', serif;
-      margin-left: -2px;
-      font-size: 36px;
-      line-height: 28px;
+      margin: 0px 0px 10px -2px;
+      font-size: 50px;
+      line-height: 34px;
 }
 
-.jumbotron p {
-      font-size: 14px;
-      font-family: 'Montserrat', sans-serif;
-}
-
-.jumbotron span {
-      display: inline-block;
-      padding: 0px 0px 0px 10px;
-      text-indent: -10px;
+p.liturgyForTheDayWeek {
+      font-size: 20px;
+      font-family: 'Merriweather', serif;
 }
 
 .missalPrayersBody {

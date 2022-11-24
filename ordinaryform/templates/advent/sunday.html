@@ -148,9 +148,12 @@
 
                   <!-- Main component for a primary marketing message or call to action -->
                   <div class="jumbotron jumbotronBackground">
-                        <h1><span>First Sunday in the</span>
-                              <span>Season of Advent,</span>
-                              <br><span>Year A</span></h1>
+                        <div class="liturgyForTheDay">
+                              <p class="liturgyForTheDayForm">{{ current_weekday }}, {{ current_qualifying_day }} {{ current_qualifying_month }}, {{ current_year }}</p>
+                              <h1 class="liturgyForTheDayHeader">Prayers for Holy Mass</h1>
+                              <p class="liturgyForTheDayWeek">{{ current_week }} Week in {{ current_season }}
+                                    <br>Year {{ current_cycle }}</p>
+                        </div>
                   </div>
 
                   <div class="missalPrayersBody">
