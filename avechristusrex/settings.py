@@ -26,7 +26,7 @@ SECRET_KEY = 'iqa-y4#j=cd*00f%xpbs42rs!j1^b+9u&+myc!@5f^yx$pq(-^'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '112.213.37.214'
+    '112.213.37.214', 'www.avechristusrex.com', 'avechristusrex.com', '*'
 ]
 
 
