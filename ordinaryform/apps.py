@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class MissalenovusordoConfig(AppConfig):
-    name = 'missalenovusordo'
+class OrdinaryFormConfig(AppConfig):
+    name = 'ordinaryform'
