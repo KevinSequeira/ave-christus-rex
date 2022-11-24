@@ -25,7 +25,9 @@ SECRET_KEY = 'iqa-y4#j=cd*00f%xpbs42rs!j1^b+9u&+myc!@5f^yx$pq(-^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '112.213.37.214'
+]
 
 
 # Application definition
