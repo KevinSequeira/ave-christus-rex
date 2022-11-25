@@ -10,6 +10,7 @@
             <meta name="author" content="">
             <link rel="icon" href="{% static 'favicon.ico' %}">
             <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/navbar/">
+            <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 
             <title>Ave Christus Rex</title>
 
@@ -78,8 +79,8 @@
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Liturgy <span class="caret"></span></a>
                                                 <ul class="dropdown-menu">
                                                       <li class="dropdown-header">Missale Romanum</li>
-                                                      <li><a href="#">Missa Tridentina</a></li>
-                                                      <li><a href="#">Novus Ordo Missæ</a></li>
+                                                      <li><a href="#">Extraordinary Form</a></li>
+                                                      <li><a href="#">Ordinary Form</a></li>
                                                       <li role="separator" class="divider"></li>
                                                       <li class="dropdown-header">Liturgy of the Hours</li>
                                                       <li><a href="#">Matins</a></li>
@@ -95,25 +96,24 @@
                                           <li class="dropdown">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sacraments <span class="caret"></span></a>
                                                 <ul class="dropdown-menu">
-                                                      <li class="dropdown-header">Nav header</li>
-                                                      <li><a href="#">Separated link</a></li>
-                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li class="dropdown-header">What are the Sacraments?</li>
+                                                      <li><a href="#">References in Scripture</a></li>
+                                                      <li><a href="#">History of Sacraments</a></li>
+                                                      <li><a href="#">The Church is Sacramental</a></li>
                                                       <li role="separator" class="divider"></li>
-                                                      <li class="dropdown-header">Nav header</li>
-                                                      <li><a href="#">Separated link</a></li>
-                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li class="dropdown-header">Sacraments of Initiation</li>
+                                                      <li><a href="#">What is the Rite of Christian Initiation?</a></li>
+                                                      <li><a href="#">Baptism</a></li>
+                                                      <li><a href="#">Confirmation</a></li>
+                                                      <li><a href="#">Eucharist</a></li>
                                                       <li role="separator" class="divider"></li>
-                                                      <li class="dropdown-header">Nav header</li>
-                                                      <li><a href="#">Separated link</a></li>
-                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li class="dropdown-header">Sacraments of Commitment</li>
+                                                      <li><a href="#">Holy Orders</a></li>
+                                                      <li><a href="#">Holy Matrimony</a></li>
                                                       <li role="separator" class="divider"></li>
-                                                      <li class="dropdown-header">Nav header</li>
-                                                      <li><a href="#">Separated link</a></li>
-                                                      <li><a href="#">One more separated link</a></li>
-                                                      <li role="separator" class="divider"></li>
-                                                      <li class="dropdown-header">Nav header</li>
-                                                      <li><a href="#">Separated link</a></li>
-                                                      <li><a href="#">One more separated link</a></li>
+                                                      <li class="dropdown-header">Sacraments of Healing</li>
+                                                      <li><a href="#">Reconciliation</a></li>
+                                                      <li><a href="#">Anointing of the Sick</a></li>
                                                       <br>
                                                 </ul>
                                           </li>
@@ -149,24 +149,70 @@
 
                   <!-- Main component for a primary marketing message or call to action -->
                   <div class="jumbotron jumbotronBackground">
-                        <h1>Radical Faith</h1>
+                        <!-- <h1>Radical Faith</h1>
                         <p>Christians are called out of this world; we are set apart as a people of God.
                         But what does that mean?</p>
-                        <button class="btn default">Read more...</button>
+                        <button class="btn default">Read more...</button> -->
+
+                        <div id="myCarousel" class="carousel slide carouselForJumbotron" data-ride="carousel">
+
+                              <!-- Wrapper for slides -->
+                              <div class="carousel-inner carouselInnerForJumbotron">
+                                    <div class="item active liturgyForTheDay carouselSlide001">
+                                          <!-- <div class="liturgyForTheDay"> -->
+                                          <h1 class="liturgyForTheDayHeader">The Season of Advent</h1>
+                                          <p class="liturgyForTheDayWeek">Draw on the graces of the Season as we prepare ourselves for the commemoration of the birth of our Lord Jesus Christ</p>
+                                          <a class="btn default" href="liturgyfortheday/{{ current_date }}" target="_blank" role="button">Read More ...</a>
+                                          <!-- </div> -->
+                                    </div>
+
+                                    <div class="item liturgyForTheDay">
+                                          <!-- <div class="liturgyForTheDay"> -->
+                                          <p class="liturgyForTheDayForm">New Liturgical Calendar</p>
+                                          <h1 class="liturgyForTheDayHeader">Ordinary Form</h1>
+                                          <p class="liturgyForTheDayWeek">Season of Advent, Cycle A</p>
+                                          <a class="btn default" href="liturgyfortheday/{{ current_date }}" target="_blank" role="button">Show me ...</a>
+                                          <!-- </div> -->
+                                    </div>
+
+                                    <div class="item liturgyForTheDay">
+                                          <!-- <div class="liturgyForTheDay"> -->
+                                          <p class="liturgyForTheDayForm">Traditional Liturgical Calendar</p>
+                                          <h1 class="liturgyForTheDayHeader">Extrordinary Form</h1>
+                                          <p class="liturgyForTheDayWeek">Season of Advent</p>
+                                          <a class="btn default" href="liturgyfortheday/{{ current_date }}" target="_blank" role="button">Show me ...</a>
+                                          <!-- </div> -->
+                                    </div>
+                              </div>
+
+                              <!-- Indicators -->
+                              <ol class="carousel-indicators carouselIndicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                              </ol>
+
+                        </div>
                   </div>
                   <div class="row">
                         <div class="col-sm-6 row-left">
                               <div class="jumbotron documentsBackground">
-                                    <h2>Church Documents</h2>
-                                    <p>Sermons, Encyclicals, Exhortations, and other writings of the Saints and Church Fathers...</p>
-                                    <a><button class="btn default">Read more...</button></a>
+                                    <div class="memorialForTheDay">
+                                          <h1 class="memorialForTheDayHeader">Church Documents</h1>
+                                          <p class="memorialForTheDayWeek">Resources for learning from the Wisdom of the Church taught through the ages</p>
+                                          <a class="btn default" href="liturgyfortheday/{{ current_date }}" target="_blank" role="button">Read ...</a>
+                                    </div>
                               </div>
                         </div>
                         <div class="col-sm-6 row-right">
                               <div class="jumbotron letUsPrayBackground">
-                                    <h2>Learn to Pray</h2>
-                                    <p>Communicating with God is essential; especially when we feel overwhelmed by the world...</p>
-                                    <a href="../prayers" target="_blank"><button class="btn default">Read more...</button></a>
+                                    <div class="memorialForTheDay">
+                                          <p class="memorialForTheDayForm">&nbsp;</p>
+                                          <h1 class="memorialForTheDayHeader">Liturgical Calendar</h1>
+                                          <p class="memorialForTheDayWeek">Season of Advent, Year A
+                                                <br>&nbsp;</p>
+                                          <a class="btn default" href="liturgyfortheday/{{ current_date }}" target="_blank" role="button">Read ...</a>
+                                    </div>
                               </div>
                         </div>
                   </div>
