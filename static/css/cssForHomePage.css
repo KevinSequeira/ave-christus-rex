@@ -142,11 +142,11 @@ p.memorialForTheDayWeek {
 }
 
 .memorialForTheDay > .btn {
-      border: 2px solid #777777;
+      border: 2px solid #FFFFFF;
       border-radius: 0px;
       background-color: transparent;
       font-family: 'Merriweather', serif;
-      color: #777777;
+      color: #FFFFFF;
       padding: 14px 28px;
       font-size: 16px;
       cursor: pointer;
@@ -154,12 +154,12 @@ p.memorialForTheDayWeek {
 
 .memorialForTheDay > .default {
       background-color: transparent;
-      border-color: #777777;
-      color: #777777;
+      border-color: #FFFFFF;
+      color: #FFFFFF;
 }
 
 .memorialForTheDay > .default:hover {
-      color: #777777;
+      color: #FFFFFF;
       background-color: rgba(255,255,255,0.4);
 }
 
@@ -312,11 +312,11 @@ p.memorialForTheDayWeek {
       }
 
       .memorialForTheDay > .btn {
-            border: 2px solid #777777;
+            border: 2px solid #FFFFFF;
             border-radius: 0px;
             background-color: transparent;
             font-family: 'Merriweather', serif;
-            color: #777777;
+            color: #FFFFFFFFFFFF;
             padding: 10px 28px;
             font-size: 14px;
             cursor: pointer;
@@ -324,12 +324,12 @@ p.memorialForTheDayWeek {
 
       .memorialForTheDay > .default {
             background-color: transparent;
-            border-color: #777777;
-            color: #777777;
+            border-color: #FFFFFFFFFFFF;
+            color: #FFFFFFFFFFFF;
       }
 
       .memorialForTheDay > .default:hover {
-            color: #777777;
+            color: #FFFFFFFFFFFF;
             background-color: rgba(255,255,255,0.4);
       }
 
@@ -415,6 +415,31 @@ p.memorialForTheDayWeek {
             font-family: 'Merriweather', serif;
       }
 
+      .memorialForTheDay {
+            padding-left: 30px;
+            padding-right: 40px;
+            position: absolute;
+            bottom: 60px;
+      }
+
+      p.memorialForTheDayForm {
+            margin: 0px 0px 6px 0px;
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+      h1.memorialForTheDayHeader {
+            font-family: 'Vollkorn SC', serif;
+            margin: 0px 0px 6px -2px;
+            font-size: 24px;
+            line-height: 30px;
+      }
+
+      p.memorialForTheDayWeek {
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
       .carouselIndicators {
             bottom: 0px;
       }
@@ -429,29 +454,59 @@ p.memorialForTheDayWeek {
             padding-left: 15px;
       }
 
-      .btn {
+      .liturgyForTheDay > .btn {
             border: 2px solid #FFFFFF;
             border-radius: 0px;
             background-color: transparent;
-            font-family: 'Merriweather', sans-serif;
+            font-family: 'Merriweather', serif;
             color: #FFFFFF;
             padding: 10px 28px;
             font-size: 12px;
             cursor: pointer;
       }
 
-      .default {
+      .liturgyForTheDay > .default {
             background-color: transparent;
             border-color: #FFFFFF;
             color: #FFFFFF;
       }
 
-      .default:hover {
+      .liturgyForTheDay > .default:hover {
             color: #FFFFFF;
-            background-color: rgba(255,255,255,0.2);
+            background-color: rgba(255,255,255,0.4);
       }
 
-      .btn:focus,.btn:active {
+      .liturgyForTheDay > .btn:focus,.btn:active {
+         outline: none !important;
+         box-shadow: none;
+         background: #FFFFFF;
+         border-color: #FFFFFF;
+         color: #000000;
+      }
+
+      .memorialForTheDay > .btn {
+            border: 2px solid #FFFFFF;
+            border-radius: 0px;
+            background-color: transparent;
+            font-family: 'Merriweather', serif;
+            color: #FFFFFF;
+            padding: 10px 28px;
+            font-size: 12px;
+            cursor: pointer;
+      }
+
+      .memorialForTheDay > .default {
+            background-color: transparent;
+            border-color: #FFFFFF;
+            color: #FFFFFF;
+      }
+
+      .memorialForTheDay > .default:hover {
+            color: #FFFFFF;
+            background-color: rgba(255,255,255,0.4);
+      }
+
+      .memorialForTheDay > .btn:focus,.btn:active {
          outline: none !important;
          box-shadow: none;
          background: #FFFFFF;
