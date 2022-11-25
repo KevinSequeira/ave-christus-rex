@@ -351,6 +351,7 @@ p.memorialForTheDayWeek {
 
       .jumbotronBackground {
             background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Small/Vatican 002.jpg');
+            height: 400px;
             background-size: contain;
             background-position: right;
       }
@@ -389,8 +390,8 @@ p.memorialForTheDayWeek {
       }
 
       .carouselInnerForJumbotron > .liturgyForTheDay {
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
             position: absolute !important;
             width: inherit;
             top: auto !important;
@@ -417,7 +418,7 @@ p.memorialForTheDayWeek {
 
       .memorialForTheDay {
             padding-left: 30px;
-            padding-right: 40px;
+            padding-right: 30px;
             position: absolute;
             bottom: 60px;
       }
