@@ -391,7 +391,7 @@ p.memorialForTheDayWeek {
 
       .carouselInnerForJumbotron > .liturgyForTheDay {
             padding-left: 30px;
-            padding-right: 30px;
+            padding-right: 40px;
             position: absolute !important;
             width: inherit;
             top: auto !important;
