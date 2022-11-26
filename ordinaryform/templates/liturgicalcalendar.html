@@ -150,7 +150,7 @@
                   <!-- Main component for a primary marketing message or call to action -->
                   <div class="row">
                         <div class="col-sm-6 row-left">
-                              <div class="jumbotron documentsBackground">
+                              <div class="jumbotron liturgyForTheDayBackground">
                                     <div class="liturgyForTheDay">
                                           <!-- <p class="liturgyForTheDayForm">Sunday, 27th November, 2022</p> -->
                                           <p class="liturgyForTheDayForm">{{ current_weekday }}, {{ current_qualifying_day }} {{ current_qualifying_month }}, {{ current_year }}</p>
@@ -162,7 +162,7 @@
                               </div>
                         </div>
                         <div class="col-sm-6 row-right">
-                              <div class="jumbotron documentsBackground">
+                              <div class="jumbotron memorialForTheDayBackground">
                                     <div class="memorialForTheDay">
                                           <p class="memorialForTheDayForm">{{ feast_weekday }}, {{ feast_qualifying_day }} {{ feast_qualifying_month }}, {{ feast_year }}</p>
                                           <h1 class="memorialForTheDayHeader">Saint of the Day</h1>
@@ -177,7 +177,7 @@
                         {% for month, rows in calendar_dictionary %}
                         <div class="calendarOverflow">
                               <div class="calendarMonth">
-                                    {{ month }}
+                                    {{ month }}, {{ current_year }}
                               </div>
                               {% for row in rows %}
                               <div class="row calendarRow">
@@ -198,6 +198,7 @@
                                           {% endif %}
                                     </div>
                               </div>
+                              <hr>
                               {% endfor %}
                         </div>
                         {% endfor %}

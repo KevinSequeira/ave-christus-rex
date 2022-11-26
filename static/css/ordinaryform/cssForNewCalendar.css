@@ -4,17 +4,17 @@
       margin: 0px 0px 20px 0px;
 }
 
-.jumbotronBackground {
-      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Vatican 002.jpg');
+.liturgyForTheDayBackground {
+      background: linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Season of Advent.jpg');
       background-size: cover;
-      background-position: center;
+      background-position: top;
       position: relative;
 }
 
-.letUsPrayBackground {
-      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Let Us Pray.jpg');
+.memorialForTheDayBackground {
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Vatican 002.jpg');
       background-size: cover;
-      background-position: center;
+      background-position: top;
       position: relative;
 }
 
@@ -119,7 +119,7 @@ p.memorialForTheDayWeek {
 
 .calendarOverflow {
       background-color: #FFFFFF;
-      margin: 0px 0px 20px 0px;
+      margin: 0px 0px 30px 0px;
 }
 
 .calendarRow {
@@ -129,7 +129,8 @@ p.memorialForTheDayWeek {
 .calendarMonth {
       font-family: 'Vollkorn SC', serif;
       font-size: 36px;
-      color: #777777;
+      color: #D7B546;
+      padding: 0px 0px 20px 0px;
 }
 
 .firstColumn {
@@ -174,17 +175,17 @@ p.memorialForTheDayWeek {
             margin-bottom: 20px;
       }
 
-      .jumbotronBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Vatican 002.jpg');
+      .liturgyForTheDayBackground {
+            background: linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Season of Advent.jpg');
             background-size: cover;
-            background-position: center;
+            background-position: top;
             position: relative;
       }
 
-      .documentsBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Documents.jpg');
+      .memorialForTheDayBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Vatican 002.jpg');
             background-size: cover;
-            background-position: center;
+            background-position: top;
             position: relative;
       }
 
@@ -298,26 +299,38 @@ p.memorialForTheDayWeek {
 
       .calendarOverflow {
             background-color: #FFFFFF;
+            margin: 0px 0px 30px 0px;
+      }
+
+      .calendarRow {
+            margin: 0px 0px 10px 0px;
+      }
+
+      .calendarMonth {
+            font-family: 'Vollkorn SC', serif;
+            font-size: 30px;
+            color: #D7B546;
+            padding: 0px 0px 20px 0px;
       }
 
       .firstColumn {
             width: 10%;
             font-family: 'Merriweather', sans-serif;
-            font-size: 16px;
+            font-size: 14px;
             color: #777777;
       }
 
       .secondColumn {
             width: 40%;
             font-family: 'Merriweather', sans-serif;
-            font-size: 16px;
+            font-size: 14px;
             color: #777777;
       }
 
       .thirdColumn {
             width: 50%;
             font-family: 'Merriweather', sans-serif;
-            font-size: 16px;
+            font-size: 14px;
             color: #777777;
       }
 }
@@ -325,50 +338,28 @@ p.memorialForTheDayWeek {
 @media (max-width: 768px) {
       .jumbotron {
             color: #FFFFFF;
-            height: 350px;
+            height: 250px;
             margin: 0px 0px 10px 0px;
       }
 
-      .jumbotronBackground {
-            height: 240px;
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Vatican 002.jpg');
+      .liturgyForTheDayBackground {
+            background: linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Season of Advent.jpg');
             background-size: cover;
-            background-position: center;
+            background-position: top;
+            position: relative;
       }
 
-      .documentsBackground {
-            height: 240px;
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Documents.jpg');
-            background-size: cover;
-            background-position: center;
-      }
-
-      .calendarBackground {
-            height: 100%;
-            background-color: #FFFFFF;
-            background-size: cover;
-            background-position: center;
+      .memorialForTheDayBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Vatican 002.jpg');
+            background-size: 150%;
+            background-position: bottom;
+            position: relative;
       }
 
       .container .jumbotron, .container-fluid .jumbotron {
             padding-right: 20px;
             padding-left: 20px;
             border-radius: 0px;
-      }
-
-      .jumbotron h1 {
-            font-family: 'Vollkorn SC', serif;
-            padding: 0px 0px 0px 0px;
-            margin-left: -2px;
-            font-size: 26px;
-            line-height: 16px;
-      }
-
-      .jumbotron h2 {
-            font-family: 'Vollkorn SC', serif;
-            margin-left: -2px;
-            font-size: 26px;
-            line-height: 16px;
       }
 
       .liturgyForTheDay {
@@ -460,6 +451,18 @@ p.memorialForTheDayWeek {
 
       .calendarOverflow {
             background-color: #FFFFFF;
+            margin: 0px 0px 20px 0px;
+      }
+
+      .calendarRow {
+            margin: 0px 0px 8px 0px;
+      }
+
+      .calendarMonth {
+            font-family: 'Vollkorn SC', serif;
+            font-size: 24px;
+            color: #D7B546;
+            padding: 0px 0px 10px 0px;
       }
 
       .firstColumn {
@@ -471,21 +474,14 @@ p.memorialForTheDayWeek {
       }
 
       .secondColumn {
-            width: 10%;
+            width: 40%;
             font-family: 'Merriweather', sans-serif;
             font-size: 14px;
             color: #777777;
       }
 
-      .generalColumn {
-            width: 45%;
-            font-family: 'Merriweather', sans-serif;
-            font-size: 14px;
-            color: #777777;
-      }
-
-      .fifthColumn {
-            width: 10%;
+      .thirdColumn {
+            width: 50%;
             font-family: 'Merriweather', sans-serif;
             font-size: 14px;
             color: #777777;
