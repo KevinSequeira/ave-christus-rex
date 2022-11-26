@@ -198,6 +198,71 @@ p.liturgyForTheDayWeek {
             font-family: 'Merriweather', serif;
       }
 
+      .missalPrayersBody {
+            padding: 50px 50px 0px 50px;
+      }
+
+      .prayerBody {
+            padding: 0px 0px 20px 0px;
+      }
+
+      .prayerBodyHeader {
+            font-family: 'Vollkorn SC', serif;
+            color: #D7B546;
+            margin: 0px 0px 0px -2px;
+            font-size: 30px;
+            line-height: 30px;
+      }
+
+      .prayerBodyTagline {
+            font-family: 'Merriweather', serif;
+            font-size: 14.5px;
+            line-height: 20px;
+            margin: 0px 0px 8px 0px;
+            color: #777777;
+      }
+
+      .prayerBodyResponse > i {
+            font-family: 'Merriweather', serif;
+            font-size: 16px;
+            margin: 0px 0px 8px 0px;
+            color: #333333;
+      }
+
+      .prayerBodyResponse > strong {
+            font-family: 'Merriweather', serif;
+            font-size: 16px;
+            margin: 0px 0px 8px 0px;
+            color: #FF2400;
+      }
+
+      .prayerBodyVerses {
+            font-family: 'Merriweather', serif;
+            font-size: 16px;
+            margin: 0px 0px 0px 0px;
+            color: #777777;
+      }
+
+      .prayerBodyContent {
+            font-family: 'Merriweather', serif;
+            font-size: 16px;
+            line-height: 20px;
+            margin: 0px 0px 5px 0px;
+      }
+
+      .prayerBodyContent > span > strong {
+            font-family: 'Merriweather', serif;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FF2400;
+      }
+
+      .prayerBodyContent span {
+            display: inline-block;
+            padding-left: 20px;
+            text-indent: -20px;
+      }
+
       .row-left {
             padding-right: 10px;
             padding-left: 15px;
@@ -255,8 +320,8 @@ p.liturgyForTheDayWeek {
       }
 
       .container .jumbotron, .container-fluid .jumbotron {
-            padding-right: 25px;
-            padding-left: 25px;
+            padding-right: 20px;
+            padding-left: 20px;
             margin: 0px 0px 20px 0px;
             border-radius: 0px;
       }
@@ -285,7 +350,7 @@ p.liturgyForTheDayWeek {
       }
 
       .missalPrayersBody {
-            padding: 15px 25px 0px 25px;
+            padding: 15px 20px 0px 20px;
       }
 
       .prayerBody {
@@ -306,6 +371,20 @@ p.liturgyForTheDayWeek {
             line-height: 16px;
             margin: 0px 0px 8px 0px;
             color: #777777;
+      }
+
+      .prayerBodyResponse > i {
+            font-family: 'Merriweather', serif;
+            font-size: 14px;
+            margin: 0px 0px 8px 0px;
+            color: #333333;
+      }
+
+      .prayerBodyResponse > strong {
+            font-family: 'Merriweather', serif;
+            font-size: 14px;
+            margin: 0px 0px 8px 0px;
+            color: #FF2400;
       }
 
       .prayerBodyVerses {
@@ -427,6 +506,20 @@ p.liturgyForTheDayWeek {
             line-height: 16px;
             margin: 0px 0px 8px 0px;
             color: #777777;
+      }
+
+      .prayerBodyResponse > i {
+            font-family: 'Merriweather', serif;
+            font-size: 14px;
+            margin: 0px 0px 8px 0px;
+            color: #333333;
+      }
+
+      .prayerBodyResponse > strong {
+            font-family: 'Merriweather', serif;
+            font-size: 14px;
+            margin: 0px 0px 8px 0px;
+            color: #FF2400;
       }
 
       .prayerBodyVerses {
