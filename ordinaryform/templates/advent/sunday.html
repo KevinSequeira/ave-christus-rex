@@ -116,7 +116,7 @@
                                                       <br>
                                                 </ul>
                                           </li>
-                                          <li class="dropdown last-dropdown">
+                                          <li class="dropdown last-dropdown disabled">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other <span class="caret"></span></a>
                                                 <ul class="dropdown-menu">
                                                       <li class="dropdown-header">Nav header</li>
@@ -203,6 +203,118 @@
                               </p>
                               {% endfor %}
                         </div>
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">First Reading</h1>
+                              <p class="prayerBodyTagline"><i>All the Faithful participate in the declaration of faith – this is what the Church believes</i></p>
+                              <p class="prayerBodyVerses">{{ first_reading.verse_number }}</p>
+                              {% for p in first_reading.content %}
+                              {% if p.content_type == "paragraph" %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                          {{ line }}
+                                    {% endfor %}
+                              </p>
+                              {% elif p.content_type == "stanza" %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                    <span>
+                                          {{ line|linebreaksbr }}
+                                    </span><br>
+                                    {% endfor %}
+                              </p>
+                              {% endif %}
+                              {% endfor %}
+                        </div>
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Responsorial Psalm</h1>
+                              <p class="prayerBodyTagline"><i>All the Faithful participate in the declaration of faith – this is what the Church believes</i></p>
+                              <p class="prayerBodyResponse"><strong>Response:</strong> <i>{{ responsorial_psalm.response }}</i></p>
+                              <p class="prayerBodyVerses">{{ responsorial_psalm.verse_number }}</p>
+                              {% for p in responsorial_psalm.content %}
+                              {% if p.content_type == "paragraph" %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                          {{ line }}
+                                    {% endfor %}
+                              </p>
+                              {% elif p.content_type == "stanza" %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                    {% if forloop.last %}
+                                    <span>
+                                          {{ line|linebreaksbr }}
+                                          &nbsp;<strong>R.</strong>
+                                    </span>
+                                    {% else %}
+                                    <span>
+                                          {{ line|linebreaksbr }}
+                                    </span><br>
+                                    {% endif %}
+                                    {% endfor %}
+                              </p>
+                              {% endif %}
+                              {% endfor %}
+                        </div>
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Second Reading</h1>
+                              <p class="prayerBodyTagline"><i>All the Faithful participate in the declaration of faith – this is what the Church believes</i></p>
+                              <p class="prayerBodyVerses">{{ second_reading.verse_number }}</p>
+                              {% for p in second_reading.content %}
+                              {% if p.content_type == "paragraph" %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                          {{ line }}
+                                    {% endfor %}
+                              </p>
+                              {% elif p.content_type == "stanza" %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                    <span>
+                                          {{ line|linebreaksbr }}
+                                    </span><br>
+                                    {% endfor %}
+                              </p>
+                              {% endif %}
+                              {% endfor %}
+                        </div>
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Gospel Acclamation</h1>
+                              <p class="prayerBodyTagline"><i>This antiphon is sung or recited when the celebrant proceeds
+                                    to the front of the sanctuary and then climbs the steps of the altar. If the procession takes longer than usual,
+                                    the antiphon may be repeated, or replaced with an appropriate hymn.</i></p>
+                              <p class="prayerBodyVerses">{{ gospel_acclamation.verse_number }}</p>
+                              {% for paragraph in gospel_acclamation.content %}
+                              <p class="prayerBodyContent">
+                                    {% for span in paragraph.p %}
+                                    <span>
+                                          {{ span }}
+                                    </span><br>
+                                    {% endfor %}
+                              </p>
+                              {% endfor %}
+                        </div>
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Gospel</h1>
+                              <p class="prayerBodyTagline"><i>All the Faithful participate in the declaration of faith – this is what the Church believes</i></p>
+                              <p class="prayerBodyVerses">{{ gospel_reading.verse_number }}</p>
+                              {% for p in gospel_reading.content %}
+                              {% if p.content_type == "paragraph" %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                          {{ line }}
+                                    {% endfor %}
+                              </p>
+                              {% elif p.content_type == "stanza" %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                    <span>
+                                          {{ line|linebreaksbr }}
+                                    </span><br>
+                                    {% endfor %}
+                              </p>
+                              {% endif %}
+                              {% endfor %}
+                        </div>
                         {% if credo != "no" %}
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Credo</h1>
@@ -223,7 +335,36 @@
                               <p class="prayerBodyTagline"><i>The collect – prayed by the celebrant – concludes opening rites of the Divine Liturgy.
                                     The Faithful are encouraged to pay close attention to the words of the prayer and meditate on them as they prepare
                                     to participate in the Liturgy of the Word.</i></p>
-                              {% for p in offetory %}
+                              {% for p in offertory %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                          {{ line }}
+                                    {% endfor %}
+                              </p>
+                              {% endfor %}
+                        </div>
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Communion Antiphon</h1>
+                              <p class="prayerBodyTagline"><i>This antiphon is sung or recited when the celebrant proceeds
+                                    to the front of the sanctuary and then climbs the steps of the altar. If the procession takes longer than usual,
+                                    the antiphon may be repeated, or replaced with an appropriate hymn.</i></p>
+                              <p class="prayerBodyVerses">{{ communion_antiphon.verse_number }}</p>
+                              {% for paragraph in communion_antiphon.content %}
+                              <p class="prayerBodyContent">
+                                    {% for span in paragraph.p %}
+                                    <span>
+                                          {{ span }}
+                                    </span><br>
+                                    {% endfor %}
+                              </p>
+                              {% endfor %}
+                        </div>
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Prayer after Communion</h1>
+                              <p class="prayerBodyTagline"><i>The collect – prayed by the celebrant – concludes opening rites of the Divine Liturgy.
+                                    The Faithful are encouraged to pay close attention to the words of the prayer and meditate on them as they prepare
+                                    to participate in the Liturgy of the Word.</i></p>
+                              {% for p in prayer_after_communion %}
                               <p class="prayerBodyContent">
                                     {% for line in p.p %}
                                           {{ line }}
@@ -247,6 +388,6 @@
             <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
             <script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>
             <!-- Home Page CSS -->
-            <link href="{% static 'css/cssForMissaleNovusOrdo.css' %}" rel="stylesheet">
+            <link href="{% static 'css/ordinaryform/cssForDailyLiturgy.css' %}" rel="stylesheet">
       </body>
 </html>

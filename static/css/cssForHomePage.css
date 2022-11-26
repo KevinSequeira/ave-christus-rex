@@ -13,7 +13,7 @@
 }
 
 .documentsBackground {
-      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.0) ), url('../images/Large/Documents.jpg');
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.0) ), url('../images/Large/Documents.jpg');
       background-size: cover;
       background-position: center;
 }
@@ -38,7 +38,7 @@
 }
 
 .carouselForJumbotron > .carouselInnerForJumbotron {
-      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Season of Advent.jpg');
+      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Season of Advent.jpg');
       background-size: cover;
       background-position: bottom;
       position: absolute !important;
@@ -381,9 +381,9 @@ p.memorialForTheDayWeek {
       }
 
       .carouselForJumbotron > .carouselInnerForJumbotron {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Season of Advent.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Season of Advent.jpg');
             background-size: cover;
-            background-position: bottom;
+            background-position: left;
             position: absolute !important;
             width: inherit;
             height: inherit;

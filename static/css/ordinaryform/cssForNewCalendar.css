@@ -1,27 +1,27 @@
 .jumbotron {
-      height: 500px;
+      height: 300px;
       color: #FFFFFF;
       margin: 0px 0px 20px 0px;
 }
 
 .jumbotronBackground {
-      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../images/Large/Vatican 002.jpg');
-      background-size: cover;
-      background-position: center;
-      position: relative;
-}
-
-.documentsBackground {
-      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Documents.jpg');
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Vatican 002.jpg');
       background-size: cover;
       background-position: center;
       position: relative;
 }
 
 .letUsPrayBackground {
-      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Let Us Pray.jpg');
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Let Us Pray.jpg');
       background-size: cover;
       background-position: center;
+      position: relative;
+}
+
+.calendarBackground {
+      height: auto;
+      /* background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Documents.jpg'); */
+      background-color: #FFFFFF;
       position: relative;
 }
 
@@ -33,30 +33,30 @@
 
 .liturgyForTheDay {
       position: absolute;
-      bottom: 40px;
+      bottom: 60px;
 }
 
 p.liturgyForTheDayForm {
       margin: 0px 0px 10px 0px;
-      font-size: 20px;
+      font-size: 18px;
       font-family: 'Merriweather', serif;
 }
 
 h1.liturgyForTheDayHeader {
       font-family: 'Vollkorn SC', serif;
       margin: 0px 0px 10px -2px;
-      font-size: 50px;
-      line-height: 34px;
+      font-size: 36px;
+      line-height: 18px;
 }
 
 p.liturgyForTheDayWeek {
-      font-size: 20px;
+      font-size: 18px;
       font-family: 'Merriweather', serif;
 }
 
 .memorialForTheDay {
       position: absolute;
-      bottom: 40px;
+      bottom: 60px;
 }
 
 p.memorialForTheDayForm {
@@ -117,34 +117,87 @@ p.memorialForTheDayWeek {
    color: #000000;
 }
 
+.calendarOverflow {
+      background-color: #FFFFFF;
+      margin: 0px 0px 20px 0px;
+}
+
+.calendarRow {
+      margin: 0px 0px 10px 0px;
+}
+
+.calendarMonth {
+      font-family: 'Vollkorn SC', serif;
+      font-size: 36px;
+      color: #777777;
+}
+
+.firstColumn {
+      width: 10%;
+      font-family: 'Merriweather', sans-serif;
+      font-size: 16px;
+      color: #777777;
+}
+
+.secondColumn {
+      width: 10%;
+      font-family: 'Merriweather', sans-serif;
+      font-size: 16px;
+      color: #777777;
+}
+
+.secondColumn {
+      width: 40%;
+      font-family: 'Merriweather', sans-serif;
+      font-size: 16px;
+      color: #777777;
+}
+
+.thirdColumn {
+      width: 50%;
+      font-family: 'Merriweather', sans-serif;
+      font-size: 16px;
+      color: #777777;
+}
+
+.fifthColumn {
+      width: 10%;
+      font-family: 'Merriweather', sans-serif;
+      font-size: 16px;
+      color: #777777;
+}
+
 @media (max-width: 991px) {
       .jumbotron {
             color: #FFFFFF;
             height: 300px;
-            padding: 190px 20px 20px 20px;
             margin-bottom: 20px;
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../images/Large/Vatican 002.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Vatican 002.jpg');
             background-size: cover;
             background-position: center;
             position: relative;
       }
 
       .documentsBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Documents.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Documents.jpg');
             background-size: cover;
             background-position: center;
-            padding: 140px 0px 0px 0px;
             position: relative;
       }
 
+      .container .jumbotron, .container-fluid .jumbotron {
+            padding-right: 20px;
+            padding-left: 20px;
+            border-radius: 0px;
+      }
+
       .letUsPrayBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Let Us Pray.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Let Us Pray.jpg');
             background-size: cover;
             background-position: center;
-            padding: 140px 0px 0px 0px;
             position: relative;
       }
 
@@ -163,19 +216,19 @@ p.memorialForTheDayWeek {
 
       p.liturgyForTheDayForm {
             margin: 0px 0px 6px 0px;
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Merriweather', serif;
       }
 
       h1.liturgyForTheDayHeader {
             font-family: 'Vollkorn SC', serif;
             margin: 0px 0px 6px -2px;
-            font-size: 40px;
+            font-size: 30px;
             line-height: 30px;
       }
 
       p.liturgyForTheDayWeek {
-            font-size: 16px;
+            font-size: 14px;
             font-family: 'Merriweather', serif;
       }
 
@@ -242,30 +295,57 @@ p.memorialForTheDayWeek {
          border-color: #FFFFFF;
          color: #000000;
       }
+
+      .calendarOverflow {
+            background-color: #FFFFFF;
+      }
+
+      .firstColumn {
+            width: 10%;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 16px;
+            color: #777777;
+      }
+
+      .secondColumn {
+            width: 40%;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 16px;
+            color: #777777;
+      }
+
+      .thirdColumn {
+            width: 50%;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 16px;
+            color: #777777;
+      }
 }
 
 @media (max-width: 768px) {
       .jumbotron {
             color: #FFFFFF;
             height: 350px;
-            padding: 190px 0px 0px 0px;
             margin: 0px 0px 10px 0px;
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.0) ), url('../images/Small/Vatican 002.jpg');
+            height: 240px;
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Vatican 002.jpg');
             background-size: cover;
             background-position: center;
       }
 
       .documentsBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Small/Documents.jpg');
+            height: 240px;
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Documents.jpg');
             background-size: cover;
             background-position: center;
       }
 
-      .letUsPrayBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Small/Let Us Pray.jpg');
+      .calendarBackground {
+            height: 100%;
+            background-color: #FFFFFF;
             background-size: cover;
             background-position: center;
       }
@@ -377,6 +457,43 @@ p.memorialForTheDayWeek {
          border-color: #FFFFFF;
          color: #000000;
       }
+
+      .calendarOverflow {
+            background-color: #FFFFFF;
+      }
+
+      .firstColumn {
+            width: 10%;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 14px;
+            color: #777777;
+            padding: 0px 0px 0px 0px;
+      }
+
+      .secondColumn {
+            width: 10%;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 14px;
+            color: #777777;
+      }
+
+      .generalColumn {
+            width: 45%;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 14px;
+            color: #777777;
+      }
+
+      .fifthColumn {
+            width: 10%;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 14px;
+            color: #777777;
+      }
+
+      .mobileView {
+            display: none;
+      }
 }
 
 @media (max-width: 320px) {
@@ -388,19 +505,19 @@ p.memorialForTheDayWeek {
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Small/Vatican 002.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Vatican 002.jpg');
             background-size: cover;
             background-position: center;
       }
 
       .documentsBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Small/Documents.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Documents.jpg');
             background-size: cover;
             background-position: center;
       }
 
       .letUsPrayBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Small/Let Us Pray.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Let Us Pray.jpg');
             background-size: cover;
             background-position: center;
       }
