@@ -79,7 +79,7 @@ def calendar(request):
     currentQualifyingMonth = datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
     currentQualifyingDay = currentDateDimension.iloc[0]["Qualifying Day"]
     currentCycle = "A, B, C"
-    if (currentQualifyingDay == "Sunday"):
+    if (currentWeekday == "Sunday"):
         currentCycle = currentDateDimension.iloc[0]["Sunday Cycle"]
     else:
         currentCycle = currentDateDimension.iloc[0]["Weekday Cycle"]
@@ -144,6 +144,7 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
     currentQualifyingMonth = datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
     currentQualifyingDay = currentDateDimension.iloc[0]["Qualifying Day"]
     currentCycle = "A, B, C"
+    print(currentWeekday)
     if (currentWeekday == "Sunday"):
         currentCycle = currentDateDimension.iloc[0]["Sunday Cycle"]
     else:
@@ -221,7 +222,6 @@ def adventCalendar(context = {}):
     currentSeasonCalendar = dateDimension.loc[dateDimension["Season Short"] == "advent"]
     currentSeasonCalendar["Qualifying Month"] = currentSeasonCalendar["Month"].apply(lambda row: datetime.strptime(str(row), "%m").strftime("%B"))
     currentSeasonCalendar["Qualifying Weekday"] = currentSeasonCalendar["Date"].apply(lambda row: datetime.strptime(str(row), "%Y-%m-%d").strftime("%A"))
-    print(currentSeasonCalendar[0:10])
 
     # Get unique months for the current Season
     # monthsInTheSeason = currentSeasonCalendar["Date"].apply(lambda string: datetime.strptime(string, '%Y-%m-%d').strftime('%m')).unique()
@@ -236,5 +236,4 @@ def adventCalendar(context = {}):
             calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")].append(row[["Date", "Qualifying Day", "Season", "Qualifying Weekday", "Week", "Feast Day", "Feast Class"]].tolist())
 
     context["calendar_dictionary"] = calendarDictionary.items()
-    print(context)
     return context

@@ -6,9 +6,9 @@ def prayers(request):
     context = {}
     return render(request, "prayers.html", context)
 
-def simplePrayers(request):
+def simpleprayers(request):
     context = {}
-    return render(request, "simplePrayers.html", context)
+    return render(request, "simpleprayers.html", context)
 
 def essentialPrayers(request):
     context = {}

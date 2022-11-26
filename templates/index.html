@@ -116,7 +116,7 @@
                                                       <br>
                                                 </ul>
                                           </li>
-                                          <li class="dropdown">
+                                          <li class="dropdown disabled">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other <span class="caret"></span></a>
                                                 <ul class="dropdown-menu">
                                                       <li class="dropdown-header">Nav header</li>
@@ -170,7 +170,7 @@
                                           <p class="liturgyForTheDayForm">New Liturgical Calendar</p>
                                           <h1 class="liturgyForTheDayHeader">Ordinary Form</h1>
                                           <p class="liturgyForTheDayWeek">Season of Advent, Cycle A</p>
-                                          <a class="btn default" href="liturgyfortheday/{{ current_date }}" target="_blank" role="button">Show me ...</a>
+                                          <a class="btn default" href="ordinaryform/calendar" target="_blank" role="button">Show me ...</a>
                                           <!-- </div> -->
                                     </div>
 
@@ -179,7 +179,7 @@
                                           <p class="liturgyForTheDayForm">Traditional Liturgical Calendar</p>
                                           <h1 class="liturgyForTheDayHeader">Extrordinary Form</h1>
                                           <p class="liturgyForTheDayWeek">Season of Advent</p>
-                                          <a class="btn default" href="liturgyfortheday/{{ current_date }}" target="_blank" role="button">Show me ...</a>
+                                          <a class="btn default disabled" href="extraordinaryform/calendar" target="_blank" role="button">Coming soon ...</a>
                                           <!-- </div> -->
                                     </div>
                               </div>
@@ -193,30 +193,38 @@
 
                         </div>
                   </div>
+
                   <div class="row">
                         <div class="col-sm-6 row-left">
                               <div class="jumbotron documentsBackground">
                                     <div class="memorialForTheDay">
                                           <h1 class="memorialForTheDayHeader">Church Documents</h1>
                                           <p class="memorialForTheDayWeek">Resources for learning from the Wisdom of the Church taught through the ages</p>
-                                          <a class="btn default" href="liturgyfortheday/{{ current_date }}" target="_blank" role="button">Read ...</a>
+                                          <a class="btn default disabled" href="liturgyfortheday/{{ current_date }}" target="_blank" role="button">Coming soon ...</a>
                                     </div>
                               </div>
                         </div>
                         <div class="col-sm-6 row-right">
                               <div class="jumbotron letUsPrayBackground">
                                     <div class="memorialForTheDay">
-                                          <p class="memorialForTheDayForm">&nbsp;</p>
-                                          <h1 class="memorialForTheDayHeader">Liturgical Calendar</h1>
-                                          <p class="memorialForTheDayWeek">Season of Advent, Year A
-                                                <br>&nbsp;</p>
-                                          <a class="btn default" href="liturgyfortheday/{{ current_date }}" target="_blank" role="button">Read ...</a>
+                                          <h1 class="memorialForTheDayHeader">Learn to Pray</h1>
+                                          <p class="memorialForTheDayWeek">To be Christian is to be a people of prayer; we trust that God is never too far from us</p>
+                                          <a class="btn default" href="prayers/simpleprayers" target="_blank" role="button">Read ...</a>
                                     </div>
                               </div>
                         </div>
                   </div>
 
                   <hr>
+
+                  <div class="jumbotron footerContentBackground">
+                        <div class="footerContentAve">
+                              Ave Christus Rex
+                        </div>
+                        <div class="footerContentDominus">
+                              Iesus Dominus Est
+                        </div>
+                  </div>
 
             </div> <!-- /container -->
 

@@ -5,9 +5,9 @@
 }
 
 .jumbotronBackground {
-      /* background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Vatican 002.jpg'); */
+      background: linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../images/Large/Advent in Church.jpg');
       background-size: cover;
-      background-position: center;
+      background-position: top;
       padding: 0px 0px 0px 0px;
       position: relative;
 }
@@ -38,7 +38,6 @@
 }
 
 .carouselForJumbotron > .carouselInnerForJumbotron {
-      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Season of Advent.jpg');
       background-size: cover;
       background-position: bottom;
       position: absolute !important;
@@ -171,6 +170,30 @@ p.memorialForTheDayWeek {
    color: #000000;
 }
 
+.footerContentBackground {
+      height: 50px;
+      background: #FFFFFF;
+      padding: 10px 0px 0px 0px;
+      margin: 0px 0px 20px 0px;
+}
+
+.footerContentAve {
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      color: #D7B546;
+      text-align: center;
+}
+
+.footerContentDominus {
+      font-family: 'Vollkorn SC', serif;
+      margin: 0px 0px 10px -2px;
+      font-size: 20px;
+      line-height: 20px;
+      color: #777777;
+      text-align: center;
+}
+
 @media (max-width: 991px) {
       .jumbotron {
             color: #FFFFFF;
@@ -180,7 +203,7 @@ p.memorialForTheDayWeek {
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Season of Advent.jpg');
+            background: linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../images/Large/Advent in Church.jpg');
             background-size: cover;
             background-position: center;
             position: relative;
@@ -207,7 +230,6 @@ p.memorialForTheDayWeek {
       }
 
       .carouselForJumbotron > .carouselInnerForJumbotron {
-            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Season of Advent.jpg');
             background-size: cover;
             background-position: bottom;
             position: absolute !important;
@@ -340,6 +362,30 @@ p.memorialForTheDayWeek {
          border-color: #FFFFFF;
          color: #000000;
       }
+
+      .footerContentBackground {
+            height: 50px;
+            background: #FFFFFF;
+            padding: 10px 0px 0px 0px;
+            margin: 0px 0px 20px 0px;
+      }
+
+      .footerContentAve {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            color: #D7B546;
+            text-align: center;
+      }
+
+      .footerContentDominus {
+            font-family: 'Vollkorn SC', serif;
+            margin: 0px 0px 10px -2px;
+            font-size: 20px;
+            line-height: 20px;
+            color: #777777;
+            text-align: center;
+      }
 }
 
 @media (max-width: 768px) {
@@ -350,9 +396,9 @@ p.memorialForTheDayWeek {
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Small/Vatican 002.jpg');
+            background: linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../images/Large/Advent in Church.jpg');
             height: 400px;
-            background-size: contain;
+            background-size: cover;
             background-position: right;
       }
 
@@ -381,7 +427,6 @@ p.memorialForTheDayWeek {
       }
 
       .carouselForJumbotron > .carouselInnerForJumbotron {
-            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Season of Advent.jpg');
             background-size: cover;
             background-position: left;
             position: absolute !important;
@@ -514,6 +559,30 @@ p.memorialForTheDayWeek {
          border-color: #FFFFFF;
          color: #000000;
       }
+
+      .footerContentBackground {
+            height: 50px;
+            background: #FFFFFF;
+            padding: 10px 0px 0px 0px;
+            margin: 0px 0px 30px 0px;
+      }
+
+      .footerContentAve {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            color: #D7B546;
+            text-align: center;
+      }
+
+      .footerContentDominus {
+            font-family: 'Vollkorn SC', serif;
+            margin: 0px 0px 10px -2px;
+            font-size: 20px;
+            line-height: 20px;
+            color: #777777;
+            text-align: center;
+      }
 }
 
 @media (max-width: 320px) {
@@ -525,7 +594,7 @@ p.memorialForTheDayWeek {
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Small/Vatican 002.jpg');
+            background: linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../images/Large/Advent in Church.jpg');
             background-size: cover;
             background-position: center;
       }
@@ -607,5 +676,29 @@ p.memorialForTheDayWeek {
          background: #FFFFFF;
          border-color: #FFFFFF;
          color: #000000;
+      }
+
+      .footerContentBackground {
+            height: 50px;
+            background: #FFFFFF;
+            padding: 10px 0px 0px 0px;
+            margin: 0px 0px 20px 0px;
+      }
+
+      .footerContentAve {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            color: #D7B546;
+            text-align: center;
+      }
+
+      .footerContentDominus {
+            font-family: 'Vollkorn SC', serif;
+            margin: 0px 0px 10px -2px;
+            font-size: 20px;
+            line-height: 20px;
+            color: #777777;
+            text-align: center;
       }
 }
