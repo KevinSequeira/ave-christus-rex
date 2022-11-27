@@ -301,7 +301,6 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
     try:
         jsonFile = open(f"./static/documents/ordinaryform/memorials/{saintQualifyingMonth}/{saintShortName}.json")
         jsonFile = json.load(jsonFile)
-        print(jsonFile)
 
         commonPrayers = open(f"./static/documents/ordinaryform/commonprayers.json")
         commonPrayers = json.load(commonPrayers)
