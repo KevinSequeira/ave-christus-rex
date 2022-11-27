@@ -1,0 +1,158 @@
+{
+      "opening_antiphon": {
+            "verse_number": "Cf. Jeremiah ch. 31, v. 10; Isaiah ch. 35, v. 4",
+            "content": [
+                  {
+                        "p": [
+                              "Hear the word of the Lord, O nations;",
+                              "declare it to the distant lands:",
+                              "Behold, our Savior will come; you need no longer fear."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Keep us alert, we pray, O Lord our God,",
+                        "as we await the advent of Christ your Son,",
+                        "so that, when he comes and knocks,",
+                        "he may find us watchful in prayer and exultant in his praise."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns with you in the unity of the Holy Spirit, God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Accept, we pray, O Lord, these offerings we make,",
+                        "gathered from among your gifts to us,",
+                        "and may what you grant us to celebrate devoutly here below",
+                        "gain for us the prize of eternal redemption."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": {
+            "verse_number": "Psalm 106, vv. 4 - 5; Isaiah ch. 38, v. 3",
+            "content": [
+                  {
+                        "p": [
+                              "Come, O Lord, visit us in peace,",
+                              "that we may rejoice before you with a blameless heart."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May these mysteries, O Lord,",
+                        "in which we have participated,",
+                        "profit us, we pray,",
+                        "for even now, as we walk amid passing things,",
+                        "you teach us by them",
+                        "to love the things of heaven",
+                        "and hold fast to what endures."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Isaiah ch. 4, vv. 2 - 6",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "On that day the branch of the Lord shall be beautiful and glorious,",
+                                    "and the fruit of the land shall be the pride and glory of the survivors of Israel.",
+                                    "Whoever is left in Zion and remains in Jerusalem will be called holy, everyone who has been recorded for life in Jerusalem,",
+                                    "once the Lord has washed away the filth of the daughters of Zion and cleansed the bloodstains of Jerusalem from its midst",
+                                    "by a spirit of judgement and by a spirit of burning. Then the Lord will create over the whole site",
+                                    "of Mount Zion and over its places of assembly a cloud by day and smoke and the shining of a flaming fire by night.",
+                                    "Indeed, over all the glory there will be a canopy. It will serve as a pavilion, a shade by day from the heat,",
+                                    "and a refuge and a shelter from the storm and rain."
+                              ]
+                        }
+                  ]
+            },
+            "responsorial_psalm": {
+                  "verse_number": "Psalm 122, vv. 1 - 2, 3 - 4a, 4b - 5, 6 - 7, 8 - 9",
+                  "response": "Let us go rejoicing to the house of the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I was glad when they said to me, \n“Let us go to the house of the Lord!”",
+                                    "Our feet are standing \nwithin your gates, O Jerusalem."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Jerusalem—built as a city \nthat is bound firmly together.",
+                                    "To it the tribes go up, \nthe tribes of the Lord."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "As was decreed for Israel, \nto give thanks to the name of the Lord.",
+                                    "For there the thrones for judgement were set up, \nthe thrones of the house of David."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Pray for the peace of Jerusalem: \n“May they prosper who love you.",
+                                    "Peace be within your walls, \nand security within your towers.”"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Psalm 80, v. 4",
+                  "content": [
+                        {
+                              "p": [
+                                    "Come and save us, Lord our God;",
+                                    "let your face shine upon us, that we may be saved."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 8, vv. 5 - 11",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "When Jesus entered Capernaum, a centurion came to him, appealing to him and saying,",
+                                    "“Lord, my servant is lying at home paralysed, in terrible distress.”",
+                                    "And he said to him, “I will come and cure him.” The centurion answered,",
+                                    "“Lord, I am not worthy to have you come under my roof; but only speak the word, and my servant will be healed.",
+                                    "For I also am a man under authority, with soldiers under me; and I say to one, ‘Go’, and he goes, and to another, ‘Come’, and he comes, and to my slave, ‘Do this’, and the slave does it.”",
+                                    "When Jesus heard him, he was amazed and said to those who followed him,",
+                                    "“Truly I tell you, in no one in Israel have I found such faith.",
+                                    "I tell you, many will come from east and west and will eat with Abraham and Isaac and Jacob in the kingdom of heaven.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -22,10 +22,7 @@ def ordinaryform(request):
     currentQualifyingMonth = datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
     currentQualifyingDay = currentDateDimension.iloc[0]["Qualifying Day"]
     currentCycle = "A, B, C"
-    if (currentQualifyingDay == "Sunday"):
-        currentCycle = currentDateDimension.iloc[0]["Sunday Cycle"]
-    else:
-        currentCycle = currentDateDimension.iloc[0]["Weekday Cycle"]
+    currentCycle = currentDateDimension.iloc[0]["Year Cycle"]
     currentYear = currentDateDimension.iloc[0]["Year"]
     currentWeek = currentDateDimension.iloc[0]["Week"]
     currentSeason = currentDateDimension.iloc[0]["Season"]
@@ -79,10 +76,7 @@ def calendar(request):
     currentQualifyingMonth = datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
     currentQualifyingDay = currentDateDimension.iloc[0]["Qualifying Day"]
     currentCycle = "A, B, C"
-    if (currentWeekday == "Sunday"):
-        currentCycle = currentDateDimension.iloc[0]["Sunday Cycle"]
-    else:
-        currentCycle = currentDateDimension.iloc[0]["Weekday Cycle"]
+    currentCycle = currentDateDimension.iloc[0]["Year Cycle"]
     currentYear = currentDateDimension.iloc[0]["Year"]
     currentWeek = currentDateDimension.iloc[0]["Week"]
     currentSeason = currentDateDimension.iloc[0]["Season"]
@@ -132,7 +126,8 @@ def calendar(request):
 def liturgyfortheday(request, current_date = "2022-11-27"):
 
     # Get the currentDate from the request URL
-    currentDate = "2022-11-27"
+    currentDate = current_date
+
     # Load the date dimension table
     dateDimension = pan.read_excel(f"./static/documents/datedimension.xlsx", sheet_name = "datedimension")
 
@@ -145,10 +140,7 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
     currentQualifyingDay = currentDateDimension.iloc[0]["Qualifying Day"]
     currentCycle = "A, B, C"
     print(currentWeekday)
-    if (currentWeekday == "Sunday"):
-        currentCycle = currentDateDimension.iloc[0]["Sunday Cycle"]
-    else:
-        currentCycle = currentDateDimension.iloc[0]["Weekday Cycle"]
+    currentCycle = currentDateDimension.iloc[0]["Year Cycle"]
     currentYear = currentDateDimension.iloc[0]["Year"]
     currentWeek = currentDateDimension.iloc[0]["Week"]
     currentSeason = currentDateDimension.iloc[0]["Season"]
@@ -173,7 +165,13 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
     elif (currentSeasonShort == "lent"):
         context = lent(context)
 
-    return render(request, f"{currentSeasonShort}/{currentWeekday.lower()}.html", context)
+    templateFileName = "sunday"
+    if (currentWeekday == "Sunday"):
+        templateFileName = "sunday"
+    else:
+        templateFileName = "weekday"
+
+    return render(request, f"{currentSeasonShort}/{templateFileName}.html", context)
 
 
 def advent(context = {}):
@@ -200,7 +198,11 @@ def advent(context = {}):
     context["collect"] = jsonFile["collect"]
     context["first_reading"] = jsonFile["year_a"]["first_reading"]
     context["responsorial_psalm"] = jsonFile["year_a"]["responsorial_psalm"]
-    context["second_reading"] = jsonFile["year_a"]["second_reading"]
+
+    second_reading_content = ""
+    if ("second_reading" in jsonFile["year_a"]):
+        context["second_reading"] = jsonFile["year_a"]["second_reading"]
+
     context["gospel_acclamation"] = jsonFile["year_a"]["gospel_acclamation"]
     context["gospel_reading"] = jsonFile["year_a"]["gospel_reading"]
     context["offertory"] = jsonFile["offertory"]
