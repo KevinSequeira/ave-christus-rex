@@ -268,6 +268,7 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
     saintShortName = st_short_name
     saintClass = "Feast"
     context = {}
+    context["file_available"] = "yes"
 
     try:
         # Load the date dimension table
@@ -283,6 +284,14 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
         saintQualifyingDay = saintDateDimension.iloc[0]["Qualifying Day"]
         saintName = saintDateDimension.iloc[0]["Feast Day"]
         saintClass = saintDateDimension.iloc[0]["Feast Class"]
+
+        templateFileName = "feast"
+        if (saintClass == "Feast"):
+            templateFileName = "feast"
+        elif (saintClass in ("Memorial", "Optional Memorial")):
+            templateFileName = "memorial"
+        elif (saintClass == "Solemnity"):
+            templateFileName = "solemnity"
 
         # Load context variables
         context = {
@@ -353,13 +362,5 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
         context["credo_content"] = ""
         context["communion_antiphon"] = ""
         context["prayer_after_communion"] = ""
-
-    templateFileName = "feast"
-    if (saintClass == "Feast"):
-        templateFileName = "feast"
-    elif (saintClass in ("Memorial", "Optional Memorial")):
-        templateFileName = "memorial"
-    elif (saintClass == "Solemnity"):
-        templateFileName = "solemnity"
 
     return render(request, f"memorials/{templateFileName}.html", context)
