@@ -269,6 +269,7 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
     saintClass = "Feast"
     context = {}
     context["file_available"] = "yes"
+    templateFileName = "feast"
 
     try:
         # Load the date dimension table
@@ -285,7 +286,6 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
         saintName = saintDateDimension.iloc[0]["Feast Day"]
         saintClass = saintDateDimension.iloc[0]["Feast Class"]
 
-        templateFileName = "feast"
         if (saintClass == "Feast"):
             templateFileName = "feast"
         elif (saintClass in ("Memorial", "Optional Memorial")):
