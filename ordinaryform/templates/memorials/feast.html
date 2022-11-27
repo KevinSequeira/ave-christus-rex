@@ -151,10 +151,11 @@
                               <p class="liturgyForTheDayForm">{{ saint_weekday }}, {{ saint_qualifying_day }} {{ saint_qualifying_month }}, {{ saint_year }}</p>
                               <h1 class="liturgyForTheDayHeader">Saint of the Day</h1>
                               <p class="liturgyForTheDayWeek">{{ saint_name }}
-                                    <br>{{ saint_class }}</p>
+                                    <br>{{ file_available }} {{ file_available }}</p>
                         </div>
                   </div>
 
+                  {% elif file_available == "yes" %}
                   <div class="missalPrayersBody">
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Opening Antiphon</h1>
@@ -373,6 +374,7 @@
                               {% endfor %}
                         </div>
                   </div>
+                  {% endif %}
 
                   <hr>
 
