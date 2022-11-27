@@ -304,8 +304,11 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
             "saint_class": saintClass
         }
 
-        # try:
-        jsonFile = open(f"./static/documents/ordinaryform/memorials/{saintQualifyingMonth}/{saintShortName}.json")
+    except:
+        context = {}
+
+    try:
+        jsonFile = open(f"./static/documents/ordinaryform/memorials/{saintQualifyingMonth.lower()}/{saintShortName}.json")
         jsonFile = json.load(jsonFile)
 
         commonPrayers = open(f"./static/documents/ordinaryform/commonprayers.json")
@@ -342,25 +345,22 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
         context["communion_antiphon"] = jsonFile["communion_antiphon"]
         context["prayer_after_communion"] = jsonFile["prayer_after_communion"]
 
-        # except:
-        #     context["file_available"] = "no"
-        #
-        #     context["opening_antiphon"] = ""
-        #     context["gloria"] = ""
-        #     context["gloria_content"] = ""
-        #     context["collect"] = ""
-        #     context["first_reading"] = ""
-        #     context["responsorial_psalm"] = ""
-        #     context["second_reading"] = ""
-        #     context["gospel_acclamation"] = ""
-        #     context["gospel_reading"] = ""
-        #     context["offertory"] = ""
-        #     context["credo"] = ""
-        #     context["credo_content"] = ""
-        #     context["communion_antiphon"] = ""
-        #     context["prayer_after_communion"] = ""
-
     except:
-        context = {}
+        context["file_available"] = "no"
+
+        context["opening_antiphon"] = ""
+        context["gloria"] = ""
+        context["gloria_content"] = ""
+        context["collect"] = ""
+        context["first_reading"] = ""
+        context["responsorial_psalm"] = ""
+        context["second_reading"] = ""
+        context["gospel_acclamation"] = ""
+        context["gospel_reading"] = ""
+        context["offertory"] = ""
+        context["credo"] = ""
+        context["credo_content"] = ""
+        context["communion_antiphon"] = ""
+        context["prayer_after_communion"] = ""
 
     return render(request, f"memorials/{templateFileName}.html", context)
