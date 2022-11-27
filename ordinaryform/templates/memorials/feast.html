@@ -155,22 +155,6 @@
                         </div>
                   </div>
 
-                  {% if file_available == "no" %}
-                  <div class="missalPrayersBody">
-                        <div class="prayerBody">
-                              <h1 class="prayerBodyHeader">Coming Soon</h1>
-                              <p class="prayerBodyTagline"><i>Prayers for the day are not yet uploaded. Thank you for bearing with us.</i></p>
-                              <p class="prayerBodyContent">
-                                    <span>
-                                          We are still working on preparing the litury for this day. Please keep us in your prayers as we work to bring you the prayers for the day.
-                                    </span>
-                                    <span>
-                                          May our Lord Jesus Christ be with you all.
-                                    </span>
-                              </p>
-                        </div>
-                  </div>
-                  {% elif file_available == "yes" %}
                   <div class="missalPrayersBody">
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Opening Antiphon</h1>
@@ -389,7 +373,6 @@
                               {% endfor %}
                         </div>
                   </div>
-                  {% endif %}
 
                   <hr>
 
