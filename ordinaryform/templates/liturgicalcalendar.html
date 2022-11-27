@@ -167,7 +167,7 @@
                                           <h1 class="memorialForTheDayHeader">Saint of the Day</h1>
                                           <p class="memorialForTheDayWeek">{{ feast_title }}
                                                 <br>{{ feast_class }}</p>
-                                          <a class="btn default" href="liturgyfortheday/{{ current_date }}" target="_blank" role="button">Read ...</a>
+                                          <a class="btn default" href="{% url 'memorialfortheday' st_short_name %}" target="_blank" role="button">Read ...</a>
                                     </div>
                               </div>
                         </div>
@@ -190,10 +190,10 @@
                                           <a class="liturgyForTheDayLink" href="{% url 'liturgyfortheday' row.0 %}">{{ row.4 }} {{ row.3 }} in {{ row.2 }}</a>
                                     </div>
                                     <div class="col-xs-3 calendarCellColumn thirdColumn">
-                                          {% if row.5 == "" %}
+                                          {% if row.7 == "" %}
 
                                           {% else %}
-                                          <a class="liturgyForTheDayLink" href="{% url 'liturgyfortheday' row.0 %}">{{ row.6 }} of {{ row.5 }}</a>
+                                          <a class="liturgyForTheDayLink" href="{% url 'memorialfortheday' row.7 %}">{{ row.6 }} of {{ row.5 }}</a>
                                           {% endif %}
                                     </div>
                               </div>
