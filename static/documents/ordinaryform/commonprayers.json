@@ -8,32 +8,11 @@
             },
             {
                   "p": [
-                        "We praise you,",
-                        "we bless you,",
-                        "we adore you,",
-                        "we glorify you.",
-                        "We give you thanks for your great glory."
-                  ]
-            }
-      ],
-      "apostles_creed": [
-            {
-                  "p": [
-                        "Glory to God in the highest",
-                        "and on earth peace to people of goodwill."
-                  ]
-            },
-            {
-                  "p": [
-                        "We praise you,",
-                        "we bless you,",
-                        "we adore you,",
-                        "we glorify you.",
-                        "We give you thanks for your great glory."
-                  ]
-            },
-            {
-                  "p": [
+                        "We praise you;",
+                        "we bless you;",
+                        "we adore you;",
+                        "we glorify you;",
+                        "We give you thanks for your great glory,",
                         "Lord God, heavenly king, O God almighty Father."
                   ]
             },
@@ -43,6 +22,62 @@
                         "Lord God, Lamb of God, Son of the Father.",
                         "You take away the sins of the world, have mercy on us.",
                         "You take away the sins of the world, receive our prayer."
+                  ]
+            },
+            {
+                  "p": [
+                        "You are seated at the right hand of the Father,",
+                        "Have mercy on us."
+                  ]
+            },
+            {
+                  "p": [
+                        "For you alone are the Holy One,",
+                        "You alone are the Lord.",
+                        "You alone are the most High, Jesus Christ.",
+                        "With the Holy Spirit, in the glory of God the Father."
+                  ]
+            },
+            {
+                  "p": [
+                        "Amen."
+                  ]
+            }
+      ],
+      "apostles_creed": [
+            {
+                  "p": [
+                        "I believe in God, the Father Almighty, Creator of Heaven and earth."
+                  ]
+            },
+            {
+                  "p": [
+                        "And in Jesus Christ, His only Son Our Lord,",
+                        "who was conceived by the Holy Spirit, born of the Virgin Mary;",
+                        "suffered under Pontius Pilate;",
+                        "was crucified, died, and was buried. "
+                  ]
+            },
+            {
+                  "p": [
+                        "He descended into Hell;",
+                        "the third day He rose again from the dead;",
+                        "He ascended into Heaven, and sitteth at the right hand of God, the Father almighty;",
+                        "from thence He shall come to judge the living and the dead."
+                  ]
+            },
+            {
+                  "p": [
+                        "I believe in the Holy Spirit,",
+                        "the holy Catholic Church,",
+                        "the communion of saints,",
+                        "the forgiveness of sins,",
+                        "the resurrection of the body and life everlasting."
+                  ]
+            },
+            {
+                  "p": [
+                        "Amen."
                   ]
             }
       ]

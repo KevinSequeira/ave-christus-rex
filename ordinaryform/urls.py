@@ -19,7 +19,7 @@ from . import views
 
 urlpatterns = [
     path("", views.ordinaryform, name = "ordinaryform"),
-    path("calendar", views.calendar, name = "calendar"),
+    path("calendar/", views.calendar, name = "calendar"),
     re_path(r'^liturgyfortheday/(?P<current_date>.+?)/$', views.liturgyfortheday , name = "liturgyfortheday"),
     re_path(r'^advent/(?P<week_number>.+?)/(?P<week_day>.+?)/$', views.advent , name = "advent")
 ]

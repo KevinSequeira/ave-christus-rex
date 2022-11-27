@@ -21,6 +21,6 @@ urlpatterns = [
     path('', views.home),
     path('admin/', admin.site.urls),
     path('surveys/', include('surveys.urls')),
-    path('prayers/', include('prayers.urls')),
-    path('ordinaryform/', include('ordinaryform.urls')),
+    path('prayers/', include('prayers.urls'), name="prayers"),
+    path('ordinaryform/', include('ordinaryform.urls'), name="ordinaryform"),
 ]
