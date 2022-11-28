@@ -265,7 +265,7 @@ p.memorialForTheDayWeek {
       .jumbotronBackground {
             background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Season of Advent.jpg');
             background-size: cover;
-            background-position: center;
+            background-position: right;
       }
 
       .documentsBackground {
