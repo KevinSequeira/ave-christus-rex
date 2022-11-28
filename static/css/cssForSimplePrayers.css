@@ -321,14 +321,14 @@ p.simplePrayersTagline {
             bottom: 20px;
       }
 
-      .jumbotron h1 {
+      h1.simplePrayersHeader {
             font-family: 'Vollkorn SC', serif;
             margin: 0px 0px 6px -2px;
             font-size: 24px;
             line-height: 24px;
       }
 
-      .jumbotron p {
+      p.simplePrayersTagline {
             font-size: 14px;
             font-family: 'Merriweather', serif;
       }
