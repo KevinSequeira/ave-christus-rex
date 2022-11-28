@@ -9,21 +9,21 @@
 }
 
 .jumbotronBackground {
-      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Vatican 002.jpg');
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Season of Advent.jpg');
       background-size: cover;
       background-position: center;
       position: relative;
 }
 
 .documentsBackground {
-      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Documents.jpg');
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Vatican 002.jpg');
       background-size: cover;
       background-position: center;
       position: relative;
 }
 
 .letUsPrayBackground {
-      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Let Us Pray.jpg');
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Liturgical Prayers.jpg');
       background-size: cover;
       background-position: center;
       position: relative;
@@ -130,14 +130,14 @@ p.memorialForTheDayWeek {
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Vatican 002.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Season of Advent.jpg');
             background-size: cover;
             background-position: center;
             position: relative;
       }
 
       .documentsBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Documents.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Vatican 002.jpg');
             background-size: cover;
             background-position: center;
             padding: 140px 0px 0px 0px;
@@ -145,7 +145,7 @@ p.memorialForTheDayWeek {
       }
 
       .letUsPrayBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Let Us Pray.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Liturgical Prayers.jpg');
             background-size: cover;
             background-position: center;
             padding: 140px 0px 0px 0px;
@@ -263,19 +263,19 @@ p.memorialForTheDayWeek {
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Vatican 002.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Season of Advent.jpg');
             background-size: cover;
             background-position: center;
       }
 
       .documentsBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Documents.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Vatican 002.jpg');
             background-size: cover;
             background-position: center;
       }
 
       .letUsPrayBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Let Us Pray.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Liturgical Prayers.jpg');
             background-size: cover;
             background-position: center;
       }
@@ -398,19 +398,19 @@ p.memorialForTheDayWeek {
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Vatican 002.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Season of Advent.jpg');
             background-size: cover;
             background-position: center;
       }
 
       .documentsBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Documents.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Vatican 002.jpg');
             background-size: cover;
             background-position: center;
       }
 
       .letUsPrayBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Let Us Pray.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Liturgical Prayers.jpg');
             background-size: cover;
             background-position: center;
       }
