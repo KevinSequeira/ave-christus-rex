@@ -1,4 +1,4 @@
-"""avechristusrex URL Configuration
+"""surveys URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.1/topics/http/urls/
@@ -14,14 +14,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path, re_path
 from . import views
 
 urlpatterns = [
-    path('', views.home),
-    path('admin/', admin.site.urls),
-    path('surveys/', include('surveys.urls')),
-    path('prayers/', include('prayers.urls'), name="prayers"),
-    path('ordinaryform/', include('ordinaryform.urls'), name="ordinaryform"),
-    path('blog/', include('blog.urls'), name="blog"),
+    path("", views.blog, name = "blog"),
+    re_path(r'^(?P<article_number>.+?)/$', views.blog , name = "blog")
 ]

@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'surveys',
     'prayers',
-    'ordinaryform'
+    'ordinaryform',
+    'blog'
 ]
 
 MIDDLEWARE = [
