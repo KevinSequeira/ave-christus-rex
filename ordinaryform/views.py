@@ -142,12 +142,12 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
     currentQualifyingMonth = datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
     currentQualifyingDay = currentDateDimension.iloc[0]["Qualifying Day"]
     currentCycle = "A, B, C"
-    print(currentWeekday)
     currentCycle = currentDateDimension.iloc[0]["Year Cycle"]
     currentYear = currentDateDimension.iloc[0]["Year"]
     currentWeek = currentDateDimension.iloc[0]["Week"]
     currentSeason = currentDateDimension.iloc[0]["Season"]
     currentSeasonShort = currentDateDimension.iloc[0]["Season Short"]
+    currentDateImage = currentDateDimension.iloc[0]["Liturgy Image Location"]
 
     # Load context variables
     context = {
@@ -159,8 +159,10 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
         "current_week": currentWeek,
         "current_season": currentSeason,
         "current_season_short": currentSeasonShort,
-        "current_cycle": currentCycle
+        "current_cycle": currentCycle,
+        "current_date_image": currentDateImage
     }
+    print(currentDateImage)
 
     # Add season-specific context variables
     if (currentSeasonShort == "advent"):
@@ -287,6 +289,7 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
         saintQualifyingDay = saintDateDimension.iloc[0]["Qualifying Day"]
         saintName = saintDateDimension.iloc[0]["Feast Day"]
         saintClass = saintDateDimension.iloc[0]["Feast Class"]
+        saintImage = saintDateDimension.iloc[0]["Feast Image Location"]
 
         if (saintClass == "Feast"):
             templateFileName = "feast"
@@ -303,7 +306,8 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
             "saint_qualifying_day": saintQualifyingDay,
             "saint_year": saintYear,
             "saint_name": saintName,
-            "saint_class": saintClass
+            "saint_class": saintClass,
+            "saint_image": saintImage
         }
 
         try:

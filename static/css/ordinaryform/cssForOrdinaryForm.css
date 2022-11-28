@@ -30,14 +30,14 @@
 }
 
 .container .jumbotron, .container-fluid .jumbotron {
-      padding-right: 30px;
-      padding-left: 30px;
+      padding-right: 50px;
+      padding-left: 50px;
       border-radius: 0px;
 }
 
 .liturgyForTheDay {
       position: absolute;
-      bottom: 40px;
+      bottom: 60px;
 }
 
 p.liturgyForTheDayForm {
@@ -60,7 +60,7 @@ p.liturgyForTheDayWeek {
 
 .memorialForTheDay {
       position: absolute;
-      bottom: 40px;
+      bottom: 60px;
 }
 
 p.memorialForTheDayForm {
@@ -152,6 +152,12 @@ p.memorialForTheDayWeek {
             position: relative;
       }
 
+      .container .jumbotron, .container-fluid .jumbotron {
+            padding-right: 30px;
+            padding-left: 30px;
+            border-radius: 0px;
+      }
+
 
       .jumbotron h2 {
             font-family: 'Vollkorn SC', serif;
@@ -162,7 +168,7 @@ p.memorialForTheDayWeek {
 
       .liturgyForTheDay {
             position: absolute;
-            bottom: 34px;
+            bottom: 60px;
       }
 
       p.liturgyForTheDayForm {
@@ -185,7 +191,7 @@ p.memorialForTheDayWeek {
 
       .memorialForTheDay {
             position: absolute;
-            bottom: 34px;
+            bottom: 60px;
       }
 
       p.memorialForTheDayForm {
@@ -275,8 +281,8 @@ p.memorialForTheDayWeek {
       }
 
       .container .jumbotron, .container-fluid .jumbotron {
-            padding-right: 20px;
-            padding-left: 20px;
+            padding-right: 30px;
+            padding-left: 30px;
             border-radius: 0px;
       }
 
@@ -297,7 +303,7 @@ p.memorialForTheDayWeek {
 
       .liturgyForTheDay {
             position: absolute;
-            bottom: 34px;
+            bottom: 60px;
       }
 
       p.liturgyForTheDayForm {
@@ -320,7 +326,7 @@ p.memorialForTheDayWeek {
 
       .memorialForTheDay {
             position: absolute;
-            bottom: 34px;
+            bottom: 60px;
       }
 
       p.memorialForTheDayForm {
