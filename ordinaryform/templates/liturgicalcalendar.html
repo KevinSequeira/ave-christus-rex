@@ -49,7 +49,7 @@
                                           <h1 class="liturgyForTheDayHeader">Liturgy for the Day</h1>
                                           <p class="liturgyForTheDayWeek">{{ current_week }} Week in {{ current_season }}
                                                 <br>Year {{ current_cycle }}</p>
-                                          <a class="btn default" href="{% url 'liturgyfortheday' current_date %}" target="_blank" role="button">Read ...</a>
+                                          <a class="btn default" href="{% url 'liturgyfortheday' current_date %}" target="_blank" role="button">Read More ...</a>
                                     </div>
                               </div>
                         </div>
@@ -60,7 +60,7 @@
                                           <h1 class="memorialForTheDayHeader">Saint of the Day</h1>
                                           <p class="memorialForTheDayWeek">{{ feast_title }}
                                                 <br>{{ feast_class }}</p>
-                                          <a class="btn default" href="{% url 'memorialfortheday' st_short_name %}" target="_blank" role="button">Read ...</a>
+                                          <a class="btn default" href="{% url 'memorialfortheday' st_short_name %}" target="_blank" role="button">Read More ...</a>
                                     </div>
                               </div>
                         </div>
