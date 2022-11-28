@@ -6,6 +6,10 @@
       margin: 0px 0px 0px 0px;
 }
 
+.disabled {
+      pointer-events: none;
+}
+
 .jumbotronBackground {
       background: linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Season of Advent.jpg');
       background-size: cover;
@@ -165,7 +169,7 @@ p.liturgyForTheDayWeek {
             color: #FFFFFF;
             height: 400px;
             padding: 0px 40px 20px 20px;
-            margin-bottom: 20px;
+            margin-bottom: 0px;
       }
 
       .jumbotronBackground {
@@ -328,7 +332,7 @@ p.liturgyForTheDayWeek {
 
       .liturgyForTheDay {
             position: absolute;
-            bottom: 24px;
+            bottom: 20px;
       }
 
       p.liturgyForTheDayForm {

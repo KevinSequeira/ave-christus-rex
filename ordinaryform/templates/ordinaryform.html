@@ -47,14 +47,14 @@
                                           <span class="icon-bar"></span>
                                           <span class="icon-bar"></span>
                                     </button>
-                                    <a class="navbar-brand" href="#">avechristusrex.com</a>
+                                    <a class="navbar-brand" href="/">avechristusrex.com</a>
                               </div>
                               <div id="navbar" class="navbar-collapse collapse">
                                     <ul class="nav navbar-nav">
                                           <!-- <li class="inactive"><a href="#">Home</a></li> -->
                                           <li class="dropdown">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prayers <span class="caret"></span></a>
-                                                <ul class="dropdown-menu">
+                                                <ul class="dropdown-menu disabled">
                                                       <li class="dropdown-header">Learning to Pray</li>
                                                       <li><a href="#">What is Prayer?</a></li>
                                                       <li><a href="#">Common Prayers</a></li>
@@ -78,17 +78,17 @@
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Liturgy <span class="caret"></span></a>
                                                 <ul class="dropdown-menu">
                                                       <li class="dropdown-header">Missale Romanum</li>
-                                                      <li><a href="#">Missa Tridentina</a></li>
-                                                      <li><a href="#">Novus Ordo Missæ</a></li>
+                                                      <li><a class="disabled" href="#">Extraordinary Form</a></li>
+                                                      <li><a href="{% url 'calendar' %}">Ordinary Form</a></li>
                                                       <li role="separator" class="divider"></li>
                                                       <li class="dropdown-header">Liturgy of the Hours</li>
-                                                      <li><a href="#">Matins</a></li>
-                                                      <li><a href="#">Lauds</a></li>
-                                                      <li><a href="#">Terce</a></li>
-                                                      <li><a href="#">Sext</a></li>
-                                                      <li><a href="#">None</a></li>
-                                                      <li><a href="#">Vespers</a></li>
-                                                      <li><a href="#">Compline</a></li>
+                                                      <li><a class="disabled" href="#">Matins</a></li>
+                                                      <li><a class="disabled" href="#">Lauds</a></li>
+                                                      <li><a class="disabled" href="#">Terce</a></li>
+                                                      <li><a class="disabled" href="#">Sext</a></li>
+                                                      <li><a class="disabled" href="#">None</a></li>
+                                                      <li><a class="disabled" href="#">Vespers</a></li>
+                                                      <li><a class="disabled" href="#">Compline</a></li>
                                                       <br>
                                                 </ul>
                                           </li>
@@ -118,7 +118,7 @@
                                           </li>
                                           <li class="dropdown disabled">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other <span class="caret"></span></a>
-                                                <ul class="dropdown-menu">
+                                                <ul class="dropdown-menu disabled">
                                                       <li class="dropdown-header">Nav header</li>
                                                       <li><a href="#">Separated link</a></li>
                                                       <li><a href="#">One more separated link</a></li>
@@ -165,7 +165,7 @@
                                           <h1 class="memorialForTheDayHeader">Saint of the Day</h1>
                                           <p class="memorialForTheDayWeek">{{ feast_title }}
                                                 <br>{{ feast_class }}</p>
-                                          <a class="btn default" href="liturgyfortheday/{{ current_date }}" target="_blank" role="button">Read ...</a>
+                                          <a class="btn default" href="memorialfortheday/{{ feast_short_name }}" target="_blank" role="button">Read ...</a>
                                     </div>
                               </div>
                         </div>

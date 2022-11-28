@@ -46,7 +46,7 @@
                                           <span class="icon-bar"></span>
                                           <span class="icon-bar"></span>
                                     </button>
-                                    <a class="navbar-brand" href="#">avechristusrex.com</a>
+                                    <a class="navbar-brand" href="/">avechristusrex.com</a>
                               </div>
                               <div id="navbar" class="navbar-collapse collapse">
                                     <ul class="nav navbar-nav">
@@ -78,7 +78,7 @@
                                                 <ul class="dropdown-menu">
                                                       <li class="dropdown-header">Missale Romanum</li>
                                                       <li class="disabled"><a href="#">Extraordinary Form</a></li>
-                                                      <li><a href="#">Ordinary Form</a></li>
+                                                      <li><a href="{% url 'ordinaryform' %}">Ordinary Form</a></li>
                                                       <li role="separator" class="divider"></li>
                                                       <li class="dropdown-header">Liturgy of the Hours</li>
                                                       <li class="disabled"><a href="#">Matins</a></li>
@@ -117,7 +117,7 @@
                                           </li>
                                           <li class="dropdown disabled">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other <span class="caret"></span></a>
-                                                <ul class="dropdown-menu">
+                                                <ul class="dropdown-menu disabled">
                                                       <li class="dropdown-header">Nav header</li>
                                                       <li><a href="#">Separated link</a></li>
                                                       <li><a href="#">One more separated link</a></li>
@@ -189,120 +189,166 @@
                               </p>
                         </div>
                         <div class="prayerBody">
-                              <h1>The Apostle&rsquo;s Creed</h1>
-                              <p class="simplePrayersTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
-                              <p><span>I believe in God, the Father Almighty,</span>
-                              <br><span>Maker of heaven and earth.</span></p>
-                              <p><span>And in Jesus Christ, His Only Son, our Lord,</span>
-                              <br><span>Who was concieved by the Holy Ghost,</span>
-                              <br><span>was born of the Virgin Mary;</span>
-                              <br><span>suffered under Pontius Pilate,</span>
-                              <br><span>was crucified, died, and was buried;</span>
-                              <br><span>on the third day He rose again from the dead;</span>
-                              <br><span>He ascended into heaven;</span>
-                              <br><span>siteth at the right hand of the Father;</span>
-                              <br><span>from thence He shall come again to judge the living and the dead.</span></p>
-                              <p><span>I believe in the Holy Ghost;</span>
-                              <br><span>the Holy Catholic Church;</span>
-                              <br><span>the communion of the Saints;</span>
-                              <br><span>the forgiveness of sins;</span>
-                              <br><span>the resurrection of the dead;</span>
-                              <br><span>and life everlasting.</span></p>
-                              <p><span>Amen.</span></p>
+                              <h1 class="prayerBodyHeader">The Apostle&rsquo;s Creed</h1>
+                              <p class="prayerBodyTagline"><i>This is the declaration of the catholic Apostolic Faith: a must know for every Christian who has been baptised into the Catholic Church.</i></p>
+                              <p class="prayerBodyContent">
+                                    <span>I believe in God, the Father Almighty,</span>
+                                    <br><span>Maker of heaven and earth.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>And in Jesus Christ, His Only Son, our Lord,</span>
+                                    <br><span>Who was concieved by the Holy Ghost,</span>
+                                    <br><span>was born of the Virgin Mary;</span>
+                                    <br><span>suffered under Pontius Pilate,</span>
+                                    <br><span>was crucified, died, and was buried;</span>
+                                    <br><span>on the third day He rose again from the dead;</span>
+                                    <br><span>He ascended into heaven;</span>
+                                    <br><span>siteth at the right hand of the Father;</span>
+                                    <br><span>from thence He shall come again to judge the living and the dead.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>I believe in the Holy Ghost;</span>
+                                    <br><span>the Holy Catholic Church;</span>
+                                    <br><span>the communion of the Saints;</span>
+                                    <br><span>the forgiveness of sins;</span>
+                                    <br><span>the resurrection of the dead;</span>
+                                    <br><span>and life everlasting.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>Amen.</span>
+                              </p>
                         </div>
                         <div class="prayerBody">
-                              <h1>The Nicene Creed</h1>
-                              <p class="simplePrayersTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
-                              <p><span>I believe in One God, the Father Almighty,</span>
-                              <br><span>Maker of heaven and earth,</span>
-                              <br><span>of all things visible and invisible.</span></p>
-                              <p><span>I believe in one Lord Jesus Christ,</span>
-                              <br><span>the Only-Begotten Son of God,</span>
-                              <br><span>born of the Father before all ages;</span>
-                              <br><span>God from God, Light from Light,</span>
-                              <br><span>True God from True God;</span>
-                              <br><span>begotten not made, consubstantial with the Father;</span>
-                              <br><span>through Him all things were made.</span></p>
-                              <p><span>For us and for our salvation</span>
-                              <br><span>He came down from heaven;</span>
-                              <br><span>by the power of the Holy Ghost He was incarnate of the Virgin Mary and became man.</span></p>
-                              <p><span>For our sake He was crucified under Pontius Pilate;</span>
-                              <br><span>He suffered death and was buried,</span>
-                              <br><span>and rose again on the third day</span>
-                              <br><span>in accordance with the Scriptures;</span>
-                              <br><span>He ascended into heaven, and siteth at the right hand of the Father;</span>
-                              <br><span>from thence He shall come to judge the living and the dead,</span>
-                              <br><span>and His kingdom will have no end.</span></p>
-                              <p><span>I believe in the Holy Ghost,</span>
-                              <br><span>the Lord, the Giver of Life,</span>
-                              <br><span>Who proceedeth from the Father and the Son,</span>
-                              <br><span>Who with the Father and the Son is adored and glorified,</span>
-                              <br><span>Who has spoken through the Prophets.</span></p>
-                              <p><span>I in one Holy, Catholic, Apostolic Church;</span>
-                              <br><span>I confess one baptism for the forgiveness of sins,</span>
-                              <br><span>and I look forward to the resurrection of the dead,</span>
-                              <br><span>and the life of the world to comne.</span></p>
-                              <p><span>Amen.</span></p>
+                              <h1 class="prayerBodyHeader">The Nicene Creed</h1>
+                              <p class="prayerBodyTagline"><i>This declaration of Faith is a confession of the Divinity and Tri-Unity of God – the Father, the Son, and the Holy Spirit.</i></p>
+                              <p class="prayerBodyContent">
+                                    <span>I believe in One God, the Father Almighty,</span>
+                                    <br><span>Maker of heaven and earth,</span>
+                                    <br><span>of all things visible and invisible.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>I believe in one Lord Jesus Christ,</span>
+                                    <br><span>the Only-Begotten Son of God,</span>
+                                    <br><span>born of the Father before all ages;</span>
+                                    <br><span>God from God, Light from Light,</span>
+                                    <br><span>True God from True God;</span>
+                                    <br><span>begotten not made, consubstantial with the Father;</span>
+                                    <br><span>through Him all things were made.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>For our sake He was crucified under Pontius Pilate;</span>
+                                    <br><span>He suffered death and was buried,</span>
+                                    <br><span>and rose again on the third day</span>
+                                    <br><span>in accordance with the Scriptures;</span>
+                                    <br><span>He ascended into heaven, and siteth at the right hand of the Father;</span>
+                                    <br><span>from thence He shall come to judge the living and the dead,</span>
+                                    <br><span>and His kingdom will have no end.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>I believe in the Holy Ghost,</span>
+                                    <br><span>the Lord, the Giver of Life,</span>
+                                    <br><span>Who proceedeth from the Father and the Son,</span>
+                                    <br><span>Who with the Father and the Son is adored and glorified,</span>
+                                    <br><span>Who has spoken through the Prophets.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>I believe in one Holy, Catholic, Apostolic Church;</span>
+                                    <br><span>I confess one baptism for the forgiveness of sins,</span>
+                                    <br><span>and I look forward to the resurrection of the dead,</span>
+                                    <br><span>and the life of the world to comne.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>Amen.</span>
+                              </p>
                         </div>
                         <div class="prayerBody">
-                              <h1>Angelic Salutation</h1>
-                              <p class="simplePrayersTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
-                              <p><span>Hail Mary, full of Grace, the Lord is with thee.</span>
-                              <br><span>Blessed art thou among women,</span>
-                              <br><span>and blessed is the fruit of thy womb, Jesus.</span></p>
-                              <p><span>Holy Mary, Mother of God,</span>
-                              <br><span>pray for us sinners,</span>
-                              <br><span>now and at the hour of our death.</span></p>
-                              <p><span>Amen.</span></p>
+                              <h1 class="prayerBodyHeader">Angelic Salutation</h1>
+                              <p class="prayerBodyTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
+                              <p class="prayerBodyContent">
+                                    <span>Hail Mary, full of Grace, the Lord is with thee.</span>
+                                    <br><span>Blessed art thou among women,</span>
+                                    <br><span>and blessed is the fruit of thy womb, Jesus.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>Holy Mary, Mother of God,</span>
+                                    <br><span>pray for us sinners,</span>
+                                    <br><span>now and at the hour of our death.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>Amen.</span>
+                              </p>
                         </div>
                         <div class="prayerBody">
-                              <h1>Doxology</h1>
-                              <p class="simplePrayersTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
-                              <p><span>Glory to the Father,</span>
-                              <br><span>and the Son,</span>
-                              <br><span>and the Holy Spirit.</span></p>
-                              <p><span>As it was in the beginning, is now,</span>
-                              <br><span>and will be world without end.</span></p>
-                              <p><span>Amen.</span></p>
+                              <h1 class="prayerBodyHeader">Doxology</h1>
+                              <p class="prayerBodyTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
+                              <p class="prayerBodyContent">
+                                    <span>Glory to the Father,</span>
+                                    <br><span>and the Son,</span>
+                                    <br><span>and the Holy Spirit.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>As it was in the beginning, is now,</span>
+                                    <br><span>and will be world without end.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>Amen.</span>
+                              </p>
                         </div>
                         <div class="prayerBody">
-                              <h1>Prayer to <span>Michael,</span> <span>the Archangel</span></h1>
-                              <p class="simplePrayersTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
-                              <p><span>Saint Michael the Archangel,</span>
-                              <br><span>defend us in the hour of battle.</span>
-                              <br><span>Be our safeguard against the wickeness</span>
-                              <br><span>and snare of the Evil One.</span></p>
-                              <p><span>May God rebuke him, we humbly pray,</span>
-                              <br><span>and do thou, O prince of the heavenly hosts,</span>
-                              <br><span>by the power of God,</span>
-                              <br><span>cast into hell Satan and all the evil spirits</span>
-                              <br><span>that prowl the earth seeking the ruin of souls.</span></p>
-                              <p><span>Amen.</span></p>
+                              <h1 class="prayerBodyHeader">Prayer to <span>Michael,</span> <span>the Archangel</h1>
+                              <p class="prayerBodyTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
+                              <p class="prayerBodyContent">
+                                    <span>Saint Michael the Archangel,</span>
+                                    <br><span>defend us in the hour of battle.</span>
+                                    <br><span>Be our safeguard against the wickeness</span>
+                                    <br><span>and snare of the Evil One.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>May God rebuke him, we humbly pray,</span>
+                                    <br><span>and do thou, O prince of the heavenly hosts,</span>
+                                    <br><span>by the power of God,</span>
+                                    <br><span>cast into hell Satan and all the evil spirits</span>
+                                    <br><span>that prowl the earth seeking the ruin of souls.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>Amen.</span>
+                              </p>
+                        </div>
+
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Prayer to your <span>Guardian Angel</span></h1>
+                              <p class="prayerBodyTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
+                              <p class="prayerBodyContent">
+                                    <span>Angel of God, my guardian dear,</span>
+                                    <br><span>to whom God&rsquo;s love commits me here,</span>
+                                    <br><span>ever this day be at my side.</span>
+                                    <br><span>to light and guard, to rule and guide.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>Amen.</span>
+                              </p>
                         </div>
                         <div class="prayerBody">
-                              <h1>Prayer to your <span>Guardian Angel</span></h1>
-                              <p class="simplePrayersTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
-                              <p><span>Angel of God, my guardian dear,</span>
-                              <br><span>to whom God&rsquo;s love commits me here,</span>
-                              <br><span>ever this day be at my side.</span>
-                              <br><span>to light and guard, to rule and guide.</span></p>
-                              <p><span>Amen.</span></p>
-                        </div>
-                        <div class="prayerBody">
-                              <h1>Act of Contrition</h1>
-                              <p class="simplePrayersTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
-                              <p><span>O my God,</span>
-                              <br><span>I am heartily sorry for having offended Thee,</span>
-                              <br><span>and I detest my sins above every other evil</span>
-                              <br><span>because they displease Thee,</span>
-                              <br><span>Who for Thine infinite goodness</span>
-                              <br><span>art so deserving of all my love.</span></p>
-                              <p><span>And because I love Thee,</span>
-                              <br><span>I ask for Thy grace to help me</span>
-                              <br><span>make a good confession and</span>
-                              <br><span>to do penance for my sins,</span>
-                              <br><span>to amend my life, and not sin any more.</span></p>
-                              <p><span>Amen.</span></p>
+                              <h1 class="prayerBodyHeader">Act of Contrition</span></h1>
+                              <p class="prayerBodyTagline"><i>When the disciples of our Lord Jesus Christ asked, &ldquo;Lord, teach us how to pray,&rdquo;  this is the prayer He taught them.</i></p>
+                              <p class="prayerBodyContent">
+                                    <span>O my God,</span>
+                                    <br><span>I am heartily sorry for having offended Thee,</span>
+                                    <br><span>and I detest my sins above every other evil</span>
+                                    <br><span>because they displease Thee,</span>
+                                    <br><span>Who for Thine infinite goodness</span>
+                                    <br><span>art so deserving of all my love.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>And because I love Thee,</span>
+                                    <br><span>I ask for Thy grace to help me</span>
+                                    <br><span>make a good confession and</span>
+                                    <br><span>to do penance for my sins,</span>
+                                    <br><span>to amend my life, and not sin any more.</span>
+                              </p>
+                              <p class="prayerBodyContent">
+                                    <span>Amen.</span>
+                              </p>
                         </div>
                   </div>
 

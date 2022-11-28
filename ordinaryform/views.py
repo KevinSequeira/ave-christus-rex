@@ -36,6 +36,7 @@ def ordinaryform(request):
     feastYear = earliestFeastDimension.iloc[0]["Year"]
     feastTitle = earliestFeastDimension.iloc[0]["Feast Day"]
     feastClass = earliestFeastDimension.iloc[0]["Feast Class"]
+    feastShort = earliestFeastDimension.iloc[0]["Feast Short"]
 
     # Load context variables
     context = {
@@ -54,7 +55,8 @@ def ordinaryform(request):
         "feast_qualifying_day": feastQualifyingDay,
         "feast_year": feastYear,
         "feast_title": feastTitle,
-        "feast_class": feastClass
+        "feast_class": feastClass,
+        "feast_short_name": feastShort
     }
 
     return render(request, "ordinaryform.html", context)
@@ -362,6 +364,7 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
 
     except:
         context = {}
+        context["file_available"] = "no"
 
     templateFileName = "feast"
     return render(request, f"memorials/{templateFileName}.html", context)
