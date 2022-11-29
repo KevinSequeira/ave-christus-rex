@@ -349,8 +349,6 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
             context["communion_antiphon"] = jsonFile["communion_antiphon"]
             context["prayer_after_communion"] = jsonFile["prayer_after_communion"]
 
-            print(context)
-
         except:
             context["file_available"] = "no"
 
