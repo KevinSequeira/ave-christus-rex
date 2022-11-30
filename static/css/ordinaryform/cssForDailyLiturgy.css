@@ -11,9 +11,8 @@
 }
 
 .jumbotronBackground {
-      background: linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Season of Advent.jpg');
       background-size: cover;
-      background-position: top;
+      background-position: center;
       position: relative;
 }
 
@@ -24,7 +23,6 @@
 }
 
 .letUsPrayBackground {
-      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Let Us Pray.jpg');
       background-size: cover;
       background-position: center;
       padding: 220px 0px 0px 0px;
@@ -173,7 +171,6 @@ p.liturgyForTheDayWeek {
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Season of Advent.jpg');
             background-size: cover;
             background-position: bottom;
             position: relative;
@@ -317,7 +314,6 @@ p.liturgyForTheDayWeek {
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Season of Advent.jpg');
             background-size: cover;
             background-position: top;
             position: relative;
