@@ -9,7 +9,6 @@
 }
 
 .jumbotronBackground {
-      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Season of Advent.jpg');
       background-size: cover;
       background-position: center;
       position: relative;
@@ -130,7 +129,6 @@ p.memorialForTheDayWeek {
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Season of Advent.jpg');
             background-size: cover;
             background-position: center;
             position: relative;
@@ -263,7 +261,6 @@ p.memorialForTheDayWeek {
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Season of Advent.jpg');
             background-size: cover;
             background-position: right;
       }
@@ -398,7 +395,6 @@ p.memorialForTheDayWeek {
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Season of Advent.jpg');
             background-size: cover;
             background-position: center;
       }

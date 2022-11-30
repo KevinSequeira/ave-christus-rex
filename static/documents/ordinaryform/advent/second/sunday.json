@@ -1,12 +1,14 @@
 {
-      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Season of Advent.jpg')",
+      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Wreath.jpg')",
       "opening_antiphon": {
-            "verse_number": "Cf. Zecariah ch. 14, vv. 5, 7",
+            "verse_number": "Cf. Isaiah ch. 30, vv. 19, 30",
             "content": [
                   {
                         "p": [
-                              "Behold, the Lord will come, and all his holy ones with him;",
-                              "and on that day there will be a great light."
+                              "O people of Sion, behold,",
+                              "the Lord will come to save the nations,",
+                              "and the Lord will make the glory of his voice heard",
+                              "in the joy of your heart."
                         ]
                   }
             ]
@@ -15,18 +17,16 @@
       "collect": [
             {
                   "p": [
-                        "Look with favor, Lord God, on our petitions,",
-                        "and in our trials grant us your compassionate help,",
-                        "that, consoled by the presence of your Son,",
-                        "whose coming we now await,",
-                        "we may be tainted no longer by the corruption of former ways."
+                        "Almighty and merciful God,",
+                        "may no earthly undertaking hinder those",
+                        "who set out in haste to meet your Son,",
+                        "but may our learning of heavenly wisdom",
+                        "gain us admittance to his company."
                   ]
             },
             {
                   "p": [
-                        "Through our Lord Jesus Christ, your Son,",
-                        "who lives and reigns with you in the unity of the Holy Spirit,",
-                        "God, for ever and ever."
+                        "Who lives and reigns with you in the unity of the Holy Spirit, God, for ever and ever."
                   ]
             }
       ],
@@ -35,7 +35,8 @@
                   "p": [
                         "Be pleased, O Lord, with our humble prayers and offerings,",
                         "and, since we have no merits to plead our cause,",
-                        "come, we pray, to our rescue with the protection of your mercy."
+                        "come, we pray, to our rescue",
+                        "with the protection of your mercy."
                   ]
             },
             {
@@ -44,14 +45,14 @@
                   ]
             }
       ],
-      "credo": "no",
+      "credo": "apostles_creed",
       "communion_antiphon": {
-            "verse_number": "Cf. 2 Timothy ch. 4, v. 8",
+            "verse_number": "Baruch ch. 5, v. 5; ch. 4, v. 36",
             "content": [
                   {
                         "p": [
-                              "The Just Judge will bestow a crown of righteousness",
-                              "on those who eagerly await his coming."
+                              "Jerusalem, arise and stand upon the heights,",
+                              "and behold the joy which comes to you from God."
                         ]
                   }
             ]
@@ -79,7 +80,7 @@
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "A shoot shall come out from the stock of Jesse, \nand a branch shall grow out of his roots.",
+                                    "A shoot shall come out from the stump of Jesse, \nand a branch shall grow out of his roots.",
                                     "The spirit of the Lord shall rest on him, \nthe spirit of wisdom and understanding, \nthe spirit of counsel and might, \nthe spirit of knowledge and the fear of the Lord.",
                                     "His delight shall be in the fear of the Lord."
                               ]
@@ -103,8 +104,7 @@
                                     "They will not hurt or destroy \non all my holy mountain;",
                                     "for the earth will be full of the knowledge of the Lord \nas the waters cover the sea."
                               ]
-                        }
-                        ,
+                        },
                         {
                               "content_type": "paragraph",
                               "p": [
@@ -116,7 +116,7 @@
             },
             "responsorial_psalm": {
                   "verse_number": "Psalm 72, vv. 1 - 2, 7 - 8, 12 - 13, 17",
-                  "response": "Justice shall flourish in his time, \nand fullness of peace for ever.",
+                  "response": "Justice shall flourish in his time, and fullness of peace for ever.",
                   "content": [
                         {
                               "content_type": "stanza",
@@ -142,42 +142,95 @@
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "May his name endure for ever, \nhis fame continue as long as the sun.",
+                                    "May his name endure forever, \nhis fame continue as long as the sun.",
                                     "May all nations be blessed in him; \nmay they pronounce him happy."
                               ]
                         }
                   ]
             },
-            "gospel_acclamation": {
-                  "verse_number": "",
-                  "content": [
-                        {
-                              "p": [
-                                    "Behold, our Lord shall come with power;",
-                                    "he will enlighten the eyes of his servants."
-                              ]
-                        }
-                  ]
-            },
-            "gospel_reading": {
-                  "verse_number": "Luke ch. 10, vv. 21 - 24",
+            "second_reading": {
+                  "verse_number": "Romans ch. 15, vv. 4 - 9",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Jesus rejoiced in the Holy Spirit and said, “I thank you, Father, Lord of heaven and earth,",
-                                    "because you have hidden these things from the wise and the intelligent and have revealed them to infants;",
-                                    "yes, Father, for such was your gracious will. All things have been handed over to me by my Father;",
-                                    "and no one knows who the Son is except the Father, or who the Father is except the Son and anyone",
-                                    "to whom the Son chooses to reveal him.”"
+                                    "Brothers and sisters: For whatever was written in former days was written for our instruction,",
+                                    "so that by steadfastness and by the encouragement of the scriptures we might have hope.",
+                                    "May the God of steadfastness and encouragement grant you to live in harmony with one another,",
+                                    "in accordance with Christ Jesus, so that together you may with one voice glorify the God",
+                                    "and Father of our Lord Jesus Christ."
                               ]
                         },
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Then turning to the disciples, Jesus said to them privately,",
-                                    "“Blessed are the eyes that see what you see! For I tell you that many prophets and kings desired to see what you see,",
-                                    "but did not see it, and to hear what you hear, but did not hear it.”"
+                                    "Welcome one another, therefore, just as Christ has welcomed you, for the glory of God.",
+                                    "For I tell you that Christ has become a servant of the circumcised on behalf of the truth of God in order",
+                                    "that he might confirm the promises given to the patriarchs,",
+                                    "and in order that the Gentiles might glorify God for his mercy. As it is written,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Therefore I will confess you among the Gentiles, \nand sing praises to your name.”"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Luke ch. 3, vv. 4, 6",
+                  "content": [
+                        {
+                              "p": [
+                                    "Prepare the way of the Lord, make straight his paths: all flesh shall see the salvation of God."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 3, vv. 1 - 12",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "In those days John the Baptist appeared in the wilderness of Judea, proclaiming,",
+                                    "“Repent, for the kingdom of heaven has come near.” This is the one of whom the prophet Isaiah spoke when he said,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“The voice of one crying out in the wilderness:",
+                                    "‘Prepare the way of the Lord, \nmake his paths straight.’”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Now John wore clothing of camel’s hair with a leather belt around his waist, and his food was locusts and wild honey.",
+                                    "Then the people of Jerusalem and all Judea were going out to him, and all the region along the Jordan,",
+                                    "and they were baptized by him in the river Jordan, confessing their sins."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "But when he saw many Pharisees and Sadducees coming for baptism, he said to them,",
+                                    "“You brood of vipers! Who warned you to flee from the wrath to come? Bear fruit worthy",
+                                    "of repentance. Do not presume to say to yourselves, ‘We have Abraham as our ancestor’;",
+                                    "for I tell you, God is able from these stones to raise up children to Abraham.",
+                                    "Even now the ax is lying at the root of the trees; every tree therefore that does not bear good fruit",
+                                    "is cut down and thrown into the fire."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“I baptize you with water for repentance, but one who is more powerful than I is coming after me;",
+                                    "I am not worthy to carry his sandals. He will baptize you with the Holy Spirit and fire.",
+                                    "His winnowing fork is in his hand, and he will clear his threshing floor and will gather his wheat into the granary;",
+                                    "but the chaff he will burn with unquenchable fire.”"
                               ]
                         }
                   ]

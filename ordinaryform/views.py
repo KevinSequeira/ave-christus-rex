@@ -26,6 +26,7 @@ def ordinaryform(request):
     currentYear = currentDateDimension.iloc[0]["Year"]
     currentWeek = currentDateDimension.iloc[0]["Week"]
     currentSeason = currentDateDimension.iloc[0]["Season"]
+    currentSeasonShort = currentDateDimension.iloc[0]["Season Short"]
 
     # Get earliest feast Day
     earliestFeastDimension = dateDimension.loc[(dateDimension["Date"] >= currentDate) & (dateDimension["Feast Day"]).notna()]
@@ -47,6 +48,7 @@ def ordinaryform(request):
         "current_year": currentYear,
         "current_week": currentWeek,
         "current_season": currentSeason,
+        "current_season_short": currentSeasonShort,
         "current_cycle": currentCycle,
 
         "feast_date": feastDate,
@@ -58,6 +60,12 @@ def ordinaryform(request):
         "feast_class": feastClass,
         "feast_short_name": feastShort
     }
+
+    # Add season-specific context variables
+    if (currentSeasonShort == "advent"):
+        context = advent(context)
+    elif (currentSeasonShort == "lent"):
+        context = lent(context)
 
     return render(request, "ordinaryform.html", context)
 
@@ -116,6 +124,12 @@ def calendar(request):
         "feast_class": feastClass,
         "st_short_name": saintShortName
     }
+
+    # Add season-specific context variables
+    if (currentSeasonShort == "advent"):
+        context = advent(context)
+    elif (currentSeasonShort == "lent"):
+        context = lent(context)
 
     # Add season-specific context variables
     if (currentSeasonShort == "advent"):
@@ -187,6 +201,8 @@ def advent(context = {}):
 
         commonPrayers = open(f"./static/documents/ordinaryform/commonprayers.json")
         commonPrayers = json.load(commonPrayers)
+
+        context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
 
         gloria_content = ""
         if (jsonFile["gloria"] == "yes"):

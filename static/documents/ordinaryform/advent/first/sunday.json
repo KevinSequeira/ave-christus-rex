@@ -1,4 +1,5 @@
 {
+      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Season of Advent.jpg')",
       "opening_antiphon": {
             "verse_number": "Cf. Psalm 25, vv. 1 - 3",
             "content": [
