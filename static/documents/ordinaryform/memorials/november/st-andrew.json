@@ -1,5 +1,5 @@
 {
-      "saint_background_image": "static/images/saints/Vatican 002.jpg",
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/Vatican 002.jpg')",
       "opening_antiphon": {
             "verse_number": "Matthew ch. 4, vv. 18 - 19",
             "content": [

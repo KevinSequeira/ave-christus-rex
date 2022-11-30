@@ -405,6 +405,13 @@
             <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
             <script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>
             <!-- Home Page CSS -->
+            <style>
+                  {% autoescape off %}
+                  .jumbotronBackground {
+                        background: {{ saint_background_image }};
+                  }
+                  {% endautoescape %}
+            </style>
             <link href="{% static 'css/ordinaryform/cssForDailyLiturgy.css' %}" rel="stylesheet">
       </body>
 </html>

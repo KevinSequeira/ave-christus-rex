@@ -1,0 +1,177 @@
+{
+      "opening_antiphon": {
+            "verse_number": "Cf. Psalm 119, vv. 151, 152",
+            "content": [
+                  {
+                        "p": [
+                              "You, O Lord, are close, and all your ways are truth.",
+                              "From of old I have known of your decrees, for you are eternal."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Stir up your power, O Lord,",
+                        "and come to our help with mighty strength,",
+                        "that what our sins impede",
+                        "the grace of your mercy may hasten."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever"
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Accept, we pray, O Lord, these offerings we make,",
+                        "gathered from among your gifts to us,",
+                        "and may what you grant us to celebrate devoutly here below",
+                        "gain for us the prize of eternal redemption."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": {
+            "verse_number": "Titus ch. 2, vv. 12, 13",
+            "content": [
+                  {
+                        "p": [
+                              "Let us live justly and devoutly in this age,",
+                              "as we await the blessed hope",
+                              "and the coming of the glory of our great God."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May these mysteries, O Lord,",
+                        "in which we have participated,",
+                        "profit us, we pray,",
+                        "for even now, as we walk amid passing things,",
+                        "you teach us by them",
+                        "to love the things of heaven",
+                        "and hold fast to what endures."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Isaiah ch. 25, vv. 6 - 10a",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "On this mountain the Lord of hosts will make for all peoples \na feast of rich food, a feast of well-matured wines, \nof rich food filled with marrow, of well-matured wines strained clear."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "And he will destroy on this mountain \nthe shroud that is cast over all peoples, \nthe sheet that is spread over all nations;",
+                                    "he will swallow up death for ever."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Then the Lord God will wipe away the tears from all faces, \nand the disgrace of his people he will take away from all the earth, \nfor the Lord has spoken.",
+                                    "It will be said on that day, \nLo, this is our God; we have waited for him, so that he might save us. \nThis is the Lord for whom we have waited; \nlet us be glad and rejoice in his salvation.",
+                                    "For the hand of the Lord will rest on this mountain."
+                              ]
+                        }
+                  ]
+            },
+            "responsorial_psalm": {
+                  "verse_number": "Psalm 23, vv. 1 - 3a, 3b - 4, 5, 6",
+                  "response": "I shall live in the house of the Lord all the days of my life.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord is my shepherd, I shall not want. \nHe makes me lie down in green pastures;",
+                                    "he leads me beside still waters; \nhe restores my soul."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "He leads me in right paths \nfor his name’s sake.",
+                                    "Even though I walk through the darkest valley, \nI fear no evil;",
+                                    "for you are with me; \nyour rod and your staff— \nthey comfort me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "You prepare a table before me \nin the presence of my enemies;",
+                                    "you anoint my head with oil; \nmy cup overflows."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Surely goodness and mercy shall follow me \nall the days of my life,",
+                                    "and I shall dwell in the house of the Lord \nmy whole life long."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold, the Lord comes to save his people; blessed are those prepared to meet him."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 15, vv. 29 - 37",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "At that time: passed along the Sea of Galilee, and he went up the mountain, where he sat down.",
+                                    "Great crowds came to him, bringing with them the lame, the maimed, the blind, the mute, and many others.",
+                                    "They put them at his feet, and he cured them, so that the crowd was amazed when they saw the mute speaking,",
+                                    "the maimed whole, the lame walking, and the blind seeing. And they praised the God of Israel."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then Jesus called his disciples to him and said, “I have compassion for the crowd,",
+                                    "because they have been with me now for three days and have nothing to eat;",
+                                    "and I do not want to send them away hungry, for they might faint on the way.”",
+                                    "The disciples said to him, “Where are we to get enough bread in the desert to feed so great a crowd?”",
+                                    "Jesus asked them, “How many loaves have you?” They said, “Seven, and a few small fish.”",
+                                    "Then ordering the crowd to sit down on the ground, he took the seven loaves and the fish;",
+                                    "and after giving thanks he broke them and gave them to the disciples, and the disciples gave them to the crowds.",
+                                    "And all of them ate and were filled; and they took up the broken pieces left over, seven baskets full."
+                              ]
+                        }
+                  ]
+            }
+      }
+}
