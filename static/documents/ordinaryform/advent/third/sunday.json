@@ -1,0 +1,216 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
+      "opening_antiphon": {
+            "verse_number": "Philippians ch. 4, vv. 4, 5",
+            "content": [
+                  {
+                        "p": [
+                              "Rejoice in the Lord always; again I say, rejoice.",
+                              "Indeed, the Lord is near."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who see how your people",
+                        "faithfully await the feast of the Lord’s Nativity,",
+                        "enable us, we pray,",
+                        "to attain the joys of so great a salvation",
+                        "and to celebrate them always",
+                        "with solemn worship and glad rejoicing."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May the sacrifice of our worship, Lord, we pray,",
+                        "be offered to you unceasingly,",
+                        "to complete what was begun in sacred mystery",
+                        "and powerfully accomplish for us your saving work."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": {
+            "verse_number": "Cf. Isaiah ch. 35, v. 4",
+            "content": [
+                  {
+                        "p": [
+                              "Say to the faint of heart: Be strong and do not fear.",
+                              "Behold, our God will come, and he will save us."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "We implore your mercy, Lord,",
+                        "that this divine sustenance may cleanse us of our faults",
+                        "and prepare us for the coming feasts."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Isaiah ch. 35, vv. 1 - 6a, 10",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The wilderness and the dry land shall be glad, \nthe desert shall rejoice and blossom;",
+                                    "like the crocus it shall blossom abundantly, \nand rejoice with joy and singing.",
+                                    "The glory of Lebanon shall be given to it, \nthe majesty of Carmel and Sharon.",
+                                    "They shall see the glory of the Lord, \nthe majesty of our God."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Strengthen the weak hands, \nand make firm the feeble knees.",
+                                    "Say to those who are of a fearful heart, \n“Be strong, do not fear!",
+                                    "Here is your God. \nHe will come with vengeance,",
+                                    "with terrible recompense. \nHe will come and save you.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Then the eyes of the blind shall be opened, \nand the ears of the deaf unstopped;",
+                                    "then the lame shall leap like a deer, \nand the tongue of the speechless sing for joy."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "And the ransomed of the Lord shall return, \nand come to Zion with singing;",
+                                    "everlasting joy shall be upon their heads; \nthey shall obtain joy and gladness, \nand sorrow and sighing shall flee away."
+                              ]
+                        }
+                  ]
+            },
+            "responsorial_psalm": {
+                  "verse_number": "Psalm 146, vv. 6c - 7, 8 - 9a, 9bc - 10",
+                  "response": "Lord, come and save us.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord God keeps faith forever; \nwho executes justice for the oppressed; \nwho gives food to the hungry.",
+                                    "The Lord sets the prisoners free."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord opens the eyes of the blind.",
+                                    "The Lord lifts up those who are bowed down; \nthe Lord loves the righteous.",
+                                    "The Lord watches over the strangers."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "he upholds the orphan and the widow, \nbut the way of the wicked he brings to ruin.",
+                                    "The Lord will reign forever, \nyour God, O Zion, for all generations.",
+                                    "Praise the Lord!"
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": {
+                  "verse_number": "James ch. 5, vv. 7 - 10",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Be patient, therefore, beloved, until the coming of the Lord."
+                                    "The farmer waits for the precious crop from the earth, being patient with it until",
+                                    "it receives the early and the late rains. You also must be patient.",
+                                    "Strengthen your hearts, for the coming of the Lord is near. Beloved, do not grumble against one another,",
+                                    "so that you may not be judged. See, the Judge is standing at the doors! As an example of suffering and patience,",
+                                    "beloved, take the prophets who spoke in the name of the Lord."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Luke ch. 3, vv. 4, 6",
+                  "content": [
+                        {
+                              "p": [
+                                    "Prepare the way of the Lord, make straight his paths: all flesh shall see the salvation of God."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 3, vv. 1 - 12",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "In those days John the Baptist appeared in the wilderness of Judea, proclaiming,",
+                                    "“Repent, for the kingdom of heaven has come near.” This is the one of whom the prophet Isaiah spoke when he said,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“The voice of one crying out in the wilderness:",
+                                    "‘Prepare the way of the Lord, \nmake his paths straight.’”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Now John wore clothing of camel’s hair with a leather belt around his waist, and his food was locusts and wild honey.",
+                                    "Then the people of Jerusalem and all Judea were going out to him, and all the region along the Jordan,",
+                                    "and they were baptized by him in the river Jordan, confessing their sins."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "But when he saw many Pharisees and Sadducees coming for baptism, he said to them,",
+                                    "“You brood of vipers! Who warned you to flee from the wrath to come? Bear fruit worthy",
+                                    "of repentance. Do not presume to say to yourselves, ‘We have Abraham as our ancestor’;",
+                                    "for I tell you, God is able from these stones to raise up children to Abraham.",
+                                    "Even now the ax is lying at the root of the trees; every tree therefore that does not bear good fruit",
+                                    "is cut down and thrown into the fire."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“I baptize you with water for repentance, but one who is more powerful than I is coming after me;",
+                                    "I am not worthy to carry his sandals. He will baptize you with the Holy Spirit and fire.",
+                                    "His winnowing fork is in his hand, and he will clear his threshing floor and will gather his wheat into the granary;",
+                                    "but the chaff he will burn with unquenchable fire.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}
