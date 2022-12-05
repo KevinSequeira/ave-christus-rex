@@ -302,11 +302,13 @@
                               <p class="prayerBodyVerses">{{ gospel_acclamation.verse_number }}</p>
                               {% for paragraph in gospel_acclamation.content %}
                               <p class="prayerBodyContent">
+                                    <span><strong>{{ gospel_acclamation.acclamation }}</strong></span><br>
                                     {% for span in paragraph.p %}
                                     <span>
                                           {{ span }}
                                     </span><br>
                                     {% endfor %}
+                                    <span><strong>{{ gospel_acclamation.acclamation }}</strong></span>
                               </p>
                               {% endfor %}
                         </div>

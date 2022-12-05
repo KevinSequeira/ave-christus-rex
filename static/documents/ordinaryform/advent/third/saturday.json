@@ -1,5 +1,5 @@
 {
-      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
       "opening_antiphon": {
             "verse_number": "Cf. Psalm 80, vv. 4, 2",
             "content": [
@@ -124,6 +124,7 @@
             },
             "gospel_acclamation": {
                   "verse_number": "Luke ch. 3, vv. 4, 6",
+                  "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [

@@ -78,7 +78,7 @@
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Then Elijah arose, a prophet like fire, \nand his word burned like a torch."
+                                    "Then Elijah arose, a prophet like fire, \nand his word burned like a torch.",
                                     "He brought a famine upon them, \nand by his zeal he made them few in number.",
                                     "By the word of the Lord he shut up the heavens, \nand also three times brought down fire.",
                                     "How glorious you were, Elijah, in your wondrous deeds! \nWhose glory is equal to yours?"
@@ -124,6 +124,7 @@
             },
             "gospel_acclamation": {
                   "verse_number": "Luke ch. 3, vv. 4, 6",
+                  "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [

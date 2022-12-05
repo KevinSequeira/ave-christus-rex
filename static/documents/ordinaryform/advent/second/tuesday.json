@@ -146,10 +146,11 @@
             },
             "gospel_acclamation": {
                   "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "The day of the Lord is near: Behold, he comes to save us"
+                                    "The day of the Lord is near: Behold, he comes to save us."
                               ]
                         }
                   ]

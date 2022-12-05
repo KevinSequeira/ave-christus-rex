@@ -1,5 +1,5 @@
 {
-      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
       "opening_antiphon": {
             "verse_number": "Cf. Jeremiah ch. 31, v. 10; Isaiah ch. 35, v. 4",
             "content": [
@@ -16,12 +16,9 @@
       "collect": [
             {
                   "p": [
-                        "May our prayer of petition",
-                        "rise before you, we pray, O Lord,",
-                        "that, with purity unblemished,",
-                        "we, your servants, may come, as we desire,",
-                        "to celebrate the great mystery",
-                        "of the Incarnation of your Only Begotten Son."
+                        "Incline a merciful ear to our cry, we pray, O Lord,",
+                        "and, casting light on the darkness of our hearts,",
+                        "visit us with the grace of your Son."
                   ]
             },
             {
@@ -77,104 +74,97 @@
       ],
       "year_a": {
             "first_reading": {
-                  "verse_number": "Isaiah ch. 35, vv. 1 - 10",
+                  "verse_number": "Numbers ch. 24, vv. 2 - 7,c 15 - 17a",
                   "content": [
                         {
-                              "content_type": "stanza",
+                              "content_type": "paragraph",
                               "p": [
-                                    "The wilderness and the dry land shall be glad, \nthe desert shall rejoice and blossom;",
-                                    "like the crocus it shall blossom abundantly, \nand rejoice with joy and singing.",
-                                    "The glory of Lebanon shall be given to it, \nthe majesty of Carmel and Sharon.",
-                                    "They shall see the glory of the Lord, \nthe majesty of our God."
+                                    "Balaam looked up and saw Israel camping tribe by tribe.",
+                                    "Then the spirit of God came upon him, and he uttered his oracle, saying:"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Strengthen the weak hands, \nand make firm the feeble knees.",
-                                    "Say to those who are of a fearful heart, \n“Be strong, do not fear!",
-                                    "Here is your God. \nHe will come with vengeance,",
-                                    "with terrible recompense. \nHe will come and save you.”"
+                                    "“The oracle of Balaam son of Beor, \nthe oracle of the man whose eye is clear,",
+                                    "the oracle of one who hears the words of God, \nwho sees the vision of the Almighty, \nwho falls down, but with eyes uncovered:",
+                                    "how fair are your tents, O Jacob, \nyour encampments, O Israel!",
+                                    "Like palm groves that stretch far away, \nlike gardens beside a river,",
+                                    "like aloes that the Lord has planted, \nlike cedar trees beside the waters.",
+                                    "Water shall flow from his buckets, \nand his seed shall have abundant water,",
+                                    "his king shall be higher than Agag, \nand his kingdom shall be exalted.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "So he uttered his oracle, saying:"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Then the eyes of the blind shall be opened, \nand the ears of the deaf unstopped;",
-                                    "then the lame shall leap like a deer, \nand the tongue of the speechless sing for joy.",
-                                    "For waters shall break forth in the wilderness, \nand streams in the desert;",
-                                    "the burning sand shall become a pool, \nand the thirsty ground springs of water;",
-                                    "the haunt of jackals shall become a swamp, \nthe grass shall become reeds and rushes."
-                              ]
-                        },
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "A highway shall be there, \nand it shall be called the Holy Way;",
-                                    "the unclean shall not travel on it, \nbut it shall be for God’s people; \nno traveler, not even fools, shall go astray.",
-                                    "No lion shall be there, \nnor shall any ravenous beast come up on it;",
-                                    "they shall not be found there, \nbut the redeemed shall walk there.",
-                                    "And the ransomed of the Lord shall return, \nand come to Zion with singing;",
-                                    "everlasting joy shall be upon their heads; \nthey shall obtain joy and gladness, \nand sorrow and sighing shall flee away."
+                                    "“The oracle of Balaam son of Beor, \nthe oracle of the man whose eye is clear,",
+                                    "the oracle of one who hears the words of God, \nand knows the knowledge of the Most High,",
+                                    "who sees the vision of the Almighty, \nwho falls down, but with his eyes uncovered:",
+                                    "I see him, but not now; \nI behold him, but not near—",
+                                    "a star shall come out of Jacob, \nand a scepter shall rise out of Israel.”"
                               ]
                         }
                   ]
             },
             "responsorial_psalm": {
-                  "verse_number": "Psalm 85, vv. 8ab and 9, 10 - 11, 12 - 13",
-                  "response": "Our God will come to save us!",
+                  "verse_number": "Psalm 25, vv. 4 - 5ab, 6 and 7bc, 8 - 9",
+                  "response": "Teach me your ways, O Lord.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Let me hear what God the Lord will speak, \nfor he will speak peace to his people.",
-                                    "Surely his salvation is at hand for those who fear him, \nthat his glory may dwell in our land."
+                                    "Make me to know your ways, O Lord; \nteach me your paths.",
+                                    "Lead me in your truth, and teach me, \nfor you are the God of my salvation."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Steadfast love and faithfulness will meet; \nrighteousness and peace will kiss each other.",
-                                    "Faithfulness will spring up from the ground, \nand righteousness will look down from the sky."
+                                    "Be mindful of your mercy, O Lord, and of your steadfast love, \nfor they have been from of old.",
+                                    "According to your steadfast love remember me, \nfor your goodness’ sake, O Lord!"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "The Lord will give what is good, \nand our land will yield its increase.",
-                                    "Righteousness will go before him, \nand will make a path for his steps."
+                                    "Good and upright is the Lord; \ntherefore he instructs sinners in the way.",
+                                    "He leads the humble in what is right, \nand teaches the humble his way."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "",
+                  "verse_number": "Psalm 85, v. 8",
+                  "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "Behold the king will come, the Lord of the earth, and he himself will lift the yoke of our captivity."
+                                    "Show us, Lord, your love, and grant us your salvation."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Luke ch. 5, vv. 17 - 26",
+                  "verse_number": "Matthew ch. 21, vv. 23 - 27",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "One day, while Jesus was teaching, Pharisees and teachers of the law were sitting near by",
-                                    "(they had come from every village of Galilee and Judea and from Jerusalem); and the power of the Lord was with him to heal.",
-                                    "Just then some men came, carrying a paralyzed man on a bed. They were trying to bring him in and lay him before Jesus;",
-                                    "but finding no way to bring him in because of the crowd, they went up on the roof and let him down with his bed through",
-                                    "the tiles into the middle of the crowd in front of Jesus. When he saw their faith, he said,",
-                                    "“Friend, your sins are forgiven you.” Then the scribes and the Pharisees began to question,",
-                                    "“Who is this who is speaking blasphemies? Who can forgive sins but God alone?” When Jesus perceived their questionings,",
-                                    "he answered them, “Why do you raise such questions in your hearts? Which is easier, to say, ‘Your sins are forgiven you,’",
-                                    "or to say, ‘Stand up and walk’? But so that you may know that the Son of Man has authority on earth to forgive sins”—he said to the one who was paralyzed—“I say to you,",
-                                    "stand up and take your bed and go to your home.” Immediately he stood up before them, took what he had been lying on,",
-                                    "and went to his home, glorifying God. Amazement seized all of them, and they glorified God and were filled with awe, saying,",
-                                    "“We have seen strange things today.”"
+                                    "When Jesus entered the temple, the chief priests and the elders of the people came to him as he was teaching,",
+                                    "and said, “By what authority are you doing these things, and who gave you this authority?”",
+                                    "Jesus said to them, “I will also ask you one question; if you tell me the answer,",
+                                    "then I will also tell you by what authority I do these things. Did the baptism of John come from heaven,",
+                                    "or was it of human origin?” And they argued with one another, “If we say, ‘From heaven,’",
+                                    "he will say to us, ‘Why then did you not believe him?’ But if we say, ‘Of human origin,’",
+                                    "we are afraid of the crowd; for all regard John as a prophet.” So they answered Jesus, “We do not know.”",
+                                    "And he said to them, “Neither will I tell you by what authority I am doing these things.”"
                               ]
                         }
                   ]

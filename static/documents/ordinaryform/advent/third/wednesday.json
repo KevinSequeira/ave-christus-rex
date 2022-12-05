@@ -1,5 +1,5 @@
 {
-      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
       "opening_antiphon": {
             "verse_number": "Cf. Hebrews ch. 2, v. 3; 1 Corinth. ch. 4, v. 5",
             "content": [
@@ -16,17 +16,16 @@
       "collect": [
             {
                   "p": [
-                        "Almighty God, who command us",
-                        "to prepare the way for Christ the Lord,",
-                        "grant in your kindness, we pray,",
-                        "that no infirmity may weary us",
-                        "as we long for the comforting presence",
-                        "of our heavenly physician."
+                        "Grant, we pray, almighty God,",
+                        "that the coming solemnity of your Son",
+                        "may bestow healing upon us in this present life",
+                        "and bring us the rewards of life eternal."
                   ]
             },
             {
                   "p": [
-                        "Who lives and reigns with you in the unity of the Holy Spirit,",
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
                         "one God, for ever and ever."
                   ]
             }
@@ -75,66 +74,87 @@
       ],
       "year_a": {
             "first_reading": {
-                  "verse_number": "Isaiah ch. 40, vv. 25 - 31",
+                  "verse_number": "Isaiah ch. 45, vv. 6c - 8, 18, 21c - 25",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "To whom then will you compare me, \nor who is my equal? says the Holy One.",
-                                    "Lift up your eyes on high and see: \nWho created these?",
-                                    "He who brings out their host and numbers them, \ncalling them all by name;",
-                                    "because he is great in strength, \nmighty in power, \nnot one is missing."
+                                    "I am the Lord, and there is no other.",
+                                    "I form light and create darkness, \nI make weal and create woe; \nI the Lord do all these things.",
+                                    "Shower, O heavens, from above, \nand let the skies rain down righteousness;",
+                                    "let the earth open, that salvation may spring up, \nand let it cause righteousness to sprout up also; \nI the Lord have created it."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Why do you say, O Jacob, \nand speak, O Israel,",
-                                    "“My way is hidden from the Lord, \nand my right is disregarded by my God”?",
-                                    "Have you not known? \nHave you not heard?",
-                                    "The Lord is the everlasting God, \nthe Creator of the ends of the earth.",
-                                    "He does not faint or grow weary; \nhis understanding is unsearchable.",
-                                    "He gives power to the faint, \nand strengthens the powerless.",
-                                    "Even youths will faint and be weary, \nand the young will fall exhausted;",
-                                    "but those who wait for the Lord shall renew their strength, \nthey shall mount up with wings like eagles,",
-                                    "they shall run and not be weary, \nthey shall walk and not faint."
+                                    "For thus says the Lord,",
+                                    "who created the heavens \n(he is God!),",
+                                    "who formed the earth and made it \n(he established it;",
+                                    "he did not create it a chaos, \nhe formed it to be inhabited!):",
+                                    "I am the Lord, and there is no other."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Who told this long ago? \nWho declared it of old?",
+                                    "Was it not I, the Lord? \nThere is no other god besides me,",
+                                    "a righteous God and a Savior; \nthere is no one besides me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Turn to me and be saved, \nall the ends of the earth! \nFor I am God, and there is no other.",
+                                    "By myself I have sworn, \nfrom my mouth has gone forth in righteousness \na word that shall not return:",
+                                    "“To me every knee shall bow, \nevery tongue shall swear.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Only in the Lord, it shall be said of me, \nare righteousness and strength;",
+                                    "all who were incensed against him \nshall come to him and be ashamed.",
+                                    "In the Lord all the offspring of Israel \nshall triumph and glory."
                               ]
                         }
                   ]
             },
             "responsorial_psalm": {
-                  "verse_number": "Psalm 103, vv. 1 - 2, 3 - 4, 8 and 10",
-                  "response": "O bless the Lord, my soul!",
+                  "verse_number": "Psalm 85, vv. 8ab and 9, 10 - 11, 12 - 13",
+                  "response": "Let the clouds rain down the Just One, and the earth bring forth a Saviour.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Bless the Lord, O my soul, \nand all that is within me, \nbless his holy name.",
-                                    "Bless the Lord, O my soul, \nand do not forget all his benefits."
+                                    "Let me hear what God the Lord will speak, \nfor he will speak peace to his people.",
+                                    "Surely his salvation is at hand for those who fear him, \nthat his glory may dwell in our land."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Who forgives all your iniquity, \nwho heals all your diseases,",
-                                    "who redeems your life from the Pit, \nwho crowns you with steadfast love and mercy."
+                                    "Steadfast love and faithfulness will meet; \nrighteousness and peace will kiss each other.",
+                                    "Faithfulness will spring up from the ground, \nand righteousness will look down from the sky."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "The Lord is merciful and gracious, \nslow to anger and abounding in steadfast love.",
-                                    "He does not deal with us according to our sins, \nnor repay us according to our iniquities."
+                                    "The Lord will give what is good, \nand our land will yield its increase.",
+                                    "Righteousness will go before him, \nand will make a path for his steps."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "",
+                  "verse_number": "See Isaiah ch. 40, vv. 9, 10",
+                  "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "Behold, the Lord comes to save his people; blessed are those prepared to meet him."
+                                    "Raise your voice and tell the Good News: Behold, the Lord God comes with power."
                               ]
                         }
                   ]
@@ -145,9 +165,15 @@
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Jesus said to the crowds: “Come to me, all you that are weary and are carrying heavy burdens,",
-                                    "and I will give you rest. Take my yoke upon you, and learn from me; for I am gentle and humble in heart,",
-                                    "and you will find rest for your souls. For my yoke is easy, and my burden is light.”"
+                                    "John summoned two of his disciples and sent them to the Lord to ask,",
+                                    "“Are you the one who is to come, or are we to wait for another?”",
+                                    "When the men had come to him, they said, “John the Baptist has sent us to you to ask,",
+                                    "‘Are you the one who is to come, or are we to wait for another?’”",
+                                    "Jesus had just then cured many people of diseases, plagues, and evil spirits,",
+                                    "and had given sight to many who were blind. And he answered them,",
+                                    "“Go and tell John what you have seen and heard: the blind receive their sight, the lame walk,",
+                                    "the lepers are cleansed, the deaf hear, the dead are raised, the poor have good news brought to them.",
+                                    "And blessed is anyone who takes no offense at me.”"
                               ]
                         }
                   ]

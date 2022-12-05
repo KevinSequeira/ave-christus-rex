@@ -1,5 +1,5 @@
 {
-      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
       "opening_antiphon": {
             "verse_number": "",
             "content": [
@@ -15,15 +15,18 @@
       "collect": [
             {
                   "p": [
-                        "Grant that your people, we pray, almighty God,",
-                        "may be ever watchful for the coming of your Only Begotten Son,",
-                        "that, as the author of our salvation himself has taught us,",
-                        "we may hasten, alert and with lighted lamps, to meet him when he comes."
+                        "May your grace, almighty God,",
+                        "always go before us and follow after,",
+                        "so that we, who await with heartfelt desire",
+                        "the coming of your Only Begotten Son,",
+                        "may receive your help both now and in the life to come."
                   ]
             },
             {
                   "p": [
-                        "Who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever."
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
                   ]
             }
       ],
@@ -73,82 +76,97 @@
       ],
       "year_a": {
             "first_reading": {
-                  "verse_number": "Isaiah ch. 48, vv. 17 - 19",
+                  "verse_number": "Isaiah ch. 56, vv. 1 - 3a, 6 - 8",
                   "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Thus says the Lord:"
+                              ]
+                        },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Thus says the Lord, \nyour Redeemer, the Holy One of Israel:",
-                                    "I am the Lord your God, \nwho teaches you for your own good, \nwho leads you in the way you should go.",
-                                    "O that you had paid attention to my commandments! \nThen your prosperity would have been like a river, \nand your success like the waves of the sea;",
-                                    "your offspring would have been like the sand, \nand your descendants like its grains;",
-                                    "their name would never be cut off \nor destroyed from before me."
+                                    "Maintain justice, and do what is right,
+for soon my salvation will come, \nand my deliverance be revealed."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Happy is the mortal who does this, \nthe one who holds it fast,",
+                                    "who keeps the sabbath, not profaning it, \nand refrains from doing any evil."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Do not let the foreigner joined to the Lord say, \n“The Lord will surely separate me from his people”;",
+                                    "and do not let the eunuch say, \n“I am just a dry tree.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "And the foreigners who join themselves to the Lord, \nto minister to him, to love the name of the Lord, \nand to be his servants,",
+                                    "all who keep the sabbath, and do not profane it, \nand hold fast my covenant—",
+                                    "these I will bring to my holy mountain, \nand make them joyful in my house of prayer;",
+                                    "their burnt offerings and their sacrifices \nwill be accepted on my altar;",
+                                    "for my house shall be called a house of prayer \nfor all peoples.",
+                                    "Thus says the Lord God, \nwho gathers the outcasts of Israel,",
+                                    "I will gather others to them \nbesides those already gathered."
                               ]
                         }
                   ]
             },
             "responsorial_psalm": {
-                  "verse_number": "Psalm 1, vv. 1 - 2, 3, 4 and 6",
-                  "response": "The Lord is my light and my salvation.",
+                  "verse_number": "Psalm 67, vv. 1 - 2, 4, 6 - 7",
+                  "response": "O God, let all the nations praise you!",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Happy are those \nwho do not follow the advice of the wicked,",
-                                    "or take the path that sinners tread, \nor sit in the seat of scoffers;",
-                                    "but their delight is in the law of the Lord, \nand on his law they meditate day and night."
+                                    "May God be gracious to us and bless us \nand make his face to shine upon us,",
+                                    "that your way may be known upon earth, \nyour saving power among all nations."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "They are like trees \nplanted by streams of water,",
-                                    "which yield their fruit in its season, \nand their leaves do not wither.",
-                                    "In all that they do, they prosper."
+                                    "Let the nations be glad and sing for joy, \nfor you judge the peoples with equity \nand guide the nations upon earth."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "The wicked are not so, \nbut are like chaff that the wind drives away.",
-                                    "for the Lord watches over the way of the righteous, \nbut the way of the wicked will perish."
+                                    "The earth has yielded its increase; \nGod, our God, has blessed us.",
+                                    "May God continue to bless us; \nlet all the ends of the earth revere him."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
                   "verse_number": "",
-                  "acclamation": "Alleluia! Alleluia!"
+                  "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "The Lord will come; go out to meet him! He is the prince of peace."
+                                    "Come, Lord, bring us your peace that we may rejoice before you with a perfect heart."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Matthew ch. 11, vv. 16 - 19",
+                  "verse_number": "John ch. 5, vv. 33 - 36",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Jesus said to the crowds: “But to what will I compare this generation?",
-                                    "It is like children sitting in the marketplaces and calling to one another,"
-                              ]
-                        },
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "‘We played the flute for you, and you did not dance; \nwe wailed, and you did not mourn.’"
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "For John came neither eating nor drinking, and they say, ‘He has a demon’;",
-                                    "the Son of Man came eating and drinking, and they say, ‘Look, a glutton and a drunkard,",
-                                    "a friend of tax collectors and sinners!’ Yet wisdom is vindicated by her deeds.”"
+                                    "Jesus said to the Jews: “You sent messengers to John, and he testified to the truth.",
+                                    "Not that I accept such human testimony, but I say these things so that you may be saved.",
+                                    "He was a burning and shining lamp, and you were willing to rejoice for a while in his light.",
+                                    "But I have a testimony greater than John’s. The works that the Father has given me to complete,",
+                                    "the very works that I am doing, testify on my behalf that the Father has sent me.”"
                               ]
                         }
                   ]

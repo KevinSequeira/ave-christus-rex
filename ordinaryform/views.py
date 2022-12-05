@@ -176,7 +176,6 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
         "current_cycle": currentCycle,
         "current_date_image": currentDateImage
     }
-    print(currentDateImage)
 
     # Add season-specific context variables
     if (currentSeasonShort == "advent"):

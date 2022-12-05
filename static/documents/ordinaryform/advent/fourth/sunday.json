@@ -1,5 +1,5 @@
 {
-      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
+      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent in Church.jpg')",
       "opening_antiphon": {
             "verse_number": "Philippians ch. 4, vv. 4, 5",
             "content": [
@@ -145,7 +145,7 @@
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Be patient, therefore, beloved, until the coming of the Lord.",
+                                    "Be patient, therefore, beloved, until the coming of the Lord."
                                     "The farmer waits for the precious crop from the earth, being patient with it until",
                                     "it receives the early and the late rains. You also must be patient.",
                                     "Strengthen your hearts, for the coming of the Lord is near. Beloved, do not grumble against one another,",

@@ -1,5 +1,5 @@
 {
-      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
       "opening_antiphon": {
             "verse_number": "Cf. Zecariah ch. 14, vv. 5, 7",
             "content": [
@@ -15,15 +15,18 @@
       "collect": [
             {
                   "p": [
-                        "O God, who have shown forth your salvation",
-                        "to all the ends of the earth,",
-                        "grant, we pray, that we may look forward in joy",
-                        "to the glorious Nativity of Christ."
+                        "O God, who through your Only Begotten Son",
+                        "have made us a new creation,",
+                        "look kindly, we pray,",
+                        "on the handiwork of your mercy,",
+                        "and at your Son’s coming",
+                        "cleanse us from every stain of the old way of life."
                   ]
             },
             {
                   "p": [
-                        "Who lives and reigns with you in the unity of the Holy Spirit,",
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
                         "one God, for ever and ever."
                   ]
             }
@@ -72,99 +75,106 @@
       ],
       "year_a": {
             "first_reading": {
-                  "verse_number": "Isaiah ch. 40, vv. 1 - 11",
+                  "verse_number": "Zephaniah ch. 3, vv. 1 - 2, 9 - 13",
                   "content": [
                         {
-                              "content_type": "stanza",
+                              "content_type": "paragraph",
                               "p": [
-                                    "Comfort, O comfort my people, \nsays your God.",
-                                    "Speak tenderly to Jerusalem, \nand cry to her",
-                                    "that she has served her term, \nthat her penalty is paid,",
-                                    "that she has received from the Lord’s hand \ndouble for all her sins."
+                                    "Thus says the Lord:"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "A voice cries out:",
-                                    "“In the wilderness prepare the way of the Lord, \nmake straight in the desert a highway for our God.",
-                                    "Every valley shall be lifted up, \nand every mountain and hill be made low;",
-                                    "the uneven ground shall become level, \nand the rough places a plain.",
-                                    "Then the glory of the Lord shall be revealed, \nand all people shall see it together, \nfor the mouth of the Lord has spoken.”"
+                                    "Ah, soiled, defiled, \noppressing city!",
+                                    "It has listened to no voice; \nit has accepted no correction.",
+                                    "It has not trusted in the Lord; \nit has not drawn near to its God."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "A voice says, “Cry out!” \nAnd I said, “What shall I cry?”",
-                                    "All people are grass, \ntheir constancy is like the flower of the field.",
-                                    "The grass withers, the flower fades, \nwhen the breath of the Lord blows upon it; \nsurely the people are grass.",
-                                    "The grass withers, the flower fades; \nbut the word of our God will stand forever.",
-                                    "Get you up to a high mountain, \nO Zion, herald of good tidings;",
-                                    "lift up your voice with strength, \nO Jerusalem, herald of good tidings, \nlift it up, do not fear;",
-                                    "say to the cities of Judah, \n“Here is your God!”",
-                                    "See, the Lord God comes with might, \nand his arm rules for him;",
-                                    "his reward is with him, \nand his recompense before him.",
-                                    "He will feed his flock like a shepherd; \nhe will gather the lambs in his arms,",
-                                    "and carry them in his bosom, \nand gently lead the mother sheep."
+                                    "At that time I will change the speech of the peoples \nto a pure speech,",
+                                    "that all of them may call on the name of the Lord \nand serve him with one accord.",
+                                    "From beyond the rivers of Ethiopia \nmy suppliants, my scattered ones, \nshall bring my offering."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "On that day you shall not be put to shame \nbecause of all the deeds by which you have rebelled against me;",
+                                    "for then I will remove from your midst \nyour proudly exultant ones,",
+                                    "and you shall no longer be haughty \nin my holy mountain.",
+                                    "For I will leave in the midst of you \na people humble and lowly.",
+                                    "They shall seek refuge in the name of the Lord— \nthe remnant of Israel;",
+                                    "they shall do no wrong \nand utter no lies,",
+                                    "nor shall a deceitful tongue \nbe found in their mouths.",
+                                    "Then they will pasture and lie down, \nand no one shall make them afraid."
                               ]
                         }
                   ]
             },
             "responsorial_psalm": {
-                  "verse_number": "Psalm 96, vv. 1 - 2, 3 and 10ac, 11 - 12, 13",
-                  "response": "Justice shall flourish in his time, \nand fullness of peace for ever.",
+                  "verse_number": "Psalm 34, vv. 1 - 2, 5 - 6, 16 - 17, 18 and 23",
+                  "response": "The Lord hears the cry of the poor.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "O sing to the Lord a new song; \nsing to the Lord, all the earth.",
-                                    "Sing to the Lord, bless his name; \ntell of his salvation from day to day."
+                                    "I will bless the Lord at all times; \nhis praise shall continually be in my mouth.",
+                                    "My soul makes its boast in the Lord; \nlet the humble hear and be glad."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Declare his glory among the nations, \nhis marvelous works among all the peoples.",
-                                    "Say among the nations, “The Lord is king! \nHe will judge the peoples with equity.”"
+                                    "Look to him, and be radiant; \nso your faces shall never be ashamed.",
+                                    "This poor soul cried, and was heard by the Lord, \nand was saved from every trouble."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Let the heavens be glad, and let the earth rejoice; \nlet the sea roar, and all that fills it; \nlet the field exult, and everything in it."
+                                    "The face of the Lord is against evildoers, \nto cut off the remembrance of them from the earth.",
+                                    "When the righteous cry for help, the Lord hears, \nand rescues them from all their troubles."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Then shall all the trees of the forest sing for joy \nbefore the Lord; for he is coming, \nfor he is coming to judge the earth.",
-                                    "He will judge the world with righteousness, \nand the peoples with his truth."
+                                    "The Lord is near to the brokenhearted, \nand saves the crushed in spirit.",
+                                    "The Lord redeems the life of his servants; \nnone of those who take refuge in him will be condemned."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
                   "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "The day of the Lord is near: Behold, he comes to save us"
+                                    "Come, O Lord, do not delay; forgive the sins of your people."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Matthew ch. 18, vv. 12 - 14",
+                  "verse_number": "Matthew ch. 21, vv. 28 - 32",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Jesus said to his disciples: “What do you think? If a shepherd has a hundred sheep,",
-                                    "and one of them has gone astray, does he not leave the ninety-nine on the mountains",
-                                    "and go in search of the one that went astray? And if he finds it, truly I tell you,",
-                                    "he rejoices over it more than over the ninety-nine that never went astray.",
-                                    "So it is not the will of your Father in heaven that one of these little ones should be lost.”"
+                                    "Jesus said to the chief priests and the elders of the people:",
+                                    "“What do you think? A man had two sons; he went to the first and said,",
+                                    "‘Son, go and work in the vineyard today.’ He answered, ‘I will not’;",
+                                    "but later he changed his mind and went. The father went to the second and said the same;",
+                                    "and he answered, ‘I go, sir’; but he did not go. Which of the two did the will of his father?”",
+                                    "They said, “The first.” Jesus said to them, “Truly I tell you, the tax collectors and the",
+                                    "prostitutes are going into the kingdom of God ahead of you.",
+                                    "For John came to you in the way of righteousness and you did not believe him,",
+                                    "but the tax collectors and the prostitutes believed him; and even after you saw it,",
+                                    "you did not change your minds and believe him.”"
                               ]
                         }
                   ]
