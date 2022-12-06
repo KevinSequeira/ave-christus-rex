@@ -407,6 +407,13 @@ p.liturgyForTheDayWeek {
             text-indent: -10px;
       }
 
+      .prayerBodyContent > span > strong {
+            font-family: 'Merriweather', serif;
+            font-size: 14px;
+            line-height: 18px;
+            color: #FF2400;
+      }
+
       .row-left {
             padding-right: 15px;
             padding-left: 15px;
