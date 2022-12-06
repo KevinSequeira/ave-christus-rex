@@ -1,0 +1,157 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_ambrose.png')",
+      "opening_antiphon": {
+            "verse_number": "Cf. Sirach ch. 15, v. 5",
+            "content": [
+                  {
+                        "p": [
+                              "In the midst of the Church he opened his mouth,",
+                              "and the Lord filled him with the spirit of wisdom and understanding",
+                              "and clothed him in a robe of glory."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who made the Bishop Saint Ambrose",
+                        "a teacher of the Catholic faith",
+                        "and a model of apostolic courage,",
+                        "raise up in your Church men after your own heart",
+                        "to govern her with courage and wisdom."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "As we celebrate the divine mysteries, O Lord, we pray,",
+                        "may the Holy Spirit fill us with that light of faith",
+                        "by which he constantly enlightened Saint Ambrose",
+                        "for the spreading of your glory."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": {
+            "verse_number": "Psalm 1, vv. 2, 3",
+            "content": [
+                  {
+                        "p": [
+                              "He who ponders the law of the Lord day and night",
+                              "will yield fruit in due season."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Lead us, who have been strengthened",
+                        "by the power of this Sacrament, O Lord,",
+                        "so to profit from the teaching of Saint Ambrose",
+                        "that, hastening fearlessly along your paths,",
+                        "we may be prepared for the delights of the eternal banquet."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": {
+                  "verse_number": "Ephesians ch. 3, vv. 8 - 12",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Brothers and sisters: Although I am the very least of all the saints,",
+                                    "this grace was given to me to bring to the Gentiles the news of the boundless riches of Christ,",
+                                    "and to make everyone see what is the plan of the mystery hidden for ages in God who created all things;",
+                                    "so that through the church the wisdom of God in its rich variety might now be made known to",
+                                    "the rulers and authorities in the heavenly places. This was in accordance with the eternal purpose that",
+                                    "he has carried out in Christ Jesus our Lord, in whom we have access to God in boldness and confidence",
+                                    "through faith in him."
+                              ]
+                        }
+                  ]
+            },
+            "responsorial_psalm": {
+                  "verse_number": "Psalm 89, vv. 1 - 2, 3 - 4, 20 - 21, 24 and 26",
+                  "response": "For ever I will sing the goodness of the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I will sing of your steadfast love, O Lord, forever; \nwith my mouth I will proclaim your faithfulness to all generations.",
+                                    "I declare that your steadfast love is established forever; \nyour faithfulness is as firm as the heavens."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "You said, “I have made a covenant with my chosen one, \nI have sworn to my servant David:",
+                                    "‘I will establish your descendants forever, \nand build your throne for all generations.’”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I have found my servant David; \nwith my holy oil I have anointed him;",
+                                    "my hand shall always remain with him; \nmy arm also shall strengthen him."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "My faithfulness and steadfast love shall be with him; \nand in my name his horn shall be exalted.",
+                                    "He shall cry to me, ‘You are my Father, \nmy God, and the Rock of my salvation!’"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 5, v. 16",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let your light shine before others, that they may see your good deeds and glorify your heavenly Father."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 10, vv. 11 - 16",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said: “I am the good shepherd. The good shepherd lays down his life for the sheep.",
+                                    "The hired hand, who is not the shepherd and does not own the sheep, sees the wolf coming and leaves the sheep",
+                                    "and runs away—and the wolf snatches them and scatters them. The hired hand runs away because a hired hand does",
+                                    "not care for the sheep. I am the good shepherd. I know my own and my own know me, just as the Father knows me",
+                                    "and I know the Father. And I lay down my life for the sheep. I have other sheep that do not belong to this fold.",
+                                    "I must bring them also, and they will listen to my voice. So there will be one flock, one shepherd.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}
