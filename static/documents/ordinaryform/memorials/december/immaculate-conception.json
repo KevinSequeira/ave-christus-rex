@@ -1,5 +1,5 @@
 {
-      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/immaculate-conception.png')",
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/immaculate_conception.png')",
       "opening_antiphon": {
             "verse_number": "Isaiah ch. 61, v. 10",
             "content": [
