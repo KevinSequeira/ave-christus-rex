@@ -1,0 +1,154 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_juan_diego.png')",
+      "opening_antiphon": {
+            "verse_number": "Malachi ch. 2, v. 6",
+            "content": [
+                  {
+                        "p": [
+                              "The law of truth was in his mouth;",
+                              "no dishonesty was found on his lips.",
+                              "He walked with me in integrity and peace,",
+                              "and turned many away from evil."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who by means of Saint Juan Diego showed",
+                        "the love of the most holy Virgin Mary for your people,",
+                        "grant, through his intercession,",
+                        "that, by following the counsels our Mother gave at Guadalupe,",
+                        "we may be ever constant in fulfilling your will."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May the sacrifices we offer to your majesty, O Lord,",
+                        "on this feast day of Saint Juan Diego.",
+                        "be effective for our salvation",
+                        "and pleasing to you in your loving kindness."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": {
+            "verse_number": "Matthew ch. 5, vv. 8, 9",
+            "content": [
+                  {
+                        "p": [
+                              "Blessed are the clean of heart, for they shall see God.",
+                              "Blessed are the peacemakers,",
+                              "for they shall be called children of God."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Nourished by these sacred gifts,",
+                        "we humbly implore you, Lord,",
+                        "that the homage of dutiful service,",
+                        "which we render on the feast day of St. Juan Diego,",
+                        "may bring us an increase of your saving grace."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": {
+                  "verse_number": "1 Corinthians ch. 1, vv. 26 - 31",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Brothers and sisters: Consider your own call, brothers and sisters: not many of you were wise by human standards,",
+                                    "not many were powerful, not many were of noble birth. But God chose what is foolish in the world to shame the wise;",
+                                    "God chose what is weak in the world to shame the strong; God chose what is low and despised in the world,",
+                                    "things that are not, to reduce to nothing things that are, so that no one might boast in the presence of God.",
+                                    "He is the source of your life in Christ Jesus, who became for us wisdom from God, and righteousness and sanctification and redemption,",
+                                    "in order that, as it is written, “Let the one who boasts, boast in the Lord.”"
+                              ]
+                        }
+                  ]
+            },
+            "responsorial_psalm": {
+                  "verse_number": "Psalm 131, vv. 1bcde, 2, 3",
+                  "response": "In you, Lord, I have found my peace.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O Lord, my heart is not lifted up, \nmy eyes are not raised too high;",
+                                    "I do not occupy myself with things \ntoo great and too marvelous for me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "But I have calmed and quieted my soul, \nlike a weaned child with its mother; \nmy soul is like the weaned child that is with me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O Israel, hope in the Lord \nfrom this time on and forevermore."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 11, v. 25",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed are you, Father, Lord of heaven and earth; \nyou have revealed to little ones the mysteries of the Kingdom."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 11, vv. 11 - 25",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said, “I thank you, Father, Lord of heaven and earth, because you have hidden these things from the wise and the intelligent",
+                                    "and have revealed them to infants; yes, Father, for such was your gracious will. All things have been handed over to me by my Father;",
+                                    "and no one knows the Son except the Father, and no one knows the Father except the Son and anyone to whom the Son chooses to reveal him."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“Come to me, all you that are weary and are carrying heavy burdens, and I will give you rest. Take my yoke upon you,",
+                                    "and learn from me; for I am gentle and humble in heart, and you will find rest for your souls.",
+                                    "For my yoke is easy, and my burden is light.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}
