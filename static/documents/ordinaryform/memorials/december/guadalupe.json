@@ -81,22 +81,15 @@
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Sing aloud, O daughter Zion;
-    shout, O Israel!
-Rejoice and exult with all your heart,
-    O daughter Jerusalem!
-The Lord has taken away the judgments against you,
-    he has turned away your enemies.
-The king of Israel, the Lord, is in your midst;
-    you shall fear disaster no more.
-On that day it shall be said to Jerusalem:
-Do not fear, O Zion;
-    do not let your hands grow weak.
-The Lord, your God, is in your midst,
-    a warrior who gives victory;
-he will rejoice over you with gladness,
-    he will renew you in his love;
-he will exult over you with loud singing."
+                                    "Sing aloud, O daughter Zion; \nshout, O Israel!",
+                                    "Rejoice and exult with all your heart, \nO daughter Jerusalem!",
+                                    "The Lord has taken away the judgments against you, \nhe has turned away your enemies.",
+                                    "The king of Israel, the Lord, is in your midst; \nyou shall fear disaster no more.",
+                                    "On that day it shall be said to Jerusalem:",
+                                    "Do not fear, O Zion; \ndo not let your hands grow weak.",
+                                    "The Lord, your God, is in your midst, \na warrior who gives victory;",
+                                    "he will rejoice over you with gladness, \nhe will renew you in his love;",
+                                    "he will exult over you with loud singing."
                               ]
                         }
                   ]
