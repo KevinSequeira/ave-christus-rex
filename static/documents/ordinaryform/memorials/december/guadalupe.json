@@ -1,15 +1,12 @@
 {
-      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/Vatican 002')",
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/guadalupe.png')",
       "opening_antiphon": {
-            "verse_number": "Isaiah ch. 61, v. 10",
+            "verse_number": "Revelation ch. 12, v. 1",
             "content": [
                   {
                         "p": [
-                              "I rejoice heartily in the Lord,",
-                              "in my God is the joy of my soul;",
-                              "for he has clothed me with a robe of salvation,",
-                              "and wrapped me in a mantle of justice,",
-                              "like a bride adorned with her jewels."
+                              "A great sign appeared in the sky, a woman clothed with the sun,",
+                              "with the moon under her feet, and on her head a crown of twelve stars."
                         ]
                   }
             ]
@@ -18,13 +15,12 @@
       "collect": [
             {
                   "p": [
-                        "O God, who by the Immaculate Conception of the Blessed Virgin",
-                        "prepared a worthy dwelling for your Son,",
-                        "grant, we pray,",
-                        "that, as you preserved her from every stain",
-                        "by virtue of the Death of your Son, which you foresaw,",
-                        "so, through her intercession,",
-                        "we, too, may be cleansed and admitted to your presence."
+                        "O God, Father of mercies,",
+                        "who placed your people under the singular protection",
+                        "of your Son’s most holy Mother,",
+                        "grant that all who invoke the Blessed Virgin of Guadalupe,",
+                        "may seek with ever more lively faith",
+                        "the progress of peoples in the ways of justice and of peace."
                   ]
             },
             {
@@ -36,15 +32,11 @@
       "offertory": [
             {
                   "p": [
-                        "Graciously accept the saving sacrifice",
-                        "which we offer you, O Lord,",
-                        "on the Solemnity of the Immaculate Conception",
-                        "of the Blessed Virgin Mary,",
-                        "and grant that, as we profess her,",
-                        "on account of your prevenient grace,",
-                        "to be untouched by any stain of sin,",
-                        "so, through her intercession,",
-                        "we may be delivered from all our faults."
+                        "Accept, O Lord, the gifts we present to you",
+                        "on this feast of Our Lady of Guadalupe,",
+                        "and grant that this sacrifice",
+                        "may strengthen us to fulfill your commandments",
+                        "as true children of the Virgin Mary."
                   ]
             },
             {
@@ -55,13 +47,12 @@
       ],
       "credo": "nicene_creed",
       "communion_antiphon": {
-            "verse_number": "",
+            "verse_number": "Luke ch. 1, v. 52",
             "content": [
                   {
                         "p": [
-                              "Glorious things are spoken of you, O Mary,",
-                              "for from you arose the sun of justice,",
-                              "Christ our God."
+                              "The Lord has cast down the mighty from their thrones,",
+                              "and has lifted up the lowly."
                         ]
                   }
             ]
@@ -69,11 +60,12 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "May the Sacrament we have received,",
-                        "O Lord our God,",
-                        "heal in us the wounds of that fault",
-                        "from which in a singular way",
-                        "you preserved Blessed Mary in her Immaculate Conception."
+                        "Lord God, may the Body and Blood of your Son,",
+                        "which we receive in this sacrament,",
+                        "reconcile us always in your love;",
+                        "and may we who rejoice in Our Lady of Guadalupe",
+                        "live united and at peace in this world",
+                        "until the day of the Lord dawns in glory."
                   ]
             },
             {
@@ -84,119 +76,86 @@
       ],
       "readings": {
             "first_reading": {
-                  "verse_number": "Genesis ch. 3, vv. 9 - 15, 20",
+                  "verse_number": "Zephaniah ch. 2, vv. 14 - 17",
                   "content": [
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "The Lord God called to the man, and said to him, “Where are you?” He said,",
-                                    "“I heard the sound of you in the garden, and I was afraid, because I was naked;",
-                                    "and I hid myself.” He said, “Who told you that you were naked? Have you eaten from",
-                                    "the tree of which I commanded you not to eat?” The man said, “The woman whom you gave",
-                                    "to be with me, she gave me fruit from the tree, and I ate.” Then the Lord God said to the woman,",
-                                    "“What is this that you have done?” The woman said, “The serpent tricked me, and I ate.”",
-                                    "The Lord God said to the serpent,"
-                              ]
-                        },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "“Because you have done this, \ncursed are you among all animals \nand among all wild creatures;",
-                                    "upon your belly you shall go, \nand dust you shall eat \nall the days of your life.",
-                                    "I will put enmity between you and the woman, \nand between your offspring and hers;",
-                                    "he will strike your head, \nand you will strike his heel.”"
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "The man named his wife Eve, because she was the mother of all living."
+                                    "Sing aloud, O daughter Zion;
+    shout, O Israel!
+Rejoice and exult with all your heart,
+    O daughter Jerusalem!
+The Lord has taken away the judgments against you,
+    he has turned away your enemies.
+The king of Israel, the Lord, is in your midst;
+    you shall fear disaster no more.
+On that day it shall be said to Jerusalem:
+Do not fear, O Zion;
+    do not let your hands grow weak.
+The Lord, your God, is in your midst,
+    a warrior who gives victory;
+he will rejoice over you with gladness,
+    he will renew you in his love;
+he will exult over you with loud singing."
                               ]
                         }
                   ]
             },
             "responsorial_psalm": {
-                  "verse_number": "Psalm 98, vv. 1, 2 - 3a, 3b - 4",
-                  "response": "Sing to the Lord a new song, for he has done marvelous deeds.",
+                  "verse_number": "Judith ch. 13, vv. 18bcde, 19",
+                  "response": "You are the highest honour of our race.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "O sing to the Lord a new song, \nfor he has done marvelous things.",
-                                    "His right hand and his holy arm \nhave gotten him victory."
+                                    "O daughter, you are blessed by the Most High God \nabove all other women on earth;",
+                                    "and blessed be the Lord God, \nwho created the heavens and the earth"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "The Lord has made known his victory; \nhe has revealed his vindication in the sight of the nations.",
-                                    "He has remembered his steadfast love and faithfulness \nto the house of Israel."
-                              ]
-                        },
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "All the ends of the earth have seen \nthe victory of our God.",
-                                    "Make a joyful noise to the Lord, all the earth; \nbreak forth into joyous song and sing praises."
-                              ]
-                        }
-                  ]
-            },
-            "second_reading": {
-                  "verse_number": "Ephesians ch. 1, vv. 3 - 6, 11 - 12",
-                  "content": [
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "Brothers and sisters: Blessed be the God and Father of our Lord Jesus Christ,",
-                                    "who has blessed us in Christ with every spiritual blessing in the heavenly places,",
-                                    "just as he chose us in Christ before the foundation of the world to be holy and blameless",
-                                    "before him in love. He destined us for adoption as his children through Jesus Christ,",
-                                    "according to the good pleasure of his will, to the praise of his glorious grace",
-                                    "that he freely bestowed on us in the Beloved."
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "In Christ we have also obtained an inheritance, having been destined according to the purpose",
-                                    "of him who accomplishes all things according to his counsel and will, so that we,",
-                                    "who were the first to set our hope on Christ, might live for the praise of his glory."
+                                    "Your praise will never depart from the hearts \nof those who remember the power of God."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "Cf. Luke ch. 1, v. 28",
+                  "verse_number": "",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "Hail, Mary, full of grace, the Lord is with you; blessed are you among women."
+                                    "Blessed are you, holy Virgin Mary, deserving of all praise; \nfrom you rose the sun of justice, Christ our God."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Luke ch. 1, vv. 26 - 38",
+                  "verse_number": "Luke ch. 1, vv. 39 - 47",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "The angel Gabriel was sent by God to a town in Galilee called Nazareth, to a virgin engaged to a man whose name was Joseph,",
-                                    "of the house of David. The virgin’s name was Mary. And he came to her and said,",
-                                    "“Greetings, favored one! The Lord is with you.” But she was much perplexed by his words",
-                                    "and pondered what sort of greeting this might be. The angel said to her, “Do not be afraid, Mary,",
-                                    "for you have found favor with God. And now, you will conceive in your womb and bear a son, and you will name him Jesus.",
-                                    "He will be great, and will be called the Son of the Most High, and the Lord God will give to him the throne",
-                                    "of his ancestor David. He will reign over the house of Jacob forever, and of his kingdom there will be no end.”",
-                                    "Mary said to the angel, “How can this be, since I am a virgin?” The angel said to her,",
-                                    "“The Holy Spirit will come upon you, and the power of the Most High will overshadow you;",
-                                    "therefore the child to be born will be holy; he will be called Son of God. And now,",
-                                    "your relative Elizabeth in her old age has also conceived a son; and this is the sixth month",
-                                    "for her who was said to be barren. For nothing will be impossible with God.” Then Mary said,",
-                                    "“Here am I, the servant of the Lord; let it be with me according to your word.”",
-                                    "Then the angel departed from her."
+                                    "Mary set out and went with haste to a Judean town in the hill country,",
+                                    "where she entered the house of Zechariah and greeted Elizabeth. When Elizabeth heard Mary’s greeting,",
+                                    "the child leaped in her womb. And Elizabeth was filled with the Holy Spirit and exclaimed with a loud cry,",
+                                    "“Blessed are you among women, and blessed is the fruit of your womb. And why has this happened to me,",
+                                    "that the mother of my Lord comes to me? For as soon as I heard the sound of your greeting,",
+                                    "the child in my womb leaped for joy. And blessed is she who believed that there would be a fulfillment",
+                                    "of what was spoken to her by the Lord.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "And Mary said,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“My soul magnifies the Lord, \nand my spirit rejoices in God my Savior.”"
                               ]
                         }
                   ]
