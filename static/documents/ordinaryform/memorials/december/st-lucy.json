@@ -1,0 +1,157 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_lucy.png')",
+      "opening_antiphon": {
+            "verse_number": "",
+            "content": [
+                  {
+                        "p": [
+                              "Behold, now she follows the Lamb who was crucified for us,",
+                              "powerful in virginity, modesty her offering,",
+                              "a sacrifice on the altar of chastity"
+                        ]
+                  }
+            ]
+      },
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "May the glorious intercession",
+                        "of the Virgin and Martyr Saint Lucy",
+                        "give us new heart, we pray, O Lord,",
+                        "so that we may celebrate her heavenly birthday",
+                        "in this present age",
+                        "and so behold things eternal."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May the offerings we bring in celebration of the Virgin and Martyr Saint Lucy.",
+                        "win your gracious acceptance, O Lord, we pray,",
+                        "just as the struggle of her suffering and passion",
+                        "was pleasing to you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": {
+            "verse_number": "Revelation ch. 7, v. 17",
+            "content": [
+                  {
+                        "p": [
+                              "The Lamb who is at the center of the throne",
+                              "will lead them to the springs of the waters of life"
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "O God, who bestowed on Saint Lucy a crown among the Saints",
+                        "for her twofold triumph of virginity and martyrdom,",
+                        "grant, we pray, through the power of this Sacrament,",
+                        "that, bravely overcoming every evil,",
+                        "we may attain the glory of heaven."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": {
+                  "verse_number": "2 Corinthians ch. 10, v. 17 – ch. 11, v. 2",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Brothers and sisters: “Let the one who boasts, boast in the Lord.”",
+                                    "For it is not those who commend themselves that are approved, but those whom the Lord commends."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "I wish you would bear with me in a little foolishness. Do bear with me! I feel a divine jealousy for you,",
+                                    "for I promised you in marriage to one husband, to present you as a chaste virgin to Christ."
+                              ]
+                        }
+                  ]
+            },
+            "responsorial_psalm": {
+                  "verse_number": "Psalm 31, vv. 2cd - 3, 5 and 7ab, 15bc and 16",
+                  "response": "Into your hands, O Lord, I commend my spirit.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Be a rock of refuge for me, \na strong fortress to save me.",
+                                    "You are indeed my rock and my fortress; \nfor your name’s sake lead me and guide me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Into your hand I commit my spirit; \nyou have redeemed me, O Lord, faithful God.",
+                                    "I will exult and rejoice in your steadfast love, \nbecause you have seen my affliction."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Deliver me from the hand of my enemies and persecutors.",
+                                    "Let your face shine upon your servant; \nsave me in your steadfast love."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 5, v. 10",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed are they who are persecuted for the sake of righteousness, \nfor theirs is the Kingdom of heaven."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 25, vv. 1 - 13",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to the crowds: ““Then the kingdom of heaven will be like this. Ten bridesmaids took their lamps and went to meet the bridegroom.",
+                                    "Five of them were foolish, and five were wise. When the foolish took their lamps, they took no oil with them;",
+                                    "but the wise took flasks of oil with their lamps. As the bridegroom was delayed, all of them became drowsy and slept.",
+                                    "But at midnight there was a shout, ‘Look! Here is the bridegroom! Come out to meet him.’",
+                                    "Then all those bridesmaids got up and trimmed their lamps. The foolish said to the wise,",
+                                    "‘Give us some of your oil, for our lamps are going out.’ But the wise replied, ‘No! there will not be enough",
+                                    "for you and for us; you had better go to the dealers and buy some for yourselves.’ And while they went to buy it,",
+                                    "the bridegroom came, and those who were ready went with him into the wedding banquet; and the door was shut.",
+                                    "Later the other bridesmaids came also, saying, ‘Lord, lord, open to us.’ But he replied, ‘Truly I tell you,",
+                                    "I do not know you.’ Keep awake therefore, for you know neither the day nor the hour.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}
