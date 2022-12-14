@@ -126,10 +126,10 @@ def calendar(request):
     }
 
     # Add season-specific context variables
-    if (currentSeasonShort == "advent"):
-        context = advent(context)
-    elif (currentSeasonShort == "lent"):
-        context = lent(context)
+    # if (currentSeasonShort == "advent"):
+    #     context = advent(context)
+    # elif (currentSeasonShort == "lent"):
+    #     context = lent(context)
 
     # Add season-specific context variables
     if (currentSeasonShort == "advent"):
@@ -196,6 +196,10 @@ def advent(context = {}):
 
     try:
         jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
+        if context["current_date"] > '2022-12-16':
+            jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_qualifying_day'].lower()}.json")
+        else:
+            jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
         jsonFile = json.load(jsonFile)
 
         commonPrayers = open(f"./static/documents/ordinaryform/commonprayers.json")

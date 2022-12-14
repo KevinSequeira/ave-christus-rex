@@ -1,12 +1,12 @@
 {
       "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
       "opening_antiphon": {
-            "verse_number": "Cf. Psalm 80, vv. 4, 2",
+            "verse_number": "Cf. Isaiah ch. 49, v. 13",
             "content": [
                   {
                         "p": [
-                              "Come and show us your face, O Lord,",
-                              "who are seated upon the Cherubim, and we will be saved."
+                              "Rejoice, O heavens, and exult, O earth,",
+                              "for our Lord will come to show mercy to his poor."
                         ]
                   }
             ]
@@ -15,10 +15,13 @@
       "collect": [
             {
                   "p": [
-                        "May the splendor of your glory dawn in our hearts,",
-                        "we pray, almighty God, that all shadows of the night may be scattered",
-                        "and we may be shown to be children of light",
-                        "by the advent of your Only Begotten Son."
+                        "O God, Creator and Redeemer of human nature,",
+                        "who willed that your Word should take flesh",
+                        "in an ever-virgin womb,",
+                        "look with favor on our prayers,",
+                        "that your Only Begotten Son,",
+                        "having taken to himself our humanity,",
+                        "may be pleased to grant us a share in his divinity."
                   ]
             },
             {
@@ -31,10 +34,9 @@
       "offertory": [
             {
                   "p": [
-                        "May the sacrifice of our worship, Lord, we pray,",
-                        "be offered to you unceasingly,",
-                        "to complete what was begun in sacred mystery",
-                        "and powerfully accomplish for us your saving work."
+                        "Sanctify these gifts of your Church, O Lord,",
+                        "and grant that through these venerable mysteries",
+                        "we may be nourished with the bread of heaven."
                   ]
             },
             {
@@ -45,13 +47,12 @@
       ],
       "credo": "no",
       "communion_antiphon": {
-            "verse_number": "Cf. Revelation ch. 22, v. 12",
+            "verse_number": "Cf. Haggai ch. 2, v. 7",
             "content": [
                   {
                         "p": [
-                              "Behold, I am coming soon",
-                              "and my recompense is with me, says the Lord,",
-                              "to bestow a reward according to the deeds of each."
+                              "Behold, the Desired of all the nations will come,",
+                              "and the house of the Lord will be filled with glory."
                         ]
                   }
             ]
@@ -59,10 +60,11 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "We implore your mercy, Lord,",
-                        "that this divine sustenance",
-                        "may cleanse us of our faults",
-                        "and prepare us for the coming feasts."
+                        "Nourished by these divine gifts, almighty God,",
+                        "we ask you to grant our desire:",
+                        "that, aflame with your Spirit,",
+                        "we may shine like bright torches",
+                        "before your Christ when he comes."
                   ]
             },
             {
