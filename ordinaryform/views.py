@@ -66,7 +66,7 @@ def ordinaryform(request):
         context = advent(context)
     elif (currentSeasonShort == "lent"):
         context = lent(context)
-    context = memorial(context, st_short_name = feastShort)
+    context = memorial(context = context, st_short_name = feastShort)
     return render(request, "ordinaryform.html", context)
 
 
@@ -399,12 +399,11 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
 
     return render(request, f"memorials/{templateFileName}.html", context)
 
-def memorial(request, st_short_name = "immaculate-conception"):
+def memorial(context = {}, st_short_name = "immaculate-conception"):
 
     # Get the currentDate from the request URL
     saintShortName = st_short_name
     saintClass = "Feast"
-    context = {}
     context["file_available"] = "yes"
 
     try:
