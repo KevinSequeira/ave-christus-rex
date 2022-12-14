@@ -341,7 +341,7 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
             commonPrayers = open(f"./static/documents/ordinaryform/commonprayers.json")
             commonPrayers = json.load(commonPrayers)
 
-            context["saint_background_image"] = jsonFile["liturgy_background_image"]
+            context["saint_background_image"] = jsonFile["saint_background_image"]
             print(context)
 
             gloria_content = ""
