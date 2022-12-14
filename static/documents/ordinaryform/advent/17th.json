@@ -1,5 +1,5 @@
 {
-      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent in Church.jpg')",
       "opening_antiphon": {
             "verse_number": "Cf. Isaiah ch. 49, v. 13",
             "content": [
@@ -75,78 +75,122 @@
       ],
       "year_a": {
             "first_reading": {
-                  "verse_number": "Sirach ch. 48, vv. 1 - 4, 9 - 11",
+                  "verse_number": "Genesis ch. 49, vv. 2, 8 - 10",
                   "content": [
                         {
-                              "content_type": "stanza",
+                              "content_type": "paragraph",
                               "p": [
-                                    "Then Elijah arose, a prophet like fire, \nand his word burned like a torch.",
-                                    "He brought a famine upon them, \nand by his zeal he made them few in number.",
-                                    "By the word of the Lord he shut up the heavens, \nand also three times brought down fire.",
-                                    "How glorious you were, Elijah, in your wondrous deeds! \nWhose glory is equal to yours?"
+                                    "Jacob called his sons and said to them:"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "You were taken up by a whirlwind of fire, \nin a chariot with horses of fire.",
-                                    "At the appointed time, it is written, you are destined \nto calm the wrath of God before it breaks out in fury,",
-                                    "to turn the hearts of parents to their children, \nand to restore the tribes of Jacob.",
-                                    "Happy are those who saw you \nand were adorned with your love! \nFor we also shall surely live."
+                                    "Assemble and hear, O sons of Jacob; \nlisten to Israel your father."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Judah, your brothers shall praise you; \nyour hand shall be on the neck of your enemies; \nyour father’s sons shall bow down before you.",
+                                    "Judah is a lion’s whelp; \nfrom the prey, my son, you have gone up.",
+                                    "He crouches down, he stretches out like a lion, \nlike a lioness—who dares rouse him up?",
+                                    "The scepter shall not depart from Judah, \nnor the ruler’s staff from between his feet,",
+                                    "until tribute comes to him; \nand the obedience of the peoples is his."
                               ]
                         }
                   ]
             },
             "responsorial_psalm": {
-                  "verse_number": "Psalm 80, vv. 1ac and 2b, 14 - 15, 17 - 18",
-                  "response": "Lord, make us turn to you; let us see your face and we shall be saved.",
+                  "verse_number": "Psalm 72, vv. 1 - 2, 3 - 4ab, 7 - 8, 17",
+                  "response": "Justice shall flourish in his time, and fullness of peace for ever.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Give ear, O Shepherd of Israel, \nYou who are enthroned upon the cherubim, shine forth",
-                                    "and come to save us!"
+                                    "Give the king your justice, O God, \nand your righteousness to a king’s son.",
+                                    "May he judge your people with righteousness, \nand your poor with justice."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Turn again, O God of hosts; \nlook down from heaven, and see;",
-                                    "have regard for this vine, \nthe stock that your right hand planted."
+                                    "May the mountains yield prosperity for the people, \nand the hills, in righteousness.",
+                                    "May he defend the cause of the poor of the people, \ngive deliverance to the needy."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "But let your hand be upon the one at your right hand, \nthe one whom you made strong for yourself.",
-                                    "Then we will never turn back from you; \ngive us life, and we will call on your name."
+                                    "In his days may righteousness flourish \nand peace abound, until the moon is no more.",
+                                    "May he have dominion from sea to sea, \nand from the River to the ends of the earth."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "May his name endure forever, \nhis fame continue as long as the sun.",
+                                    "May all nations be blessed in him; \nmay they pronounce him happy."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "Luke ch. 3, vv. 4, 6",
+                  "verse_number": "",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "Prepare the way of the Lord, make straight his paths: All flesh shall see the salvation of God."
+                                    "O Wisdom of our God Most High, guiding creation with power and love: come to teach us the path of knowledge!"
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Matthew ch. 17, vv. 9a, 10 - 13",
+                  "verse_number": "Matthew ch. 1, vv. 1 - 17",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "As they were coming down the mountain the disciples asked Jesus,",
-                                    "“Why, then, do the scribes say that Elijah must come first?” He replied,",
-                                    "“Elijah is indeed coming and will restore all things; but I tell you that Elijah has already come,",
-                                    "and they did not recognize him, but they did to him whatever they pleased.",
-                                    "So also the Son of Man is about to suffer at their hands.”",
-                                    "Then the disciples understood that he was speaking to them about John the Baptist."
+                                    "An account of the genealogy of Jesus the Messiah, the son of David, the son of Abraham."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Abraham was the father of Isaac, and Isaac the father of Jacob, and Jacob the father of Judah and his brothers,",
+                                    "and Judah the father of Perez and Zerah by Tamar, and Perez the father of Hezron, and Hezron the father of Aram,",
+                                    "and Aram the father of Aminadab, and Aminadab the father of Nahshon, and Nahshon the father of Salmon,",
+                                    "and Salmon the father of Boaz by Rahab, and Boaz the father of Obed by Ruth, and Obed the father of Jesse,",
+                                    "and Jesse the father of King David."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "And David was the father of Solomon by the wife of Uriah, and Solomon the father of Rehoboam,",
+                                    "and Rehoboam the father of Abijah, and Abijah the father of Asaph, and Asaph the father of Jehoshaphat,",
+                                    "and Jehoshaphat the father of Joram, and Joram the father of Uzziah, and Uzziah the father of Jotham,",
+                                    "and Jotham the father of Ahaz, and Ahaz the father of Hezekiah, and Hezekiah the father of Manasseh,",
+                                    "and Manasseh the father of Amos, and Amos the father of Josiah, and Josiah the father of Jechoniah and his brothers,",
+                                    "at the time of the deportation to Babylon."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "And after the deportation to Babylon: Jechoniah was the father of Salathiel, and Salathiel the father of Zerubbabel,",
+                                    "and Zerubbabel the father of Abiud, and Abiud the father of Eliakim, and Eliakim the father of Azor,",
+                                    "and Azor the father of Zadok, and Zadok the father of Achim, and Achim the father of Eliud,",
+                                    "and Eliud the father of Eleazar, and Eleazar the father of Matthan, and Matthan the father of Jacob,",
+                                    "and Jacob the father of Joseph the husband of Mary, of whom Jesus was born, who is called the Messiah."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "So all the generations from Abraham to David are fourteen generations; and from David to the deportation to Babylon,",
+                                    "fourteen generations; and from the deportation to Babylon to the Messiah, fourteen generations."
                               ]
                         }
                   ]

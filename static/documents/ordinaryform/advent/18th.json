@@ -1,0 +1,171 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent in Church.jpg')",
+      "opening_antiphon": {
+            "verse_number": "",
+            "content": [
+                  {
+                        "p": [
+                              "Christ our King is coming,",
+                              "he is the Lamb foretold by John."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Grant, we pray, almighty God,",
+                        "that we, who are weighed down from of old",
+                        "by slavery beneath the yoke of sin,",
+                        "may be set free by the newness",
+                        "of the long-awaited Nativity",
+                        "of your Only Begotten Son."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May the sacrifice to be offered to you, O Lord,",
+                        "make us acceptable to your name,",
+                        "that we may merit for all eternity",
+                        "to be the companions of Christ,",
+                        "by whose Death our own mortality was healed."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": {
+            "verse_number": "Matthew ch. 1, v. 23",
+            "content": [
+                  {
+                        "p": [
+                              "His name will be called Emmanuel,",
+                              "which means God-with-us."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May we receive your mercy",
+                        "in the midst of your temple, O Lord,",
+                        "and show fitting honor",
+                        "to the coming solemnities of our redemption."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Jeremiah ch. 23, vv. 5 - 8",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "The days are surely coming, says the Lord, when I will raise up for David a righteous Branch,",
+                                    "and he shall reign as king and deal wisely, and shall execute justice and righteousness in the land.",
+                                    "In his days Judah will be saved and Israel will live in safety. And this is the name by which he will be called:",
+                                    "“The Lord is our righteousness.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Therefore, the days are surely coming, says the Lord, when it shall no longer be said,",
+                                    "“As the Lord lives who brought the people of Israel up out of the land of Egypt,” but",
+                                    "“As the Lord lives who brought out and led the offspring of the house of Israel out of the land",
+                                    "of the north and out of all the lands where he had driven them.” Then they shall live in their own land."
+                              ]
+                        }
+                  ]
+            },
+            "responsorial_psalm": {
+                  "verse_number": "Psalm 72, vv. 1 - 2, 12 - 13, 18 - 19",
+                  "response": "Justice shall flourish in his time, and fullness of peace for ever.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Give the king your justice, O God, \nand your righteousness to a king’s son.",
+                                    "May he judge your people with righteousness, \nand your poor with justice."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For he delivers the needy when they call, \nthe poor and those who have no helper.",
+                                    "He has pity on the weak and the needy, \nand saves the lives of the needy."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Blessed be the Lord, the God of Israel, \nwho alone does wondrous things.",
+                                    "Blessed be his glorious name forever; \nmay his glory fill the whole earth.",
+                                    "Amen and Amen."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "O Leader of the House of Israel, giver of the Law to Moses on Sinai: come to rescue us with your mighty power!"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 1, vv. 18 - 25",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Now the birth of Jesus the Messiah took place in this way. When his mother Mary had been engaged to Joseph,",
+                                    "but before they lived together, she was found to be with child from the Holy Spirit.",
+                                    "Her husband Joseph, being a righteous man and unwilling to expose her to public disgrace,",
+                                    "planned to dismiss her quietly. But just when he had resolved to do this, an angel of the Lord appeared",
+                                    "to him in a dream and said, “Joseph, son of David, do not be afraid to take Mary as your wife,",
+                                    "for the child conceived in her is from the Holy Spirit. She will bear a son, and you are to name him Jesus,",
+                                    "for he will save his people from their sins.” All this took place to fulfill what had been spoken by the Lord",
+                                    "through the prophet:"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Look, the virgin shall conceive and bear a son, \nand they shall name him Emmanuel,”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "which means, “God is with us.” When Joseph awoke from sleep, he did as the angel of the Lord commanded him; he took her as his wife,",
+                                    "but had no marital relations with her until she had borne a son; and he named him Jesus."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

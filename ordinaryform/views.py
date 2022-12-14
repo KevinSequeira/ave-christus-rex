@@ -196,7 +196,8 @@ def advent(context = {}):
 
     try:
         jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
-        if context["current_date"] > '2022-12-16':
+        if ((context["current_date"] > '2022-12-16')
+            & (context["current_weekday"] != 'Sunday')):
             jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_qualifying_day'].lower()}.json")
         else:
             jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
