@@ -132,10 +132,11 @@ def calendar(request):
     #     context = lent(context)
 
     # Add season-specific context variables
-    if (currentSeasonShort == "advent"):
-        context = adventCalendar(context)
-    elif (currentSeasonShort == "lent"):
-        context = lentenCalendar(context)
+    # if (currentSeasonShort == "advent"):
+    #     context = adventCalendar(context)
+    # elif (currentSeasonShort == "lent"):
+    #     context = lentenCalendar(context)
+    context = adventCalendar(context)
 
     return render(request, "liturgicalcalendar.html", context)
 
