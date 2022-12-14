@@ -66,7 +66,7 @@ def ordinaryform(request):
         context = advent(context)
     elif (currentSeasonShort == "lent"):
         context = lent(context)
-    context = memorialfortheday(context, st_short_name = feastShort)
+    context = memorial(context, st_short_name = feastShort)
     return render(request, "ordinaryform.html", context)
 
 
@@ -398,3 +398,115 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
         context["file_available"] = "no"
 
     return render(request, f"memorials/{templateFileName}.html", context)
+
+def memorial(request, st_short_name = "immaculate-conception"):
+
+    # Get the currentDate from the request URL
+    saintShortName = st_short_name
+    saintClass = "Feast"
+    context = {}
+    context["file_available"] = "yes"
+
+    try:
+        # Load the date dimension table
+        dateDimension = pan.read_excel(f"./static/documents/datedimension.xlsx", sheet_name = "datedimension")
+
+        # Slice the date dimension table for the current date
+        saintDateIndex = dateDimension.loc[dateDimension["Feast Short"] == saintShortName].index
+        saintDateDimension = dateDimension.loc[dateDimension["Feast Short"] == saintShortName]
+        saintDate = saintDateDimension.iloc[0]["Date"]
+        saintYear = saintDateDimension.iloc[0]["Year"]
+        saintWeekday = datetime.strptime(saintDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%A')
+        saintQualifyingMonth = datetime.strptime(saintDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
+        saintQualifyingDay = saintDateDimension.iloc[0]["Qualifying Day"]
+        saintName = saintDateDimension.iloc[0]["Feast Day"]
+        saintClass = saintDateDimension.iloc[0]["Feast Class"]
+        saintImage = saintDateDimension.iloc[0]["Feast Image Location"]
+
+        if (saintClass == "Feast"):
+            templateFileName = "feast"
+        elif (saintClass == "Memorial"):
+            templateFileName = "memorial"
+        elif (saintClass == "Optional Memorial"):
+            templateFileName = "memorial"
+        elif (saintClass == "Solemnity"):
+            templateFileName = "solemnity"
+
+        # Load context variables
+        context = {
+            "saint_date": saintDate,
+            "saint_weekday": saintWeekday,
+            "saint_qualifying_month": saintQualifyingMonth,
+            "saint_qualifying_day": saintQualifyingDay,
+            "saint_year": saintYear,
+            "saint_name": saintName,
+            "saint_class": saintClass,
+            "saint_image": saintImage
+        }
+
+        try:
+            jsonFile = open(f"./static/documents/ordinaryform/memorials/{saintQualifyingMonth.lower()}/{saintShortName}.json")
+            jsonFile = json.load(jsonFile)
+
+            print(jsonFile)
+
+            commonPrayers = open(f"./static/documents/ordinaryform/commonprayers.json")
+            commonPrayers = json.load(commonPrayers)
+
+            context["saint_background_image"] = jsonFile["saint_background_image"]
+            print(context)
+
+            gloria_content = ""
+            if (jsonFile["gloria"] == "yes"):
+                gloria_content = commonPrayers["gloria"]
+
+            credo_content = ""
+            if (jsonFile["credo"] == "apostles_creed"):
+                credo_content = commonPrayers["apostles_creed"]
+            elif (jsonFile["credo"] == "nicene_creed"):
+                credo_content = commonPrayers["nicene_creed"]
+
+            context["file_available"] = "yes"
+
+            context["opening_antiphon"] = jsonFile["opening_antiphon"]
+            context["gloria"] = jsonFile["gloria"]
+            context["gloria_content"] = gloria_content
+            context["collect"] = jsonFile["collect"]
+            context["first_reading"] = jsonFile["readings"]["first_reading"]
+            context["responsorial_psalm"] = jsonFile["readings"]["responsorial_psalm"]
+
+            second_reading_content = ""
+            if ("second_reading" in jsonFile["readings"]):
+                context["second_reading"] = jsonFile["readings"]["second_reading"]
+
+            context["gospel_acclamation"] = jsonFile["readings"]["gospel_acclamation"]
+            context["gospel_reading"] = jsonFile["readings"]["gospel_reading"]
+            context["offertory"] = jsonFile["offertory"]
+            context["credo"] = jsonFile["credo"]
+            context["credo_content"] = credo_content
+            context["communion_antiphon"] = jsonFile["communion_antiphon"]
+            context["prayer_after_communion"] = jsonFile["prayer_after_communion"]
+
+        except:
+            context["file_available"] = "no"
+
+            context["opening_antiphon"] = ""
+            context["gloria"] = ""
+            context["gloria_content"] = ""
+            context["collect"] = ""
+            context["first_reading"] = ""
+            context["responsorial_psalm"] = ""
+            context["second_reading"] = ""
+            context["gospel_acclamation"] = ""
+            context["gospel_reading"] = ""
+            context["offertory"] = ""
+            context["credo"] = ""
+            context["credo_content"] = ""
+            context["communion_antiphon"] = ""
+            context["prayer_after_communion"] = ""
+
+    except:
+        context = {}
+        context["file_available"] = "no"
+
+    return context
