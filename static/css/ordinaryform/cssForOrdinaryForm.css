@@ -15,7 +15,6 @@
 }
 
 .documentsBackground {
-      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Vatican 002.jpg');
       background-size: cover;
       background-position: center;
       position: relative;
@@ -135,7 +134,6 @@ p.memorialForTheDayWeek {
       }
 
       .documentsBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Vatican 002.jpg');
             background-size: cover;
             background-position: center;
             padding: 140px 0px 0px 0px;
@@ -266,7 +264,6 @@ p.memorialForTheDayWeek {
       }
 
       .documentsBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Vatican 002.jpg');
             background-size: cover;
             background-position: center;
       }
@@ -400,7 +397,6 @@ p.memorialForTheDayWeek {
       }
 
       .documentsBackground {
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Vatican 002.jpg');
             background-size: cover;
             background-position: center;
       }

@@ -97,6 +97,12 @@
                         background: {{ liturgy_background_image }};
                   }
                   {% endautoescape %}
+
+                  {% autoescape off %}
+                  .documentsBackground {
+                        background: {{ saint_background_image }};
+                  }
+                  {% endautoescape %}
             </style>
             <link href="{% static 'css/ordinaryform/cssForOrdinaryForm.css' %}" rel="stylesheet">
             <link href="{% static 'css/footer.css' %}" rel="stylesheet">
