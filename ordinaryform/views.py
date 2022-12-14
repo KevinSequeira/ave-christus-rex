@@ -408,7 +408,7 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
 def memorial(context = {}, st_short_name = "immaculate-conception"):
 
     # Get the currentDate from the request URL
-    context = context
+    context = context  
     print(context)
     saintShortName = st_short_name
     saintClass = "Feast"
