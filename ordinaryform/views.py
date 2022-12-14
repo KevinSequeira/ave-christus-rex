@@ -61,12 +61,6 @@ def ordinaryform(request):
         "feast_short_name": feastShort
     }
 
-    # Add season-specific context variables
-    # if (currentSeasonShort == "advent"):
-    #     context = advent(context)
-    # elif (currentSeasonShort == "lent"):
-    #     context = lent(context)
-
     context = advent(context)
     context = memorial(context, feastShort)
 
@@ -127,18 +121,6 @@ def calendar(request):
         "feast_class": feastClass,
         "st_short_name": saintShortName
     }
-
-    # Add season-specific context variables
-    # if (currentSeasonShort == "advent"):
-    #     context = advent(context)
-    # elif (currentSeasonShort == "lent"):
-    #     context = lent(context)
-
-    # Add season-specific context variables
-    # if (currentSeasonShort == "advent"):
-    #     context = adventCalendar(context)
-    # elif (currentSeasonShort == "lent"):
-    #     context = lentenCalendar(context)
 
     context = adventCalendar(context)
     context = advent(context)
@@ -408,7 +390,7 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
 def memorial(context = {}, st_short_name = "immaculate-conception"):
 
     # Get the currentDate from the request URL
-    context = context  
+    context = context
     print(context)
     saintShortName = st_short_name
     saintClass = "Feast"
