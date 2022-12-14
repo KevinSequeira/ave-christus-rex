@@ -66,7 +66,7 @@ def ordinaryform(request):
         context = advent(context)
     elif (currentSeasonShort == "lent"):
         context = lent(context)
-
+    context = memorialfortheday(context)
     return render(request, "ordinaryform.html", context)
 
 
