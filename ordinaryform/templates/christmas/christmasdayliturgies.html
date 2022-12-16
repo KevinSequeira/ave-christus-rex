@@ -46,10 +46,8 @@
                                     <div class="liturgyForTheDay">
                                           <!-- <p class="liturgyForTheDayForm">Sunday, 27th November, 2022</p> -->
                                           <p class="liturgyForTheDayForm">{{ current_weekday }}, {{ current_qualifying_day }} {{ current_qualifying_month }}, {{ current_year }}</p>
-                                          <h1 class="liturgyForTheDayHeader">Liturgy for the Day</h1>
-                                          <p class="liturgyForTheDayWeek">{{ current_week }} Week in {{ current_season }}
-                                                <br>Year {{ current_cycle }}</p>
-                                          <a class="btn default" href="{% url 'liturgyfortheday' current_date %}" target="_blank" role="button">Read More ...</a>
+                                          <h1 class="liturgyForTheDayHeader">Vigil of Christmas</h1>
+                                          <a class="btn default" href="{% url 'liturgyfortheday' 'christmas-vigil' %}" target="_blank" role="button">Read More ...</a>
                                     </div>
                               </div>
                         </div>
@@ -57,49 +55,31 @@
                               <div class="jumbotron memorialForTheDayBackground">
                                     <div class="memorialForTheDay">
                                           <p class="memorialForTheDayForm">{{ feast_weekday }}, {{ feast_qualifying_day }} {{ feast_qualifying_month }}, {{ feast_year }}</p>
-                                          <h1 class="memorialForTheDayHeader">Saint of the Day</h1>
-                                          <p class="memorialForTheDayWeek">{{ feast_title }}
-                                                <br>{{ feast_class }}</p>
-                                          <a class="btn default" href="{% url 'memorialfortheday' st_short_name %}" target="_blank" role="button">Read More ...</a>
+                                          <h1 class="memorialForTheDayHeader">Midnight on Christmas</h1>
+                                          <a class="btn default" href="{% url 'liturgyfortheday' 'christmas-midnight' %}" target="_blank" role="button">Read More ...</a>
                                     </div>
                               </div>
                         </div>
-                  </div>
-                  <div class="jumbotron calendarBackground widescreenView">
-                        {% for month, rows in calendar_dictionary.items %}
-                        <div class="calendarOverflow">
-                              <div class="calendarMonth">
-                                    {{ month }}, {{ current_year }}
-                              </div>
-                              {% for row in rows %}
-                              {% if row.8 == "advent" and month == "December" and row.1 == "24th" %}
-                              {% include 'template-parts/christmaseve.html' %}
-                              {% elif row.8 == "christmas" %}
-                              {% include 'template-parts/christmas.html' %}
-                              {% else %}
-                              <div class="row calendarRow">
-                                    <div class="col-xs-3 calendarCellColumn firstColumn">
-                                          {{ row.1 }}
-                                    </div>
-                                    <!-- <div class="col-xs-3 calendarCellColumn secondColumn mobileView">
-                                          {{ row.3 }}
-                                    </div> -->
-                                    <div class="col-xs-3 calendarCellColumn secondColumn">
-                                          <a class="liturgyForTheDayLink" href="{% url 'liturgyfortheday' row.0 %}">{{ row.4 }} {{ row.3 }} of {{ row.2 }}</a>
-                                    </div>
-                                    <div class="col-xs-3 calendarCellColumn thirdColumn">
-                                          {% if row.7 == "" %}
-
-                                          {% else %}
-                                          <a class="liturgyForTheDayLink" href="{% url 'memorialfortheday' row.7 %}">{{ row.6 }} of {{ row.5 }}</a>
-                                          {% endif %}
+                  </div><div class="row">
+                        <div class="col-sm-6 row-left">
+                              <div class="jumbotron liturgyForTheDayBackground">
+                                    <div class="liturgyForTheDay">
+                                          <!-- <p class="liturgyForTheDayForm">Sunday, 27th November, 2022</p> -->
+                                          <p class="liturgyForTheDayForm">{{ current_weekday }}, {{ current_qualifying_day }} {{ current_qualifying_month }}, {{ current_year }}</p>
+                                          <h1 class="liturgyForTheDayHeader">Dawn on Christmas</h1>
+                                          <a class="btn default" href="{% url 'liturgyfortheday' 'christmas-dawn' %}" target="_blank" role="button">Read More ...</a>
                                     </div>
                               </div>
-                              {% endif %}
-                              <hr>
-                              {% endfor %}
                         </div>
-                        {% endfor %}
+                        <div class="col-sm-6 row-right">
+                              <div class="jumbotron memorialForTheDayBackground">
+                                    <div class="memorialForTheDay">
+                                          <p class="memorialForTheDayForm">{{ feast_weekday }}, {{ feast_qualifying_day }} {{ feast_qualifying_month }}, {{ feast_year }}</p>
+                                          <h1 class="memorialForTheDayHeader">Daytime at Christmas</h1>
+                                          <a class="btn default" href="{% url 'liturgyfortheday' 'christmas-daytime' %}" target="_blank" role="button">Read More ...</a>
+                                    </div>
+                              </div>
+                        </div>
                   </div>
 
                   <hr>

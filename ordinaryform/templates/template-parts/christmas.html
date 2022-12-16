@@ -1,0 +1,10 @@
+{% load static %}
+{% block head %}
+{% endblock %}
+{% if month == "December" and row.1 == "25th" %}
+{% include 'template-parts/christmasday.html' %}
+{% elif month == "December" and row.1 >= "26th" and row.1 <= "31st" %}
+{% include 'template-parts/christmasseason.html' %}
+{% elif row.8 == "christmas" and month == "January" %}
+{% include 'template-parts/christmasseason.html' %}
+{% endif %}
