@@ -184,6 +184,7 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
 def advent(context = {}):
 
     try:
+        print(context["current_date"])
         jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
         if ((context["current_date"] > '2022-12-16')
             & (context["current_weekday"] is not 'Sunday')):
@@ -250,7 +251,6 @@ def advent(context = {}):
 
 def adventCalendar(context = {}):
 
-    # print(context)
     # Load the date dimension table
     dateDimension = pan.read_excel(f"./static/documents/datedimension.xlsx", sheet_name = "datedimension").fillna("")
 
@@ -324,13 +324,10 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
             jsonFile = open(f"./static/documents/ordinaryform/memorials/{saintQualifyingMonth.lower()}/{saintShortName}.json")
             jsonFile = json.load(jsonFile)
 
-            print(jsonFile)
-
             commonPrayers = open(f"./static/documents/ordinaryform/commonprayers.json")
             commonPrayers = json.load(commonPrayers)
 
             context["saint_background_image"] = jsonFile["saint_background_image"]
-            print(context)
 
             gloria_content = ""
             if (jsonFile["gloria"] == "yes"):
@@ -391,7 +388,6 @@ def memorial(context = {}, st_short_name = "immaculate-conception"):
 
     # Get the currentDate from the request URL
     context = context
-    print(context)
     saintShortName = st_short_name
     saintClass = "Feast"
     saintQualifyingMonth = context["feast_qualifying_month"]
