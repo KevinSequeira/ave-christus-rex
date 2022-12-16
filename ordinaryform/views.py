@@ -58,11 +58,11 @@ def ordinaryform(request):
         "feast_year": feastYear,
         "feast_title": feastTitle,
         "feast_class": feastClass,
-        "feast_short_name": feastShort
+        "st_short_name": feastShort
     }
 
     context = advent(context)
-    context = memorial(context, feastShort)
+    context = memorial(context)
 
     return render(request, "ordinaryform.html", context)
 
@@ -122,7 +122,7 @@ def calendar(request):
         "st_short_name": saintShortName
     }
 
-    context = adventCalendar(context)
+    context = adventcalendar(context)
     context = advent(context)
     context = memorial(context)
 
@@ -185,7 +185,8 @@ def advent(context = {}):
 
     try:
         jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
-        if ((context["current_date"] > '2022-12-16')
+        if ((context["current_qualifying_day"] > '16th')
+            & (context["current_qualifying_month"] == 'December')
             & (context["current_weekday"] is not 'Sunday')):
             jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_qualifying_day'].lower()}.json")
         else:
@@ -248,7 +249,7 @@ def advent(context = {}):
     return context
 
 
-def adventCalendar(context = {}):
+def adventcalendar(context = {}):
 
     # Load the date dimension table
     dateDimension = pan.read_excel(f"./static/documents/datedimension.xlsx", sheet_name = "datedimension").fillna("")
@@ -277,8 +278,8 @@ def adventCalendar(context = {}):
 def christmas(context = {}):
 
     try:
-        jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
-        if ((context["current_date"] > '2022-12-16')
+        jsonFile = ""
+        if ((context["current_date"] > '2022')
             & (context["current_weekday"] is not 'Sunday')):
             jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_qualifying_day'].lower()}.json")
         else:
@@ -341,7 +342,7 @@ def christmas(context = {}):
     return context
 
 
-def christmasCalendar(context = {}):
+def christmascalendar(context = {}):
 
     # Load the date dimension table
     dateDimension = pan.read_excel(f"./static/documents/datedimension.xlsx", sheet_name = "datedimension").fillna("")
@@ -495,7 +496,6 @@ def memorial(context = {}):
         commonPrayers = json.load(commonPrayers)
 
         context["saint_background_image"] = jsonFile["saint_background_image"]
-        print(context["saint_background_image"])
 
         gloria_content = ""
         if (jsonFile["gloria"] == "yes"):
