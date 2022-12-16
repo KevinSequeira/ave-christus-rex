@@ -299,6 +299,7 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
         saintClass = saintDateDimension.iloc[0]["Feast Class"]
         saintImage = saintDateDimension.iloc[0]["Feast Image Location"]
 
+        templateFileName = "Memorial"
         if (saintClass == "Feast"):
             templateFileName = "feast"
         elif (saintClass == "Memorial"):
@@ -383,6 +384,7 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
         context["file_available"] = "no"
 
     return render(request, f"memorials/{templateFileName}.html", context)
+
 
 def memorial(context = {}, st_short_name = "immaculate-conception"):
 
