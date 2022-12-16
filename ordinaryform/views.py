@@ -124,7 +124,7 @@ def calendar(request):
 
     context = adventCalendar(context)
     context = advent(context)
-    context = memorial(context, saintShortName)
+    context = memorial(context)
 
     return render(request, "liturgicalcalendar.html", context)
 
@@ -184,7 +184,6 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
 def advent(context = {}):
 
     try:
-        print(context["current_date"])
         jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
         if ((context["current_date"] > '2022-12-16')
             & (context["current_weekday"] is not 'Sunday')):
@@ -250,6 +249,99 @@ def advent(context = {}):
 
 
 def adventCalendar(context = {}):
+
+    # Load the date dimension table
+    dateDimension = pan.read_excel(f"./static/documents/datedimension.xlsx", sheet_name = "datedimension").fillna("")
+
+    # Get all days for the current liturgical season
+    currentSeasonCalendar = dateDimension.loc[dateDimension["Season Short"] == "advent"]
+    currentSeasonCalendar["Qualifying Month"] = currentSeasonCalendar["Month"].apply(lambda row: datetime.strptime(str(row), "%m").strftime("%B"))
+    currentSeasonCalendar["Qualifying Weekday"] = currentSeasonCalendar["Date"].apply(lambda row: datetime.strptime(str(row), "%Y-%m-%d").strftime("%A"))
+
+    # Get unique months for the current Season
+    # monthsInTheSeason = currentSeasonCalendar["Date"].apply(lambda string: datetime.strptime(string, '%Y-%m-%d').strftime('%m')).unique()
+    monthsInTheSeason = currentSeasonCalendar["Month"].unique().tolist()
+
+    calendarDictionary = {}
+    # Get data for each day for each month in the Season
+    for month in monthsInTheSeason:
+        calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")] = []
+        tempDataFrame = currentSeasonCalendar.loc[currentSeasonCalendar["Month"] == month]
+        for index, row in tempDataFrame.iterrows():
+            calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")].append(row[["Date", "Qualifying Day", "Season", "Qualifying Weekday", "Week", "Feast Day", "Feast Class", "Feast Short"]].tolist())
+
+    context["calendar_dictionary"] = calendarDictionary.items()
+    return context
+
+
+def christmas(context = {}):
+
+    try:
+        jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
+        if ((context["current_date"] > '2022-12-16')
+            & (context["current_weekday"] is not 'Sunday')):
+            jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_qualifying_day'].lower()}.json")
+        else:
+            jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
+        jsonFile = json.load(jsonFile)
+
+        commonPrayers = open(f"./static/documents/ordinaryform/commonprayers.json")
+        commonPrayers = json.load(commonPrayers)
+
+        context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
+
+        gloria_content = ""
+        if (jsonFile["gloria"] == "yes"):
+            gloria_content = commonPrayers["gloria"]
+
+        credo_content = ""
+        if (jsonFile["credo"] == "apostles_creed"):
+            credo_content = commonPrayers["apostles_creed"]
+        elif (jsonFile["credo"] == "nicene_creed"):
+            credo_content = commonPrayers["nicene_creed"]
+
+        context["file_available"] = "yes"
+
+        context["opening_antiphon"] = jsonFile["opening_antiphon"]
+        context["gloria"] = jsonFile["gloria"]
+        context["gloria_content"] = gloria_content
+        context["collect"] = jsonFile["collect"]
+        context["first_reading"] = jsonFile["year_a"]["first_reading"]
+        context["responsorial_psalm"] = jsonFile["year_a"]["responsorial_psalm"]
+
+        second_reading_content = ""
+        if ("second_reading" in jsonFile["year_a"]):
+            context["second_reading"] = jsonFile["year_a"]["second_reading"]
+
+        context["gospel_acclamation"] = jsonFile["year_a"]["gospel_acclamation"]
+        context["gospel_reading"] = jsonFile["year_a"]["gospel_reading"]
+        context["offertory"] = jsonFile["offertory"]
+        context["credo"] = jsonFile["credo"]
+        context["credo_content"] = credo_content
+        context["communion_antiphon"] = jsonFile["communion_antiphon"]
+        context["prayer_after_communion"] = jsonFile["prayer_after_communion"]
+    except:
+        context["file_available"] = "no"
+
+        context["opening_antiphon"] = ""
+        context["gloria"] = ""
+        context["gloria_content"] = ""
+        context["collect"] = ""
+        context["first_reading"] = ""
+        context["responsorial_psalm"] = ""
+        context["second_reading"] = ""
+        context["gospel_acclamation"] = ""
+        context["gospel_reading"] = ""
+        context["offertory"] = ""
+        context["credo"] = ""
+        context["credo_content"] = ""
+        context["communion_antiphon"] = ""
+        context["prayer_after_communion"] = ""
+
+    return context
+
+
+def christmasCalendar(context = {}):
 
     # Load the date dimension table
     dateDimension = pan.read_excel(f"./static/documents/datedimension.xlsx", sheet_name = "datedimension").fillna("")
@@ -386,11 +478,11 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
     return render(request, f"memorials/{templateFileName}.html", context)
 
 
-def memorial(context = {}, st_short_name = "immaculate-conception"):
+def memorial(context = {}):
 
     # Get the currentDate from the request URL
     context = context
-    saintShortName = st_short_name
+    saintShortName = context["st_short_name"]
     saintClass = "Feast"
     saintQualifyingMonth = context["feast_qualifying_month"]
     context["file_available"] = "yes"
@@ -403,6 +495,7 @@ def memorial(context = {}, st_short_name = "immaculate-conception"):
         commonPrayers = json.load(commonPrayers)
 
         context["saint_background_image"] = jsonFile["saint_background_image"]
+        print(context["saint_background_image"])
 
         gloria_content = ""
         if (jsonFile["gloria"] == "yes"):
