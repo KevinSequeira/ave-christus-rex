@@ -194,7 +194,7 @@ def adventloader(context = {}):
         jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
         if ((context["current_qualifying_day"] > '16th')
             & (context["current_qualifying_month"] == 'December')
-            & (context["current_weekday"] is not 'Sunday')):
+            & (context["current_weekday"] != 'Sunday')):
             jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_qualifying_day'].lower()}.json")
         else:
             jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
@@ -212,9 +212,10 @@ def advent(context = {}):
 
     try:
         jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
+        jsonFile = json.load(jsonFile)
         if ((context["current_qualifying_day"] > '16th')
             & (context["current_qualifying_month"] == 'December')
-            & (context["current_weekday"] is not 'Sunday')):
+            & (context["current_weekday"] != 'Sunday')):
             jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_qualifying_day'].lower()}.json")
         else:
             jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
