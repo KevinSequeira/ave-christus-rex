@@ -1,0 +1,177 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent in Church.jpg')",
+      "opening_antiphon": {
+            "verse_number": "Psalm 24, v. 7",
+            "content": [
+                  {
+                        "p": [
+                              "O gates, lift high your heads; grow higher, ancient doors.",
+                              "Let him enter, the king of glory!"
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who, seeing the human race fallen into death,",
+                        "willed to redeem it by the coming of your Only Begotten Son,",
+                        "grant, we pray,",
+                        "that those who confess his Incarnation with humble fervor",
+                        "may merit his company as their Redeemer."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Trusting in your compassion, O Lord,",
+                        "we come eagerly with our offerings to your sacred altar,",
+                        "that, through the purifying action of your grace,",
+                        "we may be cleansed by the very mysteries we serve."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": {
+            "verse_number": "Luke ch. 1, vv. 46, 49",
+            "content": [
+                  {
+                        "p": [
+                              "My soul proclaims the greatness of the Lord,",
+                              "for the Almighty has done great things for me."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May reception of your Sacrament strengthen us, O Lord,",
+                        "so that we may go out to meet our Savior",
+                        "with worthy deeds when he comes",
+                        "and merit the rewards of the blessed."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "1 Samuel ch. 1, vv. 24 - 28",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "When she had weaned her child Samuel, Hannah took him up with her, along with a three-year-old bull, an ephah of flour, and a skin of wine.",
+                                          "She brought him to the house of the Lord at Shiloh; and the child was young. Then they slaughtered the bull,",
+                                          "and they brought the child to Eli. And she said, “Oh, my lord! As you live, my lord,",
+                                          "I am the woman who was standing here in your presence, praying to the Lord. For this child I prayed;",
+                                          "and the Lord has granted me the petition that I made to him. Therefore I have lent him to the Lord;",
+                                          "as long as he lives, he is given to the Lord.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "She left him there for the Lord."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "responsorial_psalm": {
+                  "verse_number": "1 Samuel ch. 2, vv. 1, 4 - 5, 6 - 7, 8abcd",
+                  "response": "My heart exults in the Lord, my Saviour.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“My heart exults in the Lord; \nmy strength is exalted in my God.",
+                                    "My mouth derides my enemies, \nbecause I rejoice in my victory.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“The bows of the mighty are broken, \nbut the feeble gird on strength.",
+                                    "Those who were full have hired themselves out for bread, \nbut those who were hungry are fat with spoil.",
+                                    "The barren has borne seven, \nbut she who has many children is forlorn.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“The Lord kills and brings to life; \nhe brings down to Sheol and raises up.",
+                                    "The Lord makes poor and makes rich; \nhe brings low, he also exalts.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“He raises up the poor from the dust; \nhe lifts the needy from the ash heap,",
+                                    "to make them sit with princes \nand inherit a seat of honor.”"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "O King of all nations and keystone of the Church: come and save man, whom you formed from the dust!"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 1, vv. 46 - 56",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Mary said:"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“My soul magnifies the Lord, \nand my spirit rejoices in God my Savior,",
+                                    "for he has looked with favor on the lowliness of his servant. \nSurely, from now on all generations will call me blessed;",
+                                    "for the Mighty One has done great things for me, \nand holy is his name.",
+                                    "His mercy is for those who fear him \nfrom generation to generation.",
+                                    "He has shown strength with his arm; \nhe has scattered the proud in the thoughts of their hearts.",
+                                    "He has brought down the powerful from their thrones, \nand lifted up the lowly;",
+                                    "he has filled the hungry with good things, \nand sent the rich away empty.",
+                                    "He has helped his servant Israel, \nin remembrance of his mercy,",
+                                    "according to the promise he made to our ancestors, \nto Abraham and to his descendants forever.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "And Mary remained with her about three months and then returned to her home."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

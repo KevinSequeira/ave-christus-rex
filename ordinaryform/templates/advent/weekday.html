@@ -265,8 +265,9 @@
                               <h1 class="prayerBodyHeader">Communion Antiphon</h1>
                               <p class="prayerBodyTagline"><i>This antiphon is sung or recited when the celebrant descends from the altar to the edge of the sanctuary to
                                     feed the Faithful with Holy Communion. The antiphon may be repeated, or replaced with an appropriate hymn.</i></p>
-                              <p class="prayerBodyVerses">{{ communion_antiphon.verse_number }}</p>
-                              {% for paragraph in communion_antiphon.content %}
+                              {% for antiphon in communion_antiphon %}
+                              <p class="prayerBodyVerses">{{ antiphon.verse_number }}</p>
+                              {% for paragraph in antiphon.content %}
                               <p class="prayerBodyContent">
                                     {% for span in paragraph.p %}
                                     <span>
@@ -274,6 +275,10 @@
                                     </span><br>
                                     {% endfor %}
                               </p>
+                              {% endfor %}
+                              {% if not forloop.last %}
+                              <p class="readingContentOptionSeparator">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>or</strong></p>
+                              {% endif %}
                               {% endfor %}
                         </div>
                         <div class="prayerBody">
