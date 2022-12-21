@@ -1,0 +1,199 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent in Church.jpg')",
+      "opening_antiphon": {
+            "verse_number": "Cf. Isaiah ch. 7, v. 14; ch. 8, v. 10",
+            "content": [
+                  {
+                        "p": [
+                              "The Lord and Ruler will be coming soon,",
+                              "and his name will be called Emmanuel,",
+                              "because he will be God-with-us."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Hear in kindness, O Lord,",
+                        "the prayers of your people,",
+                        "that those who rejoice",
+                        "at the coming of your Only Begotten Son in our flesh",
+                        "may, when at last he comes in glory,",
+                        "gain the reward of eternal life."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Be pleased, O Lord, to accept the offerings of your Church,",
+                        "for in your mercy you have given them to be offered",
+                        "and by your power you transform them",
+                        "into the mystery of our salvation."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": {
+            "verse_number": "Luke ch. 1, v. 45",
+            "content": [
+                  {
+                        "p": [
+                              "Blessed are you who have believed,",
+                              "that what was spoken to you by the Lord would be fulfilled."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Lord, may participation in this divine mystery",
+                        "provide enduring protection for your people,",
+                        "so that, being subject to your glorious majesty in dedicated service,",
+                        "they may know abundant health in mind and body."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading":
+                  [
+                        {
+                              "verse_number": "Song of Songs ch. 2, vv. 8 - 14",
+                              "content": [
+                                    {
+                                          "content_type": "stanza",
+                                          "p": [
+                                                "The voice of my beloved! \nLook, he comes,",
+                                                "leaping upon the mountains, \nbounding over the hills.",
+                                                "My beloved is like a gazelle \nor a young stag.",
+                                                "Look, there he stands \nbehind our wall,",
+                                                "gazing in at the windows, \nlooking through the lattice.",
+                                                "My beloved speaks and says to me:",
+                                                "“Arise, my love, my fair one, \nand come away;",
+                                                "for now the winter is past, \nthe rain is over and gone.",
+                                                "The flowers appear on the earth; \nthe time of singing has come,",
+                                                "and the voice of the turtledove \nis heard in our land.",
+                                                "The fig tree puts forth its figs, \nand the vines are in blossom; \nthey give forth fragrance.",
+                                                "Arise, my love, my fair one, \nand come away.",
+                                                "O my dove, in the clefts of the rock, \nin the covert of the cliff,",
+                                                "let me see your face, \nlet me hear your voice;",
+                                                "for your voice is sweet, \nand your face is lovely."
+                                          ]
+                                    }
+                              ]
+                        },
+                        {
+                              "verse_number": "Zephaniah ch. 3, vv. 14 - 18a",
+                              "content": [
+                                    {
+                                          "content_type": "stanza",
+                                          "p": [
+                                                "Sing aloud, O daughter Zion; \nshout, O Israel!",
+                                                "Rejoice and exult with all your heart, \nO daughter Jerusalem!",
+                                                "The Lord has taken away the judgments against you, \nhe has turned away your enemies.",
+                                                "The king of Israel, the Lord, is in your midst; \nyou shall fear disaster no more.",
+                                                "On that day it shall be said to Jerusalem:",
+                                                "Do not fear, O Zion; \ndo not let your hands grow weak.",
+                                                "The Lord, your God, is in your midst, \na warrior who gives victory;",
+                                                "he will rejoice over you with gladness, \nhe will renew you in his love;",
+                                                "he will exult over you with loud singing \nas on a day of festival."
+                                          ]
+                                    }
+                              ]
+                        }
+                  ],
+            "responsorial_psalm": {
+                  "verse_number": "Psalm 33, vv. 2 - 3, 11 - 12, 20 - 21",
+                  "response": "Exult, you just, in the Lord! \nSing to him a new song.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Praise the Lord with the lyre; \nmake melody to him with the harp of ten strings.",
+                                    "Sing to him a new song; \nplay skillfully on the strings, with loud shouts."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The counsel of the Lord stands forever, \nthe thoughts of his heart to all generations.",
+                                    "Happy is the nation whose God is the Lord, \nthe people whom he has chosen as his heritage."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Our soul waits for the Lord; \nhe is our help and shield.",
+                                    "Our heart is glad in him, \nbecause we trust in his holy name."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "O Emmanuel, our King and Giver of Law: come to save us, Lord our God!"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 1, vv. 26 - 38",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "In the sixth month the angel Gabriel was sent by God to a town in Galilee called Nazareth,",
+                                    "to a virgin engaged to a man whose name was Joseph, of the house of David. The virgin’s name was Mary.",
+                                    "And he came to her and said, “Greetings, favored one! The Lord is with you.” But she was much",
+                                    "perplexed by his words and pondered what sort of greeting this might be. The angel said to her,",
+                                    "“Do not be afraid, Mary, for you have found favor with God. And now, you will conceive in your womb and bear a son,",
+                                    "and you will name him Jesus. He will be great, and will be called the Son of the Most High,",
+                                    "and the Lord God will give to him the throne of his ancestor David. He will reign over the house of Jacob forever,",
+                                    "and of his kingdom there will be no end.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Mary said to the angel, “How can this be, since I am a virgin?” The angel said to her,",
+                                    "“The Holy Spirit will come upon you, and the power of the Most High will overshadow you;",
+                                    "therefore the child to be born will be holy; he will be called Son of God. And now, your relative Elizabeth",
+                                    "in her old age has also conceived a son; and this is the sixth month for her who was said to be barren.",
+                                    "For nothing will be impossible with God.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then Mary said, “Here am I, the servant of the Lord; let it be with me according to your word.”",
+                                    "Then the angel departed from her."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

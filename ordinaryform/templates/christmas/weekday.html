@@ -114,8 +114,9 @@
                               <h1 class="prayerBodyHeader">First Reading</h1>
                               <p class="prayerBodyTagline"><i>The first reading opens the Liturgy of the Word, and is usually taken from the Old Testament, or from the New Testament if appropriate to the occassion or liturgical season.
                                     As Christians, we are encouraged to listen to the Word of God intently and learn from His heart.</i></p>
-                              <p class="prayerBodyVerses">{{ first_reading.verse_number }}</p>
-                              {% for p in first_reading.content %}
+                                    {% for reading_option, reading_content in first_reading.items %}
+                              <p class="prayerBodyVerses">{{ reading_content.verse_number }}</p>
+                              {% for p in reading_content.content %}
                               {% if p.content_type == "paragraph" %}
                               <p class="prayerBodyContent">
                                     {% for line in p.p %}
@@ -130,6 +131,10 @@
                                     </span><br>
                                     {% endfor %}
                               </p>
+                              {% endif %}
+                              {% endfor %}
+                              {% if not forloop.last %}
+                              <p class="readingContentOptionSeparator">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>or</strong></p>
                               {% endif %}
                               {% endfor %}
                         </div>

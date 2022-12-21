@@ -191,7 +191,7 @@ def adventloader(context = {}):
 
     context = context
     try:
-        jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
+        jsonFile = ""
         if ((context["current_qualifying_day"] > '16th')
             & (context["current_qualifying_month"] == 'December')
             & (context["current_weekday"] != 'Sunday')):

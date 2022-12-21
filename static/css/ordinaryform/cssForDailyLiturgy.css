@@ -95,6 +95,13 @@ p.liturgyForTheDayWeek {
       color: #FF2400;
 }
 
+.readingContentOptionSeparator {
+      font-family: 'Merriweather', serif;
+      font-size: 16px;
+      margin: 8px 0px 4px 0px;
+      color: #FF2400;
+}
+
 .prayerBodyVerses {
       font-family: 'Merriweather', serif;
       font-size: 16px;
@@ -237,6 +244,13 @@ p.liturgyForTheDayWeek {
             color: #FF2400;
       }
 
+      .readingContentOptionSeparator {
+            font-family: 'Merriweather', serif;
+            font-size: 16px;
+            margin: 8px 0px 4px 0px;
+            color: #FF2400;
+      }
+
       .prayerBodyVerses {
             font-family: 'Merriweather', serif;
             font-size: 16px;
@@ -376,14 +390,23 @@ p.liturgyForTheDayWeek {
       .prayerBodyResponse > i {
             font-family: 'Merriweather', serif;
             font-size: 14px;
-            margin: 0px 0px 8px 0px;
+            line-height: 14px;
+            margin: 0px 0px 4px 0px;
             color: #333333;
       }
 
       .prayerBodyResponse > strong {
             font-family: 'Merriweather', serif;
             font-size: 14px;
-            margin: 0px 0px 8px 0px;
+            line-height: 14px;
+            margin: 0px 0px 4px 0px;
+            color: #FF2400;
+      }
+
+      .readingContentOptionSeparator {
+            font-family: 'Merriweather', serif;
+            font-size: 14px;
+            margin: 4px 0px 4px 0px;
             color: #FF2400;
       }
 
