@@ -23,7 +23,7 @@
                         "mercy may flow from your Word,",
                         "who chose to become flesh of the Virgin Mary",
                         "and establish among us his dwelling,",
-                        "Jesus Christ our Lord"
+                        "Jesus Christ our Lord."
                   ]
             },
             {
@@ -51,18 +51,20 @@
             }
       ],
       "credo": "no",
-      "communion_antiphon": {
-            "verse_number": "Revelation ch. 3, v. 20",
-            "content": [
-                  {
-                        "p": [
-                              "Behold, I stand at the door and knock:",
-                              "if anyone hears my voice and opens the door to me,",
-                              "I will enter his house and dine with him, and he with me."
-                        ]
-                  }
-            ]
-      },
+      "communion_antiphon": [
+            {
+                  "verse_number": "Revelation ch. 3, v. 20",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold, I stand at the door and knock:",
+                                    "if anyone hears my voice and opens the door to me,",
+                                    "I will enter his house and dine with him, and he with me."
+                              ]
+                        }
+                  ]
+            }
+      ],
       "prayer_after_communion": [
             {
                   "p": [
@@ -153,7 +155,7 @@
                               ]
                         },
                         {
-                              "content_type": "stanza",
+                              "content_type": "paragraph",
                               "p": [
                                     "On the eighth day they came to circumcise the child, and they were going to name him Zechariah after his father.",
                                     "But his mother said, “No; he is to be called John.” They said to her, “None of your relatives has this name.”",
