@@ -50,17 +50,19 @@
             }
       ],
       "credo": "apostles_creed",
-      "communion_antiphon": {
-            "verse_number": "Psalm 1, vv. 2, 3",
-            "content": [
-                  {
-                        "p": [
-                              "He who ponders the law of the Lord day and night",
-                              "will yield his fruit in due season."
-                        ]
-                  }
-            ]
-      },
+      "communion_antiphon": [
+            {
+                  "verse_number": "Psalm 1, vv. 2, 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "He who ponders the law of the Lord day and night",
+                                    "will yield his fruit in due season."
+                              ]
+                        }
+                  ]
+            }
+      ],
       "prayer_after_communion": [
             {
                   "p": [

@@ -39,6 +39,7 @@
                   {% include 'navbar.html' %}
 
                   <!-- Main component for a primary marketing message or call to action -->
+
                   <div class="jumbotron jumbotronBackground">
                         <div class="liturgyForTheDay">
                               <p class="liturgyForTheDayForm">{{ current_weekday }}, {{ current_qualifying_day }} {{ current_qualifying_month }}, {{ current_year }}</p>
@@ -48,6 +49,7 @@
                         </div>
                   </div>
 
+                  {% if file_available == "yes" %}
                   <div class="missalPrayersBody">
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Opening Antiphon</h1>
@@ -276,6 +278,7 @@
                               {% endfor %}
                         </div>
                   </div>
+                  {% endif %}
 
                   <hr>
 

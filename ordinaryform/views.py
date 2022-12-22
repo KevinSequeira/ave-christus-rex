@@ -61,7 +61,10 @@ def ordinaryform(request):
         "st_short_name": feastShort
     }
 
-    context = adventloader(context)
+    if (currentSeasonShort == "advent"):
+        context = adventloader(context)
+    elif (currentSeasonShort == "christmas"):
+        context = christmasloader(context)
     context = memorialloader(context)
 
     return render(request, "ordinaryform.html", context)
@@ -122,10 +125,12 @@ def calendar(request):
         "st_short_name": saintShortName
     }
 
+    if (currentSeasonShort == "advent"):
+        context = adventloader(context)
+    elif (currentSeasonShort == "christmas"):
+        context = christmasloader(context)
     context = adventcalendar(context)
-    context = adventloader(context)
-    # context = christmascalendar(context)
-    # context = christmasloader(context)
+    context = christmascalendar(context)
     context = memorialloader(context)
 
     return render(request, "liturgicalcalendar.html", context)
@@ -135,6 +140,24 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
 
     # Get the currentDate from the request URL
     currentDate = current_date
+    if (currentDate in ['christmas-vigil',
+        'christmas-midnight',
+        'christmas-dawn',
+        'christmas-daytime']):
+        context = {
+            "liturgy": currentDate
+        }
+        context = christmasliturgies(context)
+        return render(request, f"christmas/sunday.html", context)
+    elif (currentDate in ['easter-vigil',
+        'easter-midnight',
+        'easter-dawn',
+        'easter-daytime']):
+        context = {
+            "liturgy": currentDate
+        }
+        context = easterliturgies(context)
+        return render(request, f"easter/sunday.html", context)
 
     # Load the date dimension table
     dateDimension = pan.read_excel(f"./static/documents/datedimension.xlsx", sheet_name = "datedimension")
@@ -380,7 +403,7 @@ def christmas(context = {}):
         jsonFile = ""
         if (context["current_qualifying_month"] == "December"):
             if (context["current_qualifying_day"] == "25th"):
-                jsonFile = open(f"./static/documents/ordinaryform/christmas/december/christmas.json")
+                jsonFile = open(f"./static/documents/ordinaryform/christmas/december/christmas-midnight.json")
             elif (context["current_qualifying_day"] == "26th"):
                 if (context["current_weekday"] == "Sunday"):
                     jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-family.json")

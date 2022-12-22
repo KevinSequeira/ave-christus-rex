@@ -52,15 +52,17 @@
                               </div>
                         </div>
                         <div class="col-sm-6 row-right">
-                              <div class="jumbotron memorialForTheDayBackground">
-                                    <div class="memorialForTheDay">
-                                          <p class="memorialForTheDayForm">{{ feast_weekday }}, {{ feast_qualifying_day }} {{ feast_qualifying_month }}, {{ feast_year }}</p>
-                                          <h1 class="memorialForTheDayHeader">Midnight on Christmas</h1>
+                              <div class="jumbotron liturgyForTheDayBackground">
+                                    <div class="liturgyForTheDay">
+                                          <!-- <p class="liturgyForTheDayForm">Sunday, 27th November, 2022</p> -->
+                                          <p class="liturgyForTheDayForm">{{ current_weekday }}, {{ current_qualifying_day }} {{ current_qualifying_month }}, {{ current_year }}</p>
+                                          <h1 class="liturgyForTheDayHeader">Midnight of Christmas</h1>
                                           <a class="btn default" href="{% url 'liturgyfortheday' 'christmas-midnight' %}" target="_blank" role="button">Read More ...</a>
                                     </div>
                               </div>
                         </div>
-                  </div><div class="row">
+                  </div>
+                  <div class="row">
                         <div class="col-sm-6 row-left">
                               <div class="jumbotron liturgyForTheDayBackground">
                                     <div class="liturgyForTheDay">
@@ -71,11 +73,12 @@
                                     </div>
                               </div>
                         </div>
-                        <div class="col-sm-6 row-right">
-                              <div class="jumbotron memorialForTheDayBackground">
-                                    <div class="memorialForTheDay">
-                                          <p class="memorialForTheDayForm">{{ feast_weekday }}, {{ feast_qualifying_day }} {{ feast_qualifying_month }}, {{ feast_year }}</p>
-                                          <h1 class="memorialForTheDayHeader">Daytime at Christmas</h1>
+                        <div class="col-sm-6 row-left">
+                              <div class="jumbotron liturgyForTheDayBackground">
+                                    <div class="liturgyForTheDay">
+                                          <!-- <p class="liturgyForTheDayForm">Sunday, 27th November, 2022</p> -->
+                                          <p class="liturgyForTheDayForm">{{ current_weekday }}, {{ current_qualifying_day }} {{ current_qualifying_month }}, {{ current_year }}</p>
+                                          <h1 class="liturgyForTheDayHeader">Daytime of Christmas</h1>
                                           <a class="btn default" href="{% url 'liturgyfortheday' 'christmas-daytime' %}" target="_blank" role="button">Read More ...</a>
                                     </div>
                               </div>
