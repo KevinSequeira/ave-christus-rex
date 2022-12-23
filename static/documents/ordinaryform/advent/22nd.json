@@ -45,17 +45,19 @@
             }
       ],
       "credo": "no",
-      "communion_antiphon": {
-            "verse_number": "Luke ch. 1, vv. 46, 49",
-            "content": [
-                  {
-                        "p": [
-                              "My soul proclaims the greatness of the Lord,",
-                              "for the Almighty has done great things for me."
-                        ]
-                  }
-            ]
-      },
+      "communion_antiphon": [
+            {
+                  "verse_number": "Luke ch. 1, vv. 46, 49",
+                  "content": [
+                        {
+                              "p": [
+                                    "My soul proclaims the greatness of the Lord,",
+                                    "for the Almighty has done great things for me."
+                              ]
+                        }
+                  ]
+            }
+      ],
       "prayer_after_communion": [
             {
                   "p": [
