@@ -60,7 +60,7 @@
                                           <h1 class="memorialForTheDayHeader">Saint of the Day</h1>
                                           <p class="memorialForTheDayWeek">{{ feast_title }}
                                                 <br>{{ feast_class }}</p>
-                                          <a class="btn default" href="{% url 'memorialfortheday' st_short_name %}" target="_blank" role="button">Read More ...</a>
+                                          <a class="btn default" href="{% url feast_date 'memorialfortheday' %}" target="_blank" role="button">Read More ...</a>
                                     </div>
                               </div>
                         </div>

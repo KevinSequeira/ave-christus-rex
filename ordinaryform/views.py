@@ -157,7 +157,7 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
             "liturgy": currentDate
         }
         context = easterliturgies(context)
-        return render(request, f"easter/sunday.html", context)
+        return render(request, f"christmas/sunday.html", context)
 
     # Load the date dimension table
     dateDimension = pan.read_excel(f"./static/documents/datedimension.xlsx", sheet_name = "datedimension")
@@ -534,10 +534,10 @@ def christmascalendar(context = {}):
     return context
 
 
-def memorialfortheday(request, st_short_name = "immaculate-conception"):
+def memorialfortheday(request, current_date = "2022-11-27"):
 
     # Get the currentDate from the request URL
-    saintShortName = st_short_name
+    currentDate = current_date
     saintClass = "Feast"
     context = {}
     context["file_available"] = "yes"
@@ -547,14 +547,15 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
         dateDimension = pan.read_excel(f"./static/documents/datedimension.xlsx", sheet_name = "datedimension")
 
         # Slice the date dimension table for the current date
-        saintDateIndex = dateDimension.loc[dateDimension["Feast Short"] == saintShortName].index
-        saintDateDimension = dateDimension.loc[dateDimension["Feast Short"] == saintShortName]
+        saintDateIndex = dateDimension.loc[dateDimension["Date"] == currentDate].index
+        saintDateDimension = dateDimension.loc[dateDimension["Date"] == currentDate]
         saintDate = saintDateDimension.iloc[0]["Date"]
         saintYear = saintDateDimension.iloc[0]["Year"]
         saintWeekday = datetime.strptime(saintDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%A')
         saintQualifyingMonth = datetime.strptime(saintDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
         saintQualifyingDay = saintDateDimension.iloc[0]["Qualifying Day"]
         saintName = saintDateDimension.iloc[0]["Feast Day"]
+        saintShortName = saintDateDimension.iloc[0]["Feast Short"]
         saintClass = saintDateDimension.iloc[0]["Feast Class"]
         saintImage = saintDateDimension.iloc[0]["Feast Image Location"]
 
@@ -588,6 +589,7 @@ def memorialfortheday(request, st_short_name = "immaculate-conception"):
             commonPrayers = json.load(commonPrayers)
 
             context["saint_background_image"] = jsonFile["saint_background_image"]
+            print(context)
 
             gloria_content = ""
             if (jsonFile["gloria"] == "yes"):
