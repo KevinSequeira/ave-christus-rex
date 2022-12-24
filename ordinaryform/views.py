@@ -187,8 +187,8 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
         "current_date_image": currentDateImage
     }
 
-    if ((currentQualifyingMonth == "December")
-        & (currentQualifyingDay == "25th")):
+    if ((saintQualifyingMonth == "December")
+        & (saintQualifyingDay in ("24th", "25th"))):
         context = christmasdayoptions(context)
         return render(request, f"christmas/christmasdayliturgies.html", context)
 
@@ -708,7 +708,7 @@ def memorialfortheday(request, current_date = "2022-11-27"):
         }
 
         if ((saintQualifyingMonth == "December")
-            & (saintQualifyingDay == "25th")):
+            & (saintQualifyingDay in ("24th", "25th"))):
             # Load context variables
             context = {
                 "current_date": saintDate,
