@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 import json
 import pandas as pan
 from datetime import datetime, timedelta
@@ -187,8 +187,8 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
         "current_date_image": currentDateImage
     }
 
-    if ((saintQualifyingMonth == "December")
-        & (saintQualifyingDay in ("24th", "25th"))):
+    if ((currentQualifyingMonth == "December")
+        & (currentQualifyingDay == "25th")):
         context = christmasdayoptions(context)
         return render(request, f"christmas/christmasdayliturgies.html", context)
 
@@ -716,12 +716,16 @@ def memorialfortheday(request, current_date = "2022-11-27"):
                 "current_qualifying_month": saintQualifyingMonth,
                 "current_qualifying_day": saintQualifyingDay,
                 "current_year": saintYear,
-                "current_name": saintName,
                 "current_class": saintClass,
                 "current_image": saintImage
             }
             context = christmasdayoptions(context)
-            return render(request, f"christmas/christmasdayliturgies.html", context)
+            # return render(request, f"christmas/christmasdayliturgies.html", context)
+            if (saintQualifyingDay == "24th"):
+                current_date = str(datetime.strptime(saintDateDimension.iloc[0]["Date"], '%Y-%m-%d') + timedelta(days = 1))[0:10]
+                return redirect("christmasliturgies", current_date = current_date, liturgy = 'christmas-vigil')
+            else:
+                return redirect("liturgyfortheday", f"{current_date}")
 
         try:
             jsonFile = open(f"./static/documents/ordinaryform/memorials/{saintQualifyingMonth.lower()}/{saintShortName}.json")

@@ -2,12 +2,13 @@
       "feast_background_image": "linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_midnight.jpg')",
       "feast_image_position": "bottom",
       "opening_antiphon": {
-            "verse_number": "Cf. Exodus ch. 16, vv. 6, 7",
+            "verse_number": "Cf. Isaiah ch. 9, v. 5",
             "content": [
                   {
                         "p": [
-                              "Today you will know that the Lord will come, and he will save us,",
-                              "and in the morning you will see his glory."
+                              "A child is born for us, and a son is given to us;",
+                              "his scepter of power rests upon his shoulder,",
+                              "and his name will be called Messenger of great counsel."
                         ]
                   }
             ]
@@ -16,12 +17,11 @@
       "collect": [
             {
                   "p": [
-                        "O God, who gladden us year by year",
-                        "as we wait in hope for our redemption,",
-                        "grant that, just as we joyfully welcome",
-                        "your Only Begotten Son as our Redeemer,",
-                        "we may also merit to face him confidently",
-                        "when he comes again as our Judge."
+                        "O God, who wonderfully created the dignity of human nature",
+                        "and still more wonderfully restored it,",
+                        "grant, we pray,",
+                        "that we may share in the divinity of Christ,",
+                        "who humbled himself to share in our humanity."
                   ]
             },
             {
@@ -34,11 +34,10 @@
       "offertory": [
             {
                   "p": [
-                        "As we look forward, O Lord,",
-                        "to the coming festivities,",
-                        "may we serve you all the more eagerly",
-                        "for knowing that in them",
-                        "you make manifest the beginnings of our redemption."
+                        "Make acceptable, O Lord, our oblation on this solemn day,",
+                        "when you manifested the reconciliation",
+                        "that makes us wholly pleasing in your sight",
+                        "and inaugurated for us the fullness of divine worship."
                   ]
             },
             {
@@ -50,12 +49,11 @@
       "credo": "nicene_creed",
       "communion_antiphon": [
             {
-                  "verse_number": "Cf. Isaiah 40, v. 5",
+                  "verse_number": "Cf. Psalm 98, v. 3",
                   "content": [
                         {
                               "p": [
-                                    "The glory of the Lord will be revealed,",
-                                    "and all flesh will see the salvation of our God."
+                                    "All the ends of the earth have seen the salvation of our God."
                               ]
                         }
                   ]
@@ -64,10 +62,10 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "Grant, O Lord, we pray,",
-                        "that we may draw new vigor",
-                        "from celebrating the Nativity of your Only Begotten Son,",
-                        "by whose heavenly mystery we receive both food and drink."
+                        "Grant, O merciful God,",
+                        "that, just as the Savior of the world, born this day,",
+                        "is the author of divine generation for us,",
+                        "so he may be the giver even of immortality."
                   ]
             },
             {
@@ -79,125 +77,150 @@
       "readings": {
             "first_reading": [
                   {
-                        "verse_number": "Isaiah ch. 2, vv. 1 - 5",
+                        "verse_number": "Isaiah ch. 52, vv. 7 - 10",
                         "content": [
                               {
-                                    "content_type": "paragraph",
-                                    "p": [
-                                          "The word that Isaiah son of Amoz saw concerning Judah and Jerusalem."
-                                    ]
-                              },
-                              {
                                     "content_type": "stanza",
                                     "p": [
-                                          "In days to come the mountain of the Lord’s house",
-                                          "shall be established as the highest of the mountains, \nand shall be raised above the hills;",
-                                          "all the nations shall stream to it."
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "Many peoples shall come and say,",
-                                          "“Come, let us go up to the mountain of the Lord, \nto the house of the God of Jacob;",
-                                          "that he may teach us his ways \nand that we may walk in his paths.”",
-                                          "For out of Zion shall go forth instruction, \nand the word of the Lord from Jerusalem."
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "He shall judge between the nations, \nand shall arbitrate for many peoples;",
-                                          "they shall beat their swords into ploughshares, \nand their spears into pruning-hooks;",
-                                          "nation shall not lift up sword against nation, \nneither shall they learn war any more."
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "O house of Jacob, \ncome, let us walk \nin the light of the Lord!"
+                                          "How beautiful upon the mountains \nare the feet of the messenger who announces peace,",
+                                          "who brings good news, \nwho announces salvation, \nwho says to Zion, “Your God reigns.”",
+                                          "Listen! Your sentinels lift up their voices, \ntogether they sing for joy;",
+                                          "for in plain sight they see \nthe return of the Lord to Zion.",
+                                          "Break forth together into singing, \nyou ruins of Jerusalem;",
+                                          "for the Lord has comforted his people, \nhe has redeemed Jerusalem.",
+                                          "The Lord has bared his holy arm \nbefore the eyes of all the nations;",
+                                          "and all the ends of the earth shall see \nthe salvation of our God."
                                     ]
                               }
                         ]
                   }
             ],
             "responsorial_psalm": {
-                  "verse_number": "Psalm 122, vv. 1 - 2, 3 - 4a, 4b - 5, 6 - 7, 8 - 9",
-                  "response": "Let us go rejoicing to the house of the Lord.",
+                  "verse_number": "Psalm 98, vv. 1, 2 - 3a, 3b - 4, 5 - 6",
+                  "response": "All the ends of the earth have seen the saving power of God.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "I was glad when they said to me, \n“Let us go to the house of the Lord!”",
-                                    "Our feet are standing \nwithin your gates, O Jerusalem."
+                                    "O sing to the Lord a new song, \nfor he has done marvelous things.",
+                                    "His right hand and his holy arm \nhave gotten him victory."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Jerusalem—built as a city \nthat is bound firmly together.",
-                                    "To it the tribes go up, \nthe tribes of the Lord."
+                                    "The Lord has made known his victory; \nhe has revealed his vindication in the sight of the nations.",
+                                    "He has remembered his steadfast love and faithfulness \nto the house of Israel."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "As was decreed for Israel, \nto give thanks to the name of the Lord.",
-                                    "For there the thrones for judgement were set up, \nthe thrones of the house of David."
+                                    "All the ends of the earth have seen \nthe victory of our God.",
+                                    "Make a joyful noise to the Lord, all the earth; \nbreak forth into joyous song and sing praises."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Pray for the peace of Jerusalem: \n“May they prosper who love you.",
-                                    "Peace be within your walls, \nand security within your towers.”"
+                                    "Sing praises to the Lord with the lyre, \nwith the lyre and the sound of melody.",
+                                    "With trumpets and the sound of the horn \nmake a joyful noise before the King, the Lord."
                               ]
                         }
                   ]
             },
             "second_reading": {
-                  "verse_number": "Romans ch. 13, vv. 11 - 14",
+                  "verse_number": "Hebrews ch. 1, vv. 1 - 6",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Brothers and sisters: You know what time it is, how it is now the moment for you to wake from sleep.",
-                                    "For salvation is nearer to us now than when we became believers; the night is far gone,",
-                                    "the day is near. Let us then lay aside the works of darkness and put on the armour of light;",
-                                    "let us live honourably as in the day, not in revelling and drunkenness,",
-                                    "not in debauchery and licentiousness, not in quarrelling and jealousy.",
-                                    "Instead, put on the Lord Jesus Christ, and make no provision for the flesh, to gratify its desires."
+                                    "Brothers and sisters: Long ago God spoke to our ancestors in many and various ways by the prophets,",
+                                    "but in these last days he has spoken to us by a Son, whom he appointed heir of all things,",
+                                    "through whom he also created the worlds. He is the reflection of God’s glory and the exact imprint",
+                                    "of God’s very being, and he sustains all things by his powerful word. When he had made purification for sins,",
+                                    "he sat down at the right hand of the Majesty on high, having become as much superior to angels as the name",
+                                    "he has inherited is more excellent than theirs."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "For to which of the angels did God ever say,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“You are my Son; today I have begotten you”?"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "And again, when he brings the firstborn into the world, he says,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Let all God’s angels worship him.”"
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "Psalm 5, v. 8",
+                  "verse_number": "",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "Show us, Lord, your love;",
-                                    "and grant us your salvation."
+                                    "A holy day has dawned upon us. Come, you nations, and adore the Lord.",
+                                    "For today a great light has come upon the earth."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Matthew ch. 24, vv. 37 - 44",
+                  "verse_number": "John ch. 1, vv. 1 - 18",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Jesus said to his disciples: “For as the days of Noah were, so will be the coming of the Son of Man.",
-                                    "For as in those days before the flood they were eating and drinking, marrying and giving in marriage,",
-                                    "until the day Noah entered the ark, and they knew nothing until the flood came and swept them all away,",
-                                    "so too will be the coming of the Son of Man. Then two will be in the field; one will be taken and one will be left.",
-                                    "Two women will be grinding meal together; one will be taken and one will be left.",
-                                    "Keep awake therefore, for you do not know on what day your Lord is coming.",
-                                    "But understand this: if the owner of the house had known in what part of the night the thief was coming,",
-                                    "he would have stayed awake and would not have let his house be broken into.",
-                                    "Therefore you also must be ready, for the Son of Man is coming at an unexpected hour.”"
+                                    "In the beginning was the Word, and the Word was with God, and the Word was God.",
+                                    "He was in the beginning with God. All things came into being through him,",
+                                    "and without him not one thing came into being. What has come into being in him was life,",
+                                    "and the life was the light of all people. The light shines in the darkness,",
+                                    "and the darkness did not overcome it."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "There was a man sent from God, whose name was John. He came as a witness to testify to the light,",
+                                    "so that all might believe through him. He himself was not the light, but he came to testify to the light.",
+                                    "The true light, which enlightens everyone, was coming into the world."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "He was in the world, and the world came into being through him; yet the world did not know him.",
+                                    "He came to what was his own, and his own people did not accept him. But to all who received him,",
+                                    "who believed in his name, he gave power to become children of God, who were born, not of blood or",
+                                    "of the will of the flesh or of the will of man, but of God."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "And the Word became flesh and lived among us, and we have seen his glory,",
+                                    "the glory as of a father’s only son, full of grace and truth. (John testified to him and",
+                                    "cried out, “This was he of whom I said, ‘He who comes after me ranks ahead of me because",
+                                    "he was before me.’”) From his fullness we have all received, grace upon grace.",
+                                    "The law indeed was given through Moses; grace and truth came through Jesus Christ.",
+                                    "No one has ever seen God. It is God the only Son, who is close to the Father’s heart,",
+                                    "who has made him known."
                               ]
                         }
                   ]

@@ -1,32 +1,35 @@
 {
-      "feast_background_image": "linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_midnight.jpg')",
+      "feast_background_image": "linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_dawn.jpg')",
       "feast_image_position": "bottom",
-      "opening_antiphon": {
-            "verse_number": "Cf. Exodus ch. 16, vv. 6, 7",
-            "content": [
-                  {
-                        "p": [
-                              "Today you will know that the Lord will come, and he will save us,",
-                              "and in the morning you will see his glory."
-                        ]
-                  }
-            ]
-      },
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Isaiah ch. 9, v. 5; Luke ch. 1, v. 33",
+                  "content": [
+                        {
+                              "p": [
+                                    "Today a light will shine upon us, for the Lord is born for us;",
+                                    "and he will be called Wondrous God,",
+                                    "Prince of peace, Father of future ages:",
+                                    "and his reign will be without end."
+                              ]
+                        }
+                  ]
+            }
+      ],
       "gloria": "yes",
       "collect": [
             {
                   "p": [
-                        "O God, who gladden us year by year",
-                        "as we wait in hope for our redemption,",
-                        "grant that, just as we joyfully welcome",
-                        "your Only Begotten Son as our Redeemer,",
-                        "we may also merit to face him confidently",
-                        "when he comes again as our Judge."
+                        "Grant, we pray, almighty God,",
+                        "that, as we are bathed in the new radiance of your incarnate Word,",
+                        "the light of faith, which illumines our minds,",
+                        "may also shine through in our deeds."
                   ]
             },
             {
                   "p": [
-                        "Who lives and reigns with you in the unity of the Holy Spirit,",
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
                         "one God, for ever and ever."
                   ]
             }
@@ -34,11 +37,10 @@
       "offertory": [
             {
                   "p": [
-                        "As we look forward, O Lord,",
-                        "to the coming festivities,",
-                        "may we serve you all the more eagerly",
-                        "for knowing that in them",
-                        "you make manifest the beginnings of our redemption."
+                        "May our offerings be worthy, we pray, O Lord,",
+                        "of the mysteries of the Nativity this day,",
+                        "that, just as Christ was born a man and also shone forth as God,",
+                        "so these earthly gifts may confer on us what is divine."
                   ]
             },
             {
@@ -50,12 +52,12 @@
       "credo": "nicene_creed",
       "communion_antiphon": [
             {
-                  "verse_number": "Cf. Isaiah 40, v. 5",
+                  "verse_number": "Cf. Zechariah 9, v. 9",
                   "content": [
                         {
                               "p": [
-                                    "The glory of the Lord will be revealed,",
-                                    "and all flesh will see the salvation of our God."
+                                    "Rejoice, O Daughter Sion; lift up praise, Daughter Jerusalem:",
+                                    "Behold, your King will come, the Holy One and Savior of the world."
                               ]
                         }
                   ]
@@ -64,140 +66,101 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "Grant, O Lord, we pray,",
-                        "that we may draw new vigor",
-                        "from celebrating the Nativity of your Only Begotten Son,",
-                        "by whose heavenly mystery we receive both food and drink."
+                        "Grant us, Lord, as we honor with joyful devotion",
+                        "the Nativity of your Son,",
+                        "that we may come to know with fullness of faith",
+                        "the hidden depths of this mystery",
+                        "and to love them ever more and more."
                   ]
             },
             {
                   "p": [
-                        "Who lives and reigns for ever and ever."
+                        "Through Christ our Lord."
                   ]
             }
       ],
       "readings": {
             "first_reading": [
                   {
-                        "verse_number": "Isaiah ch. 2, vv. 1 - 5",
+                        "verse_number": "Isaiah ch. 62, vv. 11 - 12",
                         "content": [
                               {
-                                    "content_type": "paragraph",
-                                    "p": [
-                                          "The word that Isaiah son of Amoz saw concerning Judah and Jerusalem."
-                                    ]
-                              },
-                              {
                                     "content_type": "stanza",
                                     "p": [
-                                          "In days to come the mountain of the Lord’s house",
-                                          "shall be established as the highest of the mountains, \nand shall be raised above the hills;",
-                                          "all the nations shall stream to it."
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "Many peoples shall come and say,",
-                                          "“Come, let us go up to the mountain of the Lord, \nto the house of the God of Jacob;",
-                                          "that he may teach us his ways \nand that we may walk in his paths.”",
-                                          "For out of Zion shall go forth instruction, \nand the word of the Lord from Jerusalem."
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "He shall judge between the nations, \nand shall arbitrate for many peoples;",
-                                          "they shall beat their swords into ploughshares, \nand their spears into pruning-hooks;",
-                                          "nation shall not lift up sword against nation, \nneither shall they learn war any more."
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "O house of Jacob, \ncome, let us walk \nin the light of the Lord!"
+                                          "The Lord has proclaimed \nto the end of the earth:",
+                                          "Say to daughter Zion, \n“See, your salvation comes;",
+                                          "his reward is with him, \nand his recompense before him.”",
+                                          "They shall be called, “The Holy People, \nThe Redeemed of the Lord”;",
+                                          "and you shall be called, “Sought Out, \nA City Not Forsaken.”"
                                     ]
                               }
                         ]
                   }
             ],
             "responsorial_psalm": {
-                  "verse_number": "Psalm 122, vv. 1 - 2, 3 - 4a, 4b - 5, 6 - 7, 8 - 9",
-                  "response": "Let us go rejoicing to the house of the Lord.",
+                  "verse_number": "Psalm 97, vv. 1, 6, 11 - 12",
+                  "response": "A light will shine on us this day: the Lord is born for us.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "I was glad when they said to me, \n“Let us go to the house of the Lord!”",
-                                    "Our feet are standing \nwithin your gates, O Jerusalem."
+                                    "The Lord is king! Let the earth rejoice; \nlet the many coastlands be glad!"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Jerusalem—built as a city \nthat is bound firmly together.",
-                                    "To it the tribes go up, \nthe tribes of the Lord."
+                                    "The heavens proclaim his righteousness; \nand all the peoples behold his glory."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "As was decreed for Israel, \nto give thanks to the name of the Lord.",
-                                    "For there the thrones for judgement were set up, \nthe thrones of the house of David."
-                              ]
-                        },
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "Pray for the peace of Jerusalem: \n“May they prosper who love you.",
-                                    "Peace be within your walls, \nand security within your towers.”"
+                                    "Light dawns for the righteous, \nand joy for the upright in heart.",
+                                    "Rejoice in the Lord, O you righteous, \nand give thanks to his holy name!"
                               ]
                         }
                   ]
             },
             "second_reading": {
-                  "verse_number": "Romans ch. 13, vv. 11 - 14",
+                  "verse_number": "Titus ch. 3, vv. 4 - 7",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Brothers and sisters: You know what time it is, how it is now the moment for you to wake from sleep.",
-                                    "For salvation is nearer to us now than when we became believers; the night is far gone,",
-                                    "the day is near. Let us then lay aside the works of darkness and put on the armour of light;",
-                                    "let us live honourably as in the day, not in revelling and drunkenness,",
-                                    "not in debauchery and licentiousness, not in quarrelling and jealousy.",
-                                    "Instead, put on the Lord Jesus Christ, and make no provision for the flesh, to gratify its desires."
+                                    "Beloved: When the goodness and loving kindness of God our Savior appeared, he saved us,",
+                                    "not because of any works of righteousness that we had done, but according to his mercy,",
+                                    "through the water of rebirth and renewal by the Holy Spirit. This Spirit he poured out on us",
+                                    "richly through Jesus Christ our Savior, so that, having been justified by his grace,",
+                                    "we might become heirs according to the hope of eternal life."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "Psalm 5, v. 8",
+                  "verse_number": "Luke ch. 2, v. 14",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "Show us, Lord, your love;",
-                                    "and grant us your salvation."
+                                    "Glory to God in the highest, and on earth peace to those on whom his favour rests."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Matthew ch. 24, vv. 37 - 44",
+                  "verse_number": "Luke ch. 2, vv. 15 - 20",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Jesus said to his disciples: “For as the days of Noah were, so will be the coming of the Son of Man.",
-                                    "For as in those days before the flood they were eating and drinking, marrying and giving in marriage,",
-                                    "until the day Noah entered the ark, and they knew nothing until the flood came and swept them all away,",
-                                    "so too will be the coming of the Son of Man. Then two will be in the field; one will be taken and one will be left.",
-                                    "Two women will be grinding meal together; one will be taken and one will be left.",
-                                    "Keep awake therefore, for you do not know on what day your Lord is coming.",
-                                    "But understand this: if the owner of the house had known in what part of the night the thief was coming,",
-                                    "he would have stayed awake and would not have let his house be broken into.",
-                                    "Therefore you also must be ready, for the Son of Man is coming at an unexpected hour.”"
+                                    "When the angels had left them and gone into heaven, the shepherds said to one another,",
+                                    "“Let us go now to Bethlehem and see this thing that has taken place, which the Lord has",
+                                    "made known to us.” So they went with haste and found Mary and Joseph, and the child lying",
+                                    "in the manger. When they saw this, they made known what had been told them about this child;",
+                                    "and all who heard it were amazed at what the shepherds told them. But Mary treasured",
+                                    "all these words and pondered them in her heart. The shepherds returned, glorifying and",
+                                    "praising God for all they had heard and seen, as it had been told them."
                               ]
                         }
                   ]

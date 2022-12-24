@@ -1,17 +1,19 @@
 {
       "feast_background_image": "linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_vigil.jpg')",
       "feast_image_position": "bottom",
-      "opening_antiphon": {
-            "verse_number": "Cf. Exodus ch. 16, vv. 6, 7",
-            "content": [
-                  {
-                        "p": [
-                              "Today you will know that the Lord will come, and he will save us,",
-                              "and in the morning you will see his glory."
-                        ]
-                  }
-            ]
-      },
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Exodus ch. 16, vv. 6, 7",
+                  "content": [
+                        {
+                              "p": [
+                                    "Today you will know that the Lord will come, and he will save us,",
+                                    "and in the morning you will see his glory."
+                              ]
+                        }
+                  ]
+            }
+      ],
       "gloria": "yes",
       "collect": [
             {
@@ -50,7 +52,7 @@
       "credo": "nicene_creed",
       "communion_antiphon": [
             {
-                  "verse_number": "Cf. Isaiah 40, v. 5",
+                  "verse_number": "Cf. Isaiah ch. 40, v. 5",
                   "content": [
                         {
                               "p": [
@@ -79,125 +81,144 @@
       "readings": {
             "first_reading": [
                   {
-                        "verse_number": "Isaiah ch. 2, vv. 1 - 5",
+                        "verse_number": "Isaiah ch. 62, vv. 1 - 5",
                         "content": [
                               {
-                                    "content_type": "paragraph",
-                                    "p": [
-                                          "The word that Isaiah son of Amoz saw concerning Judah and Jerusalem."
-                                    ]
-                              },
-                              {
                                     "content_type": "stanza",
                                     "p": [
-                                          "In days to come the mountain of the Lord’s house",
-                                          "shall be established as the highest of the mountains, \nand shall be raised above the hills;",
-                                          "all the nations shall stream to it."
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "Many peoples shall come and say,",
-                                          "“Come, let us go up to the mountain of the Lord, \nto the house of the God of Jacob;",
-                                          "that he may teach us his ways \nand that we may walk in his paths.”",
-                                          "For out of Zion shall go forth instruction, \nand the word of the Lord from Jerusalem."
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "He shall judge between the nations, \nand shall arbitrate for many peoples;",
-                                          "they shall beat their swords into ploughshares, \nand their spears into pruning-hooks;",
-                                          "nation shall not lift up sword against nation, \nneither shall they learn war any more."
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "O house of Jacob, \ncome, let us walk \nin the light of the Lord!"
+                                          "For Zion’s sake I will not keep silent, \nand for Jerusalem’s sake I will not rest,",
+                                          "until her vindication shines out like the dawn, \nand her salvation like a burning torch.",
+                                          "The nations shall see your vindication, \nand all the kings your glory;",
+                                          "and you shall be called by a new name \nthat the mouth of the Lord will give.",
+                                          "You shall be a crown of beauty in the hand of the Lord, \nand a royal diadem in the hand of your God.",
+                                          "You shall no more be termed Forsaken, \nand your land shall no more be termed Desolate;",
+                                          "but you shall be called My Delight Is in Her, \nand your land Married;",
+                                          "for the Lord delights in you, \nand your land shall be married.",
+                                          "For as a young man marries a young woman, \nso shall your builder marry you,",
+                                          "and as the bridegroom rejoices over the bride, \nso shall your God rejoice over you."
                                     ]
                               }
                         ]
                   }
             ],
             "responsorial_psalm": {
-                  "verse_number": "Psalm 122, vv. 1 - 2, 3 - 4a, 4b - 5, 6 - 7, 8 - 9",
-                  "response": "Let us go rejoicing to the house of the Lord.",
+                  "verse_number": "Psalm 89, vv. 3 - 4, 15 - 16, 26, 28",
+                  "response": "Forever I will sing the goodness of the Lord.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "I was glad when they said to me, \n“Let us go to the house of the Lord!”",
-                                    "Our feet are standing \nwithin your gates, O Jerusalem."
+                                    "“I have made a covenant with my chosen one, \nI have sworn to my servant David:",
+                                    "‘I will establish your descendants forever, \nand build your throne for all generations.’”"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Jerusalem—built as a city \nthat is bound firmly together.",
-                                    "To it the tribes go up, \nthe tribes of the Lord."
+                                    "Happy are the people who know the festal shout, \nwho walk, O Lord, in the light of your countenance;",
+                                    "they exult in your name all day long, \nand extol your righteousness."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "As was decreed for Israel, \nto give thanks to the name of the Lord.",
-                                    "For there the thrones for judgement were set up, \nthe thrones of the house of David."
+                                    "He shall cry to me, “You are my Father, \nmy God, and the Rock of my salvation!”"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Pray for the peace of Jerusalem: \n“May they prosper who love you.",
-                                    "Peace be within your walls, \nand security within your towers.”"
+                                    "Forever I will keep my steadfast love for him, \nand my covenant with him will stand firm."
                               ]
                         }
                   ]
             },
             "second_reading": {
-                  "verse_number": "Romans ch. 13, vv. 11 - 14",
+                  "verse_number": "Acts ch. 13, vv. 16 - 17, 22 - 25",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Brothers and sisters: You know what time it is, how it is now the moment for you to wake from sleep.",
-                                    "For salvation is nearer to us now than when we became believers; the night is far gone,",
-                                    "the day is near. Let us then lay aside the works of darkness and put on the armour of light;",
-                                    "let us live honourably as in the day, not in revelling and drunkenness,",
-                                    "not in debauchery and licentiousness, not in quarrelling and jealousy.",
-                                    "Instead, put on the Lord Jesus Christ, and make no provision for the flesh, to gratify its desires."
+                                    "Paul reached Antioch and when he entered the Synagoge he stood up and with a gesture began to speak:"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“You Israelites, and others who fear God, listen. The God of this people Israel chose our ancestors and made the",
+                                    "people great during their stay in the land of Egypt, and with uplifted arm he led them out of it."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“When he had removed him, he made David their king. In his testimony about him he said,",
+                                    "‘I have found David, son of Jesse, to be a man after my heart, who will carry out all my wishes.’",
+                                    "Of this man’s posterity God has brought to Israel a Savior, Jesus, as he promised; before his coming",
+                                    "John had already proclaimed a baptism of repentance to all the people of Israel.",
+                                    "And as John was finishing his work, he said, ‘What do you suppose that I am? I am not he.",
+                                    "No, but one is coming after me; I am not worthy to untie the thong of the sandals on his feet.’”"
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "Psalm 5, v. 8",
+                  "verse_number": "",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "Show us, Lord, your love;",
-                                    "and grant us your salvation."
+                                    "Tomorrow the wickedness of the earth will be destroyed:",
+                                    "the Saviour of the world will reign over us."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Matthew ch. 24, vv. 37 - 44",
+                  "verse_number": "Matthew ch. 1, vv. 1 - 25",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Jesus said to his disciples: “For as the days of Noah were, so will be the coming of the Son of Man.",
-                                    "For as in those days before the flood they were eating and drinking, marrying and giving in marriage,",
-                                    "until the day Noah entered the ark, and they knew nothing until the flood came and swept them all away,",
-                                    "so too will be the coming of the Son of Man. Then two will be in the field; one will be taken and one will be left.",
-                                    "Two women will be grinding meal together; one will be taken and one will be left.",
-                                    "Keep awake therefore, for you do not know on what day your Lord is coming.",
-                                    "But understand this: if the owner of the house had known in what part of the night the thief was coming,",
-                                    "he would have stayed awake and would not have let his house be broken into.",
-                                    "Therefore you also must be ready, for the Son of Man is coming at an unexpected hour.”"
+                                    "An account of the genealogy of Jesus the Messiah, the son of David, the son of Abraham."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Abraham was the father of Isaac, and Isaac the father of Jacob, and Jacob the father of Judah and his brothers,",
+                                    "and Judah the father of Perez and Zerah by Tamar, and Perez the father of Hezron, and Hezron the father of Aram,",
+                                    "and Aram the father of Aminadab, and Aminadab the father of Nahshon, and Nahshon the father of Salmon,",
+                                    "and Salmon the father of Boaz by Rahab, and Boaz the father of Obed by Ruth, and Obed the father of Jesse,",
+                                    "and Jesse the father of King David."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "And David was the father of Solomon by the wife of Uriah, and Solomon the father of Rehoboam,",
+                                    "and Rehoboam the father of Abijah, and Abijah the father of Asaph, and Asaph the father of Jehoshaphat,",
+                                    "and Jehoshaphat the father of Joram, and Joram the father of Uzziah, and Uzziah the father of Jotham,",
+                                    "and Jotham the father of Ahaz, and Ahaz the father of Hezekiah, and Hezekiah the father of Manasseh,",
+                                    "and Manasseh the father of Amos, and Amos the father of Josiah, and Josiah the father of Jechoniah and his brothers,",
+                                    "at the time of the deportation to Babylon."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "And after the deportation to Babylon: Jechoniah was the father of Salathiel, and Salathiel the father of Zerubbabel,",
+                                    "and Zerubbabel the father of Abiud, and Abiud the father of Eliakim, and Eliakim the father of Azor,",
+                                    "and Azor the father of Zadok, and Zadok the father of Achim, and Achim the father of Eliud,",
+                                    "and Eliud the father of Eleazar, and Eleazar the father of Matthan, and Matthan the father of Jacob,",
+                                    "and Jacob the father of Joseph the husband of Mary, of whom Jesus was born, who is called the Messiah."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "So all the generations from Abraham to David are fourteen generations; and from David to the deportation to Babylon,",
+                                    "fourteen generations; and from the deportation to Babylon to the Messiah, fourteen generations."
                               ]
                         }
                   ]
