@@ -46,9 +46,9 @@ p.liturgyForTheDayForm {
 
 h1.liturgyForTheDayHeader {
       font-family: 'Vollkorn SC', serif;
-      margin: 0px 0px 10px -2px;
+      margin: 0px 10px 0px -2px;
       font-size: 36px;
-      line-height: 18px;
+      line-height: 36px;
 }
 
 p.liturgyForTheDayWeek {
@@ -71,7 +71,7 @@ h1.memorialForTheDayHeader {
       font-family: 'Vollkorn SC', serif;
       margin: 0px 0px 10px -2px;
       font-size: 36px;
-      line-height: 20px;
+      line-height: 30px;
 }
 
 p.memorialForTheDayWeek {
@@ -207,7 +207,7 @@ p.memorialForTheDayWeek {
             font-family: 'Vollkorn SC', serif;
             margin-left: -2px;
             font-size: 26px;
-            line-height: 13px;
+            line-height: 40px;
       }
 
       .liturgyForTheDay {
@@ -225,7 +225,7 @@ p.memorialForTheDayWeek {
             font-family: 'Vollkorn SC', serif;
             margin: 0px 0px 6px -2px;
             font-size: 30px;
-            line-height: 30px;
+            line-height: 40px;
       }
 
       p.liturgyForTheDayWeek {

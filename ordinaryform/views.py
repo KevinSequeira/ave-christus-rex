@@ -1,7 +1,7 @@
 from django.shortcuts import render
 import json
 import pandas as pan
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 import calendar
 
@@ -83,6 +83,7 @@ def calendar(request):
     currentDateDimension = dateDimension.loc[dateDimension["Date"] == currentDate]
     currentDate = currentDateDimension.iloc[0]["Date"]
     currentWeekday = datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%A')
+    previousWeekday = (datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d') - timedelta(days = 1)).strftime('%A')
     currentQualifyingMonth = datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
     currentQualifyingDay = currentDateDimension.iloc[0]["Qualifying Day"]
     currentCycle = "A, B, C"
@@ -107,6 +108,7 @@ def calendar(request):
     context = {
         "current_date": currentDate,
         "current_weekday": currentWeekday,
+        "previous_weekday": previousWeekday,
         "current_qualifying_month": currentQualifyingMonth,
         "current_qualifying_day": currentQualifyingDay,
         "current_year": currentYear,
@@ -140,16 +142,7 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
 
     # Get the currentDate from the request URL
     currentDate = current_date
-    if (currentDate in ['christmas-vigil',
-        'christmas-midnight',
-        'christmas-dawn',
-        'christmas-daytime']):
-        context = {
-            "liturgy": currentDate
-        }
-        context = christmasliturgies(context)
-        return render(request, f"christmas/sunday.html", context)
-    elif (currentDate in ['easter-vigil',
+    if (currentDate in ['easter-vigil',
         'easter-midnight',
         'easter-dawn',
         'easter-daytime']):
@@ -166,7 +159,9 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
     currentDateIndex = dateDimension.loc[dateDimension["Date"] == currentDate].index
     currentDateDimension = dateDimension.loc[dateDimension["Date"] == currentDate]
     currentDate = currentDateDimension.iloc[0]["Date"]
+    previousDate = str(datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d') - timedelta(days = 1))[0:10]
     currentWeekday = datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%A')
+    previousWeekday = (datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d') - timedelta(days = 1)).strftime('%A')
     currentQualifyingMonth = datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
     currentQualifyingDay = currentDateDimension.iloc[0]["Qualifying Day"]
     currentCycle = "A, B, C"
@@ -181,6 +176,7 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
     context = {
         "current_date": currentDate,
         "current_weekday": currentWeekday,
+        "previous_weekday": previousWeekday,
         "current_qualifying_month": currentQualifyingMonth,
         "current_qualifying_day": currentQualifyingDay,
         "current_year": currentYear,
@@ -193,6 +189,7 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
 
     if ((currentQualifyingMonth == "December")
         & (currentQualifyingDay == "25th")):
+        context = christmasdayoptions(context)
         return render(request, f"christmas/christmasdayliturgies.html", context)
 
     # Add season-specific context variables
@@ -397,6 +394,22 @@ def christmasloader(context = {}):
     return context
 
 
+def christmasdayoptions(context = {}):
+
+    jsonFile = open(f"./static/documents/ordinaryform/christmas/december/christmas-options.json")
+    jsonFile = json.load(jsonFile)
+
+    context["christmas_vigil_image"] = jsonFile["christmas_vigil"]["feast_background_image"]
+    context["christmas_vigil_position"] = jsonFile["christmas_vigil"]["feast_image_position"]
+    context["christmas_midnight_image"] = jsonFile["christmas_midnight"]["feast_background_image"]
+    context["christmas_midnight_position"] = jsonFile["christmas_midnight"]["feast_image_position"]
+    context["christmas_dawn_image"] = jsonFile["christmas_dawn"]["feast_background_image"]
+    context["christmas_dawn_position"] = jsonFile["christmas_dawn"]["feast_image_position"]
+    context["christmas_daytime_image"] = jsonFile["christmas_daytime"]["feast_background_image"]
+    context["christmas_daytime_position"] = jsonFile["christmas_daytime"]["feast_image_position"]
+
+    return context
+
 def christmas(context = {}):
 
     try:
@@ -534,6 +547,119 @@ def christmascalendar(context = {}):
     return context
 
 
+def christmasliturgies(request, current_date = "2022-12-24", liturgy = "christmas-vigil"):
+
+    # Get the currentDate from the request URL
+    currentDate = current_date
+    liturgy = liturgy
+    context = {}
+
+    dateDimension = pan.read_excel(f"./static/documents/datedimension.xlsx", sheet_name = "datedimension")
+    context["file_available"] = "yes"
+
+    try:
+        # Slice the date dimension table for the current date
+        feastDateIndex = dateDimension.loc[dateDimension["Date"] == currentDate].index
+        feastDateDimension = dateDimension.loc[dateDimension["Date"] == currentDate]
+        feastDate = feastDateDimension.iloc[0]["Date"]
+        feastYear = feastDateDimension.iloc[0]["Year"]
+        feastWeek = feastDateDimension.iloc[0]["Week"]
+        feastMonth = feastDateDimension.iloc[0]["Month"]
+        feastDay = feastDateDimension.iloc[0]["Day"]
+        if (feastMonth != 12):
+            raise ValueError
+        elif (feastDay not in (24, 25)):
+            raise ValueError
+        feastSeason = feastDateDimension.iloc[0]["Season"]
+        feastWeekday = datetime.strptime(feastDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%A')
+        feastQualifyingMonth = datetime.strptime(feastDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
+        feastQualifyingDay = feastDateDimension.iloc[0]["Qualifying Day"]
+        feastName = feastDateDimension.iloc[0]["Feast Day"]
+        feastShortName = liturgy
+        feastClass = feastDateDimension.iloc[0]["Feast Class"]
+
+        templateFileName = "Solemnity"
+
+        # Load context variables
+        context = {
+            "feast_date": feastDate,
+            "feast_weekday": feastWeekday,
+            "feast_qualifying_month": feastQualifyingMonth,
+            "feast_qualifying_day": feastQualifyingDay,
+            "feast_year": feastYear,
+            "feast_name": feastName,
+            "feast_class": feastClass,
+            "feast_week": feastWeek,
+            "feast_season": feastSeason
+        }
+
+        try:
+            jsonFile = open(f"./static/documents/ordinaryform/christmas/{feastQualifyingMonth.lower()}/{liturgy}.json")
+            jsonFile = json.load(jsonFile)
+
+            commonPrayers = open(f"./static/documents/ordinaryform/commonprayers.json")
+            commonPrayers = json.load(commonPrayers)
+
+            context["feast_background_image"] = jsonFile["feast_background_image"]
+            context["feast_image_position"] = jsonFile["feast_image_position"]
+
+            gloria_content = ""
+            if (jsonFile["gloria"] == "yes"):
+                gloria_content = commonPrayers["gloria"]
+
+            credo_content = ""
+            if (jsonFile["credo"] == "apostles_creed"):
+                credo_content = commonPrayers["apostles_creed"]
+            elif (jsonFile["credo"] == "nicene_creed"):
+                credo_content = commonPrayers["nicene_creed"]
+
+            context["file_available"] = "yes"
+
+            context["opening_antiphon"] = jsonFile["opening_antiphon"]
+            context["gloria"] = jsonFile["gloria"]
+            context["gloria_content"] = gloria_content
+            context["collect"] = jsonFile["collect"]
+            context["first_reading"] = jsonFile["readings"]["first_reading"]
+            context["responsorial_psalm"] = jsonFile["readings"]["responsorial_psalm"]
+
+            second_reading_content = ""
+            if ("second_reading" in jsonFile["readings"]):
+                context["second_reading"] = jsonFile["readings"]["second_reading"]
+
+
+            context["gospel_acclamation"] = jsonFile["readings"]["gospel_acclamation"]
+            context["gospel_reading"] = jsonFile["readings"]["gospel_reading"]
+            context["offertory"] = jsonFile["offertory"]
+            context["credo"] = jsonFile["credo"]
+            context["credo_content"] = credo_content
+            context["communion_antiphon"] = jsonFile["communion_antiphon"]
+            context["prayer_after_communion"] = jsonFile["prayer_after_communion"]
+
+        except:
+            context["file_available"] = "no"
+
+            context["opening_antiphon"] = ""
+            context["gloria"] = ""
+            context["gloria_content"] = ""
+            context["collect"] = ""
+            context["first_reading"] = ""
+            context["responsorial_psalm"] = ""
+            context["second_reading"] = ""
+            context["gospel_acclamation"] = ""
+            context["gospel_reading"] = ""
+            context["offertory"] = ""
+            context["credo"] = ""
+            context["credo_content"] = ""
+            context["communion_antiphon"] = ""
+            context["prayer_after_communion"] = ""
+
+    except:
+        context = {}
+        context["file_available"] = "no"
+
+    return render(request, f"christmas/christmas-day.html", context)
+
+
 def memorialfortheday(request, current_date = "2022-11-27"):
 
     # Get the currentDate from the request URL
@@ -581,6 +707,22 @@ def memorialfortheday(request, current_date = "2022-11-27"):
             "saint_image": saintImage
         }
 
+        if ((saintQualifyingMonth == "December")
+            & (saintQualifyingDay == "25th")):
+            # Load context variables
+            context = {
+                "current_date": saintDate,
+                "current_weekday": saintWeekday,
+                "current_qualifying_month": saintQualifyingMonth,
+                "current_qualifying_day": saintQualifyingDay,
+                "current_year": saintYear,
+                "current_name": saintName,
+                "current_class": saintClass,
+                "current_image": saintImage
+            }
+            context = christmasdayoptions(context)
+            return render(request, f"christmas/christmasdayliturgies.html", context)
+
         try:
             jsonFile = open(f"./static/documents/ordinaryform/memorials/{saintQualifyingMonth.lower()}/{saintShortName}.json")
             jsonFile = json.load(jsonFile)
@@ -589,7 +731,6 @@ def memorialfortheday(request, current_date = "2022-11-27"):
             commonPrayers = json.load(commonPrayers)
 
             context["saint_background_image"] = jsonFile["saint_background_image"]
-            print(context)
 
             gloria_content = ""
             if (jsonFile["gloria"] == "yes"):

@@ -43,9 +43,9 @@
                   <div class="jumbotron jumbotronBackground">
                         <div class="liturgyForTheDay">
                               <p class="liturgyForTheDayForm">{{ feast_weekday }}, {{ feast_qualifying_day }} {{ feast_qualifying_month }}, {{ feast_year }}</p>
-                              <h1 class="liturgyForTheDayHeader">Liturgy for the Day</h1>
-                              <p class="liturgyForTheDayWeek">{{ feast_week }} Day in {{ feast_season }}
-                                    <br>Year {{ feast_cycle }}</p>
+                              <h1 class="liturgyForTheDayHeader">Solemnity of the Day</h1>
+                              <p class="liturgyForTheDayWeek">First Day in Christmas Season
+                                    <br>Year A, B, C</p>
                         </div>
                   </div>
 
@@ -294,14 +294,16 @@
             <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
             <script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>
             <!-- Home Page CSS -->
+            <link href="{% static 'css/ordinaryform/cssForDailyLiturgy.css' %}" rel="stylesheet">
             <style>
                   {% autoescape off %}
                   .jumbotronBackground {
                         background: {{ feast_background_image }};
+                        background-position: {{ feast_image_position }};
+                        background-size: cover;
                   }
                   {% endautoescape %}
             </style>
-            <link href="{% static 'css/ordinaryform/cssForDailyLiturgy.css' %}" rel="stylesheet">
             <link href="{% static 'css/footer.css' %}" rel="stylesheet">
 
       </body>

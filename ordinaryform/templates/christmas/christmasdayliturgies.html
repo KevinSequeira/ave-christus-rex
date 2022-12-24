@@ -42,48 +42,48 @@
                   <!-- Main component for a primary marketing message or call to action -->
                   <div class="row">
                         <div class="col-sm-6 row-left">
-                              <div class="jumbotron liturgyForTheDayBackground">
+                              <div class="jumbotron liturgyForTheDayBackground christmasVigil">
                                     <div class="liturgyForTheDay">
                                           <!-- <p class="liturgyForTheDayForm">Sunday, 27th November, 2022</p> -->
-                                          <p class="liturgyForTheDayForm">{{ current_weekday }}, 24th December, {{ current_year }}</p>
+                                          <p class="liturgyForTheDayForm">{{ previous_weekday }}, 24th December, {{ current_year }}</p>
                                           <h1 class="liturgyForTheDayHeader">Vigil of Christmas</h1>
                                           <br>
-                                          <a class="btn default" href="{% url 'liturgyfortheday' 'christmas-vigil' %}" target="_blank" role="button">Read More ...</a>
+                                          <a class="btn default" href="{% url 'christmasliturgies' current_date 'christmas-vigil' %}" target="_blank" role="button">Read More ...</a>
                                     </div>
                               </div>
                         </div>
                         <div class="col-sm-6 row-right">
-                              <div class="jumbotron liturgyForTheDayBackground">
+                              <div class="jumbotron liturgyForTheDayBackground christmasMidnight">
                                     <div class="liturgyForTheDay">
                                           <!-- <p class="liturgyForTheDayForm">Sunday, 27th November, 2022</p> -->
                                           <p class="liturgyForTheDayForm">{{ current_weekday }}, 25th December, {{ current_year }}</p>
                                           <h1 class="liturgyForTheDayHeader">Midnight of Christmas</h1>
                                           <br>
-                                          <a class="btn default" href="{% url 'liturgyfortheday' 'christmas-midnight' %}" target="_blank" role="button">Read More ...</a>
+                                          <a class="btn default" href="{% url 'christmasliturgies' current_date 'christmas-midnight' %}" target="_blank" role="button">Read More ...</a>
                                     </div>
                               </div>
                         </div>
                   </div>
                   <div class="row">
                         <div class="col-sm-6 row-left">
-                              <div class="jumbotron liturgyForTheDayBackground">
+                              <div class="jumbotron liturgyForTheDayBackground christmasDawn">
                                     <div class="liturgyForTheDay">
                                           <!-- <p class="liturgyForTheDayForm">Sunday, 27th November, 2022</p> -->
                                           <p class="liturgyForTheDayForm">{{ current_weekday }}, 25th December, {{ current_year }}</p>
                                           <h1 class="liturgyForTheDayHeader">Dawn on Christmas</h1>
                                           <br>
-                                          <a class="btn default" href="{% url 'liturgyfortheday' 'christmas-dawn' %}" target="_blank" role="button">Read More ...</a>
+                                          <a class="btn default" href="{% url 'christmasliturgies' current_date 'christmas-dawn' %}" target="_blank" role="button">Read More ...</a>
                                     </div>
                               </div>
                         </div>
-                        <div class="col-sm-6 row-left">
-                              <div class="jumbotron liturgyForTheDayBackground">
+                        <div class="col-sm-6 row-right">
+                              <div class="jumbotron liturgyForTheDayBackground christmasDaytime">
                                     <div class="liturgyForTheDay">
                                           <!-- <p class="liturgyForTheDayForm">Sunday, 27th November, 2022</p> -->
                                           <p class="liturgyForTheDayForm">{{ current_weekday }}, 25th December, {{ current_year }}</p>
-                                          <h1 class="liturgyForTheDayHeader">Daytime of Christmas</h1>
+                                          <h1 class="liturgyForTheDayHeader">Daytime at Christmas</h1>
                                           <br>
-                                          <a class="btn default" href="{% url 'liturgyfortheday' 'christmas-daytime' %}" target="_blank" role="button">Read More ...</a>
+                                          <a class="btn default" href="{% url 'christmasliturgies' current_date 'christmas-daytime' %}" target="_blank" role="button">Read More ...</a>
                                     </div>
                               </div>
                         </div>
@@ -105,18 +105,34 @@
             <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
             <script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>
             <!-- Home Page CSS -->
+            <link href="{% static 'css/ordinaryform/cssForNewCalendar.css' %}" rel="stylesheet">
             <style>
                   {% autoescape off %}
-                  .liturgyForTheDayBackground {
-                        background: {{ liturgy_background_image }};
+                  .christmasVigil {
+                        background: {{ christmas_vigil_image }};
+                        background-position: {{ christmas_vigil_position }};
+                        background-size: cover;
                   }
 
-                  .memorialForTheDayBackground {
-                        background: {{ saint_background_image }};
+                  .christmasMidnight {
+                        background: {{ christmas_midnight_image }};;
+                        background-position: {{ christmas_midnight_position }};
+                        background-size: cover;
+                  }
+
+                  .christmasDawn {
+                        background: {{ christmas_dawn_image }};;
+                        background-position: {{ christmas_dawn_position }};
+                        background-size: cover;
+                  }
+
+                  .christmasDaytime {
+                        background: {{ christmas_daytime_image }};;
+                        background-position: {{ christmas_daytime_position }};
+                        background-size: cover;
                   }
                   {% endautoescape %}
             </style>
-            <link href="{% static 'css/ordinaryform/cssForNewCalendar.css' %}" rel="stylesheet">
             <link href="{% static 'css/footer.css' %}" rel="stylesheet">
       </body>
 </html>

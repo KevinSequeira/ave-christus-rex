@@ -1,5 +1,6 @@
 {
-      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Season of Advent.jpg')",
+      "feast_background_image": "linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_vigil.jpg')",
+      "feast_image_position": "bottom",
       "opening_antiphon": {
             "verse_number": "Cf. Exodus ch. 16, vv. 6, 7",
             "content": [
@@ -47,17 +48,19 @@
             }
       ],
       "credo": "nicene_creed",
-      "communion_antiphon": {
-            "verse_number": "Cf. Isaiah 40, v. 5",
-            "content": [
-                  {
-                        "p": [
-                              "The glory of the Lord will be revealed,",
-                              "and all flesh will see the salvation of our God."
-                        ]
-                  }
-            ]
-      },
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Isaiah 40, v. 5",
+                  "content": [
+                        {
+                              "p": [
+                                    "The glory of the Lord will be revealed,",
+                                    "and all flesh will see the salvation of our God."
+                              ]
+                        }
+                  ]
+            }
+      ],
       "prayer_after_communion": [
             {
                   "p": [
@@ -73,49 +76,51 @@
                   ]
             }
       ],
-      "year_a": {
-            "first_reading": {
-                  "verse_number": "Isaiah ch. 2, vv. 1 - 5",
-                  "content": [
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "The word that Isaiah son of Amoz saw concerning Judah and Jerusalem."
-                              ]
-                        },
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "In days to come the mountain of the Lord’s house",
-                                    "shall be established as the highest of the mountains, \nand shall be raised above the hills;",
-                                    "all the nations shall stream to it."
-                              ]
-                        },
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "Many peoples shall come and say,",
-                                    "“Come, let us go up to the mountain of the Lord, \nto the house of the God of Jacob;",
-                                    "that he may teach us his ways \nand that we may walk in his paths.”",
-                                    "For out of Zion shall go forth instruction, \nand the word of the Lord from Jerusalem."
-                              ]
-                        },
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "He shall judge between the nations, \nand shall arbitrate for many peoples;",
-                                    "they shall beat their swords into ploughshares, \nand their spears into pruning-hooks;",
-                                    "nation shall not lift up sword against nation, \nneither shall they learn war any more."
-                              ]
-                        },
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "O house of Jacob, \ncome, let us walk \nin the light of the Lord!"
-                              ]
-                        }
-                  ]
-            },
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 2, vv. 1 - 5",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The word that Isaiah son of Amoz saw concerning Judah and Jerusalem."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "In days to come the mountain of the Lord’s house",
+                                          "shall be established as the highest of the mountains, \nand shall be raised above the hills;",
+                                          "all the nations shall stream to it."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Many peoples shall come and say,",
+                                          "“Come, let us go up to the mountain of the Lord, \nto the house of the God of Jacob;",
+                                          "that he may teach us his ways \nand that we may walk in his paths.”",
+                                          "For out of Zion shall go forth instruction, \nand the word of the Lord from Jerusalem."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "He shall judge between the nations, \nand shall arbitrate for many peoples;",
+                                          "they shall beat their swords into ploughshares, \nand their spears into pruning-hooks;",
+                                          "nation shall not lift up sword against nation, \nneither shall they learn war any more."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "O house of Jacob, \ncome, let us walk \nin the light of the Lord!"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
             "responsorial_psalm": {
                   "verse_number": "Psalm 122, vv. 1 - 2, 3 - 4a, 4b - 5, 6 - 7, 8 - 9",
                   "response": "Let us go rejoicing to the house of the Lord.",

@@ -22,5 +22,6 @@ urlpatterns = [
     path("calendar/", views.calendar, name = "calendar"),
     re_path(r'^(?P<current_date>.+?)/liturgyfortheday/$', views.liturgyfortheday , name = "liturgyfortheday"),
     re_path(r'^(?P<current_date>.+?)/memorialfortheday/$', views.memorialfortheday , name = "memorialfortheday"),
+    re_path(r'^(?P<current_date>.+?)/(?P<liturgy>.+?)/$', views.christmasliturgies , name = "christmasliturgies"),
     re_path(r'^advent/(?P<week_number>.+?)/(?P<week_day>.+?)/$', views.advent , name = "advent")
 ]

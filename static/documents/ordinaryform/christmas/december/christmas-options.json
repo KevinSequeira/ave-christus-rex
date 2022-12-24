@@ -1,0 +1,18 @@
+{
+      "christmas_vigil": {
+            "feast_background_image": "linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_vigil.jpg')",
+            "feast_image_position": "bottom"
+      },
+      "christmas_midnight": {
+            "feast_background_image": "linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_midnight.jpg')",
+            "feast_image_position": "bottom"
+      },
+      "christmas_dawn": {
+            "feast_background_image": "linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_dawn.jpg')",
+            "feast_image_position": "bottom"
+      },
+      "christmas_daytime": {
+            "feast_background_image": "linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_daytime.jpg')",
+            "feast_image_position": "bottom"
+      }
+}
