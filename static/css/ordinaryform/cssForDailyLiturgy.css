@@ -346,14 +346,14 @@ p.liturgyForTheDayWeek {
       }
 
       p.liturgyForTheDayForm {
-            margin: 0px 0px 6px 0px;
+            margin: 0px 0px 0px 0px;
             font-size: 14px;
             font-family: 'Merriweather', serif;
       }
 
       h1.liturgyForTheDayHeader {
             font-family: 'Vollkorn SC', serif;
-            margin: 0px 0px 6px -2px;
+            margin: 0px 0px 0px -2px;
             font-size: 24px;
             line-height: 24px;
       }
@@ -501,7 +501,7 @@ p.liturgyForTheDayWeek {
 
       .jumbotron h1 {
             font-family: 'Vollkorn SC', serif;
-            margin-left: -2px;
+            margin: 0px 0px 0px -2px;
             font-size: 22px;
             line-height: 22px;
             position: absolute;

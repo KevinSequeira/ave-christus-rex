@@ -301,14 +301,14 @@ p.memorialForTheDayWeek {
       }
 
       p.liturgyForTheDayForm {
-            margin: 0px 0px 6px 0px;
+            margin: 0px 0px 2px 0px;
             font-size: 14px;
             font-family: 'Merriweather', serif;
       }
 
       h1.liturgyForTheDayHeader {
             font-family: 'Vollkorn SC', serif;
-            margin: 0px 0px 6px -2px;
+            margin: 0px 0px 0px -2px;
             font-size: 24px;
             line-height: 24px;
       }
@@ -324,14 +324,14 @@ p.memorialForTheDayWeek {
       }
 
       p.memorialForTheDayForm {
-            margin: 0px 0px 6px 0px;
+            margin: 0px 0px 2px 0px;
             font-size: 14px;
             font-family: 'Merriweather', serif;
       }
 
       h1.memorialForTheDayHeader {
             font-family: 'Vollkorn SC', serif;
-            margin: 0px 0px 6px -2px;
+            margin: 0px 0px 0px -2px;
             font-size: 24px;
             line-height: 24px;
       }

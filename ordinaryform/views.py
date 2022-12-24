@@ -25,6 +25,7 @@ def ordinaryform(request):
     currentCycle = currentDateDimension.iloc[0]["Year Cycle"]
     currentYear = currentDateDimension.iloc[0]["Year"]
     currentWeek = currentDateDimension.iloc[0]["Week"]
+    currentDenomination = currentDateDimension.iloc[0]["Denomination"]
     currentSeason = currentDateDimension.iloc[0]["Season"]
     currentSeasonShort = currentDateDimension.iloc[0]["Season Short"]
 
@@ -47,6 +48,7 @@ def ordinaryform(request):
         "current_qualifying_day": currentQualifyingDay,
         "current_year": currentYear,
         "current_week": currentWeek,
+        "current_denomination": currentDenomination,
         "current_season": currentSeason,
         "current_season_short": currentSeasonShort,
         "current_cycle": currentCycle,
@@ -90,6 +92,7 @@ def calendar(request):
     currentCycle = currentDateDimension.iloc[0]["Year Cycle"]
     currentYear = currentDateDimension.iloc[0]["Year"]
     currentWeek = currentDateDimension.iloc[0]["Week"]
+    currentDenomination = currentDateDimension.iloc[0]["Denomination"]
     currentSeason = currentDateDimension.iloc[0]["Season"]
     currentSeasonShort = currentDateDimension.iloc[0]["Season Short"]
 
@@ -113,6 +116,7 @@ def calendar(request):
         "current_qualifying_day": currentQualifyingDay,
         "current_year": currentYear,
         "current_week": currentWeek,
+        "current_denomination": currentDenomination,
         "current_season": currentSeason,
         "current_season_short": currentSeasonShort,
         "current_cycle": currentCycle,
@@ -328,9 +332,10 @@ def christmasloader(context = {}):
         jsonFile = ""
         if (context["current_qualifying_month"] == "December"):
             if (context["current_qualifying_day"] == "25th"):
-                jsonFile = open(f"./static/documents/ordinaryform/christmas/december/christmas.json")
+                jsonFile = open(f"./static/documents/ordinaryform/christmas/december/christmas-options.json")
                 jsonFile = json.load(jsonFile)
-                context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
+                context["liturgy_background_image"] = jsonFile["christmas_vigil"]["feast_background_image"]
+                context["saint_background_image"] = jsonFile["christmas_midnight"]["feast_background_image"]
             elif (context["current_qualifying_day"] == "26th"):
                 if (context["current_weekday"] == "Sunday"):
                     jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-family.json")
@@ -590,8 +595,18 @@ def christmasliturgies(request, current_date = "2022-12-24", liturgy = "christma
             "feast_name": feastName,
             "feast_class": feastClass,
             "feast_week": feastWeek,
-            "feast_season": feastSeason
+            "feast_season": feastSeason,
+            "feast_liturgy": "Vigil"
         }
+
+        if (liturgy == "christmas-vigil"):
+            context["feast_liturgy"] = "Vigil"
+        elif (liturgy == "christmas-midnight"):
+            context["feast_liturgy"] = "Midnight"
+        elif (liturgy == "christmas-dawn"):
+            context["feast_liturgy"] = "Dawn"
+        elif (liturgy == "christmas-daytime"):
+            context["feast_liturgy"] = "Daytime"
 
         try:
             jsonFile = open(f"./static/documents/ordinaryform/christmas/{feastQualifyingMonth.lower()}/{liturgy}.json")
