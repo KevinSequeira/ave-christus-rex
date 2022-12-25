@@ -29,16 +29,16 @@ def ordinaryform(request):
     currentSeason = currentDateDimension.iloc[0]["Season"]
     currentSeasonShort = currentDateDimension.iloc[0]["Season Short"]
 
-    # Get earliest feast Day
-    earliestFeastDimension = dateDimension.loc[(dateDimension["Date"] >= currentDate) & (dateDimension["Feast Day"]).notna()]
-    feastDate = earliestFeastDimension.iloc[0]["Date"]
-    feastWeekday = datetime.strptime(earliestFeastDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%A')
-    feastQualifyingMonth = datetime.strptime(earliestFeastDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
-    feastQualifyingDay = earliestFeastDimension.iloc[0]["Qualifying Day"]
-    feastYear = earliestFeastDimension.iloc[0]["Year"]
-    feastTitle = earliestFeastDimension.iloc[0]["Feast Day"]
-    feastClass = earliestFeastDimension.iloc[0]["Feast Class"]
-    feastShort = earliestFeastDimension.iloc[0]["Feast Short"]
+    # Get earliest feast day
+    earliestMemorialDimension = dateDimension.loc[(dateDimension["Date"] >= currentDate) & (dateDimension["Feast Day"]).notna()]
+    memorialDate = earliestMemorialDimension.iloc[0]["Date"]
+    memorialWeekday = datetime.strptime(earliestMemorialDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%A')
+    memorialQualifyingMonth = datetime.strptime(earliestMemorialDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
+    memorialQualifyingDay = earliestMemorialDimension.iloc[0]["Qualifying Day"]
+    memorialYear = earliestMemorialDimension.iloc[0]["Year"]
+    memorialTitle = earliestMemorialDimension.iloc[0]["Feast Day"]
+    memorialClass = earliestMemorialDimension.iloc[0]["Feast Class"]
+    memorialShort = earliestMemorialDimension.iloc[0]["Feast Short"]
 
     # Load context variables
     context = {
@@ -53,14 +53,14 @@ def ordinaryform(request):
         "current_season_short": currentSeasonShort,
         "current_cycle": currentCycle,
 
-        "feast_date": feastDate,
-        "feast_weekday": feastWeekday,
-        "feast_qualifying_month": feastQualifyingMonth,
-        "feast_qualifying_day": feastQualifyingDay,
-        "feast_year": feastYear,
-        "feast_title": feastTitle,
-        "feast_class": feastClass,
-        "st_short_name": feastShort
+        "memorial_date": memorialDate,
+        "memorial_weekday": memorialWeekday,
+        "memorial_qualifying_month": memorialQualifyingMonth,
+        "memorial_qualifying_day": memorialQualifyingDay,
+        "memorial_year": memorialYear,
+        "memorial_title": memorialTitle,
+        "memorial_class": memorialClass,
+        "memorial_short_name": memorialShort
     }
 
     if (currentSeasonShort == "advent"):
@@ -97,15 +97,15 @@ def calendar(request):
     currentSeasonShort = currentDateDimension.iloc[0]["Season Short"]
 
     # Get earliest feast Day
-    earliestFeastDimension = dateDimension.loc[(dateDimension["Date"] >= currentDate) & (dateDimension["Feast Day"]).notna()]
-    feastDate = earliestFeastDimension.iloc[0]["Date"]
-    feastWeekday = datetime.strptime(earliestFeastDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%A')
-    feastQualifyingMonth = datetime.strptime(earliestFeastDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
-    feastQualifyingDay = earliestFeastDimension.iloc[0]["Qualifying Day"]
-    feastYear = earliestFeastDimension.iloc[0]["Year"]
-    feastTitle = earliestFeastDimension.iloc[0]["Feast Day"]
-    feastClass = earliestFeastDimension.iloc[0]["Feast Class"]
-    saintShortName = earliestFeastDimension.iloc[0]["Feast Short"]
+    earliestMemorialDimension = dateDimension.loc[(dateDimension["Date"] >= currentDate) & (dateDimension["Feast Day"]).notna()]
+    memorialDate = earliestMemorialDimension.iloc[0]["Date"]
+    memorialWeekday = datetime.strptime(earliestMemorialDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%A')
+    memorialQualifyingMonth = datetime.strptime(earliestMemorialDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
+    memorialQualifyingDay = earliestMemorialDimension.iloc[0]["Qualifying Day"]
+    memorialYear = earliestMemorialDimension.iloc[0]["Year"]
+    memorialTitle = earliestMemorialDimension.iloc[0]["Feast Day"]
+    memorialClass = earliestMemorialDimension.iloc[0]["Feast Class"]
+    memorialShortName = earliestMemorialDimension.iloc[0]["Feast Short"]
 
     # Load context variables
     context = {
@@ -121,14 +121,14 @@ def calendar(request):
         "current_season_short": currentSeasonShort,
         "current_cycle": currentCycle,
 
-        "feast_date": feastDate,
-        "feast_weekday": feastWeekday,
-        "feast_qualifying_month": feastQualifyingMonth,
-        "feast_qualifying_day": feastQualifyingDay,
-        "feast_year": feastYear,
-        "feast_title": feastTitle,
-        "feast_class": feastClass,
-        "st_short_name": saintShortName
+        "memorial_date": memorialDate,
+        "memorial_weekday": memorialWeekday,
+        "memorial_qualifying_month": memorialQualifyingMonth,
+        "memorial_qualifying_day": memorialQualifyingDay,
+        "memorial_year": memorialYear,
+        "memorial_title": memorialTitle,
+        "memorial_class": memorialClass,
+        "memorial_short_name": memorialShortName
     }
 
     if (currentSeasonShort == "advent"):
@@ -191,10 +191,15 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
         "current_date_image": currentDateImage
     }
 
-    if ((currentQualifyingMonth == "December")
-        & (currentQualifyingDay == "25th")):
-        context = christmasdayoptions(context)
-        return render(request, f"christmas/christmasdayliturgies.html", context)
+    if (currentQualifyingMonth == "December"):
+        if (currentQualifyingDay == "25th"):
+            context = christmasdayoptions(context)
+            return render(request, f"christmas/christmasdayliturgies.html", context)
+        elif (currentQualifyingDay in ("26th", "27th", "28th")):
+            return redirect("memorialfortheday", f"{current_date}")
+        elif (currentQualifyingDay in ("29th", "31st")):
+            if (currentWeekday == "Sunday"):
+                return redirect("memorialfortheday", f"{current_date}")
 
     # Add season-specific context variables
     if (currentSeasonShort == "advent"):
@@ -335,7 +340,7 @@ def christmasloader(context = {}):
                 jsonFile = open(f"./static/documents/ordinaryform/christmas/december/christmas-options.json")
                 jsonFile = json.load(jsonFile)
                 context["liturgy_background_image"] = jsonFile["christmas_vigil"]["feast_background_image"]
-                context["saint_background_image"] = jsonFile["christmas_midnight"]["feast_background_image"]
+                context["memorial_background_image"] = jsonFile["christmas_midnight"]["feast_background_image"]
             elif (context["current_qualifying_day"] == "26th"):
                 if (context["current_weekday"] == "Sunday"):
                     jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-family.json")
@@ -679,7 +684,7 @@ def memorialfortheday(request, current_date = "2022-11-27"):
 
     # Get the currentDate from the request URL
     currentDate = current_date
-    saintClass = "Feast"
+    memorialClass = "Feast"
     context = {}
     context["file_available"] = "yes"
 
@@ -688,68 +693,68 @@ def memorialfortheday(request, current_date = "2022-11-27"):
         dateDimension = pan.read_excel(f"./static/documents/datedimension.xlsx", sheet_name = "datedimension")
 
         # Slice the date dimension table for the current date
-        saintDateIndex = dateDimension.loc[dateDimension["Date"] == currentDate].index
-        saintDateDimension = dateDimension.loc[dateDimension["Date"] == currentDate]
-        saintDate = saintDateDimension.iloc[0]["Date"]
-        saintYear = saintDateDimension.iloc[0]["Year"]
-        saintWeekday = datetime.strptime(saintDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%A')
-        saintQualifyingMonth = datetime.strptime(saintDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
-        saintQualifyingDay = saintDateDimension.iloc[0]["Qualifying Day"]
-        saintName = saintDateDimension.iloc[0]["Feast Day"]
-        saintShortName = saintDateDimension.iloc[0]["Feast Short"]
-        saintClass = saintDateDimension.iloc[0]["Feast Class"]
-        saintImage = saintDateDimension.iloc[0]["Feast Image Location"]
+        memorialDateIndex = dateDimension.loc[dateDimension["Date"] == currentDate].index
+        memorialDateDimension = dateDimension.loc[dateDimension["Date"] == currentDate]
+        memorialDate = memorialDateDimension.iloc[0]["Date"]
+        memorialYear = memorialDateDimension.iloc[0]["Year"]
+        memorialWeekday = datetime.strptime(memorialDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%A')
+        memorialQualifyingMonth = datetime.strptime(memorialDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
+        memorialQualifyingDay = memorialDateDimension.iloc[0]["Qualifying Day"]
+        memorialName = memorialDateDimension.iloc[0]["Feast Day"]
+        memorialShortName = memorialDateDimension.iloc[0]["Feast Short"]
+        memorialClass = memorialDateDimension.iloc[0]["Feast Class"]
+        memorialImage = memorialDateDimension.iloc[0]["Feast Image Location"]
 
         templateFileName = "Memorial"
-        if (saintClass == "Feast"):
+        if (memorialClass == "Feast"):
             templateFileName = "feast"
-        elif (saintClass == "Memorial"):
+        elif (memorialClass == "Memorial"):
             templateFileName = "memorial"
-        elif (saintClass == "Optional Memorial"):
+        elif (memorialClass == "Optional Memorial"):
             templateFileName = "memorial"
-        elif (saintClass == "Solemnity"):
+        elif (memorialClass == "Solemnity"):
             templateFileName = "solemnity"
 
         # Load context variables
         context = {
-            "saint_date": saintDate,
-            "saint_weekday": saintWeekday,
-            "saint_qualifying_month": saintQualifyingMonth,
-            "saint_qualifying_day": saintQualifyingDay,
-            "saint_year": saintYear,
-            "saint_name": saintName,
-            "saint_class": saintClass,
-            "saint_image": saintImage
+            "memorial_date": memorialDate,
+            "memorial_weekday": memorialWeekday,
+            "memorial_qualifying_month": memorialQualifyingMonth,
+            "memorial_qualifying_day": memorialQualifyingDay,
+            "memorial_year": memorialYear,
+            "memorial_name": memorialName,
+            "memorial_class": memorialClass,
+            "memorial_image": memorialImage
         }
 
-        if ((saintQualifyingMonth == "December")
-            & (saintQualifyingDay in ("24th", "25th"))):
+        if ((memorialQualifyingMonth == "December")
+            & (memorialQualifyingDay in ("24th", "25th"))):
             # Load context variables
             context = {
-                "current_date": saintDate,
-                "current_weekday": saintWeekday,
-                "current_qualifying_month": saintQualifyingMonth,
-                "current_qualifying_day": saintQualifyingDay,
-                "current_year": saintYear,
-                "current_class": saintClass,
-                "current_image": saintImage
+                "current_date": memorialDate,
+                "current_weekday": memorialWeekday,
+                "current_qualifying_month": memorialQualifyingMonth,
+                "current_qualifying_day": memorialQualifyingDay,
+                "current_year": memorialYear,
+                "current_class": memorialClass,
+                "current_image": memorialImage
             }
             context = christmasdayoptions(context)
             # return render(request, f"christmas/christmasdayliturgies.html", context)
-            if (saintQualifyingDay == "24th"):
-                current_date = str(datetime.strptime(saintDateDimension.iloc[0]["Date"], '%Y-%m-%d') + timedelta(days = 1))[0:10]
+            if (memorialQualifyingDay == "24th"):
+                current_date = str(datetime.strptime(memorialDateDimension.iloc[0]["Date"], '%Y-%m-%d') + timedelta(days = 1))[0:10]
                 return redirect("christmasliturgies", current_date = current_date, liturgy = 'christmas-vigil')
             else:
                 return redirect("liturgyfortheday", f"{current_date}")
 
         try:
-            jsonFile = open(f"./static/documents/ordinaryform/memorials/{saintQualifyingMonth.lower()}/{saintShortName}.json")
+            jsonFile = open(f"./static/documents/ordinaryform/memorials/{memorialQualifyingMonth.lower()}/{memorialShortName}.json")
             jsonFile = json.load(jsonFile)
 
             commonPrayers = open(f"./static/documents/ordinaryform/commonprayers.json")
             commonPrayers = json.load(commonPrayers)
 
-            context["saint_background_image"] = jsonFile["saint_background_image"]
+            context["memorial_background_image"] = jsonFile["saint_background_image"]
 
             gloria_content = ""
             if (jsonFile["gloria"] == "yes"):
@@ -800,9 +805,12 @@ def memorialfortheday(request, current_date = "2022-11-27"):
             context["communion_antiphon"] = ""
             context["prayer_after_communion"] = ""
 
+            return redirect('memorial', currentDate)
+
     except:
         context = {}
         context["file_available"] = "no"
+        return redirect('liturgyfortheday', currentDate)
 
     return render(request, f"memorials/{templateFileName}.html", context)
 
@@ -811,20 +819,20 @@ def memorialloader(context = {}):
 
     # Get the currentDate from the request URL
     context = context
-    saintShortName = context["st_short_name"]
-    saintClass = "Feast"
-    saintQualifyingMonth = context["feast_qualifying_month"]
+    memorialShortName = context["memorial_short_name"]
+    memorialClass = "Feast"
+    memorialQualifyingMonth = context["memorial_qualifying_month"]
     context["file_available"] = "yes"
 
     try:
-        jsonFile = open(f"./static/documents/ordinaryform/memorials/{saintQualifyingMonth.lower()}/{saintShortName}.json")
+        jsonFile = open(f"./static/documents/ordinaryform/memorials/{memorialQualifyingMonth.lower()}/{memorialShortName}.json")
         jsonFile = json.load(jsonFile)
 
-        context["saint_background_image"] = jsonFile["saint_background_image"]
+        context["memorial_background_image"] = jsonFile["saint_background_image"]
 
     except:
         context["file_available"] = "no"
 
-        context["saint_background_image"] = ""
+        context["memorial_background_image"] = ""
 
     return context

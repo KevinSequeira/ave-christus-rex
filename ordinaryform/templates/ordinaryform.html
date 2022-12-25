@@ -54,11 +54,11 @@
                         <div class="col-sm-6 row-left">
                               <div class="jumbotron documentsBackground">
                                     <div class="memorialForTheDay">
-                                          <p class="memorialForTheDayForm">{{ feast_weekday }}, {{ feast_qualifying_day }} {{ feast_qualifying_month }}, {{ feast_year }}</p>
+                                          <p class="memorialForTheDayForm">{{ memorial_weekday }}, {{ memorial_qualifying_day }} {{ memorial_qualifying_month }}, {{ memorial_year }}</p>
                                           <h1 class="memorialForTheDayHeader">Saint of the Day</h1>
-                                          <p class="memorialForTheDayWeek">{{ feast_title }}
-                                                <br>{{ feast_class }}</p>
-                                          <a class="btn default" href="{% url 'memorialfortheday' feast_date %}" target="_blank" role="button">Read More ...</a>
+                                          <p class="memorialForTheDayWeek">{{ memorial_title }}
+                                                <br>{{ memorial_class }}</p>
+                                          <a class="btn default" href="{% url 'memorialfortheday' memorial_date %}" target="_blank" role="button">Read More ...</a>
                                     </div>
                               </div>
                         </div>
@@ -98,7 +98,7 @@
                   }
 
                   .documentsBackground {
-                        background: {{ saint_background_image }};
+                        background: {{ memorial_background_image }};
                   }
                   {% endautoescape %}
             </style>

@@ -55,8 +55,9 @@
                               <p class="prayerBodyTagline"><i>This antiphon is sung or recited when the celebrant proceeds
                                     to the front of the sanctuary and then climbs the steps of the altar. If the procession takes longer than usual,
                                     the antiphon may be repeated, or replaced with an appropriate hymn.</i></p>
-                              <p class="prayerBodyVerses">{{ opening_antiphon.verse_number }}</p>
-                              {% for paragraph in opening_antiphon.content %}
+                              {% for antiphon in opening_antiphon %}
+                              <p class="prayerBodyVerses">{{ antiphon.verse_number }}</p>
+                              {% for paragraph in antiphon.content %}
                               <p class="prayerBodyContent">
                                     {% for span in paragraph.p %}
                                     <span>
@@ -64,6 +65,10 @@
                                     </span><br>
                                     {% endfor %}
                               </p>
+                              {% endfor %}
+                              {% if not forloop.last %}
+                              <p class="readingContentOptionSeparator">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>or</strong></p>
+                              {% endif %}
                               {% endfor %}
                         </div>
                         {% if gloria == "yes" %}

@@ -56,11 +56,11 @@
                         <div class="col-sm-6 row-right">
                               <div class="jumbotron memorialForTheDayBackground">
                                     <div class="memorialForTheDay">
-                                          <p class="memorialForTheDayForm">{{ feast_weekday }}, {{ feast_qualifying_day }} {{ feast_qualifying_month }}, {{ feast_year }}</p>
+                                          <p class="memorialForTheDayForm">{{ memorial_weekday }}, {{ memorial_qualifying_day }} {{ memorial_qualifying_month }}, {{ memorial_year }}</p>
                                           <h1 class="memorialForTheDayHeader">Saint of the Day</h1>
-                                          <p class="memorialForTheDayWeek">{{ feast_title }}
-                                                <br>{{ feast_class }}</p>
-                                          <a class="btn default" href="{% url 'memorialfortheday' feast_date %}" target="_blank" role="button">Read More ...</a>
+                                          <p class="memorialForTheDayWeek">{{ memorial_title }}
+                                                <br>{{ memorial_class }}</p>
+                                          <a class="btn default" href="{% url 'memorialfortheday' memorial_date %}" target="_blank" role="button">Read More ...</a>
                                     </div>
                               </div>
                         </div>
@@ -91,7 +91,7 @@
                                           {% if row.7 == "" %}
 
                                           {% else %}
-                                          <a class="liturgyForTheDayLink" href="{% url 'memorialfortheday' row.7 %}">{{ row.6 }} of {{ row.5 }}</a>
+                                          <a class="liturgyForTheDayLink" href="{% url 'memorialfortheday' row.7 %}">{{ row.6 }}, {{ row.5 }}</a>
                                           {% endif %}
                                     </div>
                               </div>
@@ -125,7 +125,7 @@
                   }
 
                   .memorialForTheDayBackground {
-                        background: {{ saint_background_image }};
+                        background: {{ memorial_background_image }};
                   }
                   {% endautoescape %}
             </style>
