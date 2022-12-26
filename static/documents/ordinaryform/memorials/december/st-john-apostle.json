@@ -1,0 +1,171 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_john_apostle.webp')",
+      "opening_antiphon": [
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "This is John, who reclined on the Lord’s breast at supper,",
+                                    "the blessed Apostle, to whom celestial secrets were revealed",
+                                    "and who spread the words of life through all the world."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Sirach ch. 15 : 5",
+                  "content": [
+                        {
+                              "p": [
+                                    "In the midst of the Church he opened his mouth,",
+                                    "and the Lord filled him",
+                                    "with the spirit of wisdom and understanding",
+                                    "and clothed him in a robe of glory."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who through the blessed Apostle John",
+                        "have unlocked for us the secrets of your Word,",
+                        "grant, we pray,",
+                        "that we may grasp with proper understanding",
+                        "what he has so marvelously brought to our ears."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Sanctify the offerings we have made, O Lord, we pray,",
+                        "and grant that from the banquet of this supper",
+                        "we may draw the hidden wisdom of the eternal Word,",
+                        "just as, from this same source,",
+                        "you revealed it to your Apostle John."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": [
+            {
+                  "verse_number": "john ch. 1, vv. 14, 16",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Word became flesh and made his dwelling among us,",
+                                    "and from his fullness we have all received."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Grant, we pray, almighty God,",
+                        "that the Word made flesh,",
+                        "proclaimed by the blessed Apostle John,",
+                        "may, through this mystery which we have celebrated,",
+                        "ever dwell among us."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "1 John ch. 1, vv. 11 - 14",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "We declare to you what was from the beginning, what we have heard, what we have seen with our eyes,",
+                                          "what we have looked at and touched with our hands, concerning the word of life— this life was revealed,",
+                                          "and we have seen it and testify to it, and declare to you the eternal life that was with the Father",
+                                          "and was revealed to us— we declare to you what we have seen and heard so that you also may have fellowship with us;",
+                                          "and truly our fellowship is with the Father and with his Son Jesus Christ. We are writing these things so that our",
+                                          "joy may be complete."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "responsorial_psalm": {
+                  "verse_number": "Psalm 97, vv. 1 - 2, 5 - 6, 11 - 12",
+                  "response": "Rejoice in the Lord, you just!",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord is king! Let the earth rejoice; \nlet the many coastlands be glad!",
+                                    "Clouds and thick darkness are all around him; \nrighteousness and justice are the foundation of his throne."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The mountains melt like wax before the Lord, \nbefore the Lord of all the earth.",
+                                    "The heavens proclaim his righteousness; \nand all the peoples behold his glory."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Light dawns for the righteous, \nand joy for the upright in heart.",
+                                    "Rejoice in the Lord, O you righteous, \nand give thanks to his holy name!"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Te Deum",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "We praise you, O God, we acclaim you as Lord; the glorious company of Apostles praise you."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 20, vv. 1a, 2 - 8",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Early on the first day of the week, while it was still dark, Mary Magdalene ran and went to Simon Peter",
+                                    "and the other disciple, the one whom Jesus loved, and said to them, “They have taken the Lord out of the tomb,",
+                                    "and we do not know where they have laid him.” Then Peter and the other disciple set out and went toward the tomb.",
+                                    "The two were running together, but the other disciple outran Peter and reached the tomb first.",
+                                    "He bent down to look in and saw the linen wrappings lying there, but he did not go in.",
+                                    "Then Simon Peter came, following him, and went into the tomb. He saw the linen wrappings lying there,",
+                                    "and the cloth that had been on Jesus’ head, not lying with the linen wrappings but rolled up in a place by itself.",
+                                    "Then the other disciple, who reached the tomb first, also went in, and he saw and believed."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -399,7 +399,7 @@ def christmasloader(context = {}):
     except:
         context["file_available"] = "no"
 
-        context["liturgy_background_image"] = ""
+        context["liturgy_background_image"] = "url('../../../static/images/saints/christmas_background.jpg')"
 
     return context
 
