@@ -9,17 +9,18 @@
             {{ row.3 }}
       </div> -->
       <div class="col-xs-3 calendarCellColumn secondColumn">
-            {% if row.7 == "" %}
-            <a class="liturgyForTheDayLink" href="{% url 'liturgyfortheday' row.0 %}">{{ row.3 }}, {{ row.4 }} Day of {{ row.2 }}</a>
-            {% else %}
+            {% if row.1 == "26th" or row.1 == "27th" or row.1 == "28th" %}
             {{ row.3 }}, {{ row.4 }} Day of {{ row.2 }}
+            {% else %}
+            <!-- {{ row.3 }}, {{ row.4 }} Day of {{ row.2 }} -->
+            <a class="liturgyForTheDayLink" href="{% url 'liturgyfortheday' row.0 %}">{{ row.3 }}, {{ row.4 }} Day of {{ row.2 }}</a>
             {% endif %}
       </div>
       <div class="col-xs-3 calendarCellColumn thirdColumn">
-            {% if row.7 == "" %}
+            <!-- {% if row.7 == "" %}
 
-            {% else %}
+            {% else %} -->
             <a class="liturgyForTheDayLink" href="{% url 'memorialfortheday' row.0 %}">{{ row.6 }}, {{ row.5 }}</a>
-            {% endif %}
+            <!-- {% endif %} -->
       </div>
 </div>
