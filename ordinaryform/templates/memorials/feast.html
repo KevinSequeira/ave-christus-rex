@@ -177,13 +177,14 @@
                               {% endif %}
                               {% endfor %}
                         </div>
-                        {% if second_reading_content == "" %}
+                        {% if second_reading_content != "" %}
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Second Reading</h1>
                               <p class="prayerBodyTagline"><i>The second reading, taken from the New Testament&rsquo;s Apostolic Epistles,
                                     follows on the theme of readings for the liturgy of the day.</i></p>
-                              <p class="prayerBodyVerses">{{ second_reading.verse_number }}</p>
-                              {% for p in second_reading.content %}
+                              {% for reading_content in second_reading %}
+                              <p class="prayerBodyVerses">{{ reading_content.verse_number }}</p>
+                              {% for p in reading_content.content %}
                               {% if p.content_type == "paragraph" %}
                               <p class="prayerBodyContent">
                                     {% for line in p.p %}
@@ -198,6 +199,10 @@
                                     </span><br>
                                     {% endfor %}
                               </p>
+                              {% endif %}
+                              {% endfor %}
+                              {% if not forloop.last %}
+                              <p class="readingContentOptionSeparator">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>or</strong></p>
                               {% endif %}
                               {% endfor %}
                         </div>

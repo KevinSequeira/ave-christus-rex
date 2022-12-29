@@ -449,7 +449,7 @@ def christmas(context = {}):
                     jsonFile = open(f"./static/documents/ordinaryform/christmas/december/29th.json")
             elif (context["current_qualifying_day"] == "30th"):
                 if (context["current_weekday"] == "Sunday"):
-                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-family.json")
+                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/jesus-mary-joseph.json")
                 else:
                     jsonFile = open(f"./static/documents/ordinaryform/christmas/december/30th.json")
             elif (context["current_qualifying_day"] == "31st"):
