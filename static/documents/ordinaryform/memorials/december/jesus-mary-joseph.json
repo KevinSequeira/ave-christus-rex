@@ -1,5 +1,5 @@
 {
-      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/jesus_mary_jospeh.jpg')",
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/jesus_mary_jospeh.jpg')",
       "opening_antiphon": [
             {
                   "verse_number": "Luke ch. 2, v. 16",

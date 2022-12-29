@@ -343,7 +343,7 @@ def christmasloader(context = {}):
                 context["memorial_background_image"] = jsonFile["christmas_midnight"]["feast_background_image"]
             elif (context["current_qualifying_day"] == "26th"):
                 if (context["current_weekday"] == "Sunday"):
-                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-family.json")
+                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/jesus-mary-joseph.json")
                     jsonFile = json.load(jsonFile)
                     context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
                 else:
@@ -352,7 +352,7 @@ def christmasloader(context = {}):
                     context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
             elif (context["current_qualifying_day"] == "27th"):
                 if (context["current_weekday"] == "Sunday"):
-                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-family.json")
+                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/jesus-mary-joseph.json")
                     jsonFile = json.load(jsonFile)
                     context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
                 else:
@@ -361,7 +361,7 @@ def christmasloader(context = {}):
                     context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
             elif (context["current_qualifying_day"] == "28th"):
                 if (context["current_weekday"] == "Sunday"):
-                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-family.json")
+                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/jesus-mary-joseph.json")
                     jsonFile = json.load(jsonFile)
                     context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
                 else:
@@ -370,7 +370,7 @@ def christmasloader(context = {}):
                     context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
             elif (context["current_qualifying_day"] == "29th"):
                 if (context["current_weekday"] == "Sunday"):
-                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-family.json")
+                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/jesus-mary-joseph.json")
                     jsonFile = json.load(jsonFile)
                     context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
                 else:
@@ -379,7 +379,7 @@ def christmasloader(context = {}):
                     context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
             elif (context["current_qualifying_day"] == "30th"):
                 if (context["current_weekday"] == "Sunday"):
-                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-family.json")
+                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/jesus-mary-joseph.json")
                     jsonFile = json.load(jsonFile)
                     context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
                 else:
@@ -388,7 +388,7 @@ def christmasloader(context = {}):
                     context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
             elif (context["current_qualifying_day"] == "31st"):
                 if (context["current_weekday"] == "Sunday"):
-                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-family.json")
+                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/jesus-mary-joseph.json")
                     jsonFile = json.load(jsonFile)
                     context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
                 else:
