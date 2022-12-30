@@ -38,6 +38,8 @@ def ordinaryform(request):
     memorialYear = earliestMemorialDimension.iloc[0]["Year"]
     memorialTitle = earliestMemorialDimension.iloc[0]["Feast Day"]
     memorialClass = earliestMemorialDimension.iloc[0]["Feast Class"]
+    if (memorialClass == "Optional Memorial"):
+        memorialClass = "Memorial"
     memorialShort = earliestMemorialDimension.iloc[0]["Feast Short"]
 
     # Load context variables
@@ -105,6 +107,8 @@ def calendar(request):
     memorialYear = earliestMemorialDimension.iloc[0]["Year"]
     memorialTitle = earliestMemorialDimension.iloc[0]["Feast Day"]
     memorialClass = earliestMemorialDimension.iloc[0]["Feast Class"]
+    if (memorialClass == "Optional Memorial"):
+        memorialClass = "Memorial"
     memorialShortName = earliestMemorialDimension.iloc[0]["Feast Short"]
 
     # Load context variables
@@ -392,7 +396,7 @@ def christmasloader(context = {}):
                     jsonFile = json.load(jsonFile)
                     context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
                 else:
-                    jsonFile = open(f"./static/documents/ordinaryform/christmas/december/christmas-seventh-day.json")
+                    jsonFile = open(f"./static/documents/ordinaryform/christmas/december/31st.json")
                     jsonFile = json.load(jsonFile)
                     context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
 
@@ -457,6 +461,14 @@ def christmas(context = {}):
                     jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-family.json")
                 else:
                     jsonFile = open(f"./static/documents/ordinaryform/christmas/december/31st.json")
+
+        elif (context["current_qualifying_month"] == "January"):
+            if (context["current_date"] < "6th"):
+                if (context["current_weekday"] == "Monday"):
+                    jsonFile = open(f"./static/documents/ordinaryform/christmas/january/before-epiphany/monday.json")
+
+
+
         jsonFile = json.load(jsonFile)
 
         commonPrayers = open(f"./static/documents/ordinaryform/commonprayers.json")

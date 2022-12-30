@@ -69,7 +69,11 @@
                         {% for month, rows in calendar_dictionary.items %}
                         <div class="calendarOverflow">
                               <div class="calendarMonth">
+                                    {% if month == "November" or month == "December" %}
                                     {{ month }}, {{ current_year }}
+                                    {% else %}
+                                    {{ month }}, {{ current_year|add:1 }}
+                                    {% endif %}
                               </div>
                               {% for row in rows %}
                               {% if row.8 == "advent" and month == "December" and row.1 == "24th" %}
