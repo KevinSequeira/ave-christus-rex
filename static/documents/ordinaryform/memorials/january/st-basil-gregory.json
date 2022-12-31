@@ -1,12 +1,13 @@
 {
       "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_basil_gregory.jpeg')",
       "opening_antiphon": {
-            "verse_number": "Revelation ch. 12, v. 1",
+            "verse_number": "Wisdom ch. 18, vv. 14, 15",
             "content": [
                   {
                         "p": [
-                              "A great sign appeared in the sky, a woman clothed with the sun,",
-                              "with the moon under her feet, and on her head a crown of twelve stars."
+                              "When a profound silence covered all things",
+                              "and night was in the middle of its course,",
+                              "your all-powerful Word, O Lord, bounded from heaven’s royal throne."
                         ]
                   }
             ]
@@ -15,28 +16,27 @@
       "collect": [
             {
                   "p": [
-                        "O God, Father of mercies,",
-                        "who placed your people under the singular protection",
-                        "of your Son’s most holy Mother,",
-                        "grant that all who invoke the Blessed Virgin of Guadalupe,",
-                        "may seek with ever more lively faith",
-                        "the progress of peoples in the ways of justice and of peace."
+                        "Almighty ever-living God,",
+                        "splendor of faithful souls,",
+                        "graciously be pleased to fill the world with your glory,",
+                        "and show yourself to all peoples by the radiance of your light."
                   ]
             },
             {
                   "p": [
-                        "Through our Lord Jesus Christ your Son, who lives and reigns with you in the unity of the Holy Spirit, God, for ever and ever."
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
                   ]
             }
       ],
       "offertory": [
             {
                   "p": [
-                        "Accept, O Lord, the gifts we present to you",
-                        "on this feast of Our Lady of Guadalupe,",
-                        "and grant that this sacrifice",
-                        "may strengthen us to fulfill your commandments",
-                        "as true children of the Virgin Mary."
+                        "Sanctify, O Lord, the offerings we make",
+                        "on the Nativity of your Only Begotten Son,",
+                        "for by it you show us the way of truth",
+                        "and promise the life of the heavenly Kingdom."
                   ]
             },
             {
@@ -45,14 +45,14 @@
                   ]
             }
       ],
-      "credo": "nicene_creed",
+      "credo": "apostles_creed",
       "communion_antiphon": {
-            "verse_number": "Luke ch. 1, v. 52",
+            "verse_number": "Cf. John ch. 1, v. 12",
             "content": [
                   {
                         "p": [
-                              "The Lord has cast down the mighty from their thrones,",
-                              "and has lifted up the lowly."
+                              "To all who would accept him,",
+                              "he gave the power to become children of God."
                         ]
                   }
             ]
@@ -60,12 +60,10 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "Lord God, may the Body and Blood of your Son,",
-                        "which we receive in this sacrament,",
-                        "reconcile us always in your love;",
-                        "and may we who rejoice in Our Lady of Guadalupe",
-                        "live united and at peace in this world",
-                        "until the day of the Lord dawns in glory."
+                        "Lord our God, we humbly ask you,",
+                        "that, through the working of this mystery,",
+                        "our offenses may be cleansed",
+                        "and our just desires fulfilled."
                   ]
             },
             {
