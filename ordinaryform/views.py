@@ -204,6 +204,11 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
         elif (currentQualifyingDay in ("29th", "30th", "31st")):
             if (currentWeekday == "Sunday"):
                 return redirect("memorialfortheday", f"{current_date}")
+    elif (currentQualifyingMonth == "January"):
+        if (currentQualifyingDay == "1st"):
+            return redirect("memorialfortheday", f"{current_date}")
+        elif (currentQualifyingDay == "6th"):
+            return redirect("memorialfortheday", f"{current_date}")
 
     # Add season-specific context variables
     if (currentSeasonShort == "advent"):
@@ -400,10 +405,31 @@ def christmasloader(context = {}):
                     jsonFile = json.load(jsonFile)
                     context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
 
+        elif (context["current_qualifying_month"] == "January"):
+            if (context["current_qualifying_day"] == "1st"):
+                jsonFile = open(f"./static/documents/ordinaryform/memorials/january/theotokos.json")
+
+                jsonFile = json.load(jsonFile)
+
+            elif (context["current_qualifying_day"] < "6th"):
+                if (context["current_weekday"] == "Sunday"):
+                    jsonFile = open(f"./static/documents/ordinaryform/christmas/january/second-sunday.json")
+
+                    jsonFile = json.load(jsonFile)
+
+                else:
+                    jsonFile_readings = open(f"./static/documents/ordinaryform/christmas/january/{context['current_weekday'].lower()}.json")
+                    jsonFile_prayers = open(f"./static/documents/ordinaryform/christmas/january/{context['current_qualifying_day'].lower()}.json")
+
+                    jsonFile_readings = json.load(jsonFile_readings)
+                    jsonFile_prayers = json.load(jsonFile_prayers)
+
+                    jsonFile = { **jsonFile_readings, **jsonFile_prayers }
+
     except:
         context["file_available"] = "no"
 
-        context["liturgy_background_image"] = "url('../../../static/images/saints/christmas_background.jpg')"
+        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_background.jpg')"
 
     return context
 
@@ -433,22 +459,22 @@ def christmas(context = {}):
                 jsonFile = open(f"./static/documents/ordinaryform/christmas/december/christmas-midnight.json")
             elif (context["current_qualifying_day"] == "26th"):
                 if (context["current_weekday"] == "Sunday"):
-                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-family.json")
+                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/jesus-mary-joseph.json")
                 else:
                     jsonFile = open(f"./static/documents/ordinaryform/memorials/december/st-stephen-protomartyr.json")
             elif (context["current_qualifying_day"] == "27th"):
                 if (context["current_weekday"] == "Sunday"):
-                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-family.json")
+                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/jesus-mary-joseph.json")
                 else:
                     jsonFile = open(f"./static/documents/ordinaryform/memorials/december/st-john-baptist.json")
             elif (context["current_qualifying_day"] == "28th"):
                 if (context["current_weekday"] == "Sunday"):
-                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-family.json")
+                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/jesus-mary-joseph.json")
                 else:
                     jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-innocents.json")
             elif (context["current_qualifying_day"] == "29th"):
                 if (context["current_weekday"] == "Sunday"):
-                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-family.json")
+                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/jesus-mary-joseph.json")
                 else:
                     jsonFile = open(f"./static/documents/ordinaryform/christmas/december/29th.json")
             elif (context["current_qualifying_day"] == "30th"):
@@ -458,18 +484,32 @@ def christmas(context = {}):
                     jsonFile = open(f"./static/documents/ordinaryform/christmas/december/30th.json")
             elif (context["current_qualifying_day"] == "31st"):
                 if (context["current_weekday"] == "Sunday"):
-                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/holy-family.json")
+                    jsonFile = open(f"./static/documents/ordinaryform/memorials/december/jesus-mary-joseph.json")
                 else:
                     jsonFile = open(f"./static/documents/ordinaryform/christmas/december/31st.json")
 
+            jsonFile = json.load(jsonFile)
+
         elif (context["current_qualifying_month"] == "January"):
-            if (context["current_date"] < "6th"):
-                if (context["current_weekday"] == "Monday"):
-                    jsonFile = open(f"./static/documents/ordinaryform/christmas/january/before-epiphany/monday.json")
+            if (context["current_qualifying_day"] == "1st"):
+                jsonFile = open(f"./static/documents/ordinaryform/memorials/january/theotokos.json")
 
+                jsonFile = json.load(jsonFile)
 
+            elif (context["current_qualifying_day"] < "6th"):
+                if (context["current_weekday"] == "Sunday"):
+                    jsonFile = open(f"./static/documents/ordinaryform/christmas/january/second-sunday.json")
 
-        jsonFile = json.load(jsonFile)
+                    jsonFile = json.load(jsonFile)
+
+                else:
+                    jsonFile_readings = open(f"./static/documents/ordinaryform/christmas/january/{context['current_weekday'].lower()}.json")
+                    jsonFile_prayers = open(f"./static/documents/ordinaryform/christmas/january/{context['current_qualifying_day'].lower()}.json")
+
+                    jsonFile_readings = json.load(jsonFile_readings)
+                    jsonFile_prayers = json.load(jsonFile_prayers)
+
+                    jsonFile = { **jsonFile_readings, **jsonFile_prayers }
 
         commonPrayers = open(f"./static/documents/ordinaryform/commonprayers.json")
         commonPrayers = json.load(commonPrayers)
@@ -539,6 +579,8 @@ def christmas(context = {}):
         context["credo_content"] = ""
         context["communion_antiphon"] = ""
         context["prayer_after_communion"] = ""
+
+        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_background.jpg')"
 
     return context
 
@@ -786,7 +828,7 @@ def memorialfortheday(request, current_date = "2022-11-27"):
             context["gloria_content"] = gloria_content
             context["collect"] = jsonFile["collect"]
             context["first_reading"] = jsonFile["readings"]["first_reading"]
-            context["responsorial_psalm"] = jsonFile["readings"]["responsorial_psalm"]
+            context["first_responsorial_psalm"] = jsonFile["readings"]["first_responsorial_psalm"]
 
             second_reading_content = ""
             if ("second_reading" in jsonFile["readings"]):

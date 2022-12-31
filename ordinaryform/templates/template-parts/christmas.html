@@ -4,7 +4,9 @@
 {% if month == "December" and row.1 == "25th" %}
 {% include 'template-parts/christmasday.html' %}
 {% elif month == "December" and row.1 >= "26th" and row.1 <= "28th" %}
-{% include 'template-parts/christmasseason.html' %}
+{% include 'template-parts/christmasseason-december.html' %}
+{% elif month == "January" and row.1 == "1st" or row.1 == "6th" %}
+{% include 'template-parts/christmasseason-january.html' %}
 {% elif row.8 == "christmas"%}
-{% include 'template-parts/christmasseason.html' %}
+{% include 'template-parts/christmasseason-december.html' %}
 {% endif %}

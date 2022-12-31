@@ -41,10 +41,10 @@
                   <!-- Main component for a primary marketing message or call to action -->
                   <div class="jumbotron jumbotronBackground">
                         <div class="liturgyForTheDay">
-                              <p class="liturgyForTheDayForm">{{ saint_weekday }}, {{ saint_qualifying_day }} {{ saint_qualifying_month }}, {{ saint_year }}</p>
+                              <p class="liturgyForTheDayForm">{{ memorial_weekday }}, {{ memorial_qualifying_day }} {{ memorial_qualifying_month }}, {{ memorial_year }}</p>
                               <h1 class="liturgyForTheDayHeader">Solemnity of the Day</h1>
-                              <p class="liturgyForTheDayWeek"><span>{{ saint_name }}</span>
-                                    <!-- <br>{{ saint_class }}-->
+                              <p class="liturgyForTheDayWeek"><span>{{ memorial_name }}</span>
+                                    <!-- <br>{{ memorial_class }}-->
                               </p>
                         </div>
                   </div>
@@ -148,9 +148,9 @@
                               <h1 class="prayerBodyHeader">Responsorial Psalm</h1>
                               <p class="prayerBodyTagline"><i>the Faithful may sing the psalm together in praise of the Word of God if possible.
                                     However, alternatively, the psalm may be recited by the lector, while the Faithful may repeat the response after each verse.</i></p>
-                              <p class="prayerBodyResponse"><strong>Response:</strong> <i>{{ responsorial_psalm.response|linebreaksbr }}</i></p>
-                              <p class="prayerBodyVerses">{{ responsorial_psalm.verse_number }}</p>
-                              {% for p in responsorial_psalm.content %}
+                              <p class="prayerBodyResponse"><strong>Response:</strong> <i>{{ first_responsorial_psalm.response|linebreaksbr }}</i></p>
+                              <p class="prayerBodyVerses">{{ first_responsorial_psalm.verse_number }}</p>
+                              {% for p in first_responsorial_psalm.content %}
                               {% if p.content_type == "paragraph" %}
                               <p class="prayerBodyContent">
                                     {% for line in p.p %}
@@ -321,7 +321,7 @@
             <style>
                   {% autoescape off %}
                   .jumbotronBackground {
-                        background: {{ saint_background_image }};
+                        background: {{ memorial_background_image }};
                   }
                   {% endautoescape %}
             </style>
