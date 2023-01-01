@@ -1,84 +1,113 @@
 {
       "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_season_2nd.jpg')",
-
-      "opening_antiphon": [
-            {
-                  "verse_number": "Isaiah ch. 9, v. 7",
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "1 John ch. 2, vv. 22 - 28",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Beloved: Who is the liar but the one who denies that Jesus is the Christ?",
+                                          "This is the antichrist, the one who denies the Father and the Son.",
+                                          "No one who denies the Son has the Father; everyone who confesses the Son has the Father also.",
+                                          "Let what you heard from the beginning abide in you. If what you heard from the beginning abides in you,",
+                                          "then you will abide in the Son and in the Father. And this is what he has promised us, eternal life."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "I write these things to you concerning those who would deceive you. As for you,",
+                                          "the anointing that you received from him abides in you, and so you do not need anyone to teach you.",
+                                          "But as his anointing teaches you about all things, and is true and is not a lie,",
+                                          "and just as it has taught you, abide in him."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "And now, little children, abide in him, so that when he is revealed",
+                                          "we may have confidence and not be put to shame before him at his coming."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 98, vv. 1, 2 - 3ab, 3cd - 4",
+                  "response": "All the ends of the earth have seen the saving power of God.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O sing to the Lord a new song, \nfor he has done marvelous things.",
+                                    "His right hand and his holy arm \nhave gotten him victory."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord has made known his victory; \nhe has revealed his vindication in the sight of the nations.",
+                                    "He has remembered his steadfast love and faithfulness \nto the house of Israel."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "All the ends of the earth have seen \nthe victory of our God.",
+                                    "Make a joyful noise to the Lord, all the earth; \nbreak forth into joyous song and sing praises."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Hebrews ch. 1, vv. 1, 2",
+                  "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "A child is born for us, and a son is given to us;",
-                                    "his scepter of power rests upon his shoulder,",
-                                    "and his name will be called Messenger of great counsel."
+                                    "In the past, God spoke to our ancestors through the prophets; in these last days he has spoken to us through the Son."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 1, vv. 19 - 28",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "This is the testimony given by John when the Jews sent priests and Levites from Jerusalem to ask him,",
+                                    "“Who are you?” He confessed and did not deny it, but confessed, “I am not the Messiah.”",
+                                    "And they asked him, “What then? Are you Elijah?” He said, “I am not.” “Are you the prophet?”",
+                                    "He answered, “No.” Then they said to him, “Who are you? Let us have an answer for those who sent us.",
+                                    "What do you say about yourself?” He said,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“I am the voice of one crying out in the wilderness,",
+                                    "‘Make straight the way of the Lord,’”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "as the prophet Isaiah said."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Now they had been sent from the Pharisees. They asked him, “Why then are you baptizing if you are neither",
+                                    "the Messiah, nor Elijah, nor the prophet?” John answered them, “I baptize with water.",
+                                    "Among you stands one whom you do not know, the one who is coming after me; I am not worthy",
+                                    "to untie the thong of his sandal.” This took place in Bethany across the Jordan where John was baptizing."
                               ]
                         }
                   ]
             }
-      ],
-      "gloria": "yes",
-      "collect": [
-            {
-                  "p": [
-                        "Almighty ever-living God,",
-                        "who in the Nativity of your Son",
-                        "established the beginning and fulfillment of all religion,",
-                        "grant, we pray, that we may be numbered",
-                        "among those who belong to him,",
-                        "in whom is the fullness of human salvation."
-                  ]
-            },
-            {
-                  "p": [
-                        "Who lives and reigns with you in the unity of the Holy Spirit,",
-                        "one God, for ever and ever."
-                  ]
-            }
-      ],
-      "offertory": [
-            {
-                  "p": [
-                        "O God, who give us the gift of true prayer and of peace,",
-                        "graciously grant that, through this offering,",
-                        "we may do fitting homage to your divine majesty",
-                        "and, by partaking of the sacred mystery,",
-                        "we may be faithfully united in mind and heart."
-                  ]
-            },
-            {
-                  "p": [
-                        "Through Christ our Lord."
-                  ]
-            }
-      ],
-      "credo": "no",
-      "communion_antiphon": [
-            {
-                  "verse_number": "1 John ch. 4, v. 9",
-                  "content": [
-                        {
-                              "p": [
-                                    "God sent his Only Begotten Son into the world,",
-                                    "so that we might have life through him."
-                              ]
-                        }
-                  ]
-            }
-      ],
-      "prayer_after_communion": [
-            {
-                  "p": [
-                        "May your people, O Lord,",
-                        "whom you guide and sustain in many ways,",
-                        "experience, both now and in the future,",
-                        "the remedies which you bestow,",
-                        "that, with the needed solace of things that pass away,",
-                        "they may strive with ever deepened trust for things eternal."
-                  ]
-            },
-            {
-                  "p": [
-                        "Through Christ our Lord."
-                  ]
-            }
-      ]
+      }
 }

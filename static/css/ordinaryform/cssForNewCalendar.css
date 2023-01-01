@@ -77,6 +77,7 @@ h1.memorialForTheDayHeader {
 p.memorialForTheDayWeek {
       font-size: 18px;
       font-family: 'Merriweather', serif;
+      margin-right: 20px;
 }
 
 .row-left {
@@ -184,7 +185,7 @@ p.memorialForTheDayWeek {
       }
 
       .memorialForTheDayBackground {
-            background-size: 160%;
+            background-size: cover;
             background-position: bottom;
             position: relative;
       }
@@ -223,7 +224,7 @@ p.memorialForTheDayWeek {
 
       h1.liturgyForTheDayHeader {
             font-family: 'Vollkorn SC', serif;
-            margin: 0px 0px 6px -2px;
+            margin: 0px 0px 2px -2px;
             font-size: 30px;
             line-height: 30px;
       }
@@ -246,7 +247,7 @@ p.memorialForTheDayWeek {
 
       h1.memorialForTheDayHeader {
             font-family: 'Vollkorn SC', serif;
-            margin: 0px 0px 6px -2px;
+            margin: 0px 10px 2px -2px;
             font-size: 30px;
             line-height: 30px;
       }

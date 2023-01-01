@@ -1,13 +1,12 @@
 {
       "opening_antiphon": [
             {
-                  "verse_number": "Isaiah ch. 9, v. 7",
+                  "verse_number": "Isaiah ch. 9, v. 1",
                   "content": [
                         {
                               "p": [
-                                    "A child is born for us, and a son is given to us;",
-                                    "his scepter of power rests upon his shoulder,",
-                                    "and his name will be called Messenger of great counsel."
+                                    "A people who walked in darkness has seen a great light;",
+                                    "for those dwelling in a land of deep gloom, a light has shone."
                               ]
                         }
                   ]
@@ -17,12 +16,10 @@
       "collect": [
             {
                   "p": [
-                        "Almighty ever-living God,",
-                        "who in the Nativity of your Son",
-                        "established the beginning and fulfillment of all religion,",
-                        "grant, we pray, that we may be numbered",
-                        "among those who belong to him,",
-                        "in whom is the fullness of human salvation."
+                        "Grant us, almighty God, that the bringer of your salvation,",
+                        "who for the world’s redemption came forth with newness of",
+                        "heavenly light,",
+                        "may dawn afresh in our hearts and bring us constant renewal."
                   ]
             },
             {
@@ -51,12 +48,11 @@
       "credo": "no",
       "communion_antiphon": [
             {
-                  "verse_number": "1 John ch. 4, v. 9",
+                  "verse_number": "1 John ch. 1, v. 2",
                   "content": [
                         {
                               "p": [
-                                    "God sent his Only Begotten Son into the world,",
-                                    "so that we might have life through him."
+                                    "That life which was with the Father became visible, and has appeared to us."
                               ]
                         }
                   ]

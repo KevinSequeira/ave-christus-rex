@@ -54,6 +54,7 @@ h1.liturgyForTheDayHeader {
 p.liturgyForTheDayWeek {
       font-size: 20px;
       font-family: 'Merriweather', serif;
+      margin-right: 40px;
 }
 
 .memorialForTheDay {
@@ -69,14 +70,15 @@ p.memorialForTheDayForm {
 
 h1.memorialForTheDayHeader {
       font-family: 'Vollkorn SC', serif;
-      margin: 0px 0px 10px -2px;
+      margin: 0px 20px 10px -2px;
       font-size: 36px;
-      line-height: 20px;
+      line-height: 36px;
 }
 
 p.memorialForTheDayWeek {
       font-size: 18px;
       font-family: 'Merriweather', serif;
+      margin-right: 40px;
 }
 
 .row-left {
@@ -149,8 +151,8 @@ p.memorialForTheDayWeek {
       }
 
       .container .jumbotron, .container-fluid .jumbotron {
-            padding-right: 30px;
-            padding-left: 30px;
+            padding-right: 20px;
+            padding-left: 20px;
             border-radius: 0px;
       }
 
@@ -198,13 +200,13 @@ p.memorialForTheDayWeek {
 
       h1.memorialForTheDayHeader {
             font-family: 'Vollkorn SC', serif;
-            margin: 0px 0px 2px -2px;
+            margin: 0px 20px 2px -2px;
             font-size: 30px;
             line-height: 30px;
       }
 
       p.memorialForTheDayWeek {
-            margin-right: 30px;
+            margin-right: 40px;
             font-size: 14px;
             font-family: 'Merriweather', serif;
       }

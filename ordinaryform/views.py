@@ -411,11 +411,15 @@ def christmasloader(context = {}):
 
                 jsonFile = json.load(jsonFile)
 
+                context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
+
             elif (context["current_qualifying_day"] < "6th"):
                 if (context["current_weekday"] == "Sunday"):
                     jsonFile = open(f"./static/documents/ordinaryform/christmas/january/second-sunday.json")
 
                     jsonFile = json.load(jsonFile)
+
+                    context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
 
                 else:
                     jsonFile_readings = open(f"./static/documents/ordinaryform/christmas/january/{context['current_weekday'].lower()}.json")
@@ -425,6 +429,8 @@ def christmasloader(context = {}):
                     jsonFile_prayers = json.load(jsonFile_prayers)
 
                     jsonFile = { **jsonFile_readings, **jsonFile_prayers }
+
+                    context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
 
     except:
         context["file_available"] = "no"

@@ -1,0 +1,78 @@
+{
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 118, vv. 26, 27",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed is he who comes in the name of the Lord:",
+                                    "The Lord is God and has given us light."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who in the blessed childbearing of the holy Virgin Mary",
+                        "kept the flesh of your Son",
+                        "free from the sentence incurred by the human race,",
+                        "grant, we pray,",
+                        "that we, who have been taken up into this new creation,",
+                        "may be freed from the ancient taint of sin."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Receive with favor, O Lord, we pray, the offerings of your people,",
+                        "that what they profess with devotion and faith",
+                        "may be theirs through these heavenly mysteries."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Ephesians ch. 2, v. 4; Romans ch. 8, v. 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "Because of that great love of his with which God loved us,",
+                                    "he sent his Son in the likeness of sinful flesh."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "O God, who touch us through our partaking of your Sacrament,",
+                        "work, we pray, the effects of its power in our hearts,",
+                        "that we may be made fit to receive your gift",
+                        "through this very gift itself."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ]
+}

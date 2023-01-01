@@ -1,25 +1,29 @@
 {
       "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_basil_gregory.jpeg')",
-      "opening_antiphon": {
-            "verse_number": "Wisdom ch. 18, vv. 14, 15",
-            "content": [
-                  {
-                        "p": [
-                              "When a profound silence covered all things",
-                              "and night was in the middle of its course,",
-                              "your all-powerful Word, O Lord, bounded from heaven’s royal throne."
-                        ]
-                  }
-            ]
-      },
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Sirach ch. 44, vv. 15, 14",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let the peoples recount the wisdom of the Saints,",
+                                    "and let the Church proclaim their praise.",
+                                    "Their names will live on and on."
+                              ]
+                        }
+                  ]
+            }
+      ],
       "gloria": "yes",
       "collect": [
             {
                   "p": [
-                        "Almighty ever-living God,",
-                        "splendor of faithful souls,",
-                        "graciously be pleased to fill the world with your glory,",
-                        "and show yourself to all peoples by the radiance of your light."
+                        "O God, who were pleased to give light to your Church",
+                        "by the example and teaching",
+                        "of the Bishops Saints Basil and Gregory,",
+                        "grant, we pray,",
+                        "that in humility we may learn your truth",
+                        "and practice it faithfully in charity."
                   ]
             },
             {
@@ -33,10 +37,10 @@
       "offertory": [
             {
                   "p": [
-                        "Sanctify, O Lord, the offerings we make",
-                        "on the Nativity of your Only Begotten Son,",
-                        "for by it you show us the way of truth",
-                        "and promise the life of the heavenly Kingdom."
+                        "Accept this sacrifice from your people, we pray, O Lord,",
+                        "and make what is offered for your glory,",
+                        "in honor of Saints Basil and Gregory,",
+                        "a means to our eternal salvation."
                   ]
             },
             {
@@ -46,24 +50,27 @@
             }
       ],
       "credo": "apostles_creed",
-      "communion_antiphon": {
-            "verse_number": "Cf. John ch. 1, v. 12",
-            "content": [
-                  {
-                        "p": [
-                              "To all who would accept him,",
-                              "he gave the power to become children of God."
-                        ]
-                  }
-            ]
-      },
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. 1 Corinthians ch. 1, vv. 23, 24",
+                  "content": [
+                        {
+                              "p": [
+                                    "We proclaim Christ crucified;",
+                                    "Christ, the power of God and the wisdom of God."
+                              ]
+                        }
+                  ]
+            }
+      ],
       "prayer_after_communion": [
             {
                   "p": [
-                        "Lord our God, we humbly ask you,",
-                        "that, through the working of this mystery,",
-                        "our offenses may be cleansed",
-                        "and our just desires fulfilled."
+                        "May partaking at the heavenly table, almighty God,",
+                        "confirm and increase strength from on high",
+                        "in all who celebrate the feast day of Saints Basil and Gregory,",
+                        "that we may preserve in integrity the gift of faith",
+                        "and walk in the path of salvation you trace for us."
                   ]
             },
             {
@@ -73,26 +80,28 @@
             }
       ],
       "readings": {
-            "first_reading": {
-                  "verse_number": "Zephaniah ch. 2, vv. 14 - 17",
-                  "content": [
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "Sing aloud, O daughter Zion; \nshout, O Israel!",
-                                    "Rejoice and exult with all your heart, \nO daughter Jerusalem!",
-                                    "The Lord has taken away the judgments against you, \nhe has turned away your enemies.",
-                                    "The king of Israel, the Lord, is in your midst; \nyou shall fear disaster no more.",
-                                    "On that day it shall be said to Jerusalem:",
-                                    "Do not fear, O Zion; \ndo not let your hands grow weak.",
-                                    "The Lord, your God, is in your midst, \na warrior who gives victory;",
-                                    "he will rejoice over you with gladness, \nhe will renew you in his love;",
-                                    "he will exult over you with loud singing."
-                              ]
-                        }
-                  ]
-            },
-            "responsorial_psalm": {
+            "first_reading": [
+                  {
+                        "verse_number": "Zephaniah ch. 2, vv. 14 - 17",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Sing aloud, O daughter Zion; \nshout, O Israel!",
+                                          "Rejoice and exult with all your heart, \nO daughter Jerusalem!",
+                                          "The Lord has taken away the judgments against you, \nhe has turned away your enemies.",
+                                          "The king of Israel, the Lord, is in your midst; \nyou shall fear disaster no more.",
+                                          "On that day it shall be said to Jerusalem:",
+                                          "Do not fear, O Zion; \ndo not let your hands grow weak.",
+                                          "The Lord, your God, is in your midst, \na warrior who gives victory;",
+                                          "he will rejoice over you with gladness, \nhe will renew you in his love;",
+                                          "he will exult over you with loud singing."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
                   "verse_number": "Judith ch. 13, vv. 18bcde, 19",
                   "response": "You are the highest honour of our race.",
                   "content": [
