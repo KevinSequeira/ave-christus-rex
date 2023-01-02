@@ -1,0 +1,279 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/holy_name_jesus.png')",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Philippians ch. 2, vv. 10, 11",
+                  "content": [
+                        {
+                              "p": [
+                                    "At the name of Jesus, every knee should bend,",
+                                    "of those in heaven and on earth and under the earth,",
+                                    "and every tongue confess",
+                                    "that Jesus Christ is Lord, to the glory of God the Father."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who founded the salvation of the human race",
+                        "on the Incarnation of your Word,",
+                        "give your peoples the mercy they implore,",
+                        "so that all may know there is no other name to be invoked",
+                        "but the Name of your Only Begotten Son."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Bringing you these offerings",
+                        "from what your bounty bestows on us,",
+                        "we pray, O Lord,",
+                        "that, just as you have given to Christ,",
+                        "obedient even until death, the Name that saves,",
+                        "so you may grant us protection by its power."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "nicene_creed",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Psalm 8, v. 2",
+                  "content": [
+                        {
+                              "p": [
+                                    "O Lord, our Lord, how majestic is your name",
+                                    "through all the earth!"
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May the sacrificial gifts offered to your majesty, O Lord,",
+                        "to honor Christ’s Name",
+                        "and which we have now received,",
+                        "fill us, we pray, with your abundant grace,",
+                        "so that we may come to rejoice",
+                        "that our names, too, are written in heaven."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Exodus ch. 3, vv. 11 - 15",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Moses said to God, “Who am I that I should go to Pharaoh, and bring the Israelites out of Egypt?”",
+                                          "He said, “I will be with you; and this shall be the sign for you that it is I who sent you:",
+                                          "when you have brought the people out of Egypt, you shall worship God on this mountain.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "But Moses said to God, “If I come to the Israelites and say to them, ‘The God of your ancestors",
+                                          "has sent me to you,’ and they ask me, ‘What is his name?’ what shall I say to them?”",
+                                          "God said to Moses, “I am who I am.” He said further, “Thus you shall say to the Israelites,",
+                                          "‘I am has sent me to you.’” God also said to Moses, “Thus you shall say to the Israelites,",
+                                          "‘The Lord, the God of your ancestors, the God of Abraham, the God of Isaac, and the God of Jacob,",
+                                          "has sent me to you’:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "This is my name forever,",
+                                          "and this my title for all generations.”"
+                                    ]
+                              }
+                        ]
+                  },
+                  {
+                        "verse_number": "Sirach ch. 51, vv. 8 - 12",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Then I remembered your mercy, O Lord, \nand your kindness from of old,",
+                                          "for you rescue those who wait for you \nand save them from the hand of their enemies.",
+                                          "And I sent up my prayer from the earth, \nand begged for rescue from death.",
+                                          "I cried out, “Lord, you are my Father; \ndo not forsake me in the days of trouble, \nwhen there is no help against the proud.",
+                                          "I will praise your name continually, \nand will sing hymns of thanksgiving.”",
+                                          "My prayer was heard, \nfor you saved me from destruction \nand rescued me in time of trouble.",
+                                          "For this reason I thank you and praise you, \nand I bless the name of the Lord."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 113, vv. 1 - 2, 3 - 4, 5 - 6",
+                  "response": "Blessed be the Name of the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Praise the Lord!",
+                                    "Praise, O servants of the Lord; \npraise the name of the Lord.",
+                                    "Blessed be the name of the Lord \nfrom this time on and forevermore."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "From the rising of the sun to its setting \nthe name of the Lord is to be praised.",
+                                    "The Lord is high above all nations, \nand his glory above the heavens."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Who is like the Lord our God, \nwho is seated on high,",
+                                    "who looks far down \non the heavens and the earth?"
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": [
+                  {
+                        "verse_number": "1 Corinthians ch. 1, vv. 1 - 3",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Paul, called to be an apostle of Christ Jesus by the will of God, and our brother Sosthenes,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "To the church of God that is in Corinth, to those who are sanctified in Christ Jesus,",
+                                          "called to be saints, together with all those who in every place call on the name of our Lord Jesus Christ,",
+                                          "both their Lord and ours:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Grace to you and peace from God our Father and the Lord Jesus Christ."
+                                    ]
+                              }
+                        ]
+                  },
+                  {
+                        "verse_number": "Philippians ch. 2, vv. 5 - 11",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Let the same mind be in you that was in Christ Jesus,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "who, though he was in the form of God, \ndid not regard equality with God \nas something to be exploited,",
+                                          "but emptied himself, \ntaking the form of a slave, \nbeing born in human likeness.",
+                                          "And being found in human form, \nhe humbled himself \nand became obedient to the point of death— \neven death on a cross."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Therefore God also highly exalted him \nand gave him the name \nthat is above every name,",
+                                          "so that at the name of Jesus \nevery knee should bend, \nin heaven and on earth and under the earth,",
+                                          "and every tongue should confess \nthat Jesus Christ is Lord, \nto the glory of God the Father."
+                                    ]
+                              }
+                        ]
+                  },
+                  {
+                        "verse_number": "Colossians ch. 3, vv. 12 - 17",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "As God’s chosen ones, holy and beloved, clothe yourselves with compassion, kindness, humility, meekness,",
+                                          "and patience. Bear with one another and, if anyone has a complaint against another, forgive each other;",
+                                          "just as the Lord has forgiven you, so you also must forgive. Above all, clothe yourselves with love,",
+                                          "which binds everything together in perfect harmony. And let the peace of Christ rule in your hearts,",
+                                          "to which indeed you were called in the one body. And be thankful. Let the word of Christ dwell in you richly;",
+                                          "teach and admonish one another in all wisdom; and with gratitude in your hearts sing psalms, hymns,",
+                                          "and spiritual songs to God. And whatever you do, in word or deed, do everything in the name of the Lord Jesus,",
+                                          "giving thanks to God the Father through him."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "gospel_acclamation": {
+                  "verse_number": "Daniel ch. 3, v. 52",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed are you, O Lord, God of our ancestors, \nand to be praised and highly exalted forever;",
+                                    "And blessed is your glorious, holy name, \nand to be highly praised and highly exalted forever."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 1, vv. 18 - 25",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Now the birth of Jesus the Messiah took place in this way. When his mother Mary had been engaged to Joseph,",
+                                    "but before they lived together, she was found to be with child from the Holy Spirit.",
+                                    "Her husband Joseph, being a righteous man and unwilling to expose her to public disgrace,",
+                                    "planned to dismiss her quietly. But just when he had resolved to do this, an angel of the Lord",
+                                    "appeared to him in a dream and said, “Joseph, son of David, do not be afraid to take Mary as your wife,",
+                                    "for the child conceived in her is from the Holy Spirit. She will bear a son, and you are to name him Jesus,",
+                                    "for he will save his people from their sins.” All this took place to fulfill what had been spoken by the Lord",
+                                    "through the prophet:"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Look, the virgin shall conceive and bear a son, \nand they shall name him Emmanuel,”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "which means, “God is with us.” When Joseph awoke from sleep, he did as the angel of the Lord commanded him;",
+                                    "he took her as his wife, but had no marital relations with her until she had borne a son; and he named him Jesus."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

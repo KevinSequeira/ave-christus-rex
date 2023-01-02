@@ -148,20 +148,22 @@
                         }
                   ]
             },
-            "second_reading": {
-                  "verse_number": "Galatians ch. 4, vv. 4 - 7",
-                  "content": [
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "Brothers and sisters: when the fullness of time had come, God sent his Son, born of a woman, born under the law,",
-                                    "in order to redeem those who were under the law, so that we might receive adoption as children.",
-                                    "And because you are children, God has sent the Spirit of his Son into our hearts, crying, “Abba! Father!”",
-                                    "So you are no longer a slave but a child, and if a child then also an heir, through God."
-                              ]
-                        }
-                  ]
-            },
+            "second_reading": [
+                  {
+                        "verse_number": "Galatians ch. 4, vv. 4 - 7",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: when the fullness of time had come, God sent his Son, born of a woman, born under the law,",
+                                          "in order to redeem those who were under the law, so that we might receive adoption as children.",
+                                          "And because you are children, God has sent the Spirit of his Son into our hearts, crying, “Abba! Father!”",
+                                          "So you are no longer a slave but a child, and if a child then also an heir, through God."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
             "gospel_acclamation": {
                   "verse_number": "Hebrews ch. 1, vv. 1, 2",
                   "acclamation": "Alleluia! Alleluia!",
