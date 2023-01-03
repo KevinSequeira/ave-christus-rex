@@ -1,78 +1,79 @@
 {
       "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_season_4th.jpg')",
+      "liturgy_background_position": "top",
       "year_a": {
             "first_reading": [
                   {
-                        "verse_number": "1 John ch. 3, vv. 7 - 10",
+                        "verse_number": "Judith ch. 8, vv. 2 - 8",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Little children, let no one deceive you. Everyone who does what is right is righteous,",
-                                          "just as he is righteous. Everyone who commits sin is a child of the devil;",
-                                          "for the devil has been sinning from the beginning. The Son of God was revealed for this purpose,",
-                                          "to destroy the works of the devil. Those who have been born of God do not sin,",
-                                          "because God’s seed abides in them; they cannot sin, because they have been born of God.",
-                                          "The children of God and the children of the devil are revealed in this way:",
-                                          "all who do not do what is right are not from God, nor are those who do not love their brothers and sisters."
+                                          "Judith’s husband Manasseh, who belonged to her tribe and family, had died during the barley harvest.",
+                                          "For as he stood overseeing those who were binding sheaves in the field, he was overcome by the burning heat,",
+                                          "and took to his bed and died in his town Bethulia. So they buried him with his ancestors in the field between Dothan and Balamon.",
+                                          "Judith remained as a widow for three years and four months at home where she set up a tent for herself on the roof of her house.",
+                                          "She put sackcloth around her waist and dressed in widow’s clothing. She fasted all the days of her widowhood,",
+                                          "except the day before the sabbath and the sabbath itself, the day before the new moon and the day of the new moon,",
+                                          "and the festivals and days of rejoicing of the house of Israel. She was beautiful in appearance, and was very lovely to behold.",
+                                          "Her husband Manasseh had left her gold and silver, men and women slaves, livestock, and fields; and she maintained this estate.",
+                                          "No one spoke ill of her, for she feared God with great devotion."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 98, vv. 1, 7 - 8, 9",
-                  "response": "All the ends of the earth have seen the saving power of God.",
+                  "verse_number": "Psalm 1, vv. 1 - 2, 3, 4 and 6",
+                  "response": "Blessed are they who hope in the Lord.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "O sing to the Lord a new song, \nfor he has done marvelous things.",
-                                    "His right hand and his holy arm \nhave gotten him victory."
+                                    "Happy are those \nwho do not follow the advice of the wicked,",
+                                    "or take the path that sinners tread, \nor sit in the seat of scoffers;",
+                                    "but their delight is in the law of the Lord, \nand on his law they meditate day and night."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Let the sea roar, and all that fills it; \nthe world and those who live in it.",
-                                    "Let the floods clap their hands; \nlet the hills sing together for joy \nat the presence of the Lord."
+                                    "They are like trees \nplanted by streams of water,",
+                                    "which yield their fruit in its season, \nand their leaves do not wither.",
+                                    "In all that they do, they prosper."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "For the Lord is coming \nto judge the earth.",
-                                    "He will judge the world with righteousness, \nand the peoples with equity."
+                                    "The wicked are not so, \nbut are like chaff that the wind drives away.",
+                                    "For the Lord watches over the way of the righteous, \nbut the way of the wicked will perish."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "Hebrews ch. 1, vv. 1, 2",
+                  "verse_number": "See Matthew ch. 11, v. 25",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "In the past, God spoke to our ancestors through the prophets; in these last days he has spoken to us through the Son."
+                                    "Blessed are you, Father, Lord of heaven and earth; you have revealed to little ones the mysteries of the Kingdom."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "John ch. 1, vv. 35 - 42",
+                  "verse_number": "Mark ch. 9, vv. 34 - 34",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "John again was standing with two of his disciples, and as he watched Jesus walk by, he exclaimed,",
-                                    "“Look, here is the Lamb of God!” The two disciples heard him say this, and they followed Jesus.",
-                                    "When Jesus turned and saw them following, he said to them, “What are you looking for?” They said to him,",
-                                    "“Rabbi” (which translated means Teacher), “where are you staying?” He said to them, “Come and see.”",
-                                    "They came and saw where he was staying, and they remained with him that day.",
-                                    "It was about four o’clock in the afternoon. One of the two who heard John speak and followed him was Andrew,",
-                                    "Simon Peter’s brother. He first found his brother Simon and said to him, “We have found the Messiah”",
-                                    "(which is translated Anointed). He brought Simon to Jesus, who looked at him and said,",
-                                    "“You are Simon son of John. You are to be called Cephas” (which is translated Peter)."
+                                    "Jesus’ disciples were arguing with one another who was the greatest. He sat down, called the twelve,",
+                                    "and said to them, “Whoever wants to be first must be last of all and servant of all.”",
+                                    "Then he took a little child and put it among them; and taking it in his arms,",
+                                    "he said to them, “Whoever welcomes one such child in my name welcomes me,",
+                                    "and whoever welcomes me welcomes not me but the one who sent me.”"
                               ]
                         }
                   ]

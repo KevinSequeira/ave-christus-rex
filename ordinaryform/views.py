@@ -816,6 +816,7 @@ def memorialfortheday(request, current_date = "2022-11-27"):
             commonPrayers = json.load(commonPrayers)
 
             context["memorial_background_image"] = jsonFile["saint_background_image"]
+            context["memorial_background_position"] = jsonFile["saint_background_position"] or "top"
 
             gloria_content = ""
             if (jsonFile["gloria"] == "yes"):

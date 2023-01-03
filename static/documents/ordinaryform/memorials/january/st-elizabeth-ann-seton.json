@@ -1,0 +1,178 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_elizabeth_ann_seton.png')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Proverbs ch. 31, vv. 1, 2",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold a wise woman who has built her house.",
+                                    "She feared the Lord and walked in the right path."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Psalms 24, v. 6",
+                  "content": [
+                        {
+                              "p": [
+                                    "This is the generation",
+                                    "which seeks the face of the God of Jacob."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who crowned with the gift of true faith",
+                        "Saint Elizabeth Ann Seton’s burning zeal to find you,",
+                        "grant by her intercession and example",
+                        "that we may always seek you with diligent love",
+                        "and find you in daily service with sincere faith."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "O Lord, we ask that you look graciously",
+                        "upon our gifts placed on your altar",
+                        "in celebration of Saint Elizabeth Ann Seton,",
+                        "and grant by the power at work in this sacrifice,",
+                        "that we may be more deeply inserted into the mystery of your Son."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": [
+            {
+                  "verse_number": "John ch. 6, v. 51",
+                  "content": [
+                        {
+                              "p": [
+                                    "I am the living bread from heaven, says the Lord.",
+                                    "Whoever eats this bread will live for ever;",
+                                    "the bread I shall give is my flesh for the life of the world."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "As we partake of the sacrament of our salvation,",
+                        "while recalling the memory of Saint Elizabeth Ann Seton,",
+                        "we humbly ask you, O Lord,",
+                        "that we may be inflamed with a burning desire for the heavenly table,",
+                        "and by its power consecrate our life faithfully to you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "1 John ch. 3, vv. 7 - 10",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Little children, let no one deceive you. Everyone who does what is right is righteous, just as he is righteous. Everyone who commits sin is a child of the devil; for the devil has been sinning from the beginning. The Son of God was revealed for this purpose, to destroy the works of the devil. Those who have been born of God do not sin, because God’s seed abides in them; they cannot sin, because they have been born of God. The children of God and the children of the devil are revealed in this way: all who do not do what is right are not from God, nor are those who do not love their brothers and sisters."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The gifts he gave were that some would be apostles, some prophets, some evangelists, some pastors and teachers,",
+                                          "to equip the saints for the work of ministry, for building up the body of Christ, until all of us come to the unity",
+                                          "of the faith and of the knowledge of the Son of God, to maturity, to the measure of the full stature of Christ."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 23, vv. 1b - 3a, 4, 5, 6",
+                  "response": "The Lord is my shepherd; there is nothing I shall want.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "He makes me lie down in green pastures;",
+                                    "he leads me beside still waters; \nhe restores my soul.",
+                                    "He leads me in right paths."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Even though I walk through the darkest valley, \nI fear no evil;",
+                                    "for you are with me; \nyour rod and your staff— \nthey comfort me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "You prepare a table before me \nin the presence of my enemies;",
+                                    "you anoint my head with oil; \nmy cup overflows."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Surely goodness and mercy shall follow me \nall the days of my life,",
+                                    "and I shall dwell in the house of the Lord \nmy whole life long."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "1 Corinthians ch. 2, v. 7",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "We speak God's wisdom, mysterious, hidden, which God predetermined before the ages for our glory."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 23, vv. 8 - 12",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “But you are not to be called rabbi, for you have one teacher,",
+                                    "and you are all students. And call no one your father on earth, for you have one Father—the one in heaven.",
+                                    "Nor are you to be called instructors, for you have one instructor, the Messiah.",
+                                    "The greatest among you will be your servant. All who exalt themselves will be humbled,",
+                                    "and all who humble themselves will be exalted.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}
