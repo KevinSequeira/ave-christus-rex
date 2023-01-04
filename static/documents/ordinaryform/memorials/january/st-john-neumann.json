@@ -1,0 +1,190 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_john_neumann.jpeg')",
+      "saint_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 16, vv. 5, 6",
+                  "content": [
+                        {
+                              "p": [
+                                    "O Lord, my allotted portion and my cup,",
+                                    "you it is who hold fast my lot.",
+                                    "For me the measuring lines have fallen on pleasant sites;",
+                                    "fair to me indeed is my inheritance."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who called the Bishop Saint John Neumann,",
+                        "renowned for his charity and pastoral service,",
+                        "to shepherd your people in America,",
+                        "grant by his intercession",
+                        "that, as we foster the Christian education of youth",
+                        "and are strengthened by the witness of brotherly love,",
+                        "we may constantly increase the family of your Church."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Merciful Father,",
+                        "look upon the gifts we have placed on your altar",
+                        "and grant that we may reflect",
+                        "the image of Christ your Son,",
+                        "just as you granted to Saint John Neumann",
+                        "to imitate what he celebrated."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Matthew ch. 19, v. 29",
+                  "content": [
+                        {
+                              "p": [
+                                    "Everyone who has given up home,",
+                                    "brothers, or sisters, father or mother,",
+                                    "wife or children or property for my sake",
+                                    "will receive many times as much and inherit everlasting life."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Refreshed by our participation in the memorial",
+                        "of the Death and Resurrection of your Son,",
+                        "we ask, O Lord,",
+                        "that by the example of Saint John Neumann,",
+                        "we may experience the power of this Sacrament",
+                        "and remain constantly in the Church",
+                        "by the bond of unity and truth."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Acts ch. 13, vv. 44 - 52",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The next sabbath almost the whole city gathered to hear the word of the Lord.",
+                                          "But when the Jews saw the crowds, they were filled with jealousy; and blaspheming,",
+                                          "they contradicted what was spoken by Paul. Then both Paul and Barnabas spoke out boldly, saying,",
+                                          "“It was necessary that the word of God should be spoken first to you.",
+                                          "Since you reject it and judge yourselves to be unworthy of eternal life,",
+                                          "we are now turning to the Gentiles. For so the Lord has commanded us, saying,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "‘I have set you to be a light for the Gentiles, \nso that you may bring salvation to the ends of the earth.’”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "When the Gentiles heard this, they were glad and praised the word of the Lord;",
+                                          "and as many as had been destined for eternal life became believers.",
+                                          "Thus the word of the Lord spread throughout the region. But the Jews incited the devout women",
+                                          "of high standing and the leading men of the city, and stirred up persecution against Paul and Barnabas,",
+                                          "and drove them out of their region. So they shook the dust off their feet in protest against them,",
+                                          "and went to Iconium. And the disciples were filled with joy and with the Holy Spirit."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 23, vv. 1 - 3a, 4, 5, 6",
+                  "response": "The Lord is my shepherd; there is nothing I shall want.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord is my shepherd, I shall not want. \nHe makes me lie down in green pastures;",
+                                    "he leads me beside still waters; \nhe restores my soul.",
+                                    "He leads me in right paths."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Even though I walk through the darkest valley, \nI fear no evil;",
+                                    "for you are with me; \nyour rod and your staff— \nthey comfort me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "You prepare a table before me \nin the presence of my enemies;",
+                                    "you anoint my head with oil; \nmy cup overflows."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Surely goodness and mercy shall follow me \nall the days of my life,",
+                                    "and I shall dwell in the house of the Lord \nmy whole life long."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 28, vv. 19a, 20bc",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Go, and teach all nations, says the Lord; I am with you always, until the end of the world."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 28, vv. 16 - 20",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "The eleven disciples went to Galilee, to the mountain to which Jesus had directed them.",
+                                    "When they saw him, they worshiped him; but some doubted. And Jesus came and said to them,",
+                                    "“All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations,",
+                                    "baptizing them in the name of the Father and of the Son and of the Holy Spirit,",
+                                    "and teaching them to obey everything that I have commanded you.",
+                                    "And remember, I am with you always, to the end of the age.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,77 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_season_5th.jpg')",
+      "liturgy_background_position": "top",
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "1 John ch. 3, vv. 11 - 21",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Little children, for this is the message you have heard from the beginning, that we should love one another. We must not be like Cain who was from the evil one and murdered his brother. And why did he murder him? Because his own deeds were evil and his brother’s righteous. Do not be astonished, brothers and sisters, that the world hates you. We know that we have passed from death to life because we love one another. Whoever does not love abides in death. All who hate a brother or sister are murderers, and you know that murderers do not have eternal life abiding in them. We know love by this, that he laid down his life for us—and we ought to lay down our lives for one another. How does God’s love abide in anyone who has the world’s goods and sees a brother or sister in need and yet refuses help?"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Little children, let us love, not in word or speech, but in truth and action. And by this we will know that we are from the truth and will reassure our hearts before him whenever our hearts condemn us; for God is greater than our hearts, and he knows everything. Beloved, if our hearts do not condemn us, we have boldness before God."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 100, vv. 1 - 2, 3, 4, 5",
+                  "response": "Let all the earth cry out to God with joy.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Make a joyful noise to the Lord, all the earth. \nWorship the Lord with gladness; \ncome into his presence with singing."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Know that the Lord is God. \nIt is he that made us, and we are his; \nwe are his people, and the sheep of his pasture."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Enter his gates with thanksgiving, \nand his courts with praise. \nGive thanks to him, bless his name."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For the Lord is good; \nhis steadfast love endures forever, \nand his faithfulness to all generations."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "A holy day has dawned upon us. Come, you nations, and adore the Lord. Today a great light has come upon the earth."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 1, vv. 43 - 51",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus decided to go to Galilee. He found Philip and said to him, “Follow me.” Now Philip was from Bethsaida, the city of Andrew and Peter. Philip found Nathanael and said to him, “We have found him about whom Moses in the law and also the prophets wrote, Jesus son of Joseph from Nazareth.” Nathanael said to him, “Can anything good come out of Nazareth?” Philip said to him, “Come and see.” When Jesus saw Nathanael coming toward him, he said of him, “Here is truly an Israelite in whom there is no deceit!” Nathanael asked him, “Where did you get to know me?” Jesus answered, “I saw you under the fig tree before Philip called you.” Nathanael replied, “Rabbi, you are the Son of God! You are the King of Israel!” Jesus answered, “Do you believe because I told you that I saw you under the fig tree? You will see greater things than these.” And he said to him, “Very truly, I tell you, you will see heaven opened and the angels of God ascending and descending upon the Son of Man.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}
