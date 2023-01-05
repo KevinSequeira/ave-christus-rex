@@ -1,5 +1,6 @@
 {
       "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_john_cantius.png')",
+      "saint_background_position": "top",
       "opening_antiphon": {
             "verse_number": "Cf. Psalm 132, v. 9",
             "content": [
@@ -104,7 +105,7 @@
                         ]
                   }
             ],
-            "responsorial_psalm": {
+            "first_responsorial_psalm": {
                   "verse_number": "Psalm 112, vv. 1bc - 2, 3 - 4, 5 - 7, 6 - 8, 9",
                   "response": "Blessed the man who fears the Lord.",
                   "content": [

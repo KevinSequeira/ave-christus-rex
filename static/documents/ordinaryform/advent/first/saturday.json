@@ -1,16 +1,19 @@
 {
       "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Season of Advent.jpg')",
-      "opening_antiphon": {
-            "verse_number": "Cf. Psalm 80, vv. 4, 2",
-            "content": [
-                  {
-                        "p": [
-                              "Come and show us your face, O Lord,",
-                              "who are seated upon the Cherubim, and we will be saved."
-                        ]
-                  }
-            ]
-      },
+      "liturgy_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 80, vv. 4, 2",
+                  "content": [
+                        {
+                              "p": [
+                                    "Come and show us your face, O Lord,",
+                                    "who are seated upon the Cherubim, and we will be saved."
+                              ]
+                        }
+                  ]
+            }
+      ],
       "gloria": "no",
       "collect": [
             {
@@ -46,18 +49,20 @@
             }
       ],
       "credo": "no",
-      "communion_antiphon": {
-            "verse_number": "Cf. Revelation ch. 22, v. 12",
-            "content": [
-                  {
-                        "p": [
-                              "Behold, I am coming soon",
-                              "and my recompense is with me, says the Lord,",
-                              "to bestow a reward according to the deeds of each."
-                        ]
-                  }
-            ]
-      },
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Revelation ch. 22, v. 12",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold, I am coming soon",
+                                    "and my recompense is with me, says the Lord,",
+                                    "to bestow a reward according to the deeds of each."
+                              ]
+                        }
+                  ]
+            }
+      ],
       "prayer_after_communion": [
             {
                   "p": [
@@ -74,41 +79,43 @@
             }
       ],
       "year_a": {
-            "first_reading": {
-                  "verse_number": "Isaiah ch. 30, vv. 19 - 21, 23 - 26",
-                  "content": [
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "Thus says the Lord, \nthe Holy One of Israel:"
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "Truly, O people in Zion, inhabitants of Jerusalem, you shall weep no more.",
-                                    "He will surely be gracious to you at the sound of your cry; when he hears it,",
-                                    "he will answer you. Though the Lord may give you the bread of adversity and the water of affliction,",
-                                    "yet your Teacher will not hide himself any more, but your eyes shall see your Teacher.",
-                                    "And when you turn to the right or when you turn to the left, your ears shall hear a word behind you,",
-                                    "saying, “This is the way; walk in it.”"
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "He will give rain for the seed with which you sow the ground, and grain, the produce of the ground,",
-                                    "which will be rich and plenteous. On that day your cattle will graze in broad pastures;",
-                                    "and the oxen and donkeys that till the ground will eat silage, which has been winnowed with shovel and fork.",
-                                    "On every lofty mountain and every high hill there will be brooks running with water—on a day of the great slaughter,",
-                                    "when the towers fall. Moreover the light of the moon will be like the light of the sun,",
-                                    "and the light of the sun will be sevenfold, like the light of seven days, on the day when the Lord binds up the injuries of his people,",
-                                    "and heals the wounds inflicted by his blow."
-                              ]
-                        }
-                  ]
-            },
-            "responsorial_psalm": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 30, vv. 19 - 21, 23 - 26",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Thus says the Lord, \nthe Holy One of Israel:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Truly, O people in Zion, inhabitants of Jerusalem, you shall weep no more.",
+                                          "He will surely be gracious to you at the sound of your cry; when he hears it,",
+                                          "he will answer you. Though the Lord may give you the bread of adversity and the water of affliction,",
+                                          "yet your Teacher will not hide himself any more, but your eyes shall see your Teacher.",
+                                          "And when you turn to the right or when you turn to the left, your ears shall hear a word behind you,",
+                                          "saying, “This is the way; walk in it.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "He will give rain for the seed with which you sow the ground, and grain, the produce of the ground,",
+                                          "which will be rich and plenteous. On that day your cattle will graze in broad pastures;",
+                                          "and the oxen and donkeys that till the ground will eat silage, which has been winnowed with shovel and fork.",
+                                          "On every lofty mountain and every high hill there will be brooks running with water—on a day of the great slaughter,",
+                                          "when the towers fall. Moreover the light of the moon will be like the light of the sun,",
+                                          "and the light of the sun will be sevenfold, like the light of seven days, on the day when the Lord binds up the injuries of his people,",
+                                          "and heals the wounds inflicted by his blow."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
                   "verse_number": "Psalm 147, vv. 1 - 2, 3 - 4, 5 - 6",
                   "response": "The Lord is my light and my salvation.",
                   "content": [

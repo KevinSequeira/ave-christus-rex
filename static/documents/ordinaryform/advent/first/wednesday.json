@@ -1,5 +1,6 @@
 {
       "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Season of Advent.jpg')",
+      "liturgy_background_position": "center",
       "opening_antiphon": {
             "verse_number": "Cf. Hebrews ch. 2, v. 3; 1 Corinth. ch. 4, v. 5",
             "content": [

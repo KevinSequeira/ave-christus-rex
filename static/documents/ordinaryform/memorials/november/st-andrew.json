@@ -1,5 +1,6 @@
 {
       "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/Vatican 002.jpg')",
+      "saint_background_position": "center",
       "opening_antiphon": {
             "verse_number": "Matthew ch. 4, vv. 18 - 19",
             "content": [
@@ -110,7 +111,7 @@
                         }
                   ]
             },
-            "responsorial_psalm": {
+            "first_responsorial_psalm": {
                   "verse_number": "Psalm 19, vv. 7, 8, 9, 10",
                   "response": "The judgements of the Lord are true, and all of them are just.",
                   "content": [

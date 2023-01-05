@@ -173,6 +173,7 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
     currentDateDimension = dateDimension.loc[dateDimension["Date"] == currentDate]
     currentDate = currentDateDimension.iloc[0]["Date"]
     previousDate = str(datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d') - timedelta(days = 1))[0:10]
+    currentDay = currentDateDimension.iloc[0]["Day"]
     currentWeekday = datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%A')
     previousWeekday = (datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d') - timedelta(days = 1)).strftime('%A')
     currentQualifyingMonth = datetime.strptime(currentDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
@@ -188,6 +189,7 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
     # Load context variables
     context = {
         "current_date": currentDate,
+        "current_day": currentDay,
         "current_weekday": currentWeekday,
         "previous_weekday": previousWeekday,
         "current_qualifying_month": currentQualifyingMonth,
@@ -257,12 +259,14 @@ def adventloader(context = {}):
 def advent(context = {}):
 
     try:
+        print(context["current_day"])
         jsonFile = ""
-        if ((context["current_qualifying_day"] > '16th')
+        if ((context["current_day"] > 16)
             & (context["current_qualifying_month"] == 'December')
             & (context["current_weekday"] != 'Sunday')):
             jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_qualifying_day'].lower()}.json")
         else:
+            print(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
             jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
         jsonFile = json.load(jsonFile)
 
@@ -270,6 +274,9 @@ def advent(context = {}):
         commonPrayers = json.load(commonPrayers)
 
         context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
+        context["liturgy_background_position"] = jsonFile["liturgy_background_position"]
+
+        print(context)
 
         gloria_content = ""
         if (jsonFile["gloria"] == "yes"):
@@ -288,7 +295,7 @@ def advent(context = {}):
         context["gloria_content"] = gloria_content
         context["collect"] = jsonFile["collect"]
         context["first_reading"] = jsonFile["year_a"]["first_reading"]
-        context["responsorial_psalm"] = jsonFile["year_a"]["responsorial_psalm"]
+        context["first_responsorial_psalm"] = jsonFile["year_a"]["first_responsorial_psalm"]
 
         second_reading_content = ""
         if ("second_reading" in jsonFile["year_a"]):
@@ -301,6 +308,7 @@ def advent(context = {}):
         context["credo_content"] = credo_content
         context["communion_antiphon"] = jsonFile["communion_antiphon"]
         context["prayer_after_communion"] = jsonFile["prayer_after_communion"]
+
     except:
         context["file_available"] = "no"
 
@@ -1013,6 +1021,7 @@ def memorialfortheday(request, current_date = "2022-11-27"):
                 return redirect("liturgyfortheday", f"{current_date}")
 
         try:
+            print(memorialShortName)
             jsonFile = open(f"./static/documents/ordinaryform/memorials/{memorialQualifyingMonth.lower()}/{memorialShortName}.json")
             jsonFile = json.load(jsonFile)
 

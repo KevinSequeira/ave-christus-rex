@@ -147,9 +147,9 @@
                               <h1 class="prayerBodyHeader">Responsorial Psalm</h1>
                               <p class="prayerBodyTagline"><i>the Faithful may sing the psalm together in praise of the Word of God if possible.
                                     However, alternatively, the psalm may be recited by the lector, while the Faithful may repeat the response after each verse.</i></p>
-                              <p class="prayerBodyResponse"><strong>Response:</strong> <i>{{ responsorial_psalm.response|linebreaksbr }}</i></p>
-                              <p class="prayerBodyVerses">{{ responsorial_psalm.verse_number }}</p>
-                              {% for p in responsorial_psalm.content %}
+                              <p class="prayerBodyResponse"><strong>Response:</strong> <i>{{ first_responsorial_psalm.response }}</i></p>
+                              <p class="prayerBodyVerses">{{ first_responsorial_psalm.verse_number }}</p>
+                              {% for p in first_responsorial_psalm.content %}
                               {% if p.content_type == "paragraph" %}
                               <p class="prayerBodyContent">
                                     {% for line in p.p %}
@@ -179,8 +179,9 @@
                               <h1 class="prayerBodyHeader">Second Reading</h1>
                               <p class="prayerBodyTagline"><i>The second reading, taken from the New Testament&rsquo;s Apostolic Epistles,
                                     follows on the theme of readings for the liturgy of the day.</i></p>
-                              <p class="prayerBodyVerses">{{ second_reading.verse_number }}</p>
-                              {% for p in second_reading.content %}
+                              {% for reading_content in second_reading %}
+                              <p class="prayerBodyVerses">{{ reading_content.verse_number }}</p>
+                              {% for p in reading_content.content %}
                               {% if p.content_type == "paragraph" %}
                               <p class="prayerBodyContent">
                                     {% for line in p.p %}
@@ -195,6 +196,10 @@
                                     </span><br>
                                     {% endfor %}
                               </p>
+                              {% endif %}
+                              {% endfor %}
+                              {% if not forloop.last %}
+                              <p class="readingContentOptionSeparator">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>or</strong></p>
                               {% endif %}
                               {% endfor %}
                         </div>

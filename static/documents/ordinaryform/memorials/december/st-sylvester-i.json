@@ -1,5 +1,6 @@
 {
       "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/Vatican 001.jpg')",
+      "saint_background_position": "top",
       "opening_antiphon": [
             {
                   "verse_number": "",
@@ -115,7 +116,7 @@
                         }
                   ]
             },
-            "responsorial_psalm": {
+            "first_responsorial_psalm": {
                   "verse_number": "Psalm 23, vv. 1 - 3a, 4, 5, 6",
                   "response": "The Lord is my shepherd; there is nothing I shall want.",
                   "content": [

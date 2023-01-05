@@ -1,5 +1,6 @@
 {
       "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/holy_innocents.png')",
+      "saint_background_position": "top",
       "opening_antiphon": [
             {
                   "verse_number": "",
@@ -109,7 +110,7 @@
                         ]
                   }
             ],
-            "responsorial_psalm": {
+            "first_responsorial_psalm": {
                   "verse_number": "Psalm 124, vv. 1 - 2, 3 - 4, 6cd - 7",
                   "response": "Our soul has been rescued like a bird from the fowler's snare.",
                   "content": [

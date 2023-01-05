@@ -1,5 +1,6 @@
 {
       "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_season_3rd.jpg')",
+      "liturgy_background_position": "center",
       "year_a": {
             "first_reading": [
                   {

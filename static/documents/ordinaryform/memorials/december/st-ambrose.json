@@ -1,5 +1,6 @@
 {
       "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_ambrose.png')",
+      "saint_background_position": "top",
       "opening_antiphon": {
             "verse_number": "Cf. Sirach ch. 15, v. 5",
             "content": [
@@ -92,7 +93,7 @@
                         }
                   ]
             },
-            "responsorial_psalm": {
+            "first_responsorial_psalm": {
                   "verse_number": "Psalm 89, vv. 1 - 2, 3 - 4, 20 - 21, 24 and 26",
                   "response": "For ever I will sing the goodness of the Lord.",
                   "content": [

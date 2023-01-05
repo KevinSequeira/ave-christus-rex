@@ -1,6 +1,7 @@
 {
 
       "saint_background_image": "linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_francis_xavier.png')",
+      "saint_background_position": "top",
       "opening_antiphon": {
             "verse_number": "Psalm 18, v. 15; Psalm 22, v. 13",
             "content": [
@@ -101,7 +102,7 @@
                         }
                   ]
             },
-            "responsorial_psalm": {
+            "first_responsorial_psalm": {
                   "verse_number": "Psalm 117, vv. 1bc, 2",
                   "response": "Go out to all the world and tell the Good News.",
                   "content": [

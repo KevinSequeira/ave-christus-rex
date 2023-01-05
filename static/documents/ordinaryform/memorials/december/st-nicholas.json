@@ -1,5 +1,6 @@
 {
       "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_nicholas_in_glory.png')",
+      "saint_background_position": "top",
       "opening_antiphon": {
             "verse_number": "Cf. Ezekiel ch. 34, vv. 11, 23 - 24",
             "content": [
@@ -111,7 +112,7 @@
                         }
                   ]
             },
-            "responsorial_psalm": {
+            "first_responsorial_psalm": {
                   "verse_number": "Psalm 40, vv. 1 and 3, 6 - 7a, 7b - 8, 9, 10",
                   "response": "Here I am, Lord; I come to do your will.",
                   "content": [

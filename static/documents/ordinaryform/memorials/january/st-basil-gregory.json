@@ -1,5 +1,6 @@
 {
       "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_basil_gregory.jpeg')",
+      "saint_background_position": "top",
       "opening_antiphon": [
             {
                   "verse_number": "Cf. Sirach ch. 44, vv. 15, 14",

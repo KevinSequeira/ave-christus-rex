@@ -1,16 +1,19 @@
 {
       "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Season of Advent.jpg')",
-      "opening_antiphon": {
-            "verse_number": "Cf. Psalm 119, vv. 151, 152",
-            "content": [
-                  {
-                        "p": [
-                              "You, O Lord, are close, and all your ways are truth.",
-                              "From of old I have known of your decrees, for you are eternal."
-                        ]
-                  }
-            ]
-      },
+      "liturgy_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 119, vv. 151, 152",
+                  "content": [
+                        {
+                              "p": [
+                                    "You, O Lord, are close, and all your ways are truth.",
+                                    "From of old I have known of your decrees, for you are eternal."
+                              ]
+                        }
+                  ]
+            }
+      ],
       "gloria": "no",
       "collect": [
             {
@@ -45,18 +48,20 @@
             }
       ],
       "credo": "no",
-      "communion_antiphon": {
-            "verse_number": "Titus ch. 2, vv. 12, 13",
-            "content": [
-                  {
-                        "p": [
-                              "Let us live justly and devoutly in this age,",
-                              "as we await the blessed hope",
-                              "and the coming of the glory of our great God."
-                        ]
-                  }
-            ]
-      },
+      "communion_antiphon": [
+            {
+                  "verse_number": "Titus ch. 2, vv. 12, 13",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let us live justly and devoutly in this age,",
+                                    "as we await the blessed hope",
+                                    "and the coming of the glory of our great God."
+                              ]
+                        }
+                  ]
+            }
+      ],
       "prayer_after_communion": [
             {
                   "p": [
@@ -76,30 +81,32 @@
             }
       ],
       "year_a": {
-            "first_reading": {
-                  "verse_number": "Isaiah ch. 26, vv. 1 - 6",
-                  "content": [
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "On that day this song will be sung in the land of Judah:"
-                              ]
-                        },
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "Open the gates, \nso that the righteous nation that keeps faith \nmay enter in.",
-                                    "Those of steadfast mind you keep in peace— \nin peace because they trust in you.",
-                                    "Trust in the Lord for ever, \nfor in the Lord God \nyou have an everlasting rock.",
-                                    "For he has brought low \nthe inhabitants of the height; \nthe lofty city he lays low.",
-                                    "He lays it low to the ground, \ncasts it to the dust.",
-                                    "The foot tramples it, \nthe feet of the poor,",
-                                    "the steps of the needy."
-                              ]
-                        }
-                  ]
-            },
-            "responsorial_psalm": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 26, vv. 1 - 6",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "On that day this song will be sung in the land of Judah:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Open the gates, \nso that the righteous nation that keeps faith \nmay enter in.",
+                                          "Those of steadfast mind you keep in peace— \nin peace because they trust in you.",
+                                          "Trust in the Lord for ever, \nfor in the Lord God \nyou have an everlasting rock.",
+                                          "For he has brought low \nthe inhabitants of the height; \nthe lofty city he lays low.",
+                                          "He lays it low to the ground, \ncasts it to the dust.",
+                                          "The foot tramples it, \nthe feet of the poor,",
+                                          "the steps of the needy."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
                   "verse_number": "Psalm 118, vv. 1 and 8 - 9, 19 - 21, 25 - 27a",
                   "response": "Blessed is he who comes in the name of the Lord.",
                   "content": [

@@ -1,5 +1,6 @@
 {
       "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_stephen_protomartyr.png')",
+      "saint_background_position": "top",
       "opening_antiphon": [
             {
                   "verse_number": "",
@@ -107,7 +108,7 @@
                         ]
                   }
             ],
-            "responsorial_psalm": {
+            "first_responsorial_psalm": {
                   "verse_number": "Psalm 31, vv. 2cd - 3, 5 and 7ab, 15bc and 16",
                   "response": "Into your hands, O Lord, I commend my spirit.",
                   "content": [

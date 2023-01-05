@@ -1,5 +1,6 @@
 {
       "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_peter_canisius.png')",
+      "saint_background_position": "top",
       "opening_antiphon": {
             "verse_number": "Sirach ch. 15, v. 5",
             "content": [
@@ -120,7 +121,7 @@
                         ]
                   }
             ],
-            "responsorial_psalm": {
+            "first_responsorial_psalm": {
                   "verse_number": "Psalm 37, vv. 3 - 4, 5 - 6, 30 - 31",
                   "response": "The mouth of the just murmurs wisdom.",
                   "content": [

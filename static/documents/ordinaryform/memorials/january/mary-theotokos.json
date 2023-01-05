@@ -1,5 +1,6 @@
 {
       "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/theotokos.png')",
+      "saint_background_position": "top",
       "opening_antiphon": [
             {
                   "verse_number": "",

@@ -1,5 +1,6 @@
 {
       "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/immaculate_conception.png')",
+      "saint_background_position": "top",
       "opening_antiphon": {
             "verse_number": "Isaiah ch. 61, v. 10",
             "content": [
@@ -115,7 +116,7 @@
                         }
                   ]
             },
-            "responsorial_psalm": {
+            "first_responsorial_psalm": {
                   "verse_number": "Psalm 98, vv. 1, 2 - 3a, 3b - 4",
                   "response": "Sing to the Lord a new song, for he has done marvelous deeds.",
                   "content": [

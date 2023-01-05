@@ -1,16 +1,19 @@
 {
       "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Season of Advent.jpg')",
-      "opening_antiphon": {
-            "verse_number": "",
-            "content": [
-                  {
-                        "p": [
-                              "Behold, the Lord will come descending with splendor to visit his people with peace,",
-                              "and he will bestow on them eternal life."
-                        ]
-                  }
-            ]
-      },
+      "liturgy_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold, the Lord will come descending with splendor to visit his people with peace,",
+                                    "and he will bestow on them eternal life."
+                              ]
+                        }
+                  ]
+            }
+      ],
       "gloria": "no",
       "collect": [
             {
@@ -45,18 +48,20 @@
             }
       ],
       "credo": "no",
-      "communion_antiphon": {
-            "verse_number": "Cf. Philippians ch. 3, vv. 20, 21",
-            "content": [
-                  {
-                        "p": [
-                              "We await a savior, the Lord Jesus Christ,",
-                              "who will change our mortal bodies,",
-                              "to conform with his glorified body."
-                        ]
-                  }
-            ]
-      },
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Philippians ch. 3, vv. 20, 21",
+                  "content": [
+                        {
+                              "p": [
+                                    "We await a savior, the Lord Jesus Christ,",
+                                    "who will change our mortal bodies,",
+                                    "to conform with his glorified body."
+                              ]
+                        }
+                  ]
+            }
+      ],
       "prayer_after_communion": [
             {
                   "p": [
@@ -74,38 +79,40 @@
             }
       ],
       "year_a": {
-            "first_reading": {
-                  "verse_number": "Isaiah ch. 29, vv. 17 - 24",
-                  "content": [
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "Shall not Lebanon in a very little while \nbecome a fruitful field, \nand the fruitful field be regarded as a forest?",
-                                    "On that day the deaf shall hear \nthe words of a scroll,",
-                                    "and out of their gloom and darkness \nthe eyes of the blind shall see.",
-                                    "The meek shall obtain fresh joy in the Lord, \nand the neediest people shall exult in the Holy One of Israel.",
-                                    "For the tyrant shall be no more, \nand the scoffer shall cease to be; \nall those alert to do evil shall be cut off—",
-                                    "those who cause a person to lose a lawsuit, \nwho set a trap for the arbiter in the gate, \nand without grounds deny justice to the one in the right."
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "Therefore thus says the Lord, who redeemed Abraham, concerning the house of Jacob:"
-                              ]
-                        },
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "No longer shall Jacob be ashamed, \nno longer shall his face grow pale.",
-                                    "For when he sees his children, \nthe work of my hands, in his midst, \nthey will sanctify my name;",
-                                    "they will sanctify the Holy One of Jacob, \nand will stand in awe of the God of Israel.",
-                                    "And those who err in spirit will come to understanding, \nand those who grumble will accept instruction."
-                              ]
-                        }
-                  ]
-            },
-            "responsorial_psalm": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 29, vv. 17 - 24",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Shall not Lebanon in a very little while \nbecome a fruitful field, \nand the fruitful field be regarded as a forest?",
+                                          "On that day the deaf shall hear \nthe words of a scroll,",
+                                          "and out of their gloom and darkness \nthe eyes of the blind shall see.",
+                                          "The meek shall obtain fresh joy in the Lord, \nand the neediest people shall exult in the Holy One of Israel.",
+                                          "For the tyrant shall be no more, \nand the scoffer shall cease to be; \nall those alert to do evil shall be cut off—",
+                                          "those who cause a person to lose a lawsuit, \nwho set a trap for the arbiter in the gate, \nand without grounds deny justice to the one in the right."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Therefore thus says the Lord, who redeemed Abraham, concerning the house of Jacob:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "No longer shall Jacob be ashamed, \nno longer shall his face grow pale.",
+                                          "For when he sees his children, \nthe work of my hands, in his midst, \nthey will sanctify my name;",
+                                          "they will sanctify the Holy One of Jacob, \nand will stand in awe of the God of Israel.",
+                                          "And those who err in spirit will come to understanding, \nand those who grumble will accept instruction."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
                   "verse_number": "Psalm 27, vv. 1, 4, 13 - 14",
                   "response": "The Lord is my light and my salvation.",
                   "content": [
