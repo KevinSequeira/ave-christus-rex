@@ -466,7 +466,7 @@ def christmasloader(context = {}):
     except:
         context["file_available"] = "no"
 
-        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_background_002.jpg')"
+        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6) ), url('../../../static/images/saints/white_background_001.jpg')"
 
     return context
 
@@ -618,7 +618,7 @@ def christmas(context = {}):
         context["communion_antiphon"] = ""
         context["prayer_after_communion"] = ""
 
-        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_background_002.jpg')"
+        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6) ), url('../../../static/images/saints/white_background_001.jpg')"
 
     return context
 
@@ -809,7 +809,7 @@ def epiphaneyloader(context):
     except:
         context["file_available"] = "no"
 
-        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_background_002.jpg')"
+        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6) ), url('../../../static/images/saints/white_background_001.jpg')"
 
     return context
 
@@ -897,7 +897,7 @@ def epiphany(context = {}):
         context["communion_antiphon"] = ""
         context["prayer_after_communion"] = ""
 
-        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_background_002.jpg')"
+        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6) ), url('../../../static/images/saints/white_background_001.jpg')"
 
     return context
 
