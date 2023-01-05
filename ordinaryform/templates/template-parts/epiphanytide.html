@@ -1,0 +1,8 @@
+{% load static %}
+{% block head %}
+{% endblock %}
+{% if month == "January" and row.1 == "6th" %}
+{% include 'template-parts/epiphany.html' %}
+{% elif month == "January" and row.1 > "6th" %}
+{% include 'template-parts/epiphanydays.html' %}
+{% endif %}

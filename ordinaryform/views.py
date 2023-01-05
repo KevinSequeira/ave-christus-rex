@@ -220,6 +220,8 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
         context = advent(context)
     elif (currentSeasonShort == "christmas"):
         context = christmas(context)
+    elif (currentSeasonShort == "epiphany"):
+        context = epiphany(context)
 
     templateFileName = "sunday"
     if (currentWeekday == "Sunday"):
@@ -805,6 +807,94 @@ def epiphaneyloader(context):
     return context
 
 
+def epiphany(context = {}):
+
+    try:
+        jsonFile = ""
+        if (context["current_qualifying_month"] == "January"):
+            if (context["current_qualifying_day"] == "6th"):
+                jsonFile = open(f"./static/documents/ordinaryform/memorials/january/epiphany.json")
+
+            elif (context["current_qualifying_day"] > "6th"):
+                jsonFile = open(f"./static/documents/ordinaryform/epiphany/{context['current_qualifying_day'].lower()}.json")
+
+        jsonFile = json.load(jsonFile)
+
+        commonPrayers = open(f"./static/documents/ordinaryform/commonprayers.json")
+        commonPrayers = json.load(commonPrayers)
+
+        context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
+        context["liturgy_background_position"] = jsonFile["liturgy_background_position"] or "top"
+
+        gloria_content = ""
+        if (jsonFile["gloria"] == "yes"):
+            gloria_content = commonPrayers["gloria"]
+
+        credo_content = ""
+        if (jsonFile["credo"] == "apostles_creed"):
+            credo_content = commonPrayers["apostles_creed"]
+        elif (jsonFile["credo"] == "nicene_creed"):
+            credo_content = commonPrayers["nicene_creed"]
+
+        context["file_available"] = "yes"
+
+        context["opening_antiphon"] = jsonFile["opening_antiphon"]
+        context["gloria"] = jsonFile["gloria"]
+        context["gloria_content"] = gloria_content
+        context["collect"] = jsonFile["collect"]
+        context["first_reading"] = jsonFile["year_a"]["first_reading"]
+        context["first_responsorial_psalm"] = jsonFile["year_a"]["first_responsorial_psalm"]
+
+        second_reading_content = ""
+        if ("second_reading" in jsonFile["year_a"]):
+            context["second_reading"] = jsonFile["year_a"]["second_reading"]
+            context["second_responsorial_psalm"] = jsonFile["year_a"]["second_responsorial_psalm"]
+
+        third_reading_content = ""
+        if ("third_reading" in jsonFile["year_a"]):
+            context["third_reading"] = jsonFile["year_a"]["third_reading"]
+            context["third_responsorial_psalm"] = jsonFile["year_a"]["third_responsorial_psalm"]
+
+        fourth_reading_content = ""
+        if ("fourth_reading" in jsonFile["year_a"]):
+            context["fourth_reading"] = jsonFile["year_a"]["fourth_reading"]
+            context["fourth_responsorial_psalm"] = jsonFile["year_a"]["fourth_responsorial_psalm"]
+
+        context["gospel_acclamation"] = jsonFile["year_a"]["gospel_acclamation"]
+        context["gospel_reading"] = jsonFile["year_a"]["gospel_reading"]
+        context["offertory"] = jsonFile["offertory"]
+        context["credo"] = jsonFile["credo"]
+        context["credo_content"] = credo_content
+        context["communion_antiphon"] = jsonFile["communion_antiphon"]
+        context["prayer_after_communion"] = jsonFile["prayer_after_communion"]
+
+    except:
+        context["file_available"] = "no"
+
+        context["opening_antiphon"] = ""
+        context["gloria"] = ""
+        context["gloria_content"] = ""
+        context["collect"] = ""
+        context["first_reading"] = ""
+        context["first_responsorial_psalm"] = ""
+        context["second_reading"] = ""
+        context["second_responsorial_psalm"] = ""
+        context["third_reading"] = ""
+        context["third_responsorial_psalm"] = ""
+        context["fourth_reading"] = ""
+        context["gospel_acclamation"] = ""
+        context["gospel_reading"] = ""
+        context["offertory"] = ""
+        context["credo"] = ""
+        context["credo_content"] = ""
+        context["communion_antiphon"] = ""
+        context["prayer_after_communion"] = ""
+
+        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_background.jpg')"
+
+    return context
+
+
 def epiphanycalendar(context = {}):
 
     # Load the date dimension table
@@ -819,10 +909,10 @@ def epiphanycalendar(context = {}):
     # monthsInTheSeason = currentSeasonCalendar["Date"].apply(lambda string: datetime.strptime(string, '%Y-%m-%d').strftime('%m')).unique()
     monthsInTheSeason = currentSeasonCalendar["Month"].unique().tolist()
 
-    calendarDictionary = {}
+    calendarDictionary = context["calendar_dictionary"]
     # Get data for each day for each month in the Season
     for month in monthsInTheSeason:
-        calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")] = []
+        # calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")] = []
         tempDataFrame = currentSeasonCalendar.loc[currentSeasonCalendar["Month"] == month]
         for index, row in tempDataFrame.iterrows():
             calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")].append(row[["Date", "Qualifying Day", "Season", "Qualifying Weekday", "Week", "Feast Day", "Feast Class", "Feast Short", "Season Short"]].tolist())

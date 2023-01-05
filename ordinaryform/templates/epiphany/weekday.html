@@ -41,11 +41,10 @@
                   <!-- Main component for a primary marketing message or call to action -->
                   <div class="jumbotron jumbotronBackground">
                         <div class="liturgyForTheDay">
-                              <p class="liturgyForTheDayForm">{{ memorial_weekday }}, {{ memorial_qualifying_day }} {{ memorial_qualifying_month }}, {{ memorial_year }}</p>
-                              <h1 class="liturgyForTheDayHeader">Solemnity of the Day</h1>
-                              <p class="liturgyForTheDayWeek"><span>{{ memorial_name }}</span>
-                                    <!-- <br>{{ memorial_class }}-->
-                              </p>
+                              <p class="liturgyForTheDayForm">{{ current_weekday }}, {{ current_qualifying_day }} {{ current_qualifying_month }}, {{ current_year }}</p>
+                              <h1 class="liturgyForTheDayHeader">Liturgy for the Day</h1>
+                              <p class="liturgyForTheDayWeek">{{ current_week }} Day in {{ current_season }}
+                                    <br>Year {{ current_cycle }}</p>
                         </div>
                   </div>
 
@@ -146,7 +145,7 @@
                         </div>
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Responsorial Psalm</h1>
-                              <p class="prayerBodyTagline"><i>the Faithful may sing the psalm together in praise of the Word of God if possible.
+                              <p class="prayerBodyTagline"><i>The Faithful may sing the psalm together in praise of the Word of God if possible.
                                     However, alternatively, the psalm may be recited by the lector, while the Faithful may repeat the response after each verse.</i></p>
                               <p class="prayerBodyResponse"><strong>Response:</strong> <i>{{ first_responsorial_psalm.response|linebreaksbr }}</i></p>
                               <p class="prayerBodyVerses">{{ first_responsorial_psalm.verse_number }}</p>
@@ -175,14 +174,13 @@
                               {% endif %}
                               {% endfor %}
                         </div>
-                        {% if second_reading_content != "" %}
+                        {% if second_reading_content == "" %}
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Second Reading</h1>
                               <p class="prayerBodyTagline"><i>The second reading, taken from the New Testament&rsquo;s Apostolic Epistles,
                                     follows on the theme of readings for the liturgy of the day.</i></p>
-                              {% for reading_content in first_reading %}
-                              <p class="prayerBodyVerses">{{ reading_content.verse_number }}</p>
-                              {% for p in reading_content.content %}
+                              <p class="prayerBodyVerses">{{ second_reading.verse_number }}</p>
+                              {% for p in second_reading.content %}
                               {% if p.content_type == "paragraph" %}
                               <p class="prayerBodyContent">
                                     {% for line in p.p %}
@@ -197,10 +195,6 @@
                                     </span><br>
                                     {% endfor %}
                               </p>
-                              {% endif %}
-                              {% endfor %}
-                              {% if not forloop.last %}
-                              <p class="readingContentOptionSeparator">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>or</strong></p>
                               {% endif %}
                               {% endfor %}
                         </div>
@@ -276,7 +270,7 @@
                               <h1 class="prayerBodyHeader">Communion Antiphon</h1>
                               <p class="prayerBodyTagline"><i>This antiphon is sung or recited when the celebrant descends from the altar to the edge of the sanctuary to
                                     feed the Faithful with Holy Communion. The antiphon may be repeated, or replaced with an appropriate hymn.</i></p>
-                                    {% for antiphon in communion_antiphon %}
+                              {% for antiphon in communion_antiphon %}
                               <p class="prayerBodyVerses">{{ antiphon.verse_number }}</p>
                               {% for paragraph in antiphon.content %}
                               <p class="prayerBodyContent">
@@ -327,13 +321,12 @@
             <style>
                   {% autoescape off %}
                   .jumbotronBackground {
-                        background: {{ memorial_background_image }};
-                        background-position: {{ memorial_background_position }};
+                        background: {{ liturgy_background_image }};
+                        background-position: {{ liturgy_background_position }};
                         background-size: cover;
                   }
                   {% endautoescape %}
             </style>
             <link href="{% static 'css/footer.css' %}" rel="stylesheet">
-
       </body>
 </html>
