@@ -9,13 +9,13 @@
             {{ row.3 }}
       </div> -->
       <div class="col-xs-3 calendarCellColumn secondColumn">
-            
+
       </div>
       <div class="col-xs-3 calendarCellColumn thirdColumn">
             {% if row.7 == "" %}
 
             {% else %}
-            <a class="liturgyForTheDayLink" href="{% url 'liturgyfortheday' row.0 %}">Solemnity, Epiphany of our Lord Jesus Christ</a>
+            <a class="liturgyForTheDayLink" href="{% url 'liturgyfortheday' row.0 %}" target="_blank">Solemnity, Epiphany of our Lord Jesus Christ</a>
             {% endif %}
       </div>
 </div>
