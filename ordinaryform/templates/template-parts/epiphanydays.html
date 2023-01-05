@@ -9,12 +9,10 @@
             {{ row.3 }}
       </div> -->
       <div class="col-xs-3 calendarCellColumn secondColumn">
-            {% if row.1 == "6th" %}
-            {{ row.3 }} after Epiphany in {{ row.2 }}
-            {% elif row.3 == "Sunday" %}
-            <!-- {{ row.3 }}, {{ row.4 }} Day of {{ row.2 }} -->
+            {% if row.3 == "Sunday" %}
+            {{ row.3 }} after Epiphany in Christmas Season
             {% else %}
-            <a class="liturgyForTheDayLink" href="{% url 'liturgyfortheday' row.0 %}" target="_blank">{{ row.3 }} after Epiphany in {{ row.2 }}</a>
+            <a class="liturgyForTheDayLink" href="{% url 'liturgyfortheday' row.0 %}" target="_blank">{{ row.3 }} after Epiphany in Christmas Season</a>
             {% endif %}
       </div>
       <div class="col-xs-3 calendarCellColumn thirdColumn">

@@ -83,26 +83,49 @@
       "readings": {
             "first_reading": [
                   {
-                        "verse_number": "Isaiah ch. 60, vv. 1 - 6",
+                        "verse_number": "Exodus ch. 3, vv. 11 - 15",
                         "content": [
                               {
-                                    "content_type": "stanza",
+                                    "content_type": "paragraph",
                                     "p": [
-                                          "Arise, shine; for your light has come, \nand the glory of the Lord has risen upon you.",
-                                          "For darkness shall cover the earth, \nand thick darkness the peoples;",
-                                          "but the Lord will arise upon you, \nand his glory will appear over you.",
-                                          "Nations shall come to your light, \nand kings to the brightness of your dawn."
+                                          "Moses said to God, “Who am I that I should go to Pharaoh, and bring the Israelites out of Egypt?”",
+                                          "He said, “I will be with you; and this shall be the sign for you that it is I who sent you:",
+                                          "when you have brought the people out of Egypt, you shall worship God on this mountain.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "But Moses said to God, “If I come to the Israelites and say to them, ‘The God of your ancestors",
+                                          "has sent me to you,’ and they ask me, ‘What is his name?’ what shall I say to them?”",
+                                          "God said to Moses, “I am who I am.” He said further, “Thus you shall say to the Israelites,",
+                                          "‘I am has sent me to you.’” God also said to Moses, “Thus you shall say to the Israelites,",
+                                          "‘The Lord, the God of your ancestors, the God of Abraham, the God of Isaac, and the God of Jacob,",
+                                          "has sent me to you’:"
                                     ]
                               },
                               {
                                     "content_type": "stanza",
                                     "p": [
-                                          "Lift up your eyes and look around; \nthey all gather together, they come to you;",
-                                          "your sons shall come from far away, \nand your daughters shall be carried on their nurses’ arms.",
-                                          "Then you shall see and be radiant; \nyour heart shall thrill and rejoice,",
-                                          "because the abundance of the sea shall be brought to you, \nthe wealth of the nations shall come to you.",
-                                          "A multitude of camels shall cover you, \nthe young camels of Midian and Ephah; \nall those from Sheba shall come.",
-                                          "They shall bring gold and frankincense, \nand shall proclaim the praise of the Lord."
+                                          "This is my name forever,",
+                                          "and this my title for all generations.”"
+                                    ]
+                              }
+                        ]
+                  },
+                  {
+                        "verse_number": "Sirach ch. 51, vv. 8 - 12",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Then I remembered your mercy, O Lord, \nand your kindness from of old,",
+                                          "for you rescue those who wait for you \nand save them from the hand of their enemies.",
+                                          "And I sent up my prayer from the earth, \nand begged for rescue from death.",
+                                          "I cried out, “Lord, you are my Father; \ndo not forsake me in the days of trouble, \nwhen there is no help against the proud.",
+                                          "I will praise your name continually, \nand will sing hymns of thanksgiving.”",
+                                          "My prayer was heard, \nfor you saved me from destruction \nand rescued me in time of trouble.",
+                                          "For this reason I thank you and praise you, \nand I bless the name of the Lord."
                                     ]
                               }
                         ]

@@ -44,7 +44,11 @@
                               <p class="liturgyForTheDayForm">{{ memorial_weekday }}, {{ memorial_qualifying_day }} {{ memorial_qualifying_month }}, {{ memorial_year }}</p>
                               <h1 class="liturgyForTheDayHeader">Solemnity of the Day</h1>
                               <p class="liturgyForTheDayWeek"><span>{{ memorial_name }}</span>
-                                    <!-- <br>{{ memorial_class }}-->
+                                    <br>{% if memorial_cycle == "" %}
+
+                                    {% else %}
+                                          Year {{ memorial_cycle }}
+                                    {% endif %}
                               </p>
                         </div>
                   </div>

@@ -216,6 +216,9 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
             return redirect("memorialfortheday", f"{current_date}")
         elif (currentQualifyingDay == "6th"):
             return redirect("memorialfortheday", f"{current_date}")
+        elif ((currentQualifyingDay in ("7th", "8th", "9th", "10th", "11th", "12th", "13th"))
+            & (currentWeekday == "Sunday")):
+            return redirect("memorialfortheday", f"{current_date}")
 
     # Add season-specific context variables
     if (currentSeasonShort == "advent"):
@@ -259,14 +262,12 @@ def adventloader(context = {}):
 def advent(context = {}):
 
     try:
-        print(context["current_day"])
         jsonFile = ""
         if ((context["current_day"] > 16)
             & (context["current_qualifying_month"] == 'December')
             & (context["current_weekday"] != 'Sunday')):
             jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_qualifying_day'].lower()}.json")
         else:
-            print(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
             jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
         jsonFile = json.load(jsonFile)
 
@@ -275,8 +276,6 @@ def advent(context = {}):
 
         context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
         context["liturgy_background_position"] = jsonFile["liturgy_background_position"]
-
-        print(context)
 
         gloria_content = ""
         if (jsonFile["gloria"] == "yes"):
@@ -467,7 +466,7 @@ def christmasloader(context = {}):
     except:
         context["file_available"] = "no"
 
-        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_background.jpg')"
+        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_background_002.jpg')"
 
     return context
 
@@ -619,7 +618,7 @@ def christmas(context = {}):
         context["communion_antiphon"] = ""
         context["prayer_after_communion"] = ""
 
-        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_background.jpg')"
+        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_background_002.jpg')"
 
     return context
 
@@ -810,7 +809,7 @@ def epiphaneyloader(context):
     except:
         context["file_available"] = "no"
 
-        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_background.jpg')"
+        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_background_002.jpg')"
 
     return context
 
@@ -898,7 +897,7 @@ def epiphany(context = {}):
         context["communion_antiphon"] = ""
         context["prayer_after_communion"] = ""
 
-        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_background.jpg')"
+        context["liturgy_background_image"] = "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_background_002.jpg')"
 
     return context
 
@@ -997,6 +996,7 @@ def memorialfortheday(request, current_date = "2022-11-27"):
             "memorial_year": memorialYear,
             "memorial_name": memorialName,
             "memorial_class": memorialClass,
+            "memorial_cycle": "",
             "memorial_image": memorialImage
         }
 
@@ -1019,9 +1019,13 @@ def memorialfortheday(request, current_date = "2022-11-27"):
                 return redirect("christmasliturgies", current_date = current_date, liturgy = 'christmas-vigil')
             else:
                 return redirect("liturgyfortheday", f"{current_date}")
+        elif (memorialQualifyingMonth == "January"):
+            if (memorialQualifyingDay == "6th"):
+                context["memorial_cycle"] = "A, B, C"
+            elif (memorialShortName in ("baptism")):
+                context["memorial_cycle"] = memorialDateDimension.iloc[0]["Year Cycle"]
 
         try:
-            print(memorialShortName)
             jsonFile = open(f"./static/documents/ordinaryform/memorials/{memorialQualifyingMonth.lower()}/{memorialShortName}.json")
             jsonFile = json.load(jsonFile)
 
