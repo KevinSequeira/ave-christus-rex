@@ -3,30 +3,28 @@
       "saint_background_position": "center",
       "opening_antiphon": [
             {
-                  "verse_number": "Psalm 16, vv. 5, 6",
+                  "verse_number": "Cf. Psalm 132, v. 9",
                   "content": [
                         {
                               "p": [
-                                    "O Lord, my allotted portion and my cup,",
-                                    "you it is who hold fast my lot.",
-                                    "For me the measuring lines have fallen on pleasant sites;",
-                                    "fair to me indeed is my inheritance."
+                                    "Your priests, O Lord, shall be clothed with justice;",
+                                    "your holy ones shall ring out their joy."
                               ]
                         }
                   ]
             }
       ],
-      "gloria": "yes",
+      "gloria": "no",
       "collect": [
             {
                   "p": [
-                        "O God, who called the Bishop Saint John Neumann,",
-                        "renowned for his charity and pastoral service,",
-                        "to shepherd your people in America,",
-                        "grant by his intercession",
-                        "that, as we foster the Christian education of youth",
-                        "and are strengthened by the witness of brotherly love,",
-                        "we may constantly increase the family of your Church."
+                        "O God, who adorned the Priest Saint Raymond",
+                        "with the virtue of outstanding mercy and compassion",
+                        "for sinners and for captives,",
+                        "grant us, through his intercession,",
+                        "that, released from slavery to sin,",
+                        "we may carry out in freedom of spirit",
+                        "what is pleasing to you."
                   ]
             },
             {
@@ -40,12 +38,12 @@
       "offertory": [
             {
                   "p": [
-                        "Merciful Father,",
-                        "look upon the gifts we have placed on your altar",
-                        "and grant that we may reflect",
-                        "the image of Christ your Son,",
-                        "just as you granted to Saint John Neumann",
-                        "to imitate what he celebrated."
+                        "Receive, O Lord, we pray,",
+                        "the offerings placed on your altar",
+                        "in commemoration of Saint Raymond,",
+                        "so that, as you brought him glory,",
+                        "you may, through these sacred mysteries,",
+                        "grant to us your pardon."
                   ]
             },
             {
@@ -57,14 +55,25 @@
       "credo": "no",
       "communion_antiphon": [
             {
-                  "verse_number": "Matthew ch. 19, v. 29",
+                  "verse_number": "Matthew ch. 24, vv. 46, 47",
                   "content": [
                         {
                               "p": [
-                                    "Everyone who has given up home,",
-                                    "brothers, or sisters, father or mother,",
-                                    "wife or children or property for my sake",
-                                    "will receive many times as much and inherit everlasting life."
+                                    "Blessed is the servant whom the Lord finds watching",
+                                    "when he comes. Amen I say to you:",
+                                    "He will put that servant in charge of all his property."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Luke ch. 12, v. 42",
+                  "content": [
+                        {
+                              "p": [
+                                    "This is the steward, faithful and prudent,",
+                                    "whom the Lord set over his household,",
+                                    "to give them their allowance of food at the proper time."
                               ]
                         }
                   ]
@@ -73,13 +82,11 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "Refreshed by our participation in the memorial",
-                        "of the Death and Resurrection of your Son,",
-                        "we ask, O Lord,",
-                        "that by the example of Saint John Neumann,",
-                        "we may experience the power of this Sacrament",
-                        "and remain constantly in the Church",
-                        "by the bond of unity and truth."
+                        "May partaking at the heavenly table, almighty God,",
+                        "confirm and increase strength from on high",
+                        "in all who celebrate the feast day of Saint Raymond,",
+                        "that we may preserve in integrity the gift of faith",
+                        "and walk in the path of salvation you trace for us."
                   ]
             },
             {
@@ -91,70 +98,60 @@
       "readings": {
             "first_reading": [
                   {
-                        "verse_number": "Acts ch. 13, vv. 44 - 52",
+                        "verse_number": "2 Corinthians ch. 5, vv. 14 - 20",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "The next sabbath almost the whole city gathered to hear the word of the Lord.",
-                                          "But when the Jews saw the crowds, they were filled with jealousy; and blaspheming,",
-                                          "they contradicted what was spoken by Paul. Then both Paul and Barnabas spoke out boldly, saying,",
-                                          "“It was necessary that the word of God should be spoken first to you.",
-                                          "Since you reject it and judge yourselves to be unworthy of eternal life,",
-                                          "we are now turning to the Gentiles. For so the Lord has commanded us, saying,"
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "‘I have set you to be a light for the Gentiles, \nso that you may bring salvation to the ends of the earth.’”"
+                                          "Brothers and sisters: The love of Christ urges us on, because we are convinced that one has died for all; therefore all have died. And he died for all, so that those who live might live no longer for themselves, but for him who died and was raised for them."
                                     ]
                               },
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "When the Gentiles heard this, they were glad and praised the word of the Lord;",
-                                          "and as many as had been destined for eternal life became believers.",
-                                          "Thus the word of the Lord spread throughout the region. But the Jews incited the devout women",
-                                          "of high standing and the leading men of the city, and stirred up persecution against Paul and Barnabas,",
-                                          "and drove them out of their region. So they shook the dust off their feet in protest against them,",
-                                          "and went to Iconium. And the disciples were filled with joy and with the Holy Spirit."
+                                          "From now on, therefore, we regard no one from a human point of view; even though we once knew Christ from a human point of view, we know him no longer in that way. So if anyone is in Christ, there is a new creation: everything old has passed away; see, everything has become new! All this is from God, who reconciled us to himself through Christ, and has given us the ministry of reconciliation; that is, in Christ God was reconciling the world to himself, not counting their trespasses against them, and entrusting the message of reconciliation to us. So we are ambassadors for Christ, since God is making his appeal through us; we entreat you on behalf of Christ, be reconciled to God."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 23, vv. 1 - 3a, 4, 5, 6",
-                  "response": "The Lord is my shepherd; there is nothing I shall want.",
+                  "verse_number": "Psalm 103, vv. 1bc - 2, 3 - 4, 8 - 9, 13 - 14, 17 - 18",
+                  "response": "O bless the Lord, my soul.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "The Lord is my shepherd, I shall not want. \nHe makes me lie down in green pastures;",
-                                    "he leads me beside still waters; \nhe restores my soul.",
-                                    "He leads me in right paths."
+                                    "Bless the Lord, O my soul, \nand all that is within me, \nbless his holy name.",
+                                    "Bless the Lord, O my soul, \nand do not forget all his benefits."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Even though I walk through the darkest valley, \nI fear no evil;",
-                                    "for you are with me; \nyour rod and your staff— \nthey comfort me."
+                                    "who forgives all your iniquity, \nwho heals all your diseases,",
+                                    "who redeems your life from the Pit, \nwho crowns you with steadfast love and mercy."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "You prepare a table before me \nin the presence of my enemies;",
-                                    "you anoint my head with oil; \nmy cup overflows."
+                                    "The Lord is merciful and gracious, \nslow to anger and abounding in steadfast love.",
+                                    "He will not always accuse, \nnor will he keep his anger forever."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Surely goodness and mercy shall follow me \nall the days of my life,",
-                                    "and I shall dwell in the house of the Lord \nmy whole life long."
+                                    "As a father has compassion for his children, \nso the Lord has compassion for those who fear him.",
+                                    "For he knows how we were made; \nhe remembers that we are dust."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "But the steadfast love of the Lord is from everlasting to everlasting \non those who fear him, \nand his righteousness to children’s children,",
+                                    "to those who keep his covenant \nand remember to do his commandments."
                               ]
                         }
                   ]
@@ -171,17 +168,18 @@
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Matthew ch. 28, vv. 16 - 20",
+                  "verse_number": "Mark ch. 16, vv. 15 - 20",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "The eleven disciples went to Galilee, to the mountain to which Jesus had directed them.",
-                                    "When they saw him, they worshiped him; but some doubted. And Jesus came and said to them,",
-                                    "“All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations,",
-                                    "baptizing them in the name of the Father and of the Son and of the Holy Spirit,",
-                                    "and teaching them to obey everything that I have commanded you.",
-                                    "And remember, I am with you always, to the end of the age.”"
+                                    "Jesus appeared to the Eleven and said to them, “Go into all the world and proclaim the good news to the whole creation. The one who believes and is baptized will be saved; but the one who does not believe will be condemned. And these signs will accompany those who believe: by using my name they will cast out demons; they will speak in new tongues; they will pick up snakes in their hands, and if they drink any deadly thing, it will not hurt them; they will lay their hands on the sick, and they will recover.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "So then the Lord Jesus, after he had spoken to them, was taken up into heaven and sat down at the right hand of God. And they went out and proclaimed the good news everywhere, while the Lord worked with them and confirmed the message by the signs that accompanied it."
                               ]
                         }
                   ]
