@@ -795,13 +795,9 @@ def epiphaneyloader(context):
                     context["liturgy_background_position"] = jsonFile["liturgy_background_position"] or "top"
 
                 else:
-                    jsonFile_readings = open(f"./static/documents/ordinaryform/christmas/january/{context['current_weekday'].lower()}.json")
-                    jsonFile_prayers = open(f"./static/documents/ordinaryform/christmas/january/{context['current_qualifying_day'].lower()}.json")
+                    jsonFile = open(f"./static/documents/ordinaryform/epiphany/{context['current_qualifying_day'].lower()}.json")
 
-                    jsonFile_readings = json.load(jsonFile_readings)
-                    jsonFile_prayers = json.load(jsonFile_prayers)
-
-                    jsonFile = { **jsonFile_readings, **jsonFile_prayers }
+                    jsonFile = json.load(jsonFile)
 
                     context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
                     context["liturgy_background_position"] = jsonFile["liturgy_background_position"] or "top"
@@ -823,7 +819,11 @@ def epiphany(context = {}):
                 jsonFile = open(f"./static/documents/ordinaryform/memorials/january/epiphany.json")
 
             elif (context["current_qualifying_day"] > "6th"):
-                jsonFile = open(f"./static/documents/ordinaryform/epiphany/{context['current_qualifying_day'].lower()}.json")
+                if (context["current_weekday"] == "Sunday"):
+                    jsonFile = open(f"./static/documents/ordinaryform/memorials/january/baptism-jesus.json")
+
+                else:
+                    jsonFile = open(f"./static/documents/ordinaryform/epiphany/{context['current_qualifying_day'].lower()}.json")
 
         jsonFile = json.load(jsonFile)
 
