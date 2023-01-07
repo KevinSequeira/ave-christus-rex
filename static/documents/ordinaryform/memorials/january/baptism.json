@@ -1,14 +1,16 @@
 {
-      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_daytime.jpg')",
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/baptism_jesus.jpeg')",
       "saint_background_position": "center",
       "opening_antiphon": [
             {
-                  "verse_number": "Cf. Malachi ch. 3, v. 1; 1 Chronicles ch. 29, v. 12",
+                  "verse_number": "Cf. Matthew ch. 3, vv. 16, 17",
                   "content": [
                         {
                               "p": [
-                                    "Behold, the Lord, the Mighty One, has come;",
-                                    "and kingship is in his grasp, and power and dominion."
+                                    "After the Lord was baptized, the heavens were opened,",
+                                    "and the Spirit descended upon him like a dove,",
+                                    "and the voice of the Father thundered:",
+                                    "This is my beloved Son, with whom I am well pleased."
                               ]
                         }
                   ]
@@ -18,12 +20,13 @@
       "collect": [
             {
                   "p": [
-                        "O God, who on this day",
-                        "revealed your Only Begotten Son to the nations",
-                        "by the guidance of a star,",
-                        "grant in your mercy",
-                        "that we, who know you already by faith,",
-                        "may be brought to behold the beauty of your sublime glory."
+                        "Almighty ever-living God,",
+                        "who, when Christ had been baptized in the River Jordan",
+                        "and as the Holy Spirit descended upon him,",
+                        "solemnly declared him your beloved Son,",
+                        "grant that your children by adoption,",
+                        "reborn of water and the Holy Spirit,",
+                        "may always be well pleasing to you."
                   ]
             },
             {
@@ -37,11 +40,12 @@
       "offertory": [
             {
                   "p": [
-                        "Look with favor, Lord, we pray,",
-                        "on these gifts of your Church,",
-                        "in which are offered now not gold or frankincense or myrrh,",
-                        "but he who by them is proclaimed,",
-                        "sacrificed and received, Jesus Christ."
+                        "Accept, O Lord, the offerings",
+                        "we have brought to honor the revealing of your beloved Son,",
+                        "so that the oblation of your faithful",
+                        "may be transformed into the sacrifice of him",
+                        "who willed in his compassion",
+                        "to wash away the sins of the world."
                   ]
             },
             {
@@ -53,12 +57,12 @@
       "credo": "nicene_creed",
       "communion_antiphon": [
             {
-                  "verse_number": "Cf. Matthew ch. 2, v. 2",
+                  "verse_number": "John ch. 1, vv. 32, 34",
                   "content": [
                         {
                               "p": [
-                                    "We have seen his star in the East,",
-                                    "and have come with gifts to adore the Lord."
+                                    "Behold the One of whom John said:",
+                                    "I have seen and testified that this is the Son of God."
                               ]
                         }
                   ]
@@ -67,11 +71,10 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "Go before us with heavenly light, O Lord,",
-                        "always and everywhere,",
-                        "that we may perceive with clear sight",
-                        "and revere with true affection",
-                        "the mystery in which you have willed us to participate."
+                        "Nourished with these sacred gifts,",
+                        "we humbly entreat your mercy, O Lord,",
+                        "that, faithfully listening to your Only Begotten Son,",
+                        "we may be your children in name and in truth."
                   ]
             },
             {
