@@ -943,7 +943,7 @@ def ordinarytime01loader(context = {}):
     try:
         jsonFilePrayers = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/prayers.json")
         jsonFilePrayers = json.load(jsonFilePrayers)
-        jsonFileReadings = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday']}.json")
+        jsonFileReadings = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
         jsonFileReadings = json.load(jsonFileReadings)
 
         jsonFile = { **jsonFilePrayers, **jsonFileReadings }
