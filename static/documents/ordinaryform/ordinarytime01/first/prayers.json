@@ -1,0 +1,90 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/ordinary_time_01.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "Upon a lofty throne, I saw a man seated,",
+                                    "whom a host of angels adore, singing in unison:",
+                                    "Behold him, the name of whose empire is eternal."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Attend to the pleas of your people with heavenly care,",
+                        "O Lord, we pray,",
+                        "that they may see what must be done",
+                        "and gain strength to do what they have seen."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May your people’s oblation, O Lord, find favor with you, we pray,",
+                        "that it may restore them to holiness",
+                        "and obtain what they devoutly entreat."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Psalm 36, v. 10",
+                  "content": [
+                        {
+                              "p": [
+                                    "With you, O Lord, is the fountain of life,",
+                                    "and in your light we see light."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "John ch. 10, v. 10",
+                  "content": [
+                        {
+                              "p": [
+                                    "I have come that they may have life,",
+                                    "and have it more abundantly, says the Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Humbly we ask you, almighty God,",
+                        "be graciously pleased to grant",
+                        "that those you renew with your Sacraments",
+                        "may also serve with lives pleasing to you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ]
+}

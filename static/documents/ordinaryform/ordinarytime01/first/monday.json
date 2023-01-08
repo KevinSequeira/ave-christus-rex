@@ -1,0 +1,105 @@
+{
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hebrews ch. 1, vv. 1 - 6",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: Long ago God spoke to our ancestors in many and various ways by the prophets, but in these last days he has spoken to us by a Son, whom he appointed heir of all things, through whom he also created the worlds. He is the reflection of God’s glory and the exact imprint of God’s very being, and he sustains all things by his powerful word. When he had made purification for sins, he sat down at the right hand of the Majesty on high, having become as much superior to angels as the name he has inherited is more excellent than theirs."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "For to which of the angels did God ever say,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“You are my Son; \ntoday I have begotten you”?"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Or again,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“I will be his Father, \nand he will be my Son”?"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "And again, when he brings the firstborn into the world, he says,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“Let all God’s angels worship him.”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 97, vv. 1 and 2b, 6 and 7c, 9",
+                  "response": "Let all the angels worship him.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord is king! Let the earth rejoice; \nlet the many coastlands be glad! \nRighteousness and justice are the foundation of his throne."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The heavens proclaim his righteousness; \nand all the peoples behold his glory. \nAll gods bow down before him."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For you, O Lord, are most high over all the earth; \nyou are exalted far above all gods."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Mark ch. 1, v. 15",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Kingdom of God is at hand; repent and believe in the Gospel."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 1, vv. 14 - 20",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "After John was arrested, Jesus came to Galilee, proclaiming the good news of God, and saying, “The time is fulfilled, and the kingdom of God has come near; repent, and believe in the good news.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "As Jesus passed along the Sea of Galilee, he saw Simon and his brother Andrew casting a net into the sea—for they were fishermen. And Jesus said to them, “Follow me and I will make you fish for people.” And immediately they left their nets and followed him. As he went a little farther, he saw James son of Zebedee and his brother John, who were in their boat mending the nets. Immediately he called them; and they left their father Zebedee in the boat with the hired men, and followed him."
+                              ]
+                        }
+                  ]
+            }
+      }
+}
