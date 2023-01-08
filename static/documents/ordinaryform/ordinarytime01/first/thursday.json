@@ -2,81 +2,80 @@
       "year_i": {
             "first_reading": [
                   {
-                        "verse_number": "Hebrews ch. 2, vv. 14 - 18",
+                        "verse_number": "Hebrews ch. 3, vv. 7 - 14",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Since, therefore, the children share flesh and blood, he himself likewise shared the same things, so that through death he might destroy the one who has the power of death, that is, the devil, and free those who all their lives were held in slavery by the fear of death. For it is clear that he did not come to help angels, but the descendants of Abraham. Therefore he had to become like his brothers and sisters in every respect, so that he might be a merciful and faithful high priest in the service of God, to make a sacrifice of atonement for the sins of the people. Because he himself was tested by what he suffered, he is able to help those who are being tested."
+                                          "the Holy Spirit says,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“Today, if you hear his voice,",
+                                          "do not harden your hearts as in the rebellion, \nas on the day of testing in the wilderness,",
+                                          "where your ancestors put me to the test, \nthough they had seen my works for forty years.",
+                                          "Therefore I was angry with that generation,",
+                                          "and I said, ‘They always go astray in their hearts, \nand they have not known my ways.’",
+                                          "As in my anger I swore, \n‘They will not enter my rest.’”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Take care, brothers and sisters, that none of you may have an evil, unbelieving heart that turns away from the living God. But exhort one another every day, as long as it is called “today,” so that none of you may be hardened by the deceitfulness of sin. For we have become partners of Christ, if only we hold our first confidence firm to the end."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 105, vv. 1 - 2, 3 - 4, 6 - 7, 8 - 9",
-                  "response": "The Lord remembers his covenant for ever.",
+                  "verse_number": "Psalm 95, vv. 6 - 7c, 7d - 9, 10 - 11",
+                  "response": "If today you hear his voice, harden not your hearts.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "O give thanks to the Lord, call on his name, \nmake known his deeds among the peoples.",
-                                    "Sing to him, sing praises to him; \ntell of all his wonderful works."
+                                    "O come, let us worship and bow down, \nlet us kneel before the Lord, our Maker!",
+                                    "For he is our God, \nand we are the people of his pasture, \nand the sheep of his hand."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Glory in his holy name; \nlet the hearts of those who seek the Lord rejoice.",
-                                    "Seek the Lord and his strength; \nseek his presence continually."
+                                    "O that today you would listen to his voice!",
+                                    "Do not harden your hearts, as at Meribah, \nas on the day at Massah in the wilderness,",
+                                    "when your ancestors tested me, \nand put me to the proof, though they had seen my work."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "O offspring of his servant Abraham, \nchildren of Jacob, his chosen ones.",
-                                    "He is the Lord our God; \nhis judgments are in all the earth."
-                              ]
-                        },
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "He is mindful of his covenant forever, \nof the word that he commanded, for a thousand generations,",
-                                    "the covenant that he made with Abraham, \nhis sworn promise to Isaac."
+                                    "For forty years I loathed that generation \nand said, “They are a people whose hearts go astray, \nand they do not regard my ways.”",
+                                    "Therefore in my anger I swore, \n“They shall not enter my rest.”"
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "John ch. 10, v. 27",
+                  "verse_number": "See Matthew ch. 4, v. 23",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "My sheep hear my voice, says the Lord. I know them, and they follow me."
+                                    "Jesus preached the Gospel of the Kingdom and cured every disease among the people."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Mark ch. 1, vv. 29 - 39",
+                  "verse_number": "Mark ch. 1, vv. 40 - 45",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "On leaving the synagogue, Jesus entered the house of Simon and Andrew, with James and John. Now Simon’s mother-in-law was in bed with a fever, and they told him about her at once. He came and took her by the hand and lifted her up. Then the fever left her, and she began to serve them."
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "That evening, at sunset, they brought to him all who were sick or possessed with demons. And the whole city was gathered around the door. And he cured many who were sick with various diseases, and cast out many demons; and he would not permit the demons to speak, because they knew him."
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "In the morning, while it was still very dark, he got up and went out to a deserted place, and there he prayed. And Simon and his companions hunted for him. When they found him, they said to him, “Everyone is searching for you.” He answered, “Let us go on to the neighboring towns, so that I may proclaim the message there also; for that is what I came out to do.” And he went throughout Galilee, proclaiming the message in their synagogues and casting out demons."
+                                    "A leper came to Jesus begging him, and kneeling he said to him, “If you choose, you can make me clean.” Moved with pity, Jesus stretched out his hand and touched him, and said to him, “I do choose. Be made clean!” Immediately the leprosy left him, and he was made clean. After sternly warning him he sent him away at once, saying to him, “See that you say nothing to anyone; but go, show yourself to the priest, and offer for your cleansing what Moses commanded, as a testimony to them.” But he went out and began to proclaim it freely, and to spread the word, so that Jesus could no longer go into a town openly, but stayed out in the country; and people came to him from every quarter."
                               ]
                         }
                   ]
