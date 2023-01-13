@@ -1,0 +1,93 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/ordinary_time_02.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 66, v. 4",
+                  "content": [
+                        {
+                              "p": [
+                                    "All the earth shall bow down before you, O God,",
+                                    "and shall sing to you,",
+                                    "shall sing to your name, O Most High!"
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Almighty ever-living God,",
+                        "who govern all things,",
+                        "both in heaven and on earth,",
+                        "mercifully hear the pleading of your people",
+                        "and bestow your peace on our times."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Grant us, O Lord, we pray,",
+                        "that we may participate worthily in these mysteries,",
+                        "for whenever the memorial of this sacrifice is celebrated",
+                        "the work of our redemption is accomplished."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 23, v. 5",
+                  "content": [
+                        {
+                              "p": [
+                                    "You have prepared a table before me,",
+                                    "and how precious is the chalice that quenches my thirst."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "1 John ch. 4, v. 16",
+                  "content": [
+                        {
+                              "p": [
+                                    "We have come to know and to believe",
+                                    "in the love that God has for us."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Pour on us, O Lord, the Spirit of your love,",
+                        "and in your kindness",
+                        "make those you have nourished",
+                        "by this one heavenly Bread",
+                        "one in mind and heart."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ]
+}

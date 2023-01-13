@@ -1,0 +1,110 @@
+{
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hebrews ch. 1, vv. 1 - 6",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "The Lord said to me, “You are my servant, \nIsrael, in whom I will be glorified.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "And now the Lord says, \nwho formed me in the womb to be his servant,",
+                                          "to bring Jacob back to him, \nand that Israel might be gathered to him,",
+                                          "for I am honored in the sight of the Lord, \nand my God has become my strength—",
+                                          "he says,",
+                                          "“It is too light a thing that you should be my servant \nto raise up the tribes of Jacob \nand to restore the survivors of Israel;",
+                                          "I will give you as a light to the nations, \nthat my salvation may reach to the end of the earth.”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 40, vv. 1 and 3ab, 6 - 7a, 7b - 8, 9",
+                  "response": "Here I am, Lord; I come to do your will.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I waited patiently for the Lord; \nhe inclined to me and heard my cry.",
+                                    "He put a new song in my mouth, \na song of praise to our God."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Sacrifice and offering you do not desire, \nbut you have given me an open ear.",
+                                    "Burnt offering and sin offering \nyou have not required.",
+                                    "Then I said, “Here I am”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“in the scroll of the book it is written of me.",
+                                    "I delight to do your will, O my God; \nyour law is within my heart.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I have told the glad news of deliverance \nin the great congregation;",
+                                    "see, I have not restrained my lips, \nas you know, O Lord."
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": [
+                  {
+                        "verse_number": "1 Corinthians ch. 1, vv. 1 - 3",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Paul, called to be an apostle of Christ Jesus by the will of God, and our brother Sosthenes,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "To the church of God that is in Corinth, to those who are sanctified in Christ Jesus, called to be saints, together with all those who in every place call on the name of our Lord Jesus Christ, both their Lord and ours:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Grace to you and peace from God our Father and the Lord Jesus Christ."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "gospel_acclamation": {
+                  "verse_number": "John ch. 1, vv. 14a, 12a",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Word of God became flesh and dwelt among us. To those who accepted him, he gave power to becomes sons of God."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 1, vv. 29 - 34",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "John the Baptist saw Jesus coming toward him and declared, “Here is the Lamb of God who takes away the sin of the world! This is he of whom I said, ‘After me comes a man who ranks ahead of me because he was before me.’ I myself did not know him; but I came baptizing with water for this reason, that he might be revealed to Israel.” And John testified, “I saw the Spirit descending from heaven like a dove, and it remained on him. I myself did not know him, but the one who sent me to baptize with water said to me, ‘He on whom you see the Spirit descend and remain is the one who baptizes with the Holy Spirit.’ And I myself have seen and have testified that this is the Son of God.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,84 @@
+{
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hebrews ch. 3, vv. 7 - 14",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "the Holy Spirit says,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“Today, if you hear his voice,",
+                                          "do not harden your hearts as in the rebellion, \nas on the day of testing in the wilderness,",
+                                          "where your ancestors put me to the test, \nthough they had seen my works for forty years.",
+                                          "Therefore I was angry with that generation,",
+                                          "and I said, ‘They always go astray in their hearts, \nand they have not known my ways.’",
+                                          "As in my anger I swore, \n‘They will not enter my rest.’”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Take care, brothers and sisters, that none of you may have an evil, unbelieving heart that turns away from the living God. But exhort one another every day, as long as it is called “today,” so that none of you may be hardened by the deceitfulness of sin. For we have become partners of Christ, if only we hold our first confidence firm to the end."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 95, vv. 6 - 7c, 7d - 9, 10 - 11",
+                  "response": "If today you hear his voice, harden not your hearts.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O come, let us worship and bow down, \nlet us kneel before the Lord, our Maker!",
+                                    "For he is our God, \nand we are the people of his pasture, \nand the sheep of his hand."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O that today you would listen to his voice!",
+                                    "Do not harden your hearts, as at Meribah, \nas on the day at Massah in the wilderness,",
+                                    "when your ancestors tested me, \nand put me to the proof, though they had seen my work."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For forty years I loathed that generation \nand said, “They are a people whose hearts go astray, \nand they do not regard my ways.”",
+                                    "Therefore in my anger I swore, \n“They shall not enter my rest.”"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Matthew ch. 4, v. 23",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Jesus preached the Gospel of the Kingdom and cured every disease among the people."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 1, vv. 40 - 45",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "A leper came to Jesus begging him, and kneeling he said to him, “If you choose, you can make me clean.” Moved with pity, Jesus stretched out his hand and touched him, and said to him, “I do choose. Be made clean!” Immediately the leprosy left him, and he was made clean. After sternly warning him he sent him away at once, saying to him, “See that you say nothing to anyone; but go, show yourself to the priest, and offer for your cleansing what Moses commanded, as a testimony to them.” But he went out and began to proclaim it freely, and to spread the word, so that Jesus could no longer go into a town openly, but stayed out in the country; and people came to him from every quarter."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

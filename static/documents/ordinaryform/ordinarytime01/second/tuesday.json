@@ -1,0 +1,91 @@
+{
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hebrews ch. 2, vv. 5 - 12",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Now God did not subject the coming world, about which we are speaking, to angels. But someone has testified somewhere,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“What are human beings that you are mindful of them, \nor mortals, that you care for them?",
+                                          "You have made them for a little while lower than the angels; \nyou have crowned them with glory and honor, \nsubjecting all things under their feet.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Now in subjecting all things to them, God left nothing outside their control. As it is, we do not yet see everything in subjection to them, but we do see Jesus, who for a little while was made lower than the angels, now crowned with glory and honor because of the suffering of death, so that by the grace of God he might taste death for everyone."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "It was fitting that God, for whom and through whom all things exist, in bringing many children to glory, should make the pioneer of their salvation perfect through sufferings. For the one who sanctifies and those who are sanctified all have one Father. For this reason Jesus is not ashamed to call them brothers and sisters, saying,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“I will proclaim your name to my brothers and sisters, \nin the midst of the congregation I will praise you.”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 8, vv. 1ab and 4, 5 - 6, 7 - 8",
+                  "response": "You have given your Son rule over the works of your hands.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O Lord, our Sovereign, \nhow majestic is your name in all the earth!",
+                                    "What are human beings that you are mindful of them, \nmortals that you care for them?"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Yet you have made them a little lower than God, \nand crowned them with glory and honor.",
+                                    "You have given them dominion over the works of your hands; \nyou have put all things under their feet."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "All sheep and oxen, \nand also the beasts of the field,",
+                                    "the birds of the air, and the fish of the sea, \nwhatever passes along the paths of the seas."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See 1 Thessalonians ch. 2, v. 13",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Receive the word of God, not as the word of men, but as it truly is, the word of God."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 1, vv. 21 - 28",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus went to Capernaum; and when the sabbath came, he entered the synagogue and taught. They were astounded at his teaching, for he taught them as one having authority, and not as the scribes. Just then there was in their synagogue a man with an unclean spirit, and he cried out, “What have you to do with us, Jesus of Nazareth? Have you come to destroy us? I know who you are, the Holy One of God.” But Jesus rebuked him, saying, “Be silent, and come out of him!” And the unclean spirit, convulsing him and crying with a loud voice, came out of him. They were all amazed, and they kept on asking one another, “What is this? A new teaching—with authority! He commands even the unclean spirits, and they obey him.” At once his fame began to spread throughout the surrounding region of Galilee."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

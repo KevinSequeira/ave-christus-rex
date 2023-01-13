@@ -1,0 +1,107 @@
+{
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hebrews ch. 5, vv. 1 - 10",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Every high priest chosen from among mortals is put in charge of things pertaining to God on their behalf, to offer gifts and sacrifices for sins. He is able to deal gently with the ignorant and wayward, since he himself is subject to weakness; and because of this he must offer sacrifice for his own sins as well as for those of the people. And one does not presume to take this honor, but takes it only when called by God, just as Aaron was."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "So also Christ did not glorify himself in becoming a high priest, but was appointed by the one who said to him,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“You are my Son, \ntoday I have begotten you”;"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "as he says also in another place,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“You are a priest forever, \naccording to the order of Melchizedek.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "In the days of his flesh, Jesus offered up prayers and supplications, with loud cries and tears, to the one who was able to save him from death, and he was heard because of his reverent submission. Although he was a Son, he learned obedience through what he suffered; and having been made perfect, he became the source of eternal salvation for all who obey him, having been designated by God a high priest according to the order of Melchizedek."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 110, vv. 1, 2, 3, 4",
+                  "response": "You are a priest forever, in the line of Melchizedek",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord says to my lord, \n“Sit at my right hand",
+                                    "until I make your enemies your footstool.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord sends out from Zion \nyour mighty scepter. \nRule in the midst of your foes."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Your people will offer themselves willingly \non the day you lead your forces \non the holy mountains.",
+                                    "From the womb of the morning, \nlike dew, your youth will come to you."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord has sworn and will not change his mind, \n“You are a priest forever according to the order of Melchizedek.”"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Hebrews ch. 4, v. 12",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The word of God is living and effective, able to discern reflections and thoughts of the heart."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 2, vv. 18 - 22",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "John’s disciples and the Pharisees were fasting; and people came and said to him, “Why do John’s disciples and the disciples of the Pharisees fast, but your disciples do not fast?” Jesus said to them, “The wedding guests cannot fast while the bridegroom is with them, can they? As long as they have the bridegroom with them, they cannot fast. The days will come when the bridegroom is taken away from them, and then they will fast on that day."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“No one sews a piece of unshrunk cloth on an old cloak; otherwise, the patch pulls away from it, the new from the old, and a worse tear is made. And no one puts new wine into old wineskins; otherwise, the wine will burst the skins, and the wine is lost, and so are the skins; but one puts new wine into fresh wineskins.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}
