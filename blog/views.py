@@ -11,7 +11,7 @@ def blog(request, article_number = "B0001"):
     # Get blog details
     sqliteConnection = sqlite3.connect('db.sqlite3')
     cursor = sqliteConnection.cursor()
-    sqlite_select_Query = """SELECT * from [blogArticles]"""
+    sqlite_select_Query = f"SELECT * FROM [blogArticles] WHERE [ID] = '{article_number}';"
     cursor.execute(sqlite_select_Query)
     record = cursor.fetchall()
     print(record)
@@ -22,8 +22,8 @@ def blog(request, article_number = "B0001"):
     blogBackgroundImage = "../../static/images/Extra Large/Advent in Church.jpg"
 
     context = {
-        "blog_title": blogTitle,
-        "blog_tagline": blogTagline,
+        "blog_title": record[0][1],
+        "blog_tagline": record[0][2],
         "blog_background_image": blogBackgroundImage
     }
 
