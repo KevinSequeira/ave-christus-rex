@@ -4,81 +4,79 @@
       "year_i": {
             "first_reading": [
                   {
-                        "verse_number": "Hebrews ch. 2, vv. 14 - 18",
+                        "verse_number": "Hebrews ch. 7, vv. 1 - 3, 15 - 17",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Since, therefore, the children share flesh and blood, he himself likewise shared the same things, so that through death he might destroy the one who has the power of death, that is, the devil, and free those who all their lives were held in slavery by the fear of death. For it is clear that he did not come to help angels, but the descendants of Abraham. Therefore he had to become like his brothers and sisters in every respect, so that he might be a merciful and faithful high priest in the service of God, to make a sacrifice of atonement for the sins of the people. Because he himself was tested by what he suffered, he is able to help those who are being tested."
+                                          "This “King Melchizedek of Salem, priest of the Most High God, met Abraham as he was returning from defeating the kings and blessed him”; and to him Abraham apportioned “one-tenth of everything.” His name, in the first place, means “king of righteousness”; next he is also king of Salem, that is, “king of peace.” Without father, without mother, without genealogy, having neither beginning of days nor end of life, but resembling the Son of God, he remains a priest forever."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "It is even more obvious when another priest arises, resembling Melchizedek, one who has become a priest, not through a legal requirement concerning physical descent, but through the power of an indestructible life. For it is attested of him,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“You are a priest forever, \naccording to the order of Melchizedek.”"
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 105, vv. 1 - 2, 3 - 4, 6 - 7, 8 - 9",
-                  "response": "The Lord remembers his covenant for ever.",
+                  "verse_number": "Psalm 110, vv. 1, 2, 3, 4",
+                  "response": "You are a priest forever, in the line of Melchizedek.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "O give thanks to the Lord, call on his name, \nmake known his deeds among the peoples.",
-                                    "Sing to him, sing praises to him; \ntell of all his wonderful works."
+                                    "The Lord says to my lord, \n“Sit at my right hand",
+                                    "until I make your enemies your footstool.”"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Glory in his holy name; \nlet the hearts of those who seek the Lord rejoice.",
-                                    "Seek the Lord and his strength; \nseek his presence continually."
+                                    "The Lord sends out from Zion \nyour mighty scepter. \nRule in the midst of your foes."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "O offspring of his servant Abraham, \nchildren of Jacob, his chosen ones.",
-                                    "He is the Lord our God; \nhis judgments are in all the earth."
+                                    "Your people will offer themselves willingly \non the day you lead your forces \non the holy mountains.",
+                                    "From the womb of the morning, \nlike dew, your youth will come to you."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "He is mindful of his covenant forever, \nof the word that he commanded, for a thousand generations,",
-                                    "the covenant that he made with Abraham, \nhis sworn promise to Isaac."
+                                    "The Lord has sworn and will not change his mind, \n“You are a priest forever according to the order of Melchizedek.”"
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "John ch. 10, v. 27",
+                  "verse_number": "See Matthew ch. 4, v. 23",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "My sheep hear my voice, says the Lord. I know them, and they follow me."
+                                    "Jesus preached the Gospel of the Kingdom and cured every disease among the people."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Mark ch. 1, vv. 29 - 39",
+                  "verse_number": "Mark ch. 3, vv. 1 - 6",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "On leaving the synagogue, Jesus entered the house of Simon and Andrew, with James and John. Now Simon’s mother-in-law was in bed with a fever, and they told him about her at once. He came and took her by the hand and lifted her up. Then the fever left her, and she began to serve them."
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "That evening, at sunset, they brought to him all who were sick or possessed with demons. And the whole city was gathered around the door. And he cured many who were sick with various diseases, and cast out many demons; and he would not permit the demons to speak, because they knew him."
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "In the morning, while it was still very dark, he got up and went out to a deserted place, and there he prayed. And Simon and his companions hunted for him. When they found him, they said to him, “Everyone is searching for you.” He answered, “Let us go on to the neighboring towns, so that I may proclaim the message there also; for that is what I came out to do.” And he went throughout Galilee, proclaiming the message in their synagogues and casting out demons."
+                                    "Jesus entered the synagogue, and a man was there who had a withered hand. They watched him to see whether he would cure him on the sabbath, so that they might accuse him. And he said to the man who had the withered hand, “Come forward.” Then he said to them, “Is it lawful to do good or to do harm on the sabbath, to save life or to kill?” But they were silent. He looked around at them with anger; he was grieved at their hardness of heart and said to the man, “Stretch out your hand.” He stretched it out, and his hand was restored. The Pharisees went out and immediately conspired with the Herodians against him, how to destroy him."
                               ]
                         }
                   ]
