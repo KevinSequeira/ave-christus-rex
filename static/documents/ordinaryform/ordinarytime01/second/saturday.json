@@ -4,80 +4,68 @@
       "year_i": {
             "first_reading": [
                   {
-                        "verse_number": "Hebrews ch. 4, vv. 12 - 16",
+                        "verse_number": "Hebrews ch. 9, vv. 2 - 3, 11 - 14",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "The word of God is living and active, sharper than any two-edged sword, piercing until it divides soul from spirit, joints from marrow; it is able to judge the thoughts and intentions of the heart. And before him no creature is hidden, but all are naked and laid bare to the eyes of the one to whom we must render an account."
+                                          "A tent was constructed, the first one, in which were the lampstand, the table, and the bread of the Presence; this is called the Holy Place. Behind the second curtain was a tent called the Holy of Holies."
                                     ]
                               },
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Since, then, we have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold fast to our confession. For we do not have a high priest who is unable to sympathize with our weaknesses, but we have one who in every respect has been tested as we are, yet without sin. Let us therefore approach the throne of grace with boldness, so that we may receive mercy and find grace to help in time of need."
+                                          "But when Christ came as a high priest of the good things that have come, then through the greater and perfect tent (not made with hands, that is, not of this creation), he entered once for all into the Holy Place, not with the blood of goats and calves, but with his own blood, thus obtaining eternal redemption. For if the blood of goats and bulls, with the sprinkling of the ashes of a heifer, sanctifies those who have been defiled so that their flesh is purified, how much more will the blood of Christ, who through the eternal Spirit offered himself without blemish to God, purify our conscience from dead works to worship the living God!"
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 19, v. 7, 8, 9, 14",
-                  "response": "Your words, Lord, are Spirit and life.",
+                  "verse_number": "Psalm 47, vv. 1 - 2, 5 - 6, 7 - 8",
+                  "response": "God mounts his throne to shouts of joy: a blare of trumpets for the Lord.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "The law of the Lord is perfect, \nreviving the soul;",
-                                    "the decrees of the Lord are sure, \nmaking wise the simple;"
+                                    "Clap your hands, all you peoples; \nshout to God with loud songs of joy.",
+                                    "For the Lord, the Most High, is awesome, \na great king over all the earth."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "The precepts of the Lord are right, \nrejoicing the heart;",
-                                    "the commandment of the Lord is clear, \nenlightening the eyes."
+                                    "God has gone up with a shout, \nthe Lord with the sound of a trumpet.",
+                                    "Sing praises to God, sing praises; \nsing praises to our King, sing praises."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "The fear of the Lord is pure, \nenduring forever;",
-                                    "the ordinances of the Lord are true \nand righteous altogether."
-                              ]
-                        },
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "Let the words of my mouth and the meditation of my heart \nbe acceptable to you, \nO Lord, my rock and my redeemer."
+                                    "For God is the king of all the earth; \nsing praises with a psalm.",
+                                    "God is king over the nations; \nGod sits on his holy throne."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "Luke ch. 4, v. 18",
+                  "verse_number": "See Acts ch. 16, v. 14b",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "The Lord sent me to bring glad tidings to the poor and to proclaim liberty to captives."
+                                    "Open our hearts, O Lord, to listen to the words of your Son."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Mark ch. 2, vv. 13 - 17",
+                  "verse_number": "Mark ch. 3, vv. 20 - 21",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Jesus went out again beside the sea; the whole crowd gathered around him, and he taught them. As he was walking along, he saw Levi son of Alphaeus sitting at the tax booth, and he said to him, “Follow me.” And he got up and followed him."
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "And as he sat at dinner in Levi’s house, many tax collectors and sinners were also sitting with Jesus and his disciples—for there were many who followed him. When the scribes of the Pharisees saw that he was eating with sinners and tax collectors, they said to his disciples, “Why does he eat with tax collectors and sinners?” When Jesus heard this, he said to them, “Those who are well have no need of a physician, but those who are sick; I have come to call not the righteous but sinners.”"
+                                    "Jesus went home with his disciples; and the crowd came together again, so that they could not even eat. When his family heard it, they went out to restrain him, for people were saying, “He has gone out of his mind.”"
                               ]
                         }
                   ]

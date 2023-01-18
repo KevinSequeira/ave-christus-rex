@@ -4,80 +4,82 @@
       "year_i": {
             "first_reading": [
                   {
-                        "verse_number": "Hebrews ch. 3, vv. 7 - 14",
+                        "verse_number": "Hebrews ch. 7, v. 25 - ch. 8, v. 6   ",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "the Holy Spirit says,"
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "“Today, if you hear his voice,",
-                                          "do not harden your hearts as in the rebellion, \nas on the day of testing in the wilderness,",
-                                          "where your ancestors put me to the test, \nthough they had seen my works for forty years.",
-                                          "Therefore I was angry with that generation,",
-                                          "and I said, ‘They always go astray in their hearts, \nand they have not known my ways.’",
-                                          "As in my anger I swore, \n‘They will not enter my rest.’”"
+                                          "Jesus is able for all time to save those who approach God through him, since he always lives to make intercession for them."
                                     ]
                               },
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Take care, brothers and sisters, that none of you may have an evil, unbelieving heart that turns away from the living God. But exhort one another every day, as long as it is called “today,” so that none of you may be hardened by the deceitfulness of sin. For we have become partners of Christ, if only we hold our first confidence firm to the end."
+                                          "For it was fitting that we should have such a high priest, holy, blameless, undefiled, separated from sinners, and exalted above the heavens. Unlike the other high priests, he has no need to offer sacrifices day after day, first for his own sins, and then for those of the people; this he did once for all when he offered himself. For the law appoints as high priests those who are subject to weakness, but the word of the oath, which came later than the law, appoints a Son who has been made perfect forever."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Now the main point in what we are saying is this: we have such a high priest, one who is seated at the right hand of the throne of the Majesty in the heavens, a minister in the sanctuary and the true tent that the Lord, and not any mortal, has set up. For every high priest is appointed to offer gifts and sacrifices; hence it is necessary for this priest also to have something to offer. Now if he were on earth, he would not be a priest at all, since there are priests who offer gifts according to the law. They offer worship in a sanctuary that is a sketch and shadow of the heavenly one; for Moses, when he was about to erect the tent, was warned, “See that you make everything according to the pattern that was shown you on the mountain.” But Jesus has now obtained a more excellent ministry, and to that degree he is the mediator of a better covenant, which has been enacted through better promises"
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 95, vv. 6 - 7c, 7d - 9, 10 - 11",
-                  "response": "If today you hear his voice, harden not your hearts.",
+                  "verse_number": "Psalm 40, vv. 6 - 7a, 7b - 8, 9, 16",
+                  "response": "Here I am, Lord; I come to do your will.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "O come, let us worship and bow down, \nlet us kneel before the Lord, our Maker!",
-                                    "For he is our God, \nand we are the people of his pasture, \nand the sheep of his hand."
+                                    "Sacrifice and offering you do not desire, \nbut you have given me an open ear.",
+                                    "Burnt offering and sin offering \nyou have not required.",
+                                    "Then I said, “Here I am."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "O that today you would listen to his voice!",
-                                    "Do not harden your hearts, as at Meribah, \nas on the day at Massah in the wilderness,",
-                                    "when your ancestors tested me, \nand put me to the proof, though they had seen my work."
+                                    "In the scroll of the book it is written of me.",
+                                    "I delight to do your will, O my God; \nyour law is within my heart.”"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "For forty years I loathed that generation \nand said, “They are a people whose hearts go astray, \nand they do not regard my ways.”",
-                                    "Therefore in my anger I swore, \n“They shall not enter my rest.”"
+                                    "I have told the glad news of deliverance \nin the great congregation;",
+                                    "see, I have not restrained my lips, \nas you know, O Lord."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "But may all who seek you \nrejoice and be glad in you;",
+                                    "may those who love your salvation \nsay continually, “Great is the Lord!”"
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "See Matthew ch. 4, v. 23",
+                  "verse_number": "See 2 Timothy ch. 1, v. 10",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "Jesus preached the Gospel of the Kingdom and cured every disease among the people."
+                                    "Our Saviour Jesus Christ has destroyed death and brought life to light through the Gospel."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Mark ch. 1, vv. 40 - 45",
+                  "verse_number": "Mark ch. 3, vv. 7 - 11",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "A leper came to Jesus begging him, and kneeling he said to him, “If you choose, you can make me clean.” Moved with pity, Jesus stretched out his hand and touched him, and said to him, “I do choose. Be made clean!” Immediately the leprosy left him, and he was made clean. After sternly warning him he sent him away at once, saying to him, “See that you say nothing to anyone; but go, show yourself to the priest, and offer for your cleansing what Moses commanded, as a testimony to them.” But he went out and began to proclaim it freely, and to spread the word, so that Jesus could no longer go into a town openly, but stayed out in the country; and people came to him from every quarter."
+                                    "Jesus departed with his disciples to the sea, and a great multitude from Galilee followed him; hearing all that he was doing, they came to him in great numbers from Judea, Jerusalem, Idumea, beyond the Jordan, and the region around Tyre and Sidon. He told his disciples to have a boat ready for him because of the crowd, so that they would not crush him; for he had cured many, so that all who had diseases pressed upon him to touch him. Whenever the unclean spirits saw him, they fell down before him and shouted, “You are the Son of God!”"
                               ]
                         }
                   ]
