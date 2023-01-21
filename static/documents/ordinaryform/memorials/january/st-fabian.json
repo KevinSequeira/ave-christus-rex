@@ -1,16 +1,27 @@
 {
-      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_anthony_abbot.png')",
-      "saint_background_position": "top",
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/Vatican 002.jpg')",
+      "saint_background_position": "center",
       "opening_antiphon": [
             {
-                  "verse_number": "Cf. Psalm 92, vv. 13, 14",
+                  "verse_number": "",
                   "content": [
                         {
                               "p": [
-                                    "The just will flourish like the palm tree,",
-                                    "and grow like a Lebanon cedar,",
-                                    "planted in the house of the Lord,",
-                                    "in the courts of the house of our God."
+                                    "The Lord chose him for himself as high priest,",
+                                    "and, opening his treasure house,",
+                                    "made him rich in all good things."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Sir ch. 50, v. 1; ch. 44, vv. 16, 22",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold a great priest, who in his days pleased God;",
+                                    "therefore, in accordance with his promise,",
+                                    "the Lord gave him growth for the good of his people."
                               ]
                         }
                   ]
@@ -20,11 +31,11 @@
       "collect": [
             {
                   "p": [
-                        "O God, who brought the Abbot Saint Anthony",
-                        "to serve you by a wondrous way of life in the desert,",
-                        "grant, through his intercession,",
-                        "that, denying ourselves,",
-                        "we may always love you above all things."
+                        "O God, glory of your Priests,",
+                        "grant, we pray,",
+                        "that, helped by the intercession of your Martyr Saint Fabian,",
+                        "we may make progress by communion in the faith",
+                        "and by worthy service."
                   ]
             },
             {
@@ -38,11 +49,10 @@
       "offertory": [
             {
                   "p": [
-                        "May these offerings of our service,",
-                        "placed on your altar in commemoration of Saint Anthony,",
-                        "be acceptable to you, O Lord, we pray,",
-                        "and grant that, released from earthly attachments,",
-                        "we may have our riches in you alone."
+                        "Accept this sacrifice from your people, we pray, O Lord,",
+                        "and make what is offered for your glory,",
+                        "in honor of Saint Pope Fabian,",
+                        "a means to our eternal salvation."
                   ]
             },
             {
@@ -54,13 +64,11 @@
       "credo": "no",
       "communion_antiphon": [
             {
-                  "verse_number": "Cf. Matthew ch. 19, v. 21",
+                  "verse_number": "Cf. John ch. 10, v. 11",
                   "content": [
                         {
                               "p": [
-                                    "If you would be perfect,",
-                                    "go, sell what you have, give to the poor,",
-                                    "and follow me, says the Lord."
+                                    "The Good Shepherd has laid down his life for his sheep."
                               ]
                         }
                   ]
@@ -69,10 +77,10 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "Nourished for our healing by your Sacraments, O Lord,",
-                        "may we escape every snare of the enemy unharmed,",
-                        "just as by your grace Saint Anthony won glorious victories",
-                        "over the powers of darkness."
+                        "May the Sacrament we have received, O Lord our God,",
+                        "stir up in us that fire of charity",
+                        "with which Pope Saint Fabian burned ardently",
+                        "as he gave himself unceasingly for your Church."
                   ]
             },
             {
@@ -84,68 +92,70 @@
       "readings": {
             "first_reading": [
                   {
-                        "verse_number": "Ephesians ch. 6, vv. 10 - 13, 18",
+                        "verse_number": "1 Peter ch. 5, vv. 1 - 4",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Brothers and sisters: Be strong in the Lord and in the strength of his power. Put on the whole armor of God, so that you may be able to stand against the wiles of the devil. For our struggle is not against enemies of blood and flesh, but against the rulers, against the authorities, against the cosmic powers of this present darkness, against the spiritual forces of evil in the heavenly places. Therefore take up the whole armor of God, so that you may be able to withstand on that evil day, and having done everything, to stand firm."
+                                          "As an elder myself and a witness of the sufferings of Christ, as well as one who shares in the glory to be revealed, I, Peter, exhort the elders among you to tend the flock of God that is in your charge, exercising the oversight, not under compulsion but willingly, as God would have you do it—not for sordid gain but eagerly. Do not lord it over those in your charge, but be examples to the flock. And when the chief shepherd appears, you will win the crown of glory that never fades away."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 16, vv. 1 - 2 and 5, 7 - 8, 11",
-                  "response": "You are my inheritance, O Lord.",
+                  "verse_number": "Psalm 40, vv. 1 and 3, 6 - 7ab, 7cd - 8, 9",
+                  "response": "Here I am, Lord; I come to do your will.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Protect me, O God, for in you I take refuge.",
-                                    "I say to the Lord, “You are my Lord; \nI have no good apart from you.”",
-                                    "The Lord is my chosen portion and my cup; \nyou hold my lot."
+                                    "I waited patiently for the Lord; \nhe inclined to me and heard my cry.",
+                                    "He put a new song in my mouth, \na song of praise to our God.",
+                                    "Many will see and fear, \nand put their trust in the Lord."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "I bless the Lord who gives me counsel; \nin the night also my heart instructs me.",
-                                    "I keep the Lord always before me; \nbecause he is at my right hand, I shall not be moved."
+                                    "Sacrifice and offering you do not desire, \nbut you have given me an open ear.",
+                                    "Burnt offering and sin offering \nyou have not required."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "You show me the path of life. \nIn your presence there is fullness of joy; \nin your right hand are pleasures forevermore."
+                                    "Then I said, “Here I am; \nin the scroll of the book it is written of me.",
+                                    "I delight to do your will, O my God; \nyour law is within my heart.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I have told the glad news of deliverance \nin the great congregation;",
+                                    "see, I have not restrained my lips, \nas you know, O Lord."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "John ch. 8, vv. 31b, 32",
+                  "verse_number": "Mark ch. 1, v. 17",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "I am the light of the world, says the Lord; whoever follows me will have the light of life."
+                                    "Come after me, says the Lord, and I will make you fishers of men."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Matthew ch. 19, vv. 16 - 26",
+                  "verse_number": "John ch. 21, vv. 15 - 17",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Someone came to Jesus and said, “Teacher, what good deed must I do to have eternal life?” And he said to him, “Why do you ask me about what is good? There is only one who is good. If you wish to enter into life, keep the commandments.” He said to him, “Which ones?” And Jesus said, “You shall not murder; You shall not commit adultery; You shall not steal; You shall not bear false witness; Honor your father and mother; also, You shall love your neighbor as yourself.” The young man said to him, “I have kept all these; what do I still lack?” Jesus said to him, “If you wish to be perfect, go, sell your possessions, and give the money to the poor, and you will have treasure in heaven; then come, follow me.” When the young man heard this word, he went away grieving, for he had many possessions."
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "Then Jesus said to his disciples, “Truly I tell you, it will be hard for a rich person to enter the kingdom of heaven. Again I tell you, it is easier for a camel to go through the eye of a needle than for someone who is rich to enter the kingdom of God.” When the disciples heard this, they were greatly astounded and said, “Then who can be saved?” But Jesus looked at them and said, “For mortals it is impossible, but for God all things are possible.”"
+                                    "When they had finished breakfast, Jesus said to Simon Peter, “Simon son of John, do you love me more than these?” He said to him, “Yes, Lord; you know that I love you.” Jesus said to him, “Feed my lambs.” A second time he said to him, “Simon son of John, do you love me?” He said to him, “Yes, Lord; you know that I love you.” Jesus said to him, “Tend my sheep.” He said to him the third time, “Simon son of John, do you love me?” Peter felt hurt because he said to him the third time, “Do you love me?” And he said to him, “Lord, you know everything; you know that I love you.” Jesus said to him, “Feed my sheep."
                               ]
                         }
                   ]

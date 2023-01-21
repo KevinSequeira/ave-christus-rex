@@ -4,81 +4,111 @@
       "year_i": {
             "first_reading": [
                   {
-                        "verse_number": "Hebrews ch. 2, vv. 14 - 18",
+                        "verse_number": "Hebrews ch. 10, vv. 11 - 18",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Since, therefore, the children share flesh and blood, he himself likewise shared the same things, so that through death he might destroy the one who has the power of death, that is, the devil, and free those who all their lives were held in slavery by the fear of death. For it is clear that he did not come to help angels, but the descendants of Abraham. Therefore he had to become like his brothers and sisters in every respect, so that he might be a merciful and faithful high priest in the service of God, to make a sacrifice of atonement for the sins of the people. Because he himself was tested by what he suffered, he is able to help those who are being tested."
+                                          "Every priest stands day after day at his service, offering again and again the same sacrifices that can never take away sins. But when Christ had offered for all time a single sacrifice for sins, “he sat down at the right hand of God,” and since then has been waiting “until his enemies would be made a footstool for his feet.” For by a single offering he has perfected for all time those who are sanctified. And the Holy Spirit also testifies to us, for after saying,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“This is the covenant that I will make with them \nafter those days, says the Lord:",
+                                          "I will put my laws in their hearts, \nand I will write them on their minds,”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "he also adds,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“I will remember their sins and their lawless deeds no more.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Where there is forgiveness of these, there is no longer any offering for sin."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 105, vv. 1 - 2, 3 - 4, 6 - 7, 8 - 9",
-                  "response": "The Lord remembers his covenant for ever.",
+                  "verse_number": "Psalm 110, vv. 1, 2, 3, 4",
+                  "response": "You are a priest forever, in the line of Melchizedek.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "O give thanks to the Lord, call on his name, \nmake known his deeds among the peoples.",
-                                    "Sing to him, sing praises to him; \ntell of all his wonderful works."
+                                    "The Lord says to my lord, \n“Sit at my right hand",
+                                    "until I make your enemies your footstool.”"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Glory in his holy name; \nlet the hearts of those who seek the Lord rejoice.",
-                                    "Seek the Lord and his strength; \nseek his presence continually."
+                                    "The Lord sends out from Zion \nyour mighty scepter. \nRule in the midst of your foes."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "O offspring of his servant Abraham, \nchildren of Jacob, his chosen ones.",
-                                    "He is the Lord our God; \nhis judgments are in all the earth."
+                                    "Your people will offer themselves willingly \non the day you lead your forces \non the holy mountains.",
+                                    "From the womb of the morning, \nlike dew, your youth will come to you."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "He is mindful of his covenant forever, \nof the word that he commanded, for a thousand generations,",
-                                    "the covenant that he made with Abraham, \nhis sworn promise to Isaac."
+                                    "The Lord has sworn and will not change his mind, \n“You are a priest forever according to the order of Melchizedek.”"
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "John ch. 10, v. 27",
+                  "verse_number": "",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "My sheep hear my voice, says the Lord. I know them, and they follow me."
+                                    "The seed is the word of God, Christ is the sower; all who come to him will live for ever."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Mark ch. 1, vv. 29 - 39",
+                  "verse_number": "Mark ch. 4, vv. 1 - 20",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "On leaving the synagogue, Jesus entered the house of Simon and Andrew, with James and John. Now Simon’s mother-in-law was in bed with a fever, and they told him about her at once. He came and took her by the hand and lifted her up. Then the fever left her, and she began to serve them."
+                                    "Jesus began to teach beside the sea. Such a very large crowd gathered around him that he got into a boat on the sea and sat there, while the whole crowd was beside the sea on the land. He began to teach them many things in parables, and in his teaching he said to them: “Listen! A sower went out to sow. And as he sowed, some seed fell on the path, and the birds came and ate it up. Other seed fell on rocky ground, where it did not have much soil, and it sprang up quickly, since it had no depth of soil. And when the sun rose, it was scorched; and since it had no root, it withered away. Other seed fell among thorns, and the thorns grew up and choked it, and it yielded no grain. Other seed fell into good soil and brought forth grain, growing up and increasing and yielding thirty and sixty and a hundredfold.” And he said, “Let anyone with ears to hear listen!”"
                               ]
                         },
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "That evening, at sunset, they brought to him all who were sick or possessed with demons. And the whole city was gathered around the door. And he cured many who were sick with various diseases, and cast out many demons; and he would not permit the demons to speak, because they knew him."
+                                    "When he was alone, those who were around him along with the twelve asked him about the parables. And he said to them, “To you has been given the secret of the kingdom of God, but for those outside, everything comes in parables; in order that"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "‘they may indeed look, but not perceive, \nand may indeed listen, but not understand;",
+                                    "so that they may not turn again and be forgiven.’”"
                               ]
                         },
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "In the morning, while it was still very dark, he got up and went out to a deserted place, and there he prayed. And Simon and his companions hunted for him. When they found him, they said to him, “Everyone is searching for you.” He answered, “Let us go on to the neighboring towns, so that I may proclaim the message there also; for that is what I came out to do.” And he went throughout Galilee, proclaiming the message in their synagogues and casting out demons."
+                                    "And he said to them, “Do you not understand this parable? Then how will you understand all the parables? The sower sows the word. These are the ones on the path where the word is sown: when they hear, Satan immediately comes and takes away the word that is sown in them. And these are the ones sown on rocky ground: when they hear the word, they immediately receive it with joy. But they have no root, and endure only for a while; then, when trouble or persecution arises on account of the word, immediately they fall away. And others are those sown among the thorns: these are the ones who hear the word, but the cares of the world, and the lure of wealth, and the desire for other things come in and choke the word, and it yields nothing. And these are the ones sown on the good soil: they hear the word and accept it and bear fruit, thirty and sixty and a hundredfold.”"
                               ]
                         }
                   ]

@@ -4,87 +4,84 @@
       "year_i": {
             "first_reading": [
                   {
-                        "verse_number": "Hebrews ch. 2, vv. 5 - 12",
+                        "verse_number": "Hebrews ch. 10, vv. 1 - 10",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Now God did not subject the coming world, about which we are speaking, to angels. But someone has testified somewhere,"
+                                          "Brothers and sisters: Since the law has only a shadow of the good things to come and not the true form of these realities, it can never, by the same sacrifices that are continually offered year after year, make perfect those who approach. Otherwise, would they not have ceased being offered, since the worshipers, cleansed once for all, would no longer have any consciousness of sin? But in these sacrifices there is a reminder of sin year after year. For it is impossible for the blood of bulls and goats to take away sins. Consequently, when Christ came into the world, he said,"
                                     ]
                               },
                               {
                                     "content_type": "stanza",
                                     "p": [
-                                          "“What are human beings that you are mindful of them, \nor mortals, that you care for them?",
-                                          "You have made them for a little while lower than the angels; \nyou have crowned them with glory and honor, \nsubjecting all things under their feet.”"
+                                          "“Sacrifices and offerings you have not desired, \nbut a body you have prepared for me;",
+                                          "in burnt offerings and sin offerings \nyou have taken no pleasure.",
+                                          "Then I said, ‘See, God, I have come to do your will, O God’ \n(in the scroll of the book it is written of me).”"
                                     ]
                               },
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Now in subjecting all things to them, God left nothing outside their control. As it is, we do not yet see everything in subjection to them, but we do see Jesus, who for a little while was made lower than the angels, now crowned with glory and honor because of the suffering of death, so that by the grace of God he might taste death for everyone."
-                                    ]
-                              },
-                              {
-                                    "content_type": "paragraph",
-                                    "p": [
-                                          "It was fitting that God, for whom and through whom all things exist, in bringing many children to glory, should make the pioneer of their salvation perfect through sufferings. For the one who sanctifies and those who are sanctified all have one Father. For this reason Jesus is not ashamed to call them brothers and sisters, saying,"
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "“I will proclaim your name to my brothers and sisters, \nin the midst of the congregation I will praise you.”"
+                                          "When he said above, “You have neither desired nor taken pleasure in sacrifices and offerings and burnt offerings and sin offerings” (these are offered according to the law), then he added, “See, I have come to do your will.” He abolishes the first in order to establish the second. And it is by God’s will that we have been sanctified through the offering of the body of Jesus Christ once for all."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 8, vv. 1ab and 4, 5 - 6, 7 - 8",
-                  "response": "You have given your Son rule over the works of your hands.",
+                  "verse_number": "Psalm 40, vv. 1 and 3ab, 6 - 7a, 9, 10",
+                  "response": "Here I am Lord; I come to do your will.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "O Lord, our Sovereign, \nhow majestic is your name in all the earth!",
-                                    "What are human beings that you are mindful of them, \nmortals that you care for them?"
+                                    "I waited patiently for the Lord; \nhe inclined to me and heard my cry.",
+                                    "He put a new song in my mouth, \na song of praise to our God."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Yet you have made them a little lower than God, \nand crowned them with glory and honor.",
-                                    "You have given them dominion over the works of your hands; \nyou have put all things under their feet."
+                                    "Sacrifice and offering you do not desire, \nbut you have given me an open ear.",
+                                    "Burnt offering and sin offering \nyou have not required.",
+                                    "Then I said, “Here I am.”"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "All sheep and oxen, \nand also the beasts of the field,",
-                                    "the birds of the air, and the fish of the sea, \nwhatever passes along the paths of the seas."
+                                    "I have told the glad news of deliverance \nin the great congregation;",
+                                    "see, I have not restrained my lips, \nas you know, O Lord."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I have not hidden your saving help within my heart, \nI have spoken of your faithfulness and your salvation;",
+                                    "I have not concealed your steadfast love and your faithfulness \nfrom the great congregation."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "See 1 Thessalonians ch. 2, v. 13",
+                  "verse_number": "See Matthew ch. 11, v. 25",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "Receive the word of God, not as the word of men, but as it truly is, the word of God."
+                                    "Blessed are you, Father, Lord of heaven and earth; you have revealed to little ones the mysteries of the Kingdom."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Mark ch. 1, vv. 21 - 28",
+                  "verse_number": "Mark ch. 3, vv. 31 - 35",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Jesus went to Capernaum; and when the sabbath came, he entered the synagogue and taught. They were astounded at his teaching, for he taught them as one having authority, and not as the scribes. Just then there was in their synagogue a man with an unclean spirit, and he cried out, “What have you to do with us, Jesus of Nazareth? Have you come to destroy us? I know who you are, the Holy One of God.” But Jesus rebuked him, saying, “Be silent, and come out of him!” And the unclean spirit, convulsing him and crying with a loud voice, came out of him. They were all amazed, and they kept on asking one another, “What is this? A new teaching—with authority! He commands even the unclean spirits, and they obey him.” At once his fame began to spread throughout the surrounding region of Galilee."
+                                    "The mother of Jesus and his brothers arrived at the house; and standing outside, they sent to him and called him. A crowd was sitting around him; and they said to him, “Your mother and your brothers and sisters are outside, asking for you.” And he replied, “Who are my mother and my brothers?” And looking at those who sat around him, he said, “Here are my mother and my brothers! Whoever does the will of God is my brother and sister and mother.”"
                               ]
                         }
                   ]

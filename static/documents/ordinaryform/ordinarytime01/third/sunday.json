@@ -4,106 +4,118 @@
       "year_a": {
             "first_reading": [
                   {
-                        "verse_number": "Hebrews ch. 1, vv. 1 - 6",
+                        "verse_number": "Isaiah ch. 9, vv. 1 - 4",
                         "content": [
                               {
-                                    "content_type": "stanza",
+                                    "content_type": "paragraph",
                                     "p": [
-                                          "The Lord said to me, “You are my servant, \nIsrael, in whom I will be glorified.”"
+                                          "In the former time the Lord brought into contempt the land of Zebulun and the land of Naphtali, but in the latter time he will make glorious the way of the sea, the land beyond the Jordan, Galilee of the nations."
                                     ]
                               },
                               {
                                     "content_type": "stanza",
                                     "p": [
-                                          "And now the Lord says, \nwho formed me in the womb to be his servant,",
-                                          "to bring Jacob back to him, \nand that Israel might be gathered to him,",
-                                          "for I am honored in the sight of the Lord, \nand my God has become my strength—",
-                                          "he says,",
-                                          "“It is too light a thing that you should be my servant \nto raise up the tribes of Jacob \nand to restore the survivors of Israel;",
-                                          "I will give you as a light to the nations, \nthat my salvation may reach to the end of the earth.”"
+                                          "The people who walked in darkness \nhave seen a great light;",
+                                          "those who lived in a land of deep darkness— \non them light has shined.",
+                                          "You have multiplied the nation, \nyou have increased its joy;",
+                                          "they rejoice before you \nas with joy at the harvest, \nas people exult when dividing plunder.",
+                                          "For the yoke of their burden, \nand the bar across their shoulders, \nthe rod of their oppressor, \nyou have broken as on the day of Midian."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 40, vv. 1 and 3ab, 6 - 7a, 7b - 8, 9",
-                  "response": "Here I am, Lord; I come to do your will.",
+                  "verse_number": "Psalm 27, vv. 1, 4, 13 - 14",
+                  "response": "The Lord is my light and my salvation.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "I waited patiently for the Lord; \nhe inclined to me and heard my cry.",
-                                    "He put a new song in my mouth, \na song of praise to our God."
+                                    "The Lord is my light and my salvation; \nwhom shall I fear?",
+                                    "The Lord is the stronghold of my life; \nof whom shall I be afraid?"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Sacrifice and offering you do not desire, \nbut you have given me an open ear.",
-                                    "Burnt offering and sin offering \nyou have not required.",
-                                    "Then I said, “Here I am”"
+                                    "One thing I asked of the Lord, \nthat will I seek after:",
+                                    "to live in the house of the Lord \nall the days of my life,",
+                                    "to behold the beauty of the Lord, \nand to inquire in his temple."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "“in the scroll of the book it is written of me.",
-                                    "I delight to do your will, O my God; \nyour law is within my heart.”"
-                              ]
-                        },
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "I have told the glad news of deliverance \nin the great congregation;",
-                                    "see, I have not restrained my lips, \nas you know, O Lord."
+                                    "I believe that I shall see the goodness of the Lord \nin the land of the living.",
+                                    "Wait for the Lord; \nbe strong, and let your heart take courage; \nwait for the Lord!"
                               ]
                         }
                   ]
             },
             "second_reading": [
                   {
-                        "verse_number": "1 Corinthians ch. 1, vv. 1 - 3",
+                        "verse_number": "1 Corinthians ch. 1, vv. 10 - 13, 17",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Paul, called to be an apostle of Christ Jesus by the will of God, and our brother Sosthenes,"
+                                          "Now I appeal to you, brothers and sisters, by the name of our Lord Jesus Christ, that all of you be in agreement and that there be no divisions among you, but that you be united in the same mind and the same purpose. For it has been reported to me by Chloe’s people that there are quarrels among you, my brothers and sisters. What I mean is that each of you says, “I belong to Paul,” or “I belong to Apollos,” or “I belong to Cephas,” or “I belong to Christ.” Has Christ been divided? Was Paul crucified for you? Or were you baptized in the name of Paul?"
                                     ]
                               },
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "To the church of God that is in Corinth, to those who are sanctified in Christ Jesus, called to be saints, together with all those who in every place call on the name of our Lord Jesus Christ, both their Lord and ours:"
-                                    ]
-                              },
-                              {
-                                    "content_type": "paragraph",
-                                    "p": [
-                                          "Grace to you and peace from God our Father and the Lord Jesus Christ."
+                                          "For Christ did not send me to baptize but to proclaim the gospel, and not with eloquent wisdom, so that the cross of Christ might not be emptied of its power."
                                     ]
                               }
                         ]
                   }
             ],
             "gospel_acclamation": {
-                  "verse_number": "John ch. 1, vv. 14a, 12a",
+                  "verse_number": "Cf. Matthew ch. 4, v. 23",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "The Word of God became flesh and dwelt among us. To those who accepted him, he gave power to becomes sons of God."
+                                    "Jesus proclaimed the Gospel of the kingdom and cured every disease among the people."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "John ch. 1, vv. 29 - 34",
+                  "verse_number": "John ch. 4, vv. 12 - 23",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "John the Baptist saw Jesus coming toward him and declared, “Here is the Lamb of God who takes away the sin of the world! This is he of whom I said, ‘After me comes a man who ranks ahead of me because he was before me.’ I myself did not know him; but I came baptizing with water for this reason, that he might be revealed to Israel.” And John testified, “I saw the Spirit descending from heaven like a dove, and it remained on him. I myself did not know him, but the one who sent me to baptize with water said to me, ‘He on whom you see the Spirit descend and remain is the one who baptizes with the Holy Spirit.’ And I myself have seen and have testified that this is the Son of God.”"
+                                    "when Jesus heard that John had been arrested, he withdrew to Galilee. He left Nazareth and made his home in Capernaum by the sea, in the territory of Zebulun and Naphtali, so that what had been spoken through the prophet Isaiah might be fulfilled:"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Land of Zebulun, land of Naphtali, \non the road by the sea, across the Jordan, Galilee of the Gentiles—",
+                                    "the people who sat in darkness \nhave seen a great light,",
+                                    "and for those who sat in the region and shadow of death \nlight has dawned.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "From that time Jesus began to proclaim, “Repent, for the kingdom of heaven has come near.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "As he walked by the Sea of Galilee, he saw two brothers, Simon, who is called Peter, and Andrew his brother, casting a net into the sea—for they were fishermen. And he said to them, “Follow me, and I will make you fish for people.” Immediately they left their nets and followed him. As he went from there, he saw two other brothers, James son of Zebedee and his brother John, in the boat with their father Zebedee, mending their nets, and he called them. Immediately they left the boat and their father, and followed him."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus went throughout Galilee, teaching in their synagogues and proclaiming the good news of the kingdom and curing every disease and every sickness among the people."
                               ]
                         }
                   ]

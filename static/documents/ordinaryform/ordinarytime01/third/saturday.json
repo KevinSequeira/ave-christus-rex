@@ -4,80 +4,79 @@
       "year_i": {
             "first_reading": [
                   {
-                        "verse_number": "Hebrews ch. 4, vv. 12 - 16",
+                        "verse_number": "Hebrews ch. 11, vv. 1 - 2, 8 - 19",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "The word of God is living and active, sharper than any two-edged sword, piercing until it divides soul from spirit, joints from marrow; it is able to judge the thoughts and intentions of the heart. And before him no creature is hidden, but all are naked and laid bare to the eyes of the one to whom we must render an account."
+                                          "Brothers and sisters: Faith is the assurance of things hoped for, the conviction of things not seen. Indeed, by faith our ancestors received approval."
                                     ]
                               },
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Since, then, we have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold fast to our confession. For we do not have a high priest who is unable to sympathize with our weaknesses, but we have one who in every respect has been tested as we are, yet without sin. Let us therefore approach the throne of grace with boldness, so that we may receive mercy and find grace to help in time of need."
+                                          "By faith Abraham obeyed when he was called to set out for a place that he was to receive as an inheritance; and he set out, not knowing where he was going. By faith he stayed for a time in the land he had been promised, as in a foreign land, living in tents, as did Isaac and Jacob, who were heirs with him of the same promise. For he looked forward to the city that has foundations, whose architect and builder is God. By faith he received power of procreation, even though he was too old—and Sarah herself was barren—because he considered him faithful who had promised. Therefore from one person, and this one as good as dead, descendants were born, “as many as the stars of heaven and as the innumerable grains of sand by the seashore.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "All of these died in faith without having received the promises, but from a distance they saw and greeted them. They confessed that they were strangers and foreigners on the earth, for people who speak in this way make it clear that they are seeking a homeland. If they had been thinking of the land that they had left behind, they would have had opportunity to return. But as it is, they desire a better country, that is, a heavenly one. Therefore God is not ashamed to be called their God; indeed, he has prepared a city for them."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "By faith Abraham, when put to the test, offered up Isaac. He who had received the promises was ready to offer up his only son, of whom he had been told, “It is through Isaac that descendants shall be named for you.” He considered the fact that God is able even to raise someone from the dead—and figuratively speaking, he did receive him back."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 19, v. 7, 8, 9, 14",
-                  "response": "Your words, Lord, are Spirit and life.",
+                  "verse_number": "Luke 1, vv. 69 - 70a, 70b - 72, 73 - 75",
+                  "response": "Blessed be the Lord the God of Israel; he has come to his people.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "The law of the Lord is perfect, \nreviving the soul;",
-                                    "the decrees of the Lord are sure, \nmaking wise the simple;"
+                                    "THe has raised up a mighty savior for us \nin the house of his servant David."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "The precepts of the Lord are right, \nrejoicing the heart;",
-                                    "the commandment of the Lord is clear, \nenlightening the eyes."
+                                    "He spoke through the mouth of his holy prophets from of old, \nthat we would be saved from our enemies and from the hand of all who hate us.",
+                                    "Thus he has shown the mercy promised to our ancestors, \nand has remembered his holy covenant,"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "The fear of the Lord is pure, \nenduring forever;",
-                                    "the ordinances of the Lord are true \nand righteous altogether."
-                              ]
-                        },
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "Let the words of my mouth and the meditation of my heart \nbe acceptable to you, \nO Lord, my rock and my redeemer."
+                                    "The oath that he swore to our ancestor Abraham, \nto grant us that we, being rescued from the hands of our enemies,",
+                                    "might serve him without fear, in holiness and righteousness \nbefore him all our days."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "Luke ch. 4, v. 18",
+                  "verse_number": "John ch. 3, v. 16",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "The Lord sent me to bring glad tidings to the poor and to proclaim liberty to captives."
+                                    "God so loved the world that he gave his only-begotten Son, so that everyone who believes in him might have eternal life."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Mark ch. 2, vv. 13 - 17",
+                  "verse_number": "Mark ch. 3, vv. 35 - 41",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Jesus went out again beside the sea; the whole crowd gathered around him, and he taught them. As he was walking along, he saw Levi son of Alphaeus sitting at the tax booth, and he said to him, “Follow me.” And he got up and followed him."
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "And as he sat at dinner in Levi’s house, many tax collectors and sinners were also sitting with Jesus and his disciples—for there were many who followed him. When the scribes of the Pharisees saw that he was eating with sinners and tax collectors, they said to his disciples, “Why does he eat with tax collectors and sinners?” When Jesus heard this, he said to them, “Those who are well have no need of a physician, but those who are sick; I have come to call not the righteous but sinners.”"
+                                    "On that day, when evening had come, he said to them, “Let us go across to the other side.” And leaving the crowd behind, they took him with them in the boat, just as he was. Other boats were with him. A great windstorm arose, and the waves beat into the boat, so that the boat was already being swamped. But he was in the stern, asleep on the cushion; and they woke him up and said to him, “Teacher, do you not care that we are perishing?” He woke up and rebuked the wind, and said to the sea, “Peace! Be still!” Then the wind ceased, and there was a dead calm. He said to them, “Why are you afraid? Have you still no faith?” And they were filled with great awe and said to one another, “Who then is this, that even the wind and the sea obey him?”"
                               ]
                         }
                   ]

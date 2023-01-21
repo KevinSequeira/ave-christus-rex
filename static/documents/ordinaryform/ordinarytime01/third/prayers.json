@@ -1,15 +1,16 @@
 {
-      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/ordinary_time_02.jpg')",
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/ordinary_time_03.jpg')",
       "liturgy_background_position": "center",
       "opening_antiphon": [
             {
-                  "verse_number": "Psalm 66, v. 4",
+                  "verse_number": "Psalm 96, vv. 1, 6",
                   "content": [
                         {
                               "p": [
-                                    "All the earth shall bow down before you, O God,",
-                                    "and shall sing to you,",
-                                    "shall sing to your name, O Most High!"
+                                    "O sing a new song to the Lord;",
+                                    "sing to the Lord, all the earth.",
+                                    "In his presence are majesty and splendor,",
+                                    "strength and honor in his holy place."
                               ]
                         }
                   ]
@@ -19,10 +20,9 @@
             {
                   "p": [
                         "Almighty ever-living God,",
-                        "who govern all things,",
-                        "both in heaven and on earth,",
-                        "mercifully hear the pleading of your people",
-                        "and bestow your peace on our times."
+                        "direct our actions according to your good pleasure,",
+                        "that in the name of your beloved Son",
+                        "we may abound in good works."
                   ]
             },
             {
@@ -36,10 +36,9 @@
       "offertory": [
             {
                   "p": [
-                        "Grant us, O Lord, we pray,",
-                        "that we may participate worthily in these mysteries,",
-                        "for whenever the memorial of this sacrifice is celebrated",
-                        "the work of our redemption is accomplished."
+                        "Accept our offerings, O Lord, we pray,",
+                        "and in sanctifying them",
+                        "grant that they may profit us for salvation."
                   ]
             },
             {
@@ -50,23 +49,24 @@
       ],
       "communion_antiphon": [
             {
-                  "verse_number": "Cf. Psalm 23, v. 5",
+                  "verse_number": "Cf. Psalm 34, v. 6",
                   "content": [
                         {
                               "p": [
-                                    "You have prepared a table before me,",
-                                    "and how precious is the chalice that quenches my thirst."
+                                    "Look toward the Lord and be radiant;",
+                                    "let your faces not be abashed."
                               ]
                         }
                   ]
             },
             {
-                  "verse_number": "1 John ch. 4, v. 16",
+                  "verse_number": "John ch. 8, v. 12",
                   "content": [
                         {
                               "p": [
-                                    "We have come to know and to believe",
-                                    "in the love that God has for us."
+                                    "I am the light of the world, says the Lord;",
+                                    "whoever follows me will not walk in darkness,",
+                                    "but will have the light of life."
                               ]
                         }
                   ]
@@ -75,11 +75,10 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "Pour on us, O Lord, the Spirit of your love,",
-                        "and in your kindness",
-                        "make those you have nourished",
-                        "by this one heavenly Bread",
-                        "one in mind and heart."
+                        "Grant, we pray, almighty God,",
+                        "that, receiving the grace",
+                        "by which you bring us to new life,",
+                        "we may always glory in your gift."
                   ]
             },
             {

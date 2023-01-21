@@ -1,16 +1,26 @@
 {
-      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_anthony_abbot.png')",
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_vincent.png')",
       "saint_background_position": "top",
       "opening_antiphon": [
             {
-                  "verse_number": "Cf. Psalm 92, vv. 13, 14",
+                  "verse_number": "",
                   "content": [
                         {
                               "p": [
-                                    "The just will flourish like the palm tree,",
-                                    "and grow like a Lebanon cedar,",
-                                    "planted in the house of the Lord,",
-                                    "in the courts of the house of our God."
+                                    "This holy man fought to the death for the law of his God",
+                                    "and did not fear the words of the godless,",
+                                    "for he was built on solid rock."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Wisdom ch. 10, v. 12",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Lord granted him a stern struggle,",
+                                    "that he might know that wisdom is mightier than all else."
                               ]
                         }
                   ]
@@ -20,11 +30,11 @@
       "collect": [
             {
                   "p": [
-                        "O God, who brought the Abbot Saint Anthony",
-                        "to serve you by a wondrous way of life in the desert,",
-                        "grant, through his intercession,",
-                        "that, denying ourselves,",
-                        "we may always love you above all things."
+                        "Almighty ever-living God,",
+                        "mercifully pour out your Spirit upon us,",
+                        "so that our hearts may possess that strong love",
+                        "by which the Martyr Saint Vincent",
+                        "triumphed over all bodily torments."
                   ]
             },
             {
@@ -38,11 +48,11 @@
       "offertory": [
             {
                   "p": [
-                        "May these offerings of our service,",
-                        "placed on your altar in commemoration of Saint Anthony,",
-                        "be acceptable to you, O Lord, we pray,",
-                        "and grant that, released from earthly attachments,",
-                        "we may have our riches in you alone."
+                        "Sanctify our offerings by your blessing,",
+                        "O Lord, we pray,",
+                        "and by your grace may we be set afire",
+                        "with that flame of your love",
+                        "through which Saint Vincent overcame every bodily torment."
                   ]
             },
             {
@@ -54,13 +64,23 @@
       "credo": "no",
       "communion_antiphon": [
             {
-                  "verse_number": "Cf. Matthew ch. 19, v. 21",
+                  "verse_number": "Cf. Matthew ch. 16, v. 24",
                   "content": [
                         {
                               "p": [
-                                    "If you would be perfect,",
-                                    "go, sell what you have, give to the poor,",
-                                    "and follow me, says the Lord."
+                                    "Whoever wishes to come after me, must deny himself,",
+                                    "take up his cross, and follow me, says the Lord."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Matthew ch. 10, v. 39",
+                  "content": [
+                        {
+                              "p": [
+                                    "Whoever loses his life for my sake,",
+                                    "will find it in eternity, says the Lord."
                               ]
                         }
                   ]
@@ -69,10 +89,11 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "Nourished for our healing by your Sacraments, O Lord,",
-                        "may we escape every snare of the enemy unharmed,",
-                        "just as by your grace Saint Anthony won glorious victories",
-                        "over the powers of darkness."
+                        "May the sacred mysteries of which we have partaken,",
+                        "O Lord, we pray,",
+                        "give us that determination which made your blessed Martyr Vincent",
+                        "faithful in your service",
+                        "and victorious in suffering."
                   ]
             },
             {
@@ -84,68 +105,75 @@
       "readings": {
             "first_reading": [
                   {
-                        "verse_number": "Ephesians ch. 6, vv. 10 - 13, 18",
+                        "verse_number": "2 Corinthians ch. 4, vv. 7 - 15",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Brothers and sisters: Be strong in the Lord and in the strength of his power. Put on the whole armor of God, so that you may be able to stand against the wiles of the devil. For our struggle is not against enemies of blood and flesh, but against the rulers, against the authorities, against the cosmic powers of this present darkness, against the spiritual forces of evil in the heavenly places. Therefore take up the whole armor of God, so that you may be able to withstand on that evil day, and having done everything, to stand firm."
+                                          "Brothers and sisters: We have this treasure in clay jars, so that it may be made clear that this extraordinary power belongs to God and does not come from us. We are afflicted in every way, but not crushed; perplexed, but not driven to despair; persecuted, but not forsaken; struck down, but not destroyed; always carrying in the body the death of Jesus, so that the life of Jesus may also be made visible in our bodies. For while we live, we are always being given up to death for Jesus’ sake, so that the life of Jesus may be made visible in our mortal flesh. So death is at work in us, but life in you."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "But just as we have the same spirit of faith that is in accordance with scripture—“I believed, and so I spoke”—we also believe, and so we speak, because we know that the one who raised the Lord Jesus will raise us also with Jesus, and will bring us with you into his presence. Yes, everything is for your sake, so that grace, as it extends to more and more people, may increase thanksgiving, to the glory of God."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 16, vv. 1 - 2 and 5, 7 - 8, 11",
-                  "response": "You are my inheritance, O Lord.",
+                  "verse_number": "Psalm 34, vv. 1 - 2, 3 - 4, 5 - 6, 7 - 8",
+                  "response": "The Lord delivered me from all my fears.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Protect me, O God, for in you I take refuge.",
-                                    "I say to the Lord, “You are my Lord; \nI have no good apart from you.”",
-                                    "The Lord is my chosen portion and my cup; \nyou hold my lot."
+                                    "I will bless the Lord at all times; \nhis praise shall continually be in my mouth.",
+                                    "My soul makes its boast in the Lord; \nlet the humble hear and be glad."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "I bless the Lord who gives me counsel; \nin the night also my heart instructs me.",
-                                    "I keep the Lord always before me; \nbecause he is at my right hand, I shall not be moved."
+                                    "O magnify the Lord with me, \nand let us exalt his name together.",
+                                    "I sought the Lord, and he answered me, \nand delivered me from all my fears."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "You show me the path of life. \nIn your presence there is fullness of joy; \nin your right hand are pleasures forevermore."
+                                    "Look to him, and be radiant; \nso your faces shall never be ashamed.",
+                                    "This poor soul cried, and was heard by the Lord, \nand was saved from every trouble."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The angel of the Lord encamps \naround those who fear him, and delivers them.",
+                                    "O taste and see that the Lord is good; \nhappy are those who take refuge in him."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "John ch. 8, vv. 31b, 32",
+                  "verse_number": "See Te Deum",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "I am the light of the world, says the Lord; whoever follows me will have the light of life."
+                                    "We praise you, O God, we acclaim you as Lord; the white-robed army of martyrs praise you."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Matthew ch. 19, vv. 16 - 26",
+                  "verse_number": "Matthew ch. 10, vv. 17 - 22",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Someone came to Jesus and said, “Teacher, what good deed must I do to have eternal life?” And he said to him, “Why do you ask me about what is good? There is only one who is good. If you wish to enter into life, keep the commandments.” He said to him, “Which ones?” And Jesus said, “You shall not murder; You shall not commit adultery; You shall not steal; You shall not bear false witness; Honor your father and mother; also, You shall love your neighbor as yourself.” The young man said to him, “I have kept all these; what do I still lack?” Jesus said to him, “If you wish to be perfect, go, sell your possessions, and give the money to the poor, and you will have treasure in heaven; then come, follow me.” When the young man heard this word, he went away grieving, for he had many possessions."
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "Then Jesus said to his disciples, “Truly I tell you, it will be hard for a rich person to enter the kingdom of heaven. Again I tell you, it is easier for a camel to go through the eye of a needle than for someone who is rich to enter the kingdom of God.” When the disciples heard this, they were greatly astounded and said, “Then who can be saved?” But Jesus looked at them and said, “For mortals it is impossible, but for God all things are possible.”"
+                                    "Jesus said to his disciples: “Beware of them, for they will hand you over to councils and flog you in their synagogues; and you will be dragged before governors and kings because of me, as a testimony to them and the Gentiles. When they hand you over, do not worry about how you are to speak or what you are to say; for what you are to say will be given to you at that time; for it is not you who speak, but the Spirit of your Father speaking through you. Brother will betray brother to death, and a father his child, and children will rise against parents and have them put to death; and you will be hated by all because of my name. But the one who endures to the end will be saved.”"
                               ]
                         }
                   ]
