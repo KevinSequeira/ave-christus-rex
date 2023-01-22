@@ -1,0 +1,166 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_francis_de_sales.png')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Daniel ch. 12, v. 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "Those who are wise will shine brightly",
+                                    "like the splendor of the firmament",
+                                    "and those who lead the many to justice",
+                                    "shall be like the stars for ever."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Sirach ch. 44, vv. 15, 14",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let the peoples recount the wisdom of the Saints,",
+                                    "and let the Church proclaim their praise.",
+                                    "Their names will live on and on."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who for the salvation of souls",
+                        "willed that the Bishop Saint Francis de Sales",
+                        "become all things to all,",
+                        "graciously grant that, following his example,",
+                        "we may always display the gentleness of your charity",
+                        "in the service of our neighbor."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Through this saving sacrifice which we offer you, O Lord,",
+                        "kindle in our hearts that divine fire of the Holy Spirit",
+                        "with which you wonderfully inflamed",
+                        "the most gentle soul of Saint Francis de Sales."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. 1 Corinthians ch. 1, vv. 23, 24",
+                  "content": [
+                        {
+                              "p": [
+                                    "We proclaim Christ crucified;",
+                                    "Christ, the power of God and the wisdom of God."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Grant, we pray, almighty God,",
+                        "that through the Sacrament we have received,",
+                        "we may imitate on earth",
+                        "the charity and meekness of Saint Francis de Sales",
+                        "and so attain like him the glory of heaven."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Ephesians ch. 3, vv. 8 - 12",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: Although I am the very least of all the saints, this grace was given to me to bring to the Gentiles the news of the boundless riches of Christ, and to make everyone see what is the plan of the mystery hidden for ages in God who created all things; so that through the church the wisdom of God in its rich variety might now be made known to the rulers and authorities in the heavenly places. This was in accordance with the eternal purpose that he has carried out in Christ Jesus our Lord, in whom we have access to God in boldness and confidence through faith in him."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 37, vv. 3 - 4, 5 - 6, 30 - 31",
+                  "response": "The mouth of the just murmurs wisdom.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Trust in the Lord, and do good; \nso you will live in the land, and enjoy security.",
+                                    "Take delight in the Lord, \nand he will give you the desires of your heart."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Commit your way to the Lord; \ntrust in him, and he will act.",
+                                    "He will make your vindication shine like the light, \nand the justice of your cause like the noonday."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The mouths of the righteous utter wisdom, \nand their tongues speak justice.",
+                                    "The law of their God is in their hearts; \ntheir steps do not slip."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "John ch. 6, vv. 63c, 68c",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Your words, Lord, are Spirit and life; you have the words of everlasting life."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 15, vv. 9 - 17",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “As the Father has loved me, so I have loved you; abide in my love. If you keep my commandments, you will abide in my love, just as I have kept my Father’s commandments and abide in his love. I have said these things to you so that my joy may be in you, and that your joy may be complete."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“This is my commandment, that you love one another as I have loved you. No one has greater love than this, to lay down one’s life for one’s friends. You are my friends if you do what I command you. I do not call you servants any longer, because the servant does not know what the master is doing; but I have called you friends, because I have made known to you everything that I have heard from my Father. You did not choose me but I chose you. And I appointed you to go and bear fruit, fruit that will last, so that the Father will give you whatever you ask him in my name. I am giving you these commands so that you may love one another.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}
