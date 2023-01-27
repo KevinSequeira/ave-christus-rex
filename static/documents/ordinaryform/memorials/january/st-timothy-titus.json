@@ -1,16 +1,15 @@
 {
-      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_anthony_abbot.png')",
-      "saint_background_position": "top",
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_timothy_titus.png')",
+      "saint_background_position": "center",
       "opening_antiphon": [
             {
-                  "verse_number": "Cf. Psalm 92, vv. 13, 14",
+                  "verse_number": "Psalm 96, vv. 3, 4",
                   "content": [
                         {
                               "p": [
-                                    "The just will flourish like the palm tree,",
-                                    "and grow like a Lebanon cedar,",
-                                    "planted in the house of the Lord,",
-                                    "in the courts of the house of our God."
+                                    "Tell among the nations his glory,",
+                                    "and his wonders among all the peoples,",
+                                    "for the Lord is great and highly to be praised."
                               ]
                         }
                   ]
@@ -20,11 +19,11 @@
       "collect": [
             {
                   "p": [
-                        "O God, who brought the Abbot Saint Anthony",
-                        "to serve you by a wondrous way of life in the desert,",
-                        "grant, through his intercession,",
-                        "that, denying ourselves,",
-                        "we may always love you above all things."
+                        "O God, who adorned Saints Timothy and Titus",
+                        "with apostolic virtues,",
+                        "grant, through the intercession of them both,",
+                        "that, living justly and devoutly in this present age,",
+                        "we may merit to reach our heavenly homeland."
                   ]
             },
             {
@@ -38,11 +37,10 @@
       "offertory": [
             {
                   "p": [
-                        "May these offerings of our service,",
-                        "placed on your altar in commemoration of Saint Anthony,",
-                        "be acceptable to you, O Lord, we pray,",
-                        "and grant that, released from earthly attachments,",
-                        "we may have our riches in you alone."
+                        "Receive, O Lord, we pray, the offerings of your people,",
+                        "which we bring in celebration of Saints Timothy and Titus,",
+                        "and, in your kindness, render us fully acceptable",
+                        "by giving us sincerity of heart."
                   ]
             },
             {
@@ -54,13 +52,12 @@
       "credo": "no",
       "communion_antiphon": [
             {
-                  "verse_number": "Cf. Matthew ch. 19, v. 21",
+                  "verse_number": "Mark ch. 16, v. 15; Matthew ch. 28, v. 20",
                   "content": [
                         {
                               "p": [
-                                    "If you would be perfect,",
-                                    "go, sell what you have, give to the poor,",
-                                    "and follow me, says the Lord."
+                                    "Go into all the world, and proclaim the Gospel.",
+                                    "I am with you always, says the Lord."
                               ]
                         }
                   ]
@@ -69,10 +66,10 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "Nourished for our healing by your Sacraments, O Lord,",
-                        "may we escape every snare of the enemy unharmed,",
-                        "just as by your grace Saint Anthony won glorious victories",
-                        "over the powers of darkness."
+                        "May the Sacrament we have received, O Lord our God,",
+                        "nourish in us that faith",
+                        "taught by the preaching of the Apostles",
+                        "and kept safe by the labors of Saints Timothy and Titus."
                   ]
             },
             {
@@ -89,63 +86,116 @@
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Brothers and sisters: Be strong in the Lord and in the strength of his power. Put on the whole armor of God, so that you may be able to stand against the wiles of the devil. For our struggle is not against enemies of blood and flesh, but against the rulers, against the authorities, against the cosmic powers of this present darkness, against the spiritual forces of evil in the heavenly places. Therefore take up the whole armor of God, so that you may be able to withstand on that evil day, and having done everything, to stand firm."
+                                          "Paul, an apostle of Christ Jesus by the will of God, for the sake of the promise of life that is in Christ Jesus,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "To Timothy, my beloved child:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Grace, mercy, and peace from God the Father and Christ Jesus our Lord."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "I am grateful to God—whom I worship with a clear conscience, as my ancestors did—when I remember you constantly in my prayers night and day. Recalling your tears, I long to see you so that I may be filled with joy. I am reminded of your sincere faith, a faith that lived first in your grandmother Lois and your mother Eunice and now, I am sure, lives in you. For this reason I remind you to rekindle the gift of God that is within you through the laying on of my hands; for God did not give us a spirit of cowardice, but rather a spirit of power and of love and of self-discipline."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Do not be ashamed, then, of the testimony about our Lord or of me his prisoner, but join with me in suffering for the gospel, relying on the power of God."
+                                    ]
+                              }
+                        ]
+                  },
+                  {
+                        "verse_number": "Titus ch. 1, vv. 1 - 5",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Paul, a servant of God and an apostle of Jesus Christ, for the sake of the faith of God’s elect and the knowledge of the truth that is in accordance with godliness, in the hope of eternal life that God, who never lies, promised before the ages began— in due time he revealed his word through the proclamation with which I have been entrusted by the command of God our Savior,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "To Titus, my loyal child in the faith we share:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Grace and peace from God the Father and Christ Jesus our Savior."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "I left you behind in Crete for this reason, so that you should put in order what remained to be done, and should appoint elders in every town, as I directed you."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 16, vv. 1 - 2 and 5, 7 - 8, 11",
-                  "response": "You are my inheritance, O Lord.",
+                  "verse_number": "Psalm 96, vv. 1 - 2a, 2b - 3, 7 - 8a, 10",
+                  "response": "Proclaim God's marvelous deeds to all the nations.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Protect me, O God, for in you I take refuge.",
-                                    "I say to the Lord, “You are my Lord; \nI have no good apart from you.”",
-                                    "The Lord is my chosen portion and my cup; \nyou hold my lot."
+                                    "O sing to the Lord a new song; \nsing to the Lord, all the earth.",
+                                    "Sing to the Lord, bless his name."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "I bless the Lord who gives me counsel; \nin the night also my heart instructs me.",
-                                    "I keep the Lord always before me; \nbecause he is at my right hand, I shall not be moved."
+                                    "Tell of his salvation from day to day.",
+                                    "Declare his glory among the nations, \nhis marvelous works among all the peoples."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "You show me the path of life. \nIn your presence there is fullness of joy; \nin your right hand are pleasures forevermore."
+                                    "Ascribe to the Lord, O families of the peoples, \nascribe to the Lord glory and strength.",
+                                    "Ascribe to the Lord the glory due his name; \nbring an offering, and come into his courts."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Say among the nations, “The Lord is king! \nThe world is firmly established; it shall never be moved. \nHe will judge the peoples with equity.”"
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "John ch. 8, vv. 31b, 32",
+                  "verse_number": "Luke ch. 4, v. 18",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "I am the light of the world, says the Lord; whoever follows me will have the light of life."
+                                    "The Lord sent me to bring glad tidings to the poor and to proclaim liberty to captives."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Matthew ch. 19, vv. 16 - 26",
+                  "verse_number": "Luke ch. 10, vv. 1 - 9",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Someone came to Jesus and said, “Teacher, what good deed must I do to have eternal life?” And he said to him, “Why do you ask me about what is good? There is only one who is good. If you wish to enter into life, keep the commandments.” He said to him, “Which ones?” And Jesus said, “You shall not murder; You shall not commit adultery; You shall not steal; You shall not bear false witness; Honor your father and mother; also, You shall love your neighbor as yourself.” The young man said to him, “I have kept all these; what do I still lack?” Jesus said to him, “If you wish to be perfect, go, sell your possessions, and give the money to the poor, and you will have treasure in heaven; then come, follow me.” When the young man heard this word, he went away grieving, for he had many possessions."
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "Then Jesus said to his disciples, “Truly I tell you, it will be hard for a rich person to enter the kingdom of heaven. Again I tell you, it is easier for a camel to go through the eye of a needle than for someone who is rich to enter the kingdom of God.” When the disciples heard this, they were greatly astounded and said, “Then who can be saved?” But Jesus looked at them and said, “For mortals it is impossible, but for God all things are possible.”"
+                                    "The Lord appointed seventy others and sent them on ahead of him in pairs to every town and place where he himself intended to go. He said to them, “The harvest is plentiful, but the laborers are few; therefore ask the Lord of the harvest to send out laborers into his harvest. Go on your way. See, I am sending you out like lambs into the midst of wolves. Carry no purse, no bag, no sandals; and greet no one on the road. Whatever house you enter, first say, ‘Peace to this house!’ And if anyone is there who shares in peace, your peace will rest on that person; but if not, it will return to you. Remain in the same house, eating and drinking whatever they provide, for the laborer deserves to be paid. Do not move about from house to house. Whenever you enter a town and its people welcome you, eat what is set before you; cure the sick who are there, and say to them, ‘The kingdom of God has come near to you.’”"
                               ]
                         }
                   ]

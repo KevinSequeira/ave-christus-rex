@@ -1181,6 +1181,7 @@ def memorialfortheday(request, current_date = "2022-11-27"):
             second_reading_content = ""
             if ("second_reading" in jsonFile["readings"]):
                 context["second_reading"] = jsonFile["readings"]["second_reading"]
+                second_reading_content = "yes"
 
             context["gospel_acclamation"] = jsonFile["readings"]["gospel_acclamation"]
             context["gospel_reading"] = jsonFile["readings"]["gospel_reading"]

@@ -1,16 +1,14 @@
 {
-      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_anthony_abbot.png')",
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_john_bosco.jpeg')",
       "saint_background_position": "top",
       "opening_antiphon": [
             {
-                  "verse_number": "Cf. Psalm 92, vv. 13, 14",
+                  "verse_number": "Cf. Psalm 132, v. 9",
                   "content": [
                         {
                               "p": [
-                                    "The just will flourish like the palm tree,",
-                                    "and grow like a Lebanon cedar,",
-                                    "planted in the house of the Lord,",
-                                    "in the courts of the house of our God."
+                                    "Your priests, O Lord, shall be clothed with justice;",
+                                    "your holy ones shall ring out their joy."
                               ]
                         }
                   ]
@@ -20,11 +18,11 @@
       "collect": [
             {
                   "p": [
-                        "O God, who brought the Abbot Saint Anthony",
-                        "to serve you by a wondrous way of life in the desert,",
-                        "grant, through his intercession,",
-                        "that, denying ourselves,",
-                        "we may always love you above all things."
+                        "O God, who raised up the Priest Saint John Bosco",
+                        "as a father and teacher of the young,",
+                        "grant, we pray,",
+                        "that, aflame with the same fire of love,",
+                        "we may seek out souls and serve you alone."
                   ]
             },
             {
@@ -38,11 +36,12 @@
       "offertory": [
             {
                   "p": [
-                        "May these offerings of our service,",
-                        "placed on your altar in commemoration of Saint Anthony,",
-                        "be acceptable to you, O Lord, we pray,",
-                        "and grant that, released from earthly attachments,",
-                        "we may have our riches in you alone."
+                        "Receive, O Lord, we pray,",
+                        "the offerings placed on your altar",
+                        "in commemoration of Saint John Bosco,",
+                        "so that, as you brought him glory,",
+                        "you may, through these sacred mysteries,",
+                        "grant to us your pardon."
                   ]
             },
             {
@@ -54,13 +53,25 @@
       "credo": "no",
       "communion_antiphon": [
             {
-                  "verse_number": "Cf. Matthew ch. 19, v. 21",
+                  "verse_number": "Cf. Matthew ch. 24, vv. 46, 47",
                   "content": [
                         {
                               "p": [
-                                    "If you would be perfect,",
-                                    "go, sell what you have, give to the poor,",
-                                    "and follow me, says the Lord."
+                                    "Blessed is the servant whom the Lord finds watching",
+                                    "when he comes. Amen I say to you:",
+                                    "He will put that servant in charge of all his property."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Luke ch. 12, v. 42",
+                  "content": [
+                        {
+                              "p": [
+                                    "This is the steward, faithful and prudent,",
+                                    "whom the Lord set over his household,",
+                                    "to give them their allowance of food at the proper time."
                               ]
                         }
                   ]
@@ -69,10 +80,11 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "Nourished for our healing by your Sacraments, O Lord,",
-                        "may we escape every snare of the enemy unharmed,",
-                        "just as by your grace Saint Anthony won glorious victories",
-                        "over the powers of darkness."
+                        "May partaking at the heavenly table, almighty God,",
+                        "confirm and increase strength from on high",
+                        "in all who celebrate the feast day of Saint John Bosco,",
+                        "that we may preserve in integrity the gift of faith",
+                        "and walk in the path of salvation you trace for us."
                   ]
             },
             {
@@ -84,68 +96,82 @@
       "readings": {
             "first_reading": [
                   {
-                        "verse_number": "Ephesians ch. 6, vv. 10 - 13, 18",
+                        "verse_number": "Philippians ch. 4, vv. 4 - 9",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Brothers and sisters: Be strong in the Lord and in the strength of his power. Put on the whole armor of God, so that you may be able to stand against the wiles of the devil. For our struggle is not against enemies of blood and flesh, but against the rulers, against the authorities, against the cosmic powers of this present darkness, against the spiritual forces of evil in the heavenly places. Therefore take up the whole armor of God, so that you may be able to withstand on that evil day, and having done everything, to stand firm."
+                                          "Beloved: Rejoice in the Lord always; again I will say, Rejoice. Let your gentleness be known to everyone. The Lord is near. Do not worry about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Finally, beloved, whatever is true, whatever is honorable, whatever is just, whatever is pure, whatever is pleasing, whatever is commendable, if there is any excellence and if there is anything worthy of praise, think about these things. Keep on doing the things that you have learned and received and heard and seen in me, and the God of peace will be with you."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 16, vv. 1 - 2 and 5, 7 - 8, 11",
-                  "response": "You are my inheritance, O Lord.",
+                  "verse_number": "Psalm 103, vv. 1bc - 2, 3 - 4, 8 - 9, 13 - 14, 17 - 18",
+                  "response": "O bless the Lord, my soul.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Protect me, O God, for in you I take refuge.",
-                                    "I say to the Lord, “You are my Lord; \nI have no good apart from you.”",
-                                    "The Lord is my chosen portion and my cup; \nyou hold my lot."
+                                    "Bless the Lord, O my soul, \nand all that is within me, \nbless his holy name.",
+                                    "Bless the Lord, O my soul, \nand do not forget all his benefits."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "I bless the Lord who gives me counsel; \nin the night also my heart instructs me.",
-                                    "I keep the Lord always before me; \nbecause he is at my right hand, I shall not be moved."
+                                    "who forgives all your iniquity, \nwho heals all your diseases,",
+                                    "who redeems your life from the Pit, \nwho crowns you with steadfast love and mercy."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "You show me the path of life. \nIn your presence there is fullness of joy; \nin your right hand are pleasures forevermore."
+                                    "The Lord is merciful and gracious, \nslow to anger and abounding in steadfast love.",
+                                    "He will not always accuse, \nnor will he keep his anger forever."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "As a father has compassion for his children, \nso the Lord has compassion for those who fear him.",
+                                    "For he knows how we were made; \nhe remembers that we are dust."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "But the steadfast love of the Lord is from everlasting to everlasting \non those who fear him, \nand his righteousness to children’s children,",
+                                    "to those who keep his covenant \nand remember to do his commandments."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "John ch. 8, vv. 31b, 32",
+                  "verse_number": "Matthew ch. 11, v. 28",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "I am the light of the world, says the Lord; whoever follows me will have the light of life."
+                                    "Come to me, all you who labour and are burdened, and I will give you rest, says the Lord."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Matthew ch. 19, vv. 16 - 26",
+                  "verse_number": "Matthew ch. 18, vv. 1 - 5",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Someone came to Jesus and said, “Teacher, what good deed must I do to have eternal life?” And he said to him, “Why do you ask me about what is good? There is only one who is good. If you wish to enter into life, keep the commandments.” He said to him, “Which ones?” And Jesus said, “You shall not murder; You shall not commit adultery; You shall not steal; You shall not bear false witness; Honor your father and mother; also, You shall love your neighbor as yourself.” The young man said to him, “I have kept all these; what do I still lack?” Jesus said to him, “If you wish to be perfect, go, sell your possessions, and give the money to the poor, and you will have treasure in heaven; then come, follow me.” When the young man heard this word, he went away grieving, for he had many possessions."
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "Then Jesus said to his disciples, “Truly I tell you, it will be hard for a rich person to enter the kingdom of heaven. Again I tell you, it is easier for a camel to go through the eye of a needle than for someone who is rich to enter the kingdom of God.” When the disciples heard this, they were greatly astounded and said, “Then who can be saved?” But Jesus looked at them and said, “For mortals it is impossible, but for God all things are possible.”"
+                                    "The disciples of Jesus asked him, “Who is the greatest in the kingdom of heaven?” Jesus called a child, whom he put among them, and said, “Truly I tell you, unless you change and become like children, you will never enter the kingdom of heaven. Whoever becomes humble like this child is the greatest in the kingdom of heaven. Whoever welcomes one such child in my name welcomes me.”"
                               ]
                         }
                   ]
