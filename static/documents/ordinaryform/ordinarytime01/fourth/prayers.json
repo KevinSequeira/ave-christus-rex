@@ -1,15 +1,16 @@
 {
-      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/ordinary_time_02.jpg')",
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/ordinary_time_04.jpg')",
       "liturgy_background_position": "center",
       "opening_antiphon": [
             {
-                  "verse_number": "Psalm 66, v. 4",
+                  "verse_number": "Psalm 106, v. 47",
                   "content": [
                         {
                               "p": [
-                                    "All the earth shall bow down before you, O God,",
-                                    "and shall sing to you,",
-                                    "shall sing to your name, O Most High!"
+                                    "Save us, O Lord our God!",
+                                    "And gather us from the nations,",
+                                    "to give thanks to your holy name,",
+                                    "and make it our glory to praise you."
                               ]
                         }
                   ]
@@ -18,11 +19,9 @@
       "collect": [
             {
                   "p": [
-                        "Almighty ever-living God,",
-                        "who govern all things,",
-                        "both in heaven and on earth,",
-                        "mercifully hear the pleading of your people",
-                        "and bestow your peace on our times."
+                        "Grant us, Lord our God,",
+                        "that we may honor you with all our mind,",
+                        "and love everyone in truth of heart."
                   ]
             },
             {
@@ -36,10 +35,11 @@
       "offertory": [
             {
                   "p": [
-                        "Grant us, O Lord, we pray,",
-                        "that we may participate worthily in these mysteries,",
-                        "for whenever the memorial of this sacrifice is celebrated",
-                        "the work of our redemption is accomplished."
+                        "O Lord, we bring to your altar",
+                        "these offerings of our service:",
+                        "be pleased to receive them, we pray,",
+                        "and transform them",
+                        "into the Sacrament of our redemption."
                   ]
             },
             {
@@ -50,23 +50,25 @@
       ],
       "communion_antiphon": [
             {
-                  "verse_number": "Cf. Psalm 23, v. 5",
+                  "verse_number": "Cf. Psalm 31, vv. 17, 18",
                   "content": [
                         {
                               "p": [
-                                    "You have prepared a table before me,",
-                                    "and how precious is the chalice that quenches my thirst."
+                                    "Let your face shine on your servant.",
+                                    "Save me in your merciful love.",
+                                    "O Lord, let me never be put to shame, for I call on you."
                               ]
                         }
                   ]
             },
             {
-                  "verse_number": "1 John ch. 4, v. 16",
+                  "verse_number": "Matthew ch. 5, vv. 3, 4",
                   "content": [
                         {
                               "p": [
-                                    "We have come to know and to believe",
-                                    "in the love that God has for us."
+                                    "Blessed are the poor in spirit,",
+                                    "for theirs is the Kingdom of Heaven.",
+                                    "Blessed are the meek, for they shall possess the land."
                               ]
                         }
                   ]
@@ -75,11 +77,10 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "Pour on us, O Lord, the Spirit of your love,",
-                        "and in your kindness",
-                        "make those you have nourished",
-                        "by this one heavenly Bread",
-                        "one in mind and heart."
+                        "Nourished by these redeeming gifts,",
+                        "we pray, O Lord,",
+                        "that through this help to eternal salvation",
+                        "true faith may ever increase."
                   ]
             },
             {

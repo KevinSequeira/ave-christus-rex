@@ -4,95 +4,77 @@
       "year_a": {
             "first_reading": [
                   {
-                        "verse_number": "Hebrews ch. 1, vv. 1 - 6",
+                        "verse_number": "Zephaniah ch. 2, v. 3; ch. 3, vv. 12 - 13",
                         "content": [
                               {
                                     "content_type": "stanza",
                                     "p": [
-                                          "The Lord said to me, “You are my servant, \nIsrael, in whom I will be glorified.”"
+                                          "Seek the Lord, all you humble of the land, \nwho do his commands;",
+                                          "seek righteousness, seek humility; \nperhaps you may be hidden \non the day of the Lord’s wrath."
                                     ]
                               },
                               {
                                     "content_type": "stanza",
                                     "p": [
-                                          "And now the Lord says, \nwho formed me in the womb to be his servant,",
-                                          "to bring Jacob back to him, \nand that Israel might be gathered to him,",
-                                          "for I am honored in the sight of the Lord, \nand my God has become my strength—",
-                                          "he says,",
-                                          "“It is too light a thing that you should be my servant \nto raise up the tribes of Jacob \nand to restore the survivors of Israel;",
-                                          "I will give you as a light to the nations, \nthat my salvation may reach to the end of the earth.”"
+                                          "For I will leave in the midst of you \na people humble and lowly.",
+                                          "They shall seek refuge in the name of the Lord— \nthe remnant of Israel;",
+                                          "they shall do no wrong \nand utter no lies,",
+                                          "nor shall a deceitful tongue \nbe found in their mouths.",
+                                          "Then they will pasture and lie down, \nand no one shall make them afraid."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 40, vv. 1 and 3ab, 6 - 7a, 7b - 8, 9",
-                  "response": "Here I am, Lord; I come to do your will.",
+                  "verse_number": "Psalm 146, vv. 6c - 7, 8 - 9a, 9bc - 10",
+                  "response": "Blessed are the poor in spirit; the kingdom of heaven is theirs!",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "I waited patiently for the Lord; \nhe inclined to me and heard my cry.",
-                                    "He put a new song in my mouth, \na song of praise to our God."
+                                    "The Lord keeps faith forever; \nwho executes justice for the oppressed; \nwho gives food to the hungry.",
+                                    "The Lord sets the prisoners free."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Sacrifice and offering you do not desire, \nbut you have given me an open ear.",
-                                    "Burnt offering and sin offering \nyou have not required.",
-                                    "Then I said, “Here I am”"
+                                    "The Lord opens the eyes of the blind.",
+                                    "The Lord lifts up those who are bowed down; \nthe Lord loves the righteous.",
+                                    "The Lord watches over the strangers."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "“in the scroll of the book it is written of me.",
-                                    "I delight to do your will, O my God; \nyour law is within my heart.”"
-                              ]
-                        },
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "I have told the glad news of deliverance \nin the great congregation;",
-                                    "see, I have not restrained my lips, \nas you know, O Lord."
+                                    "He upholds the orphan and the widow, \nbut the way of the wicked he brings to ruin.",
+                                    "The Lord will reign forever, \nyour God, O Zion, for all generations.",
+                                    "Praise the Lord!"
                               ]
                         }
                   ]
             },
             "second_reading": [
                   {
-                        "verse_number": "1 Corinthians ch. 1, vv. 1 - 3",
+                        "verse_number": "1 Corinthians ch. 1, vv. 26 - 31",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Paul, called to be an apostle of Christ Jesus by the will of God, and our brother Sosthenes,"
-                                    ]
-                              },
-                              {
-                                    "content_type": "paragraph",
-                                    "p": [
-                                          "To the church of God that is in Corinth, to those who are sanctified in Christ Jesus, called to be saints, together with all those who in every place call on the name of our Lord Jesus Christ, both their Lord and ours:"
-                                    ]
-                              },
-                              {
-                                    "content_type": "paragraph",
-                                    "p": [
-                                          "Grace to you and peace from God our Father and the Lord Jesus Christ."
+                                          "Consider your own call, brothers and sisters: not many of you were wise by human standards, not many were powerful, not many were of noble birth. But God chose what is foolish in the world to shame the wise; God chose what is weak in the world to shame the strong; God chose what is low and despised in the world, things that are not, to reduce to nothing things that are, so that no one might boast in the presence of God. He is the source of your life in Christ Jesus, who became for us wisdom from God, and righteousness and sanctification and redemption, in order that, as it is written, “Let the one who boasts, boast in the Lord.”"
                                     ]
                               }
                         ]
                   }
             ],
             "gospel_acclamation": {
-                  "verse_number": "John ch. 1, vv. 14a, 12a",
+                  "verse_number": "Matthew ch. 5, v. 12a",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "The Word of God became flesh and dwelt among us. To those who accepted him, he gave power to becomes sons of God."
+                                    "Rejoice and be glad; your reward will be great in heaven."
                               ]
                         }
                   ]
@@ -103,7 +85,61 @@
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "John the Baptist saw Jesus coming toward him and declared, “Here is the Lamb of God who takes away the sin of the world! This is he of whom I said, ‘After me comes a man who ranks ahead of me because he was before me.’ I myself did not know him; but I came baptizing with water for this reason, that he might be revealed to Israel.” And John testified, “I saw the Spirit descending from heaven like a dove, and it remained on him. I myself did not know him, but the one who sent me to baptize with water said to me, ‘He on whom you see the Spirit descend and remain is the one who baptizes with the Holy Spirit.’ And I myself have seen and have testified that this is the Son of God.”"
+                                    "When Jesus saw the crowds, he went up the mountain; and after he sat down, his disciples came to him. Then he began to speak, and taught them, saying:"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed are the poor in spirit, for theirs is the kingdom of heaven."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed are those who mourn, for they will be comforted."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed are the meek, for they will inherit the earth."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed are those who hunger and thirst for righteousness, for they will be filled."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed are the merciful, for they will receive mercy."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed are the pure in heart, for they will see God."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed are the peacemakers, for they will be called children of God."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed are those who are persecuted for righteousness’ sake, for theirs is the kingdom of heaven."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“Blessed are you when people revile you and persecute you and utter all kinds of evil against you falsely on my account. Rejoice and be glad, for your reward is great in heaven, for in the same way they persecuted the prophets who were before you.”"
                               ]
                         }
                   ]
