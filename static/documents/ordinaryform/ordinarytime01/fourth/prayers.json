@@ -1,6 +1,6 @@
 {
       "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/ordinary_time_04.jpg')",
-      "liturgy_background_position": "center",
+      "liturgy_background_position": "bottom",
       "opening_antiphon": [
             {
                   "verse_number": "Psalm 106, v. 47",
