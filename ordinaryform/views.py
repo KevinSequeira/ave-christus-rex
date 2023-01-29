@@ -1042,6 +1042,8 @@ def ordinarytime01calendar(context = {}):
     monthsInTheSeason = currentSeasonCalendar["Month"].unique().tolist()
 
     calendarDictionary = context["calendar_dictionary"]
+    if datetime.strptime(str(month), "%m").strftime("%B") not in calendarDictionary.keys():
+        calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")] = []
     # Get data for each day for each month in the Season
     for month in monthsInTheSeason:
         tempDataFrame = currentSeasonCalendar.loc[currentSeasonCalendar["Month"] == month]
