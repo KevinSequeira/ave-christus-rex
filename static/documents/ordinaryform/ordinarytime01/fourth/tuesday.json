@@ -4,76 +4,63 @@
       "year_i": {
             "first_reading": [
                   {
-                        "verse_number": "Hebrews ch. 2, vv. 5 - 12",
+                        "verse_number": "Hebrews ch. 12, vv. 1 - 4",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Now God did not subject the coming world, about which we are speaking, to angels. But someone has testified somewhere,"
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "“What are human beings that you are mindful of them, \nor mortals, that you care for them?",
-                                          "You have made them for a little while lower than the angels; \nyou have crowned them with glory and honor, \nsubjecting all things under their feet.”"
+                                          "Brothers and sisters: Since we are surrounded by so great a cloud of witnesses, let us also lay aside every weight and the sin that clings so closely, and let us run with perseverance the race that is set before us, looking to Jesus the pioneer and perfecter of our faith, who for the sake of the joy that was set before him endured the cross, disregarding its shame, and has taken his seat at the right hand of the throne of God."
                                     ]
                               },
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Now in subjecting all things to them, God left nothing outside their control. As it is, we do not yet see everything in subjection to them, but we do see Jesus, who for a little while was made lower than the angels, now crowned with glory and honor because of the suffering of death, so that by the grace of God he might taste death for everyone."
-                                    ]
-                              },
-                              {
-                                    "content_type": "paragraph",
-                                    "p": [
-                                          "It was fitting that God, for whom and through whom all things exist, in bringing many children to glory, should make the pioneer of their salvation perfect through sufferings. For the one who sanctifies and those who are sanctified all have one Father. For this reason Jesus is not ashamed to call them brothers and sisters, saying,"
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "“I will proclaim your name to my brothers and sisters, \nin the midst of the congregation I will praise you.”"
+                                          "Consider him who endured such hostility against himself from sinners, so that you may not grow weary or lose heart. In your struggle against sin you have not yet resisted to the point of shedding your blood."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 8, vv. 1ab and 4, 5 - 6, 7 - 8",
-                  "response": "You have given your Son rule over the works of your hands.",
+                  "verse_number": "Psalm 22, vv. 25b - 26, 27, 29, 30 - 31",
+                  "response": "They will praise you, Lord, who long for you.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "O Lord, our Sovereign, \nhow majestic is your name in all the earth!",
-                                    "What are human beings that you are mindful of them, \nmortals that you care for them?"
+                                    "My vows I will pay before those who fear him.",
+                                    "The poor shall eat and be satisfied; \nthose who seek him shall praise the Lord. \nMay your hearts live forever!"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Yet you have made them a little lower than God, \nand crowned them with glory and honor.",
-                                    "You have given them dominion over the works of your hands; \nyou have put all things under their feet."
+                                    "All the ends of the earth shall remember \nand turn to the Lord;",
+                                    "and all the families of the nations \nshall worship before him."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "All sheep and oxen, \nand also the beasts of the field,",
-                                    "the birds of the air, and the fish of the sea, \nwhatever passes along the paths of the seas."
+                                    "To him, indeed, shall all who sleep in the earth bow down; \nbefore him shall bow all who go down to the dust, \nand I shall live for him."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Posterity will serve him; \nfuture generations will be told about the Lord,",
+                                    "and proclaim his deliverance to a people yet unborn, \nsaying that he has done it."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "See 1 Thessalonians ch. 2, v. 13",
+                  "verse_number": "See Matthew ch. 8, v. 17",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "Receive the word of God, not as the word of men, but as it truly is, the word of God."
+                                    "Christ took away our infirmities and bore our diseases."
                               ]
                         }
                   ]
@@ -84,7 +71,19 @@
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Jesus went to Capernaum; and when the sabbath came, he entered the synagogue and taught. They were astounded at his teaching, for he taught them as one having authority, and not as the scribes. Just then there was in their synagogue a man with an unclean spirit, and he cried out, “What have you to do with us, Jesus of Nazareth? Have you come to destroy us? I know who you are, the Holy One of God.” But Jesus rebuked him, saying, “Be silent, and come out of him!” And the unclean spirit, convulsing him and crying with a loud voice, came out of him. They were all amazed, and they kept on asking one another, “What is this? A new teaching—with authority! He commands even the unclean spirits, and they obey him.” At once his fame began to spread throughout the surrounding region of Galilee."
+                                    "When Jesus had crossed again in the boat to the other side, a great crowd gathered around him; and he was by the sea. Then one of the leaders of the synagogue named Jairus came and, when he saw him, fell at his feet and begged him repeatedly, “My little daughter is at the point of death. Come and lay your hands on her, so that she may be made well, and live.” So he went with him."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "And a large crowd followed him and pressed in on him. Now there was a woman who had been suffering from hemorrhages for twelve years. She had endured much under many physicians, and had spent all that she had; and she was no better, but rather grew worse. She had heard about Jesus, and came up behind him in the crowd and touched his cloak, for she said, “If I but touch his clothes, I will be made well.” Immediately her hemorrhage stopped; and she felt in her body that she was healed of her disease. Immediately aware that power had gone forth from him, Jesus turned about in the crowd and said, “Who touched my clothes?” And his disciples said to him, “You see the crowd pressing in on you; how can you say, ‘Who touched me?’” He looked all around to see who had done it. But the woman, knowing what had happened to her, came in fear and trembling, fell down before him, and told him the whole truth. He said to her, “Daughter, your faith has made you well; go in peace, and be healed of your disease.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "While he was still speaking, some people came from the leader’s house to say, “Your daughter is dead. Why trouble the teacher any further?” But overhearing what they said, Jesus said to the leader of the synagogue, “Do not fear, only believe.” He allowed no one to follow him except Peter, James, and John, the brother of James. When they came to the house of the leader of the synagogue, he saw a commotion, people weeping and wailing loudly. When he had entered, he said to them, “Why do you make a commotion and weep? The child is not dead but sleeping.” And they laughed at him. Then he put them all outside, and took the child’s father and mother and those who were with him, and went in where the child was. He took her by the hand and said to her, “Talitha cum,” which means, “Little girl, get up!” And immediately the girl got up and began to walk about (she was twelve years of age). At this they were overcome with amazement. He strictly ordered them that no one should know this, and told them to give her something to eat."
                               ]
                         }
                   ]
