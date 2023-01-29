@@ -355,8 +355,9 @@ def adventcalendar(context = {}):
     calendarDictionary = {}
     # Get data for each day for each month in the Season
     for month in monthsInTheSeason:
-        calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")] = []
         tempDataFrame = currentSeasonCalendar.loc[currentSeasonCalendar["Month"] == month]
+        if datetime.strptime(str(month), "%m").strftime("%B") not in calendarDictionary.keys():
+            calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")] = []
         for index, row in tempDataFrame.iterrows():
             calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")].append(row[["Date", "Qualifying Day", "Season", "Qualifying Weekday", "Week", "Feast Day", "Feast Class", "Feast Short", "Season Short"]].tolist())
 
@@ -649,9 +650,9 @@ def christmascalendar(context = {}):
     calendarDictionary = context["calendar_dictionary"]
     # Get data for each day for each month in the Season
     for month in monthsInTheSeason:
+        tempDataFrame = currentSeasonCalendar.loc[currentSeasonCalendar["Month"] == month]
         if datetime.strptime(str(month), "%m").strftime("%B") not in calendarDictionary.keys():
             calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")] = []
-        tempDataFrame = currentSeasonCalendar.loc[currentSeasonCalendar["Month"] == month]
         for index, row in tempDataFrame.iterrows():
             calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")].append(row[["Date", "Qualifying Day", "Season", "Qualifying Weekday", "Week", "Feast Day", "Feast Class", "Feast Short", "Season Short"]].tolist())
 
@@ -928,8 +929,9 @@ def epiphanycalendar(context = {}):
     calendarDictionary = context["calendar_dictionary"]
     # Get data for each day for each month in the Season
     for month in monthsInTheSeason:
-        # calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")] = []
         tempDataFrame = currentSeasonCalendar.loc[currentSeasonCalendar["Month"] == month]
+        if datetime.strptime(str(month), "%m").strftime("%B") not in calendarDictionary.keys():
+            calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")] = []
         for index, row in tempDataFrame.iterrows():
             calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")].append(row[["Date", "Qualifying Day", "Season", "Qualifying Weekday", "Week", "Feast Day", "Feast Class", "Feast Short", "Season Short"]].tolist())
 
@@ -1042,11 +1044,11 @@ def ordinarytime01calendar(context = {}):
     monthsInTheSeason = currentSeasonCalendar["Month"].unique().tolist()
 
     calendarDictionary = context["calendar_dictionary"]
-    if datetime.strptime(str(month), "%m").strftime("%B") not in calendarDictionary.keys():
-        calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")] = []
     # Get data for each day for each month in the Season
     for month in monthsInTheSeason:
         tempDataFrame = currentSeasonCalendar.loc[currentSeasonCalendar["Month"] == month]
+        if datetime.strptime(str(month), "%m").strftime("%B") not in calendarDictionary.keys():
+            calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")] = []
         for index, row in tempDataFrame.iterrows():
             calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")].append(row[["Date", "Qualifying Day", "Season", "Qualifying Weekday", "Week", "Feast Day", "Feast Class", "Feast Short", "Season Short"]].tolist())
 
