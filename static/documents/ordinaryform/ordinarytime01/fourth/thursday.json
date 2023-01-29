@@ -4,80 +4,76 @@
       "year_i": {
             "first_reading": [
                   {
-                        "verse_number": "Hebrews ch. 3, vv. 7 - 14",
+                        "verse_number": "Hebrews ch. 12, vv. 18 - 19, 21 - 24",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "the Holy Spirit says,"
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "“Today, if you hear his voice,",
-                                          "do not harden your hearts as in the rebellion, \nas on the day of testing in the wilderness,",
-                                          "where your ancestors put me to the test, \nthough they had seen my works for forty years.",
-                                          "Therefore I was angry with that generation,",
-                                          "and I said, ‘They always go astray in their hearts, \nand they have not known my ways.’",
-                                          "As in my anger I swore, \n‘They will not enter my rest.’”"
+                                          "Brothers and sisters: You have not come to something that can be touched, a blazing fire, and darkness, and gloom, and a tempest, and the sound of a trumpet, and a voice whose words made the hearers beg that not another word be spoken to them."
                                     ]
                               },
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Take care, brothers and sisters, that none of you may have an evil, unbelieving heart that turns away from the living God. But exhort one another every day, as long as it is called “today,” so that none of you may be hardened by the deceitfulness of sin. For we have become partners of Christ, if only we hold our first confidence firm to the end."
+                                          "Indeed, so terrifying was the sight that Moses said, “I tremble with fear.”) But you have come to Mount Zion and to the city of the living God, the heavenly Jerusalem, and to innumerable angels in festal gathering, and to the assembly of the firstborn who are enrolled in heaven, and to God the judge of all, and to the spirits of the righteous made perfect, and to Jesus, the mediator of a new covenant, and to the sprinkled blood that speaks a better word than the blood of Abel."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 95, vv. 6 - 7c, 7d - 9, 10 - 11",
-                  "response": "If today you hear his voice, harden not your hearts.",
+                  "verse_number": "Psalm 48, vv. 1 - 2ab, 2cd - 3, 8, 9 - 10",
+                  "response": "O God, we ponder your mercy within your temple.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "O come, let us worship and bow down, \nlet us kneel before the Lord, our Maker!",
-                                    "For he is our God, \nand we are the people of his pasture, \nand the sheep of his hand."
+                                    "Great is the Lord and greatly to be praised \nin the city of our God.",
+                                    "His holy mountain, beautiful in elevation, \nis the joy of all the earth."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "O that today you would listen to his voice!",
-                                    "Do not harden your hearts, as at Meribah, \nas on the day at Massah in the wilderness,",
-                                    "when your ancestors tested me, \nand put me to the proof, though they had seen my work."
+                                    "Mount Zion, in the far north, \nthe city of the great King.",
+                                    "Within its citadels God \nhas shown himself a sure defense."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "For forty years I loathed that generation \nand said, “They are a people whose hearts go astray, \nand they do not regard my ways.”",
-                                    "Therefore in my anger I swore, \n“They shall not enter my rest.”"
+                                    "As we have heard, so have we seen \nin the city of the Lord of hosts,",
+                                    "in the city of our God, \nwhich God establishes forever."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "We ponder your steadfast love, O God, \nin the midst of your temple.",
+                                    "Your name, O God, like your praise, \nreaches to the ends of the earth.",
+                                    "Your right hand is filled with victory."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "See Matthew ch. 4, v. 23",
+                  "verse_number": "Mark ch. 1, v. 15",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "Jesus preached the Gospel of the Kingdom and cured every disease among the people."
+                                    "The Kingdom of God is at hand; repent and believe in the Gospel."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Mark ch. 1, vv. 40 - 45",
+                  "verse_number": "Mark ch. 6, vv. 7 - 13",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "A leper came to Jesus begging him, and kneeling he said to him, “If you choose, you can make me clean.” Moved with pity, Jesus stretched out his hand and touched him, and said to him, “I do choose. Be made clean!” Immediately the leprosy left him, and he was made clean. After sternly warning him he sent him away at once, saying to him, “See that you say nothing to anyone; but go, show yourself to the priest, and offer for your cleansing what Moses commanded, as a testimony to them.” But he went out and began to proclaim it freely, and to spread the word, so that Jesus could no longer go into a town openly, but stayed out in the country; and people came to him from every quarter."
+                                    "Jesus called the twelve and began to send them out two by two, and gave them authority over the unclean spirits. He ordered them to take nothing for their journey except a staff; no bread, no bag, no money in their belts; but to wear sandals and not to put on two tunics. He said to them, “Wherever you enter a house, stay there until you leave the place. If any place will not welcome you and they refuse to hear you, as you leave, shake off the dust that is on your feet as a testimony against them.” So they went out and proclaimed that all should repent. They cast out many demons, and anointed with oil many who were sick and cured them."
                               ]
                         }
                   ]
