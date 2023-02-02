@@ -1,6 +1,6 @@
 {
-      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_blaise.jpeg')",
-      "saint_background_position": "top",
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_agatha.jpeg')",
+      "saint_background_position": "center",
       "opening_antiphon": [
             {
                   "verse_number": "",
@@ -44,10 +44,11 @@
       "collect": [
             {
                   "p": [
-                        "Hear, O Lord, the supplications your people make",
-                        "under the patronage of the Martyr Saint Blaise,",
-                        "and grant that they may rejoice in peace in this present life,",
-                        "and find help for life eternal."
+                        "May the Virgin Martyr Saint Agatha
+implore your compassion for us, O Lord, we pray,
+for she found favor with you
+by the courage of her martyrdom
+and the merit of her chastity."
                   ]
             },
             {
