@@ -1,0 +1,80 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Genesis ch. 2, vv. 4b - 9, 15 - 17",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "n the day that the Lord God made the earth and the heavens, when no plant of the field was yet in the earth and no herb of the field had yet sprung up—for the Lord God had not caused it to rain upon the earth, and there was no one to till the ground; but a stream would rise from the earth, and water the whole face of the ground— then the Lord God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and the man became a living being. And the Lord God planted a garden in Eden, in the east; and there he put the man whom he had formed. Out of the ground the Lord God made to grow every tree that is pleasant to the sight and good for food, the tree of life also in the midst of the garden, and the tree of the knowledge of good and evil."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The Lord God took the man and put him in the garden of Eden to till it and keep it. And the Lord God commanded the man, “You may freely eat of every tree of the garden; but of the tree of the knowledge of good and evil you shall not eat, for in the day that you eat of it you shall die.”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 104, vv. 1 - 2a, 27 - 28, 29bc - 30",
+                  "response": "O bless the Lord, my soul.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Bless the Lord, O my soul. \nO Lord my God, you are very great.",
+                                    "You are clothed with honor and majesty, \nwrapped in light as with a garment."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "These all look to you \nto give them their food in due season;",
+                                    "when you give to them, they gather it up; \nwhen you open your hand, they are filled with good things."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "When you take away their breath, they die \nand return to their dust.",
+                                    "When you send forth your spirit, they are created; \nand you renew the face of the ground."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See John ch. 17, vv. 17b, 17a",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Your word, O Lord, is truth: consecrate us in the truth."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 7, vv. 14 - 23",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus called the crowd and said to them, “Listen to me, all of you, and understand: there is nothing outside a person that by going in can defile, but the things that come out are what defile.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "When he had left the crowd and entered the house, his disciples asked him about the parable. He said to them, “Then do you also fail to understand? Do you not see that whatever goes into a person from outside cannot defile, since it enters, not the heart but the stomach, and goes out into the sewer?” (Thus he declared all foods clean.) And he said, “It is what comes out of a person that defiles. For it is from within, from the human heart, that evil intentions come: fornication, theft, murder, adultery, avarice, wickedness, deceit, licentiousness, envy, slander, pride, folly. All these evil things come from within, and they defile a person.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

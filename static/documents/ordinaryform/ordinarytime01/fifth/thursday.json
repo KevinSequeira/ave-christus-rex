@@ -1,0 +1,81 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Genesis ch. 2, vv. 18 - 25",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The Lord God said, “It is not good that the man should be alone; I will make him a helper as his partner.” So out of the ground the Lord God formed every animal of the field and every bird of the air, and brought them to the man to see what he would call them; and whatever the man called every living creature, that was its name. The man gave names to all cattle, and to the birds of the air, and to every animal of the field; but for the man there was not found a helper as his partner. So the Lord God caused a deep sleep to fall upon the man, and he slept; then he took one of his ribs and closed up its place with flesh. And the rib that the Lord God had taken from the man he made into a woman and brought her to the man. Then the man said,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“This at last is bone of my bones \nand flesh of my flesh;",
+                                          "this one shall be called Woman, \nfor out of Man this one was taken.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Therefore a man leaves his father and his mother and clings to his wife, and they become one flesh. And the man and his wife were both naked, and were not ashamed."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 128, vv. 1 - 2, 3, 4 - 5",
+                  "response": "Blessed are those who fear the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Happy is everyone who fears the Lord, \nwho walks in his ways.",
+                                    "You shall eat the fruit of the labor of your hands; \nyou shall be happy, and it shall go well with you."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Your wife will be like a fruitful vine \nwithin your house;",
+                                    "your children will be like olive shoots \naround your table."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Thus shall the man be blessed \nwho fears the Lord.",
+                                    "The Lord bless you from Zion. \nMay you see the prosperity of Jerusalem \nall the days of your life."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "James ch. 1, v. 21bc",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Humbly welcome the word that has been planted in you and is able to save your souls."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 7, vv. 24 - 30",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus went away to the region of Tyre. He entered a house and did not want anyone to know he was there. Yet he could not escape notice, but a woman whose little daughter had an unclean spirit immediately heard about him, and she came and bowed down at his feet. Now the woman was a Gentile, of Syrophoenician origin. She begged him to cast the demon out of her daughter. He said to her, “Let the children be fed first, for it is not fair to take the children’s food and throw it to the dogs.” But she answered him, “Sir, even the dogs under the table eat the children’s crumbs.” Then he said to her, “For saying that, you may go—the demon has left your daughter.” So she went home, found the child lying on the bed, and the demon gone."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

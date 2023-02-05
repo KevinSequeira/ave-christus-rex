@@ -1,0 +1,95 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/ordinary_time_05.png')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 95, vv. 6, 7",
+                  "content": [
+                        {
+                              "p": [
+                                    "O come, let us worship God",
+                                    "and bow low before the God who made us,",
+                                    "for he is the Lord our God."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "collect": [
+            {
+                  "p": [
+                        "Keep your family safe, O Lord, with unfailing care,",
+                        "that, relying solely on the hope of heavenly grace,",
+                        "they may be defended always by your protection."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "O Lord our God,",
+                        "who once established these created things",
+                        "to sustain us in our frailty,",
+                        "grant, we pray,",
+                        "that they may become for us now",
+                        "the Sacrament of eternal life."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 107, vv. 8, 9",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let them thank the Lord for his mercy,",
+                                    "his wonders for the children of men,",
+                                    "for he satisfies the thirsty soul,",
+                                    "and the hungry he fills with good things."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Matthew ch. 5, vv. 5, 6",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed are those who mourn, for they shall be consoled.",
+                                    "Blessed are those who hunger and thirst for righteousness,",
+                                    "for they shall have their fill."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "O God, who have willed that we be partakers",
+                        "in the one Bread and the one Chalice,",
+                        "grant us, we pray, so to live",
+                        "that, made one in Christ,",
+                        "we may joyfully bear fruit",
+                        "for the salvation of the world."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ]
+}

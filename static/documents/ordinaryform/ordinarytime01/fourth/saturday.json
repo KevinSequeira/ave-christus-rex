@@ -4,80 +4,76 @@
       "year_i": {
             "first_reading": [
                   {
-                        "verse_number": "Hebrews ch. 4, vv. 12 - 16",
+                        "verse_number": "Hebrews ch. 13, vv. 15 - 17, 20 - 21",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "The word of God is living and active, sharper than any two-edged sword, piercing until it divides soul from spirit, joints from marrow; it is able to judge the thoughts and intentions of the heart. And before him no creature is hidden, but all are naked and laid bare to the eyes of the one to whom we must render an account."
+                                          "Brothers and sisters: Through Jesus Christ, then, let us continually offer a sacrifice of praise to God, that is, the fruit of lips that confess his name. Do not neglect to do good and to share what you have, for such sacrifices are pleasing to God."
                                     ]
                               },
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Since, then, we have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold fast to our confession. For we do not have a high priest who is unable to sympathize with our weaknesses, but we have one who in every respect has been tested as we are, yet without sin. Let us therefore approach the throne of grace with boldness, so that we may receive mercy and find grace to help in time of need."
+                                          "Obey your leaders and submit to them, for they are keeping watch over your souls and will give an account. Let them do this with joy and not with sighing—for that would be harmful to you."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 19, v. 7, 8, 9, 14",
-                  "response": "Your words, Lord, are Spirit and life.",
+                  "verse_number": "Psalm 23, vv. 1 - 3a, 3b - 4, 5, 6",
+                  "response": "The Lord is my shepherd; there is nothing I shall want.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "The law of the Lord is perfect, \nreviving the soul;",
-                                    "the decrees of the Lord are sure, \nmaking wise the simple;"
+                                    "The Lord is my shepherd, I shall not want. \nHe makes me lie down in green pastures;",
+                                    "he leads me beside still waters; \nhe restores my soul."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "The precepts of the Lord are right, \nrejoicing the heart;",
-                                    "the commandment of the Lord is clear, \nenlightening the eyes."
+                                    "He leads me in right paths \nfor his name’s sake.",
+                                    "Even though I walk through the darkest valley, \nI fear no evil;",
+                                    "for you are with me; \nyour rod and your staff— \nthey comfort me."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "The fear of the Lord is pure, \nenduring forever;",
-                                    "the ordinances of the Lord are true \nand righteous altogether."
+                                    "You prepare a table before me \nin the presence of my enemies;",
+                                    "you anoint my head with oil; \nmy cup overflows."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Let the words of my mouth and the meditation of my heart \nbe acceptable to you, \nO Lord, my rock and my redeemer."
+                                    "Surely goodness and mercy shall follow me \nall the days of my life,",
+                                    "and I shall dwell in the house of the Lord \nmy whole life long."
                               ]
                         }
                   ]
             },
             "gospel_acclamation": {
-                  "verse_number": "Luke ch. 4, v. 18",
+                  "verse_number": "John ch. 10, v. 27",
                   "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "The Lord sent me to bring glad tidings to the poor and to proclaim liberty to captives."
+                                    "My sheep hear my voice, says the Lord; I know them, and they follow me."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Mark ch. 2, vv. 13 - 17",
+                  "verse_number": "Mark ch. 6, vv. 30 - 34",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Jesus went out again beside the sea; the whole crowd gathered around him, and he taught them. As he was walking along, he saw Levi son of Alphaeus sitting at the tax booth, and he said to him, “Follow me.” And he got up and followed him."
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "And as he sat at dinner in Levi’s house, many tax collectors and sinners were also sitting with Jesus and his disciples—for there were many who followed him. When the scribes of the Pharisees saw that he was eating with sinners and tax collectors, they said to his disciples, “Why does he eat with tax collectors and sinners?” When Jesus heard this, he said to them, “Those who are well have no need of a physician, but those who are sick; I have come to call not the righteous but sinners.”"
+                                    "The apostles gathered around Jesus, and told him all that they had done and taught. He said to them, “Come away to a deserted place all by yourselves and rest a while.” For many were coming and going, and they had no leisure even to eat. And they went away in the boat to a deserted place by themselves. Now many saw them going and recognized them, and they hurried there on foot from all the towns and arrived ahead of them. As he went ashore, he saw a great crowd; and he had compassion for them, because they were like sheep without a shepherd; and he began to teach them many things."
                               ]
                         }
                   ]

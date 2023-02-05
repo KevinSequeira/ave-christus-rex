@@ -1,0 +1,93 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Genesis ch. 1, vv. 1 - 19",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "In the beginning when God created the heavens and the earth, the earth was a formless void and darkness covered the face of the deep, while a wind from God swept over the face of the waters. Then God said, “Let there be light”; and there was light. And God saw that the light was good; and God separated the light from the darkness. God called the light Day, and the darkness he called Night. And there was evening and there was morning, the first day."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "And God said, “Let there be a dome in the midst of the waters, and let it separate the waters from the waters.” So God made the dome and separated the waters that were under the dome from the waters that were above the dome. And it was so. God called the dome Sky. And there was evening and there was morning, the second day."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "And God said, “Let the waters under the sky be gathered together into one place, and let the dry land appear.” And it was so. God called the dry land Earth, and the waters that were gathered together he called Seas. And God saw that it was good. Then God said, “Let the earth put forth vegetation: plants yielding seed, and fruit trees of every kind on earth that bear fruit with the seed in it.” And it was so. The earth brought forth vegetation: plants yielding seed of every kind, and trees of every kind bearing fruit with the seed in it. And God saw that it was good. And there was evening and there was morning, the third day."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "And God said, “Let there be lights in the dome of the sky to separate the day from the night; and let them be for signs and for seasons and for days and years, and let them be lights in the dome of the sky to give light upon the earth.” And it was so. God made the two great lights—the greater light to rule the day and the lesser light to rule the night—and the stars. God set them in the dome of the sky to give light upon the earth, to rule over the day and over the night, and to separate the light from the darkness. And God saw that it was good. And there was evening and there was morning, the fourth day."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 104, vv. 1 - 2a, 5 - 6, 10 and 12, 24 and 35c",
+                  "response": "May the Lord be glad in his works.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Bless the Lord, O my soul. \nO Lord my God, you are very great.",
+                                    "You are clothed with honor and majesty, \nwrapped in light as with a garment."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "You set the earth on its foundations, \nso that it shall never be shaken.",
+                                    "You cover it with the deep as with a garment; \nthe waters stood above the mountains."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "You make springs gush forth in the valleys; \nthey flow between the hills.",
+                                    "By the streams the birds of the air have their habitation; \nthey sing among the branches."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O Lord, how manifold are your works! \nIn wisdom you have made them all; \nthe earth is full of your creatures.",
+                                    "Bless the Lord, O my soul."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Matthew ch. 4, v. 23",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Jesus preached the Gospel of the Kingdom and cured every disease among the people."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 5, vv. 1 - 20",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "When Jesus and his disciples had crossed over to the other side of the sea, they came to land at Gennesaret and moored the boat. When they got out of the boat, people at once recognized him, and rushed about that whole region and began to bring the sick on mats to wherever they heard he was. And wherever he went, into villages or cities or farms, they laid the sick in the marketplaces, and begged him that they might touch even the fringe of his cloak; and all who touched it were healed."
+                              ]
+                        }
+                  ]
+            }
+      }
+}
