@@ -12,12 +12,14 @@
       background-size: cover;
       background-position: top;
       position: relative;
+      height: 400px;
 }
 
 .memorialForTheDayBackground {
       background-size: cover;
       background-position: top;
       position: relative;
+      height: 400px;
 }
 
 .calendarBackground {
@@ -137,13 +139,6 @@ p.memorialForTheDayWeek {
 }
 
 .firstColumn {
-      width: 10%;
-      font-family: 'Merriweather', sans-serif;
-      font-size: 16px;
-      color: #777777;
-}
-
-.secondColumn {
       width: 10%;
       font-family: 'Merriweather', sans-serif;
       font-size: 16px;

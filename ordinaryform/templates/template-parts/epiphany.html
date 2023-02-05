@@ -3,7 +3,7 @@
 {% endblock %}
 <div class="row calendarRow">
       <div class="col-xs-3 calendarCellColumn firstColumn">
-            {{ row.1 }}
+            {{ month|slice:"0:3" }}. {{ row.1 }}
       </div>
       <!-- <div class="col-xs-3 calendarCellColumn secondColumn mobileView">
             {{ row.3 }}
