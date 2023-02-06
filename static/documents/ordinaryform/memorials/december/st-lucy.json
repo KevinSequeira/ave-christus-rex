@@ -77,25 +77,27 @@
             }
       ],
       "readings": {
-            "first_reading": {
-                  "verse_number": "2 Corinthians ch. 10, v. 17 – ch. 11, v. 2",
-                  "content": [
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "Brothers and sisters: “Let the one who boasts, boast in the Lord.”",
-                                    "For it is not those who commend themselves that are approved, but those whom the Lord commends."
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "I wish you would bear with me in a little foolishness. Do bear with me! I feel a divine jealousy for you,",
-                                    "for I promised you in marriage to one husband, to present you as a chaste virgin to Christ."
-                              ]
-                        }
-                  ]
-            },
+            "first_reading": [
+                  {
+                        "verse_number": "2 Corinthians ch. 10, v. 17 – ch. 11, v. 2",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: “Let the one who boasts, boast in the Lord.”",
+                                          "For it is not those who commend themselves that are approved, but those whom the Lord commends."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "I wish you would bear with me in a little foolishness. Do bear with me! I feel a divine jealousy for you,",
+                                          "for I promised you in marriage to one husband, to present you as a chaste virgin to Christ."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
             "first_responsorial_psalm": {
                   "verse_number": "Psalm 31, vv. 2cd - 3, 5 and 7ab, 15bc and 16",
                   "response": "Into your hands, O Lord, I commend my spirit.",
