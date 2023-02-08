@@ -1,0 +1,186 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/servite_founders.png')",
+      "saint_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 16, v. 5",
+                  "content": [
+                        {
+                              "p": [
+                                    "O Lord, it is you who are my portion and cup;",
+                                    "you yourself who secure my portion."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Psalm 24, vv. 5, 6",
+                  "content": [
+                        {
+                              "p": [
+                                    "These are the holy ones, who have received blessings from the Lord,",
+                                    "and mercy from the God who saves them,",
+                                    "such is the people who seek the Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Impart to us, O Lord, in kindness",
+                        "the filial devotion with which the holy brothers",
+                        "venerated so devoutly the Mother of God",
+                        "and led your people to yourself."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May these offerings of our service,",
+                        "placed on your altar in commemoration the Holy Founders of the Servite Order,",
+                        "be acceptable to you, O Lord, we pray,",
+                        "and grant that, released from earthly attachments,",
+                        "we may have our riches in you alone."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Matthew ch. 19, vv. 27 - 29",
+                  "content": [
+                        {
+                              "p": [
+                                    "Amen I say to you: That you who have left all and followed me",
+                                    "will receive a hundredfold and possess eternal life."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Psalm 34, v. 9",
+                  "content": [
+                        {
+                              "p": [
+                                    "Taste and see that the Lord is good;",
+                                    "blessed the man who seeks refuge in him."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "We pray, almighty God,",
+                        "that we, who are fortified by the power of this Sacrament,",
+                        "may learn through the example of the holy brothers",
+                        "to seek you always above all things",
+                        "and to bear in this world the likeness of the New Man."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 66, vv. 10 - 14c",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Thus says the Lord:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Rejoice with Jerusalem, and be glad for her, \nall you who love her;",
+                                          "rejoice with her in joy, \nall you who mourn over her—",
+                                          "that you may nurse and be satisfied \nfrom her consoling breast;",
+                                          "that you may drink deeply with delight \nfrom her glorious bosom."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "For thus says the Lord:",
+                                          "I will extend prosperity to her like a river, \nand the wealth of the nations like an overflowing stream;",
+                                          "and you shall nurse and be carried on her arm, \nand dandled on her knees.",
+                                          "As a mother comforts her child, \nso I will comfort you; \nyou shall be comforted in Jerusalem."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "You shall see, and your heart shall rejoice; \nyour bodies shall flourish like the grass;",
+                                          "and it shall be known that the hand of the Lord is with his servants."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Judith ch. 13, vv. 18bcde, 19",
+                  "response": "You are the highest honour of our race.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“O daughter, you are blessed by the Most High God \nabove all other women on earth;",
+                                    "and blessed be the Lord God, \nwho created the heavens and the earth,",
+                                    "who has guided you to cut off the head \nof the leader of our enemies.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Your praise will never depart from the hearts \nof those who remember the power of God.”"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Luke ch. 1, v. 45",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed are you, O Virgin Mary, who believed that what was spoken to you by the Lord would be fulfilled."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 2, vv. 1 - 11",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "On the third day there was a wedding in Cana of Galilee, and the mother of Jesus was there. Jesus and his disciples had also been invited to the wedding. When the wine gave out, the mother of Jesus said to him, “They have no wine.” And Jesus said to her, “Woman, what concern is that to you and to me? My hour has not yet come.” His mother said to the servants, “Do whatever he tells you.” Now standing there were six stone water jars for the Jewish rites of purification, each holding twenty or thirty gallons. Jesus said to them, “Fill the jars with water.” And they filled them up to the brim. He said to them, “Now draw some out, and take it to the chief steward.” So they took it. When the steward tasted the water that had become wine, and did not know where it came from (though the servants who had drawn the water knew), the steward called the bridegroom and said to him, “Everyone serves the good wine first, and then the inferior wine after the guests have become drunk. But you have kept the good wine until now.” Jesus did this, the first of his signs, in Cana of Galilee, and revealed his glory; and his disciples believed in him."
+                              ]
+                        }
+                  ]
+            }
+      }
+}
