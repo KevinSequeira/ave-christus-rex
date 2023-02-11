@@ -1,0 +1,81 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Genesis ch. 6, vv. 5 - 8; ch. 7, vv. 1 - 5, 10",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The Lord saw that the wickedness of humankind was great in the earth, and that every inclination of the thoughts of their hearts was only evil continually. And the Lord was sorry that he had made humankind on the earth, and it grieved him to his heart. So the Lord said, “I will blot out from the earth the human beings I have created—people together with animals and creeping things and birds of the air, for I am sorry that I have made them.” But Noah found favor in the sight of the Lord."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Then the Lord said to Noah, “Go into the ark, you and all your household, for I have seen that you alone are righteous before me in this generation. Take with you seven pairs of all clean animals, the male and its mate; and a pair of the animals that are not clean, the male and its mate; and seven pairs of the birds of the air also, male and female, to keep their kind alive on the face of all the earth. For in seven days I will send rain on the earth for forty days and forty nights; and every living thing that I have made I will blot out from the face of the ground.” And Noah did all that the Lord had commanded him."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "And after seven days the waters of the flood came on the earth."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 29, vv. 1a and 2, 3ac - 4, 3b and 9c - 10",
+                  "response": "The Lord will bless his people with peace.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Ascribe to the Lord, O heavenly beings.",
+                                    "Ascribe to the Lord the glory of his name; \nworship the Lord in holy splendor."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The voice of the Lord is over the waters; \nthe Lord, over mighty waters.",
+                                    "The voice of the Lord is powerful; \nthe voice of the Lord is full of majesty."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The God of glory thunders,",
+                                    "The voice of the Lord causes the oaks to whirl, \nand strips the forest bare; \nand in his temple all say, “Glory!”",
+                                    "The Lord sits enthroned over the flood; \nthe Lord sits enthroned as king forever."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "John ch. 14, v. 23",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Whoever loves me will keep my word, says the Lord; and my Father will love him and we will come to him."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 8, vv. 14 - 21",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "The disciples had forgotten to bring any bread; and they had only one loaf with them in the boat. Jesus cautioned them, saying, “Watch out—beware of the yeast of the Pharisees and the yeast of Herod.” They said to one another, “It is because we have no bread.” And becoming aware of it, Jesus said to them, “Why are you talking about having no bread? Do you still not perceive or understand? Are your hearts hardened? Do you have eyes, and fail to see? Do you have ears, and fail to hear? And do you not remember? When I broke the five loaves for the five thousand, how many baskets full of broken pieces did you collect?” They said to him, “Twelve.” “And the seven for the four thousand, how many baskets full of broken pieces did you collect?” And they said to him, “Seven.” Then he said to them, “Do you not yet understand?”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

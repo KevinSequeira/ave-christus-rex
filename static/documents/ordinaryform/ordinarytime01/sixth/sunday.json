@@ -1,0 +1,130 @@
+{
+      "gloria": "yes",
+      "credo": "nicene_creed",
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Sirach ch. 15, vv. 15 - 20",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "If you choose, you can keep the commandments, \nand to act faithfully is a matter of your own choice.",
+                                          "He has placed before you fire and water; \nstretch out your hand for whichever you choose.",
+                                          "Before each person are life and death, \nand whichever one chooses will be given.",
+                                          "For great is the wisdom of the Lord; \nhe is mighty in power and sees everything;",
+                                          "his eyes are on those who fear him, \nand he knows every human action.",
+                                          "He has not commanded anyone to be wicked, \nand he has not given anyone permission to sin."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 119, vv. 1 - 2, 4 - 5, 17 - 18, 33 - 34",
+                  "response": "Blessed are they who follow the law of the Lord!",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Happy are those whose way is blameless, \nwho walk in the law of the Lord.",
+                                    "Happy are those who keep his decrees, \nwho seek him with their whole heart."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "You have commanded your precepts \nto be kept diligently.",
+                                    "O that my ways may be steadfast \nin keeping your statutes!"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Deal bountifully with your servant, \nso that I may live and observe your word.",
+                                    "Open my eyes, so that I may behold \nwondrous things out of your law."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Teach me, O Lord, the way of your statutes, \nand I will observe it to the end.",
+                                    "Give me understanding, that I may keep your law \nand observe it with my whole heart."
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": [
+                  {
+                        "verse_number": "1 Corinthians ch. 2, vv. 6 - 10",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: Among the mature we do speak wisdom, though it is not a wisdom of this age or of the rulers of this age, who are doomed to perish. But we speak God’s wisdom, secret and hidden, which God decreed before the ages for our glory. None of the rulers of this age understood this; for if they had, they would not have crucified the Lord of glory. But, as it is written,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "“What no eye has seen, nor ear heard, \nnor the human heart conceived,",
+                                          "what God has prepared for those who love him”—"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "these things God has revealed to us through the Spirit; for the Spirit searches everything, even the depths of God."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "gospel_acclamation": {
+                  "verse_number": "Cf. Matthew ch. 11, v. 25",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed are you, Father, Lord of heaven and earth; \nyou have revealed to little ones the mysteries of the Kingdom."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 5, vv. 17 - 37",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “Do not think that I have come to abolish the law or the prophets; I have come not to abolish but to fulfill. For truly I tell you, until heaven and earth pass away, not one letter, not one stroke of a letter, will pass from the law until all is accomplished. Therefore, whoever breaks one of the least of these commandments, and teaches others to do the same, will be called least in the kingdom of heaven; but whoever does them and teaches them will be called great in the kingdom of heaven. For I tell you, unless your righteousness exceeds that of the scribes and Pharisees, you will never enter the kingdom of heaven."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“You have heard that it was said to those of ancient times, ‘You shall not murder’; and ‘whoever murders shall be liable to judgment.’ But I say to you that if you are angry with a brother or sister, you will be liable to judgment; and if you insult a brother or sister, you will be liable to the council; and if you say, ‘You fool,’ you will be liable to the hell of fire. So when you are offering your gift at the altar, if you remember that your brother or sister has something against you, leave your gift there before the altar and go; first be reconciled to your brother or sister, and then come and offer your gift. Come to terms quickly with your accuser while you are on the way to court with him, or your accuser may hand you over to the judge, and the judge to the guard, and you will be thrown into prison. Truly I tell you, you will never get out until you have paid the last penny."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“You have heard that it was said, ‘You shall not commit adultery.’ But I say to you that everyone who looks at a woman with lust has already committed adultery with her in his heart. If your right eye causes you to sin, tear it out and throw it away; it is better for you to lose one of your members than for your whole body to be thrown into hell. And if your right hand causes you to sin, cut it off and throw it away; it is better for you to lose one of your members than for your whole body to go into hell."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“It was also said, ‘Whoever divorces his wife, let him give her a certificate of divorce.’ But I say to you that anyone who divorces his wife, except on the ground of unchastity, causes her to commit adultery; and whoever marries a divorced woman commits adultery."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“Again, you have heard that it was said to those of ancient times, ‘You shall not swear falsely, but carry out the vows you have made to the Lord.’ But I say to you, Do not swear at all, either by heaven, for it is the throne of God, or by the earth, for it is his footstool, or by Jerusalem, for it is the city of the great King. And do not swear by your head, for you cannot make one hair white or black. Let your word be ‘Yes, Yes’ or ‘No, No’; anything more than this comes from the evil one.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}
