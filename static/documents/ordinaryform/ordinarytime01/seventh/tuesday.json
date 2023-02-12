@@ -1,0 +1,98 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Sirach ch. 2, vv. 1 - 11",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "My child, when you come to serve the Lord, \nprepare yourself for testing.",
+                                          "Set your heart right and be steadfast, \nand do not be impetuous in time of calamity.",
+                                          "Cling to him and do not depart, \nso that your last days may be prosperous.",
+                                          "Accept whatever befalls you, \nand in times of humiliation be patient.",
+                                          "For gold is tested in the fire, \nand those found acceptable, in the furnace of humiliation.",
+                                          "Trust in him, and he will help you; \nmake your ways straight, and hope in him."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "You who fear the Lord, wait for his mercy; \ndo not stray, or else you may fall.",
+                                          "You who fear the Lord, trust in him, \nand your reward will not be lost.",
+                                          "You who fear the Lord, hope for good things, \nfor lasting joy and mercy.",
+                                          "Consider the generations of old and see: \nhas anyone trusted in the Lord and been disappointed?",
+                                          "Or has anyone persevered in the fear of the Lord and been forsaken? \nOr has anyone called upon him and been neglected?",
+                                          "For the Lord is compassionate and merciful; \nhe forgives sins and saves in time of distress."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 37, vv. 3 - 4, 18 - 19, 27 - 28, 39 - 40",
+                  "response": "Commit your life to the Lord, and he will help you.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Trust in the Lord, and do good; \nso you will live in the land, and enjoy security.",
+                                    "Take delight in the Lord, \nand he will give you the desires of your heart."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord knows the days of the blameless, \nand their heritage will abide forever;",
+                                    "they are not put to shame in evil times, \nin the days of famine they have abundance."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Depart from evil, and do good; \nso you shall abide forever.",
+                                    "For the Lord loves justice; \nhe will not forsake his faithful ones.",
+                                    "The righteous shall be kept safe forever, \nbut the children of the wicked shall be cut off."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The salvation of the righteous is from the Lord; \nhe is their refuge in the time of trouble.",
+                                    "The Lord helps them and rescues them; \nhe rescues them from the wicked, and saves them, \nbecause they take refuge in him."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Galatians ch. 6, v. 14",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "May I never boast except in the Cross of our Lord Jesus Christ, through which the world has been crucified to me and I to the world."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 9, vv. 30 - 37",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus and his disciples went on from there and passed through Galilee. He did not want anyone to know it; for he was teaching his disciples, saying to them, “The Son of Man is to be betrayed into human hands, and they will kill him, and three days after being killed, he will rise again.” But they did not understand what he was saying and were afraid to ask him."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then they came to Capernaum; and when he was in the house he asked them, “What were you arguing about on the way?” But they were silent, for on the way they had argued with one another who was the greatest. He sat down, called the twelve, and said to them, “Whoever wants to be first must be last of all and servant of all.” Then he took a little child and put it among them; and taking it in his arms, he said to them, “Whoever welcomes one such child in my name welcomes me, and whoever welcomes me welcomes not me but the one who sent me.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

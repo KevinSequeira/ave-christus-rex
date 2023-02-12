@@ -1,0 +1,89 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/ordinary_time_07.png')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 13, v. 6",
+                  "content": [
+                        {
+                              "p": [
+                                    "O Lord, I trust in your merciful love.",
+                                    "My heart will rejoice in your salvation.",
+                                    "I will sing to the Lord who has been bountiful with me."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "collect": [
+            {
+                  "p": [
+                        "O Lord, I trust in your merciful love.",
+                        "My heart will rejoice in your salvation.",
+                        "I will sing to the Lord who has been bountiful with me."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "As we celebrate your mysteries, O Lord,",
+                        "with the observance that is your due,",
+                        "we humbly ask you,",
+                        "that what we offer to the honor of your majesty",
+                        "may profit us for salvation."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Psalm 9, vv. 2, 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "I will recount all your wonders,",
+                                    "I will rejoice in you and be glad,",
+                                    "and sing psalms to your name, O Most High."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "John ch. 11, v. 27",
+                  "content": [
+                        {
+                              "p": [
+                                    "Lord, I have come to believe that you are the Christ,",
+                                    "the Son of the living God, who is coming into this world."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Grant, we pray, almighty God,",
+                        "that we may experience the effects of the salvation",
+                        "which is pledged to us by these mysteries."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ]
+}
