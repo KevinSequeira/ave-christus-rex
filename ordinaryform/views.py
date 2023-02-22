@@ -73,6 +73,8 @@ def ordinaryform(request):
         context = epiphaneyloader(context)
     elif (currentSeasonShort == "ordinarytime01"):
         context = ordinarytime01loader(context)
+    elif (currentSeasonShort in ("ashwednesday", "lent")):
+        context = lentloader(context)
     context = memorialloader(context)
 
     return render(request, "ordinaryform.html", context)
@@ -146,11 +148,14 @@ def calendar(request):
     elif (currentSeasonShort == "epiphany"):
         context = epiphaneyloader(context)
     elif (currentSeasonShort == "ordinarytime01"):
-        context = ordinarytime01(context)
+        context = ordinarytime01loader(context)
+    elif (currentSeasonShort in ("ashwednesday", "lent")):
+        context = lentloader(context)
     context = adventcalendar(context)
     context = christmascalendar(context)
     context = epiphanycalendar(context)
     context = ordinarytime01calendar(context)
+    context = lentcalendar(context)
     context = memorialloader(context)
 
     return render(request, "liturgicalcalendar.html", context)
@@ -226,6 +231,13 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
         elif ((currentQualifyingDay in ("7th", "8th", "9th", "10th", "11th", "12th", "13th"))
             & (currentWeekday == "Sunday")):
             return redirect("memorialfortheday", f"{current_date}")
+    elif (currentWeek == "Holy Week"):
+        if (currentWeekday == "Thursday"):
+            return render(request, f"lent/maundythursdayliturgies.html", context)
+        elif (currentWeekday == "Friday"):
+            return render(request, f"christmas/goodfridayliturgy.html", context)
+        elif (currentWeekDay == "Saturday"):
+            pass
 
     # Add season-specific context variables
     if (currentSeasonShort == "advent"):
@@ -236,6 +248,8 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
         context = epiphany(context)
     elif (currentSeasonShort == "ordinarytime01"):
         context = ordinarytime01(context)
+    elif (currentSeasonShort in ("ashwednesday", "lent", "holyweek")):
+        context = lent(context)
 
     templateFileName = "sunday"
     if (currentWeekday == "Sunday"):
@@ -1036,6 +1050,140 @@ def ordinarytime01calendar(context = {}):
 
     # Get all days for the current liturgical season
     currentSeasonCalendar = dateDimension.loc[dateDimension["Season Short"] == "ordinarytime01"]
+    currentSeasonCalendar["Qualifying Month"] = currentSeasonCalendar["Month"].apply(lambda row: datetime.strptime(str(row), "%m").strftime("%B"))
+    currentSeasonCalendar["Qualifying Weekday"] = currentSeasonCalendar["Date"].apply(lambda row: datetime.strptime(str(row), "%Y-%m-%d").strftime("%A"))
+
+    # Get unique months for the current Season
+    # monthsInTheSeason = currentSeasonCalendar["Date"].apply(lambda string: datetime.strptime(string, '%Y-%m-%d').strftime('%m')).unique()
+    monthsInTheSeason = currentSeasonCalendar["Month"].unique().tolist()
+
+    calendarDictionary = context["calendar_dictionary"]
+    # Get data for each day for each month in the Season
+    for month in monthsInTheSeason:
+        tempDataFrame = currentSeasonCalendar.loc[currentSeasonCalendar["Month"] == month]
+        if datetime.strptime(str(month), "%m").strftime("%B") not in calendarDictionary.keys():
+            calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")] = []
+        for index, row in tempDataFrame.iterrows():
+            calendarDictionary[datetime.strptime(str(month), "%m").strftime("%B")].append(row[["Date", "Qualifying Day", "Season", "Qualifying Weekday", "Week", "Feast Day", "Feast Class", "Feast Short", "Season Short"]].tolist())
+
+    context["calendar_dictionary"] = calendarDictionary
+    return context
+
+
+def lentloader(context = {}):
+
+    context = context
+    try:
+        jsonFile = ""
+        if (context["current_week"] == "Holy Week"):
+            if (context["current_weekday"] == "Thursday"):
+                jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/context['current_week']/{context['current_qualifying_day'].lower()}.json")
+            elif (context["current_weekday"]):
+                pass
+        else:
+            jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
+        jsonFile = json.load(jsonFile)
+        context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
+        context["liturgy_background_position"] = jsonFile["liturgy_background_position"] or "top"
+
+    except:
+        context["file_available"] = "no"
+        context["liturgy_background_image"] = ""
+
+    return context
+
+
+def lent(context = {}):
+
+    try:
+        jsonFile = ""
+        if (context["current_week"] == "Ash Wednesday"):
+            jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_weekday'].lower()}.json")
+        else:
+            jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
+        jsonFile = json.load(jsonFile)
+
+        commonPrayers = open(f"./static/documents/ordinaryform/commonprayers.json")
+        commonPrayers = json.load(commonPrayers)
+
+        context["liturgy_background_image"] = jsonFile["liturgy_background_image"]
+        context["liturgy_background_position"] = jsonFile["liturgy_background_position"]
+
+        gloria_content = ""
+        if (jsonFile["gloria"] == "yes"):
+            gloria_content = commonPrayers["gloria"]
+
+        credo_content = ""
+        if (jsonFile["credo"] == "apostles_creed"):
+            credo_content = commonPrayers["apostles_creed"]
+        elif (jsonFile["credo"] == "nicene_creed"):
+            credo_content = commonPrayers["nicene_creed"]
+
+        context["file_available"] = "yes"
+
+        context["opening_antiphon"] = jsonFile["opening_antiphon"]
+        context["gloria"] = jsonFile["gloria"]
+        context["gloria_content"] = gloria_content
+        context["collect"] = jsonFile["collect"]
+        context["first_reading"] = jsonFile["year_a"]["first_reading"]
+        context["first_responsorial_psalm"] = jsonFile["year_a"]["first_responsorial_psalm"]
+
+        second_reading_content = ""
+        if ("second_reading" in jsonFile["year_a"]):
+            context["second_reading"] = jsonFile["year_a"]["second_reading"]
+
+        context["gradual"] = jsonFile["year_a"]["gradual"]
+        context["gospel_reading"] = jsonFile["year_a"]["gospel_reading"]
+
+        ashes_blessings_content = ""
+        if ("blessing_the_ashes" in jsonFile):
+            print("Checkpoint")
+            context["blessing_the_ashes"] = jsonFile["blessing_the_ashes"]
+            context["ash_distribution_antiphons"] = jsonFile["ash_distribution_antiphons"]
+
+        context["offertory"] = jsonFile["offertory"]
+        context["credo"] = jsonFile["credo"]
+        context["credo_content"] = credo_content
+        context["communion_antiphon"] = jsonFile["communion_antiphon"]
+        context["prayer_after_communion"] = jsonFile["prayer_after_communion"]
+        context["prayer_over_the_people"] = jsonFile["prayer_over_the_people"]
+
+    except:
+        context["file_available"] = "no"
+
+        context["opening_antiphon"] = ""
+        context["gloria"] = ""
+        context["gloria_content"] = ""
+        context["collect"] = ""
+        context["first_reading"] = ""
+        context["responsorial_psalm"] = ""
+        context["second_reading"] = ""
+        context["gospel_acclamation"] = ""
+        context["gospel_reading"] = ""
+        
+        context["blessing_the_ashes"] = ""
+        context["ash_distribution_antiphon_01"] = ""
+        context["ash_distribution_antiphon_02"] = ""
+        context["ash_distribution_antiphon_03"] = ""
+        context["responsory_after_distribution"] = ""
+
+        context["offertory"] = ""
+        context["credo"] = ""
+        context["credo_content"] = ""
+        context["communion_antiphon"] = ""
+        context["prayer_after_communion"] = ""
+        context["prayer_over_the_people"] = ""
+
+    return context
+
+
+def lentcalendar(context = {}):
+
+    # Load the date dimension table
+    dateDimension = pan.read_excel(f"./static/documents/datedimension.xlsx", sheet_name = "datedimension").fillna("")
+
+    # Get all days for the current liturgical season
+    currentSeasonCalendar = dateDimension.loc[dateDimension["Season Short"] in ("ashwednesday", "lent")]
     currentSeasonCalendar["Qualifying Month"] = currentSeasonCalendar["Month"].apply(lambda row: datetime.strptime(str(row), "%m").strftime("%B"))
     currentSeasonCalendar["Qualifying Weekday"] = currentSeasonCalendar["Date"].apply(lambda row: datetime.strptime(str(row), "%Y-%m-%d").strftime("%A"))
 

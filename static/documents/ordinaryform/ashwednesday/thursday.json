@@ -1,0 +1,168 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Ash Wednesday.png')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 55, vv. 17 - 20, 23",
+                  "content": [
+                        {
+                              "p": [
+                                    "When I cried to the Lord, he heard my voice;",
+                                    "he rescued me from those who attack me.",
+                                    "Entrust your cares to the Lord, and he will support you."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Prompt our actions with your inspiration, we pray, O Lord,",
+                        "and further them with your constant help,",
+                        "that all we do may always begin from you",
+                        "and by you be brought to completion."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Regard with favor, O Lord, we pray,",
+                        "the offerings we set upon this sacred altar,",
+                        "that, bestowing on us your pardon,",
+                        "our oblations may give honor to your name."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 51, v. 12",
+                  "content": [
+                        {
+                              "p": [
+                                    "Create a pure heart for me, O God;",
+                                    "renew a steadfast spirit within me."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Having received the blessing of your heavenly gifts,",
+                        "we humbly beseech you, almighty God,",
+                        "that they may always be for us",
+                        "a source both of pardon and of salvation."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "Almighty God,",
+                        "who have made known to your people",
+                        "the ways of eternal life,",
+                        "lead them by that path, we pray,",
+                        "to you, the unfading light."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Deuteronomy ch. 30, vv. 15 - 20",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Moses said to the people: “See, I have set before you today life and prosperity, death and adversity. If you obey the commandments of the Lord your God that I am commanding you today, by loving the Lord your God, walking in his ways, and observing his commandments, decrees, and ordinances, then you shall live and become numerous, and the Lord your God will bless you in the land that you are entering to possess. But if your heart turns away and you do not hear, but are led astray to bow down to other gods and serve them, I declare to you today that you shall perish; you shall not live long in the land that you are crossing the Jordan to enter and possess. I call heaven and earth to witness against you today that I have set before you life and death, blessings and curses. Choose life so that you and your descendants may live, loving the Lord your God, obeying him, and holding fast to him; for that means life to you and length of days, so that you may live in the land that the Lord swore to give to your ancestors, to Abraham, to Isaac, and to Jacob.”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 1, vv. 1 - 2, 3, 4 and 6",
+                  "response": "Blessed are they who hope in the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Happy are those \nwho do not follow the advice of the wicked,",
+                                    "or take the path that sinners tread, \nor sit in the seat of scoffers;",
+                                    "but their delight is in the law of the Lord, \nand on his law they meditate day and night."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "They are like trees \nplanted by streams of water,",
+                                    "which yield their fruit in its season, \nand their leaves do not wither.",
+                                    "In all that they do, they prosper."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The wicked are not so, \nbut are like chaff that the wind drives away.",
+                                    "For the Lord watches over the way of the righteous, \nbut the way of the wicked will perish."
+                              ]
+                        }
+                  ]
+            },
+            "gradual": {
+                  "verse_number": "Matthew ch. 4, v. 17",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Repent, says the Lord; the Kingdom of heaven is at hand."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 9, vv. 22 - 25",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to disciples: “The Son of Man must undergo great suffering, and be rejected by the elders, chief priests, and scribes, and be killed, and on the third day be raised.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then he said to them all, “If any want to become my followers, let them deny themselves and take up their cross daily and follow me. For those who want to save their life will lose it, and those who lose their life for my sake will save it. What does it profit them if they gain the whole world, but lose or forfeit themselves?”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,344 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Ash Wednesday.png')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Wisdom ch. 11, vv. 24, 25, 27",
+                  "content": [
+                        {
+                              "p": [
+                                    "You are merciful to all, O Lord,",
+                                    "and despise nothing that you have made.",
+                                    "You overlook people’s sins, to bring them to repentance,",
+                                    "and you spare them, for you are the Lord our God."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Grant, O Lord, that we may begin with holy fasting",
+                        "this campaign of Christian service,",
+                        "so that, as we take up battle against spiritual evils,",
+                        "we may be armed with weapons of self-restraint."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "blessing_the_ashes": [
+            {
+                  "message": "",
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "Dear brethren (brothers and sisters), let us humbly ask God, our Father",
+                                    "that he be pleased to bless with the abundance of his grace",
+                                    "these ashes, which we will put on our heads in penitence."
+                              ]
+                        },
+                        {
+                              "p": [
+                                    "O God, who are moved by acts of humility",
+                                    "and respond with forgiveness to works of penance,",
+                                    "lend your merciful ear to our prayers",
+                                    "and in your kindness pour out the grace of your blessing",
+                                    "on your servants who are marked with these ashes,",
+                                    "that, as they follow the Lenten observances,",
+                                    "they may be worthy to come with minds made pure",
+                                    "to celebrate the Paschal Mystery of your Son."
+                              ]
+                        },
+                        {
+                              "p": [
+                                    "Through Christ our Lord."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "O God, who desire not the death of sinners,",
+                                    "but their conversion,",
+                                    "mercifully hear our prayers",
+                                    "and in your kindness be pleased to bless these ashes,",
+                                    "which we intend to receive upon our heads,",
+                                    "that we, who acknowledge we are but ashes",
+                                    "and shall return to dust,",
+                                    "may, through a steadfast observance of Lent,",
+                                    "gain pardon for sins and newness of life",
+                                    "after the likeness of your Risen Son."
+                              ]
+                        },
+                        {
+                              "p": [
+                                    "Who lives and reigns for ever and ever."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "ash_distribution_antiphons": [
+            {
+                  "message": "",
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let us change our garments to sackcloth and ashes,",
+                                    "let us fast and weep before the Lord,",
+                                    "that our God, rich in mercy, might forgive us our sins."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "message": "",
+                  "verse_number": "Cf. Joel ch. 2, v. 17; Esther ch. 4, v. 17",
+                  "content": [
+                        {     
+                              "p": [
+                                    "Let the priests, the ministers of the Lord,",
+                                    "stand between the porch and the altar and weep and cry out:",
+                                    "Spare, O Lord, spare your people;",
+                                    "do not close the mouths of those who sing your praise, O Lord."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "message": "",
+                  "verse_number": "Psalm 51, v. 3",
+                  "content": [
+                        { 
+                              "p": [
+                                    "Blot out my transgressions, O Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "responsory_after_distribution": {
+            "message": "",
+            "responsum": "Let us correct our faults which we have committed in ignorance, let us not be taken unawares by the day of our death, looking in vain for leisure to repent. Hear us, O Lord, and show us your mercy, for we have sinned against you.",
+            "versiculum": "Help us, O God our Savior; for the sake of your name, O Lord, set us free. Hear us, O Lord, and show us your mercy, for we have sinned against you."
+      },
+      "offertory": [
+            {
+                  "p": [
+                        "As we solemnly offer",
+                        "the annual sacrifice for the beginning of Lent,",
+                        "we entreat you, O Lord,",
+                        "that, through works of penance and charity,",
+                        "we may turn away from harmful pleasures",
+                        "and, cleansed from our sins, may become worthy",
+                        "to celebrate devoutly the Passion of your Son."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 1, vv. 2, 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "He who ponders the law of the Lord day and night",
+                                    "will yield fruit in due season."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May the Sacrament we have received sustain us, O Lord,",
+                        "that our Lenten fast may be pleasing to you",
+                        "and be for us a healing remedy."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "Pour out a spirit of compunction, O God,",
+                        "on those who bow before your majesty,",
+                        "and by your mercy may they merit the rewards you promise",
+                        "to those who do penance."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Joel ch. 2, vv. 12 - 18",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Even now, says the Lord, \nreturn to me with all your heart,",
+                                          "with fasting, with weeping, and with mourning; \nrend your hearts and not your clothing.",
+                                          "Return to the Lord, your God, \nfor he is gracious and merciful,",
+                                          "slow to anger, and abounding in steadfast love, \nand relents from punishing.",
+                                          "Who knows whether he will not turn and relent, \nand leave a blessing behind him,",
+                                          "a grain offering and a drink offering \nfor the Lord, your God?"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Blow the trumpet in Zion; \nsanctify a fast;",
+                                          "call a solemn assembly; \ngather the people.",
+                                          "Sanctify the congregation; \nassemble the aged;",
+                                          "gather the children, \neven infants at the breast.",
+                                          "Let the bridegroom leave his room, \nand the bride her canopy."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Between the vestibule and the altar \nlet the priests, the ministers of the Lord, weep.",
+                                          "Let them say, “Spare your people, O Lord, \nand do not make your heritage a mockery, \na byword among the nations.",
+                                          "Why should it be said among the peoples, \n‘Where is their God?’”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Then the Lord became jealous for his land, \nand had pity on his people."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 51, vv. 1 - 2, 3 - 4, 10 - 11, 12 and 15",
+                  "response": "Be merciful, O Lord, for we have sinned.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Have mercy on me, O God, \naccording to your steadfast love;",
+                                    "according to your abundant mercy \nblot out my transgressions.",
+                                    "Wash me thoroughly from my iniquity, \nand cleanse me from my sin."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For I know my transgressions, \nand my sin is ever before me.",
+                                    "Against you, you alone, have I sinned, \nand done what is evil in your sight,",
+                                    "so that you are justified in your sentence \nand blameless when you pass judgment."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Create in me a clean heart, O God, \nand put a new and right spirit within me.",
+                                    "Do not cast me away from your presence, \nand do not take your holy spirit from me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Restore to me the joy of your salvation, \nand sustain in me a willing spirit.",
+                                    "O Lord, open my lips, \nand my mouth will declare your praise."
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": [
+                  {
+                        "verse_number": "2 Corinthians ch. 5, v. 20 – ch. 6, v. 2",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: We are ambassadors for Christ, since God is making his appeal through us; we entreat you on behalf of Christ, be reconciled to God. For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "As we work together with him, we urge you also not to accept the grace of God in vain. For he says,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“At an acceptable time I have listened to you, \nand on a day of salvation I have helped you.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "See, now is the acceptable time; see, now is the day of salvation!"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "gradual": {
+                  "verse_number": "See Psalm 95, v. 8",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "If today you hear his voice, harden not your hearts."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 6, vv. 1 - 6, 16 - 18",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“Beware of practicing your piety before others in order to be seen by them; for then you have no reward from your Father in heaven."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“So whenever you give alms, do not sound a trumpet before you, as the hypocrites do in the synagogues and in the streets, so that they may be praised by others. Truly I tell you, they have received their reward. But when you give alms, do not let your left hand know what your right hand is doing, so that your alms may be done in secret; and your Father who sees in secret will reward you."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“And whenever you pray, do not be like the hypocrites; for they love to stand and pray in the synagogues and at the street corners, so that they may be seen by others. Truly I tell you, they have received their reward. But whenever you pray, go into your room and shut the door and pray to your Father who is in secret; and your Father who sees in secret will reward you.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,187 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Ash Wednesday.png')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 69, v. 17",
+                  "content": [
+                        {
+                              "p": [
+                                    "Answer us, Lord, for your mercy is kind;",
+                                    "in the abundance of your mercies, look upon us."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Almighty ever-living God,",
+                        "look with compassion on our weakness",
+                        "and ensure us your protection",
+                        "by stretching forth the right hand of your majesty."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Accept, we pray, O Lord,",
+                        "the sacrifice of conciliation and praise,",
+                        "and grant that, cleansed by its working,",
+                        "we may offer minds well pleasing to you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Matthew ch. 9, v. 13",
+                  "content": [
+                        {
+                              "p": [
+                                    "I desire mercy, not sacrifice, says the Lord,",
+                                    "for I did not come to call the just but sinners."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Nourished with the gift of heavenly life,",
+                        "we pray, O Lord,",
+                        "that what remains for us a mystery in this present life",
+                        "may be for us a help to reach eternity."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "Abide graciously, O Lord, with your people,",
+                        "who have touched the sacred mysteries,",
+                        "that no dangers may bring affliction",
+                        "to those who trust in you, their protector."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 58, vv. 9b - 14",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Thus says the Lord:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "If you remove the yoke from among you, \nthe pointing of the finger, the speaking of evil,",
+                                          "if you offer your food to the hungry \nand satisfy the needs of the afflicted,",
+                                          "then your light shall rise in the darkness \nand your gloom be like the noonday.",
+                                          "The Lord will guide you continually, \nand satisfy your needs in parched places, \nand make your bones strong;",
+                                          "and you shall be like a watered garden, \nlike a spring of water, \nwhose waters never fail.",
+                                          "Your ancient ruins shall be rebuilt; \nyou shall raise up the foundations of many generations;",
+                                          "you shall be called the repairer of the breach, \nthe restorer of streets to live in."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "If you refrain from trampling the sabbath, \nfrom pursuing your own interests on my holy day;",
+                                          "if you call the sabbath a delight \nand the holy day of the Lord honorable;",
+                                          "if you honor it, not going your own ways, \nserving your own interests, or pursuing your own affairs;",
+                                          "then you shall take delight in the Lord, \nand I will make you ride upon the heights of the earth;",
+                                          "I will feed you with the heritage of your ancestor Jacob, \nfor the mouth of the Lord has spoken."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 86, vv. 1 - 2, 3 - 4, 5 - 6",
+                  "response": "Teach me your way, O Lord, that I may walk in your truth.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Incline your ear, O Lord, and answer me, \nfor I am poor and needy.",
+                                    "Preserve my life, for I am devoted to you; \nsave your servant who trusts in you.",
+                                    "You are my God."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Be gracious to me, O Lord, \nfor to you do I cry all day long.",
+                                    "Gladden the soul of your servant, \nfor to you, O Lord, I lift up my soul."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For you, O Lord, are good and forgiving, \nabounding in steadfast love to all who call on you.",
+                                    "Give ear, O Lord, to my prayer; \nlisten to my cry of supplication."
+                              ]
+                        }
+                  ]
+            },
+            "gradual": {
+                  "verse_number": "Ezekiel ch. 33, v. 11",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "I take no pleasure in the death of the wicked man, says the Lord, but rather in his conversion, that he may live."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 5, vv. 27 - 32",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus saw a tax collector named Levi, sitting at the tax booth; and he said to him, “Follow me.” And he got up, left everything, and followed him."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then Levi gave a great banquet for him in his house; and there was a large crowd of tax collectors and others sitting at the table with them. The Pharisees and their scribes were complaining to his disciples, saying, “Why do you eat and drink with tax collectors and sinners?” Jesus answered, “Those who are well have no need of a physician, but those who are sick; I have come to call not the righteous but sinners to repentance.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}
