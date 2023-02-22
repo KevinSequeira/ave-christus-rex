@@ -1183,7 +1183,7 @@ def lentcalendar(context = {}):
     dateDimension = pan.read_excel(f"./static/documents/datedimension.xlsx", sheet_name = "datedimension").fillna("")
 
     # Get all days for the current liturgical season
-    currentSeasonCalendar = dateDimension.loc[dateDimension["Season Short"] in ("ashwednesday", "lent")]
+    currentSeasonCalendar = dateDimension.loc[dateDimension["Season Short"].isin(["ashwednesday", "lent"])]
     currentSeasonCalendar["Qualifying Month"] = currentSeasonCalendar["Month"].apply(lambda row: datetime.strptime(str(row), "%m").strftime("%B"))
     currentSeasonCalendar["Qualifying Weekday"] = currentSeasonCalendar["Date"].apply(lambda row: datetime.strptime(str(row), "%Y-%m-%d").strftime("%A"))
 
