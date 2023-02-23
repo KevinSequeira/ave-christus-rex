@@ -56,6 +56,7 @@ h1.liturgyForTheDayHeader {
 p.liturgyForTheDayWeek {
       font-size: 18px;
       font-family: 'Merriweather', serif;
+      padding: 0px 30px 0px 0px;
 }
 
 .memorialForTheDay {
@@ -139,21 +140,21 @@ p.memorialForTheDayWeek {
 }
 
 .firstColumn {
-      width: 10%;
+      width: 12%;
       font-family: 'Merriweather', sans-serif;
       font-size: 16px;
       color: #777777;
 }
 
 .secondColumn {
-      width: 40%;
+      width: 39%;
       font-family: 'Merriweather', sans-serif;
       font-size: 16px;
       color: #777777;
 }
 
 .thirdColumn {
-      width: 50%;
+      width: 49%;
       font-family: 'Merriweather', sans-serif;
       font-size: 16px;
       color: #777777;
@@ -227,6 +228,7 @@ p.memorialForTheDayWeek {
       p.liturgyForTheDayWeek {
             font-size: 14px;
             font-family: 'Merriweather', serif;
+            padding: 0px 30px 0px 0px;
       }
 
       .memorialForTheDay {
@@ -317,21 +319,21 @@ p.memorialForTheDayWeek {
       }
 
       .firstColumn {
-            width: 10%;
+            width: 12%;
             font-family: 'Merriweather', sans-serif;
             font-size: 14px;
             color: #777777;
       }
 
       .secondColumn {
-            width: 40%;
+            width: 39%;
             font-family: 'Merriweather', sans-serif;
             font-size: 14px;
             color: #777777;
       }
 
       .thirdColumn {
-            width: 50%;
+            width: 49%;
             font-family: 'Merriweather', sans-serif;
             font-size: 14px;
             color: #777777;

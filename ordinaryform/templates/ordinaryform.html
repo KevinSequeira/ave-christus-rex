@@ -45,7 +45,13 @@
                               <!-- <p class="liturgyForTheDayForm">Sunday, 27th November, 2022</p> -->
                               <p class="liturgyForTheDayForm">{{ current_weekday }}, {{ current_qualifying_day }} {{ current_qualifying_month }}, {{ current_year }}</p>
                               <h1 class="liturgyForTheDayHeader">Liturgy for the Day</h1>
-                              <p class="liturgyForTheDayWeek">{{ current_week }} {{ current_denomination }} in {{ current_season }}
+                              {% if current_season_short == "ashwednesday" %}
+                              {% if current_weekday == "wednesday" %}
+                              <p class="liturgyForTheDayWeek">{{ current_week }} in {{ current_season }}
+                              {% else %}
+                              <p class="liturgyForTheDayWeek">{{ current_weekday }} after {{ current_week }} in {{ current_season }}
+                              {% endif %}
+                              {% endif %}
                                     <br>Year {{ current_cycle }}</p>
                               <a class="btn default" href="{% url 'liturgyfortheday' current_date %}" target="_blank" role="button">Read More ...</a>
                         </div>

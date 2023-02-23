@@ -1,0 +1,26 @@
+{% load static %}
+{% block head %}
+{% endblock %}
+<div class="row calendarRow">
+      <div class="col-xs-3 calendarCellColumn firstColumn">
+            {{ month|slice:"0:3" }}. {{ row.1 }}
+      </div>
+      <!-- <div class="col-xs-3 calendarCellColumn secondColumn mobileView">
+            {{ row.3 }}
+      </div> -->
+      <div class="col-xs-3 calendarCellColumn secondColumn">
+            {% if row.3 == "Wednesday" %}
+            <a class="liturgyForTheDayLink" href="{% url 'liturgyfortheday' row.0 %}" target="_blank">Ash Wednesday, Season of Lent</a>
+            {% else %}
+            <!-- {{ row.3 }}, {{ row.4 }} Day of {{ row.2 }} -->
+            <a class="liturgyForTheDayLink" href="{% url 'liturgyfortheday' row.0 %}" target="_blank">{{ row.3 }} after Ash Wedn., Season of Lent</a>
+            {% endif %}
+      </div>
+      <div class="col-xs-3 calendarCellColumn thirdColumn">
+            <!-- {% if row.7 == "" %}
+
+            {% else %} -->
+            <a class="liturgyForTheDayLink" href="{% url 'memorialfortheday' row.0 %}" target="_blank">{{ row.6 }}, {{ row.5 }}</a>
+            <!-- {% endif %} -->
+      </div>
+</div>
