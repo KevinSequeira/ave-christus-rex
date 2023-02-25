@@ -112,99 +112,145 @@
       "year_a": {
             "first_reading": [
                   {
-                        "verse_number": "Isaiah ch. 58, vv. 7 - 10",
+                        "verse_number": "Genesis ch. 2, vv. 7 - 9; cg. 3, vv. 1 - 7",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Thus says the Lord:"
+                                          "The Lord God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and the man became a living being. And the Lord God planted a garden in Eden, in the east; and there he put the man whom he had formed. Out of the ground the Lord God made to grow every tree that is pleasant to the sight and good for food, the tree of life also in the midst of the garden, and the tree of the knowledge of good and evil."
                                     ]
                               },
                               {
-                                    "content_type": "stanza",
+                                    "content_type": "paragraph",
                                     "p": [
-                                          "Share your bread with the hungry, \nand bring the homeless poor into your house;",
-                                          "when you see the naked, to cover them, \nand not to hide yourself from your own kin?",
-                                          "Then your light shall break forth like the dawn, \nand your healing shall spring up quickly;",
-                                          "your vindicator shall go before you, \nthe glory of the Lord shall be your rear guard.",
-                                          "Then you shall call, and the Lord will answer; \nyou shall cry for help, and he will say, Here I am."
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "If you remove the yoke from among you, \nthe pointing of the finger, the speaking of evil,",
-                                          "if you offer your food to the hungry \nand satisfy the needs of the afflicted,",
-                                          "then your light shall rise in the darkness \nand your gloom be like the noonday."
+                                          "Now the serpent was more crafty than any other wild animal that the Lord God had made. He said to the woman, “Did God say, ‘You shall not eat from any tree in the garden’?” The woman said to the serpent, “We may eat of the fruit of the trees in the garden; but God said, ‘You shall not eat of the fruit of the tree that is in the middle of the garden, nor shall you touch it, or you shall die.’” But the serpent said to the woman, “You will not die; for God knows that when you eat of it your eyes will be opened, and you will be like God, knowing good and evil.” So when the woman saw that the tree was good for food, and that it was a delight to the eyes, and that the tree was to be desired to make one wise, she took of its fruit and ate; and she also gave some to her husband, who was with her, and he ate. Then the eyes of both were opened, and they knew that they were naked; and they sewed fig leaves together and made loincloths for themselves."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 112, vv. 4 - 5, 6 - 7, 8 - 9",
-                  "response": "The just man is a light in the darkness to the upright.",
+                  "verse_number": "Psalm 51, vv. 1 - 2, 3 - 4, 10 - 11, 12 and 15",
+                  "response": "Be merciful, O Lord, for we have sinned.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "They rise in the darkness as a light for the upright; \nthey are gracious, merciful, and righteous.",
-                                    "It is well with those who deal generously and lend, \nwho conduct their affairs with justice."
+                                    "Have mercy on me, O God, \naccording to your steadfast love;",
+                                    "according to your abundant mercy \nblot out my transgressions.",
+                                    "Wash me thoroughly from my iniquity, \nand cleanse me from my sin."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "For the righteous will never be moved; \nthey will be remembered forever.",
-                                    "They are not afraid of evil tidings; \ntheir hearts are firm, secure in the Lord."
+                                    "For I know my transgressions, \nand my sin is ever before me.",
+                                    "Against you, you alone, have I sinned, \nand done what is evil in your sight,",
+                                    "so that you are justified in your sentence \nand blameless when you pass judgment."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Their hearts are steady, they will not be afraid; \nin the end they will look in triumph on their foes.",
-                                    "They have distributed freely, they have given to the poor; \ntheir righteousness endures forever; \ntheir horn is exalted in honor."
+                                    "Create in me a clean heart, O God, \nand put a new and right spirit within me.",
+                                    "Do not cast me away from your presence, \nand do not take your holy spirit from me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Restore to me the joy of your salvation, \nand sustain in me a willing spirit.",
+                                    "O Lord, open my lips, \nand my mouth will declare your praise."
                               ]
                         }
                   ]
             },
             "second_reading": [
                   {
-                        "verse_number": "1 Corinthians ch. 2, vv. 1 - 5",
+                        "verse_number": "Romans ch. 5, vv. 12 - 19",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "When I came to you, brothers and sisters, I did not come proclaiming the mystery of God to you in lofty words or wisdom. For I decided to know nothing among you except Jesus Christ, and him crucified. And I came to you in weakness and in fear and in much trembling. My speech and my proclamation were not with plausible words of wisdom, but with a demonstration of the Spirit and of power, so that your faith might rest not on human wisdom but on the power of God."
+                                          "Brothers and sisters: Just as sin came into the world through one man, and death came through sin, and so death spread to all because all have sinned— sin was indeed in the world before the law, but sin is not reckoned when there is no law. Yet death exercised dominion from Adam to Moses, even over those whose sins were not like the transgression of Adam, who is a type of the one who was to come."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "But the free gift is not like the trespass. For if the many died through the one man’s trespass, much more surely have the grace of God and the free gift in the grace of the one man, Jesus Christ, abounded for the many. And the free gift is not like the effect of the one man’s sin. For the judgment following one trespass brought condemnation, but the free gift following many trespasses brings justification. If, because of the one man’s trespass, death exercised dominion through that one, much more surely will those who receive the abundance of grace and the free gift of righteousness exercise dominion in life through the one man, Jesus Christ."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Therefore just as one man’s trespass led to condemnation for all, so one man’s act of righteousness leads to justification and life for all. For just as by the one man’s disobedience the many were made sinners, so by the one man’s obedience the many will be made righteous."
                                     ]
                               }
                         ]
                   }
             ],
             "gradual": {
-                  "verse_number": "John ch. 8, v. 12",
+                  "verse_number": "Matthew ch. 4, v. 4b",
                   "acclamation": "Glory and praise to you, Lord Jesus Christ!",
                   "content": [
                         {
                               "p": [
-                                    "I am the light of the world, says the Lord: whoever follows me will have the light of life."
+                                    "One does not live on bread alone, but on every word that comes forth from the mouth of God."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Matthew ch. 5, vv. 13 - 16",
+                  "verse_number": "Matthew ch. 4, vv. 1 - 11",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Jesus said to his disciples: “You are the salt of the earth; but if salt has lost its taste, how can its saltiness be restored? It is no longer good for anything, but is thrown out and trampled under foot."
+                                    "Then Jesus was led up by the Spirit into the wilderness to be tempted by the devil. He fasted forty days and forty nights, and afterwards he was famished. The tempter came and said to him, “If you are the Son of God, command these stones to become loaves of bread.” But he answered, “It is written,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "‘One does not live by bread alone, \nbut by every word that comes from the mouth of God.’”"
                               ]
                         },
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "“You are the light of the world. A city built on a hill cannot be hid. No one after lighting a lamp puts it under the bushel basket, but on the lampstand, and it gives light to all in the house. In the same way, let your light shine before others, so that they may see your good works and give glory to your Father in heaven.”"
+                                    "Then the devil took him to the holy city and placed him on the pinnacle of the temple, saying to him, “If you are the Son of God, throw yourself down; for it is written,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "‘He will command his angels concerning you,’ \nand ‘On their hands they will bear you up,",
+                                    "so that you will not dash your foot against a stone.’”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to him, “Again it is written, ‘Do not put the Lord your God to the test.’”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Again, the devil took him to a very high mountain and showed him all the kingdoms of the world and their splendor; and he said to him, “All these I will give you, if you will fall down and worship me.” Jesus said to him, “Away with you, Satan! for it is written,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "‘Worship the Lord your God, \nand serve only him.’”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then the devil left him, and suddenly angels came and waited on him."
                               ]
                         }
                   ]
