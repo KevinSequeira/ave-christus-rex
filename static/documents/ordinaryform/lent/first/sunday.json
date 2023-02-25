@@ -1,0 +1,213 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_01.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 91, vv. 15 - 16",
+                  "content": [
+                        {
+                              "p": [
+                                    "When he calls on me, I will answer him;",
+                                    "I will deliver him and give him glory,",
+                                    "I will grant him length of days."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Grant, almighty God,",
+                        "through the yearly observances of holy Lent,",
+                        "that we may grow in understanding",
+                        "of the riches hidden in Christ",
+                        "and by worthy conduct pursue their effects."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "offertory": [
+            {
+                  "p": [
+                        "Give us the right dispositions, O Lord, we pray,",
+                        "to make these offerings,",
+                        "for with them we celebrate the beginning",
+                        "of this venerable and sacred time."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Matthew ch. 4, v. 4",
+                  "content": [
+                        {
+                              "p": [
+                                    "One does not live by bread alone,",
+                                    "but by every word that comes forth from the mouth of God."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Psalm 91, v. 4",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Lord will conceal you with his pinions,",
+                                    "and under his wings you will trust."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Renewed now with heavenly bread,",
+                        "by which faith is nourished, hope increased,",
+                        "and charity strengthened,",
+                        "we pray, O Lord,",
+                        "that we may learn to hunger for Christ,",
+                        "the true and living Bread,",
+                        "and strive to live by every word",
+                        "which proceeds from your mouth."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "May bountiful blessing, O Lord, we pray,",
+                        "come down upon your people,",
+                        "that hope may grow in tribulation,",
+                        "virtue be strengthened in temptation,",
+                        "and eternal redemption be assured."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 58, vv. 7 - 10",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Thus says the Lord:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Share your bread with the hungry, \nand bring the homeless poor into your house;",
+                                          "when you see the naked, to cover them, \nand not to hide yourself from your own kin?",
+                                          "Then your light shall break forth like the dawn, \nand your healing shall spring up quickly;",
+                                          "your vindicator shall go before you, \nthe glory of the Lord shall be your rear guard.",
+                                          "Then you shall call, and the Lord will answer; \nyou shall cry for help, and he will say, Here I am."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "If you remove the yoke from among you, \nthe pointing of the finger, the speaking of evil,",
+                                          "if you offer your food to the hungry \nand satisfy the needs of the afflicted,",
+                                          "then your light shall rise in the darkness \nand your gloom be like the noonday."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 112, vv. 4 - 5, 6 - 7, 8 - 9",
+                  "response": "The just man is a light in the darkness to the upright.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "They rise in the darkness as a light for the upright; \nthey are gracious, merciful, and righteous.",
+                                    "It is well with those who deal generously and lend, \nwho conduct their affairs with justice."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For the righteous will never be moved; \nthey will be remembered forever.",
+                                    "They are not afraid of evil tidings; \ntheir hearts are firm, secure in the Lord."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Their hearts are steady, they will not be afraid; \nin the end they will look in triumph on their foes.",
+                                    "They have distributed freely, they have given to the poor; \ntheir righteousness endures forever; \ntheir horn is exalted in honor."
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": [
+                  {
+                        "verse_number": "1 Corinthians ch. 2, vv. 1 - 5",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "When I came to you, brothers and sisters, I did not come proclaiming the mystery of God to you in lofty words or wisdom. For I decided to know nothing among you except Jesus Christ, and him crucified. And I came to you in weakness and in fear and in much trembling. My speech and my proclamation were not with plausible words of wisdom, but with a demonstration of the Spirit and of power, so that your faith might rest not on human wisdom but on the power of God."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "gradual": {
+                  "verse_number": "John ch. 8, v. 12",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "I am the light of the world, says the Lord: whoever follows me will have the light of life."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 5, vv. 13 - 16",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “You are the salt of the earth; but if salt has lost its taste, how can its saltiness be restored? It is no longer good for anything, but is thrown out and trampled under foot."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“You are the light of the world. A city built on a hill cannot be hid. No one after lighting a lamp puts it under the bushel basket, but on the lampstand, and it gives light to all in the house. In the same way, let your light shine before others, so that they may see your good works and give glory to your Father in heaven.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -248,7 +248,9 @@ def liturgyfortheday(request, current_date = "2022-11-27"):
         context = epiphany(context)
     elif (currentSeasonShort == "ordinarytime01"):
         context = ordinarytime01(context)
-    elif (currentSeasonShort in ("ashwednesday", "lent", "holyweek")):
+    elif (currentSeasonShort == "ashwednesday"):
+        context = lent(context)
+    elif (currentSeasonShort == "lent"):
         context = lent(context)
 
     templateFileName = "sunday"
@@ -977,7 +979,6 @@ def ordinarytime01loader(context = {}):
 def ordinarytime01(context = {}):
 
     try:
-        print("Checkpoint")
         jsonFilePrayers = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/prayers.json")
         jsonFilePrayers = json.load(jsonFilePrayers)
         jsonFileReadings = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_week'].lower()}/{context['current_weekday'].lower()}.json")
@@ -1075,9 +1076,11 @@ def lentloader(context = {}):
     context = context
     try:
         jsonFile = ""
-        if (context["current_week"] == "Holy Week"):
+        if (context["current_week"] == "Ash Wednesday"):
+            jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/{context['current_weekday'].lower()}.json")
+        elif (context["current_week"] == "Holy Week"):
             if (context["current_weekday"] == "Thursday"):
-                jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/context['current_week']/{context['current_qualifying_day'].lower()}.json")
+                jsonFile = open(f"./static/documents/ordinaryform/{context['current_season_short']}/context['current_week']/{context['current_weekday'].lower()}.json")
             elif (context["current_weekday"]):
                 pass
         else:
@@ -1137,7 +1140,6 @@ def lent(context = {}):
 
         ashes_blessings_content = ""
         if ("blessing_the_ashes" in jsonFile):
-            print("Checkpoint")
             context["blessing_the_ashes"] = jsonFile["blessing_the_ashes"]
             context["ash_distribution_antiphons"] = jsonFile["ash_distribution_antiphons"]
 
@@ -1248,6 +1250,7 @@ def memorialfortheday(request, current_date = "2022-11-27"):
         memorialWeekday = datetime.strptime(memorialDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%A')
         memorialQualifyingMonth = datetime.strptime(memorialDateDimension.iloc[0]["Date"], '%Y-%m-%d').strftime('%B')
         memorialQualifyingDay = memorialDateDimension.iloc[0]["Qualifying Day"]
+        currentSeasonShort = memorialDateDimension.iloc[0]["Season Short"]
         memorialName = memorialDateDimension.iloc[0]["Feast Day"]
         memorialShortName = memorialDateDimension.iloc[0]["Feast Short"]
         memorialClass = memorialDateDimension.iloc[0]["Feast Class"]
@@ -1270,6 +1273,7 @@ def memorialfortheday(request, current_date = "2022-11-27"):
             "memorial_qualifying_month": memorialQualifyingMonth,
             "memorial_qualifying_day": memorialQualifyingDay,
             "memorial_year": memorialYear,
+            "current_season_short": currentSeasonShort,
             "memorial_name": memorialName,
             "memorial_class": memorialClass,
             "memorial_cycle": "",

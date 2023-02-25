@@ -1,0 +1,176 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/early_christian_martyrs.webp')",
+      "saint_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "This truly is a Martyr,",
+                                    "who shed his blood for the name of Christ,",
+                                    "who did not fear the threats of judges",
+                                    "but attained the heavenly kingdom."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Philippians ch. 3, vv. 8, 10",
+                  "content": [
+                        {
+                              "p": [
+                                    "He counted all as loss in order to know Christ",
+                                    "and to have a share in his sufferings,",
+                                    "conforming himself to his death."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "God of all creation,",
+                        "who were pleased to give the Bishop Saint Polycarp",
+                        "a place in the company of the Martyrs,",
+                        "grant, through his intercession,",
+                        "that, sharing with him in the chalice of Christ,",
+                        "we may rise through the Holy Spirit to eternal life."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Most merciful God,",
+                        "pour out your blessing upon these offerings",
+                        "and confirm us in the faith",
+                        "that Bishop Polycarp of Smyrna professed by the shedding of his blood."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. John ch. 15, vv. 1, 5",
+                  "content": [
+                        {
+                              "p": [
+                                    "I am the true vine and you are the branches, says the Lord.",
+                                    "Whoever remains in me, and I in him, bears fruit in plenty."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "John ch. 8, v. 12",
+                  "content": [
+                        {
+                              "p": [
+                                    "Whoever follows me will not walk in darkness,",
+                                    "but will have the light of life, says the Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Made new by these sacred mysteries, we pray, O Lord,",
+                        "that, imitating the wondrous constancy of Polycarp of Smyrna,",
+                        "we may merit an eternal reward for suffering endured."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Revelation ch. 2, vv. 8 - 11",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "“And to the angel of the church in Smyrna write: These are the words of the first and the last, who was dead and came to life:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "“I know your affliction and your poverty, even though you are rich. I know the slander on the part of those who say that they are Jews and are not, but are a synagogue of Satan. Do not fear what you are about to suffer. Beware, the devil is about to throw some of you into prison so that you may be tested, and for ten days you will have affliction. Be faithful until death, and I will give you the crown of life. Let anyone who has an ear listen to what the Spirit is saying to the churches. Whoever conquers will not be harmed by the second death.”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 31, vv. 2cd - 3, 5 and 7ab, 15bc and 16",
+                  "response": "Into your hands, O Lord, I commend my spirit.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Be a rock of refuge for me, \na strong fortress to save me.",
+                                    "You are indeed my rock and my fortress; \nfor your name’s sake lead me and guide me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Into your hand I commit my spirit; \nyou have redeemed me, O Lord, faithful God.",
+                                    "I will exult and rejoice in your steadfast love, \nbecause you have seen my affliction."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Deliver me from the hand of my enemies and persecutors.",
+                                    "Let your face shine upon your servant; \nsave me in your steadfast love."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Te Deum",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "We praise you, O God, we acclaim you as Lord;",
+                                    "the white-robed army of Martyrs praise you."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 15, vv. 18 - 21",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “If the world hates you, be aware that it hated me before it hated you. If you belonged to the world, the world would love you as its own. Because you do not belong to the world, but I have chosen you out of the world—therefore the world hates you. Remember the word that I said to you, ‘Servants are not greater than their master.’ If they persecuted me, they will persecute you; if they kept my word, they will keep yours also. But they will do all these things to you on account of my name, because they do not know him who sent me.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

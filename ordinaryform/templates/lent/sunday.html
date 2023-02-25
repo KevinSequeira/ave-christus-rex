@@ -1,0 +1,328 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+            <meta name="description" content="">
+            <meta name="author" content="">
+            <link rel="icon" href="{% static 'favicon.ico' %}">
+            <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/navbar/">
+
+            <title>Liturgy for the Day</title>
+
+            <!-- Bootstrap core CSS -->
+            <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+            <link href="{% static 'css/ie10-viewport-bug-workaround.css' %}" rel="stylesheet">
+
+            <!-- Custom styles for this template -->
+            <link href="{% static 'css/navbar.css' %}" rel="stylesheet">
+
+            <!-- This is the link to the fonts taken from Google Fonts! -->
+            <link href="https://fonts.googleapis.com/css?family=Alegreya|Advent+Pro|Bahiana|Averia+Sans+Libre|Balthazar|Belgrano|Black+Ops+One|Bungee+Inline|Cherry+Swash|Coda|Cormorant+Infant|Delius+Swash+Caps|El+Messiri|Euphoria+Script|Expletus+Sans|Fredericka+the+Great|Gafata|Graduate|Italiana|Kotta+One|Kumar+One+Outline|Lemon|Life+Savers|Londrina+Outline|Londrina+Solid|Medula+One|Montserrat+Alternates|Mouse+Memoirs|Mystery+Quest|Oleo+Script|Podkova|Port+Lligat+Slab|Raleway|Revalia|Salsa|Sue+Ellen+Francisco|Tienne|Patua+One|Russo+One|Righteous|Poiret+One|Exo|Lobster+Two|Quattrocento|Days+One|Julius+Sans+One|Jura|Lustria|Josefin+Sans|Yanone+Kaffeesatz|Nunito|Josefin+Slab|Stint+Ultra+Expanded|Junge|Italiana|Life+Savers|Athiti|Londrina+Outline|Scope+One|Kaushan+Script|Kumar+One|Orbitron|Poiret+One|Proza+Libre|Architects+Daughter|Griffy|Open+Sans+Condensed:300|Quicksand|Gloria+Hallelujah|Tulpen+One|Text+Me+One|Love+Ya+Like+A+Sister|Megrim|Cinzel+Decorative|Caveat+Brush|Vollkorn+SC|Laila:wght@600|Sumana|Yatra+One|Sahitya:wght@700Ecar:wght@500|Montserrat|Merriweather&display=swap" rel="stylesheet">
+
+            <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+            <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+            <![endif]-->
+      </head>
+
+      <body>
+
+            <div class="container">
+
+                  {% include 'navbar.html' %}
+
+                  <!-- Main component for a primary marketing message or call to action -->
+                  <div class="jumbotron jumbotronBackground">
+                        <div class="liturgyForTheDay">
+                              <p class="liturgyForTheDayForm">{{ current_weekday }}, {{ current_qualifying_day }} {{ current_qualifying_month }}, {{ current_year }}</p>
+                              <h1 class="liturgyForTheDayHeader">Liturgy for the Day</h1>
+                              <p class="liturgyForTheDayWeek">{{ current_week }} Week in {{ current_season }}
+                                    <br>Year {{ current_cycle }}</p>
+                        </div>
+                  </div>
+
+                  <div class="missalPrayersBody">
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Opening Antiphon</h1>
+                              <p class="prayerBodyTagline"><i>This antiphon is sung or recited when the celebrant proceeds
+                                    to the front of the sanctuary and then climbs the steps of the altar. If the procession takes longer than usual,
+                                    the antiphon may be repeated, or replaced with an appropriate hymn.</i></p>
+                              {% for antiphon in opening_antiphon %}
+                              <p class="prayerBodyVerses">{{ antiphon.verse_number }}</p>
+                              {% for paragraph in antiphon.content %}
+                              <p class="prayerBodyContent">
+                                    {% for span in paragraph.p %}
+                                    <span>
+                                          {{ span }}
+                                    </span><br>
+                                    {% endfor %}
+                              </p>
+                              {% endfor %}
+                              {% if not forloop.last %}
+                              <p class="readingContentOptionSeparator">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>or</strong></p>
+                              {% endif %}
+                              {% endfor %}
+                        </div>
+                        {% if gloria == "yes" %}
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Gloria in excelsis Deo</h1>
+                              <p class="prayerBodyTagline"><i>The Gloria is an angelic hymn of praise, inspired from the events surrounding the incarnation of Christ, which the Church lifts up to God as one voice and with one heart.
+                                    It imitates the psalms found in Holy Scripture</i></p>
+                              {% for p in gloria_content %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                    <span>
+                                          {{ line }}
+                                    </span><br>
+                                    {% endfor %}
+                              </p>
+                              {% endfor %}
+                        </div>
+                        {% endif %}
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Collect</h1>
+                              <p class="prayerBodyTagline"><i>The collect – prayed by the celebrant – concludes opening rites of the Divine Liturgy.
+                                    the Faithful are encouraged to pay close attention to the words of the prayer and meditate on them as they prepare
+                                    to participate in the Liturgy of the Word.</i></p>
+                              {% for p in collect %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                          {{ line }}
+                                    {% endfor %}
+                              </p>
+                              {% endfor %}
+                        </div>
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">First Reading</h1>
+                              <p class="prayerBodyTagline"><i>The first reading opens the Liturgy of the Word, and is usually taken from the Old Testament, or from the New Testament if appropriate to the occassion or liturgical season.
+                                    As Christians, we are encouraged to listen to the Word of God intently and learn from His heart.</i></p>
+                              {% for reading_content in first_reading %}
+                              <p class="prayerBodyVerses">{{ reading_content.verse_number }}</p>
+                              {% for p in reading_content.content %}
+                              {% if p.content_type == "paragraph" %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                          {{ line }}
+                                    {% endfor %}
+                              </p>
+                              {% elif p.content_type == "stanza" %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                    <span>
+                                          {{ line|linebreaksbr }}
+                                    </span><br>
+                                    {% endfor %}
+                              </p>
+                              {% endif %}
+                              {% endfor %}
+                              {% if not forloop.last %}
+                              <p class="readingContentOptionSeparator">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>or</strong></p>
+                              {% endif %}
+                              {% endfor %}
+                        </div>
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Responsorial Psalm</h1>
+                              <p class="prayerBodyTagline"><i>the Faithful may sing the psalm together in praise of the Word of God if possible.
+                                    However, alternatively, the psalm may be recited by the lector, while the Faithful may repeat the response after each verse.</i></p>
+                              <p class="prayerBodyResponse"><strong>Response:</strong> <i>{{ first_responsorial_psalm.response }}</i></p>
+                              <p class="prayerBodyVerses">{{ first_responsorial_psalm.verse_number }}</p>
+                              {% for p in first_responsorial_psalm.content %}
+                              {% if p.content_type == "paragraph" %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                          {{ line }}
+                                    {% endfor %}
+                              </p>
+                              {% elif p.content_type == "stanza" %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                    {% if forloop.last %}
+                                    <span>
+                                          {{ line|linebreaksbr }}
+                                          &nbsp;<strong>R.</strong>
+                                    </span>
+                                    {% else %}
+                                    <span>
+                                          {{ line|linebreaksbr }}
+                                    </span><br>
+                                    {% endif %}
+                                    {% endfor %}
+                              </p>
+                              {% endif %}
+                              {% endfor %}
+                        </div>
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Second Reading</h1>
+                              <p class="prayerBodyTagline"><i>The second reading, taken from the New Testament&rsquo;s Apostolic Epistles,
+                                    follows on the theme of readings for the liturgy of the day.</i></p>
+                              {% for reading_content in second_reading %}
+                              <p class="prayerBodyVerses">{{ reading_content.verse_number }}</p>
+                              {% for p in reading_content.content %}
+                              {% if p.content_type == "paragraph" %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                          {{ line }}
+                                    {% endfor %}
+                              </p>
+                              {% elif p.content_type == "stanza" %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                    <span>
+                                          {{ line|linebreaksbr }}
+                                    </span><br>
+                                    {% endfor %}
+                              </p>
+                              {% endif %}
+                              {% endfor %}
+                              {% if not forloop.last %}
+                              <p class="readingContentOptionSeparator">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>or</strong></p>
+                              {% endif %}
+                              {% endfor %}
+                        </div>
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Gospel Acclamation</h1>
+                              <p class="prayerBodyTagline"><i>The Faithful, in preparation for the proclamation of the Gospel, lift up an acclamation of praise to God.</i></p>
+                              <p class="prayerBodyVerses">{{ gradual.verse_number }}</p>
+                              {% for paragraph in gradual.content %}
+                              <p class="prayerBodyContent">
+                                    <span><strong>{{ gradual.acclamation }}</strong></span><br>
+                                    {% for span in paragraph.p %}
+                                    <span>
+                                          {{ span }}
+                                    </span><br>
+                                    {% endfor %}
+                                    <span><strong>{{ gradual.acclamation }}</strong></span>
+                              </p>
+                              {% endfor %}
+                        </div>
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Gospel</h1>
+                              <p class="prayerBodyTagline"><i>The Gospel - the Good News of Jesus Christ - is proclaimed by the celebrant or his assisting deacon.
+                                    The Faithful meditate on the Word of God as He is proclaimed from an episode of the life of Jesus Christ our Lord.</i></p>
+                              <p class="prayerBodyVerses">{{ gospel_reading.verse_number }}</p>
+                              {% for p in gospel_reading.content %}
+                              {% if p.content_type == "paragraph" %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                          {{ line }}
+                                    {% endfor %}
+                              </p>
+                              {% elif p.content_type == "stanza" %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                    <span>
+                                          {{ line|linebreaksbr }}
+                                    </span><br>
+                                    {% endfor %}
+                              </p>
+                              {% endif %}
+                              {% endfor %}
+                        </div>
+                        {% if credo != "no" %}
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Credo</h1>
+                              <p class="prayerBodyTagline"><i>All the Faithful participate in the declaration of faith – this is what the Church believes</i></p>
+                              {% for p in credo_content %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                    <span>
+                                          {{ line }}
+                                    </span><br>
+                                    {% endfor %}
+                              </p>
+                              {% endfor %}
+                        </div>
+                        {% endif %}
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Prayer over the Offerings</h1>
+                              <p class="prayerBodyTagline"><i>The celebrant lifts up a prayer of thanksgiving to God, from whom all good things come to us,
+                                    so that the sacrifice of bread and wine which become the Most Holy Body and Blood of our Lord Jesus Christ,
+                                    may become a pleasing offering for the forgiveness of our sins.</i></p>
+                              {% for p in offertory %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                          {{ line }}
+                                    {% endfor %}
+                              </p>
+                              {% endfor %}
+                        </div>
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Communion Antiphon</h1>
+                              <p class="prayerBodyTagline"><i>This antiphon is sung or recited when the celebrant descends from the altar to the edge of the sanctuary to
+                                    feed the Faithful with Holy Communion. The antiphon may be repeated, or replaced with an appropriate hymn.</i></p>
+                              {% for antiphon in communion_antiphon %}
+                              <p class="prayerBodyVerses">{{ antiphon.verse_number }}</p>
+                              {% for paragraph in antiphon.content %}
+                              <p class="prayerBodyContent">
+                                    {% for span in paragraph.p %}
+                                    <span>
+                                          {{ span }}
+                                    </span><br>
+                                    {% endfor %}
+                              </p>
+                              {% endfor %}
+                              {% if not forloop.last %}
+                              <p class="readingContentOptionSeparator">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>or</strong></p>
+                              {% endif %}
+                              {% endfor %}
+                        </div>
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Prayer after Communion</h1>
+                              <p class="prayerBodyTagline"><i>The celebrant lifts up a prayer of praise and thanksgiving to God from whom we have received
+                                    the Most Holy Body and Blood of Christ as life-giving food and drink, that we might be transformed to become more like Him.</i></p>
+                              {% for p in prayer_after_communion %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                          {{ line }}
+                                    {% endfor %}
+                              </p>
+                              {% endfor %}
+                        </div>
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">Prayer over the People</h1>
+                              {% for p in prayer_over_the_people %}
+                              <p class="prayerBodyContent">
+                                    {% for line in p.p %}
+                                          {{ line }}
+                                    {% endfor %}
+                              </p>
+                              {% endfor %}
+                        </div>
+                  </div>
+
+                  <hr>
+
+                  {% include 'footer.html' %}
+
+            </div> <!-- /container -->
+
+
+            <!-- Bootstrap core JavaScript
+            ================================================== -->
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+            <script src="{% static 'js/bootstrap.min.js' %}"></script>
+            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+            <script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>
+            <!-- Home Page CSS -->
+            <style>
+                  {% autoescape off %}
+                  .jumbotronBackground {
+                        background: {{ liturgy_background_image }};
+                        background-position: {{ liturgy_background_position }}
+                  }
+                  {% endautoescape %}
+            </style>
+            <link href="{% static 'css/ordinaryform/cssForDailyLiturgy.css' %}" rel="stylesheet">
+            <link href="{% static 'css/footer.css' %}" rel="stylesheet">
+
+      </body>
+</html>

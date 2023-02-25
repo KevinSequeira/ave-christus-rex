@@ -212,41 +212,6 @@
                               {% endif %}
                               {% endfor %}
                         </div>
-                        {% if blessing_the_ashes|length > 0 %}
-                        <div class="prayerBody">
-                              <h1 class="prayerBodyHeader">Blessing of the Ashes</h1>
-                              {% for blessing_content in blessing_the_ashes %}
-                              {% for p in blessing_content.content %}
-                              <p class="prayerBodyContent">
-                                    {% for line in p.p %}
-                                          {{ line }}
-                                    {% endfor %}
-                              </p>
-                              {% endfor %}
-                              {% if not forloop.last %}
-                              <p class="readingContentOptionSeparator">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>or</strong></p>
-                              {% endif %}
-                              {% endfor %}
-                        </div>
-                        <div class="prayerBody">
-                              <h1 class="prayerBodyHeader">Antiphons during the Distribution</h1>
-                              {% for antiphon in ash_distribution_antiphons %}
-                              <p class="prayerBodyVerses">{{ antiphon.verse_number }}</p>
-                              {% for paragraph in antiphon.content %}
-                              <p class="prayerBodyContent">
-                                    {% for span in paragraph.p %}
-                                    <span>
-                                          {{ span }}
-                                    </span><br>
-                                    {% endfor %}
-                              </p>
-                              {% endfor %}
-                              {% if not forloop.last %}
-                              <p class="readingContentOptionSeparator">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>and</strong></p>
-                              {% endif %}
-                              {% endfor %}
-                        </div>
-                        {% endif %}
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Prayer over the Offerings</h1>
                               {% for p in offertory %}

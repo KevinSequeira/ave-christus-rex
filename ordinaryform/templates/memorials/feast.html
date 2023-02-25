@@ -217,13 +217,21 @@
                               <p class="prayerBodyVerses">{{ gospel_acclamation.verse_number }}</p>
                               {% for paragraph in gospel_acclamation.content %}
                               <p class="prayerBodyContent">
+                                    {% if current_season_short == "ashwednesday" or current_season_short == "lent" %}
+                                    <span><strong>Glory and praise to you, Lord Jesus Christ!</strong></span><br>
+                                    {% else %}
                                     <span><strong>{{ gospel_acclamation.acclamation }}</strong></span><br>
+                                    {% endif %}
                                     {% for span in paragraph.p %}
                                     <span>
                                           {{ span }}
                                     </span><br>
                                     {% endfor %}
+                                    {% if current_season_short == "ashwednesday" or current_season_short == "lent" %}
+                                    <span><strong>Glory and praise to you, Lord Jesus Christ!</strong></span>
+                                    {% else %}
                                     <span><strong>{{ gospel_acclamation.acclamation }}</strong></span>
+                                    {% endif %}
                               </p>
                               {% endfor %}
                         </div>
