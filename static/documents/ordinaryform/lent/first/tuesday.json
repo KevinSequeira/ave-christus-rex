@@ -1,0 +1,199 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_01.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 90, vv. 1, 2",
+                  "content": [
+                        {
+                              "p": [
+                                    "O Lord, you have been our refuge, from generation to generation;",
+                                    "from age to age, you are."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Look upon your family, Lord,",
+                        "that, through the chastening effects of bodily discipline,",
+                        "our minds may be radiant in your presence",
+                        "with the strength of our yearning for you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "offertory": [
+            {
+                  "p": [
+                        "Receive, O Creator, almighty God,",
+                        "what we bring from your bountiful goodness,",
+                        "and be pleased to transform",
+                        "this temporal sustenance you have given us,",
+                        "that it may bring us eternal life."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 4, v. 2",
+                  "content": [
+                        {
+                              "p": [
+                                    "When I called, the God of justice gave me answer;",
+                                    "from anguish you released me;",
+                                    "have mercy, O Lord, and hear my prayer!"
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Grant us through these mysteries, Lord,",
+                        "that by moderating earthly desires",
+                        "we may learn to love the things of heaven."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "May your faithful be strengthened, O God, by your blessing:",
+                        "in grief, may you be their consolation,",
+                        "in tribulation, their power to endure,",
+                        "and in peril, their protection."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 55, vv. 10 - 11",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Thus says the Lord:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "For as the rain and the snow come down from heaven, \nand do not return there until they have watered the earth,",
+                                          "making it bring forth and sprout, \ngiving seed to the sower and bread to the eater,",
+                                          "so shall my word be that goes out from my mouth; \nit shall not return to me empty,",
+                                          "but it shall accomplish that which I purpose, \nand succeed in the thing for which I sent it."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 34, vv. 4 - 5, 6 - 7, 16 - 17, 18 - 19",
+                  "response": "From all their distress God rescues the just.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O magnify the Lord with me, \nand let us exalt his name together.",
+                                    "I sought the Lord, and he answered me, \nand delivered me from all my fears."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Look to him, and be radiant; \nso your faces shall never be ashamed.",
+                                    "This poor soul cried, and was heard by the Lord, \nand was saved from every trouble."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The eyes of the Lord are on the righteous, \nand his ears are open to their cry.",
+                                    "The face of the Lord is against evildoers, \nto cut off the remembrance of them from the earth."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "When the righteous cry for help, the Lord hears, \nand rescues them from all their troubles.",
+                                    "The Lord is near to the brokenhearted, \nand saves the crushed in spirit."
+                              ]
+                        }
+                  ]
+            },
+            "gradual": {
+                  "verse_number": "Matthew ch. 4, v. 4b",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "One does not live on bread alone, but on every word that comes forth from the mouth of God."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 6, vv. 7 - 15",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to this disciples: “When you are praying, do not heap up empty phrases as the Gentiles do; for they think that they will be heard because of their many words. Do not be like them, for your Father knows what you need before you ask him."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“Pray then in this way:"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Our Father in heaven,",
+                                    "hallowed be your name.",
+                                    "Your kingdom come.",
+                                    "Your will be done, \non earth as it is in heaven.",
+                                    "Give us this day our daily bread.",
+                                    "And forgive us our debts, \nas we also have forgiven our debtors.",
+                                    "And do not bring us to the time of trial, \nbut rescue us from the evil one."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“For if you forgive others their trespasses, your heavenly Father will also forgive you; but if you do not forgive others, neither will your Father forgive your trespasses.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}
