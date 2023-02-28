@@ -1,0 +1,172 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_01.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 5, vv. 2, 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "To my words give ear, O Lord; give heed to my sighs.",
+                                    "Attend to the sound of my cry, my King and my God."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Bestow on us, we pray, O Lord,",
+                        "a spirit of always pondering on what is right",
+                        "and of hastening to carry it out,",
+                        "and, since without you we cannot exist,",
+                        "may we be enabled to live according to your will."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "offertory": [
+            {
+                  "p": [
+                        "Be merciful, O Lord, to those who approach you in supplication,",
+                        "and, accepting the oblations and prayers of your people,",
+                        "turn the hearts of us all towards you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Matthew ch. 7, v. 8",
+                  "content": [
+                        {
+                              "p": [
+                                    "Everyone who asks, receives; and the one who seeks, finds;",
+                                    "and to the one who knocks, the door will be opened."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "We pray, O Lord our God,",
+                        "that, as you have given these most sacred mysteries",
+                        "to be the safeguard of our salvation,",
+                        "so you may make them a healing remedy for us,",
+                        "both now and in time to come."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "May the mercy they have hoped for, O Lord,",
+                        "come to those who make supplication to you,",
+                        "and may the riches of heaven be given them,",
+                        "that they may know what it is right to ask",
+                        "and receive what they have sought."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Esther add. C, vv. 12, 14 - 16, 23 - 25",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Queen Esther, seized with mortal anguish, had recourse to the LORD. She lay prostrate upon the ground, together with her handmaids, from morning until evening, and said: “God of Abraham, God of Isaac, and God of Jacob, blessed are you. Help me, who am alone and have no help but you, for I am taking my life in my hand. As a child I used to hear from the books of my forefathers that you, O LORD, always free those who are pleasing to you. Now help me, who am alone and have no one but you, O LORD, my God."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "“And now, come to help me, an orphan. Put in my mouth persuasive words in the presence of the lion and turn his heart to hatred for our enemy, so that he and those who are in league with him may perish. Save us from the hand of our enemies; turn our mourning into gladness and our sorrows into wholeness.”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 138, vv. 1 - 2ab, 2cde - 3, 7c - 8",
+                  "response": "Lord, on the day I called for help, you answered me.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I give you thanks, O Lord, with my whole heart; \nbefore the gods I sing your praise;",
+                                    "I bow down toward your holy temple \nand give thanks to your name."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For your steadfast love and your faithfulness; \nfor you have exalted your name and your word \nabove everything.",
+                                    "On the day I called, you answered me, \nyou increased my strength of soul."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "You stretch out your hand, \nand your right hand delivers me.",
+                                    "The Lord will fulfill his purpose for me; \nyour steadfast love, O Lord, endures forever. \nDo not forsake the work of your hands."
+                              ]
+                        }
+                  ]
+            },
+            "gradual": {
+                  "verse_number": "Psalm 51, vv. 12a, 14a",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "A clean heart create for me, O God; give me back the joy of your salvation."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 7, vv. 7 - 12",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “Ask, and it will be given you; search, and you will find; knock, and the door will be opened for you. For everyone who asks receives, and everyone who searches finds, and for everyone who knocks, the door will be opened. Is there anyone among you who, if your child asks for bread, will give a stone? Or if the child asks for a fish, will give a snake? If you then, who are evil, know how to give good gifts to your children, how much more will your Father in heaven give good things to those who ask him!"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“In everything do to others as you would have them do to you; for this is the law and the prophets.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

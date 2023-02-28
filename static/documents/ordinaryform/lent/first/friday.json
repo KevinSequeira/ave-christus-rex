@@ -1,0 +1,183 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_01.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 25, vv. 17, 18",
+                  "content": [
+                        {
+                              "p": [
+                                    "Set me free from my distress, O Lord.",
+                                    "See my lowliness and suffering,",
+                                    "and take away all my sins."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Grant that your faithful, O Lord, we pray,",
+                        "may be so conformed to the paschal observances,",
+                        "that the bodily discipline now solemnly begun",
+                        "may bear fruit in the souls of all."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "offertory": [
+            {
+                  "p": [
+                        "Accept the sacrificial offerings, O Lord,",
+                        "by which, in your power and kindness,",
+                        "you willed us to be reconciled to yourself",
+                        "and our salvation to be restored."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Ezekiel ch. 33, v. 11",
+                  "content": [
+                        {
+                              "p": [
+                                    "As I live, says the Lord, I do not desire the death of the sinner,",
+                                    "but rather that he turn back and live."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May the holy refreshment of your Sacrament",
+                        "restore us anew, O Lord,",
+                        "and, cleansing us of old ways,",
+                        "take us up into the mystery of salvation."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "Look with favor on your people, O Lord,",
+                        "that what their observance outwardly declares",
+                        "it may inwardly bring about."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Ezekiel ch. 18, vv. 21 - 28",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Thus says the Lord:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "If the wicked turn away from all their sins that they have committed and keep all my statutes and do what is lawful and right, they shall surely live; they shall not die. None of the transgressions that they have committed shall be remembered against them; for the righteousness that they have done they shall live. Have I any pleasure in the death of the wicked, says the Lord God, and not rather that they should turn from their ways and live? But when the righteous turn away from their righteousness and commit iniquity and do the same abominable things that the wicked do, shall they live? None of the righteous deeds that they have done shall be remembered; for the treachery of which they are guilty and the sin they have committed, they shall die."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Yet you say, “The way of the Lord is unfair.” Hear now, O house of Israel: Is my way unfair? Is it not your ways that are unfair? When the righteous turn away from their righteousness and commit iniquity, they shall die for it; for the iniquity that they have committed they shall die. Again, when the wicked turn away from the wickedness they have committed and do what is lawful and right, they shall save their life. Because they considered and turned away from all the transgressions that they had committed, they shall surely live; they shall not die."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 130, vv. 1 - 2, 3 - 4, 5 - 7a, 7bc - 8",
+                  "response": "If you, O Lord, mark iniquities, who can stand?",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Out of the depths I cry to you, O Lord. \nLord, hear my voice!",
+                                    "Let your ears be attentive \nto the voice of my supplications!"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "If you, O Lord, should mark iniquities, \nLord, who could stand?",
+                                    "But there is forgiveness with you, \nso that you may be revered."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I wait for the Lord, my soul waits, \nand in his word I hope;",
+                                    "my soul waits for the Lord \nmore than those who watch for the morning, \nmore than those who watch for the morning."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O Israel, hope in the Lord! \nFor with the Lord there is steadfast love, \nand with him is great power to redeem.",
+                                    "It is he who will redeem Israel \nfrom all its iniquities."
+                              ]
+                        }
+                  ]
+            },
+            "gradual": {
+                  "verse_number": "Ezekiel ch. 18, v. 31",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Cast away from you all crimes you have committed, says the Lord, and make for yourselves a new heart and new spirit."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 7, vv. 7 - 12",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “I tell you, unless your righteousness exceeds that of the scribes and Pharisees, you will never enter the kingdom of heaven."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“You have heard that it was said to those of ancient times, ‘You shall not murder’; and ‘whoever murders shall be liable to judgment.’ But I say to you that if you are angry with a brother or sister, you will be liable to judgment; and if you insult a brother or sister, you will be liable to the council; and if you say, ‘You fool,’ you will be liable to the hell of fire. So when you are offering your gift at the altar, if you remember that your brother or sister has something against you, leave your gift there before the altar and go; first be reconciled to your brother or sister, and then come and offer your gift. Come to terms quickly with your accuser while you are on the way to court with him, or your accuser may hand you over to the judge, and the judge to the guard, and you will be thrown into prison. Truly I tell you, you will never get out until you have paid the last penny.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

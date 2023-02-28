@@ -1,0 +1,172 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_01.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 25, vv. 6, 2, 22",
+                  "content": [
+                        {
+                              "p": [
+                                    "Remember your compassion, O Lord,",
+                                    "and your merciful love, for they are from of old.",
+                                    "Let not our enemies exult over us.",
+                                    "Redeem us, O God of Israel, from all our distress."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Look kindly, Lord, we pray,",
+                        "on the devotion of your people,",
+                        "that those who by self-denial are restrained in body",
+                        "may by the fruit of good works be renewed in mind."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "offertory": [
+            {
+                  "p": [
+                        "We offer to you, O Lord,",
+                        "what you have given to be dedicated to your name,",
+                        "that, just as for our benefit you make these gifts a Sacrament,",
+                        "so you may let them become for us an eternal remedy."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 5, v. 12",
+                  "content": [
+                        {
+                              "p": [
+                                    "All who take refuge in you shall be glad, O Lord,",
+                                    "and ever cry out their joy, and you shall dwell among them."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "O God, who never cease to nourish us by your Sacrament,",
+                        "grant that the refreshment you give us through it",
+                        "may bring us unending life."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "Watch over your people, Lord,",
+                        "and in your kindness cleanse them from all sins,",
+                        "for if evil has no dominion over them,",
+                        "no trial can do them harm."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Jonah ch. 3, vv. 1 - 10",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The word of the Lord came to Jonah a second time, saying, “Get up, go to Nineveh, that great city, and proclaim to it the message that I tell you.” So Jonah set out and went to Nineveh, according to the word of the Lord. Now Nineveh was an exceedingly large city, a three days’ walk across. Jonah began to go into the city, going a day’s walk. And he cried out, “Forty days more, and Nineveh shall be overthrown!” And the people of Nineveh believed God; they proclaimed a fast, and everyone, great and small, put on sackcloth."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "When the news reached the king of Nineveh, he rose from his throne, removed his robe, covered himself with sackcloth, and sat in ashes. Then he had a proclamation made in Nineveh: “By the decree of the king and his nobles: No human being or animal, no herd or flock, shall taste anything. They shall not feed, nor shall they drink water. Human beings and animals shall be covered with sackcloth, and they shall cry mightily to God. All shall turn from their evil ways and from the violence that is in their hands. Who knows? God may relent and change his mind; he may turn from his fierce anger, so that we do not perish.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "When God saw what they did, how they turned from their evil ways, God changed his mind about the calamity that he had said he would bring upon them; and he did not do it."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 51, vv. 1 - 2, 10 - 11, 16 - 17",
+                  "response": "Be merciful, O Lord, for we have sinned.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Have mercy on me, O God, \naccording to your steadfast love;",
+                                    "according to your abundant mercy \nblot out my transgressions.",
+                                    "Wash me thoroughly from my iniquity, \nand cleanse me from my sin."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Create in me a clean heart, O God, \nand put a new and right spirit within me.",
+                                    "Do not cast me away from your presence, \nand do not take your holy spirit from me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For you have no delight in sacrifice; \nif I were to give a burnt offering, you would not be pleased.",
+                                    "The sacrifice acceptable to God is a broken spirit; \na broken and contrite heart, O God, you will not despise."
+                              ]
+                        }
+                  ]
+            },
+            "gradual": {
+                  "verse_number": "Joel ch. 2, vv. 12 - 13",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Even now, says the Lord, return to me with your whole heart for I am gracious and merciful."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 6, vv. 7 - 15",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "When the crowds were increasing, Jesus began to say, “This generation is an evil generation; it asks for a sign, but no sign will be given to it except the sign of Jonah. For just as Jonah became a sign to the people of Nineveh, so the Son of Man will be to this generation. The queen of the South will rise at the judgment with the people of this generation and condemn them, because she came from the ends of the earth to listen to the wisdom of Solomon, and see, something greater than Solomon is here! The people of Nineveh will rise up at the judgment with this generation and condemn it, because they repented at the proclamation of Jonah, and see, something greater than Jonah is here!”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}
