@@ -1,0 +1,178 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_02.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 38, vv. 22, 23",
+                  "content": [
+                        {
+                              "p": [
+                                    "Forsake me not, O Lord! My God, be not far from me!",
+                                    "Make haste and come to my help, O Lord, my strong salvation!"
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Keep your family, O Lord,",
+                        "schooled always in good works,",
+                        "and so comfort them with your protection here",
+                        "as to lead them graciously to gifts on high."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "offertory": [
+            {
+                  "p": [
+                        "Look with favor, Lord,",
+                        "on the sacrificial gifts we offer you,",
+                        "and by this holy exchange",
+                        "undo the bonds of our sins."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Matthew ch. 20, v. 28",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Son of Man did not come to be served but to serve,",
+                                    "and to give his life as a ransom for many."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Grant, we pray, O Lord our God,",
+                        "that what you have given us as the pledge of immortality",
+                        "may work for our eternal salvation."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "Bestow upon your servants, Lord,",
+                        "abundance of grace and protection;",
+                        "grant health of mind and body;",
+                        "grant fullness of fraternal charity,",
+                        "and make them always devoted to you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Jonah ch. 3, vv. 1 - 10",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The people of Judah and the citizens of Jerusalem said, “Come, let us make plots against Jeremiah—for instruction shall not perish from the priest, nor counsel from the wise, nor the word from the prophet. Come, let us bring charges against him, and let us not heed any of his words.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Give heed to me, O Lord, \nand listen to what my adversaries say!",
+                                          "Is evil a recompense for good? \nYet they have dug a pit for my life.",
+                                          "Remember how I stood before you \nto speak good for them, \nto turn away your wrath from them."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 31, vv. 1 - 2, 10 - 11, 16 - 17",
+                  "response": "Save me, O Lord, in your kindness.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Take me out of the net that is hidden for me, \nfor you are my refuge.",
+                                    "Into your hand I commit my spirit; \nyou have redeemed me, O Lord, faithful God."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For I hear the whispering of many— \nterror all around!—",
+                                    "as they scheme together against me, \nas they plot to take my life."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "But I trust in you, O Lord; \nI say, “You are my God.”",
+                                    "My times are in your hand; \ndeliver me from the hand of my enemies and persecutors."
+                              ]
+                        }
+                  ]
+            },
+            "gradual": {
+                  "verse_number": "John ch. 8, v. 12",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "I am the light of the world, says the Lord: whoever follows me will have the light of life."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 20, vv. 17 - 28",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "While Jesus was going up to Jerusalem, he took the twelve disciples aside by themselves, and said to them on the way, “See, we are going up to Jerusalem, and the Son of Man will be handed over to the chief priests and scribes, and they will condemn him to death; then they will hand him over to the Gentiles to be mocked and flogged and crucified; and on the third day he will be raised.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then the mother of the sons of Zebedee came to him with her sons, and kneeling before him, she asked a favor of him. And he said to her, “What do you want?” She said to him, “Declare that these two sons of mine will sit, one at your right hand and one at your left, in your kingdom.” But Jesus answered, “You do not know what you are asking. Are you able to drink the cup that I am about to drink?” They said to him, “We are able.” He said to them, “You will indeed drink my cup, but to sit at my right hand and at my left, this is not mine to grant, but it is for those for whom it has been prepared by my Father.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "When the ten heard it, they were angry with the two brothers. But Jesus called them to him and said, “You know that the rulers of the Gentiles lord it over them, and their great ones are tyrants over them. It will not be so among you; but whoever wishes to be great among you must be your servant, and whoever wishes to be first among you must be your slave; just as the Son of Man came not to be served but to serve, and to give his life a ransom for many.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

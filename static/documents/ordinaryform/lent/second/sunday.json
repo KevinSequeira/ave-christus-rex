@@ -1,0 +1,202 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_02.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 27, vv. 8, 9",
+                  "content": [
+                        {
+                              "p": [
+                                    "Of you my heart has spoken: Seek his face.",
+                                    "It is your face, O Lord, that I seek;",
+                                    "hide not your face from me."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Psalm 25, vv. 6, 2, 22",
+                  "content": [
+                        {
+                              "p": [
+                                    "Remember your compassion, O Lord,",
+                                    "and your merciful love, for they are from of old.",
+                                    "Let not our enemies exult over us.",
+                                    "Redeem us, O God of Israel, from all our distress."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who have commanded us",
+                        "to listen to your beloved Son,",
+                        "be pleased, we pray,",
+                        "to nourish us inwardly by your word,",
+                        "that, with spiritual sight made pure,",
+                        "we may rejoice to behold your glory."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "offertory": [
+            {
+                  "p": [
+                        "May this sacrifice, O Lord, we pray,",
+                        "cleanse us of our faults",
+                        "and sanctify your faithful in body and mind",
+                        "for the celebration of the paschal festivities."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Matthew ch. 17, v. 5",
+                  "content": [
+                        {
+                              "p": [
+                                    "This is my beloved Son, with whom I am well pleased;",
+                                    "listen to him."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "As we receive these glorious mysteries,",
+                        "we make thanksgiving to you, O Lord,",
+                        "for allowing us while still on earth",
+                        "to be partakers even now of the things of heaven."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "Bless your faithful, we pray, O Lord,",
+                        "with a blessing that endures for ever,",
+                        "and keep them faithful",
+                        "to the Gospel of your Only Begotten Son,",
+                        "so that they may always desire and at last attain",
+                        "that glory whose beauty he showed in his own Body,",
+                        "to the amazement of his Apostles."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Genesis ch. 12, vv. 1 - 4a",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The Lord said to Abram, “Go from your country and your kindred and your father’s house to the land that I will show you. I will make of you a great nation, and I will bless you, and make your name great, so that you will be a blessing. I will bless those who bless you, and the one who curses you I will curse; and in you all the families of the earth shall be blessed.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "So Abram went, as the Lord had told him; and Lot went with him. Abram was seventy-five years old when he departed from Haran."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 33, vv. 4 - 5, 18 - 19, 20 and 22",
+                  "response": "Lord, let your mercy be on us, as we place our trust in you.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For the word of the Lord is upright, \nand all his work is done in faithfulness.",
+                                    "He loves righteousness and justice; \nthe earth is full of the steadfast love of the Lord."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Truly the eye of the Lord is on those who fear him, \non those who hope in his steadfast love,",
+                                    "to deliver their soul from death, \nand to keep them alive in famine."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Our soul waits for the Lord; \nhe is our help and shield.",
+                                    "Let your steadfast love, O Lord, be upon us, \neven as we hope in you."
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": [
+                  {
+                        "verse_number": "2 Timothy ch. 1, vv. 8 - 10",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: Do not be ashamed of the testimony about our Lord or of me his prisoner, but join with me in suffering for the gospel, relying on the power of God, who saved us and called us with a holy calling, not according to our works but according to his own purpose and grace. This grace was given to us in Christ Jesus before the ages began, but it has now been revealed through the appearing of our Savior Christ Jesus, who abolished death and brought life and immortality to light through the gospel."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "gradual": {
+                  "verse_number": "Cf. Matthew ch. 17, v. 5",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "From the shining cloud the Father's voice is heard: This is my beloved Son, listen to him."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 17, vv. 1 - 9",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus took with him Peter and James and his brother John and led them up a high mountain, by themselves. And he was transfigured before them, and his face shone like the sun, and his clothes became dazzling white. Suddenly there appeared to them Moses and Elijah, talking with him. Then Peter said to Jesus, “Lord, it is good for us to be here; if you wish, I will make three dwellings here, one for you, one for Moses, and one for Elijah.” While he was still speaking, suddenly a bright cloud overshadowed them, and from the cloud a voice said, “This is my Son, the Beloved; with him I am well pleased; listen to him!” When the disciples heard this, they fell to the ground and were overcome by fear. But Jesus came and touched them, saying, “Get up and do not be afraid.” And when they looked up, they saw no one except Jesus himself alone."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "As they were coming down the mountain, Jesus ordered them, “Tell no one about the vision until after the Son of Man has been raised from the dead.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

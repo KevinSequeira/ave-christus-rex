@@ -1,0 +1,172 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_02.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 26, vv. 11, 12",
+                  "content": [
+                        {
+                              "p": [
+                                    "Redeem me, O Lord, and have mercy on me.",
+                                    "My foot stands on level ground;",
+                                    "I will bless the Lord in the assembly."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who have taught us",
+                        "to chasten our bodies",
+                        "for the healing of our souls,",
+                        "enable us, we pray,",
+                        "to abstain from all sins,",
+                        "and strengthen our hearts",
+                        "to carry out your loving commands."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "offertory": [
+            {
+                  "p": [
+                        "Accept in your goodness these our prayers, O Lord,",
+                        "and set free from worldly attractions",
+                        "those you allow to serve the heavenly mysteries.",
+                        "Through Christ our Lord."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Luke ch. 6, v. 36",
+                  "content": [
+                        {
+                              "p": [
+                                    "Be merciful, as your Father is merciful, says the Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May this Communion, O Lord,",
+                        "cleanse us of wrongdoing",
+                        "and make us heirs to the joy of heaven."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "Confirm the hearts of your faithful, O Lord, we pray,",
+                        "and strengthen them by the power of your grace,",
+                        "that they may be constant in making supplication to you",
+                        "and sincere in love for one another."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Daniel ch. 9, vv. 4b - 10",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "“Ah, Lord, great and awesome God, keeping covenant and steadfast love with those who love you and keep your commandments, we have sinned and done wrong, acted wickedly and rebelled, turning aside from your commandments and ordinances. We have not listened to your servants the prophets, who spoke in your name to our kings, our princes, and our ancestors, and to all the people of the land."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "“Righteousness is on your side, O Lord, but open shame, as at this day, falls on us, the people of Judah, the inhabitants of Jerusalem, and all Israel, those who are near and those who are far away, in all the lands to which you have driven them, because of the treachery that they have committed against you. Open shame, O Lord, falls on us, our kings, our officials, and our ancestors, because we have sinned against you. To the Lord our God belong mercy and forgiveness, for we have rebelled against him, and have not obeyed the voice of the Lord our God by following his laws, which he set before us by his servants the prophets.”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 79, vv. 8, 9, 11 and 13",
+                  "response": "Lord, do not deal with us according to our sins.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Do not remember against us the iniquities of our ancestors; \nlet your compassion come speedily to meet us, \nfor we are brought very low."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Help us, O God of our salvation, \nfor the glory of your name;",
+                                    "deliver us, and forgive our sins, \nfor your name’s sake."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Let the groans of the prisoners come before you;
+                                    according to your great power preserve those doomed to die.",
+                                    "Then we your people, the flock of your pasture, \nwill give thanks to you forever; \nfrom generation to generation we will recount your praise."
+                              ]
+                        }
+                  ]
+            },
+            "gradual": {
+                  "verse_number": "See John ch. 6, vv. 63c, 68c",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Your words, Lord, are Spirit and Life; you have the words of everlasting life."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 6, vv. 36 - 38",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to this disciples: “Be merciful, just as your Father is merciful."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“Do not judge, and you will not be judged; do not condemn, and you will not be condemned. Forgive, and you will be forgiven; give, and it will be given to you. A good measure, pressed down, shaken together, running over, will be put into your lap; for the measure you give will be the measure you get back.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}
