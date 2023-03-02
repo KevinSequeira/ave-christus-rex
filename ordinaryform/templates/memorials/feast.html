@@ -74,9 +74,6 @@
                   <div class="missalPrayersBody">
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Opening Antiphon</h1>
-                              <p class="prayerBodyTagline"><i>This antiphon is sung or recited when the celebrant proceeds
-                                    to the front of the sanctuary and then climbs the steps of the altar. If the procession takes longer than usual,
-                                    the antiphon may be repeated, or replaced with an appropriate hymn.</i></p>
                               {% for antiphon in opening_antiphon %}
                               <p class="prayerBodyVerses">{{ antiphon.verse_number }}</p>
                               {% for paragraph in antiphon.content %}
@@ -96,8 +93,6 @@
                         {% if gloria == "yes" %}
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Gloria in excelsis Deo</h1>
-                              <p class="prayerBodyTagline"><i>The Gloria is an angelic hymn of praise, inspired from the events surrounding the incarnation of Christ, which the Church lifts up to God as one voice and with one heart.
-                                    It imitates the psalms found in Holy Scripture</i></p>
                               {% for p in gloria_content %}
                               <p class="prayerBodyContent">
                                     {% for line in p.p %}
@@ -111,9 +106,6 @@
                         {% endif %}
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Collect</h1>
-                              <p class="prayerBodyTagline"><i>The collect – prayed by the celebrant – concludes opening rites of the Divine Liturgy.
-                                    the Faithful are encouraged to pay close attention to the words of the prayer and meditate on them as they prepare
-                                    to participate in the Liturgy of the Word.</i></p>
                               {% for p in collect %}
                               <p class="prayerBodyContent">
                                     {% for line in p.p %}
@@ -124,8 +116,6 @@
                         </div>
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">First Reading</h1>
-                              <p class="prayerBodyTagline"><i>The first reading opens the Liturgy of the Word, and is usually taken from the Old Testament, or from the New Testament if appropriate to the occassion or liturgical season.
-                                    As Christians, we are encouraged to listen to the Word of God intently and learn from His heart.</i></p>
                               {% for reading_content in first_reading %}
                               <p class="prayerBodyVerses">{{ reading_content.verse_number }}</p>
                               {% for p in reading_content.content %}
@@ -152,8 +142,6 @@
                         </div>
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Responsorial Psalm</h1>
-                              <p class="prayerBodyTagline"><i>the Faithful may sing the psalm together in praise of the Word of God if possible.
-                                    However, alternatively, the psalm may be recited by the lector, while the Faithful may repeat the response after each verse.</i></p>
                               <p class="prayerBodyResponse"><strong>Response:</strong> <i>{{ first_responsorial_psalm.response|linebreaksbr }}</i></p>
                               <p class="prayerBodyVerses">{{ first_responsorial_psalm.verse_number }}</p>
                               {% for p in first_responsorial_psalm.content %}
@@ -184,8 +172,6 @@
                         {% if second_reading_content|length > 0 %}
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Second Reading</h1>
-                              <p class="prayerBodyTagline"><i>The second reading, taken from the New Testament&rsquo;s Apostolic Epistles,
-                                    follows on the theme of readings for the liturgy of the day.</i></p>
                               {% for reading_content in second_reading %}
                               <p class="prayerBodyVerses">{{ reading_content.verse_number }}</p>
                               {% for p in reading_content.content %}
@@ -212,8 +198,11 @@
                         </div>
                         {% endif %}
                         <div class="prayerBody">
+                              {% if current_season_short == "ashwednesday" or current_season_short == "lent" %}
+                              <h1 class="prayerBodyHeader">Gradual</h1>
+                              {% else %}
                               <h1 class="prayerBodyHeader">Gospel Acclamation</h1>
-                              <p class="prayerBodyTagline"><i>The Faithful, in preparation for the proclamation of the Gospel, lift up an acclamation of praise to God.</i></p>
+                              {% endif %}
                               <p class="prayerBodyVerses">{{ gospel_acclamation.verse_number }}</p>
                               {% for paragraph in gospel_acclamation.content %}
                               <p class="prayerBodyContent">
@@ -237,8 +226,6 @@
                         </div>
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Gospel</h1>
-                              <p class="prayerBodyTagline"><i>The Gospel - the Good News of Jesus Christ - is proclaimed by the celebrant or his assisting deacon.
-                                    The Faithful meditate on the Word of God as He is proclaimed from an episode of the life of Jesus Christ our Lord.</i></p>
                               <p class="prayerBodyVerses">{{ gospel_reading.verse_number }}</p>
                               {% for p in gospel_reading.content %}
                               {% if p.content_type == "paragraph" %}
@@ -261,7 +248,6 @@
                         {% if credo != "no" %}
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Credo</h1>
-                              <p class="prayerBodyTagline"><i>All the Faithful participate in the declaration of faith – this is what the Church believes</i></p>
                               {% for p in credo_content %}
                               <p class="prayerBodyContent">
                                     {% for line in p.p %}
@@ -275,9 +261,6 @@
                         {% endif %}
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Prayer over the Offerings</h1>
-                              <p class="prayerBodyTagline"><i>The celebrant lifts up a prayer of thanksgiving to God, from whom all good things come to us,
-                                    so that the sacrifice of bread and wine which become the Most Holy Body and Blood of our Lord Jesus Christ,
-                                    may become a pleasing offering for the forgiveness of our sins.</i></p>
                               {% for p in offertory %}
                               <p class="prayerBodyContent">
                                     {% for line in p.p %}
@@ -288,8 +271,6 @@
                         </div>
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Communion Antiphon</h1>
-                              <p class="prayerBodyTagline"><i>This antiphon is sung or recited when the celebrant descends from the altar to the edge of the sanctuary to
-                                    feed the Faithful with Holy Communion. The antiphon may be repeated, or replaced with an appropriate hymn.</i></p>
                               {% for antiphon in communion_antiphon %}
                               <p class="prayerBodyVerses">{{ antiphon.verse_number }}</p>
                               {% for paragraph in antiphon.content %}
@@ -308,8 +289,6 @@
                         </div>
                         <div class="prayerBody">
                               <h1 class="prayerBodyHeader">Prayer after Communion</h1>
-                              <p class="prayerBodyTagline"><i>The celebrant lifts up a prayer of praise and thanksgiving to God from whom we have received
-                                    the Most Holy Body and Blood of Christ as life-giving food and drink, that we might be transformed to become more like Him.</i></p>
                               {% for p in prayer_after_communion %}
                               <p class="prayerBodyContent">
                                     {% for line in p.p %}

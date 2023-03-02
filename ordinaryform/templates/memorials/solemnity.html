@@ -210,7 +210,11 @@
                         </div>
                         {% endif %}
                         <div class="prayerBody">
+                              {% if current_season_short == "ashwednesday" or current_season_short == "lent" %}
+                              <h1 class="prayerBodyHeader">Gradual</h1>
+                              {% else %}
                               <h1 class="prayerBodyHeader">Gospel Acclamation</h1>
+                              {% endif %}
                               <p class="prayerBodyTagline"><i>The Faithful, in preparation for the proclamation of the Gospel, lift up an acclamation of praise to God.</i></p>
                               <p class="prayerBodyVerses">{{ gospel_acclamation.verse_number }}</p>
                               {% for paragraph in gospel_acclamation.content %}

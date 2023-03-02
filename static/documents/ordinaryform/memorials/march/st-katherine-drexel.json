@@ -1,0 +1,180 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_katherine_drexel.png')",
+      "saint_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "Here is a wise virgin, from among the number of the prudent,",
+                                    "who went forth with lighted lamp to meet Christ."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "How beautiful you are, O virgin of Christ,",
+                                    "who were worthy to receive the Lord’s crown,",
+                                    "the crown of perpetual virginity."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "God of love,",
+                        "you called Saint Katharine Drexel",
+                        "to teach the message of the Gospel",
+                        "and to bring the life of the Eucharist",
+                        "to the Native American and African American peoples;",
+                        "by her prayers and example,",
+                        "enable us to work for justice",
+                        "among the poor and the oppressed,",
+                        "and keep us undivided in love",
+                        "in the eucharistic community of your Church."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "As we proclaim your wonders, O Lord,",
+                        "in the Virgin Saint Katherine Drexel,",
+                        "we humbly implore your majesty",
+                        "that, as her merits are pleasing to you,",
+                        "so, too, our dutiful service may find favor in your sight."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Matthew ch. 25, v. 6",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold, the Bridegroom is coming;",
+                                    "come out to meet Christ the Lord."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Psalm 27, v. 4",
+                  "content": [
+                        {
+                              "p": [
+                                    "There is one thing I ask of the Lord, only this do I seek:",
+                                    "to live in the house of the Lord all the days of my life."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Renewed by partaking of this divine gift,",
+                        "we pray, O Lord our God,",
+                        "that by the example of Saint Katherine Drexel,",
+                        "bearing in our body the Death of Jesus,",
+                        "we may strive to hold fast to you alone."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Song of Songs ch. 8, vv. 6 - 7",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Set me as a seal upon your heart, \nas a seal upon your arm;",
+                                          "for love is strong as death, \npassion fierce as the grave.",
+                                          "Its flashes are flashes of fire, \na raging flame.",
+                                          "Many waters cannot quench love, \nneither can floods drown it.",
+                                          "If one offered for love \nall the wealth of one’s house, \nit would be utterly scorned."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 148, vv. 1bc - 2, 11 - 13a, 13bc - 14",
+                  "response": "Young men and women, praise the name of the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Praise the Lord from the heavens; \npraise him in the heights!",
+                                    "Praise him, all his angels; \npraise him, all his host!"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Kings of the earth and all peoples, \nprinces and all rulers of the earth!",
+                                    "Young men and women alike, \nold and young together!",
+                                    "Let them praise the name of the Lord."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For his name alone is exalted; \nhis glory is above earth and heaven.",
+                                    "He has raised up a horn for his people, \npraise for all his faithful, \nfor the people of Israel who are close to him.",
+                                    "Praise the Lord!"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Luke ch. 1, v. 45",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Come, bride of Christ, and receive the crown, which the Lord has prepared for you for ever."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 10, vv. 38 - 42",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus entered a certain village, where a woman named Martha welcomed him into her home. She had a sister named Mary, who sat at the Lord’s feet and listened to what he was saying. But Martha was distracted by her many tasks; so she came to him and asked, “Lord, do you not care that my sister has left me to do all the work by myself? Tell her then to help me.” But the Lord answered her, “Martha, Martha, you are worried and distracted by many things; there is need of only one thing. Mary has chosen the better part, which will not be taken away from her.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

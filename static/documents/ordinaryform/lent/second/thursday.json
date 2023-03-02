@@ -1,14 +1,15 @@
 {
-      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_01.jpg')",
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_02.jpg')",
       "liturgy_background_position": "bottom",
       "opening_antiphon": [
             {
-                  "verse_number": "Cf. Psalm 5, vv. 2, 3",
+                  "verse_number": "Cf. Psalm 139, vv. 23, 24",
                   "content": [
                         {
                               "p": [
-                                    "To my words give ear, O Lord; give heed to my sighs.",
-                                    "Attend to the sound of my cry, my King and my God."
+                                    "Test me, O God, and know my thoughts.",
+                                    "See that my path is not wicked,",
+                                    "and lead me in the way everlasting."
                               ]
                         }
                   ]
@@ -18,11 +19,11 @@
       "collect": [
             {
                   "p": [
-                        "Bestow on us, we pray, O Lord,",
-                        "a spirit of always pondering on what is right",
-                        "and of hastening to carry it out,",
-                        "and, since without you we cannot exist,",
-                        "may we be enabled to live according to your will."
+                        "O God, who delight in innocence and restore it,",
+                        "direct the hearts of your servants to yourself,",
+                        "that, caught up in the fire of your Spirit,",
+                        "we may be found steadfast in faith",
+                        "and effective in works."
                   ]
             },
             {
@@ -37,9 +38,10 @@
       "offertory": [
             {
                   "p": [
-                        "Be merciful, O Lord, to those who approach you in supplication,",
-                        "and, accepting the oblations and prayers of your people,",
-                        "turn the hearts of us all towards you."
+                        "By this present sacrifice, we pray, O Lord,",
+                        "sanctify our observance,",
+                        "that what Lenten discipline outwardly declares",
+                        "it may inwardly bring about."
                   ]
             },
             {
@@ -50,12 +52,12 @@
       ],
       "communion_antiphon": [
             {
-                  "verse_number": "Matthew ch. 7, v. 8",
+                  "verse_number": "Psalm 119, v. 1",
                   "content": [
                         {
                               "p": [
-                                    "Everyone who asks, receives; and the one who seeks, finds;",
-                                    "and to the one who knocks, the door will be opened."
+                                    "Blessed are those whose way is blameless,",
+                                    "who walk in the law of the Lord."
                               ]
                         }
                   ]
@@ -64,11 +66,9 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "We pray, O Lord our God,",
-                        "that, as you have given these most sacred mysteries",
-                        "to be the safeguard of our salvation,",
-                        "so you may make them a healing remedy for us,",
-                        "both now and in time to come."
+                        "May this sacrifice, O God,",
+                        "remain active in its effects",
+                        "and work ever more strongly within us."
                   ]
             },
             {
@@ -80,11 +80,10 @@
       "prayer_over_the_people": [
             {
                   "p": [
-                        "May the mercy they have hoped for, O Lord,",
-                        "come to those who make supplication to you,",
-                        "and may the riches of heaven be given them,",
-                        "that they may know what it is right to ask",
-                        "and receive what they have sought."
+                        "Abide with your servants, O Lord,",
+                        "who implore the help of your grace,",
+                        "that they may receive from you",
+                        "the support and guidance of your protection."
                   ]
             },
             {
@@ -96,74 +95,89 @@
       "year_a": {
             "first_reading": [
                   {
-                        "verse_number": "Esther add. C, vv. 12, 14 - 16, 23 - 25",
+                        "verse_number": "Jeremiah ch. 17, vv. 5 - 10",
                         "content": [
                               {
                                     "content_type": "paragraph",
                                     "p": [
-                                          "Queen Esther, seized with mortal anguish, had recourse to the LORD. She lay prostrate upon the ground, together with her handmaids, from morning until evening, and said: “God of Abraham, God of Isaac, and God of Jacob, blessed are you. Help me, who am alone and have no help but you, for I am taking my life in my hand. As a child I used to hear from the books of my forefathers that you, O LORD, always free those who are pleasing to you. Now help me, who am alone and have no one but you, O LORD, my God."
+                                          "Thus says the Lord:"
                                     ]
                               },
                               {
-                                    "content_type": "paragraph",
+                                    "content_type": "stanza",
                                     "p": [
-                                          "“And now, come to help me, an orphan. Put in my mouth persuasive words in the presence of the lion and turn his heart to hatred for our enemy, so that he and those who are in league with him may perish. Save us from the hand of our enemies; turn our mourning into gladness and our sorrows into wholeness.”"
+                                          "Cursed are those who trust in mere mortals \nand make mere flesh their strength, \nwhose hearts turn away from the Lord.",
+                                          "They shall be like a shrub in the desert, \nand shall not see when relief comes.",
+                                          "They shall live in the parched places of the wilderness, \nin an uninhabited salt land."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Blessed are those who trust in the Lord, \nwhose trust is the Lord.",
+                                          "They shall be like a tree planted by water, \nsending out its roots by the stream.",
+                                          "It shall not fear when heat comes, \nand its leaves shall stay green;",
+                                          "in the year of drought it is not anxious, \nand it does not cease to bear fruit."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "The heart is devious above all else; \nit is perverse— \nwho can understand it?",
+                                          "I the Lord test the mind \nand search the heart,",
+                                          "to give to all according to their ways, \naccording to the fruit of their doings."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 138, vv. 1 - 2ab, 2cde - 3, 7c - 8",
-                  "response": "Lord, on the day I called for help, you answered me.",
+                  "verse_number": "Psalm 1, vv. 1 - 2, 3, 4 and 6",
+                  "response": "Blessed are they who hope in the Lord.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "I give you thanks, O Lord, with my whole heart; \nbefore the gods I sing your praise;",
-                                    "I bow down toward your holy temple \nand give thanks to your name."
+                                    "Happy are those \nwho do not follow the advice of the wicked,",
+                                    "or take the path that sinners tread, \nor sit in the seat of scoffers;",
+                                    "but their delight is in the law of the Lord, \nand on his law they meditate day and night."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "For your steadfast love and your faithfulness; \nfor you have exalted your name and your word \nabove everything.",
-                                    "On the day I called, you answered me, \nyou increased my strength of soul."
+                                    "They are like trees \nplanted by streams of water,",
+                                    "which yield their fruit in its season, \nand their leaves do not wither.",
+                                    "In all that they do, they prosper."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "You stretch out your hand, \nand your right hand delivers me.",
-                                    "The Lord will fulfill his purpose for me; \nyour steadfast love, O Lord, endures forever. \nDo not forsake the work of your hands."
+                                    "The wicked are not so, \nbut are like chaff that the wind drives away.",
+                                    "For the Lord watches over the way of the righteous, \nbut the way of the wicked will perish."
                               ]
                         }
                   ]
             },
-            "gradual": {
-                  "verse_number": "Psalm 51, vv. 12a, 14a",
-                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+            "gospel_acclamation": {
+                  "verse_number": "See Luke ch. 8, v. 15",
+                  "acclamation": "Alleluia! Alleluia!",
                   "content": [
                         {
                               "p": [
-                                    "A clean heart create for me, O God; give me back the joy of your salvation."
+                                    "Blessed are they who have kept the word with a generous heart, and yield a harvest through perseverance."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Matthew ch. 7, vv. 7 - 12",
+                  "verse_number": "Luke ch. 16, vv. 19 - 31",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Jesus said to his disciples: “Ask, and it will be given you; search, and you will find; knock, and the door will be opened for you. For everyone who asks receives, and everyone who searches finds, and for everyone who knocks, the door will be opened. Is there anyone among you who, if your child asks for bread, will give a stone? Or if the child asks for a fish, will give a snake? If you then, who are evil, know how to give good gifts to your children, how much more will your Father in heaven give good things to those who ask him!"
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "“In everything do to others as you would have them do to you; for this is the law and the prophets.”"
+                                    "Jesus said to the Pharisees: “There was a rich man who was dressed in purple and fine linen and who feasted sumptuously every day. And at his gate lay a poor man named Lazarus, covered with sores, who longed to satisfy his hunger with what fell from the rich man’s table; even the dogs would come and lick his sores. The poor man died and was carried away by the angels to be with Abraham. The rich man also died and was buried. In Hades, where he was being tormented, he looked up and saw Abraham far away with Lazarus by his side. He called out, ‘Father Abraham, have mercy on me, and send Lazarus to dip the tip of his finger in water and cool my tongue; for I am in agony in these flames.’ But Abraham said, ‘Child, remember that during your lifetime you received your good things, and Lazarus in like manner evil things; but now he is comforted here, and you are in agony. Besides all this, between you and us a great chasm has been fixed, so that those who might want to pass from here to you cannot do so, and no one can cross from there to us.’ He said, ‘Then, father, I beg you to send him to my father’s house— for I have five brothers—that he may warn them, so that they will not also come into this place of torment.’ Abraham replied, ‘They have Moses and the prophets; they should listen to them.’ He said, ‘No, father Abraham; but if someone goes to them from the dead, they will repent.’ He said to him, ‘If they do not listen to Moses and the prophets, neither will they be convinced even if someone rises from the dead.’”"
                               ]
                         }
                   ]

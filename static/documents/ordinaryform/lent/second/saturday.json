@@ -1,14 +1,14 @@
 {
-      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_01.jpg')",
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_02.jpg')",
       "liturgy_background_position": "bottom",
       "opening_antiphon": [
             {
-                  "verse_number": "Cf. Psalm 19, v. 8",
+                  "verse_number": "Cf. Psalm 145, vv. 8, 9",
                   "content": [
                         {
                               "p": [
-                                    "The law of the Lord is perfect; it revives the soul.",
-                                    "The decrees of the Lord are steadfast; they give wisdom to the simple."
+                                    "The Lord is kind and full of compassion, slow to anger, abounding in mercy.",
+                                    "How good is the Lord to all, compassionate to all his creatures."
                               ]
                         }
                   ]
@@ -18,10 +18,10 @@
       "collect": [
             {
                   "p": [
-                        "Turn our hearts to you, eternal Father,",
-                        "and grant that, seeking always the one thing necessary",
-                        "and carrying out works of charity,",
-                        "we may be dedicated to your worship."
+                        "O God, who grant us by glorious healing remedies while still on earth",
+                        "to be partakers of the things of heaven,",
+                        "guide us, we pray, through this present life",
+                        "and bring us to that light in which you dwell."
                   ]
             },
             {
@@ -36,9 +36,10 @@
       "offertory": [
             {
                   "p": [
-                        "May these blessed mysteries",
-                        "by which we are restored, O Lord, we pray,",
-                        "make us worthy of the gift they bestow."
+                        "Through these sacred gifts, we pray, O Lord,",
+                        "may our redemption yield its fruits,",
+                        "restraining us from unruly desires",
+                        "and leading us onward to the gifts of salvation."
                   ]
             },
             {
@@ -49,11 +50,13 @@
       ],
       "communion_antiphon": [
             {
-                  "verse_number": "Matthew ch. 5, v. 48",
+                  "verse_number": "Luke ch. 15, v. 32",
                   "content": [
                         {
                               "p": [
-                                    "Be perfect, as your heavenly Father is perfect, says the Lord."
+                                    "You must rejoice, my son,",
+                                    "for your brother was dead and has come to life;",
+                                    "he was lost and is found."
                               ]
                         }
                   ]
@@ -62,10 +65,10 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "Show unceasing favor, O Lord,",
-                        "to those you refresh with this divine mystery,",
-                        "and accompany with salutary consolations",
-                        "those you have imbued with heavenly teaching."
+                        "May your divine Sacrament, O Lord, which we have received,",
+                        "fill the inner depths of our heart",
+                        "and, by its working mightily within us,",
+                        "make us partakers of its grace."
                   ]
             },
             {
@@ -77,10 +80,10 @@
       "prayer_over_the_people": [
             {
                   "p": [
-                        "May the blessing for which they have longed",
-                        "strengthen your faithful, O God,",
-                        "so that, never straying from your will,",
-                        "they may always rejoice in your benefits."
+                        "May the ears of your mercy be open, O Lord,",
+                        "to the prayers of those who call upon you;",
+                        "and that you may grant what they desire,",
+                        "have them ask what is pleasing to you."
                   ]
             },
             {
@@ -92,62 +95,101 @@
       "year_a": {
             "first_reading": [
                   {
-                        "verse_number": "Deuteronomy ch. 26, vv. 16 - 19",
+                        "verse_number": "Micah ch. 7, vv. 14 - 15, 18 - 20",
                         "content": [
                               {
-                                    "content_type": "paragraph",
+                                    "content_type": "stanza",
                                     "p": [
-                                          "Moses spoke to the people, saying: “This very day the Lord your God is commanding you to observe these statutes and ordinances; so observe them diligently with all your heart and with all your soul. Today you have obtained the Lord’s agreement: to be your God; and for you to walk in his ways, to keep his statutes, his commandments, and his ordinances, and to obey him. Today the Lord has obtained your agreement: to be his treasured people, as he promised you, and to keep his commandments; for him to set you high above all nations that he has made, in praise and in fame and in honor; and for you to be a people holy to the Lord your God, as he promised.”"
+                                          "Shepherd your people with your staff, \nthe flock that belongs to you,",
+                                          "which lives alone in a forest \nin the midst of a garden land;",
+                                          "let them feed in Bashan and Gilead \nas in the days of old.",
+                                          "As in the days when you came out of the land of Egypt, \nshow us marvelous things."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Who is a God like you, pardoning iniquity \nand passing over the transgression \nof the remnant of your possession?",
+                                          "He does not retain his anger forever, \nbecause he delights in showing clemency.",
+                                          "He will again have compassion upon us; \nhe will tread our iniquities under foot.",
+                                          "You will cast all our sins \ninto the depths of the sea.",
+                                          "You will show faithfulness to Jacob \nand unswerving loyalty to Abraham,",
+                                          "as you have sworn to our ancestors \nfrom the days of old."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 119, vv. 1 - 2, 4 - 5, 7 - 8",
-                  "response": "Blessed are they who follow the law of the Lord!",
+                  "verse_number": "Psalm 103, vv. 1 - 2, 3 - 4, 9 - 10, 11 - 12",
+                  "response": "The Lord is kind and merciful.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Happy are those whose way is blameless, \nwho walk in the law of the Lord.",
-                                    "Happy are those who keep his decrees, \nwho seek him with their whole heart."
+                                    "Bless the Lord, O my soul, \nand all that is within me, \nbless his holy name.",
+                                    "Bless the Lord, O my soul, \nand do not forget all his benefits"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "You have commanded your precepts \nto be kept diligently.",
-                                    "O that my ways may be steadfast \nin keeping your statutes!"
+                                    "Who forgives all your iniquity, \nwho heals all your diseases,",
+                                    "who redeems your life from the Pit, \nwho crowns you with steadfast love and mercy."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "I will praise you with an upright heart, \nwhen I learn your righteous ordinances.",
-                                    "I will observe your statutes; \ndo not utterly forsake me."
+                                    "He will not always accuse, \nnor will he keep his anger forever.",
+                                    "He does not deal with us according to our sins, \nnor repay us according to our iniquities."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For as the heavens are high above the earth, \nso great is his steadfast love toward those who fear him;",
+                                    "as far as the east is from the west, \nso far he removes our transgressions from us."
                               ]
                         }
                   ]
             },
             "gradual": {
-                  "verse_number": "2 Corinthians ch. 6, v. 2b",
+                  "verse_number": "Luke ch. 15, v. 18",
                   "acclamation": "Glory and praise to you, Lord Jesus Christ!",
                   "content": [
                         {
                               "p": [
-                                    "Behold, now is a very acceptable time; behold, now is the day of salvation."
+                                    "I will get up and go to my father and shall say to him, Father, I have sinned against heaven and against you."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Matthew ch. 5, vv. 43 - 48",
+                  "verse_number": "Luke ch. 15, vv. 1 - 3, 11 - 32",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Jesus said to his disciples: “You have heard that it was said, ‘You shall love your neighbor and hate your enemy.’ But I say to you, Love your enemies and pray for those who persecute you, so that you may be children of your Father in heaven; for he makes his sun rise on the evil and on the good, and sends rain on the righteous and on the unrighteous. For if you love those who love you, what reward do you have? Do not even the tax collectors do the same? And if you greet only your brothers and sisters, what more are you doing than others? Do not even the Gentiles do the same? Be perfect, therefore, as your heavenly Father is perfect.”"
+                                    "Now all the tax collectors and sinners were coming near to listen to Jesus. And the Pharisees and the scribes were grumbling and saying, “This fellow welcomes sinners and eats with them.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "So he told them this parable:"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“There was a man who had two sons. The younger of them said to his father, ‘Father, give me the share of the property that will belong to me.’ So he divided his property between them. A few days later the younger son gathered all he had and traveled to a distant country, and there he squandered his property in dissolute living. When he had spent everything, a severe famine took place throughout that country, and he began to be in need. So he went and hired himself out to one of the citizens of that country, who sent him to his fields to feed the pigs. He would gladly have filled himself with the pods that the pigs were eating; and no one gave him anything. But when he came to himself he said, ‘How many of my father’s hired hands have bread enough and to spare, but here I am dying of hunger! I will get up and go to my father, and I will say to him, “Father, I have sinned against heaven and before you; I am no longer worthy to be called your son; treat me like one of your hired hands.”’ So he set off and went to his father. But while he was still far off, his father saw him and was filled with compassion; he ran and put his arms around him and kissed him. Then the son said to him, ‘Father, I have sinned against heaven and before you; I am no longer worthy to be called your son.’ But the father said to his slaves, ‘Quickly, bring out a robe—the best one—and put it on him; put a ring on his finger and sandals on his feet. And get the fatted calf and kill it, and let us eat and celebrate; for this son of mine was dead and is alive again; he was lost and is found!’ And they began to celebrate."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“Now his elder son was in the field; and when he came and approached the house, he heard music and dancing. He called one of the slaves and asked what was going on. He replied, ‘Your brother has come, and your father has killed the fatted calf, because he has got him back safe and sound.’ Then he became angry and refused to go in. His father came out and began to plead with him. But he answered his father, ‘Listen! For all these years I have been working like a slave for you, and I have never disobeyed your command; yet you have never given me even a young goat so that I might celebrate with my friends. But when this son of yours came back, who has devoured your property with prostitutes, you killed the fatted calf for him!’ Then the father said to him, ‘Son, you are always with me, and all that is mine is yours. But we had to celebrate and rejoice, because this brother of yours was dead and has come to life; he was lost and has been found.’”"
                               ]
                         }
                   ]
