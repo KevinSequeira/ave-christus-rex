@@ -1,0 +1,201 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_02.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 31, vv. 2, 5",
+                  "content": [
+                        {
+                              "p": [
+                                    "In you, O Lord, I put my trust, let me never be put to shame;",
+                                    "release me from the snare they have hidden for me,",
+                                    "for you indeed are my refuge."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Grant, we pray, almighty God,",
+                        "that, purifying us by the sacred practice of penance,",
+                        "you may lead us in sincerity of heart",
+                        "to attain the holy things to come."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "offertory": [
+            {
+                  "p": [
+                        "May your merciful grace prepare your servants, O God,",
+                        "for the worthy celebration of these mysteries,",
+                        "and lead them to it by a devout way of life."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "1 John ch. 4, v. 10",
+                  "content": [
+                        {
+                              "p": [
+                                    "God loved us, and sent his Son",
+                                    "as expiation for our sins."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Having received this pledge of eternal salvation,",
+                        "we pray, O Lord,",
+                        "that we may set our course so well",
+                        "as to attain the redemption you promise."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "Grant your people, O Lord, we pray,",
+                        "health of mind and body,",
+                        "that by constancy in good deeds",
+                        "they may always merit the defense of your protection."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Genesis ch. 37, vv. 3 - 4, 12 - 13a, 17b - 28",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Israel loved Joseph more than any other of his children, because he was the son of his old age; and he had made him a long robe with sleeves. But when his brothers saw that their father loved him more than all his brothers, they hated him, and could not speak peaceably to him."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Now his brothers went to pasture their father’s flock near Shechem. And Israel said to Joseph, “Are not your brothers pasturing the flock at Shechem? Come, I will send you to them.” He answered, “Here I am.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "So Joseph went after his brothers, and found them at Dothan. They saw him from a distance, and before he came near to them, they conspired to kill him. They said to one another, “Here comes this dreamer. Come now, let us kill him and throw him into one of the pits; then we shall say that a wild animal has devoured him, and we shall see what will become of his dreams.” But when Reuben heard it, he delivered him out of their hands, saying, “Let us not take his life.” Reuben said to them, “Shed no blood; throw him into this pit here in the wilderness, but lay no hand on him”—that he might rescue him out of their hand and restore him to his father. So when Joseph came to his brothers, they stripped him of his robe, the long robe with sleeves that he wore; and they took him and threw him into a pit. The pit was empty; there was no water in it."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Then they sat down to eat; and looking up they saw a caravan of Ishmaelites coming from Gilead, with their camels carrying gum, balm, and resin, on their way to carry it down to Egypt. Then Judah said to his brothers, “What profit is it if we kill our brother and conceal his blood? Come, let us sell him to the Ishmaelites, and not lay our hands on him, for he is our brother, our own flesh.” And his brothers agreed. When some Midianite traders passed by, they drew Joseph up, lifting him out of the pit, and sold him to the Ishmaelites for twenty pieces of silver. And they took Joseph to Egypt."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 105, vv. 16 - 17, 18 - 19, 20 - 21",
+                  "response": "Remember the marvels the Lord has done.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "When he summoned famine against the land, \nand broke every staff of bread,",
+                                    "he had sent a man ahead of them, \nJoseph, who was sold as a slave."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "His feet were hurt with fetters, \nhis neck was put in a collar of iron;",
+                                    "until what he had said came to pass, \nthe word of the Lord kept testing him."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The king sent and released him; \nthe ruler of the peoples set him free.",
+                                    "He made him lord of his house, \nand ruler of all his possessions."
+                              ]
+                        }
+                  ]
+            },
+            "gradual": {
+                  "verse_number": "John ch. 3, v. 16",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "God so loved the world that he gave his only-begotten Son, so that everyone who believes in him might have eternal life."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 21, vv. 33 - 43, 45 - 46",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to the chief priests and the elders of the people: “Listen to another parable. There was a landowner who planted a vineyard, put a fence around it, dug a wine press in it, and built a watchtower. Then he leased it to tenants and went to another country. When the harvest time had come, he sent his slaves to the tenants to collect his produce. But the tenants seized his slaves and beat one, killed another, and stoned another. Again he sent other slaves, more than the first; and they treated them in the same way. Finally he sent his son to them, saying, ‘They will respect my son.’ But when the tenants saw the son, they said to themselves, ‘This is the heir; come, let us kill him and get his inheritance.’ So they seized him, threw him out of the vineyard, and killed him. Now when the owner of the vineyard comes, what will he do to those tenants?” They said to him, “He will put those wretches to a miserable death, and lease the vineyard to other tenants who will give him the produce at the harvest time.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to them, “Have you never read in the scriptures:"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "‘The stone that the builders rejected \nhas become the cornerstone;",
+                                    "this was the Lord’s doing, \nand it is amazing in our eyes’?"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Therefore I tell you, the kingdom of God will be taken away from you and given to a people that produces the fruits of the kingdom."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "When the chief priests and the Pharisees heard his parables, they realized that he was speaking about them. They wanted to arrest him, but they feared the crowds, because they regarded him as a prophet."
+                              ]
+                        }
+                  ]
+            }
+      }
+}
