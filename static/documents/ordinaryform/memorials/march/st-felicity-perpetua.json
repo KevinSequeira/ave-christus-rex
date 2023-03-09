@@ -1,0 +1,173 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_felicity_perpetua.jpeg')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "The souls of the Saints are rejoicing in heaven,",
+                                    "the Saints who followed the footsteps of Christ,",
+                                    "and since for love of him they shed their blood,",
+                                    "they now exult with Christ for ever."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, at the urging of whose love",
+                        "the Martyrs Saints Perpetua and Felicity",
+                        "defied their persecutors and overcame the torment of death,",
+                        "grant, we ask, by their prayers, that we may ever grow in",
+                        "your love."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "As we joyfully offer, O Lord, this day’s sacrifice,",
+                        "recalling the heaven-sent victory of Saints Perpetua and Felicity,",
+                        "we proclaim by it your mighty deeds",
+                        "and rejoice at having gained their glorious intercession."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "2 Corinthians ch. 4, v. 11",
+                  "content": [
+                        {
+                              "p": [
+                                    "For the sake of Jesus we are given up to death,",
+                                    "that the life of Jesus may be manifested in our mortal flesh."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "As we draw everlasting joys, O Lord,",
+                        "from our participation in this Sacrament",
+                        "and from the Memorial of Saints Perpetua and Felicity,",
+                        "we humbly implore,",
+                        "that by your gift we may truly understand",
+                        "what you grant us to enact in diligent service."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Romans ch. 8, vv. 31b - 39",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: If God is for us, who is against us? He who did not withhold his own Son, but gave him up for all of us, will he not with him also give us everything else? Who will bring any charge against God’s elect? It is God who justifies. Who is to condemn? It is Christ Jesus, who died, yes, who was raised, who is at the right hand of God, who indeed intercedes for us. Who will separate us from the love of Christ? Will hardship, or distress, or persecution, or famine, or nakedness, or peril, or sword? As it is written,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“For your sake we are being killed all day long; \nwe are accounted as sheep to be slaughtered.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "No, in all these things we are more than conquerors through him who loved us. For I am convinced that neither death, nor life, nor angels, nor rulers, nor things present, nor things to come, nor powers, nor height, nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 124, vv. 1 - 2, 3 - 4, 6cd - 7",
+                  "response": "Our soul has been rescued like a bird from the fowler's snare.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "If it had not been the Lord who was on our side \n—let Israel now say—",
+                                    "if it had not been the Lord who was on our side, \nwhen our enemies attacked us."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Then they would have swallowed us up alive, \nwhen their anger was kindled against us;",
+                                    "then the flood would have swept us away, \nthe torrent would have gone over us."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The snare is broken, \nand we have escaped.",
+                                    "Our help is in the name of the Lord, \nwho made heaven and earth."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Te Deum",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "We praise you, O God, we acclaim you as Lord;",
+                                    "the white-robed army of Martyrs praise you."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 10, vv. 34 - 39",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his Apostles: “Do not think that I have come to bring peace to the earth; I have not come to bring peace, but a sword."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For I have come to set a man against his father, \nand a daughter against her mother, \nand a daughter-in-law against her mother-in-law; \nand one’s foes will be members of one’s own household."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Whoever loves father or mother more than me is not worthy of me; and whoever loves son or daughter more than me is not worthy of me; and whoever does not take up the cross and follow me is not worthy of me. Those who find their life will lose it, and those who lose their life for my sake will find it.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

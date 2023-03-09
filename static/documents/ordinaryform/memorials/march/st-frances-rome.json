@@ -1,0 +1,183 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_frances_rome.jpeg')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Proverbs ch. 31, vv. 30, 28",
+                  "content": [
+                        {
+                              "p": [
+                                    "The woman who fears the Lord will herself be praised.",
+                                    "Her children have called her most blessed,",
+                                    "her husband has sung her praises."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Proverbs ch. 31, vv. 20, 27",
+                  "content": [
+                        {
+                              "p": [
+                                    "She reaches out her hands to the needy",
+                                    "and extends her arms to the poor.",
+                                    "She did not eat her food in idleness."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who have given us in Saint Frances of Rome",
+                        "a singular model of both married and monastic life,",
+                        "grant us perseverance in your service,",
+                        "that in every circumstance of life we may see and follow you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "We bring you these sacrificial gifts, O Lord,",
+                        "to commemorate Saint Frances of Rome,",
+                        "humbly entreating",
+                        "that they may bestow on us both pardon and salvation."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Matthew ch. 13, vv. 45, 46",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Kingdom of Heaven is like a merchant",
+                                    "who travels in search of fine pearls",
+                                    "and who, on finding one of great price,",
+                                    "sold everything and bought it."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May the working of this divine Sacrament",
+                        "enlighten and inflame us, almighty God,",
+                        "on this feast day of Saint Frances of Rome,",
+                        "that we may be ever fervent with holy desires",
+                        "and abound in good works."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Proverbs ch. 31, vv. 10 - 13",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "A capable wife who can find? \nShe is far more precious than jewels.",
+                                          "The heart of her husband trusts in her, \nand he will have no lack of gain.",
+                                          "She does him good, and not harm, \nall the days of her life.",
+                                          "She seeks wool and flax, \nand works with willing hands."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "She puts her hands to the distaff, \nand her hands hold the spindle.",
+                                          "She opens her hand to the poor, \nand reaches out her hands to the needy."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Charm is deceitful, and beauty is vain, \nbut a woman who fears the Lord is to be praised.",
+                                          "Give her a share in the fruit of her hands, \nand let her works praise her in the city gates."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 34, vv. 1 - 2, 3 - 4, 5 - 6, 7 - 8",
+                  "response": "The Lord delivered me from all my fears.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I will bless the Lord at all times; \nhis praise shall continually be in my mouth.",
+                                    "My soul makes its boast in the Lord; \nlet the humble hear and be glad."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O magnify the Lord with me, \nand let us exalt his name together.",
+                                    "I sought the Lord, and he answered me, \nand delivered me from all my fears."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Look to him, and be radiant; \nso your faces shall never be ashamed.",
+                                    "This poor soul cried, and was heard by the Lord, \nand was saved from every trouble."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The angel of the Lord encamps \naround those who fear him, and delivers them.",
+                                    "O taste and see that the Lord is good; \nhappy are those who take refuge in him."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 23, vv. 11, 12b",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The greatest among you must be your servant. Whoever humbles himself will be exalted."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 22, vv. 34 - 40",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "When the Pharisees heard that he had silenced the Sadducees, they gathered together, and one of them, a lawyer, asked Jesus a question to test him. “Teacher, which commandment in the law is the greatest?” He said to him, “‘You shall love the Lord your God with all your heart, and with all your soul, and with all your mind.’ This is the greatest and first commandment. And a second is like it: ‘You shall love your neighbor as yourself.’ On these two commandments hang all the law and the prophets.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}
