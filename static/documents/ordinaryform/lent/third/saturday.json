@@ -1,14 +1,14 @@
 {
-      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_02.jpg')",
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_03.jpg')",
       "liturgy_background_position": "bottom",
       "opening_antiphon": [
             {
-                  "verse_number": "Cf. Psalm 145, vv. 8, 9",
+                  "verse_number": "Psalm 103, vv. 2, 3",
                   "content": [
                         {
                               "p": [
-                                    "The Lord is kind and full of compassion, slow to anger, abounding in mercy.",
-                                    "How good is the Lord to all, compassionate to all his creatures."
+                                    "Bless the Lord, O my soul, and never forget all his benefits;",
+                                    "it is he who forgives all your sins."
                               ]
                         }
                   ]
@@ -18,10 +18,11 @@
       "collect": [
             {
                   "p": [
-                        "O God, who grant us by glorious healing remedies while still on earth",
-                        "to be partakers of the things of heaven,",
-                        "guide us, we pray, through this present life",
-                        "and bring us to that light in which you dwell."
+                        "Rejoicing in this annual celebration",
+                        "of our Lenten observance,",
+                        "we pray, O Lord,",
+                        "that, with our hearts set on the paschal mysteries,",
+                        "we may be gladdened by their full effects."
                   ]
             },
             {
@@ -36,10 +37,12 @@
       "offertory": [
             {
                   "p": [
-                        "Through these sacred gifts, we pray, O Lord,",
-                        "may our redemption yield its fruits,",
-                        "restraining us from unruly desires",
-                        "and leading us onward to the gifts of salvation."
+                        "O God, by whose grace it comes to pass",
+                        "that we may approach your mysteries",
+                        "with minds made pure,",
+                        "grant, we pray,",
+                        "that, in reverently handing them on,",
+                        "we may offer you fitting homage."
                   ]
             },
             {
@@ -50,13 +53,12 @@
       ],
       "communion_antiphon": [
             {
-                  "verse_number": "Luke ch. 15, v. 32",
+                  "verse_number": "Luke ch. 18, v. 13",
                   "content": [
                         {
                               "p": [
-                                    "You must rejoice, my son,",
-                                    "for your brother was dead and has come to life;",
-                                    "he was lost and is found."
+                                    "The tax collector stood at a distance, beating his breast and saying:",
+                                    "O God, be merciful to me, a sinner."
                               ]
                         }
                   ]
@@ -65,10 +67,10 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "May your divine Sacrament, O Lord, which we have received,",
-                        "fill the inner depths of our heart",
-                        "and, by its working mightily within us,",
-                        "make us partakers of its grace."
+                        "May we truly revere, O merciful God,",
+                        "these holy gifts, by which you ceaselessly nourish us,",
+                        "and may we always partake of them",
+                        "with abundant faith in our heart."
                   ]
             },
             {
@@ -80,10 +82,10 @@
       "prayer_over_the_people": [
             {
                   "p": [
-                        "May the ears of your mercy be open, O Lord,",
-                        "to the prayers of those who call upon you;",
-                        "and that you may grant what they desire,",
-                        "have them ask what is pleasing to you."
+                        "Hold out to your faithful people, Lord,",
+                        "the right hand of heavenly assistance,",
+                        "that they may seek you with all their heart",
+                        "and merit the granting of what they ask."
                   ]
             },
             {
@@ -95,101 +97,75 @@
       "year_a": {
             "first_reading": [
                   {
-                        "verse_number": "Micah ch. 7, vv. 14 - 15, 18 - 20",
+                        "verse_number": "Hosea ch. 6, vv. 1 - 6",
                         "content": [
                               {
                                     "content_type": "stanza",
                                     "p": [
-                                          "Shepherd your people with your staff, \nthe flock that belongs to you,",
-                                          "which lives alone in a forest \nin the midst of a garden land;",
-                                          "let them feed in Bashan and Gilead \nas in the days of old.",
-                                          "As in the days when you came out of the land of Egypt, \nshow us marvelous things."
+                                          "“Come, let us return to the Lord; \nfor it is he who has torn, and he will heal us; \nhe has struck down, and he will bind us up.",
+                                          "After two days he will revive us; \non the third day he will raise us up, \nthat we may live before him.",
+                                          "Let us know, let us press on to know the Lord; \nhis appearing is as sure as the dawn;",
+                                          "he will come to us like the showers, \nlike the spring rains that water the earth.”"
                                     ]
                               },
                               {
                                     "content_type": "stanza",
                                     "p": [
-                                          "Who is a God like you, pardoning iniquity \nand passing over the transgression \nof the remnant of your possession?",
-                                          "He does not retain his anger forever, \nbecause he delights in showing clemency.",
-                                          "He will again have compassion upon us; \nhe will tread our iniquities under foot.",
-                                          "You will cast all our sins \ninto the depths of the sea.",
-                                          "You will show faithfulness to Jacob \nand unswerving loyalty to Abraham,",
-                                          "as you have sworn to our ancestors \nfrom the days of old."
+                                          "What shall I do with you, O Ephraim? \nWhat shall I do with you, O Judah?",
+                                          "Your love is like a morning cloud, \nlike the dew that goes away early.",
+                                          "Therefore I have hewn them by the prophets, \nI have killed them by the words of my mouth, \nand my judgment goes forth as the light.",
+                                          "For I desire steadfast love and not sacrifice, \nthe knowledge of God rather than burnt offerings."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 103, vv. 1 - 2, 3 - 4, 9 - 10, 11 - 12",
-                  "response": "The Lord is kind and merciful.",
+                  "verse_number": "Psalm 51, vv. 3 - 4, 18 - 19, 20 - 21ab",
+                  "response": "It is mercy I desire, and not sacrifice.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Bless the Lord, O my soul, \nand all that is within me, \nbless his holy name.",
-                                    "Bless the Lord, O my soul, \nand do not forget all his benefits"
+                                    "Have mercy on me, O God, \naccording to your steadfast love;",
+                                    "according to your abundant mercy \nblot out my transgressions.",
+                                    "Wash me thoroughly from my iniquity, \nand cleanse me from my sin."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Who forgives all your iniquity, \nwho heals all your diseases,",
-                                    "who redeems your life from the Pit, \nwho crowns you with steadfast love and mercy."
+                                    "For you have no delight in sacrifice; \nif I were to give a burnt offering, you would not be pleased.",
+                                    "The sacrifice acceptable to God is a broken spirit; \na broken and contrite heart, O God, you will not despise."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "He will not always accuse, \nnor will he keep his anger forever.",
-                                    "He does not deal with us according to our sins, \nnor repay us according to our iniquities."
-                              ]
-                        },
-                        {
-                              "content_type": "stanza",
-                              "p": [
-                                    "For as the heavens are high above the earth, \nso great is his steadfast love toward those who fear him;",
-                                    "as far as the east is from the west, \nso far he removes our transgressions from us."
+                                    "Do good to Zion in your good pleasure; \nrebuild the walls of Jerusalem,",
+                                    "then you will delight in right sacrifices, \nin burnt offerings and whole burnt offerings."
                               ]
                         }
                   ]
             },
             "gradual": {
-                  "verse_number": "Luke ch. 15, v. 18",
+                  "verse_number": "See Psalm 95, v. 8",
                   "acclamation": "Glory and praise to you, Lord Jesus Christ!",
                   "content": [
                         {
                               "p": [
-                                    "I will get up and go to my father and shall say to him, Father, I have sinned against heaven and against you."
+                                    "If today you hear his voice, harden not your hearts."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Luke ch. 15, vv. 1 - 3, 11 - 32",
+                  "verse_number": "Luke ch. 18, vv. 9 - 14",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Now all the tax collectors and sinners were coming near to listen to Jesus. And the Pharisees and the scribes were grumbling and saying, “This fellow welcomes sinners and eats with them.”"
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "So he told them this parable:"
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "“There was a man who had two sons. The younger of them said to his father, ‘Father, give me the share of the property that will belong to me.’ So he divided his property between them. A few days later the younger son gathered all he had and traveled to a distant country, and there he squandered his property in dissolute living. When he had spent everything, a severe famine took place throughout that country, and he began to be in need. So he went and hired himself out to one of the citizens of that country, who sent him to his fields to feed the pigs. He would gladly have filled himself with the pods that the pigs were eating; and no one gave him anything. But when he came to himself he said, ‘How many of my father’s hired hands have bread enough and to spare, but here I am dying of hunger! I will get up and go to my father, and I will say to him, “Father, I have sinned against heaven and before you; I am no longer worthy to be called your son; treat me like one of your hired hands.”’ So he set off and went to his father. But while he was still far off, his father saw him and was filled with compassion; he ran and put his arms around him and kissed him. Then the son said to him, ‘Father, I have sinned against heaven and before you; I am no longer worthy to be called your son.’ But the father said to his slaves, ‘Quickly, bring out a robe—the best one—and put it on him; put a ring on his finger and sandals on his feet. And get the fatted calf and kill it, and let us eat and celebrate; for this son of mine was dead and is alive again; he was lost and is found!’ And they began to celebrate."
-                              ]
-                        },
-                        {
-                              "content_type": "paragraph",
-                              "p": [
-                                    "“Now his elder son was in the field; and when he came and approached the house, he heard music and dancing. He called one of the slaves and asked what was going on. He replied, ‘Your brother has come, and your father has killed the fatted calf, because he has got him back safe and sound.’ Then he became angry and refused to go in. His father came out and began to plead with him. But he answered his father, ‘Listen! For all these years I have been working like a slave for you, and I have never disobeyed your command; yet you have never given me even a young goat so that I might celebrate with my friends. But when this son of yours came back, who has devoured your property with prostitutes, you killed the fatted calf for him!’ Then the father said to him, ‘Son, you are always with me, and all that is mine is yours. But we had to celebrate and rejoice, because this brother of yours was dead and has come to life; he was lost and has been found.’”"
+                                    "Jesus told this parable to some who trusted in themselves that they were righteous and regarded others with contempt: “Two men went up to the temple to pray, one a Pharisee and the other a tax collector. The Pharisee, standing by himself, was praying thus, ‘God, I thank you that I am not like other people: thieves, rogues, adulterers, or even like this tax collector. I fast twice a week; I give a tenth of all my income.’ But the tax collector, standing far off, would not even look up to heaven, but was beating his breast and saying, ‘God, be merciful to me, a sinner!’ I tell you, this man went down to his home justified rather than the other; for all who exalt themselves will be humbled, but all who humble themselves will be exalted.”"
                               ]
                         }
                   ]

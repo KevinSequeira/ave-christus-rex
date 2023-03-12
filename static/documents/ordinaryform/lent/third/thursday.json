@@ -1,15 +1,15 @@
 {
-      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_02.jpg')",
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_03.jpg')",
       "liturgy_background_position": "bottom",
       "opening_antiphon": [
             {
-                  "verse_number": "Cf. Psalm 139, vv. 23, 24",
+                  "verse_number": "",
                   "content": [
                         {
                               "p": [
-                                    "Test me, O God, and know my thoughts.",
-                                    "See that my path is not wicked,",
-                                    "and lead me in the way everlasting."
+                                    "I am the salvation of the people, says the Lord.",
+                                    "Should they cry to me in any distress,",
+                                    "I will hear them, and I will be their Lord for ever."
                               ]
                         }
                   ]
@@ -19,11 +19,10 @@
       "collect": [
             {
                   "p": [
-                        "O God, who delight in innocence and restore it,",
-                        "direct the hearts of your servants to yourself,",
-                        "that, caught up in the fire of your Spirit,",
-                        "we may be found steadfast in faith",
-                        "and effective in works."
+                        "We implore your majesty most humbly, O Lord,",
+                        "that, as the feast of our salvation draws ever closer,",
+                        "so we may press forward all the more eagerly",
+                        "towards the worthy celebration of the Paschal Mystery."
                   ]
             },
             {
@@ -38,10 +37,11 @@
       "offertory": [
             {
                   "p": [
-                        "By this present sacrifice, we pray, O Lord,",
-                        "sanctify our observance,",
-                        "that what Lenten discipline outwardly declares",
-                        "it may inwardly bring about."
+                        "Cleanse your people, Lord, we pray,",
+                        "from every taint of wickedness,",
+                        "that their gifts may be pleasing to you;",
+                        "and do not let them cling to false joys,",
+                        "for you promise them the rewards of your truth."
                   ]
             },
             {
@@ -52,12 +52,12 @@
       ],
       "communion_antiphon": [
             {
-                  "verse_number": "Psalm 119, v. 1",
+                  "verse_number": "Psalm 119, vv. 4, 5",
                   "content": [
                         {
                               "p": [
-                                    "Blessed are those whose way is blameless,",
-                                    "who walk in the law of the Lord."
+                                    "You have laid down your precepts to be carefully kept;",
+                                    "may my ways be firm in keeping your statutes."
                               ]
                         }
                   ]
@@ -66,9 +66,10 @@
       "prayer_after_communion": [
             {
                   "p": [
-                        "May this sacrifice, O God,",
-                        "remain active in its effects",
-                        "and work ever more strongly within us."
+                        "Graciously raise up, O Lord,",
+                        "those you renew with this Sacrament,",
+                        "that we may come to possess your salvation",
+                        "both in mystery and in the manner of our life."
                   ]
             },
             {
@@ -80,10 +81,11 @@
       "prayer_over_the_people": [
             {
                   "p": [
-                        "Abide with your servants, O Lord,",
-                        "who implore the help of your grace,",
-                        "that they may receive from you",
-                        "the support and guidance of your protection."
+                        "We call on your loving kindness",
+                        "and trust in your mercy, O Lord,",
+                        "that, since we have from you all that we are,",
+                        "through your grace we may seek what is right",
+                        "and have strength to do the good we desire."
                   ]
             },
             {
@@ -95,7 +97,7 @@
       "year_a": {
             "first_reading": [
                   {
-                        "verse_number": "Jeremiah ch. 17, vv. 5 - 10",
+                        "verse_number": "Jeremiah ch. 7, vv. 23 - 28",
                         "content": [
                               {
                                     "content_type": "paragraph",
@@ -104,80 +106,66 @@
                                     ]
                               },
                               {
-                                    "content_type": "stanza",
+                                    "content_type": "paragraph",
                                     "p": [
-                                          "Cursed are those who trust in mere mortals \nand make mere flesh their strength, \nwhose hearts turn away from the Lord.",
-                                          "They shall be like a shrub in the desert, \nand shall not see when relief comes.",
-                                          "They shall live in the parched places of the wilderness, \nin an uninhabited salt land."
+                                          "This command I gave my people, “Obey my voice, and I will be your God, and you shall be my people; and walk only in the way that I command you, so that it may be well with you.” Yet they did not obey or incline their ear, but, in the stubbornness of their evil will, they walked in their own counsels, and looked backward rather than forward. From the day that your ancestors came out of the land of Egypt until this day, I have persistently sent all my servants the prophets to them, day after day; yet they did not listen to me, or pay attention, but they stiffened their necks. They did worse than their ancestors did."
                                     ]
                               },
                               {
-                                    "content_type": "stanza",
+                                    "content_type": "paragraph",
                                     "p": [
-                                          "Blessed are those who trust in the Lord, \nwhose trust is the Lord.",
-                                          "They shall be like a tree planted by water, \nsending out its roots by the stream.",
-                                          "It shall not fear when heat comes, \nand its leaves shall stay green;",
-                                          "in the year of drought it is not anxious, \nand it does not cease to bear fruit."
-                                    ]
-                              },
-                              {
-                                    "content_type": "stanza",
-                                    "p": [
-                                          "The heart is devious above all else; \nit is perverse— \nwho can understand it?",
-                                          "I the Lord test the mind \nand search the heart,",
-                                          "to give to all according to their ways, \naccording to the fruit of their doings."
+                                          "So you shall speak all these words to them, but they will not listen to you. You shall call to them, but they will not answer you. You shall say to them: This is the nation that did not obey the voice of the Lord their God, and did not accept discipline; truth has perished; it is cut off from their lips."
                                     ]
                               }
                         ]
                   }
             ],
             "first_responsorial_psalm": {
-                  "verse_number": "Psalm 1, vv. 1 - 2, 3, 4 and 6",
-                  "response": "Blessed are they who hope in the Lord.",
+                  "verse_number": "Psalm 95, vv. 1 - 2, 6 - 7, 8 - 9",
+                  "response": "If today you hear his voice, harden not your hearts.",
                   "content": [
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "Happy are those \nwho do not follow the advice of the wicked,",
-                                    "or take the path that sinners tread, \nor sit in the seat of scoffers;",
-                                    "but their delight is in the law of the Lord, \nand on his law they meditate day and night."
+                                    "O come, let us sing to the Lord; \nlet us make a joyful noise to the rock of our salvation!",
+                                    "Let us come into his presence with thanksgiving; \nlet us make a joyful noise to him with songs of praise!"
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "They are like trees \nplanted by streams of water,",
-                                    "which yield their fruit in its season, \nand their leaves do not wither.",
-                                    "In all that they do, they prosper."
+                                    "O come, let us worship and bow down, \nlet us kneel before the Lord, our Maker!",
+                                    "For he is our God, \nand we are the people of his pasture, \nand the sheep of his hand."
                               ]
                         },
                         {
                               "content_type": "stanza",
                               "p": [
-                                    "The wicked are not so, \nbut are like chaff that the wind drives away.",
-                                    "For the Lord watches over the way of the righteous, \nbut the way of the wicked will perish."
+                                    "O that today you would listen to his voice!",
+                                    "Do not harden your hearts, as at Meribah, \nas on the day at Massah in the wilderness,",
+                                    "when your ancestors tested me, \nand put me to the proof, though they had seen my work."
                               ]
                         }
                   ]
             },
-            "gospel_acclamation": {
-                  "verse_number": "See Luke ch. 8, v. 15",
-                  "acclamation": "Alleluia! Alleluia!",
+            "gradual": {
+                  "verse_number": "Joel ch. 2, vv. 12, 13",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
                   "content": [
                         {
                               "p": [
-                                    "Blessed are they who have kept the word with a generous heart, and yield a harvest through perseverance."
+                                    "Even now, says the Lord, return to me with your whole heart; for I am gracious and merciful."
                               ]
                         }
                   ]
             },
             "gospel_reading": {
-                  "verse_number": "Luke ch. 16, vv. 19 - 31",
+                  "verse_number": "Luke ch. 11, vv. 14 - 23",
                   "content": [
                         {
                               "content_type": "paragraph",
                               "p": [
-                                    "Jesus said to the Pharisees: “There was a rich man who was dressed in purple and fine linen and who feasted sumptuously every day. And at his gate lay a poor man named Lazarus, covered with sores, who longed to satisfy his hunger with what fell from the rich man’s table; even the dogs would come and lick his sores. The poor man died and was carried away by the angels to be with Abraham. The rich man also died and was buried. In Hades, where he was being tormented, he looked up and saw Abraham far away with Lazarus by his side. He called out, ‘Father Abraham, have mercy on me, and send Lazarus to dip the tip of his finger in water and cool my tongue; for I am in agony in these flames.’ But Abraham said, ‘Child, remember that during your lifetime you received your good things, and Lazarus in like manner evil things; but now he is comforted here, and you are in agony. Besides all this, between you and us a great chasm has been fixed, so that those who might want to pass from here to you cannot do so, and no one can cross from there to us.’ He said, ‘Then, father, I beg you to send him to my father’s house— for I have five brothers—that he may warn them, so that they will not also come into this place of torment.’ Abraham replied, ‘They have Moses and the prophets; they should listen to them.’ He said, ‘No, father Abraham; but if someone goes to them from the dead, they will repent.’ He said to him, ‘If they do not listen to Moses and the prophets, neither will they be convinced even if someone rises from the dead.’”"
+                                    "Jesus he was casting out a demon that was mute; when the demon had gone out, the one who had been mute spoke, and the crowds were amazed. But some of them said, “He casts out demons by Beelzebul, the ruler of the demons.” Others, to test him, kept demanding from him a sign from heaven. But he knew what they were thinking and said to them, “Every kingdom divided against itself becomes a desert, and house falls on house. If Satan also is divided against himself, how will his kingdom stand? —for you say that I cast out the demons by Beelzebul. Now if I cast out the demons by Beelzebul, by whom do your exorcists cast them out? Therefore they will be your judges. But if it is by the finger of God that I cast out the demons, then the kingdom of God has come to you. When a strong man, fully armed, guards his castle, his property is safe. But when one stronger than he attacks him and overpowers him, he takes away his armor in which he trusted and divides his plunder. Whoever is not with me is against me, and whoever does not gather with me scatters.”"
                               ]
                         }
                   ]
