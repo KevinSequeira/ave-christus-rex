@@ -1,0 +1,174 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_03.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "I am the salvation of the people, says the Lord.",
+                                    "Should they cry to me in any distress,",
+                                    "I will hear them, and I will be their Lord for ever."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "We implore your majesty most humbly, O Lord,",
+                        "that, as the feast of our salvation draws ever closer,",
+                        "so we may press forward all the more eagerly",
+                        "towards the worthy celebration of the Paschal Mystery."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "offertory": [
+            {
+                  "p": [
+                        "Cleanse your people, Lord, we pray,",
+                        "from every taint of wickedness,",
+                        "that their gifts may be pleasing to you;",
+                        "and do not let them cling to false joys,",
+                        "for you promise them the rewards of your truth."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Psalm 119, vv. 4, 5",
+                  "content": [
+                        {
+                              "p": [
+                                    "You have laid down your precepts to be carefully kept;",
+                                    "may my ways be firm in keeping your statutes."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Graciously raise up, O Lord,",
+                        "those you renew with this Sacrament,",
+                        "that we may come to possess your salvation",
+                        "both in mystery and in the manner of our life."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "We call on your loving kindness",
+                        "and trust in your mercy, O Lord,",
+                        "that, since we have from you all that we are,",
+                        "through your grace we may seek what is right",
+                        "and have strength to do the good we desire."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Jeremiah ch. 7, vv. 23 - 28",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Thus says the Lord:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "This command I gave my people, “Obey my voice, and I will be your God, and you shall be my people; and walk only in the way that I command you, so that it may be well with you.” Yet they did not obey or incline their ear, but, in the stubbornness of their evil will, they walked in their own counsels, and looked backward rather than forward. From the day that your ancestors came out of the land of Egypt until this day, I have persistently sent all my servants the prophets to them, day after day; yet they did not listen to me, or pay attention, but they stiffened their necks. They did worse than their ancestors did."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "So you shall speak all these words to them, but they will not listen to you. You shall call to them, but they will not answer you. You shall say to them: This is the nation that did not obey the voice of the Lord their God, and did not accept discipline; truth has perished; it is cut off from their lips."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 95, vv. 1 - 2, 6 - 7, 8 - 9",
+                  "response": "If today you hear his voice, harden not your hearts.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O come, let us sing to the Lord; \nlet us make a joyful noise to the rock of our salvation!",
+                                    "Let us come into his presence with thanksgiving; \nlet us make a joyful noise to him with songs of praise!"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O come, let us worship and bow down, \nlet us kneel before the Lord, our Maker!",
+                                    "For he is our God, \nand we are the people of his pasture, \nand the sheep of his hand."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O that today you would listen to his voice!",
+                                    "Do not harden your hearts, as at Meribah, \nas on the day at Massah in the wilderness,",
+                                    "when your ancestors tested me, \nand put me to the proof, though they had seen my work."
+                              ]
+                        }
+                  ]
+            },
+            "gradual": {
+                  "verse_number": "Joel ch. 2, vv. 12, 13",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Even now, says the Lord, return to me with your whole heart; for I am gracious and merciful."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 11, vv. 14 - 23",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus he was casting out a demon that was mute; when the demon had gone out, the one who had been mute spoke, and the crowds were amazed. But some of them said, “He casts out demons by Beelzebul, the ruler of the demons.” Others, to test him, kept demanding from him a sign from heaven. But he knew what they were thinking and said to them, “Every kingdom divided against itself becomes a desert, and house falls on house. If Satan also is divided against himself, how will his kingdom stand? —for you say that I cast out the demons by Beelzebul. Now if I cast out the demons by Beelzebul, by whom do your exorcists cast them out? Therefore they will be your judges. But if it is by the finger of God that I cast out the demons, then the kingdom of God has come to you. When a strong man, fully armed, guards his castle, his property is safe. But when one stronger than he attacks him and overpowers him, he takes away his armor in which he trusted and divides his plunder. Whoever is not with me is against me, and whoever does not gather with me scatters.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}
