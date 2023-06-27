@@ -9,7 +9,7 @@
 }
 
 .jumbotronBackground {
-      background: linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../images/Large/Signum Crucis.jpg');
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Signum Crucis.jpg');
       background-size: cover;
       background-position: top;
       padding: 0px 0px 0px 0px;
@@ -49,7 +49,7 @@
       height: inherit;
 }
 
-.carouselInnerForJumbotron > .liturgyForTheDay {
+.carouselInnerForJumbotron > .mainScreen {
       padding-left: 50px;
       padding-right: 60px;
       position: absolute !important;
@@ -58,21 +58,21 @@
       bottom: 80px !important;
 }
 
-.liturgyForTheDay > p.liturgyForTheDayForm {
+.mainScreen > p.mainScreenForm {
       margin: 0px 0px 12px 0px;
       font-size: 20px;
       line-height: 24px;
       font-family: 'Merriweather', serif;
 }
 
-.liturgyForTheDay > h1.liturgyForTheDayHeader {
+.mainScreen > h1.mainScreenHeader {
       font-family: 'Vollkorn SC', serif;
       margin: 0px 0px 10px -2px;
       font-size: 50px;
       line-height: 34px;
 }
 
-.liturgyForTheDay > p.liturgyForTheDayWeek {
+.mainScreen > p.mainScreenWeek {
       font-size: 20px;
       font-family: 'Merriweather', serif;
 }
@@ -114,7 +114,7 @@ p.memorialForTheDayWeek {
       padding-left: 10px;
 }
 
-.liturgyForTheDay > .btn {
+.mainScreen > .btn {
       border: 2px solid #FFFFFF;
       border-radius: 0px;
       background-color: transparent;
@@ -125,18 +125,18 @@ p.memorialForTheDayWeek {
       cursor: pointer;
 }
 
-.liturgyForTheDay > .default {
+.mainScreen > .default {
       background-color: transparent;
       border-color: #FFFFFF;
       color: #FFFFFF;
 }
 
-.liturgyForTheDay > .default:hover {
+.mainScreen > .default:hover {
       color: #FFFFFF;
       background-color: rgba(255,255,255,0.4);
 }
 
-.liturgyForTheDay > .btn:focus,.btn:active {
+.mainScreen > .btn:focus,.btn:active {
    outline: none !important;
    box-shadow: none;
    background: #FFFFFF;
@@ -207,8 +207,7 @@ p.memorialForTheDayWeek {
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../images/Large/Signum Crucis.jpg');
-            background: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../images/Large/Signum Crucis.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Signum Crucis.jpg');
             background-size: cover;
             background-position: center;
             position: relative;
@@ -242,7 +241,7 @@ p.memorialForTheDayWeek {
             height: inherit;
       }
 
-      .carouselInnerForJumbotron > .liturgyForTheDay {
+      .carouselInnerForJumbotron > .mainScreen {
             padding-left: 30px;
             padding-right: 30px;
             position: absolute !important;
@@ -251,20 +250,20 @@ p.memorialForTheDayWeek {
             bottom: 60px !important;
       }
 
-      .liturgyForTheDay > p.liturgyForTheDayForm {
+      .mainScreen > p.mainScreenForm {
             margin: 0px 0px 10px 0px;
             font-size: 18px;
             font-family: 'Merriweather', serif;
       }
 
-      .liturgyForTheDay > h1.liturgyForTheDayHeader {
+      .mainScreen > h1.mainScreenHeader {
             font-family: 'Vollkorn SC', serif;
             margin: 0px 0px 10px -2px;
             font-size: 40px;
             line-height: 30px;
       }
 
-      .liturgyForTheDay > p.liturgyForTheDayWeek {
+      .mainScreen > p.mainScreenWeek {
             font-size: 18px;
             font-family: 'Merriweather', serif;
       }
@@ -308,7 +307,7 @@ p.memorialForTheDayWeek {
             padding-left: 10px;
       }
 
-      .liturgyForTheDay > .btn {
+      .mainScreen > .btn {
             border: 2px solid #FFFFFF;
             border-radius: 0px;
             background-color: transparent;
@@ -319,18 +318,18 @@ p.memorialForTheDayWeek {
             cursor: pointer;
       }
 
-      .liturgyForTheDay > .default {
+      .mainScreen > .default {
             background-color: transparent;
             border-color: #FFFFFF;
             color: #FFFFFF;
       }
 
-      .liturgyForTheDay > .default:hover {
+      .mainScreen > .default:hover {
             color: #FFFFFF;
             background-color: rgba(255,255,255,0.4);
       }
 
-      .liturgyForTheDay > .btn:focus,.btn:active {
+      .mainScreen > .btn:focus,.btn:active {
          outline: none !important;
          box-shadow: none;
          background: #FFFFFF;
@@ -401,8 +400,7 @@ p.memorialForTheDayWeek {
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../images/Large/Signum Crucis.jpg');
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../images/Large/Signum Crucis.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Signum Crucis.jpg');
             height: 400px;
             background-size: cover;
             background-position: right;
@@ -440,7 +438,7 @@ p.memorialForTheDayWeek {
             height: inherit;
       }
 
-      .carouselInnerForJumbotron > .liturgyForTheDay {
+      .carouselInnerForJumbotron > .mainScreen {
             padding-left: 30px;
             padding-right: 40px;
             position: absolute !important;
@@ -449,20 +447,20 @@ p.memorialForTheDayWeek {
             bottom: 60px !important;
       }
 
-      .liturgyForTheDay > p.liturgyForTheDayForm {
+      .mainScreen > p.mainScreenForm {
             margin: 0px 0px 6px 0px;
             font-size: 14px;
             font-family: 'Merriweather', serif;
       }
 
-      .liturgyForTheDay > h1.liturgyForTheDayHeader {
+      .mainScreen > h1.mainScreenHeader {
             font-family: 'Vollkorn SC', serif;
             margin: 0px 0px 6px -2px;
             font-size: 24px;
             line-height: 24px;
       }
 
-      .liturgyForTheDay > p.liturgyForTheDayWeek {
+      .mainScreen > p.mainScreenWeek {
             font-size: 14px;
             font-family: 'Merriweather', serif;
       }
@@ -506,7 +504,7 @@ p.memorialForTheDayWeek {
             padding-left: 15px;
       }
 
-      .liturgyForTheDay > .btn {
+      .mainScreen > .btn {
             border: 2px solid #FFFFFF;
             border-radius: 0px;
             background-color: transparent;
@@ -517,18 +515,18 @@ p.memorialForTheDayWeek {
             cursor: pointer;
       }
 
-      .liturgyForTheDay > .default {
+      .mainScreen > .default {
             background-color: transparent;
             border-color: #FFFFFF;
             color: #FFFFFF;
       }
 
-      .liturgyForTheDay > .default:hover {
+      .mainScreen > .default:hover {
             color: #FFFFFF;
             background-color: rgba(255,255,255,0.4);
       }
 
-      .liturgyForTheDay > .btn:focus,.btn:active {
+      .mainScreen > .btn:focus,.btn:active {
          outline: none !important;
          box-shadow: none;
          background: #FFFFFF;
@@ -600,8 +598,7 @@ p.memorialForTheDayWeek {
       }
 
       .jumbotronBackground {
-            background: linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../images/Large/Signum Crucis.jpg');
-            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../images/Large/Signum Crucis.jpg');
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Signum Crucis.jpg');
             background-size: cover;
             background-position: center;
       }

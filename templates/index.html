@@ -48,31 +48,30 @@
                         <button class="btn default">Read more...</button> -->
 
                         <div id="myCarousel" class="carousel slide carouselForJumbotron" data-ride="carousel">
-
                               <!-- Wrapper for slides -->
                               <div class="carousel-inner carouselInnerForJumbotron">
-                                    <div class="item active liturgyForTheDay carouselSlide001">
-                                          <!-- <div class="liturgyForTheDay"> -->
-                                          <h1 class="liturgyForTheDayHeader">Signum Crucis</h1>
-                                          <p class="liturgyForTheDayWeek">This Trinitarian formula is invoked every time Christians gather in prayer</p>
+                                    <div class="item active mainScreen carouselSlide001">
+                                          <!-- <div class="mainScreen"> -->
+                                          <h1 class="mainScreenHeader">Signum Crucis</h1>
+                                          <p class="mainScreenWeek">An simple but powerful Christian prayer, the Trinitarian formula must be your first resort when faced with spiritual challenges. Learn more about this ancient prayer and what the Saints have to say about it.</p>
                                           <a class="btn default" href="prayers/simpleprayers/signum-crucis" target="_blank" role="button">Read More ...</a>
                                           <!-- </div> -->
                                     </div>
 
-                                    <div class="item liturgyForTheDay">
-                                          <!-- <div class="liturgyForTheDay"> -->
-                                          <p class="liturgyForTheDayForm">New Liturgical Calendar</p>
-                                          <h1 class="liturgyForTheDayHeader">Ordinary Form</h1>
-                                          <p class="liturgyForTheDayWeek">Season of Advent, Cycle B</p>
+                                    <div class="item mainScreen">
+                                          <!-- <div class="mainScreen"> -->
+                                          <p class="mainScreenForm">New Liturgical Calendar</p>
+                                          <h1 class="mainScreenHeader">Ordinary Form</h1>
+                                          <p class="mainScreenWeek">Season of Advent, Cycle B</p>
                                           <a class="btn default disabled" href="ordinaryform/calendar" target="_blank" role="button">Coming soon ...</a>
                                           <!-- </div> -->
                                     </div>
 
-                                    <div class="item liturgyForTheDay">
-                                          <!-- <div class="liturgyForTheDay"> -->
-                                          <p class="liturgyForTheDayForm">Traditional Liturgical Calendar</p>
-                                          <h1 class="liturgyForTheDayHeader">Extraordinary Form</h1>
-                                          <p class="liturgyForTheDayWeek">Season of Advent</p>
+                                    <div class="item mainScreen">
+                                          <!-- <div class="mainScreen"> -->
+                                          <p class="mainScreenForm">Traditional Liturgical Calendar</p>
+                                          <h1 class="mainScreenHeader">Extraordinary Form</h1>
+                                          <p class="mainScreenWeek">Season of Advent</p>
                                           <a class="btn default disabled" href="extraordinaryform/calendar" target="_blank" role="button">Coming soon ...</a>
                                           <!-- </div> -->
                                     </div>
@@ -94,7 +93,7 @@
                                     <div class="memorialForTheDay">
                                           <h1 class="memorialForTheDayHeader">Church Documents</h1>
                                           <p class="memorialForTheDayWeek">Tap into the Wisdom of the Fathers and Doctors through the ages</p>
-                                          <a class="btn default disabled" href="ordinaryform/liturgyfortheday/{{ current_date }}" target="_blank" role="button">Coming soon ...</a>
+                                          <a class="btn default disabled" href="ordinaryform/mainScreen/{{ current_date }}" target="_blank" role="button">Coming soon ...</a>
                                     </div>
                               </div>
                         </div>
@@ -125,7 +124,7 @@
             <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
             <script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>
             <!-- Home Page CSS -->
-            <link href="{% static 'css/cssForHomePage.css' %}" rel="stylesheet">
+            <link href="{% static 'css/index/css-index.css' %}" rel="stylesheet">
             <link href="{% static 'css/footer.css' %}" rel="stylesheet">
       </body>
 </html>

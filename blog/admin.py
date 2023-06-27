@@ -5,6 +5,6 @@ from blog.models import post
 
 class blogAdmin(admin.ModelAdmin):
     list_display = ('blog_title', 'blog_subtitle', 'created_at', 'updated_at',
-        'blog_description', 'blog_tag')
+        'blog_description', 'blog_tag', 'blog_background')
 
 admin.site.register(post, blogAdmin)

@@ -21,7 +21,7 @@ body {
 
 .navbar-brand {
       font-family: 'Montserrat Alternates', sans-serif;
-      font-weight: bold;
+      font-weight: 700;
       line-height: 18px;
 }
 
@@ -67,7 +67,7 @@ body {
 
       .navbar-brand {
             font-family: 'Montserrat Alternates', sans-serif;
-            font-weight: bold;
+            font-weight: 700;
             line-height: 18px;
       }
 
@@ -125,7 +125,7 @@ body {
 
       .navbar-brand {
             font-family: 'Montserrat Alternates', sans-serif;
-            font-weight: bold;
+            font-weight: 900;
             line-height: 18px;
       }
 

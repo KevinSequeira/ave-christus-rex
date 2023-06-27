@@ -10,3 +10,4 @@ class post(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     blog_description = HTMLField()
     blog_tag = models.CharField(max_length = 128)
+    blog_background = models.CharField(max_length = 480)

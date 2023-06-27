@@ -49,7 +49,9 @@
                   </div>
 
                   <div class="blogPostBody">
-                        {% include 'template-parts/blogbody.html' %}
+                        {% autoescape off %}
+                        {{ blog_content }}
+                        {% endautoescape %}
                   </div>
 
                   <hr>
@@ -70,5 +72,14 @@
             <!-- Home Page CSS -->
             <link href="{% static 'css/blog/cssForBlogArticles.css' %}" rel="stylesheet">
             <link href="{% static 'css/footer.css' %}" rel="stylesheet">
+            <style>
+                  {% autoescape off %}
+                  .jumbotronBackground {
+                        background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/{{ blog_background }}');
+                        background-size:cover;
+                        width: 100%;
+                  }
+                  {% endautoescape %}
+            </style>
       </body>
 </html>

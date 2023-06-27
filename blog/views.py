@@ -40,7 +40,7 @@ def blog(request):
             WHEN '12' THEN 'December'
             END || ', ' || STRFTIME('%Y', [updated_at]) AS [updated_at_text]
         FROM [blog_post]
-        ORDER BY [created_at];"""
+        ORDER BY [created_at] DESC;"""
     cursor.execute(sqlite_select_Query)
     record = cursor.fetchall()
     print(record)
@@ -63,7 +63,9 @@ def blogArticle(request, blog_tag = "season-of-advent"):
 
     context = {
         "blog_title": record[0][1],
-        "blog_tagline": record[0][2]
+        "blog_tagline": record[0][2],
+        "blog_content": record[0][5],
+        "blog_background": record[0][7]
     }
 
     return render(request, "blogpost.html", context)

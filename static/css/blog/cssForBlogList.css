@@ -423,7 +423,7 @@ p.blogTitleTagline {
       }
 
       .blogPostBody {
-            padding: 15px 20px 0px 20px;
+            padding: 1px 20px 0px 20px;
       }
 
       .blogPostBody > h2, .blogPostBody > h2:hover, .blogPostBody > a, .blogPostBody > a:hover, .blogPostBody > p, .blogPostBody > p:hover {
@@ -433,7 +433,7 @@ p.blogTitleTagline {
       .blogPostBody > a > h2.blogName {
             font-family: 'Vollkorn SC', serif;
             color: #D7B546;
-            margin: 20px 0px 5px -2px;
+            margin: 25px 0px 5px -2px;
             font-size: 22px;
             line-height: 22px;
             font-style: normal;
