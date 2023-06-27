@@ -1,0 +1,80 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+            <meta name="description" content="">
+            <meta name="author" content="">
+            <link rel="icon" href="{% static 'favicon.ico' %}">
+            <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/navbar/">
+
+            <title>Ave Christus Rex</title>
+
+            <!-- Bootstrap core CSS -->
+            <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+            <link href="{% static 'css/ie10-viewport-bug-workaround.css' %}" rel="stylesheet">
+
+            <!-- Custom styles for this template -->
+            <link href="{% static 'css/navbar.css' %}" rel="stylesheet">
+
+            <!-- This is the link to the fonts taken from Google Fonts! -->
+            <link href="https://fonts.googleapis.com/css?family=Alegreya|Advent+Pro|Bahiana|Averia+Sans+Libre|Balthazar|Belgrano|Black+Ops+One|Bungee+Inline|Cherry+Swash|Coda|Cormorant+Infant|Delius+Swash+Caps|El+Messiri|Euphoria+Script|Expletus+Sans|Fredericka+the+Great|Gafata|Graduate|Italiana|Kotta+One|Kumar+One+Outline|Lemon|Life+Savers|Londrina+Outline|Londrina+Solid|Medula+One|Montserrat+Alternates|Mouse+Memoirs|Mystery+Quest|Oleo+Script|Podkova|Port+Lligat+Slab|Raleway|Revalia|Salsa|Sue+Ellen+Francisco|Tienne|Patua+One|Russo+One|Righteous|Poiret+One|Exo|Lobster+Two|Quattrocento|Days+One|Julius+Sans+One|Jura|Lustria|Josefin+Sans|Yanone+Kaffeesatz|Nunito|Josefin+Slab|Stint+Ultra+Expanded|Junge|Italiana|Life+Savers|Athiti|Londrina+Outline|Scope+One|Kaushan+Script|Kumar+One|Orbitron|Poiret+One|Proza+Libre|Architects+Daughter|Griffy|Open+Sans+Condensed:300|Quicksand|Gloria+Hallelujah|Tulpen+One|Text+Me+One|Love+Ya+Like+A+Sister|Megrim|Cinzel+Decorative|Caveat+Brush|Vollkorn+SC|Laila:wght@600|Sumana|Yatra+One|Sahitya:wght@700Ecar:wght@500|Montserrat|Merriweather&display=swap" rel="stylesheet">
+
+            <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+            <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+            <![endif]-->
+      </head>
+
+      <body>
+
+            <div class="container">
+
+                  {% include 'navbar.html' %}
+
+                  <!-- Main component for a primary marketing message or call to action -->
+                  <div class="jumbotron jumbotronBackground">
+                        <div class="simplePrayers">
+                              <h1 class="simplePrayersHeader">{{ prayerCategory }}</h1>
+                              <p class="simplePrayersTagline">Easy to remember prayers for when we run out of words. Our God is never too far away from us.</p>
+                        </div>
+                  </div>
+
+                  <div class="simplePrayersBody">
+                        {% for prayer in prayers %}
+                        <div class="prayerBody">
+                              <h1 class="prayerBodyHeader">{{ prayer.5 }}</h1>
+                              <p class="prayerBodyTagline"><i>{{ prayer.7 }}</i></p>
+                              {% autoescape off %}
+                              {{ prayer.9 }}
+                              {% endautoescape %}
+                        </div>
+                        {% endfor %}
+                  </div>
+
+                  <hr>
+
+                  {% include 'footer.html' %}
+
+            </div> <!-- /container -->
+
+
+            <!-- Bootstrap core JavaScript
+            ================================================== -->
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+            <script src="{% static 'js/bootstrap.min.js' %}"></script>
+            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+            <script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>
+            <!-- Home Page CSS -->
+            <link href="{% static 'css/cssForSimplePrayers.css' %}" rel="stylesheet">
+            <link href="{% static 'css/footer.css' %}" rel="stylesheet">
+      </body>
+</html>

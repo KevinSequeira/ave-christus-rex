@@ -14,12 +14,15 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, re_path
+from django.urls import path, re_path, include
 from . import views
 
 urlpatterns = [
     path("", views.prayers, name = "prayers"),
+    re_path(r'^(?P<prayer_category_tag>.+?)/(?P<prayer_name_tag>.+?)/$', views.prayerDetails, name = "prayers"),
+    re_path(r'^(?P<prayer_category_tag>.+?)/$', views.prayerCategory, name = "prayers"),
     path("essentialPrayers", views.essentialPrayers, name = "essentialPrayers"),
-    path("simpleprayers", views.simpleprayers, name = "simpleprayers"),
-    re_path(r'^prayer-details/(?P<page_alias>.+?)/$', views.prayerDetails , name = "prayerDetails")
+    # path("simpleprayers", views.simpleprayers, name = "simpleprayers"),
+    # re_path(r'^prayer-details/(?P<page_alias>.+?)/$', views.prayerDetails , name = "prayerDetails"),
+    path('tinymce/', include('tinymce.urls')),
 ]

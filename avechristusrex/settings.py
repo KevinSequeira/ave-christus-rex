@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'surveys',
     'prayers',
     'ordinaryform',
-    'blog'
+    'blog',
+    'tinymce',
 ]
 
 MIDDLEWARE = [

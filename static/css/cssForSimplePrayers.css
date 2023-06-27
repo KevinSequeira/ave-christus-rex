@@ -64,7 +64,7 @@ p.simplePrayersTagline {
       line-height: 30px;
 }
 
-.prayerBodyTagline {
+.prayerBody > .prayerBodyTagline {
       font-family: 'Merriweather', serif;
       font-size: 14.5px;
       line-height: 20px;
@@ -93,11 +93,11 @@ p.simplePrayersTagline {
       color: #777777;
 }
 
-.prayerBodyContent {
+.prayerBody > p {
       font-family: 'Merriweather', serif;
       font-size: 16px;
-      line-height: 20px;
-      margin: 0px 0px 5px 0px;
+      line-height: 22px;
+      margin: 0px 0px 8px 0px;
 }
 
 .prayerBodyContent > span > strong {
@@ -202,7 +202,7 @@ p.simplePrayersTagline {
             line-height: 30px;
       }
 
-      .prayerBodyTagline {
+      .prayerBody > .prayerBodyTagline {
             font-family: 'Merriweather', serif;
             font-size: 14.5px;
             line-height: 20px;
@@ -231,7 +231,7 @@ p.simplePrayersTagline {
             color: #777777;
       }
 
-      .prayerBodyContent {
+      .prayerBody > p {
             font-family: 'Merriweather', serif;
             font-size: 16px;
             line-height: 20px;
@@ -349,7 +349,7 @@ p.simplePrayersTagline {
             line-height: 22px;
       }
 
-      .prayerBodyTagline {
+      .prayerBody > .prayerBodyTagline {
             font-family: 'Merriweather', serif;
             font-size: 12.5px;
             line-height: 16px;
@@ -378,7 +378,7 @@ p.simplePrayersTagline {
             color: #777777;
       }
 
-      .prayerBodyContent {
+      .prayerBody > p {
             font-family: 'Merriweather', serif;
             font-size: 14px;
             line-height: 18px;
