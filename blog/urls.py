@@ -19,6 +19,6 @@ from . import views
 
 urlpatterns = [
     path("", views.blog, name = "blog"),
-    re_path(r'^(?P<article_number>.+?)/$', views.blog , name = "blog"),
+    re_path(r'^(?P<blog_tag>.+?)/$', views.blogArticle , name = "article"),
     path('tinymce/', include('tinymce.urls')),
 ]
