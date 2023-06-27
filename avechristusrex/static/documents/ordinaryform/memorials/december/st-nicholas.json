@@ -1,0 +1,190 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_nicholas_in_glory.png')",
+      "saint_background_position": "top",
+      "opening_antiphon": {
+            "verse_number": "Cf. Ezekiel ch. 34, vv. 11, 23 - 24",
+            "content": [
+                  {
+                        "p": [
+                              "I will look after my sheep, says the Lord,",
+                              "and I will appoint a shepherd to pasture them,",
+                              "and I, the Lord, will be their God."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "We humbly implore your mercy, Lord:",
+                        "protect us in all dangers",
+                        "through the prayers of the Bishop Saint Nicholas,",
+                        "that the way of salvation may lie open before us."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Accept this sacrifice from your people, we pray, O Lord,",
+                        "and make what is offered for your glory,",
+                        "in honor of Saint Nicholas,",
+                        "a means to our eternal salvation."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": {
+            "verse_number": "John ch. 10, v. 11",
+            "content": [
+                  {
+                        "p": [
+                              "The Good Shepherd has laid down his life",
+                              "for his sheep."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May the Sacrament we have received, O Lord our God,",
+                        "stir up in us that fire of charity",
+                        "with which Saint Nicholas burned ardently",
+                        "as he gave himself unceasingly for your Church."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": {
+                  "verse_number": "Isaiah ch. 6, vv. 1 - 8",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "In the year that King Uzziah died, I saw the Lord sitting on a throne,",
+                                    "high and lofty; and the hem of his robe filled the temple. Seraphs were in attendance above him;",
+                                    "each had six wings: with two they covered their faces, and with two they covered their feet,",
+                                    "and with two they flew. And one called to another and said:"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Holy, holy, holy is the Lord of hosts;",
+                                    "the whole earth is full of his glory.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "The pivots on the thresholds shook at the voices of those who called, and the house filled with smoke.",
+                                    "And I said: “Woe is me! I am lost, for I am a man of unclean lips, and I live among a people of unclean lips;",
+                                    "yet my eyes have seen the King, the Lord of hosts!”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then one of the seraphs flew to me, holding a live coal that had been taken from the altar with a pair of tongs.",
+                                    "The seraph touched my mouth with it and said: “Now that this has touched your lips,",
+                                    "your guilt has departed and your sin is blotted out.” Then I heard the voice of the Lord saying,",
+                                    "“Whom shall I send, and who will go for us?” And I said, “Here am I; send me!”"
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 40, vv. 1 and 3, 6 - 7a, 7b - 8, 9, 10",
+                  "response": "Here I am, Lord; I come to do your will.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I waited patiently for the Lord; \nhe inclined to me and heard my cry.",
+                                    "He put a new song in my mouth, \na song of praise to our God.",
+                                    "Many will see and fear, \nand put their trust in the Lord."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Sacrifice and offering you do not desire, \nbut you have given me an open ear.",
+                                    "Burnt offering and sin offering \nyou have not required."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Then I said, “Here I am; \nin the scroll of the book it is written of me.",
+                                    "I delight to do your will, O my God; \nyour law is within my heart.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I have told the glad news of deliverance \nin the great congregation;",
+                                    "see, I have not restrained my lips, \nas you know, O Lord."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I have not hidden your saving help within my heart, \nI have spoken of your faithfulness and your salvation;",
+                                    "I have not concealed your steadfast love and your faithfulness \nfrom the great congregation."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Luke ch. 4, v. 18",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Lord sent me to bring glad tidings to the poor",
+                                    "and to proclaim liberty to the captives."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 10, vv. 1 - 9",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "The Lord Jesus Christ appointed seventy others and sent them on ahead of him in pairs",
+                                    "to every town and place where he himself intended to go. He said to them, “The harvest is plentiful,",
+                                    "but the laborers are few; therefore ask the Lord of the harvest to send out laborers into his harvest.",
+                                    "Go on your way. See, I am sending you out like lambs into the midst of wolves. Carry no purse, no bag,",
+                                    "no sandals; and greet no one on the road. Whatever house you enter, first say, ‘Peace to this house!’",
+                                    "And if anyone is there who shares in peace, your peace will rest on that person; but if not,",
+                                    "it will return to you. Remain in the same house, eating and drinking whatever they provide,",
+                                    "for the laborer deserves to be paid. Do not move about from house to house.",
+                                    "Whenever you enter a town and its people welcome you, eat what is set before you; cure the sick who are there,",
+                                    "and say to them, ‘The kingdom of God has come near to you.’”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,173 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_paul_conversion.jpeg')",
+      "saint_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "2 Timothy ch. 1, v. 12; ch. 4, v. 8",
+                  "content": [
+                        {
+                              "p": [
+                                    "I know the one in whom I have believed",
+                                    "and I am sure that he, the just judge, the mighty,",
+                                    "will keep safe what is my due until that day."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who taught the whole world",
+                        "through the preaching of the blessed Apostle Paul,",
+                        "draw us, we pray, nearer to you",
+                        "through the example of him whose conversion we celebrate today,",
+                        "and so make us witnesses to your truth in the world."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "As we celebrate the divine mysteries, O Lord, we pray,",
+                        "may the Spirit fill us with that light of faith",
+                        "with which he constantly enlightened the blessed Apostle Paul",
+                        "for the spreading of your glory."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Galatians ch. 2, v. 20",
+                  "content": [
+                        {
+                              "p": [
+                                    "I live by faith in the Son of God,",
+                                    "who has loved me",
+                                    "and given himself up for me."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May the Sacrament we have received, O Lord our God,",
+                        "stir up in us that fire of charity",
+                        "with which the blessed Apostle Paul burned ardently",
+                        "as he bore his concern for all the Churches."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Acts ch. 22, vv. 3 - 16",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Paul addressed the people in these words: “I am a Jew, born in Tarsus in Cilicia, but brought up in this city at the feet of Gamaliel, educated strictly according to our ancestral law, being zealous for God, just as all of you are today. I persecuted this Way up to the point of death by binding both men and women and putting them in prison, as the high priest and the whole council of elders can testify about me. From them I also received letters to the brothers in Damascus, and I went there in order to bind those who were there and to bring them back to Jerusalem for punishment."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "“While I was on my way and approaching Damascus, about noon a great light from heaven suddenly shone about me. I fell to the ground and heard a voice saying to me, ‘Saul, Saul, why are you persecuting me?’ I answered, ‘Who are you, Lord?’ Then he said to me, ‘I am Jesus of Nazareth whom you are persecuting.’ Now those who were with me saw the light but did not hear the voice of the one who was speaking to me. I asked, ‘What am I to do, Lord?’ The Lord said to me, ‘Get up and go to Damascus; there you will be told everything that has been assigned to you to do.’ Since I could not see because of the brightness of that light, those who were with me took my hand and led me to Damascus."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "“A certain Ananias, who was a devout man according to the law and well spoken of by all the Jews living there, came to me; and standing beside me, he said, ‘Brother Saul, regain your sight!’ In that very hour I regained my sight and saw him. Then he said, ‘The God of our ancestors has chosen you to know his will, to see the Righteous One and to hear his own voice; for you will be his witness to all the world of what you have seen and heard. And now why do you delay? Get up, be baptized, and have your sins washed away, calling on his name.’”"
+                                    ]
+                              }
+                        ]
+                  },
+                  {
+                        "verse_number": "Acts ch. 9, vv. 1 - 22",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Saul, still breathing threats and murder against the disciples of the Lord, went to the high priest and asked him for letters to the synagogues at Damascus, so that if he found any who belonged to the Way, men or women, he might bring them bound to Jerusalem. Now as he was going along and approaching Damascus, suddenly a light from heaven flashed around him. He fell to the ground and heard a voice saying to him, “Saul, Saul, why do you persecute me?” He asked, “Who are you, Lord?” The reply came, “I am Jesus, whom you are persecuting. But get up and enter the city, and you will be told what you are to do.” The men who were traveling with him stood speechless because they heard the voice but saw no one. Saul got up from the ground, and though his eyes were open, he could see nothing; so they led him by the hand and brought him into Damascus. For three days he was without sight, and neither ate nor drank."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Now there was a disciple in Damascus named Ananias. The Lord said to him in a vision, “Ananias.” He answered, “Here I am, Lord.” The Lord said to him, “Get up and go to the street called Straight, and at the house of Judas look for a man of Tarsus named Saul. At this moment he is praying, and he has seen in a vision a man named Ananias come in and lay his hands on him so that he might regain his sight.” But Ananias answered, “Lord, I have heard from many about this man, how much evil he has done to your saints in Jerusalem; and here he has authority from the chief priests to bind all who invoke your name.” But the Lord said to him, “Go, for he is an instrument whom I have chosen to bring my name before Gentiles and kings and before the people of Israel; I myself will show him how much he must suffer for the sake of my name.” So Ananias went and entered the house. He laid his hands on Saul and said, “Brother Saul, the Lord Jesus, who appeared to you on your way here, has sent me so that you may regain your sight and be filled with the Holy Spirit.” And immediately something like scales fell from his eyes, and his sight was restored. Then he got up and was baptized, and after taking some food, he regained his strength."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "For several days he was with the disciples in Damascus, and immediately he began to proclaim Jesus in the synagogues, saying, “He is the Son of God.” All who heard him were amazed and said, “Is not this the man who made havoc in Jerusalem among those who invoked this name? And has he not come here for the purpose of bringing them bound before the chief priests?” Saul became increasingly more powerful and confounded the Jews who lived in Damascus by proving that Jesus was the Messiah."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 117, vv. 1, 2",
+                  "response": "Go out to all the world and tell the Good News.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Praise the Lord, all you nations! \nExtol him, all you peoples!"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For great is his steadfast love toward us, \nand the faithfulness of the Lord endures forever.",
+                                    "Praise the Lord!"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See John ch. 15, v. 16",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "I chose you from the world, to go and bear fruit that will last, says the Lord."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 16, vv. 15 - 18",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus appeared to the Eleven and said to them: “But who do you say that I am?” Simon Peter answered, “You are the Messiah, the Son of the living God.” And Jesus answered him, “Blessed are you, Simon son of Jonah! For flesh and blood has not revealed this to you, but my Father in heaven. And I tell you, you are Peter, and on this rock I will build my church, and the gates of Hades will not prevail against it.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

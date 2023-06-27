@@ -1,0 +1,188 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Ash Wednesday.png')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 30, v. 11",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Lord heard and had mercy on me;",
+                                    "the Lord became my helper."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Show gracious favor, O Lord, we pray,",
+                        "to the works of penance we have begun,",
+                        "that we may have strength to accomplish with sincerity",
+                        "the bodily observances we undertake."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "We offer, O Lord, the sacrifice of our Lenten observance,",
+                        "praying that it may make our intentions acceptable to you",
+                        "and add to our powers of self-restraint."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Psalm 25, v. 4",
+                  "content": [
+                        {
+                              "p": [
+                                    "O Lord, make me know your ways,",
+                                    "teach me your paths."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "We pray, almighty God,",
+                        "that, through partaking of this mystery,",
+                        "we may be cleansed of all our misdeeds,",
+                        "and so be suited for the remedies of your compassion."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "For your mighty deeds, O God of mercy,",
+                        "may your people offer endless thanks,",
+                        "and, by observing the age-old disciplines",
+                        "along their pilgrim journey,",
+                        "may they merit to come and behold you for ever."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 58, vv. 1 - 9a",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Thus says the Lord:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Shout out, do not hold back! \nLift up your voice like a trumpet!",
+                                          "Announce to my people their rebellion, \nto the house of Jacob their sins.",
+                                          "Yet day after day they seek me \nand delight to know my ways,",
+                                          "as if they were a nation that practiced righteousness \nand did not forsake the ordinance of their God;",
+                                          "they ask of me righteous judgments, \nthey delight to draw near to God.",
+                                          "“Why do we fast, but you do not see? \nWhy humble ourselves, but you do not notice?”",
+                                          "Look, you serve your own interest on your fast day, \nand oppress all your workers.",
+                                          "Look, you fast only to quarrel and to fight \nand to strike with a wicked fist.",
+                                          "Such fasting as you do today \nwill not make your voice heard on high.",
+                                          "Is such the fast that I choose, \na day to humble oneself?",
+                                          "Is it to bow down the head like a bulrush, \nand to lie in sackcloth and ashes?",
+                                          "Will you call this a fast, \na day acceptable to the Lord?"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Is not this the fast that I choose: \nto loose the bonds of injustice, \nto undo the thongs of the yoke,",
+                                          "to let the oppressed go free, \nand to break every yoke?",
+                                          "Is it not to share your bread with the hungry, \nand bring the homeless poor into your house;",
+                                          "when you see the naked, to cover them, \nand not to hide yourself from your own kin?",
+                                          "Then your light shall break forth like the dawn, \nand your healing shall spring up quickly;",
+                                          "your vindicator shall go before you, \nthe glory of the Lord shall be your rear guard.",
+                                          "Then you shall call, and the Lord will answer; \nyou shall cry for help, and he will say, Here I am."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 51, vv. 1 - 2, 3 - 4ab, 16 - 17",
+                  "response": "A heart contrite and humbled, O God, you will not spurn.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Have mercy on me, O God, \naccording to your steadfast love;",
+                                    "according to your abundant mercy \nblot out my transgressions.",
+                                    "Wash me thoroughly from my iniquity, \nand cleanse me from my sin."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For I know my transgressions, \nand my sin is ever before me.",
+                                    "Against you, you alone, have I sinned, \nand done what is evil in your sight."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For you have no delight in sacrifice; \nif I were to give a burnt offering, you would not be pleased.",
+                                    "The sacrifice acceptable to God is a broken spirit; \na broken and contrite heart, O God, you will not despise."
+                              ]
+                        }
+                  ]
+            },
+            "gradual": {
+                  "verse_number": "See Amos ch. 5, v. 14",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Seek good and not evil so that you may live, and the Lord will be with you."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 9, vv. 14 - 15",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "The disciples of John came to Jesus, saying, “Why do we and the Pharisees fast often, but your disciples do not fast?” And Jesus said to them, “The wedding guests cannot mourn as long as the bridegroom is with them, can they? The days will come when the bridegroom is taken away from them, and then they will fast.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

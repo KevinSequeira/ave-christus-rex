@@ -1,0 +1,76 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_season_4th.jpg')",
+      "liturgy_background_position": "top",
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "1 John ch. 3, vv. 7 - 10",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Little children, let no one deceive you. Everyone who does what is right is righteous, just as he is righteous. Everyone who commits sin is a child of the devil; for the devil has been sinning from the beginning. The Son of God was revealed for this purpose, to destroy the works of the devil. Those who have been born of God do not sin, because God’s seed abides in them; they cannot sin, because they have been born of God. The children of God and the children of the devil are revealed in this way: all who do not do what is right are not from God, nor are those who do not love their brothers and sisters."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The gifts he gave were that some would be apostles, some prophets, some evangelists, some pastors and teachers,",
+                                          "to equip the saints for the work of ministry, for building up the body of Christ, until all of us come to the unity",
+                                          "of the faith and of the knowledge of the Son of God, to maturity, to the measure of the full stature of Christ."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 98, vv. 1, 7, 8, 9",
+                  "response": "All the ends of the earth have seen the saving power of our God.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O sing to the Lord a new song, \nfor he has done marvelous things.",
+                                    "His right hand and his holy arm \nhave gotten him victory."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Let the sea roar, and all that fills it; \nthe world and those who live in it.",
+                                    "Let the floods clap their hands; \nlet the hills sing together for joy \nat the presence of the Lord."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For the Lord is coming \nto judge the earth.",
+                                    "He will judge the world with righteousness, \nand the peoples with equity."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Hebrews ch. 1, vv. 1, 2",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "In the past, God spoke to our ancestors through the prophets; in these last days he has spoken to us through the Son."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 1, vv. 35 - 42",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "John was standing with two of his disciples, and as he watched Jesus walk by, he exclaimed, “Look, here is the Lamb of God!” The two disciples heard him say this, and they followed Jesus. When Jesus turned and saw them following, he said to them, “What are you looking for?” They said to him, “Rabbi” (which translated means Teacher), “where are you staying?” He said to them, “Come and see.” They came and saw where he was staying, and they remained with him that day. It was about four o’clock in the afternoon. One of the two who heard John speak and followed him was Andrew, Simon Peter’s brother. He first found his brother Simon and said to him, “We have found the Messiah” (which is translated Anointed). He brought Simon to Jesus, who looked at him and said, “You are Simon son of John. You are to be called Cephas” (which is translated Peter)."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,177 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_josephine_bakhita.jpeg')",
+      "saint_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let us rejoice and exult for joy:",
+                                    "for the Lord of all has shown his love",
+                                    "for a holy and glorious virgin."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "Here is a wise virgin whom the Lord found watching;",
+                                    "when they took up their lamps",
+                                    "she brought oil with her",
+                                    "and when the Lord came",
+                                    "she went in with him to the wedding feast."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who led Saint Josephine Bakhita from abject slavery",
+                        "to the dignity of being your daughter and a bride of Christ,",
+                        "grant, we pray, that by her example",
+                        "we may show constant love for the Lord Jesus crucified,",
+                        "remaining steadfast in charity",
+                        "and prompt to show compassion."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May we receive, O Lord, we pray,",
+                        "the effects of this offering dedicated to you,",
+                        "so that we may be cleansed from old earthly ways",
+                        "and, through the example of Saint Josephine Bakhita,",
+                        "be renewed by growth in heavenly life."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Matthew ch. 25, vv. 4, 6",
+                  "content": [
+                        {
+                              "p": [
+                                    "The five wise virgins brought flasks of oil with their lamps.",
+                                    "Then at midnight, the cry went up:",
+                                    "Behold, the Bridegroom is coming;",
+                                    "come out to meet Christ the Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May the holy reception of the Body and Blood",
+                        "of your Only Begotten Son, O Lord,",
+                        "turn us away from the cares of this fleeting world,",
+                        "so that, following the example of the Virgin Saint Josephine Bakhita,",
+                        "we may grow in sincere love for you on earth",
+                        "and rejoice to behold you for eternity in heaven."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "1 Corinthians ch. 7, vv. 23 - 35",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: You were bought with a price; do not become slaves of human masters. In whatever condition you were called, brothers and sisters, there remain with God."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Now concerning virgins, I have no command of the Lord, but I give my opinion as one who by the Lord’s mercy is trustworthy. I think that, in view of the impending crisis, it is well for you to remain as you are. Are you bound to a wife? Do not seek to be free. Are you free from a wife? Do not seek a wife. But if you marry, you do not sin, and if a virgin marries, she does not sin. Yet those who marry will experience distress in this life, and I would spare you that. I mean, brothers and sisters, the appointed time has grown short; from now on, let even those who have wives be as though they had none, and those who mourn as though they were not mourning, and those who rejoice as though they were not rejoicing, and those who buy as though they had no possessions, and those who deal with the world as though they had no dealings with it. For the present form of this world is passing away."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "I want you to be free from anxieties. The unmarried man is anxious about the affairs of the Lord, how to please the Lord; but the married man is anxious about the affairs of the world, how to please his wife, and his interests are divided. And the unmarried woman and the virgin are anxious about the affairs of the Lord, so that they may be holy in body and spirit; but the married woman is anxious about the affairs of the world, how to please her husband. I say this for your own benefit, not to put any restraint upon you, but to promote good order and unhindered devotion to the Lord."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 31, vv. 2cd - 3, 5 and 7ab, 15bc and 16",
+                  "response": "Into your hands, O Lord, I commend my spirit.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Be a rock of refuge for me, \na strong fortress to save me.",
+                                    "You are indeed my rock and my fortress; \nfor your name’s sake lead me and guide me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Into your hand I commit my spirit; \nyou have redeemed me, O Lord, faithful God.",
+                                    "I will exult and rejoice in your steadfast love, \nbecause you have seen my affliction."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Deliver me from the hand of my enemies and persecutors.",
+                                    "Let your face shine upon your servant; \nsave me in your steadfast love."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Come, bride of Christ, and receive the crown, which the Lord has prepared for you for ever."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 9, vv. 23 - 26",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to the crowds: “If any want to become my followers, let them deny themselves and take up their cross daily and follow me. For those who want to save their life will lose it, and those who lose their life for my sake will save it. What does it profit them if they gain the whole world, but lose or forfeit themselves? Those who are ashamed of me and of my words, of them the Son of Man will be ashamed when he comes in his glory and the glory of the Father and of the holy angels.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

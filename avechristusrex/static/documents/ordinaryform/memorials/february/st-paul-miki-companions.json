@@ -1,0 +1,186 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_paul_miki_companions.jpeg')",
+      "saint_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 34, vv. 20, 21",
+                  "content": [
+                        {
+                              "p": [
+                                    "Many are the trials of the just,",
+                                    "but from them all the Lord will rescue them.",
+                                    "The Lord will keep guard over all their bones;",
+                                    "not one of their bones shall be broken."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Revelation ch. 7, v. 14; Daniel ch. 3, v. 95",
+                  "content": [
+                        {
+                              "p": [
+                                    "These are they who come out of the great ordeal",
+                                    "and have washed their robes in the blood of the Lamb.",
+                                    "For God’s sake they handed their bodies over for punishment,",
+                                    "and they have earned unfading crowns."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, strength of all the Saints,",
+                        "who through the Cross were pleased to call",
+                        "the Martyrs Saint Paul Miki and companions to life,",
+                        "grant, we pray, that by their intercession",
+                        "we may hold with courage even until death",
+                        "to the faith that we profess."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Receive, holy Father, the offerings we bring",
+                        "in commemoration of the holy Martyrs,",
+                        "and grant that we, your servants,",
+                        "may be found steadfast in confessing your name."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. John ch. 15, v. 13",
+                  "content": [
+                        {
+                              "p": [
+                                    "Greater love has no one",
+                                    "than to lay down his life for his friends, says the Lord."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Luke ch. 12, v. 4",
+                  "content": [
+                        {
+                              "p": [
+                                    "I say to you, my friends:",
+                                    "Do not be afraid of those who kill the body."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Grant us, O Lord, we pray,",
+                        "that, being nourished by the Bread of heaven",
+                        "and made one Body in Christ,",
+                        "we may never be separated from his love",
+                        "and, after the example of your holy Martyrs Saint Paul Miki and companions,",
+                        "may bravely overcome all things",
+                        "for the sake of him who loved us."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Galatians ch. 2, vv. 19 - 20",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: For through the law I died to the law, so that I might live to God. I have been crucified with Christ; and it is no longer I who live, but it is Christ who lives in me. And the life I now live in the flesh I live by faith in the Son of God, who loved me and gave himself for me."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 126, vv. 1 - 2ab, 2cd - 3, 4 - 5, 6",
+                  "response": "Those who sow in tears shall reap rejoicing.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "When the Lord restored the fortunes of Zion, \nwe were like those who dream.",
+                                    "Then our mouth was filled with laughter, \nand our tongue with shouts of joy."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Then it was said among the nations, \n“The Lord has done great things for them.”",
+                                    "The Lord has done great things for us, \nand we rejoiced."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Restore our fortunes, O Lord, \nlike the watercourses in the Negeb.",
+                                    "May those who sow in tears \nreap with shouts of joy."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Those who go out weeping, \nbearing the seed for sowing,",
+                                    "shall come home with shouts of joy, \ncarrying their sheaves."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Te Deum",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "We praise you, O God, we acclaim you as Lord; the white-robed army of martyrs praise you."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 28, vv. 16 - 20",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "The eleven disciples went to Galilee, to the mountain to which Jesus had directed them.",
+                                    "When they saw him, they worshiped him; but some doubted. And Jesus came and said to them,",
+                                    "“All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations,",
+                                    "baptizing them in the name of the Father and of the Son and of the Holy Spirit,",
+                                    "and teaching them to obey everything that I have commanded you.",
+                                    "And remember, I am with you always, to the end of the age.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

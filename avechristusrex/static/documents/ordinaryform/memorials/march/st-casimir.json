@@ -1,0 +1,169 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_casimir.png')",
+      "saint_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Malachi ch. 2, v. 6",
+                  "content": [
+                        {
+                              "p": [
+                                    "The law of truth was in his mouth;",
+                                    "no dishonesty was found on his lips.",
+                                    "He walked with me in integrity and peace,",
+                                    "and turned many away from evil"
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Almighty God, to serve you is to reign;",
+                        "grant that, with the help of Saint Casimir’s intercession,",
+                        "we may constantly serve you in holiness and justice."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May the sacrifices we offer to your majesty, O Lord,",
+                        "on this feast day of Saint Casimir",
+                        "be effective for our salvation",
+                        "and pleasing to you in your loving kindness."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Matthew ch. 5, vv. 8, 9",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed are the clean of heart, for they shall see God.",
+                                    "Blessed are the peacemakers,",
+                                    "for they shall be called children of God."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Matthew ch. 6, v. 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "Seek first the kingdom of God, and his righteousness,",
+                                    "and all these things will be given you besides, says the Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Nourished by these sacred gifts,",
+                        "we humbly implore you, Lord,",
+                        "that the homage of dutiful service,",
+                        "which we render on the feast day of Saint Casimir,",
+                        "may bring us an increase of your saving grace."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Philippians ch. 3, vv. 8 - 14",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Beloved: I regard everything as loss because of the surpassing value of knowing Christ Jesus my Lord. For his sake I have suffered the loss of all things, and I regard them as rubbish, in order that I may gain Christ and be found in him, not having a righteousness of my own that comes from the law, but one that comes through faith in Christ, the righteousness from God based on faith. I want to know Christ and the power of his resurrection and the sharing of his sufferings by becoming like him in his death, if somehow I may attain the resurrection from the dead."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Not that I have already obtained this or have already reached the goal; but I press on to make it my own, because Christ Jesus has made me his own. Beloved, I do not consider that I have made it my own; but this one thing I do: forgetting what lies behind and straining forward to what lies ahead, I press on toward the goal for the prize of the heavenly call of God in Christ Jesus."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 15, vv. 2 - 3a, 3bc - 4ab, 5",
+                  "response": "The just one shall live on your holy mountain, O Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Those who walk blamelessly, and do what is right, \nand speak the truth from their heart;",
+                                    "who do not slander with their tongue."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Who do no evil to their friends, \nnor take up a reproach against their neighbors;",
+                                    "in whose eyes the wicked are despised, \nbut who honor those who fear the Lord."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Who do not lend money at interest, \nand do not take a bribe against the innocent.",
+                                    "Those who do these things shall never be moved."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 23, vv. 11, 12b",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The greatest among you must be your servant. Whoever humbles himself will be exalted."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 15, vv. 9 - 17",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “As the Father has loved me, so I have loved you; abide in my love. If you keep my commandments, you will abide in my love, just as I have kept my Father’s commandments and abide in his love. I have said these things to you so that my joy may be in you, and that your joy may be complete."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“This is my commandment, that you love one another as I have loved you. No one has greater love than this, to lay down one’s life for one’s friends. You are my friends if you do what I command you. I do not call you servants any longer, because the servant does not know what the master is doing; but I have called you friends, because I have made known to you everything that I have heard from my Father. You did not choose me but I chose you. And I appointed you to go and bear fruit, fruit that will last, so that the Father will give you whatever you ask him in my name. I am giving you these commands so that you may love one another.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

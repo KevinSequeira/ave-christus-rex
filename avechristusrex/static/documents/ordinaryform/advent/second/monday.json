@@ -1,0 +1,185 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Wreath.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": {
+            "verse_number": "Cf. Jeremiah ch. 31, v. 10; Isaiah ch. 35, v. 4",
+            "content": [
+                  {
+                        "p": [
+                              "Hear the word of the Lord, O nations;",
+                              "declare it to the distant lands:",
+                              "Behold, our Savior will come; you need no longer fear."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "May our prayer of petition",
+                        "rise before you, we pray, O Lord,",
+                        "that, with purity unblemished,",
+                        "we, your servants, may come, as we desire,",
+                        "to celebrate the great mystery",
+                        "of the Incarnation of your Only Begotten Son."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns with you in the unity of the Holy Spirit, God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Accept, we pray, O Lord, these offerings we make,",
+                        "gathered from among your gifts to us,",
+                        "and may what you grant us to celebrate devoutly here below",
+                        "gain for us the prize of eternal redemption."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": {
+            "verse_number": "Psalm 106, vv. 4 - 5; Isaiah ch. 38, v. 3",
+            "content": [
+                  {
+                        "p": [
+                              "Come, O Lord, visit us in peace,",
+                              "that we may rejoice before you with a blameless heart."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May these mysteries, O Lord,",
+                        "in which we have participated,",
+                        "profit us, we pray,",
+                        "for even now, as we walk amid passing things,",
+                        "you teach us by them",
+                        "to love the things of heaven",
+                        "and hold fast to what endures."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Isaiah ch. 35, vv. 1 - 10",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The wilderness and the dry land shall be glad, \nthe desert shall rejoice and blossom;",
+                                    "like the crocus it shall blossom abundantly, \nand rejoice with joy and singing.",
+                                    "The glory of Lebanon shall be given to it, \nthe majesty of Carmel and Sharon.",
+                                    "They shall see the glory of the Lord, \nthe majesty of our God."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Strengthen the weak hands, \nand make firm the feeble knees.",
+                                    "Say to those who are of a fearful heart, \n“Be strong, do not fear!",
+                                    "Here is your God. \nHe will come with vengeance,",
+                                    "with terrible recompense. \nHe will come and save you.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Then the eyes of the blind shall be opened, \nand the ears of the deaf unstopped;",
+                                    "then the lame shall leap like a deer, \nand the tongue of the speechless sing for joy.",
+                                    "For waters shall break forth in the wilderness, \nand streams in the desert;",
+                                    "the burning sand shall become a pool, \nand the thirsty ground springs of water;",
+                                    "the haunt of jackals shall become a swamp, \nthe grass shall become reeds and rushes."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "A highway shall be there, \nand it shall be called the Holy Way;",
+                                    "the unclean shall not travel on it, \nbut it shall be for God’s people; \nno traveler, not even fools, shall go astray.",
+                                    "No lion shall be there, \nnor shall any ravenous beast come up on it;",
+                                    "they shall not be found there, \nbut the redeemed shall walk there.",
+                                    "And the ransomed of the Lord shall return, \nand come to Zion with singing;",
+                                    "everlasting joy shall be upon their heads; \nthey shall obtain joy and gladness, \nand sorrow and sighing shall flee away."
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 85, vv. 8ab and 9, 10 - 11, 12 - 13",
+                  "response": "Our God will come to save us!",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Let me hear what God the Lord will speak, \nfor he will speak peace to his people.",
+                                    "Surely his salvation is at hand for those who fear him, \nthat his glory may dwell in our land."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Steadfast love and faithfulness will meet; \nrighteousness and peace will kiss each other.",
+                                    "Faithfulness will spring up from the ground, \nand righteousness will look down from the sky."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord will give what is good, \nand our land will yield its increase.",
+                                    "Righteousness will go before him, \nand will make a path for his steps."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold the king will come, the Lord of the earth, and he himself will lift the yoke of our captivity."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 5, vv. 17 - 26",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "One day, while Jesus was teaching, Pharisees and teachers of the law were sitting near by",
+                                    "(they had come from every village of Galilee and Judea and from Jerusalem); and the power of the Lord was with him to heal.",
+                                    "Just then some men came, carrying a paralyzed man on a bed. They were trying to bring him in and lay him before Jesus;",
+                                    "but finding no way to bring him in because of the crowd, they went up on the roof and let him down with his bed through",
+                                    "the tiles into the middle of the crowd in front of Jesus. When he saw their faith, he said,",
+                                    "“Friend, your sins are forgiven you.” Then the scribes and the Pharisees began to question,",
+                                    "“Who is this who is speaking blasphemies? Who can forgive sins but God alone?” When Jesus perceived their questionings,",
+                                    "he answered them, “Why do you raise such questions in your hearts? Which is easier, to say, ‘Your sins are forgiven you,’",
+                                    "or to say, ‘Stand up and walk’? But so that you may know that the Son of Man has authority on earth to forgive sins”—he said to the one who was paralyzed—“I say to you,",
+                                    "stand up and take your bed and go to your home.” Immediately he stood up before them, took what he had been lying on,",
+                                    "and went to his home, glorifying God. Amazement seized all of them, and they glorified God and were filled with awe, saying,",
+                                    "“We have seen strange things today.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,173 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_agnes.jpeg')",
+      "saint_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 92, vv. 13, 14",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold, now she follows the Lamb who was crucified for us,",
+                                    "powerful in virginity, modesty her offering,",
+                                    "a sacrifice on the altar of chastity."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Psalm 92, vv. 13, 14",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed is the virgin",
+                                    "who by denying herself and taking up her cross",
+                                    "imitated the Lord, the spouse of virgins",
+                                    "and prince of martyrs."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Almighty ever-living God,",
+                        "who choose what is weak in the world to confound the strong,",
+                        "mercifully grant,",
+                        "that we, who celebrate the heavenly birthday of your",
+                        "Martyr Saint Agnes,",
+                        "may follow her constancy in the faith."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May the offerings we bring in celebration of Saint Agnes",
+                        "win your gracious acceptance, O Lord, we pray,",
+                        "just as the struggle of her suffering and passion",
+                        "was pleasing to you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Revelation ch. 7, v. 17",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Lamb who is at the center of the throne",
+                                    "will lead them to the springs of the waters of life."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "O God, who bestowed on Saint Agnes a crown among the Saints",
+                        "for her twofold triumph of virginity and martyrdom,",
+                        "grant, we pray, through the power of this Sacrament,",
+                        "that, bravely overcoming every evil,",
+                        "we may attain the glory of heaven."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "1 Corinthians ch. 1, vv. 26 - 31",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Consider your own call, brothers and sisters: not many of you were wise by human standards, not many were powerful, not many were of noble birth. But God chose what is foolish in the world to shame the wise; God chose what is weak in the world to shame the strong; God chose what is low and despised in the world, things that are not, to reduce to nothing things that are, so that no one might boast in the presence of God. He is the source of your life in Christ Jesus, who became for us wisdom from God, and righteousness and sanctification and redemption, in order that, as it is written, “Let the one who boasts, boast in the Lord.”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 23, vv. 1b - 3a, 4, 5, 6",
+                  "response": "The Lord restores my soul and leads me in right paths.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "He makes me lie down in green pastures; \nhe leads me beside still waters;",
+                                    "he restores my soul. \nHe leads me in right paths"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Even though I walk through the darkest valley, \nI fear no evil;",
+                                    "for you are with me; \nyour rod and your staff— \nthey comfort me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "You prepare a table before me \nin the presence of my enemies;",
+                                    "you anoint my head with oil; \nmy cup overflows."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Surely goodness and mercy shall follow me \nall the days of my life,",
+                                    "and I shall dwell in the house of the Lord \nmy whole life long."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Come, bride of Christ, and receive the crown, which the Lord has prepared for you for ever."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 13, vv. 44 - 46",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to the crowds: “The kingdom of heaven is like treasure hidden in a field, which someone found and hid; then in his joy he goes and sells all that he has and buys that field."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“Again, the kingdom of heaven is like a merchant in search of fine pearls; on finding one pearl of great value, he went and sold all that he had and bought it.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

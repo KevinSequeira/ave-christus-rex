@@ -1,0 +1,177 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_blaise.jpeg')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "This truly is a Martyr,",
+                                    "who shed his blood for the name of Christ,",
+                                    "who did not fear the threats of judges",
+                                    "but attained the heavenly kingdom."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Ezekiel ch. 34 vv. 11, 23 - 24",
+                  "content": [
+                        {
+                              "p": [
+                                    "I will look after my sheep, says the Lord,",
+                                    "and I will appoint a shepherd to pasture them,",
+                                    "and I, the Lord, will be their God."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Luke ch. 12 v. 42",
+                  "content": [
+                        {
+                              "p": [
+                                    "This is the steward, faithful and prudent,",
+                                    "whom the Lord set over his household",
+                                    "to give them their allowance of food at the proper time."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Hear, O Lord, the supplications your people make",
+                        "under the patronage of the Martyr Saint Blaise,",
+                        "and grant that they may rejoice in peace in this present life,",
+                        "and find help for life eternal."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Most merciful God,",
+                        "pour out your blessing upon these offerings",
+                        "and confirm us in the faith",
+                        "that Saint Blaise professed by the shedding of his blood."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. John ch. 15, vv. 1, 5",
+                  "content": [
+                        {
+                              "p": [
+                                    "I am the true vine and you are the branches, says the Lord.",
+                                    "Whoever remains in me, and I in him, bears fruit in plenty."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. John ch. 8, v. 12",
+                  "content": [
+                        {
+                              "p": [
+                                    "Whoever follows me will not walk in darkness,",
+                                    "but will have the light of life, says the Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Made new by these sacred mysteries, we pray, O Lord,",
+                        "that, imitating the wondrous constancy of Bishop and Martyr Saint Blaise,",
+                        "we may merit an eternal reward for suffering endured."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Romans ch. 5, vv. 1 - 5",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: Since we are justified by faith, we have peace with God through our Lord Jesus Christ, through whom we have obtained access to this grace in which we stand; and we boast in our hope of sharing the glory of God. And not only that, but we also boast in our sufferings, knowing that suffering produces endurance, and endurance produces character, and character produces hope, and hope does not disappoint us, because God’s love has been poured into our hearts through the Holy Spirit that has been given to us."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 117, vv. 1bc, 2",
+                  "response": "Go out to all the world and tell the Good News.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Praise the Lord, all you nations! \nExtol him, all you peoples!"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For great is his steadfast love toward us, \nand the faithfulness of the Lord endures forever.",
+                                    "Praise the Lord!"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Luke ch. 4, v. 18",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Lord sent me to bring glad tidings to the poor and to proclaim liberty to captives."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 16, vv. 15 - 20",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his Apostles: “Go into all the world and proclaim the good news to the whole creation. The one who believes and is baptized will be saved; but the one who does not believe will be condemned. And these signs will accompany those who believe: by using my name they will cast out demons; they will speak in new tongues; they will pick up snakes in their hands, and if they drink any deadly thing, it will not hurt them; they will lay their hands on the sick, and they will recover.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "So then the Lord Jesus, after he had spoken to them, was taken up into heaven and sat down at the right hand of God. And they went out and proclaimed the good news everywhere, while the Lord worked with them and confirmed the message by the signs that accompanied it."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

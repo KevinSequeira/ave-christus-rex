@@ -1,0 +1,658 @@
+.jumbotron {
+      height: 300px;
+      color: #FFFFFF;
+      margin: 0px 0px 20px 0px;
+}
+
+.disabled {
+      pointer-events: none;
+}
+
+.liturgyForTheDayBackground {
+      background-size: cover;
+      background-position: top;
+      position: relative;
+      height: 400px;
+}
+
+.memorialForTheDayBackground {
+      background-size: cover;
+      background-position: top;
+      position: relative;
+      height: 400px;
+}
+
+.calendarBackground {
+      height: auto;
+      /* background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Documents.jpg'); */
+      background-color: #FFFFFF;
+      position: relative;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+      padding-right: 30px;
+      padding-left: 30px;
+      border-radius: 0px;
+}
+
+.liturgyForTheDay {
+      position: absolute;
+      bottom: 40px;
+}
+
+p.liturgyForTheDayForm {
+      margin: 0px 0px 4px 0px;
+      font-size: 18px;
+      font-family: 'Merriweather', serif;
+}
+
+h1.liturgyForTheDayHeader {
+      font-family: 'Vollkorn SC', serif;
+      margin: 0px 10px 0px -2px;
+      font-size: 36px;
+      line-height: 36px;
+}
+
+p.liturgyForTheDayWeek {
+      font-size: 18px;
+      font-family: 'Merriweather', serif;
+      padding: 0px 30px 0px 0px;
+}
+
+.memorialForTheDay {
+      position: absolute;
+      bottom: 40px;
+}
+
+p.memorialForTheDayForm {
+      margin: 0px 0px 4px 0px;
+      font-size: 18px;
+      font-family: 'Merriweather', serif;
+}
+
+h1.memorialForTheDayHeader {
+      font-family: 'Vollkorn SC', serif;
+      margin: 0px 10px 0px -2px;
+      font-size: 36px;
+      line-height: 36px;
+}
+
+p.memorialForTheDayWeek {
+      font-size: 18px;
+      font-family: 'Merriweather', serif;
+      margin-right: 20px;
+}
+
+.row-left {
+      padding-right: 10px;
+      padding-left: 15px;
+}
+
+.row-right {
+      padding-right: 15px;
+      padding-left: 10px;
+}
+
+.btn {
+      border: 2px solid #FFFFFF;
+      border-radius: 0px;
+      background-color: transparent;
+      font-family: 'Merriweather', serif;
+      color: #FFFFFF;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+}
+
+.default {
+      background-color: transparent;
+      border-color: #FFFFFF;
+      color: #FFFFFF;
+}
+
+.default:hover {
+      color: #FFFFFF;
+      background-color: rgba(255,255,255,0.4);
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+   background: #FFFFFF;
+   border-color: #FFFFFF;
+   color: #000000;
+}
+
+.calendarOverflow {
+      background-color: #FFFFFF;
+      margin: 0px 0px 30px 0px;
+}
+
+.calendarRow {
+      margin: 0px 0px 10px 0px;
+}
+
+.calendarMonth {
+      font-family: 'Vollkorn SC', serif;
+      font-size: 36px;
+      color: #D7B546;
+      padding: 0px 0px 20px 0px;
+}
+
+.firstColumn {
+      width: 12%;
+      font-family: 'Merriweather', sans-serif;
+      font-size: 16px;
+      color: #777777;
+}
+
+.secondColumn {
+      width: 39%;
+      font-family: 'Merriweather', sans-serif;
+      font-size: 16px;
+      color: #777777;
+}
+
+.thirdColumn {
+      width: 49%;
+      font-family: 'Merriweather', sans-serif;
+      font-size: 16px;
+      color: #777777;
+}
+
+.fifthColumn {
+      width: 10%;
+      font-family: 'Merriweather', sans-serif;
+      font-size: 16px;
+      color: #777777;
+}
+
+@media (max-width: 991px) {
+      .jumbotron {
+            color: #FFFFFF;
+            height: 300px;
+            margin-bottom: 20px;
+      }
+
+      .liturgyForTheDayBackground {
+            background-size: cover;
+            background-position: top;
+            position: relative;
+      }
+
+      .memorialForTheDayBackground {
+            background-size: cover;
+            background-position: bottom;
+            position: relative;
+      }
+
+      .container .jumbotron, .container-fluid .jumbotron {
+            padding-right: 20px;
+            padding-left: 20px;
+            border-radius: 0px;
+      }
+
+      .letUsPrayBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Let Us Pray.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+      }
+
+
+      .jumbotron h2 {
+            font-family: 'Vollkorn SC', serif;
+            margin-left: -2px;
+            font-size: 26px;
+            line-height: 40px;
+      }
+
+      .liturgyForTheDay {
+            position: absolute;
+            bottom: 34px;
+      }
+
+      p.liturgyForTheDayForm {
+            margin: 0px 0px 4px 0px;
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+      h1.liturgyForTheDayHeader {
+            font-family: 'Vollkorn SC', serif;
+            margin: 0px 0px 2px -2px;
+            font-size: 30px;
+            line-height: 30px;
+      }
+
+      p.liturgyForTheDayWeek {
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+            padding: 0px 30px 0px 0px;
+      }
+
+      .memorialForTheDay {
+            position: absolute;
+            bottom: 34px;
+      }
+
+      p.memorialForTheDayForm {
+            margin: 0px 0px 4px 0px;
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+      h1.memorialForTheDayHeader {
+            font-family: 'Vollkorn SC', serif;
+            margin: 0px 10px 2px -2px;
+            font-size: 30px;
+            line-height: 30px;
+      }
+
+      p.memorialForTheDayWeek {
+            margin-right: 30px;
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+      .row-left {
+            padding-right: 10px;
+            padding-left: 15px;
+      }
+
+      .row-right {
+            padding-right: 15px;
+            padding-left: 10px;
+      }
+
+      .btn {
+            border: 2px solid #FFFFFF;
+            border-radius: 0px;
+            background-color: transparent;
+            font-family: 'Merriweather', serif;
+            color: #FFFFFF;
+            padding: 10px 28px;
+            font-size: 14px;
+            cursor: pointer;
+      }
+
+      .default {
+            background-color: transparent;
+            border-color: #FFFFFF;
+            color: #FFFFFF;
+      }
+
+      .default:hover {
+            color: #FFFFFF;
+            background-color: rgba(255,255,255,0.2);
+      }
+
+      .btn:focus,.btn:active {
+         outline: none !important;
+         box-shadow: none;
+         background: #FFFFFF;
+         border-color: #FFFFFF;
+         color: #000000;
+      }
+
+      .calendarBackground {
+            height: auto;
+            /* background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Documents.jpg'); */
+            background-color: #FFFFFF;
+            position: relative;
+      }
+
+      .calendarOverflow {
+            background-color: #FFFFFF;
+            margin: 0px 0px 30px 0px;
+      }
+
+      .calendarRow {
+            margin: 0px 0px 10px 0px;
+      }
+
+      .calendarMonth {
+            font-family: 'Vollkorn SC', serif;
+            font-size: 30px;
+            color: #D7B546;
+            padding: 0px 0px 20px 0px;
+      }
+
+      .firstColumn {
+            width: 12%;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 14px;
+            color: #777777;
+      }
+
+      .secondColumn {
+            width: 39%;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 14px;
+            color: #777777;
+      }
+
+      .thirdColumn {
+            width: 49%;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 14px;
+            color: #777777;
+      }
+}
+
+@media (max-width: 768px) {
+      .jumbotron {
+            color: #FFFFFF;
+            height: 250px;
+            margin: 0px 0px 10px 0px;
+      }
+
+      .liturgyForTheDayBackground {
+            background-size: cover;
+            background-position: top;
+            position: relative;
+      }
+
+      .memorialForTheDayBackground {
+            background-size: 150%;
+            background-position: bottom;
+            position: relative;
+      }
+
+      .container .jumbotron, .container-fluid .jumbotron {
+            padding-right: 20px;
+            padding-left: 20px;
+            border-radius: 0px;
+      }
+
+      .liturgyForTheDay {
+            position: absolute;
+            bottom: 34px;
+      }
+
+      p.liturgyForTheDayForm {
+            margin: 0px 0px 2px 0px;
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+      h1.liturgyForTheDayHeader {
+            font-family: 'Vollkorn SC', serif;
+            margin: 0px 0px 0px -2px;
+            font-size: 24px;
+            line-height: 24px;
+      }
+
+      p.liturgyForTheDayWeek {
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+      .memorialForTheDay {
+            position: absolute;
+            bottom: 34px;
+      }
+
+      p.memorialForTheDayForm {
+            margin: 0px 0px 2px 0px;
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+      h1.memorialForTheDayHeader {
+            font-family: 'Vollkorn SC', serif;
+            margin: 0px 0px 0px -2px;
+            font-size: 24px;
+            line-height: 24px;
+      }
+
+      p.memorialForTheDayWeek {
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+
+      .row-left {
+            padding-right: 15px;
+            padding-left: 15px;
+      }
+
+      .row-right {
+            padding-right: 15px;
+            padding-left: 15px;
+      }
+
+      .btn {
+            border: 2px solid #FFFFFF;
+            border-radius: 0px;
+            background-color: transparent;
+            font-family: 'Merriweather', serif;
+            color: #FFFFFF;
+            padding: 10px 28px;
+            font-size: 12px;
+            cursor: pointer;
+      }
+
+      .default {
+            background-color: transparent;
+            border-color: #FFFFFF;
+            color: #FFFFFF;
+      }
+
+      .default:hover {
+            color: #FFFFFF;
+            background-color: rgba(255,255,255,0.2);
+      }
+
+      .btn:focus,.btn:active {
+         outline: none !important;
+         box-shadow: none;
+         background: #FFFFFF;
+         border-color: #FFFFFF;
+         color: #000000;
+      }
+
+      .calendarBackground {
+            height: auto;
+            /* background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Documents.jpg'); */
+            background-color: #FFFFFF;
+            position: relative;
+      }
+
+      .calendarOverflow {
+            background-color: #FFFFFF;
+            margin: 0px 0px 20px 0px;
+      }
+
+      .calendarRow {
+            margin: 0px 0px 8px 0px;
+      }
+
+      .calendarMonth {
+            font-family: 'Vollkorn SC', serif;
+            font-size: 24px;
+            color: #D7B546;
+            padding: 0px 0px 10px 0px;
+      }
+
+      .firstColumn {
+            width: 10%;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 14px;
+            color: #777777;
+            padding: 0px 0px 0px 0px;
+      }
+
+      .secondColumn {
+            width: 40%;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 14px;
+            color: #777777;
+      }
+
+      .thirdColumn {
+            width: 50%;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 14px;
+            color: #777777;
+      }
+
+      .mobileView {
+            display: none;
+      }
+}
+
+@media (max-width: 320px) {
+      .jumbotron {
+            color: #FFFFFF;
+            height: 250px;
+            margin: 0px 0px 10px 0px;
+      }
+
+      .liturgyForTheDayBackground {
+            background-size: cover;
+            background-position: top;
+            position: relative;
+      }
+
+      .memorialForTheDayBackground {
+            background-size: 150%;
+            background-position: bottom;
+            position: relative;
+      }
+
+      .container .jumbotron, .container-fluid .jumbotron {
+            padding-right: 20px;
+            padding-left: 20px;
+            border-radius: 0px;
+      }
+
+      .liturgyForTheDay {
+            position: absolute;
+            bottom: 34px;
+      }
+
+      p.liturgyForTheDayForm {
+            margin: 0px 0px 6px 0px;
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+      h1.liturgyForTheDayHeader {
+            font-family: 'Vollkorn SC', serif;
+            margin: 0px 0px 6px -2px;
+            font-size: 24px;
+            line-height: 24px;
+      }
+
+      p.liturgyForTheDayWeek {
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+      .memorialForTheDay {
+            position: absolute;
+            bottom: 34px;
+      }
+
+      p.memorialForTheDayForm {
+            margin: 0px 0px 6px 0px;
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+      h1.memorialForTheDayHeader {
+            font-family: 'Vollkorn SC', serif;
+            margin: 0px 0px 6px -2px;
+            font-size: 24px;
+            line-height: 24px;
+      }
+
+      p.memorialForTheDayWeek {
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+
+      .row-left {
+            padding-right: 15px;
+            padding-left: 15px;
+      }
+
+      .row-right {
+            padding-right: 15px;
+            padding-left: 15px;
+      }
+
+      .btn {
+            border: 2px solid #FFFFFF;
+            border-radius: 0px;
+            background-color: transparent;
+            font-family: 'Merriweather', serif;
+            color: #FFFFFF;
+            padding: 10px 28px;
+            font-size: 12px;
+            cursor: pointer;
+      }
+
+      .default {
+            background-color: transparent;
+            border-color: #FFFFFF;
+            color: #FFFFFF;
+      }
+
+      .default:hover {
+            color: #FFFFFF;
+            background-color: rgba(255,255,255,0.2);
+      }
+
+      .btn:focus,.btn:active {
+         outline: none !important;
+         box-shadow: none;
+         background: #FFFFFF;
+         border-color: #FFFFFF;
+         color: #000000;
+      }
+
+      .calendarOverflow {
+            background-color: #FFFFFF;
+            margin: 0px 0px 20px 0px;
+      }
+
+      .calendarRow {
+            margin: 0px 0px 8px 0px;
+      }
+
+      .calendarMonth {
+            font-family: 'Vollkorn SC', serif;
+            font-size: 24px;
+            color: #D7B546;
+            padding: 0px 0px 10px 0px;
+      }
+
+      .firstColumn {
+            width: 10%;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 10px;
+            color: #777777;
+            padding: 0px 0px 0px 0px;
+      }
+
+      .secondColumn {
+            width: 40%;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 10px;
+            color: #777777;
+      }
+
+      .thirdColumn {
+            width: 50%;
+            font-family: 'Merriweather', sans-serif;
+            font-size: 10px;
+            color: #777777;
+      }
+
+      .mobileView {
+            display: none;
+      }
+}

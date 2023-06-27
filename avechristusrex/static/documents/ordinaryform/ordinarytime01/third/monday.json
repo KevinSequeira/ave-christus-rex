@@ -1,0 +1,87 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hebrews ch. 9, vv. 15, 24 - 28",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Christ is the mediator of a new covenant, so that those who are called may receive the promised eternal inheritance, because a death has occurred that redeems them from the transgressions under the first covenant."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "For Christ did not enter a sanctuary made by human hands, a mere copy of the true one, but he entered into heaven itself, now to appear in the presence of God on our behalf. Nor was it to offer himself again and again, as the high priest enters the Holy Place year after year with blood that is not his own; for then he would have had to suffer again and again since the foundation of the world. But as it is, he has appeared once for all at the end of the age to remove sin by the sacrifice of himself. And just as it is appointed for mortals to die once, and after that the judgment, so Christ, having been offered once to bear the sins of many, will appear a second time, not to deal with sin, but to save those who are eagerly waiting for him."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 98, vv. 1, 2 - 3ab, 3cd - 4, 5 - 6",
+                  "response": "Sing to the Lord a new song, for he has done marvelous deeds.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O sing to the Lord a new song, \nfor he has done marvelous things.",
+                                    "His right hand and his holy arm \nhave gotten him victory."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord has made known his victory; \nhe has revealed his vindication in the sight of the nations.",
+                                    "He has remembered his steadfast love and faithfulness \nto the house of Israel."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "All the ends of the earth have seen \nthe victory of our God.",
+                                    "Make a joyful noise to the Lord, all the earth; \nbreak forth into joyous song and sing praises."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Sing praises to the Lord with the lyre, \nwith the lyre and the sound of melody.",
+                                    "With trumpets and the sound of the horn \nmake a joyful noise before the King, the Lord."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See 2 Timothy ch. 2, v. 10",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Our Saviour Jesus Christ has destroyed death and brought life to light through the Gospel."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 3, vv. 22 - 30",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "The scribes who came down from Jerusalem said about Jesus, “He has Beelzebul, and by the ruler of the demons he casts out demons.” And he called them to him, and spoke to them in parables, “How can Satan cast out Satan? If a kingdom is divided against itself, that kingdom cannot stand. And if a house is divided against itself, that house will not be able to stand. And if Satan has risen up against himself and is divided, he cannot stand, but his end has come. But no one can enter a strong man’s house and plunder his property without first tying up the strong man; then indeed the house can be plundered."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“Truly I tell you, people will be forgiven for their sins and whatever blasphemies they utter; but whoever blasphemes against the Holy Spirit can never have forgiveness, but is guilty of an eternal sin”— for they had said, “He has an unclean spirit.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

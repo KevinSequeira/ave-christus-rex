@@ -1,0 +1,190 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lourdes.png')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Judith ch. 13, vv. 18, 19",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed are you, O Virgin Mary, by the Lord God Most High,",
+                                    "above all women on the earth;",
+                                    "for he has so exalted your name,",
+                                    "that your praise shall be undying on our lips."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Luke ch. 1, vv. 28, 42",
+                  "content": [
+                        {
+                              "p": [
+                                    "Hail, Mary, full of grace, the Lord is with you.",
+                                    "Blessed are you among women,",
+                                    "and blessed is the fruit of your womb."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Grant us, O merciful God, protection in our weakness,",
+                        "that we, who keep the Memorial of the Immaculate Mother",
+                        "of God,",
+                        "may, with the help of her intercession,",
+                        "rise up from our iniquities."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Look, O Lord, upon the prayers and offerings of your faithful,",
+                        "presented in commemoration of Blessed Mary, the Mother of God,",
+                        "that they may be pleasing to you",
+                        "and may confer on us your help and forgiveness."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Luke ch. 1, v. 49",
+                  "content": [
+                        {
+                              "p": [
+                                    "He who is mighty has done great things for me,",
+                                    "and holy is his name."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "Praise the Lord our God,",
+                                    "for in Mary his handmaid",
+                                    "he has fulfilled his promise of mercy to the house of Israel."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Renewed by the Sacrament of salvation,",
+                        "we humbly beseech you, Lord,",
+                        "that we, who have honored in veneration",
+                        "the memory of the Blessed Virgin Mary, Mother of God,",
+                        "may merit to experience in perpetuity the fruits of your",
+                        "redemption."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 66, vv. 10 - 14c",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Thus says the Lord:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Rejoice with Jerusalem, and be glad for her, \nall you who love her;",
+                                          "rejoice with her in joy, \nall you who mourn over her—",
+                                          "that you may nurse and be satisfied \nfrom her consoling breast;",
+                                          "that you may drink deeply with delight \nfrom her glorious bosom."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "For thus says the Lord:",
+                                          "I will extend prosperity to her like a river, \nand the wealth of the nations like an overflowing stream;",
+                                          "and you shall nurse and be carried on her arm, \nand dandled on her knees.",
+                                          "As a mother comforts her child, \nso I will comfort you; \nyou shall be comforted in Jerusalem."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "You shall see, and your heart shall rejoice; \nyour bodies shall flourish like the grass;",
+                                          "and it shall be known that the hand of the Lord is with his servants."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Judith ch. 13, vv. 18bcde, 19",
+                  "response": "You are the highest honour of our race.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“O daughter, you are blessed by the Most High God \nabove all other women on earth;",
+                                    "and blessed be the Lord God, \nwho created the heavens and the earth,",
+                                    "who has guided you to cut off the head \nof the leader of our enemies.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Your praise will never depart from the hearts \nof those who remember the power of God.”"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Luke ch. 1, v. 45",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed are you, O Virgin Mary, who believed that what was spoken to you by the Lord would be fulfilled."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 2, vv. 1 - 11",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "On the third day there was a wedding in Cana of Galilee, and the mother of Jesus was there. Jesus and his disciples had also been invited to the wedding. When the wine gave out, the mother of Jesus said to him, “They have no wine.” And Jesus said to her, “Woman, what concern is that to you and to me? My hour has not yet come.” His mother said to the servants, “Do whatever he tells you.” Now standing there were six stone water jars for the Jewish rites of purification, each holding twenty or thirty gallons. Jesus said to them, “Fill the jars with water.” And they filled them up to the brim. He said to them, “Now draw some out, and take it to the chief steward.” So they took it. When the steward tasted the water that had become wine, and did not know where it came from (though the servants who had drawn the water knew), the steward called the bridegroom and said to him, “Everyone serves the good wine first, and then the inferior wine after the guests have become drunk. But you have kept the good wine until now.” Jesus did this, the first of his signs, in Cana of Galilee, and revealed his glory; and his disciples believed in him."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

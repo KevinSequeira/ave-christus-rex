@@ -1,0 +1,158 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Wreath.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": {
+            "verse_number": "Cf. Hebrews ch. 2, v. 3; 1 Corinth. ch. 4, v. 5",
+            "content": [
+                  {
+                        "p": [
+                              "The Lord will come and he will not delay.",
+                              "He will illumine what is hidden in darkness",
+                              "and reveal himself to all the nations."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Almighty God, who command us",
+                        "to prepare the way for Christ the Lord,",
+                        "grant in your kindness, we pray,",
+                        "that no infirmity may weary us",
+                        "as we long for the comforting presence",
+                        "of our heavenly physician."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May the sacrifice of our worship, Lord, we pray,",
+                        "be offered to you unceasingly,",
+                        "to complete what was begun in sacred mystery",
+                        "and powerfully accomplish for us your saving work."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": {
+            "verse_number": "Cf. Isaiah ch. 40, v. 10; ch. 35, v. 5",
+            "content": [
+                  {
+                        "p": [
+                              "Behold, our Lord will come with power",
+                              "and will enlighten the eyes of his servants."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "We implore your mercy, Lord,",
+                        "that this divine sustenance",
+                        "may cleanse us of our faults",
+                        "and prepare us for the coming feasts."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Isaiah ch. 40, vv. 25 - 31",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "To whom then will you compare me, \nor who is my equal? says the Holy One.",
+                                    "Lift up your eyes on high and see: \nWho created these?",
+                                    "He who brings out their host and numbers them, \ncalling them all by name;",
+                                    "because he is great in strength, \nmighty in power, \nnot one is missing."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Why do you say, O Jacob, \nand speak, O Israel,",
+                                    "“My way is hidden from the Lord, \nand my right is disregarded by my God”?",
+                                    "Have you not known? \nHave you not heard?",
+                                    "The Lord is the everlasting God, \nthe Creator of the ends of the earth.",
+                                    "He does not faint or grow weary; \nhis understanding is unsearchable.",
+                                    "He gives power to the faint, \nand strengthens the powerless.",
+                                    "Even youths will faint and be weary, \nand the young will fall exhausted;",
+                                    "but those who wait for the Lord shall renew their strength, \nthey shall mount up with wings like eagles,",
+                                    "they shall run and not be weary, \nthey shall walk and not faint."
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 103, vv. 1 - 2, 3 - 4, 8 and 10",
+                  "response": "O bless the Lord, my soul!",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Bless the Lord, O my soul, \nand all that is within me, \nbless his holy name.",
+                                    "Bless the Lord, O my soul, \nand do not forget all his benefits."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Who forgives all your iniquity, \nwho heals all your diseases,",
+                                    "who redeems your life from the Pit, \nwho crowns you with steadfast love and mercy."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord is merciful and gracious, \nslow to anger and abounding in steadfast love.",
+                                    "He does not deal with us according to our sins, \nnor repay us according to our iniquities."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold, the Lord comes to save his people; blessed are those prepared to meet him."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 11, vv. 28 - 30",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to the crowds: “Come to me, all you that are weary and are carrying heavy burdens,",
+                                    "and I will give you rest. Take my yoke upon you, and learn from me; for I am gentle and humble in heart,",
+                                    "and you will find rest for your souls. For my yoke is easy, and my burden is light.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

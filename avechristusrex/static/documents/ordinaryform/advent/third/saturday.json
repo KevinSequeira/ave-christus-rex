@@ -1,0 +1,154 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": {
+            "verse_number": "Cf. Psalm 80, vv. 4, 2",
+            "content": [
+                  {
+                        "p": [
+                              "Come and show us your face, O Lord,",
+                              "who are seated upon the Cherubim, and we will be saved."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "May the splendor of your glory dawn in our hearts,",
+                        "we pray, almighty God, that all shadows of the night may be scattered",
+                        "and we may be shown to be children of light",
+                        "by the advent of your Only Begotten Son."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May the sacrifice of our worship, Lord, we pray,",
+                        "be offered to you unceasingly,",
+                        "to complete what was begun in sacred mystery",
+                        "and powerfully accomplish for us your saving work."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": {
+            "verse_number": "Cf. Revelation ch. 22, v. 12",
+            "content": [
+                  {
+                        "p": [
+                              "Behold, I am coming soon",
+                              "and my recompense is with me, says the Lord,",
+                              "to bestow a reward according to the deeds of each."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "We implore your mercy, Lord,",
+                        "that this divine sustenance",
+                        "may cleanse us of our faults",
+                        "and prepare us for the coming feasts."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Sirach ch. 48, vv. 1 - 4, 9 - 11",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Then Elijah arose, a prophet like fire, \nand his word burned like a torch.",
+                                    "He brought a famine upon them, \nand by his zeal he made them few in number.",
+                                    "By the word of the Lord he shut up the heavens, \nand also three times brought down fire.",
+                                    "How glorious you were, Elijah, in your wondrous deeds! \nWhose glory is equal to yours?"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "You were taken up by a whirlwind of fire, \nin a chariot with horses of fire.",
+                                    "At the appointed time, it is written, you are destined \nto calm the wrath of God before it breaks out in fury,",
+                                    "to turn the hearts of parents to their children, \nand to restore the tribes of Jacob.",
+                                    "Happy are those who saw you \nand were adorned with your love! \nFor we also shall surely live."
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 80, vv. 1ac and 2b, 14 - 15, 17 - 18",
+                  "response": "Lord, make us turn to you; let us see your face and we shall be saved.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Give ear, O Shepherd of Israel, \nYou who are enthroned upon the cherubim, shine forth",
+                                    "and come to save us!"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Turn again, O God of hosts; \nlook down from heaven, and see;",
+                                    "have regard for this vine, \nthe stock that your right hand planted."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "But let your hand be upon the one at your right hand, \nthe one whom you made strong for yourself.",
+                                    "Then we will never turn back from you; \ngive us life, and we will call on your name."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Luke ch. 3, vv. 4, 6",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Prepare the way of the Lord, make straight his paths: All flesh shall see the salvation of God."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 17, vv. 9a, 10 - 13",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "As they were coming down the mountain the disciples asked Jesus,",
+                                    "“Why, then, do the scribes say that Elijah must come first?” He replied,",
+                                    "“Elijah is indeed coming and will restore all things; but I tell you that Elijah has already come,",
+                                    "and they did not recognize him, but they did to him whatever they pleased.",
+                                    "So also the Son of Man is about to suffer at their hands.”",
+                                    "Then the disciples understood that he was speaking to them about John the Baptist."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

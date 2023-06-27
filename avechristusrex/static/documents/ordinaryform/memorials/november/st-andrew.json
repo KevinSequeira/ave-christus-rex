@@ -1,0 +1,177 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/Vatican 002.jpg')",
+      "saint_background_position": "center",
+      "opening_antiphon": {
+            "verse_number": "Matthew ch. 4, vv. 18 - 19",
+            "content": [
+                  {
+                        "p": [
+                              "Beside the Sea of Galilee,",
+                              "the Lord saw two brothers, Peter and Andrew,",
+                              "and he said to them:",
+                              "Come after me and I will make you fishers of men."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "We humbly implore your majesty, O Lord,",
+                        "that, just as the blessed Apostle Andrew",
+                        "was for your Church a preacher and pastor,",
+                        "so he may be for us a constant intercessor before you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ your Son, who lives and reigns with you in the unity of the Holy Spirit, God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Grant us, almighty God, that through these offerings,",
+                        "which we bring on the feast day of Saint Andrew,",
+                        "we may please you by what we have brought",
+                        "and be given life by what you have accepted."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": {
+            "verse_number": "John ch. 1, vv. 41, 42",
+            "content": [
+                  {
+                        "p": [
+                              "Andrew told his brother Simon:",
+                              "We have found the Messiah, the Christ,",
+                              "and he brought him to Jesus."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May communion in your Sacrament strengthen us, O Lord,",
+                        "so that by the example of the blessed Apostle Andrew",
+                        "we, who carry in our body the Death of Christ,",
+                        "may merit to live with him in glory."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": {
+                  "verse_number": "Romans ch. 10, vv. 9 - 18",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Brothers and sisters: if you confess with your lips that Jesus is Lord and believe in your heart",
+                                    "that God raised him from the dead, you will be saved. For one believes with the heart and so is justified,",
+                                    "and one confesses with the mouth and so is saved. The scripture says, “No one who believes in him will be put to shame.”",
+                                    "For there is no distinction between Jew and Greek; the same Lord is Lord of all and is generous to all who call on him.",
+                                    "For, “Everyone who calls on the name of the Lord shall be saved.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "But how are they to call on one in whom they have not believed? And how are they to believe in one of whom they have never heard?",
+                                    "And how are they to hear without someone to proclaim him? And how are they to proclaim him unless they are sent?",
+                                    "As it is written, “How beautiful are the feet of those who bring good news!” But not all have obeyed the good news;",
+                                    "for Isaiah says, “Lord, who has believed our message?” So faith comes from what is heard,",
+                                    "and what is heard comes through the word of Christ."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "But I ask, have they not heard? Indeed they have; for"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Their voice has gone out to all the earth, \nand their words to the ends of the world.”"
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 19, vv. 7, 8, 9, 10",
+                  "response": "The judgements of the Lord are true, and all of them are just.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The law of the Lord is perfect, \nreviving the soul;",
+                                    "the decrees of the Lord are sure, \nmaking wise the simple."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The precepts of the Lord are right, \nrejoicing the heart;",
+                                    "the commandment of the Lord is clear, \nenlightening the eyes."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The fear of the Lord is pure, \nenduring for ever;",
+                                    "the ordinances of the Lord are true \nand righteous altogether."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "More to be desired are they than gold, \neven much fine gold;",
+                                    "sweeter also than honey, \nand drippings of the honeycomb."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 4, v. 19",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Come after me, says the Lord,",
+                                    "and I will make you fishers of men."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 4, vv. 18 - 22",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "As Jesus walked by the Sea of Galilee, he saw two brothers, Simon, who is called Peter,",
+                                    "and Andrew his brother, casting a net into the lake—for they were fishermen.",
+                                    "And he said to them, “Follow me, and I will make you fish for people.”",
+                                    "Immediately they left their nets and followed him. As he went from there, he saw two other brothers,",
+                                    "James son of Zebedee and his brother John, in the boat with their father Zebedee,",
+                                    "mending their nets, and he called them. Immediately they left the boat and their father, and followed him."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

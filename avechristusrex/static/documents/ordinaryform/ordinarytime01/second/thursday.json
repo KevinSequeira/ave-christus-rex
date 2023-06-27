@@ -1,0 +1,88 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hebrews ch. 7, v. 25 - ch. 8, v. 6   ",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Jesus is able for all time to save those who approach God through him, since he always lives to make intercession for them."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "For it was fitting that we should have such a high priest, holy, blameless, undefiled, separated from sinners, and exalted above the heavens. Unlike the other high priests, he has no need to offer sacrifices day after day, first for his own sins, and then for those of the people; this he did once for all when he offered himself. For the law appoints as high priests those who are subject to weakness, but the word of the oath, which came later than the law, appoints a Son who has been made perfect forever."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Now the main point in what we are saying is this: we have such a high priest, one who is seated at the right hand of the throne of the Majesty in the heavens, a minister in the sanctuary and the true tent that the Lord, and not any mortal, has set up. For every high priest is appointed to offer gifts and sacrifices; hence it is necessary for this priest also to have something to offer. Now if he were on earth, he would not be a priest at all, since there are priests who offer gifts according to the law. They offer worship in a sanctuary that is a sketch and shadow of the heavenly one; for Moses, when he was about to erect the tent, was warned, “See that you make everything according to the pattern that was shown you on the mountain.” But Jesus has now obtained a more excellent ministry, and to that degree he is the mediator of a better covenant, which has been enacted through better promises"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 40, vv. 6 - 7a, 7b - 8, 9, 16",
+                  "response": "Here I am, Lord; I come to do your will.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Sacrifice and offering you do not desire, \nbut you have given me an open ear.",
+                                    "Burnt offering and sin offering \nyou have not required.",
+                                    "Then I said, “Here I am.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“In the scroll of the book it is written of me.",
+                                    "I delight to do your will, O my God; \nyour law is within my heart.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I have told the glad news of deliverance \nin the great congregation;",
+                                    "see, I have not restrained my lips, \nas you know, O Lord."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "But may all who seek you \nrejoice and be glad in you;",
+                                    "may those who love your salvation \nsay continually, “Great is the Lord!”"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See 2 Timothy ch. 1, v. 10",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Our Saviour Jesus Christ has destroyed death and brought life to light through the Gospel."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 3, vv. 7 - 11",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus departed with his disciples to the sea, and a great multitude from Galilee followed him; hearing all that he was doing, they came to him in great numbers from Judea, Jerusalem, Idumea, beyond the Jordan, and the region around Tyre and Sidon. He told his disciples to have a boat ready for him because of the crowd, so that they would not crush him; for he had cured many, so that all who had diseases pressed upon him to touch him. Whenever the unclean spirits saw him, they fell down before him and shouted, “You are the Son of God!”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,172 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_basil_gregory.jpeg')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Sirach ch. 44, vv. 15, 14",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let the peoples recount the wisdom of the Saints,",
+                                    "and let the Church proclaim their praise.",
+                                    "Their names will live on and on."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who were pleased to give light to your Church",
+                        "by the example and teaching",
+                        "of the Bishops Saints Basil and Gregory,",
+                        "grant, we pray,",
+                        "that in humility we may learn your truth",
+                        "and practice it faithfully in charity."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Accept this sacrifice from your people, we pray, O Lord,",
+                        "and make what is offered for your glory,",
+                        "in honor of Saints Basil and Gregory,",
+                        "a means to our eternal salvation."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. 1 Corinthians ch. 1, vv. 23, 24",
+                  "content": [
+                        {
+                              "p": [
+                                    "We proclaim Christ crucified;",
+                                    "Christ, the power of God and the wisdom of God."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May partaking at the heavenly table, almighty God,",
+                        "confirm and increase strength from on high",
+                        "in all who celebrate the feast day of Saints Basil and Gregory,",
+                        "that we may preserve in integrity the gift of faith",
+                        "and walk in the path of salvation you trace for us."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Ephesians ch. 4, vv. 1 - 7, 11 - 13",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: I, Paul, therefore, the prisoner in the Lord,",
+                                          "beg you to lead a life worthy of the calling to which you have been called,",
+                                          "with all humility and gentleness, with patience, bearing with one another in love,",
+                                          "making every effort to maintain the unity of the Spirit in the bond of peace.",
+                                          "There is one body and one Spirit, just as you were called to the one hope of your calling,",
+                                          "one Lord, one faith, one baptism, one God and Father of all, who is above all and through all and in all."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The gifts he gave were that some would be apostles, some prophets, some evangelists, some pastors and teachers,",
+                                          "to equip the saints for the work of ministry, for building up the body of Christ, until all of us come to the unity",
+                                          "of the faith and of the knowledge of the Son of God, to maturity, to the measure of the full stature of Christ."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 23, vv. 1b - 3a, 4, 5, 6",
+                  "response": "The Lord is my shepherd; there is nothing I shall want.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "He makes me lie down in green pastures;",
+                                    "he leads me beside still waters; \nhe restores my soul.",
+                                    "He leads me in right paths."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Even though I walk through the darkest valley, \nI fear no evil;",
+                                    "for you are with me; \nyour rod and your staff— \nthey comfort me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "You prepare a table before me \nin the presence of my enemies;",
+                                    "you anoint my head with oil; \nmy cup overflows."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Surely goodness and mercy shall follow me \nall the days of my life,",
+                                    "and I shall dwell in the house of the Lord \nmy whole life long."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "1 Corinthians ch. 2, v. 7",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "We speak God's wisdom, mysterious, hidden, which God predetermined before the ages for our glory."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 23, vv. 8 - 12",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “But you are not to be called rabbi, for you have one teacher,",
+                                    "and you are all students. And call no one your father on earth, for you have one Father—the one in heaven.",
+                                    "Nor are you to be called instructors, for you have one instructor, the Messiah.",
+                                    "The greatest among you will be your servant. All who exalt themselves will be humbled,",
+                                    "and all who humble themselves will be exalted.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

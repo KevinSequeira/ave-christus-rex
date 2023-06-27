@@ -1,0 +1,249 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_03.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 25, vv. 15, 16",
+                  "content": [
+                        {
+                              "p": [
+                                    "My eyes are always on the Lord,",
+                                    "for he rescues my feet from the snare.",
+                                    "Turn to me and have mercy on me,",
+                                    "for I am alone and poor."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Ezekiel ch. 36, vv. 23 - 26",
+                  "content": [
+                        {
+                              "p": [
+                                    "When I prove my holiness among you,",
+                                    "I will gather you from all the foreign lands;",
+                                    "and I will pour clean water upon you",
+                                    "and cleanse you from all your impurities,",
+                                    "and I will give you a new spirit, says the Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, author of every mercy and of all goodness,",
+                        "who in fasting, prayer and almsgiving",
+                        "have shown us a remedy for sin,",
+                        "look graciously on this confession of our lowliness,",
+                        "that we, who are bowed down by our conscience,",
+                        "may always be lifted up by your mercy."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "offertory": [
+            {
+                  "p": [
+                        "Be pleased, O Lord, with these sacrificial offerings,",
+                        "and grant that we who beseech pardon for our own sins,",
+                        "may take care to forgive our neighbor."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "John ch. 4, vv. 13, 14",
+                  "content": [
+                        {
+                              "p": [
+                                    "For anyone who drinks it, says the Lord,",
+                                    "the water I shall give will become in him",
+                                    "a spring welling up to eternal life."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Psalm 84, vv. 4, 5",
+                  "content": [
+                        {
+                              "p": [
+                                    "The sparrow finds a home,",
+                                    "and the swallow a nest for her young:",
+                                    "by your altars, O Lord of hosts, my King and my God.",
+                                    "Blessed are they who dwell in your house,",
+                                    "for ever singing your praise."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "As we receive the pledge",
+                        "of things yet hidden in heaven",
+                        "and are nourished while still on earth",
+                        "with the Bread that comes from on high,",
+                        "we humbly entreat you, O Lord,",
+                        "that what is being brought about in us in mystery",
+                        "may come to true completion."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "Direct, O Lord, we pray, the hearts of your faithful,",
+                        "and in your kindness grant your servants this grace:",
+                        "that, abiding in the love of you and their neighbor,",
+                        "they may fulfill the whole of your commands."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Exodus ch. 17, vv. 3 - 7",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The people thirsted there for water; and the people complained against Moses and said, “Why did you bring us out of Egypt, to kill us and our children and livestock with thirst?” So Moses cried out to the Lord, “What shall I do with this people? They are almost ready to stone me.” The Lord said to Moses, “Go on ahead of the people, and take some of the elders of Israel with you; take in your hand the staff with which you struck the Nile, and go. I will be standing there in front of you on the rock at Horeb. Strike the rock, and water will come out of it, so that the people may drink.” Moses did so, in the sight of the elders of Israel. He called the place Massah and Meribah, because the Israelites quarreled and tested the Lord, saying, “Is the Lord among us or not?”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 95, vv. 1 - 2, 6 - 7, 8 - 9",
+                  "response": "If today you hear his voice, harden not your hearts.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O come, let us sing to the Lord; \nlet us make a joyful noise to the rock of our salvation!",
+                                    "Let us come into his presence with thanksgiving; \nlet us make a joyful noise to him with songs of praise!"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O come, let us worship and bow down, \nlet us kneel before the Lord, our Maker!",
+                                    "For he is our God, \nand we are the people of his pasture, \nand the sheep of his hand."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O that today you would listen to his voice!",
+                                    "Do not harden your hearts, as at Meribah, \nas on the day at Massah in the wilderness,",
+                                    "when your ancestors tested me, \nand put me to the proof, though they had seen my work."
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": [
+                  {
+                        "verse_number": "Romans ch. 5, vv. 1 - 2, 5 - 8",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: Since we are justified by faith, we have peace with God through our Lord Jesus Christ, through whom we have obtained access to this grace in which we stand; and we boast in our hope of sharing the glory of God."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "And hope does not disappoint us, because God’s love has been poured into our hearts through the Holy Spirit that has been given to us."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "For while we were still weak, at the right time Christ died for the ungodly. Indeed, rarely will anyone die for a righteous person—though perhaps for a good person someone might actually dare to die. But God proves his love for us in that while we still were sinners Christ died for us."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "gradual": {
+                  "verse_number": "Cf. John ch. 4, vv. 42, 45",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Lord, you are truly the Saviour of the world; give me living water, that I may never thirst again."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 4, vv. 5 - 42",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus came to a Samaritan city called Sychar, near the plot of ground that Jacob had given to his son Joseph. Jacob’s well was there, and Jesus, tired out by his journey, was sitting by the well. It was about noon."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "A Samaritan woman came to draw water, and Jesus said to her, “Give me a drink.” (His disciples had gone to the city to buy food.) The Samaritan woman said to him, “How is it that you, a Jew, ask a drink of me, a woman of Samaria?” (Jews do not share things in common with Samaritans.) Jesus answered her, “If you knew the gift of God, and who it is that is saying to you, ‘Give me a drink,’ you would have asked him, and he would have given you living water.” The woman said to him, “Sir, you have no bucket, and the well is deep. Where do you get that living water? Are you greater than our ancestor Jacob, who gave us the well, and with his sons and his flocks drank from it?” Jesus said to her, “Everyone who drinks of this water will be thirsty again, but those who drink of the water that I will give them will never be thirsty. The water that I will give will become in them a spring of water gushing up to eternal life.” The woman said to him, “Sir, give me this water, so that I may never be thirsty or have to keep coming here to draw water.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to her, “Go, call your husband, and come back.” The woman answered him, “I have no husband.” Jesus said to her, “You are right in saying, ‘I have no husband’; for you have had five husbands, and the one you have now is not your husband. What you have said is true!” The woman said to him, “Sir, I see that you are a prophet. Our ancestors worshiped on this mountain, but you say that the place where people must worship is in Jerusalem.” Jesus said to her, “Woman, believe me, the hour is coming when you will worship the Father neither on this mountain nor in Jerusalem. You worship what you do not know; we worship what we know, for salvation is from the Jews. But the hour is coming, and is now here, when the true worshipers will worship the Father in spirit and truth, for the Father seeks such as these to worship him. God is spirit, and those who worship him must worship in spirit and truth.” The woman said to him, “I know that Messiah is coming” (who is called Christ). “When he comes, he will proclaim all things to us.” Jesus said to her, “I am he, the one who is speaking to you.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Just then his disciples came. They were astonished that he was speaking with a woman, but no one said, “What do you want?” or, “Why are you speaking with her?” Then the woman left her water jar and went back to the city. She said to the people, “Come and see a man who told me everything I have ever done! He cannot be the Messiah, can he?” They left the city and were on their way to him."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Meanwhile the disciples were urging him, “Rabbi, eat something.” But he said to them, “I have food to eat that you do not know about.” So the disciples said to one another, “Surely no one has brought him something to eat?” Jesus said to them, “My food is to do the will of him who sent me and to complete his work. Do you not say, ‘Four months more, then comes the harvest’? But I tell you, look around you, and see how the fields are ripe for harvesting. The reaper is already receiving wages and is gathering fruit for eternal life, so that sower and reaper may rejoice together. For here the saying holds true, ‘One sows and another reaps.’ I sent you to reap that for which you did not labor. Others have labored, and you have entered into their labor.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Many Samaritans from that city believed in him because of the woman’s testimony, “He told me everything I have ever done.” So when the Samaritans came to him, they asked him to stay with them; and he stayed there two days. And many more believed because of his word. They said to the woman, “It is no longer because of what you said that we believe, for we have heard for ourselves, and we know that this is truly the Savior of the world.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

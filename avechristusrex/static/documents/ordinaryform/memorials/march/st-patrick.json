@@ -1,0 +1,189 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_patrick.webp')",
+      "saint_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Isaiah ch. 52, v. 7",
+                  "content": [
+                        {
+                              "p": [
+                                    "How beautiful upon the mountains are the feet",
+                                    "of him who brings glad tidings of peace,",
+                                    "bearing good news, announcing salvation."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Luke ch. 12, v. 42",
+                  "content": [
+                        {
+                              "p": [
+                                    "This is the steward, faithful and prudent,",
+                                    "whom the Lord set over his household",
+                                    "to give them their allowance of food at the proper time."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who chose the Bishop Saint Patrick",
+                        "to preach your glory to the peoples of Ireland,",
+                        "grant, through his merits and intercession,",
+                        "that those who glory in the name of Christian",
+                        "may never cease to proclaim your wondrous deeds to all."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Look with favor, O Lord, we pray,",
+                        "on the offerings we set upon this sacred altar",
+                        "on the feast day of Saint Patrick,",
+                        "that, bestowing on us your pardon,",
+                        "our oblations may give honor to your name."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. John ch. 15, v. 16",
+                  "content": [
+                        {
+                              "p": [
+                                    "It was not you who chose me, says the Lord,",
+                                    "but I who chose you and appointed you to go and bear fruit,",
+                                    "fruit that will last."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Matthew ch. 10, v. 27",
+                  "content": [
+                        {
+                              "p": [
+                                    "What I say to you in the darkness",
+                                    "speak in the light, says the Lord;",
+                                    "what you hear whispered proclaim on the housetops."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Receive, O Lord, these offerings of your people,",
+                        "on the feast day of Saint Patrick,",
+                        "so that through them, according to our confident hope,",
+                        "we may experience the help of your loving kindness."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "1 Peter ch. 4, vv. 7b - 11",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: Be serious and discipline yourselves for the sake of your prayers. Above all, maintain constant love for one another, for love covers a multitude of sins. Be hospitable to one another without complaining. Like good stewards of the manifold grace of God, serve one another with whatever gift each of you has received. Whoever speaks must do so as one speaking the very words of God; whoever serves must do so with the strength that God supplies, so that God may be glorified in all things through Jesus Christ. To him belong the glory and the power forever and ever. Amen."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 96, vv. 1 - 2a, 2b - 3, 7 - 8a, 10",
+                  "response": "Proclaim God's marvelous deeds to all the nations.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O sing to the Lord a new song; \nsing to the Lord, all the earth.",
+                                    "Sing to the Lord, bless his name."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Tell of his salvation from day to day.",
+                                    "Declare his glory among the nations, \nhis marvelous works among all the peoples."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Ascribe to the Lord, O families of the peoples, \nascribe to the Lord glory and strength.",
+                                    "Ascribe to the Lord the glory due his name; \nbring an offering, and come into his courts."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Say among the nations, “The Lord is king! \nThe world is firmly established; it shall never be moved. \nHe will judge the peoples with equity.”"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Luke ch. 4, v. 18",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Lord sent me to bring glad tidings to the poor and to proclaim liberty to captives."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 16, vv. 15 - 20",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “Go into all the world and proclaim the good news to the whole creation.",
+                                    "The one who believes and is baptized will be saved; but the one who does not believe will be condemned.",
+                                    "And these signs will accompany those who believe: by using my name they will cast out demons;",
+                                    "they will speak in new tongues; they will pick up snakes in their hands, and if they drink any deadly thing,",
+                                    "it will not hurt them; they will lay their hands on the sick, and they will recover.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "So then the Lord Jesus, after he had spoken to them, was taken up into heaven and sat down at the right hand of God.",
+                                    "And they went out and proclaimed the good news everywhere, while the Lord worked with them and",
+                                    "confirmed the message by the signs that accompanied it."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

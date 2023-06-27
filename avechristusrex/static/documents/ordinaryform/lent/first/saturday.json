@@ -1,0 +1,156 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_01.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 19, v. 8",
+                  "content": [
+                        {
+                              "p": [
+                                    "The law of the Lord is perfect; it revives the soul.",
+                                    "The decrees of the Lord are steadfast; they give wisdom to the simple."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Turn our hearts to you, eternal Father,",
+                        "and grant that, seeking always the one thing necessary",
+                        "and carrying out works of charity,",
+                        "we may be dedicated to your worship."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "offertory": [
+            {
+                  "p": [
+                        "May these blessed mysteries",
+                        "by which we are restored, O Lord, we pray,",
+                        "make us worthy of the gift they bestow."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Matthew ch. 5, v. 48",
+                  "content": [
+                        {
+                              "p": [
+                                    "Be perfect, as your heavenly Father is perfect, says the Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Show unceasing favor, O Lord,",
+                        "to those you refresh with this divine mystery,",
+                        "and accompany with salutary consolations",
+                        "those you have imbued with heavenly teaching."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "May the blessing for which they have longed",
+                        "strengthen your faithful, O God,",
+                        "so that, never straying from your will,",
+                        "they may always rejoice in your benefits."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Deuteronomy ch. 26, vv. 16 - 19",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Moses spoke to the people, saying: “This very day the Lord your God is commanding you to observe these statutes and ordinances; so observe them diligently with all your heart and with all your soul. Today you have obtained the Lord’s agreement: to be your God; and for you to walk in his ways, to keep his statutes, his commandments, and his ordinances, and to obey him. Today the Lord has obtained your agreement: to be his treasured people, as he promised you, and to keep his commandments; for him to set you high above all nations that he has made, in praise and in fame and in honor; and for you to be a people holy to the Lord your God, as he promised.”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 119, vv. 1 - 2, 4 - 5, 7 - 8",
+                  "response": "Blessed are they who follow the law of the Lord!",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Happy are those whose way is blameless, \nwho walk in the law of the Lord.",
+                                    "Happy are those who keep his decrees, \nwho seek him with their whole heart."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "You have commanded your precepts \nto be kept diligently.",
+                                    "O that my ways may be steadfast \nin keeping your statutes!"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I will praise you with an upright heart, \nwhen I learn your righteous ordinances.",
+                                    "I will observe your statutes; \ndo not utterly forsake me."
+                              ]
+                        }
+                  ]
+            },
+            "gradual": {
+                  "verse_number": "2 Corinthians ch. 6, v. 2b",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold, now is a very acceptable time; behold, now is the day of salvation."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 5, vv. 43 - 48",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “You have heard that it was said, ‘You shall love your neighbor and hate your enemy.’ But I say to you, Love your enemies and pray for those who persecute you, so that you may be children of your Father in heaven; for he makes his sun rise on the evil and on the good, and sends rain on the righteous and on the unrighteous. For if you love those who love you, what reward do you have? Do not even the tax collectors do the same? And if you greet only your brothers and sisters, what more are you doing than others? Do not even the Gentiles do the same? Be perfect, therefore, as your heavenly Father is perfect.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

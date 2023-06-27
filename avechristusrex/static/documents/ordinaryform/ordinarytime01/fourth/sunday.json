@@ -1,0 +1,148 @@
+{
+      "gloria": "yes",
+      "credo": "nicene_creed",
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Zephaniah ch. 2, v. 3; ch. 3, vv. 12 - 13",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Seek the Lord, all you humble of the land, \nwho do his commands;",
+                                          "seek righteousness, seek humility; \nperhaps you may be hidden \non the day of the Lord’s wrath."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "For I will leave in the midst of you \na people humble and lowly.",
+                                          "They shall seek refuge in the name of the Lord— \nthe remnant of Israel;",
+                                          "they shall do no wrong \nand utter no lies,",
+                                          "nor shall a deceitful tongue \nbe found in their mouths.",
+                                          "Then they will pasture and lie down, \nand no one shall make them afraid."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 146, vv. 6c - 7, 8 - 9a, 9bc - 10",
+                  "response": "Blessed are the poor in spirit; the kingdom of heaven is theirs!",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord keeps faith forever; \nwho executes justice for the oppressed; \nwho gives food to the hungry.",
+                                    "The Lord sets the prisoners free."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord opens the eyes of the blind.",
+                                    "The Lord lifts up those who are bowed down; \nthe Lord loves the righteous.",
+                                    "The Lord watches over the strangers."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "He upholds the orphan and the widow, \nbut the way of the wicked he brings to ruin.",
+                                    "The Lord will reign forever, \nyour God, O Zion, for all generations.",
+                                    "Praise the Lord!"
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": [
+                  {
+                        "verse_number": "1 Corinthians ch. 1, vv. 26 - 31",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Consider your own call, brothers and sisters: not many of you were wise by human standards, not many were powerful, not many were of noble birth. But God chose what is foolish in the world to shame the wise; God chose what is weak in the world to shame the strong; God chose what is low and despised in the world, things that are not, to reduce to nothing things that are, so that no one might boast in the presence of God. He is the source of your life in Christ Jesus, who became for us wisdom from God, and righteousness and sanctification and redemption, in order that, as it is written, “Let the one who boasts, boast in the Lord.”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 5, v. 12a",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Rejoice and be glad; your reward will be great in heaven."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 1, vv. 29 - 34",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "When Jesus saw the crowds, he went up the mountain; and after he sat down, his disciples came to him. Then he began to speak, and taught them, saying:"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed are the poor in spirit, for theirs is the kingdom of heaven."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed are those who mourn, for they will be comforted."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed are the meek, for they will inherit the earth."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed are those who hunger and thirst for righteousness, for they will be filled."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed are the merciful, for they will receive mercy."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed are the pure in heart, for they will see God."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed are the peacemakers, for they will be called children of God."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed are those who are persecuted for righteousness’ sake, for theirs is the kingdom of heaven."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“Blessed are you when people revile you and persecute you and utter all kinds of evil against you falsely on my account. Rejoice and be glad, for your reward is great in heaven, for in the same way they persecuted the prophets who were before you.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

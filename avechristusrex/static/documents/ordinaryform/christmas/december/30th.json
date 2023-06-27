@@ -1,0 +1,189 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_season_30th.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Wisdom ch. 18, vv. 14, 15",
+                  "content": [
+                        {
+                              "p": [
+                                    "When a profound silence covered all things",
+                                    "and night was in the middle of its course,",
+                                    "your all-powerful Word, O Lord,",
+                                    "bounded from heaven’s royal throne."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "Grant, we pray, almighty God,",
+                        "that the newness of the Nativity in the flesh",
+                        "of your Only Begotten Son may set us free,",
+                        "for ancient servitude holds us bound",
+                        "beneath the yoke of sin."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Receive with favor, O Lord, we pray,",
+                        "the offerings of your people,",
+                        "that what they profess with devotion and faith",
+                        "may be theirs through these heavenly mysteries."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "John ch. 1, v. 16",
+                  "content": [
+                        {
+                              "p": [
+                                    "From his fullness we have all received,",
+                                    "grace upon grace."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "O God, who touch us through our partaking of your Sacrament,",
+                        "work, we pray, the effects of its power in our hearts,",
+                        "that we may be made fit to receive your gift",
+                        "through this very gift itself."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "1 John ch. 2, vv. 3 - 11",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Beloved: Now by this we may be sure that we know him, if we obey his commandments. Whoever says,",
+                                          "“I have come to know him,” but does not obey his commandments, is a liar, and in such a person",
+                                          "the truth does not exist; but whoever obeys his word, truly in this person the love of God has reached perfection.",
+                                          "By this we may be sure that we are in him: whoever says, “I abide in him,” ought to walk just as he walked."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Beloved, I am writing you no new commandment, but an old commandment that you have had from the beginning;",
+                                          "the old commandment is the word that you have heard. Yet I am writing you a new commandment that is true in him and in you,",
+                                          "because the darkness is passing away and the true light is already shining. Whoever says, “I am in the light,”",
+                                          "while hating a brother or sister, is still in the darkness. Whoever loves a brother or sister lives in the light,",
+                                          "and in such a person there is no cause for stumbling. But whoever hates another believer is in the darkness,",
+                                          "walks in the darkness, and does not know the way to go, because the darkness has brought on blindness."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 96, vv. 1 - 2a, 2b - 3, 5b - 6",
+                  "response": "Let the heavens be glad and the earth rejoice.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O sing to the Lord a new song; \nsing to the Lord, all the earth.",
+                                    "Sing to the Lord, bless his name."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Tell of his salvation from day to day.",
+                                    "Declare his glory among the nations, \nhis marvelous works among all the peoples."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord made the heavens.",
+                                    "Honor and majesty are before him; \nstrength and beauty are in his sanctuary."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Luke ch. 2, v. 32",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "A light of revelation to the Gentiles and glory for your people Israel."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 2, vv. 22 - 35",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "When the time came for their purification according to the law of Moses, the parents of Jesus brought him up",
+                                    "to Jerusalem to present him to the Lord (as it is written in the law of the Lord, “Every firstborn male shall be",
+                                    "designated as holy to the Lord”), and they offered a sacrifice according to what is stated in the law of the Lord,",
+                                    "“a pair of turtledoves or two young pigeons.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Now there was a man in Jerusalem whose name was Simeon; this man was righteous and devout,",
+                                    "looking forward to the consolation of Israel, and the Holy Spirit rested on him.",
+                                    "It had been revealed to him by the Holy Spirit that he would not see death before he had seen the Lord’s Messiah. Guided by the Spirit,",
+                                    "Simeon came into the temple; and when the parents brought in the child Jesus, to do for him what was customary under the law,",
+                                    "Simeon took him in his arms and praised God, saying,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Master, now you are dismissing your servant in peace, \naccording to your word;",
+                                    "for my eyes have seen your salvation, \nwhich you have prepared in the presence of all peoples,",
+                                    "a light for revelation to the Gentiles \nand for glory to your people Israel.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "And the child’s father and mother were amazed at what was being said about him. Then Simeon blessed them and said to his mother Mary,",
+                                    "“This child is destined for the falling and the rising of many in Israel, and to be a sign that will be opposed so that",
+                                    "the inner thoughts of many will be revealed—and a sword will pierce your own soul too.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

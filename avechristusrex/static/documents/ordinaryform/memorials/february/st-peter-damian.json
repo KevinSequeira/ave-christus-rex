@@ -1,0 +1,173 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_peter_damian.png')",
+      "saint_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Ezekiel ch. 34, vv. 11, 23 - 24",
+                  "content": [
+                        {
+                              "p": [
+                                    "I will look after my sheep, says the Lord,",
+                                    "and I will appoint a shepherd to pasture them,",
+                                    "and I, the Lord, will be their God."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Luke ch. 12, v. 42",
+                  "content": [
+                        {
+                              "p": [
+                                    "This is the steward, faithful and prudent,",
+                                    "whom the Lord set over his household",
+                                    "to give them their allowance of food at the proper time."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Grant, we pray, almighty God,",
+                        "that we may so follow the teaching and example",
+                        "of the Bishop Saint Peter Damian,",
+                        "that, putting nothing before Christ",
+                        "and always ardent in the service of your Church,",
+                        "we may be led to the joys of eternal light."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Look with favor, O Lord, we pray,",
+                        "on the offerings we set upon this sacred altar",
+                        "on the feast day of Saint Peter Damian,",
+                        "that, bestowing on us your pardon,",
+                        "our oblations may give honor to your name."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. John ch. 15, v. 16",
+                  "content": [
+                        {
+                              "p": [
+                                    "It was not you who chose me, says the Lord,",
+                                    "but I who chose you and appointed you to go and bear fruit,",
+                                    "fruit that will last."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Luke ch. 12, vv. 36, 37",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed is that servant, whom his lord finds awake",
+                                    "when he comes and knocks at the gate."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Renewed by the sacred mysteries,",
+                        "we humbly pray, O Lord,",
+                        "that, following the example of Saint Peter Damian,",
+                        "we may strive to profess what he believed",
+                        "and to practice what he taught."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "2 Timothy ch. 4, vv. 1 - 5",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: In the presence of God and of Christ Jesus, who is to judge the living and the dead, and in view of his appearing and his kingdom, I solemnly urge you: proclaim the message; be persistent whether the time is favorable or unfavorable; convince, rebuke, and encourage, with the utmost patience in teaching. For the time is coming when people will not put up with sound doctrine, but having itching ears, they will accumulate for themselves teachers to suit their own desires, and will turn away from listening to the truth and wander away to myths. As for you, always be sober, endure suffering, do the work of an evangelist, carry out your ministry fully."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 16, vv. 1 - 2 and 5, 7 - 8, 11",
+                  "response": "You are my inheritance, O Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Protect me, O God, for in you I take refuge.",
+                                    "I say to the Lord, “You are my Lord; \nI have no good apart from you.”",
+                                    "The Lord is my chosen portion and my cup; \nyou hold my lot."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I bless the Lord who gives me counsel; \nin the night also my heart instructs me.",
+                                    "I keep the Lord always before me; \nbecause he is at my right hand, I shall not be moved."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "You show me the path of life. \nIn your presence there is fullness of joy; \nin your right hand are pleasures forevermore."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "John ch. 15, vv. 9b, 5b",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Remain in my love, says the Lord; whoever remains in me and I in him will bear much fruit."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 15, vv. 1 - 8",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “I am the true vine, and my Father is the vinegrower. He removes every branch in me that bears no fruit. Every branch that bears fruit he prunes to make it bear more fruit. You have already been cleansed by the word that I have spoken to you. Abide in me as I abide in you. Just as the branch cannot bear fruit by itself unless it abides in the vine, neither can you unless you abide in me. I am the vine, you are the branches. Those who abide in me and I in them bear much fruit, because apart from me you can do nothing. Whoever does not abide in me is thrown away like a branch and withers; such branches are gathered, thrown into the fire, and burned. If you abide in me, and my words abide in you, ask for whatever you wish, and it will be done for you. My Father is glorified by this, that you bear much fruit and become my disciples.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

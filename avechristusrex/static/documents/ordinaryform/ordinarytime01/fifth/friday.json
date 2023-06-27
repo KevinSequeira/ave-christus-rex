@@ -1,0 +1,80 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Genesis ch. 3, vv. 1 - 8",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Now the serpent was more crafty than any other wild animal that the Lord God had made. He said to the woman, “Did God say, ‘You shall not eat from any tree in the garden’?” The woman said to the serpent, “We may eat of the fruit of the trees in the garden; but God said, ‘You shall not eat of the fruit of the tree that is in the middle of the garden, nor shall you touch it, or you shall die.’” But the serpent said to the woman, “You will not die; for God knows that when you eat of it your eyes will be opened, and you will be like God, knowing good and evil.” So when the woman saw that the tree was good for food, and that it was a delight to the eyes, and that the tree was to be desired to make one wise, she took of its fruit and ate; and she also gave some to her husband, who was with her, and he ate. Then the eyes of both were opened, and they knew that they were naked; and they sewed fig leaves together and made loincloths for themselves."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "They heard the sound of the Lord God walking in the garden at the time of the evening breeze, and the man and his wife hid themselves from the presence of the Lord God among the trees of the garden."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 32, vv. 1 - 2, 5, 6, 7",
+                  "response": "Blessed are those whose sins are forgiven.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Happy are those whose transgression is forgiven, \nwhose sin is covered.",
+                                    "Happy are those to whom the Lord imputes no iniquity, \nand in whose spirit there is no deceit."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Then I acknowledged my sin to you, \nand I did not hide my iniquity;",
+                                    "I said, “I will confess my transgressions to the Lord,” \nand you forgave the guilt of my sin."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Therefore let all who are faithful \noffer prayer to you;",
+                                    "at a time of distress, the rush of mighty waters \nshall not reach them."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "You are a hiding place for me; \nyou preserve me from trouble; \nyou surround me with glad cries of deliverance."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Acts ch. 16, v. 14b",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Open our hearts, O Lord, to listen to the words of your Son."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 7, vv. 31 - 37",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus returned from the region of Tyre, and went by way of Sidon towards the Sea of Galilee, in the region of the Decapolis. They brought to him a deaf man who had an impediment in his speech; and they begged him to lay his hand on him. He took him aside in private, away from the crowd, and put his fingers into his ears, and he spat and touched his tongue. Then looking up to heaven, he sighed and said to him, “Ephphatha,” that is, “Be opened.” And immediately his ears were opened, his tongue was released, and he spoke plainly. Then Jesus ordered them to tell no one; but the more he ordered them, the more zealously they proclaimed it. They were astounded beyond measure, saying, “He has done everything well; he even makes the deaf to hear and the mute to speak.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

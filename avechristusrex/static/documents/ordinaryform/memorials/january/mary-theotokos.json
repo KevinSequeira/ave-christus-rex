@@ -1,0 +1,202 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/theotokos.png')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "Hail, Holy Mother, who gave birth to the King,",
+                                    "who rules heaven and earth for ever."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Isaiah ch. 9, v. 5; Luke ch. 1, v. 33",
+                  "content": [
+                        {
+                              "p": [
+                                    "Today a light will shine upon us, for the Lord is born for us;",
+                                    "and he will be called Wondrous God,",
+                                    "Prince of peace, Father of future ages:",
+                                    "and his reign will be without end."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who through the fruitful virginity of Blessed Mary",
+                        "bestowed on the human race",
+                        "the grace of eternal salvation,",
+                        "grant, we pray,",
+                        "that we may experience the intercession of her,",
+                        "through whom we were found worthy",
+                        "to receive the author of life,",
+                        "our Lord Jesus Christ, your Son."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "O God, who in your kindness begin all good things",
+                        "and bring them to fulfillment,",
+                        "grant to us, who find joy in the Solemnity of the",
+                        "holy Mother of God,",
+                        "that, just as we glory in the beginnings of your grace,",
+                        "so one day we may rejoice in its completion."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "nicene_creed",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Hebrews ch. 13, v. 8",
+                  "content": [
+                        {
+                              "p": [
+                                    "Jesus Christ is the same yesterday, today, and for ever."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "We have received this heavenly Sacrament with joy, O Lord:",
+                        "grant, we pray,",
+                        "that it may lead us to eternal life,",
+                        "for we rejoice to proclaim the blessed ever-Virgin Mary",
+                        "Mother of your Son and Mother of the Church."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Numbers ch. 6, vv. 22 - 27",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The Lord spoke to Moses, saying: Speak to Aaron and his sons, saying, Thus you shall bless the Israelites:",
+                                          "You shall say to them,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "The Lord bless you and keep you;",
+                                          "the Lord make his face to shine upon you, and be gracious to you;",
+                                          "the Lord lift up his countenance upon you, and give you peace."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "So they shall put my name on the Israelites, and I will bless them."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 67, vv. 1 - 2, 4, 5 and 7",
+                  "response": "You are the highest honour of our race.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "May God be gracious to us and bless us \nand make his face to shine upon us,",
+                                    "that your way may be known upon earth, \nyour saving power among all nations."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Let the nations be glad and sing for joy, \nfor you judge the peoples with equity \nand guide the nations upon earth."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Let the peoples praise you, O God; \nlet all the peoples praise you.",
+                                    "May God continue to bless us; \nlet all the ends of the earth revere him."
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": [
+                  {
+                        "verse_number": "Galatians ch. 4, vv. 4 - 7",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: when the fullness of time had come, God sent his Son, born of a woman, born under the law,",
+                                          "in order to redeem those who were under the law, so that we might receive adoption as children.",
+                                          "And because you are children, God has sent the Spirit of his Son into our hearts, crying, “Abba! Father!”",
+                                          "So you are no longer a slave but a child, and if a child then also an heir, through God."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "gospel_acclamation": {
+                  "verse_number": "Hebrews ch. 1, vv. 1, 2",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "In the past, God spoke to our ancestors through the prophets; in these last days he has spoken to us through the Son."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 2, vv. 16 - 21",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "The shepherds went with haste and found Mary and Joseph, and the child lying in the manger.",
+                                    "When they saw this, they made known what had been told them about this child;",
+                                    "and all who heard it were amazed at what the shepherds told them.",
+                                    "But Mary treasured all these words and pondered them in her heart. The shepherds returned,",
+                                    "glorifying and praising God for all they had heard and seen, as it had been told them."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "After eight days had passed, it was time to circumcise the child; and he was called Jesus,",
+                                    "the name given by the angel before he was conceived in the womb."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

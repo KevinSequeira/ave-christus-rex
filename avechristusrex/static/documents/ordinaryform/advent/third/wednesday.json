@@ -1,0 +1,183 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": {
+            "verse_number": "Cf. Hebrews ch. 2, v. 3; 1 Corinth. ch. 4, v. 5",
+            "content": [
+                  {
+                        "p": [
+                              "The Lord will come and he will not delay.",
+                              "He will illumine what is hidden in darkness",
+                              "and reveal himself to all the nations."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Grant, we pray, almighty God,",
+                        "that the coming solemnity of your Son",
+                        "may bestow healing upon us in this present life",
+                        "and bring us the rewards of life eternal."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May the sacrifice of our worship, Lord, we pray,",
+                        "be offered to you unceasingly,",
+                        "to complete what was begun in sacred mystery",
+                        "and powerfully accomplish for us your saving work."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": {
+            "verse_number": "Cf. Isaiah ch. 40, v. 10; ch. 35, v. 5",
+            "content": [
+                  {
+                        "p": [
+                              "Behold, our Lord will come with power",
+                              "and will enlighten the eyes of his servants."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "We implore your mercy, Lord,",
+                        "that this divine sustenance",
+                        "may cleanse us of our faults",
+                        "and prepare us for the coming feasts."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Isaiah ch. 45, vv. 6c - 8, 18, 21c - 25",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I am the Lord, and there is no other.",
+                                    "I form light and create darkness, \nI make weal and create woe; \nI the Lord do all these things.",
+                                    "Shower, O heavens, from above, \nand let the skies rain down righteousness;",
+                                    "let the earth open, that salvation may spring up, \nand let it cause righteousness to sprout up also; \nI the Lord have created it."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For thus says the Lord,",
+                                    "who created the heavens \n(he is God!),",
+                                    "who formed the earth and made it \n(he established it;",
+                                    "he did not create it a chaos, \nhe formed it to be inhabited!):",
+                                    "I am the Lord, and there is no other."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Who told this long ago? \nWho declared it of old?",
+                                    "Was it not I, the Lord? \nThere is no other god besides me,",
+                                    "a righteous God and a Savior; \nthere is no one besides me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Turn to me and be saved, \nall the ends of the earth! \nFor I am God, and there is no other.",
+                                    "By myself I have sworn, \nfrom my mouth has gone forth in righteousness \na word that shall not return:",
+                                    "“To me every knee shall bow, \nevery tongue shall swear.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Only in the Lord, it shall be said of me, \nare righteousness and strength;",
+                                    "all who were incensed against him \nshall come to him and be ashamed.",
+                                    "In the Lord all the offspring of Israel \nshall triumph and glory."
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 85, vv. 8ab and 9, 10 - 11, 12 - 13",
+                  "response": "Let the clouds rain down the Just One, and the earth bring forth a Saviour.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Let me hear what God the Lord will speak, \nfor he will speak peace to his people.",
+                                    "Surely his salvation is at hand for those who fear him, \nthat his glory may dwell in our land."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Steadfast love and faithfulness will meet; \nrighteousness and peace will kiss each other.",
+                                    "Faithfulness will spring up from the ground, \nand righteousness will look down from the sky."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord will give what is good, \nand our land will yield its increase.",
+                                    "Righteousness will go before him, \nand will make a path for his steps."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Isaiah ch. 40, vv. 9, 10",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Raise your voice and tell the Good News: Behold, the Lord God comes with power."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 11, vv. 28 - 30",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "John summoned two of his disciples and sent them to the Lord to ask,",
+                                    "“Are you the one who is to come, or are we to wait for another?”",
+                                    "When the men had come to him, they said, “John the Baptist has sent us to you to ask,",
+                                    "‘Are you the one who is to come, or are we to wait for another?’”",
+                                    "Jesus had just then cured many people of diseases, plagues, and evil spirits,",
+                                    "and had given sight to many who were blind. And he answered them,",
+                                    "“Go and tell John what you have seen and heard: the blind receive their sight, the lame walk,",
+                                    "the lepers are cleansed, the deaf hear, the dead are raised, the poor have good news brought to them.",
+                                    "And blessed is anyone who takes no offense at me.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

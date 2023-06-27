@@ -1,0 +1,196 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_01.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 123, vv. 2, 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "Like the eyes of slaves on the hand of their lords,",
+                                    "so our eyes are on the Lord our God, till he show us his mercy.",
+                                    "Have mercy on us, Lord, have mercy. "
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Convert us, O God our Savior,",
+                        "and instruct our minds by heavenly teaching,",
+                        "that we may benefit from the works of Lent."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "offertory": [
+            {
+                  "p": [
+                        "May this devout oblation be acceptable to you, O Lord,",
+                        "that by your power it may sanctify our manner of life",
+                        "and gain for us your conciliation and pardon."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Matthew ch. 25, vv. 40, 34",
+                  "content": [
+                        {
+                              "p": [
+                                    "Amen, I say to you:",
+                                    "Whatever you did for one of the least of my brethren,",
+                                    "you did it for me, says the Lord.",
+                                    "Come, you blessed of my Father,",
+                                    "receive the kingdom prepared for you from the foundation of the world."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "We pray, O Lord, that, in receiving your Sacrament,",
+                        "we may experience help in mind and body",
+                        "so that, kept safe in both,",
+                        "we may glory in the fullness of heavenly healing."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "Enlighten the minds of your people, Lord, we pray,",
+                        "with the light of your glory,",
+                        "that they may see what must be done",
+                        "and have the strength to do what is right."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Leviticus ch. 19, vv. 1 - 2, 11 - 18",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The Lord spoke to Moses, saying:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Speak to all the congregation of the people of Israel and say to them: You shall be holy, for I the Lord your God am holy."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "You shall not steal; you shall not deal falsely; and you shall not lie to one another. And you shall not swear falsely by my name, profaning the name of your God: I am the Lord."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "You shall not defraud your neighbor; you shall not steal; and you shall not keep for yourself the wages of a laborer until morning. You shall not revile the deaf or put a stumbling block before the blind; you shall fear your God: I am the Lord."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "You shall not render an unjust judgment; you shall not be partial to the poor or defer to the great: with justice you shall judge your neighbor. You shall not go around as a slanderer among your people, and you shall not profit by the blood of your neighbor: I am the Lord."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "You shall not hate in your heart anyone of your kin; you shall reprove your neighbor, or you will incur guilt yourself. You shall not take vengeance or bear a grudge against any of your people, but you shall love your neighbor as yourself: I am the Lord."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 19, vv. 7, 8, 9, 14",
+                  "response": "Your words, Lord, are Spirit and life.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The law of the Lord is perfect, \nreviving the soul;",
+                                    "the decrees of the Lord are sure, \nmaking wise the simple."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The precepts of the Lord are right, \nrejoicing the heart;",
+                                    "the commandment of the Lord is clear, \nenlightening the eyes."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The fear of the Lord is pure, \nenduring forever;",
+                                    "the ordinances of the Lord are true \nand righteous altogether."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Let the words of my mouth and the meditation of my heart \nbe acceptable to you, \nO Lord, my rock and my redeemer."
+                              ]
+                        }
+                  ]
+            },
+            "gradual": {
+                  "verse_number": "2 Corinthians ch. 6, v. 2b",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold, now is a very acceptable time; behold, now is the day of salvation."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 25, vv. 31 - 46",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to this disciples: “When the Son of Man comes in his glory, and all the angels with him, then he will sit on the throne of his glory. All the nations will be gathered before him, and he will separate people one from another as a shepherd separates the sheep from the goats, and he will put the sheep at his right hand and the goats at the left. Then the king will say to those at his right hand, ‘Come, you that are blessed by my Father, inherit the kingdom prepared for you from the foundation of the world; for I was hungry and you gave me food, I was thirsty and you gave me something to drink, I was a stranger and you welcomed me, I was naked and you gave me clothing, I was sick and you took care of me, I was in prison and you visited me.’ Then the righteous will answer him, ‘Lord, when was it that we saw you hungry and gave you food, or thirsty and gave you something to drink? And when was it that we saw you a stranger and welcomed you, or naked and gave you clothing? And when was it that we saw you sick or in prison and visited you?’ And the king will answer them, ‘Truly I tell you, just as you did it to one of the least of these who are members of my family, you did it to me.’ Then he will say to those at his left hand, ‘You that are accursed, depart from me into the eternal fire prepared for the devil and his angels; for I was hungry and you gave me no food, I was thirsty and you gave me nothing to drink, I was a stranger and you did not welcome me, naked and you did not give me clothing, sick and in prison and you did not visit me.’ Then they also will answer, ‘Lord, when was it that we saw you hungry or thirsty or a stranger or naked or sick or in prison, and did not take care of you?’ Then he will answer them, ‘Truly I tell you, just as you did not do it to one of the least of these, you did not do it to me.’ And these will go away into eternal punishment, but the righteous into eternal life.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

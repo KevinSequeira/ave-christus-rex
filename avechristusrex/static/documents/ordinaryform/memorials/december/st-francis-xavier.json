@@ -1,0 +1,160 @@
+{
+
+      "saint_background_image": "linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_francis_xavier.png')",
+      "saint_background_position": "top",
+      "opening_antiphon": {
+            "verse_number": "Psalm 18, v. 15; Psalm 22, v. 13",
+            "content": [
+                  {
+                        "p": [
+                              "I will praise you, Lord, among the nations;",
+                              "I will tell of your name to my kin."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who through the preaching of Saint Francis Xavier",
+                        "won many peoples to yourself,",
+                        "grant that the hearts of the faithful",
+                        "may burn with the same zeal for the faith",
+                        "and that Holy Church may everywhere rejoice",
+                        "in an abundance of offspring."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ your Son, who lives and reigns with you in the unity of the Holy Spirit, God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Receive, O Lord, these offerings we bring you",
+                        "in commemoration of Saint Francis Xavier,",
+                        "and grant that, as he journeyed to distant lands",
+                        "out of longing for the salvation of souls,",
+                        "so we, too, bearing effective witness to the Gospel,",
+                        "may, with our brothers and sisters,",
+                        "eagerly hasten towards you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": {
+            "verse_number": "Matthew ch. 10, v. 27",
+            "content": [
+                  {
+                        "p": [
+                              "What I say to you in the darkness",
+                              "speak in the light, says the Lord,",
+                              "what you hear whispered,",
+                              "proclaim on the housetops."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May your mysteries, O God,",
+                        "kindle in us that fire of charity",
+                        "with which Saint Francis Xavier burned for the salvation of souls,",
+                        "so that, walking ever more worthily in our vocation,",
+                        "we may obtain with him the reward you promise",
+                        "to those who labor well in your harvest."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": {
+                  "verse_number": "1 Corinthians ch. 9, vv. 16 - 19",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Brothers and sisters: If I proclaim the gospel, this gives me no ground for boasting,",
+                                    "for an obligation is laid on me, and woe betide me if I do not proclaim the gospel!",
+                                    "For if I do this of my own will, I have a reward; but if not of my own will,",
+                                    "I am entrusted with a commission. What then is my reward? Just this: that in my proclamation",
+                                    "I may make the gospel free of charge, so as not to make full use of my rights in the gospel."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "For though I am free with respect to all, I have made myself a slave to all, so that I might win more of them."
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 117, vv. 1bc, 2",
+                  "response": "Go out to all the world and tell the Good News.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Praise the Lord, all you nations! \nExtol him, all you peoples!"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For great is his steadfast love towards us, \nand the faithfulness of the Lord endures for ever.",
+                                    "Praise the Lord!"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 28, vv. 19a, 20bc",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Go, and teach all the nations, says the Lord;",
+                                    "I am with you always, until the end of the world."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 16, vv. 15 - 20",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “Go into all the world and proclaim the good news to the whole creation.",
+                                    "The one who believes and is baptized will be saved; but the one who does not believe will be condemned.",
+                                    "And these signs will accompany those who believe: by using my name they will cast out demons;",
+                                    "they will speak in new tongues; they will pick up snakes in their hands, and if they drink any deadly thing,",
+                                    "it will not hurt them; they will lay their hands on the sick, and they will recover.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "So then the Lord Jesus, after he had spoken to them, was taken up into heaven and sat down at the right hand of God.",
+                                    "And they went out and proclaimed the good news everywhere, while the Lord worked with them and",
+                                    "confirmed the message by the signs that accompanied it."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

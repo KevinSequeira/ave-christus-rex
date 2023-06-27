@@ -1,0 +1,169 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Wreath.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": {
+            "verse_number": "Cf. Psalm 119, vv. 151, 152",
+            "content": [
+                  {
+                        "p": [
+                              "You, O Lord, are close, and all your ways are truth.",
+                              "From of old I have known of your decrees, for you are eternal."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Stir up our hearts, O Lord, to make ready the paths",
+                        "of your Only Begotten Son, that through his coming,",
+                        "we may be found worthy to serve you with minds made pure."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Accept, we pray, O Lord, these offerings we make,",
+                        "gathered from among your gifts to us,",
+                        "and may what you grant us to celebrate devoutly here below",
+                        "gain for us the prize of eternal redemption."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": {
+            "verse_number": "Titus ch. 2, vv. 12, 13",
+            "content": [
+                  {
+                        "p": [
+                              "Let us live justly and devoutly in this age,",
+                              "as we await the blessed hope",
+                              "and the coming of the glory of our great God."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May these mysteries, O Lord,",
+                        "in which we have participated,",
+                        "profit us, we pray,",
+                        "for even now, as we walk amid passing things,",
+                        "you teach us by them",
+                        "to love the things of heaven",
+                        "and hold fast to what endures."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Isaiah ch. 41, vv. 13 - 20",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For I, the Lord your God, \nhold your right hand;",
+                                    "it is I who say to you, “Do not fear, \nI will help you.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Do not fear, you worm Jacob, \nyou insect Israel!",
+                                    "I will help you, says the Lord; \nyour Redeemer is the Holy One of Israel.",
+                                    "Now, I will make of you a threshing sledge, \nsharp, new, and having teeth;",
+                                    "you shall thresh the mountains and crush them, \nand you shall make the hills like chaff.",
+                                    "You shall winnow them and the wind shall carry them away, \nand the tempest shall scatter them.",
+                                    "Then you shall rejoice in the Lord; \nin the Holy One of Israel you shall glory."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "When the poor and needy seek water, \nand there is none, \nand their tongue is parched with thirst,",
+                                    "I the Lord will answer them, \nI the God of Israel will not forsake them.",
+                                    "I will open rivers on the bare heights, \nand fountains in the midst of the valleys;",
+                                    "I will make the wilderness a pool of water, \nand the dry land springs of water.",
+                                    "I will put in the wilderness the cedar, \nthe acacia, the myrtle, and the olive;",
+                                    "I will set in the desert the cypress, \nthe plane and the pine together,",
+                                    "so that all may see and know, \nall may consider and understand,",
+                                    "that the hand of the Lord has done this, \nthe Holy One of Israel has created it."
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 145, vv. 1 and 9, 10 - 11, 12 - 13ab",
+                  "response": "The Lord is gracious and merciful; slow to anger, and of great kindness.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I will extol you, my God and King, \nand bless your name forever and ever.",
+                                    "The Lord is good to all, \nand his compassion is over all that he has made."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "All your works shall give thanks to you, O Lord, \nand all your faithful shall bless you.",
+                                    "They shall speak of the glory of your kingdom, \nand tell of your power."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "To make known to all people your mighty deeds, \nand the glorious splendor of your kingdom.",
+                                    "Your kingdom is an everlasting kingdom, \nand your dominion endures throughout all generations."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Isaiah ch. 45. v. 8",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let the clouds rain down the Just One, and the earth bring forth a Saviour."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 11, vv. 11 - 15",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to the crowds: “Truly I tell you, among those born of women no one has arisen",
+                                    "greater than John the Baptist; yet the least in the kingdom of heaven is greater than he.",
+                                    "From the days of John the Baptist until now the kingdom of heaven has suffered violence,",
+                                    "and the violent take it by force. For all the prophets and the law prophesied until John came;",
+                                    "and if you are willing to accept it, he is Elijah who is to come. Let anyone with ears listen!”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,175 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/Vatican 002.jpg')",
+      "saint_background_position": "top",
+      "opening_antiphon": {
+            "verse_number": "Malachi ch. 2, v. 6",
+            "content": [
+                  {
+                        "p": [
+                              "Behold a great priest, who in his days pleased God;",
+                              "therefore, in accordance with his promise,",
+                              "the Lord gave him growth for the good of his people."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "Grant, we pray, O Lord,",
+                        "that we may constantly exalt the merits of your Martyrs,",
+                        "whom Pope Saint Damasus so venerated and loved."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Accept this sacrifice from your people, we pray, O Lord,",
+                        "and make what is offered for your glory,",
+                        "in honor of Pope Saint Damasus,",
+                        "a means to our eternal salvation."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": {
+            "verse_number": "John ch. 10, v. 11",
+            "content": [
+                  {
+                        "p": [
+                              "The Good Shepherd has laid down his life for his sheep."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May the Sacrament we have received, O Lord our God,",
+                        "stir up in us that fire of charity",
+                        "with which Pope Saint Damasus burned ardently",
+                        "as he gave himself unceasingly for your Church."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": {
+                  "verse_number": "Acts ch. 20, vv. 17 - 18a, 28 - 32, 36",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "From Miletus Paul sent a message to Ephesus, asking the elders of the church to meet him.",
+                                    "When they came to him, he said to them:"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“Keep watch over yourselves and over all the flock, of which the Holy Spirit has made you overseers,",
+                                    "to shepherd the church of God that he obtained with the blood of his own Son. I know that after I have gone,",
+                                    "savage wolves will come in among you, not sparing the flock. Some even from your own group will come",
+                                    "distorting the truth in order to entice the disciples to follow them. Therefore be alert,",
+                                    "remembering that for three years I did not cease night or day to warn everyone with tears.",
+                                    "And now I commend you to God and to the message of his grace, a message that is able to build you up",
+                                    "and to give you the inheritance among all who are sanctified.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "When he had finished speaking, he knelt down with them all and prayed."
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 110, vv. 1, 2, 3, 4",
+                  "response": "You are a priest for ever, in the line of Melchizedek.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord says to my lord, \n“Sit at my right hand",
+                                    "until I make your enemies your footstool.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord sends out from Zion \nyour mighty scepter. \nRule in the midst of your foes."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Your people will offer themselves willingly \non the day you lead your forces \non the holy mountains.",
+                                    "From the womb of the morning, \nlike dew, your youth will come to you."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord has sworn and will not change his mind, \n“You are a priest forever according to the order of Melchizedek.”"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 28, vv. 19a, 20bc",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Go, and teach all nations, says the Lord;",
+                                    "I am with you always, until the end of the world."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 11, vv. 11 - 25",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “As the Father has loved me, so I have loved you; abide in my love.",
+                                    "If you keep my commandments, you will abide in my love, just as I have kept my Father’s commandments",
+                                    "and abide in his love. I have said these things to you so that my joy may be in you, and that your joy may be complete."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“This is my commandment, that you love one another as I have loved you. No one has greater love than this,",
+                                    "to lay down one’s life for one’s friends. You are my friends if you do what I command you.",
+                                    "I do not call you servants any longer, because the servant does not know what the master is doing;",
+                                    "but I have called you friends, because I have made known to you everything that I have heard from my Father.",
+                                    "You did not choose me but I chose you. And I appointed you to go and bear fruit, fruit that will last,",
+                                    "so that the Father will give you whatever you ask him in my name. I am giving you these commands",
+                                    "so that you may love one another.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

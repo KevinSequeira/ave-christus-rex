@@ -1,0 +1,176 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": {
+            "verse_number": "",
+            "content": [
+                  {
+                        "p": [
+                              "Behold, the Lord will come descending with splendor to visit his people with peace,",
+                              "and he will bestow on them eternal life."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "May your grace, almighty God,",
+                        "always go before us and follow after,",
+                        "so that we, who await with heartfelt desire",
+                        "the coming of your Only Begotten Son,",
+                        "may receive your help both now and in the life to come."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Be pleased, O Lord, with our humble prayers and offerings,",
+                        "and, since we have no merits to plead our cause,",
+                        "come, we pray, to our rescue",
+                        "with the protection of your mercy."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": {
+            "verse_number": "Cf. Philippians ch. 3, vv. 20, 21",
+            "content": [
+                  {
+                        "p": [
+                              "We await a savior, the Lord Jesus Christ,",
+                              "who will change our mortal bodies,",
+                              "to conform with his glorified body."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Replenished by the food of spiritual nourishment,",
+                        "we humbly beseech you, O Lord,",
+                        "that, through our partaking in this mystery,",
+                        "you may teach us to judge wisely the things of earth",
+                        "and hold firm to the things of heaven."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Isaiah ch. 56, vv. 1 - 3a, 6 - 8",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Thus says the Lord:"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Maintain justice, and do what is right,",
+                                    "for soon my salvation will come, \nand my deliverance be revealed."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Happy is the mortal who does this, \nthe one who holds it fast,",
+                                    "who keeps the sabbath, not profaning it, \nand refrains from doing any evil."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Do not let the foreigner joined to the Lord say, \n“The Lord will surely separate me from his people”;",
+                                    "and do not let the eunuch say, \n“I am just a dry tree.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "And the foreigners who join themselves to the Lord, \nto minister to him, to love the name of the Lord, \nand to be his servants,",
+                                    "all who keep the sabbath, and do not profane it, \nand hold fast my covenant—",
+                                    "these I will bring to my holy mountain, \nand make them joyful in my house of prayer;",
+                                    "their burnt offerings and their sacrifices \nwill be accepted on my altar;",
+                                    "for my house shall be called a house of prayer \nfor all peoples.",
+                                    "Thus says the Lord God, \nwho gathers the outcasts of Israel,",
+                                    "I will gather others to them \nbesides those already gathered."
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 67, vv. 1 - 2, 4, 6 - 7",
+                  "response": "O God, let all the nations praise you!",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "May God be gracious to us and bless us \nand make his face to shine upon us,",
+                                    "that your way may be known upon earth, \nyour saving power among all nations."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Let the nations be glad and sing for joy, \nfor you judge the peoples with equity \nand guide the nations upon earth."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The earth has yielded its increase; \nGod, our God, has blessed us.",
+                                    "May God continue to bless us; \nlet all the ends of the earth revere him."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Come, Lord, bring us your peace that we may rejoice before you with a perfect heart."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 5, vv. 33 - 36",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to the Jews: “You sent messengers to John, and he testified to the truth.",
+                                    "Not that I accept such human testimony, but I say these things so that you may be saved.",
+                                    "He was a burning and shining lamp, and you were willing to rejoice for a while in his light.",
+                                    "But I have a testimony greater than John’s. The works that the Father has given me to complete,",
+                                    "the very works that I am doing, testify on my behalf that the Father has sent me.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

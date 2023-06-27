@@ -1,0 +1,77 @@
+{
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. John ch. 1, v. 1",
+                  "content": [
+                        {
+                              "p": [
+                                    "In the beginning and before all ages, the Word was God",
+                                    "and he humbled himself to be born the Savior of the world."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who by the Nativity of your Only Begotten Son",
+                        "wondrously began for your people the work of redemption,",
+                        "grant, we pray, to your servants such firmness of faith,",
+                        "that by his guidance they may attain the glorious prize you",
+                        "have promised."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Receive our oblation, O Lord,",
+                        "by which is brought about a glorious exchange,",
+                        "that, by offering what you have given,",
+                        "we may merit to receive your very self."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "John ch. 3, v. 16",
+                  "content": [
+                        {
+                              "p": [
+                                    "God so loved the world that he gave his Only Begotten Son,",
+                                    "so that all who believe in him may not perish, but may have eternal life."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Grant, we pray, almighty God,",
+                        "that, by the power of these holy mysteries,",
+                        "our life may be constantly sustained."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ]
+}

@@ -1,0 +1,74 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hebrews ch. 9, vv. 2 - 3, 11 - 14",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "A tent was constructed, the first one, in which were the lampstand, the table, and the bread of the Presence; this is called the Holy Place. Behind the second curtain was a tent called the Holy of Holies."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "But when Christ came as a high priest of the good things that have come, then through the greater and perfect tent (not made with hands, that is, not of this creation), he entered once for all into the Holy Place, not with the blood of goats and calves, but with his own blood, thus obtaining eternal redemption. For if the blood of goats and bulls, with the sprinkling of the ashes of a heifer, sanctifies those who have been defiled so that their flesh is purified, how much more will the blood of Christ, who through the eternal Spirit offered himself without blemish to God, purify our conscience from dead works to worship the living God!"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 47, vv. 1 - 2, 5 - 6, 7 - 8",
+                  "response": "God mounts his throne to shouts of joy: a blare of trumpets for the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Clap your hands, all you peoples; \nshout to God with loud songs of joy.",
+                                    "For the Lord, the Most High, is awesome, \na great king over all the earth."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "God has gone up with a shout, \nthe Lord with the sound of a trumpet.",
+                                    "Sing praises to God, sing praises; \nsing praises to our King, sing praises."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For God is the king of all the earth; \nsing praises with a psalm.",
+                                    "God is king over the nations; \nGod sits on his holy throne."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Acts ch. 16, v. 14b",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Open our hearts, O Lord, to listen to the words of your Son."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 3, vv. 20 - 21",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus went home with his disciples; and the crowd came together again, so that they could not even eat. When his family heard it, they went out to restrain him, for people were saying, “He has gone out of his mind.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

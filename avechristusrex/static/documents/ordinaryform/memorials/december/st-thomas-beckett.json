@@ -1,0 +1,198 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_thomas_beckett.webp')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "This holy man fought to the death for the law of his God",
+                                    "and did not fear the words of the godless,",
+                                    "for he was built on solid rock."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Wisdom ch. 10, v. 12",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Lord granted him a stern struggle,",
+                                    "that he might know that wisdom is mightier than all else."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who gave the Martyr Saint Thomas Becket",
+                        "the courage to give up his life for the sake of justice,",
+                        "grant, through his intercession,",
+                        "that, renouncing our life",
+                        "for the sake of Christ in this world,",
+                        "we may find it in heaven."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May the offerings we bring in commemoration of Saint Thomas Beckett",
+                        "be acceptable to you, we pray, O Lord,",
+                        "so that they may be pleasing to your majesty",
+                        "just as the shedding of this Martyr’s blood",
+                        "was precious in your sight."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Matthew ch. 16, v. 24",
+                  "content": [
+                        {
+                              "p": [
+                                    "Whoever wishes to come after me, must deny himself,",
+                                    "take up his cross, and follow me, says the Lord."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Matthew ch. 10, v. 39",
+                  "content": [
+                        {
+                              "p": [
+                                    "Whoever loses his life for my sake,",
+                                    "will find it in eternity, says the Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May the sacred mysteries of which we have partaken,",
+                        "O Lord, we pray,",
+                        "give us that determination which made your blessed Martyr Thomas Beckett",
+                        "faithful in your service",
+                        "and victorious in suffering."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "2 Timothy ch. 2, vv. 8 - 13",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Remember Jesus Christ, raised from the dead, a descendant of David—that is my gospel,",
+                                          "for which I suffer hardship, even to the point of being chained like a criminal.",
+                                          "But the word of God is not chained. Therefore I endure everything for the sake of the elect,",
+                                          "so that they may also obtain the salvation that is in Christ Jesus, with eternal glory. The saying is sure:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "If we have died with him, we will also live with him;",
+                                          "if we endure, we will also reign with him;",
+                                          "if we deny him, he will also deny us;",
+                                          "if we are faithless, he remains faithful—",
+                                          "for he cannot deny himself."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 34, vv. 1 - 2, 3 - 4, 5 - 6, 7 - 8",
+                  "response": "The Lord delivered me from all my fears.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I will bless the Lord at all times; \nhis praise shall continually be in my mouth.",
+                                    "My soul makes its boast in the Lord; \nlet the humble hear and be glad."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O magnify the Lord with me, \nand let us exalt his name together.",
+                                    "I sought the Lord, and he answered me, \nand delivered me from all my fears."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Look to him, and be radiant; \nso your faces shall never be ashamed.",
+                                    "This poor soul cried, and was heard by the Lord, \nand was saved from every trouble."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The angel of the Lord encamps \naround those who fear him, and delivers them.",
+                                    "O taste and see that the Lord is good; \nhappy are those who take refuge in him."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Te Deum",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "We praise you, O God, we acclaim you as Lord; the white-robed army of Martyrs praise you."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 16, vv. 24 - 27",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “If any want to become my followers, let them deny themselves and take up their cross and follow me.",
+                                    "For those who want to save their life will lose it, and those who lose their life for my sake will find it.",
+                                    "For what will it profit them if they gain the whole world but forfeit their life? Or what will they give in return for their life?"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“For the Son of Man is to come with his angels in the glory of his Father, and then he will repay everyone for what has been done.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

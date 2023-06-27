@@ -1,0 +1,189 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": {
+            "verse_number": "Cf. Psalm 119, vv. 151, 152",
+            "content": [
+                  {
+                        "p": [
+                              "You, O Lord, are close, and all your ways are truth.",
+                              "From of old I have known of your decrees, for you are eternal."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Unworthy servants that we are, O Lord,",
+                        "grieved by the guilt of our deeds,",
+                        "we pray that you may gladden us",
+                        "by the saving advent of your Only Begotten Son."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Accept, we pray, O Lord, these offerings we make,",
+                        "gathered from among your gifts to us,",
+                        "and may what you grant us to celebrate devoutly here below",
+                        "gain for us the prize of eternal redemption."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": {
+            "verse_number": "Titus ch. 2, vv. 12, 13",
+            "content": [
+                  {
+                        "p": [
+                              "Let us live justly and devoutly in this age,",
+                              "as we await the blessed hope",
+                              "and the coming of the glory of our great God."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May these mysteries, O Lord,",
+                        "in which we have participated,",
+                        "profit us, we pray,",
+                        "for even now, as we walk amid passing things,",
+                        "you teach us by them",
+                        "to love the things of heaven",
+                        "and hold fast to what endures."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Isaiah ch. 54, vv. 1 - 10",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Sing, O barren one who did not bear; \nburst into song and shout, \nyou who have not been in labor!",
+                                    "For the children of the desolate woman will be more \nthan the children of her that is married, says the Lord.",
+                                    "Enlarge the site of your tent, \nand let the curtains of your habitations be stretched out;",
+                                    "do not hold back; lengthen your cords \nand strengthen your stakes.",
+                                    "For you will spread out to the right and to the left, \nand your descendants will possess the nations \nand will settle the desolate towns."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Do not fear, for you will not be ashamed; \ndo not be discouraged, for you will not suffer disgrace;",
+                                    "for you will forget the shame of your youth, \nand the disgrace of your widowhood you will remember no more.",
+                                    "For your Maker is your husband, \nthe Lord of hosts is his name;",
+                                    "the Holy One of Israel is your Redeemer, \nthe God of the whole earth he is called.",
+                                    "For the Lord has called you \nlike a wife forsaken and grieved in spirit,",
+                                    "like the wife of a man’s youth when she is cast off, \nsays your God.",
+                                    "For a brief moment I abandoned you, \nbut with great compassion I will gather you.",
+                                    "In overflowing wrath for a moment \nI hid my face from you,",
+                                    "but with everlasting love I will have compassion on you, \nsays the Lord, your Redeemer."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "This is like the days of Noah to me: \nJust as I swore that the waters of Noah \nwould never again go over the earth,",
+                                    "so I have sworn that I will not be angry with you \nand will not rebuke you.",
+                                    "For the mountains may depart \nand the hills be removed,",
+                                    "but my steadfast love shall not depart from you, \nand my covenant of peace shall not be removed, \nsays the Lord, who has compassion on you."
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 30, vv. 1 and 3, 4 - 5, 10 - 11a and 13b",
+                  "response": "I will praise you, Lord, for you have rescued me.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I will extol you, O Lord, for you have drawn me up, \nand did not let my foes rejoice over me.",
+                                    "O Lord, you brought up my soul from Sheol, \nrestored me to life from among those gone down to the Pit."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Sing praises to the Lord, O you his faithful ones, \nand give thanks to his holy name.",
+                                    "For his anger is but for a moment; \nhis favor is for a lifetime.",
+                                    "Weeping may linger for the night, \nbut joy comes with the morning."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Hear, O Lord, and be gracious to me! \nO Lord, be my helper!” \nYou have turned my mourning into dancing.",
+                                    "O Lord my God, I will give thanks to you forever."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Luke ch. 3. vv. 4, 6",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Prepare the way of the Lord, make straight his paths: All flesh shall see the salvation of God."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 7, vv. 24 - 30",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "When John’s messengers had gone, Jesus began to speak to the crowds about John:",
+                                    "“What did you go out into the wilderness to look at? A reed shaken by the wind?",
+                                    "What then did you go out to see? Someone dressed in soft robes? Look,",
+                                    "those who put on fine clothing and live in luxury are in royal palaces.",
+                                    "What then did you go out to see? A prophet? Yes, I tell you, and more than a prophet.",
+                                    "This is the one about whom it is written,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "‘See, I am sending my messenger ahead of you, \nwho will prepare your way before you.’"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "I tell you, among those born of women no one is greater than John;",
+                                    "yet the least in the kingdom of God is greater than he.”",
+                                    "(And all the people who heard this, including the tax collectors, acknowledged the justice of God,",
+                                    "because they had been baptized with John’s baptism. But by refusing to be baptized by him,",
+                                    "the Pharisees and the lawyers rejected God’s purpose for themselves.)"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

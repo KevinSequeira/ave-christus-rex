@@ -1,0 +1,188 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_raymond_penyafort.webp')",
+      "saint_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 132, v. 9",
+                  "content": [
+                        {
+                              "p": [
+                                    "Your priests, O Lord, shall be clothed with justice;",
+                                    "your holy ones shall ring out their joy."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who adorned the Priest Saint Raymond",
+                        "with the virtue of outstanding mercy and compassion",
+                        "for sinners and for captives,",
+                        "grant us, through his intercession,",
+                        "that, released from slavery to sin,",
+                        "we may carry out in freedom of spirit",
+                        "what is pleasing to you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Receive, O Lord, we pray,",
+                        "the offerings placed on your altar",
+                        "in commemoration of Saint Raymond,",
+                        "so that, as you brought him glory,",
+                        "you may, through these sacred mysteries,",
+                        "grant to us your pardon."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Matthew ch. 24, vv. 46, 47",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed is the servant whom the Lord finds watching",
+                                    "when he comes. Amen I say to you:",
+                                    "He will put that servant in charge of all his property."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Luke ch. 12, v. 42",
+                  "content": [
+                        {
+                              "p": [
+                                    "This is the steward, faithful and prudent,",
+                                    "whom the Lord set over his household,",
+                                    "to give them their allowance of food at the proper time."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May partaking at the heavenly table, almighty God,",
+                        "confirm and increase strength from on high",
+                        "in all who celebrate the feast day of Saint Raymond,",
+                        "that we may preserve in integrity the gift of faith",
+                        "and walk in the path of salvation you trace for us."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "2 Corinthians ch. 5, vv. 14 - 20",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: The love of Christ urges us on, because we are convinced that one has died for all; therefore all have died. And he died for all, so that those who live might live no longer for themselves, but for him who died and was raised for them."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "From now on, therefore, we regard no one from a human point of view; even though we once knew Christ from a human point of view, we know him no longer in that way. So if anyone is in Christ, there is a new creation: everything old has passed away; see, everything has become new! All this is from God, who reconciled us to himself through Christ, and has given us the ministry of reconciliation; that is, in Christ God was reconciling the world to himself, not counting their trespasses against them, and entrusting the message of reconciliation to us. So we are ambassadors for Christ, since God is making his appeal through us; we entreat you on behalf of Christ, be reconciled to God."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 103, vv. 1bc - 2, 3 - 4, 8 - 9, 13 - 14, 17 - 18",
+                  "response": "O bless the Lord, my soul.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Bless the Lord, O my soul, \nand all that is within me, \nbless his holy name.",
+                                    "Bless the Lord, O my soul, \nand do not forget all his benefits."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "who forgives all your iniquity, \nwho heals all your diseases,",
+                                    "who redeems your life from the Pit, \nwho crowns you with steadfast love and mercy."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord is merciful and gracious, \nslow to anger and abounding in steadfast love.",
+                                    "He will not always accuse, \nnor will he keep his anger forever."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "As a father has compassion for his children, \nso the Lord has compassion for those who fear him.",
+                                    "For he knows how we were made; \nhe remembers that we are dust."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "But the steadfast love of the Lord is from everlasting to everlasting \non those who fear him, \nand his righteousness to children’s children,",
+                                    "to those who keep his covenant \nand remember to do his commandments."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 28, vv. 19a, 20bc",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Go, and teach all nations, says the Lord; I am with you always, until the end of the world."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 16, vv. 15 - 20",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus appeared to the Eleven and said to them, “Go into all the world and proclaim the good news to the whole creation. The one who believes and is baptized will be saved; but the one who does not believe will be condemned. And these signs will accompany those who believe: by using my name they will cast out demons; they will speak in new tongues; they will pick up snakes in their hands, and if they drink any deadly thing, it will not hurt them; they will lay their hands on the sick, and they will recover.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "So then the Lord Jesus, after he had spoken to them, was taken up into heaven and sat down at the right hand of God. And they went out and proclaimed the good news everywhere, while the Lord worked with them and confirmed the message by the signs that accompanied it."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,158 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Wreath.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": {
+            "verse_number": "",
+            "content": [
+                  {
+                        "p": [
+                              "Behold, the Lord will come descending with splendor to visit his people with peace,",
+                              "and he will bestow on them eternal life."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Grant that your people, we pray, almighty God,",
+                        "may be ever watchful for the coming of your Only Begotten Son,",
+                        "that, as the author of our salvation himself has taught us,",
+                        "we may hasten, alert and with lighted lamps, to meet him when he comes."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Be pleased, O Lord, with our humble prayers and offerings,",
+                        "and, since we have no merits to plead our cause,",
+                        "come, we pray, to our rescue",
+                        "with the protection of your mercy."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": {
+            "verse_number": "Cf. Philippians ch. 3, vv. 20, 21",
+            "content": [
+                  {
+                        "p": [
+                              "We await a savior, the Lord Jesus Christ,",
+                              "who will change our mortal bodies,",
+                              "to conform with his glorified body."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Replenished by the food of spiritual nourishment,",
+                        "we humbly beseech you, O Lord,",
+                        "that, through our partaking in this mystery,",
+                        "you may teach us to judge wisely the things of earth",
+                        "and hold firm to the things of heaven."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Isaiah ch. 48, vv. 17 - 19",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Thus says the Lord, \nyour Redeemer, the Holy One of Israel:",
+                                    "I am the Lord your God, \nwho teaches you for your own good, \nwho leads you in the way you should go.",
+                                    "O that you had paid attention to my commandments! \nThen your prosperity would have been like a river, \nand your success like the waves of the sea;",
+                                    "your offspring would have been like the sand, \nand your descendants like its grains;",
+                                    "their name would never be cut off \nor destroyed from before me."
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 1, vv. 1 - 2, 3, 4 and 6",
+                  "response": "The Lord is my light and my salvation.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Happy are those \nwho do not follow the advice of the wicked,",
+                                    "or take the path that sinners tread, \nor sit in the seat of scoffers;",
+                                    "but their delight is in the law of the Lord, \nand on his law they meditate day and night."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "They are like trees \nplanted by streams of water,",
+                                    "which yield their fruit in its season, \nand their leaves do not wither.",
+                                    "In all that they do, they prosper."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The wicked are not so, \nbut are like chaff that the wind drives away.",
+                                    "for the Lord watches over the way of the righteous, \nbut the way of the wicked will perish."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Lord will come; go out to meet him! He is the prince of peace."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 11, vv. 16 - 19",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to the crowds: “But to what will I compare this generation?",
+                                    "It is like children sitting in the marketplaces and calling to one another,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "‘We played the flute for you, and you did not dance; \nwe wailed, and you did not mourn.’"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "For John came neither eating nor drinking, and they say, ‘He has a demon’;",
+                                    "the Son of Man came eating and drinking, and they say, ‘Look, a glutton and a drunkard,",
+                                    "a friend of tax collectors and sinners!’ Yet wisdom is vindicated by her deeds.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

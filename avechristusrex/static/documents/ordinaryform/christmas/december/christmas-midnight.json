@@ -1,0 +1,217 @@
+{
+      "feast_background_image": "linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_midnight.jpg')",
+      "feast_image_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 2, v. 7",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Lord said to me: You are my Son.",
+                                    "It is I who have begotten you this day."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let us all rejoice in the Lord, for our Savior has been born in the world.",
+                                    "Today true peace has come down to us from heaven."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who have made this most sacred night",
+                        "radiant with the splendor of the true light,",
+                        "grant, we pray, that we, who have known the mysteries of his",
+                        "light on earth,",
+                        "may also delight in his gladness in heaven."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May the oblation of this day’s feast",
+                        "be pleasing to you, O Lord, we pray,",
+                        "that through this most holy exchange",
+                        "we may be found in the likeness of Christ,",
+                        "in whom our nature is united to you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "nicene_creed",
+      "communion_antiphon": [
+            {
+                  "verse_number": "John ch. 1, v. 14",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Word became flesh, and we have seen his glory."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Grant us, we pray, O Lord our God,",
+                        "that we, who are gladdened by participation",
+                        "in the feast of our Redeemer’s Nativity,",
+                        "may through an honorable way of life become worthy of union",
+                        "with him."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 9, vv. 1 - 6",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "There will be no gloom for those who were in anguish. In the former time he brought into contempt",
+                                          "the land of Zebulun and the land of Naphtali, but in the latter time he will make glorious the way of the sea,",
+                                          "the land beyond the Jordan, Galilee of the nations."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "The people who walked in darkness \nhave seen a great light;",
+                                          "those who lived in a land of deep darkness— \non them light has shined.",
+                                          "You have multiplied the nation, \nyou have increased its joy;",
+                                          "they rejoice before you \nas with joy at the harvest, \nas people exult when dividing plunder.",
+                                          "For the yoke of their burden, \nand the bar across their shoulders, \nthe rod of their oppressor, \nyou have broken as on the day of Midian.",
+                                          "For all the boots of the tramping warriors \nand all the garments rolled in blood \nshall be burned as fuel for the fire.",
+                                          "For a child has been born for us, \na son given to us;",
+                                          "authority rests upon his shoulders; \nand he is named",
+                                          "Wonderful Counselor, Mighty God, \nEverlasting Father, Prince of Peace."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "responsorial_psalm": {
+                  "verse_number": "Psalm 96, vv. 1 - 2a, 2b - 3, 11 - 12, 13",
+                  "response": "Today is born our Saviour, Christ the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O sing to the Lord a new song; \nsing to the Lord, all the earth.",
+                                    "Sing to the Lord, bless his name."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Tell of his salvation from day to day.",
+                                    "Declare his glory among the nations, \nhis marvelous works among all the peoples."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Let the heavens be glad, and let the earth rejoice; \nlet the sea roar, and all that fills it; \nlet the field exult, and everything in it.",
+                                    "Then shall all the trees of the forest sing for joy \nbefore the Lord; for he is coming."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Then shall all the trees of the forest sing for joy \nbefore the Lord; for he is coming, \nfor he is coming to judge the earth.",
+                                    "He will judge the world with righteousness, \nand the peoples with his truth."
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": {
+                  "verse_number": "Titus ch. 2, vv. 11 - 14",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Beloved: For the grace of God has appeared, bringing salvation to all,",
+                                    "training us to renounce impiety and worldly passions, and in the present age to live lives that",
+                                    "are self-controlled, upright, and godly, while we wait for the blessed hope and the manifestation",
+                                    "of the glory of our great God and Savior, Jesus Christ. He it is who gave himself for us that he might",
+                                    "redeem us from all iniquity and purify for himself a people of his own who are zealous for good deeds."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Luke ch. 2, vv. 10, 11",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "I proclaim to you Good News of great joy:",
+                                    "today a Saviour is born for us, Christ the Lord."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 2, vv. 1 - 14",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "In those days a decree went out from Emperor Augustus that all the world should be registered.",
+                                    "This was the first registration and was taken while Quirinius was governor of Syria.",
+                                    "All went to their own towns to be registered. Joseph also went from the town of Nazareth in Galilee to Judea,",
+                                    "to the city of David called Bethlehem, because he was descended from the house and family of David.",
+                                    "He went to be registered with Mary, to whom he was engaged and who was expecting a child.",
+                                    "While they were there, the time came for her to deliver her child. And she gave birth to her firstborn son",
+                                    "and wrapped him in bands of cloth, and laid him in a manger, because there was no place for them in the inn."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "In that region there were shepherds living in the fields, keeping watch over their flock by night.",
+                                    "Then an angel of the Lord stood before them, and the glory of the Lord shone around them, and they were terrified.",
+                                    "But the angel said to them, “Do not be afraid; for see—I am bringing you good news of great joy for all the people:",
+                                    "to you is born this day in the city of David a Savior, who is the Messiah, the Lord. This will be a sign for you:",
+                                    "you will find a child wrapped in bands of cloth and lying in a manger.” And suddenly there was with the angel",
+                                    "a multitude of the heavenly host, praising God and saying,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Glory to God in the highest heaven, \nand on earth peace among those whom he favors!”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

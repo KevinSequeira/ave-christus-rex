@@ -1,0 +1,68 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hebrews ch. 10, vv. 19 - 25",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "My friends, since we have confidence to enter the sanctuary by the blood of Jesus, by the new and living way that he opened for us through the curtain (that is, through his flesh), and since we have a great priest over the house of God, let us approach with a true heart in full assurance of faith, with our hearts sprinkled clean from an evil conscience and our bodies washed with pure water. Let us hold fast to the confession of our hope without wavering, for he who has promised is faithful. And let us consider how to provoke one another to love and good deeds, not neglecting to meet together, as is the habit of some, but encouraging one another, and all the more as you see the Day approaching."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 24, vv. 1 - 2, 3 - 4ab, 5 - 6",
+                  "response": "Lord, this is the people that longs to see your face.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The earth is the Lord’s and all that is in it, \nthe world, and those who live in it;",
+                                    "for he has founded it on the seas, \nand established it on the rivers."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Who shall ascend the hill of the Lord? \nAnd who shall stand in his holy place?",
+                                    "Those who have clean hands and pure hearts, \nwho do not lift up their souls to what is false."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "They will receive blessing from the Lord, \nand vindication from the God of their salvation.",
+                                    "Such is the company of those who seek him, \nwho seek the face of the God of Jacob."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Psalm 119, v. 105",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "A lamp to my feet is your word, a light to my path."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 4, vv. 21 - 25",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples, “Is a lamp brought in to be put under the bushel basket, or under the bed, and not on the lampstand? For there is nothing hidden, except to be disclosed; nor is anything secret, except to come to light. Let anyone with ears to hear listen!” And he said to them, “Pay attention to what you hear; the measure you give will be the measure you get, and still more will be given you. For to those who have, more will be given; and from those who have nothing, even what they have will be taken away.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

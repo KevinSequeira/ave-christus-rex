@@ -1,0 +1,88 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Genesis ch. 8 : 6 - 13, 20 - 22",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "At the end of forty days Noah opened the window of the ark that he had made and sent out the raven; and it went to and fro until the waters were dried up from the earth. Then he sent out the dove from him, to see if the waters had subsided from the face of the ground; but the dove found no place to set its foot, and it returned to him to the ark, for the waters were still on the face of the whole earth. So he put out his hand and took it and brought it into the ark with him. He waited another seven days, and again he sent out the dove from the ark; and the dove came back to him in the evening, and there in its beak was a freshly plucked olive leaf; so Noah knew that the waters had subsided from the earth. Then he waited another seven days, and sent out the dove; and it did not return to him any more."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "In the six hundred first year, in the first month, on the first day of the month, the waters were dried up from the earth; and Noah removed the covering of the ark, and looked, and saw that the face of the ground was drying."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Then Noah built an altar to the Lord, and took of every clean animal and of every clean bird, and offered burnt offerings on the altar. And when the Lord smelled the pleasing odor, the Lord said in his heart, “I will never again curse the ground because of humankind, for the inclination of the human heart is evil from youth; nor will I ever again destroy every living creature as I have done."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "As long as the earth endures, \nseedtime and harvest, cold and heat,",
+                                          "summer and winter, day and night, \nshall not cease.”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 116, vv. 12 - 13, 14 - 15, 18 - 19",
+                  "response": "To you, Lord, I will offer a sacrifice of praise.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "What shall I return to the Lord \nfor all his bounty to me?",
+                                    "I will lift up the cup of salvation \nand call on the name of the Lord."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I will pay my vows to the Lord \nin the presence of all his people.",
+                                    "Precious in the sight of the Lord \nis the death of his faithful ones."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I will pay my vows to the Lord \nin the presence of all his people,",
+                                    "in the courts of the house of the Lord, \nin your midst, O Jerusalem.",
+                                    "Praise the Lord!"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Ephesians ch. 1, vv. 17 - 18",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "May the Father of our Lord Jesus Christ enlighten the eyes of our hearts, that we may know what is the hope that belongs to his call."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 8, vv. 22 - 26",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus and his disciples came to Bethsaida. Some people brought a blind man to him and begged him to touch him. He took the blind man by the hand and led him out of the village; and when he had put saliva on his eyes and laid his hands on him, he asked him, “Can you see anything?” And the man looked up and said, “I can see people, but they look like trees, walking.” Then Jesus laid his hands on his eyes again; and he looked intently and his sight was restored, and he saw everything clearly. Then he sent him away to his home, saying, “Do not even go into the village.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

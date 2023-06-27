@@ -1,0 +1,172 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_elizabeth_ann_seton.png')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Proverbs ch. 31, vv. 1, 2",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold a wise woman who has built her house.",
+                                    "She feared the Lord and walked in the right path."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Psalms 24, v. 6",
+                  "content": [
+                        {
+                              "p": [
+                                    "This is the generation",
+                                    "which seeks the face of the God of Jacob."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who crowned with the gift of true faith",
+                        "Saint Elizabeth Ann Seton’s burning zeal to find you,",
+                        "grant by her intercession and example",
+                        "that we may always seek you with diligent love",
+                        "and find you in daily service with sincere faith."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "O Lord, we ask that you look graciously",
+                        "upon our gifts placed on your altar",
+                        "in celebration of Saint Elizabeth Ann Seton,",
+                        "and grant by the power at work in this sacrifice,",
+                        "that we may be more deeply inserted into the mystery of your Son."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": [
+            {
+                  "verse_number": "John ch. 6, v. 51",
+                  "content": [
+                        {
+                              "p": [
+                                    "I am the living bread from heaven, says the Lord.",
+                                    "Whoever eats this bread will live for ever;",
+                                    "the bread I shall give is my flesh for the life of the world."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "As we partake of the sacrament of our salvation,",
+                        "while recalling the memory of Saint Elizabeth Ann Seton,",
+                        "we humbly ask you, O Lord,",
+                        "that we may be inflamed with a burning desire for the heavenly table,",
+                        "and by its power consecrate our life faithfully to you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Judith ch. 8, vv. 2 - 8",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Judith’s husband Manasseh, who belonged to her tribe and family, had died during the barley harvest.",
+                                          "For as he stood overseeing those who were binding sheaves in the field, he was overcome by the burning heat,",
+                                          "and took to his bed and died in his town Bethulia. So they buried him with his ancestors in the field between Dothan and Balamon.",
+                                          "Judith remained as a widow for three years and four months at home where she set up a tent for herself on the roof of her house.",
+                                          "She put sackcloth around her waist and dressed in widow’s clothing. She fasted all the days of her widowhood,",
+                                          "except the day before the sabbath and the sabbath itself, the day before the new moon and the day of the new moon,",
+                                          "and the festivals and days of rejoicing of the house of Israel. She was beautiful in appearance, and was very lovely to behold.",
+                                          "Her husband Manasseh had left her gold and silver, men and women slaves, livestock, and fields; and she maintained this estate.",
+                                          "No one spoke ill of her, for she feared God with great devotion."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 1, vv. 1 - 2, 3, 4 and 6",
+                  "response": "Blessed are they who hope in the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Happy are those \nwho do not follow the advice of the wicked,",
+                                    "or take the path that sinners tread, \nor sit in the seat of scoffers;",
+                                    "but their delight is in the law of the Lord, \nand on his law they meditate day and night."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "They are like trees \nplanted by streams of water,",
+                                    "which yield their fruit in its season, \nand their leaves do not wither.",
+                                    "In all that they do, they prosper."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The wicked are not so, \nbut are like chaff that the wind drives away.",
+                                    "For the Lord watches over the way of the righteous, \nbut the way of the wicked will perish."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Matthew ch. 11, v. 25",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed are you, Father, Lord of heaven and earth; you have revealed to little ones the mysteries of the Kingdom."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 9, vv. 34 - 34",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus’ disciples were arguing with one another who was the greatest. He sat down, called the twelve,",
+                                    "and said to them, “Whoever wants to be first must be last of all and servant of all.”",
+                                    "Then he took a little child and put it among them; and taking it in his arms,",
+                                    "he said to them, “Whoever welcomes one such child in my name welcomes me,",
+                                    "and whoever welcomes me welcomes not me but the one who sent me.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

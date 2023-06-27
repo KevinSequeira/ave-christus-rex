@@ -1,0 +1,169 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christ_healing_pool.jpeg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "A holy day has dawned upon us:",
+                                    "Come, you nations, and adore the Lord,",
+                                    "for a great light has come down upon the earth."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, whose eternal Word adorns the face of the heavens",
+                        "yet accepted from the Virgin Mary the frailty of our flesh,",
+                        "grant, we pray,",
+                        "that he who appeared among us as the splendor of truth",
+                        "may go forth in the fullness of power",
+                        "for the redemption of the world."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Receive our oblation, O Lord,",
+                        "by which is brought about a glorious exchange,",
+                        "that, by offering what you have given,",
+                        "we may merit to receive your very self."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "John ch. 1, v. 14",
+                  "content": [
+                        {
+                              "p": [
+                                    "We have seen his glory, the glory of an only Son coming from the Father,",
+                                    "filled with grace and truth."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Grant, we pray, almighty God,",
+                        "that, by the power of these holy mysteries,",
+                        "our life may be constantly sustained."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "1 John ch. 3, v. 22 – ch. 4, v. 6",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Beloved: We receive from him whatever we ask, because we obey his commandments and do what pleases him."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "And this is his commandment, that we should believe in the name of his Son Jesus Christ and love one another, just as he has commanded us. All who obey his commandments abide in him, and he abides in them. And by this we know that he abides in us, by the Spirit that he has given us."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Beloved, do not believe every spirit, but test the spirits to see whether they are from God; for many false prophets have gone out into the world. By this you know the Spirit of God: every spirit that confesses that Jesus Christ has come in the flesh is from God, and every spirit that does not confess Jesus is not from God. And this is the spirit of the antichrist, of which you have heard that it is coming; and now it is already in the world. Little children, you are from God, and have conquered them; for the one who is in you is greater than the one who is in the world. They are from the world; therefore what they say is from the world, and the world listens to them. We are from God. Whoever knows God listens to us, and whoever is not from God does not listen to us. From this we know the spirit of truth and the spirit of error."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 2, vv. 7bc - 8, 10 - 12a",
+                  "response": "I will give you all the nations for an inheritance.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord said to me, “You are my son; \ntoday I have begotten you.",
+                                    "Ask of me, and I will make the nations your heritage, \nand the ends of the earth your possession.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Now therefore, O kings, be wise; \nbe warned, O rulers of the earth.",
+                                    "Serve the Lord with fear, \nwith trembling kiss his feet."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Matthew ch. 4, vv. 23",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Jesus proclaimed the Gospel of the Kingdom and cured every disease among the people."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 4, vv. 12 - 17, 23 - 25",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "When Jesus heard that John had been arrested, he withdrew to Galilee. He left Nazareth and made his home in Capernaum by the sea, in the territory of Zebulun and Naphtali, so that what had been spoken through the prophet Isaiah might be fulfilled:"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Land of Zebulun, land of Naphtali, \non the road by the sea, across the Jordan, Galilee of the Gentiles—",
+                                    "the people who sat in darkness \nhave seen a great light,",
+                                    "and for those who sat in the region and shadow of death \nlight has dawned.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "From that time Jesus began to proclaim, “Repent, for the kingdom of heaven has come near.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus went throughout Galilee, teaching in their synagogues and proclaiming the good news of the kingdom and curing every disease and every sickness among the people. So his fame spread throughout all Syria, and they brought to him all the sick, those who were afflicted with various diseases and pains, demoniacs, epileptics, and paralytics, and he cured them. And great crowds followed him from Galilee, the Decapolis, Jerusalem, Judea, and from beyond the Jordan."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

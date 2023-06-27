@@ -1,0 +1,197 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_03.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 86, vv. 8, 10",
+                  "content": [
+                        {
+                              "p": [
+                                    "Among the gods there is none like you, O Lord,",
+                                    "for you are great and do marvelous deeds; you alone are God."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Pour your grace into our hearts, we pray, O Lord,",
+                        "that we may be constantly drawn away from unruly desires",
+                        "and obey by your own gift the heavenly teaching you give us."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "offertory": [
+            {
+                  "p": [
+                        "Look with favor, we pray, Lord,",
+                        "on the offerings we dedicate,",
+                        "that they may be pleasing in your sight",
+                        "and always be salutary for us."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Mark ch. 12, v. 33",
+                  "content": [
+                        {
+                              "p": [
+                                    "To love God with all your heart, and your neighbor as yourself,",
+                                    "is worth more than any sacrifice."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May your strength be at work in us, O Lord,",
+                        "pervading our minds and bodies,",
+                        "that what we have received",
+                        "by participating in this Sacrament",
+                        "may bring us the fullness of redemption."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "Look graciously, O Lord,",
+                        "upon the faithful who implore your mercy,",
+                        "that, trusting in your kindness,",
+                        "they may spread far and wide",
+                        "the gifts your charity has bestowed."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hosea ch. 14, vv. 2 - 10",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Thus says the Lord:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Take words with you \nand return to the Lord;",
+                                          "say to him, \n“Take away all guilt;",
+                                          "accept that which is good, \nand we will offer \nthe fruit of our lips.",
+                                          "Assyria shall not save us; \nwe will not ride upon horses;",
+                                          "we will say no more, ‘Our God,’ \nto the work of our hands.",
+                                          "In you the orphan finds mercy.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "I will heal their disloyalty; \nI will love them freely, \nfor my anger has turned from them.",
+                                          "I will be like the dew to Israel; \nhe shall blossom like the lily, \nhe shall strike root like the forests of Lebanon.",
+                                          "His shoots shall spread out; \nhis beauty shall be like the olive tree, \nand his fragrance like that of Lebanon.",
+                                          "They shall again live beneath my shadow, \nthey shall flourish as a garden;",
+                                          "they shall blossom like the vine, \ntheir fragrance shall be like the wine of Lebanon."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "O Ephraim, what have I to do with idols? \nIt is I who answer and look after you.",
+                                          "I am like an evergreen cypress; \nyour faithfulness comes from me.",
+                                          "Those who are wise understand these things; \nthose who are discerning know them.",
+                                          "For the ways of the Lord are right, \nand the upright walk in them, \nbut transgressors stumble in them."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 81, vv. 5c - 7a, 7bc - 8, 9 - 10ab, 13 and 17",
+                  "response": "I am the Lord your God: hear my voice.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I hear a voice I had not known:",
+                                    "“I relieved your shoulder of the burden; \nyour hands were freed from the basket.",
+                                    "In distress you called, and I rescued you.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“I answered you in the secret place of thunder; \nI tested you at the waters of Meribah.",
+                                    "Hear, O my people, while I admonish you; \nO Israel, if you would but listen to me!”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“There shall be no strange god among you; \nyou shall not bow down to a foreign god.",
+                                    "I am the Lord your God, \nwho brought you up out of the land of Egypt.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“O that my people would listen to me, \nthat Israel would walk in my ways!.",
+                                    "I would feed you with the finest of the wheat, \nand with honey from the rock I would satisfy you.”"
+                              ]
+                        }
+                  ]
+            },
+            "gradual": {
+                  "verse_number": "Matthew ch. 4, v. 17",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Repent, says the Lord; the Kingdom of heaven is at hand."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 12, vv. 28 - 34",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "One of the scribes came near and heard them disputing with one another, and seeing that Jesus answered them well, he asked him, “Which commandment is the first of all?” Jesus answered, “The first is, ‘Hear, O Israel: the Lord our God, the Lord is one; you shall love the Lord your God with all your heart, and with all your soul, and with all your mind, and with all your strength.’ The second is this, ‘You shall love your neighbor as yourself.’ There is no other commandment greater than these.” Then the scribe said to him, “You are right, Teacher; you have truly said that ‘he is one, and besides him there is no other’; and ‘to love him with all the heart, and with all the understanding, and with all the strength,’ and ‘to love one’s neighbor as oneself,’—this is much more important than all whole burnt offerings and sacrifices.” When Jesus saw that he answered wisely, he said to him, “You are not far from the kingdom of God.” After that no one dared to ask him any question."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

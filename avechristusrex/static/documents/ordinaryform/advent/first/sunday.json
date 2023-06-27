@@ -1,0 +1,209 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Season of Advent.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 25, vv. 1 - 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "To you I lift up my soul, O my God",
+                                    "In you I have trusted; let me not be put to shame.",
+                                    "Nor let my enemies exult over me;",
+                                    "and let none who hope in you be put to shame."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who gladden us each year with the feast day of your handmaid Saint Cecilia,",
+                        "grant, we pray, that what has been devoutly handed down concerning her",
+                        "may offer us examples to imitate and proclaim the wonders worked in his servants by Christ your Son."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns with you in the unity of the Holy Spirit, God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Accept, we pray, O Lord these offerings we make,",
+                        "gathered from among your gifts to us,",
+                        "and may what you grant us to celebrate devoutly here below",
+                        "gain for us the prize of eternal redemption."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Psalm 85, v. 13",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Lord will bestow his bounty,",
+                                    "and the earth shall yield its increase."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May these mysteries, O Lord,",
+                        "in which we have participated,",
+                        "profit us, we pray,",
+                        "for even now as we walk amid passing things,",
+                        "you teach us by them to love the things of heaven",
+                        "and hold fast to what endures."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 2, vv. 1 - 5",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The word that Isaiah son of Amoz saw concerning Judah and Jerusalem."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "In days to come the mountain of the Lord’s house",
+                                          "shall be established as the highest of the mountains, \nand shall be raised above the hills;",
+                                          "all the nations shall stream to it."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Many peoples shall come and say,",
+                                          "“Come, let us go up to the mountain of the Lord, \nto the house of the God of Jacob;",
+                                          "that he may teach us his ways \nand that we may walk in his paths.”",
+                                          "For out of Zion shall go forth instruction, \nand the word of the Lord from Jerusalem."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "He shall judge between the nations, \nand shall arbitrate for many peoples;",
+                                          "they shall beat their swords into ploughshares, \nand their spears into pruning-hooks;",
+                                          "nation shall not lift up sword against nation, \nneither shall they learn war any more."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "O house of Jacob, \ncome, let us walk \nin the light of the Lord!"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 122, vv. 1 - 2, 3 - 4a, 4b - 5, 6 - 7, 8 - 9",
+                  "response": "Let us go rejoicing to the house of the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I was glad when they said to me, \n“Let us go to the house of the Lord!”",
+                                    "Our feet are standing \nwithin your gates, O Jerusalem."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Jerusalem—built as a city \nthat is bound firmly together.",
+                                    "To it the tribes go up, \nthe tribes of the Lord."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "As was decreed for Israel, \nto give thanks to the name of the Lord.",
+                                    "For there the thrones for judgement were set up, \nthe thrones of the house of David."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Pray for the peace of Jerusalem: \n“May they prosper who love you.",
+                                    "Peace be within your walls, \nand security within your towers.”"
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": [
+                  {
+                        "verse_number": "Romans ch. 13, vv. 11 - 14",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: You know what time it is, how it is now the moment for you to wake from sleep.",
+                                          "For salvation is nearer to us now than when we became believers; the night is far gone,",
+                                          "the day is near. Let us then lay aside the works of darkness and put on the armour of light;",
+                                          "let us live honourably as in the day, not in revelling and drunkenness,",
+                                          "not in debauchery and licentiousness, not in quarrelling and jealousy.",
+                                          "Instead, put on the Lord Jesus Christ, and make no provision for the flesh, to gratify its desires."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "gospel_acclamation": {
+                  "verse_number": "Psalm 5, v. 8",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Show us, Lord, your love;",
+                                    "and grant us your salvation."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 24, vv. 37 - 44",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “For as the days of Noah were, so will be the coming of the Son of Man.",
+                                    "For as in those days before the flood they were eating and drinking, marrying and giving in marriage,",
+                                    "until the day Noah entered the ark, and they knew nothing until the flood came and swept them all away,",
+                                    "so too will be the coming of the Son of Man. Then two will be in the field; one will be taken and one will be left.",
+                                    "Two women will be grinding meal together; one will be taken and one will be left.",
+                                    "Keep awake therefore, for you do not know on what day your Lord is coming.",
+                                    "But understand this: if the owner of the house had known in what part of the night the thief was coming,",
+                                    "he would have stayed awake and would not have let his house be broken into.",
+                                    "Therefore you also must be ready, for the Son of Man is coming at an unexpected hour.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

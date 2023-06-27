@@ -1,0 +1,123 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Genesis ch. 1, v. 20 – ch. 2, v. 4a",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "God said, “Let the waters bring forth swarms of living creatures, and let birds fly above the earth across the dome of the sky.” So God created the great sea monsters and every living creature that moves, of every kind, with which the waters swarm, and every winged bird of every kind. And God saw that it was good. God blessed them, saying, “Be fruitful and multiply and fill the waters in the seas, and let birds multiply on the earth.” And there was evening and there was morning, the fifth day."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "And God said, “Let the earth bring forth living creatures of every kind: cattle and creeping things and wild animals of the earth of every kind.” And it was so. God made the wild animals of the earth of every kind, and the cattle of every kind, and everything that creeps upon the ground of every kind. And God saw that it was good."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Then God said, “Let us make humankind in our image, according to our likeness; and let them have dominion over the fish of the sea, and over the birds of the air, and over the cattle, and over all the wild animals of the earth, and over every creeping thing that creeps upon the earth.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "So God created humankind in his image, \nin the image of God he created them; \nmale and female he created them."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "God blessed them, and God said to them, “Be fruitful and multiply, and fill the earth and subdue it; and have dominion over the fish of the sea and over the birds of the air and over every living thing that moves upon the earth.” God said, “See, I have given you every plant yielding seed that is upon the face of all the earth, and every tree with seed in its fruit; you shall have them for food. And to every beast of the earth, and to every bird of the air, and to everything that creeps on the earth, everything that has the breath of life, I have given every green plant for food.” And it was so. God saw everything that he had made, and indeed, it was very good. And there was evening and there was morning, the sixth day."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Thus the heavens and the earth were finished, and all their multitude. And on the seventh day God finished the work that he had done, and he rested on the seventh day from all the work that he had done. So God blessed the seventh day and hallowed it, because on it God rested from all the work that he had done in creation."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "These are the generations of the heavens and the earth when they were created."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 8, vv. 3 - 4, 5 - 6, 7 - 8",
+                  "response": "O Lord, our God, how wonderful your name in all the earth.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "When I look at your heavens, the work of your fingers, \nthe moon and the stars that you have established;",
+                                    "what are human beings that you are mindful of them, \nmortals that you care for them?"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Yet you have made them a little lower than God, \nand crowned them with glory and honor.",
+                                    "You have given them dominion over the works of your hands; \nyou have put all things under their feet."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "All sheep and oxen, \nand also the beasts of the field,",
+                                    "the birds of the air, and the fish of the sea, \nwhatever passes along the paths of the seas."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Psalm 119, vv. 36, 29b",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Incline my heart, O God, to your decrees; and favour me with your law."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 7, vv. 1 - 13",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Now when the Pharisees and some of the scribes who had come from Jerusalem gathered around Jesus, they noticed that some of his disciples were eating with defiled hands, that is, without washing them. (For the Pharisees, and all the Jews, do not eat unless they thoroughly wash their hands, thus observing the tradition of the elders; and they do not eat anything from the market unless they wash it; and there are also many other traditions that they observe, the washing of cups, pots, and bronze kettles.) So the Pharisees and the scribes asked him, “Why do your disciples not live according to the tradition of the elders, but eat with defiled hands?” He said to them, “Isaiah prophesied rightly about you hypocrites, as it is written,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "‘This people honors me with their lips, \nbut their hearts are far from me;",
+                                    "in vain do they worship me, \nteaching human precepts as doctrines.’"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "You abandon the commandment of God and hold to human tradition.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then he said to them, “You have a fine way of rejecting the commandment of God in order to keep your tradition! For Moses said, ‘Honor your father and your mother’; and, ‘Whoever speaks evil of father or mother must surely die.’ But you say that if anyone tells father or mother, ‘Whatever support you might have had from me is Corban’ (that is, an offering to God)— then you no longer permit doing anything for a father or mother, thus making void the word of God through your tradition that you have handed on. And you do many things like this.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

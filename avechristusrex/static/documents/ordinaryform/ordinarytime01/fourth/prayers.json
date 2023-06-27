@@ -1,0 +1,92 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/ordinary_time_04.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 106, v. 47",
+                  "content": [
+                        {
+                              "p": [
+                                    "Save us, O Lord our God!",
+                                    "And gather us from the nations,",
+                                    "to give thanks to your holy name,",
+                                    "and make it our glory to praise you."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "collect": [
+            {
+                  "p": [
+                        "Grant us, Lord our God,",
+                        "that we may honor you with all our mind,",
+                        "and love everyone in truth of heart."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "O Lord, we bring to your altar",
+                        "these offerings of our service:",
+                        "be pleased to receive them, we pray,",
+                        "and transform them",
+                        "into the Sacrament of our redemption."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 31, vv. 17, 18",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let your face shine on your servant.",
+                                    "Save me in your merciful love.",
+                                    "O Lord, let me never be put to shame, for I call on you."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Matthew ch. 5, vv. 3, 4",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed are the poor in spirit,",
+                                    "for theirs is the Kingdom of Heaven.",
+                                    "Blessed are the meek, for they shall possess the land."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Nourished by these redeeming gifts,",
+                        "we pray, O Lord,",
+                        "that through this help to eternal salvation",
+                        "true faith may ever increase."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ]
+}

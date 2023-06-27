@@ -1,0 +1,178 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_john_of_god.jpeg')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Malachi ch. 2, v. 6",
+                  "content": [
+                        {
+                              "p": [
+                                    "The law of truth was in his mouth;",
+                                    "no dishonesty was found on his lips.",
+                                    "He walked with me in integrity and peace,",
+                                    "and turned many away from evil"
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Almighty God, to serve you is to reign;",
+                        "grant that, with the help of Saint Casimir’s intercession,",
+                        "we may constantly serve you in holiness and justice."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May the sacrifices we offer to your majesty, O Lord,",
+                        "on this feast day of Saint Casimir",
+                        "be effective for our salvation",
+                        "and pleasing to you in your loving kindness."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Matthew ch. 5, vv. 8, 9",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed are the clean of heart, for they shall see God.",
+                                    "Blessed are the peacemakers,",
+                                    "for they shall be called children of God."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Matthew ch. 6, v. 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "Seek first the kingdom of God, and his righteousness,",
+                                    "and all these things will be given you besides, says the Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Nourished by these sacred gifts,",
+                        "we humbly implore you, Lord,",
+                        "that the homage of dutiful service,",
+                        "which we render on the feast day of Saint Casimir,",
+                        "may bring us an increase of your saving grace."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "1 John ch. 3, vv. 14 - 18",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Beloved: We know that we have passed from death to life because we love one another. Whoever does not love abides in death. All who hate a brother or sister are murderers, and you know that murderers do not have eternal life abiding in them. We know love by this, that he laid down his life for us—and we ought to lay down our lives for one another. How does God’s love abide in anyone who has the world’s goods and sees a brother or sister in need and yet refuses help?"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Little children, let us love, not in word or speech, but in truth and action."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 112, vv. 1bc - 2, 3 - 4, 5 - 7, 6 - 8, 9",
+                  "response": "Blessed the man who fears the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Happy are those who fear the Lord, \nwho greatly delight in his commandments.",
+                                    "Their descendants will be mighty in the land; \nthe generation of the upright will be blessed."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Wealth and riches are in their houses, \nand their righteousness endures forever.",
+                                    "They rise in the darkness as a light for the upright; \nthey are gracious, merciful, and righteous."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "It is well with those who deal generously and lend, \nwho conduct their affairs with justice.",
+                                    "For the righteous will never be moved; \nthey will be remembered forever.",
+                                    "They are not afraid of evil tidings; \ntheir hearts are firm, secure in the Lord."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For the righteous will never be moved; \nthey will be remembered forever.",
+                                    "They are not afraid of evil tidings; \ntheir hearts are firm, secure in the Lord.",
+                                    "Their hearts are steady, they will not be afraid; \nin the end they will look in triumph on their foes."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "They have distributed freely, they have given to the poor; \ntheir righteousness endures forever; \ntheir horn is exalted in honor."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 23, vv. 11, 12b",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The greatest among you must be your servant. Whoever humbles himself will be exalted."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 25, vv. 31 - 40",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “When the Son of Man comes in his glory, and all the angels with him, then he will sit on the throne of his glory. All the nations will be gathered before him, and he will separate people one from another as a shepherd separates the sheep from the goats, and he will put the sheep at his right hand and the goats at the left. Then the king will say to those at his right hand, ‘Come, you that are blessed by my Father, inherit the kingdom prepared for you from the foundation of the world; for I was hungry and you gave me food, I was thirsty and you gave me something to drink, I was a stranger and you welcomed me, I was naked and you gave me clothing, I was sick and you took care of me, I was in prison and you visited me.’ Then the righteous will answer him, ‘Lord, when was it that we saw you hungry and gave you food, or thirsty and gave you something to drink? And when was it that we saw you a stranger and welcomed you, or naked and gave you clothing? And when was it that we saw you sick or in prison and visited you?’ And the king will answer them, ‘Truly I tell you, just as you did it to one of the least of these who are members of my family, you did it to me.’”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,90 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Sirach ch. 1, vv. 1 - 10",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Many great teachings have been given to us through the Law and the Prophets and the others that followed them, and for these we should praise Israel for instruction and wisdom. Now, those who read the scriptures must not only themselves understand them, but must also as lovers of learning be able through the spoken and written word to help the outsiders. So my grandfather Jesus, who had devoted himself especially to the reading of the Law and the Prophets and the other books of our ancestors, and had acquired considerable proficiency in them, was himself also led to write something pertaining to instruction and wisdom, so that by becoming familiar also with his book those who love learning might make even greater progress in living according to the law."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "You are invited therefore to read it with goodwill and attention, and to be indulgent in cases where, despite our diligent labor in translating, we may seem to have rendered some phrases imperfectly. For what was originally expressed in Hebrew does not have exactly the same sense when translated into another language. Not only this book, but even the Law itself, the Prophecies, and the rest of the books differ not a little when read in the original."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "When I came to Egypt in the thirty-eighth year of the reign of Euergetes and stayed for some time, I found opportunity for no little instruction. It seemed highly necessary that I should myself devote some diligence and labor to the translation of this book. During that time I have applied my skill day and night to complete and publish the book for those living abroad who wished to gain learning and are disposed to live according to the law."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "All wisdom is from the Lord, \nand with him it remains forever.",
+                                          "The sand of the sea, the drops of rain, \nand the days of eternity—who can count them?",
+                                          "The height of heaven, the breadth of the earth, \nthe abyss, and wisdom—who can search them out?",
+                                          "Wisdom was created before all other things, \nand prudent understanding from eternity.",
+                                          "The root of wisdom—to whom has it been revealed? \nHer subtleties—who knows them?",
+                                          "There is but one who is wise, greatly to be feared, \nseated upon his throne—the Lord.",
+                                          "It is he who created her; \nhe saw her and took her measure; \nhe poured her out upon all his works,",
+                                          "upon all the living according to his gift; \nhe lavished her upon those who love him."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 93, vv. 1ab, 1cd - 2, 5",
+                  "response": "The Lord is king; he is robed in majesty.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord is king, he is robed in majesty; \nthe Lord is robed, he is girded with strength."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "He has established the world; it shall never be moved; \nyour throne is established from of old; \nyou are from everlasting."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Your decrees are very sure; \nholiness befits your house, \nO Lord, forevermore."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Timothy ch. 1, v. 10",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Our Saviour Jesus Christ has destroyed death and brought life to light through the Gospel."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 9, vv. 14 - 29",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "When Jesus came down from the mountain with Peter, James, and John, and approached the other disciples, they saw a great crowd around them, and some scribes arguing with them. When the whole crowd saw him, they were immediately overcome with awe, and they ran forward to greet him. He asked them, “What are you arguing about with them?” Someone from the crowd answered him, “Teacher, I brought you my son; he has a spirit that makes him unable to speak; and whenever it seizes him, it dashes him down; and he foams and grinds his teeth and becomes rigid; and I asked your disciples to cast it out, but they could not do so.” He answered them, “You faithless generation, how much longer must I be among you? How much longer must I put up with you? Bring him to me.” And they brought the boy to him. When the spirit saw him, immediately it convulsed the boy, and he fell on the ground and rolled about, foaming at the mouth. Jesus asked the father, “How long has this been happening to him?” And he said, “From childhood. It has often cast him into the fire and into the water, to destroy him; but if you are able to do anything, have pity on us and help us.” Jesus said to him, “If you are able!—All things can be done for the one who believes.” Immediately the father of the child cried out, “I believe; help my unbelief!” When Jesus saw that a crowd came running together, he rebuked the unclean spirit, saying to it, “You spirit that keeps this boy from speaking and hearing, I command you, come out of him, and never enter him again!” After crying out and convulsing him terribly, it came out, and the boy was like a corpse, so that most of them said, “He is dead.” But Jesus took him by the hand and lifted him up, and he was able to stand. When he had entered the house, his disciples asked him privately, “Why could we not cast it out?” He said to them, “This kind can come out only through prayer.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

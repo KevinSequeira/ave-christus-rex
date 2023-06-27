@@ -1,0 +1,175 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Wreath.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": {
+            "verse_number": "Cf. Zecariah ch. 14, vv. 5, 7",
+            "content": [
+                  {
+                        "p": [
+                              "Behold, the Lord will come, and all his holy ones with him;",
+                              "and on that day there will be a great light."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who have shown forth your salvation",
+                        "to all the ends of the earth,",
+                        "grant, we pray, that we may look forward in joy",
+                        "to the glorious Nativity of Christ."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Be pleased, O Lord, with our humble prayers and offerings,",
+                        "and, since we have no merits to plead our cause,",
+                        "come, we pray, to our rescue with the protection of your mercy."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": {
+            "verse_number": "Cf. 2 Timothy ch. 4, v. 8",
+            "content": [
+                  {
+                        "p": [
+                              "The Just Judge will bestow a crown of righteousness",
+                              "on those who eagerly await his coming."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Replenished by the food of spiritual nourishment,",
+                        "we humbly beseech you, O Lord,",
+                        "that, through our partaking in this mystery,",
+                        "you may teach us to judge wisely the things of earth",
+                        "and hold firm to the things of heaven."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Isaiah ch. 40, vv. 1 - 11",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Comfort, O comfort my people, \nsays your God.",
+                                    "Speak tenderly to Jerusalem, \nand cry to her",
+                                    "that she has served her term, \nthat her penalty is paid,",
+                                    "that she has received from the Lord’s hand \ndouble for all her sins."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "A voice cries out:",
+                                    "“In the wilderness prepare the way of the Lord, \nmake straight in the desert a highway for our God.",
+                                    "Every valley shall be lifted up, \nand every mountain and hill be made low;",
+                                    "the uneven ground shall become level, \nand the rough places a plain.",
+                                    "Then the glory of the Lord shall be revealed, \nand all people shall see it together, \nfor the mouth of the Lord has spoken.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "A voice says, “Cry out!” \nAnd I said, “What shall I cry?”",
+                                    "All people are grass, \ntheir constancy is like the flower of the field.",
+                                    "The grass withers, the flower fades, \nwhen the breath of the Lord blows upon it; \nsurely the people are grass.",
+                                    "The grass withers, the flower fades; \nbut the word of our God will stand forever.",
+                                    "Get you up to a high mountain, \nO Zion, herald of good tidings;",
+                                    "lift up your voice with strength, \nO Jerusalem, herald of good tidings, \nlift it up, do not fear;",
+                                    "say to the cities of Judah, \n“Here is your God!”",
+                                    "See, the Lord God comes with might, \nand his arm rules for him;",
+                                    "his reward is with him, \nand his recompense before him.",
+                                    "He will feed his flock like a shepherd; \nhe will gather the lambs in his arms,",
+                                    "and carry them in his bosom, \nand gently lead the mother sheep."
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 96, vv. 1 - 2, 3 and 10ac, 11 - 12, 13",
+                  "response": "Justice shall flourish in his time, \nand fullness of peace for ever.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O sing to the Lord a new song; \nsing to the Lord, all the earth.",
+                                    "Sing to the Lord, bless his name; \ntell of his salvation from day to day."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Declare his glory among the nations, \nhis marvelous works among all the peoples.",
+                                    "Say among the nations, “The Lord is king! \nHe will judge the peoples with equity.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Let the heavens be glad, and let the earth rejoice; \nlet the sea roar, and all that fills it; \nlet the field exult, and everything in it."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Then shall all the trees of the forest sing for joy \nbefore the Lord; for he is coming, \nfor he is coming to judge the earth.",
+                                    "He will judge the world with righteousness, \nand the peoples with his truth."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The day of the Lord is near: Behold, he comes to save us."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 18, vv. 12 - 14",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “What do you think? If a shepherd has a hundred sheep,",
+                                    "and one of them has gone astray, does he not leave the ninety-nine on the mountains",
+                                    "and go in search of the one that went astray? And if he finds it, truly I tell you,",
+                                    "he rejoices over it more than over the ninety-nine that never went astray.",
+                                    "So it is not the will of your Father in heaven that one of these little ones should be lost.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

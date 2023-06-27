@@ -1,0 +1,176 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/Vatican 002.jpg')",
+      "saint_background_position": "top",
+      "opening_antiphon": {
+            "verse_number": "Cf. Psalm 132, v. 9",
+            "content": [
+                  {
+                        "p": [
+                              "You priests, O Lord, shall be clothed with justice;",
+                              "your holy ones shall ring out their joy."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "Grant, we pray, O Lord,",
+                        "that we may be helped by the prayers",
+                        "of the Priest Saint John Damascene,",
+                        "so that the true faith,",
+                        "which he excelled in teaching,",
+                        "may always be our light and our strength."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ your Son, who lives and reigns with you in the unity of the Holy Spirit, God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Receive, O Lord, we pray,",
+                        "the offerings placed on your altar",
+                        "in commemoration of Saint John Damascene,",
+                        "so that, as you brought him glory,",
+                        "you may, through these sacred mysteries,",
+                        "grant to us your pardon."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": {
+            "verse_number": "Luke ch. 12, v. 42",
+            "content": [
+                  {
+                        "p": [
+                              "This is the steward, faithful and prudent,",
+                              "whom the Lord set over his household,",
+                              "to give them their allowance of food at the proper time."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May partaking at the heavenly table, almighty God,",
+                        "confirm and increase strength from on high",
+                        "in all who celebrate the feast day of Saint John Damascene,",
+                        "that we may preserve in integrity the gift of faith",
+                        "and walk in the path of salvation you trace for us."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": {
+                  "verse_number": "2 Timothy ch. 1, vv. 13, 14",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Hold to the standard of sound teaching that you have heard from me, in the faith and love that are in Christ Jesus.",
+                                    "Guard the good treasure entrusted to you, with the help of the Holy Spirit living in us."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "You then, my child, be strong in the grace that is in Christ Jesus; and what you have heard",
+                                    "from me through many witnesses entrust to faithful people who will be able to teach others as well.",
+                                    "Share in suffering like a good soldier of Christ Jesus."
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 19, vv. 7, 8, 9, 10",
+                  "response": "The judgements of the Lord are true, and all of them are just.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The law of the Lord is perfect, \nreviving the soul;",
+                                    "the decrees of the Lord are sure, \nmaking wise the simple."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The precepts of the Lord are right, \nrejoicing the heart;",
+                                    "the commandment of the Lord is clear, \nenlightening the eyes."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The fear of the Lord is pure, \nenduring for ever;",
+                                    "the ordinances of the Lord are true \nand righteous altogether."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "More to be desired are they than gold, \neven much fine gold;",
+                                    "sweeter also than honey, \nand drippings of the honeycomb."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 5, v. 16",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let your light shine before others,",
+                                    "that they may see your good deeds and glorify your heavenly Father."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 25, vv. 14 - 30",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “A man, going on a journey, summoned his slaves and entrusted his property to them;",
+                                    "to one he gave five talents, to another two, to another one, to each according to his ability. Then he went away.",
+                                    "The one who had received the five talents went off at once and traded with them, and made five more talents.",
+                                    "In the same way, the one who had the two talents made two more talents. But the one who had received the one talent went",
+                                    "off and dug a hole in the ground and hid his master’s money. After a long time the master of those slaves came and settled",
+                                    "accounts with them. Then the one who had received the five talents came forward, bringing five more talents, saying,",
+                                    "‘Master, you handed over to me five talents; see, I have made five more talents.’ His master said to him,",
+                                    "‘Well done, good and trustworthy slave; you have been trustworthy in a few things, I will put you in charge of many things;",
+                                    "enter into the joy of your master.’ And the one with the two talents also came forward, saying,",
+                                    "‘Master, you handed over to me two talents; see, I have made two more talents.’ His master said to him,",
+                                    "‘Well done, good and trustworthy slave; you have been trustworthy in a few things, I will put you in charge of many things;",
+                                    "enter into the joy of your master.’ Then the one who had received the one talent also came forward, saying,",
+                                    "‘Master, I knew that you were a harsh man, reaping where you did not sow, and gathering where you did not scatter seed;",
+                                    "so I was afraid, and I went and hid your talent in the ground. Here you have what is yours.’ But his master replied,",
+                                    "‘You wicked and lazy slave! You knew, did you, that I reap where I did not sow, and gather where I did not scatter?",
+                                    "Then you ought to have invested my money with the bankers, and on my return I would have received what was my own with interest.",
+                                    "So take the talent from him, and give it to the one with the ten talents. For to all those who have, more will be given,",
+                                    "and they will have an abundance; but from those who have nothing, even what they have will be taken away.",
+                                    "As for this worthless slave, throw him into the outer darkness, where there will be weeping and gnashing of teeth.’”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

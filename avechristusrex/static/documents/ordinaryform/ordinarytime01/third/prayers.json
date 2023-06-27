@@ -1,0 +1,90 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/ordinary_time_03.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 96, vv. 1, 6",
+                  "content": [
+                        {
+                              "p": [
+                                    "O sing a new song to the Lord;",
+                                    "sing to the Lord, all the earth.",
+                                    "In his presence are majesty and splendor,",
+                                    "strength and honor in his holy place."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "collect": [
+            {
+                  "p": [
+                        "Almighty ever-living God,",
+                        "direct our actions according to your good pleasure,",
+                        "that in the name of your beloved Son",
+                        "we may abound in good works."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Accept our offerings, O Lord, we pray,",
+                        "and in sanctifying them",
+                        "grant that they may profit us for salvation."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 34, v. 6",
+                  "content": [
+                        {
+                              "p": [
+                                    "Look toward the Lord and be radiant;",
+                                    "let your faces not be abashed."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "John ch. 8, v. 12",
+                  "content": [
+                        {
+                              "p": [
+                                    "I am the light of the world, says the Lord;",
+                                    "whoever follows me will not walk in darkness,",
+                                    "but will have the light of life."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Grant, we pray, almighty God,",
+                        "that, receiving the grace",
+                        "by which you bring us to new life,",
+                        "we may always glory in your gift."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ]
+}

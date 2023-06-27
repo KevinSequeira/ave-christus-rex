@@ -1,0 +1,196 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent in Church.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": {
+            "verse_number": "Hebrews ch. 10, v. 37",
+            "content": [
+                  {
+                        "p": [
+                              "He who is to come will come and will not delay,",
+                              "and now there will be no fear within our land,",
+                              "for he is our Savior."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who through the child-bearing of the holy Virgin",
+                        "graciously revealed the radiance of your glory to the world,",
+                        "grant, we pray,",
+                        "that we may venerate with integrity of faith",
+                        "the mystery of so wondrous an Incarnation",
+                        "and always celebrate it with due reverence."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Look with favor, we pray, O Lord,",
+                        "on the offerings we lay upon your altars,",
+                        "that what we bring despite our weakness",
+                        "may be sanctified by your power."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": {
+            "verse_number": "Luke ch. 1, vv. 78, 79",
+            "content": [
+                  {
+                        "p": [
+                              "The Dawn from on high will visit us,",
+                              "guiding our feet in the way of peace."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "As we give thanks, almighty God,",
+                        "for these gifts you have bestowed,",
+                        "graciously arouse in us, we pray,",
+                        "the desire for those yet to come,",
+                        "that we may welcome the Nativity of our Savior",
+                        "and honor it with minds made pure."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Judges ch. 13, vv. 2 - 7, 24 - 25a",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "There was a certain man of Zorah, of the tribe of the Danites, whose name was Manoah. His wife was barren,",
+                                    "having borne no children. And the angel of the Lord appeared to the woman and said to her, “Although you are barren,",
+                                    "having borne no children, you shall conceive and bear a son. Now be careful not to drink wine or strong drink,",
+                                    "or to eat anything unclean, for you shall conceive and bear a son. No razor is to come on his head,",
+                                    "for the boy shall be a nazirite to God from birth. It is he who shall begin to deliver Israel from the hand",
+                                    "of the Philistines.” Then the woman came and told her husband, “A man of God came to me, and his appearance",
+                                    "was like that of an angel of God, most awe-inspiring; I did not ask him where he came from,",
+                                    "and he did not tell me his name; but he said to me, ‘You shall conceive and bear a son.",
+                                    "So then drink no wine or strong drink, and eat nothing unclean, for the boy shall be a azirite",
+                                    "to God from birth to the day of his death.’”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "The woman bore a son, and named him Samson. The boy grew, and the Lord blessed him."
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 71, vv. 3 - 4a, 5 - 6ab, 16 - 17",
+                  "response": "My mouth shall be filled with your praise, and I will sing your glory!",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Be to me a rock of refuge, \na strong fortress, to save me, \nfor you are my rock and my fortress.",
+                                    "Rescue me, O my God, from the hand of the wicked."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For you, O Lord, are my hope, \nmy trust, O Lord, from my youth.",
+                                    "Upon you I have leaned from my birth; \nit was you who took me from my mother’s womb."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I will come praising the mighty deeds of the Lord God, \nI will praise your righteousness, yours alone.",
+                                    "O God, from my youth you have taught me, \nand I still proclaim your wondrous deeds."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "O Root of Jesse's stem, sign of God's love for all his people: come to save us without delay!"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 1, vv. 5 - 25",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "In the days of King Herod of Judea, there was a priest named Zechariah, who belonged to the priestly order of Abijah.",
+                                    "His wife was a descendant of Aaron, and her name was Elizabeth. Both of them were righteous before God,",
+                                    "living blamelessly according to all the commandments and regulations of the Lord. But they had no children,",
+                                    "because Elizabeth was barren, and both were getting on in years."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Once when he was serving as priest before God and his section was on duty, he was chosen by lot,",
+                                    "according to the custom of the priesthood, to enter the sanctuary of the Lord and offer incense.",
+                                    "Now at the time of the incense offering, the whole assembly of the people was praying outside.",
+                                    "Then there appeared to him an angel of the Lord, standing at the right side of the altar of incense.",
+                                    "When Zechariah saw him, he was terrified; and fear overwhelmed him. But the angel said to him,",
+                                    "“Do not be afraid, Zechariah, for your prayer has been heard. Your wife Elizabeth will bear you a son,",
+                                    "and you will name him John. You will have joy and gladness, and many will rejoice at his birth,",
+                                    "for he will be great in the sight of the Lord. He must never drink wine or strong drink; even before",
+                                    "his birth he will be filled with the Holy Spirit. He will turn many of the people of Israel to the Lord their God.",
+                                    "With the spirit and power of Elijah he will go before him, to turn the hearts of parents to their children,",
+                                    "and the disobedient to the wisdom of the righteous, to make ready a people prepared for the Lord.”",
+                                    "Zechariah said to the angel, “How will I know that this is so? For I am an old man, and my wife is getting on in years.”",
+                                    "The angel replied, “I am Gabriel. I stand in the presence of God, and I have been sent to speak",
+                                    "to you and to bring you this good news. But now, because you did not believe my words,",
+                                    "which will be fulfilled in their time, you will become mute, unable to speak, until the day these things occur.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Meanwhile the people were waiting for Zechariah, and wondered at his delay in the sanctuary.",
+                                    "When he did come out, he could not speak to them, and they realized that he had seen a vision in the sanctuary.",
+                                    "He kept motioning to them and remained unable to speak. When his time of service was ended, he went to his home."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "After those days his wife Elizabeth conceived, and for five months she remained in seclusion. She said,",
+                                    "“This is what the Lord has done for me when he looked favorably on me and took away the disgrace I",
+                                    "have endured among my people.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,180 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_02.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 13, vv. 4, 5",
+                  "content": [
+                        {
+                              "p": [
+                                    "Give light to my eyes lest I fall asleep in death,",
+                                    "lest my enemy say: I have overcome him."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Guard your Church, we pray, O Lord, in your unceasing mercy,",
+                        "and, since without you mortal humanity is sure to fall,",
+                        "may we be kept by your constant helps from all harm",
+                        "and directed to all that brings salvation."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "offertory": [
+            {
+                  "p": [
+                        "Be pleased to work your sanctification within us",
+                        "by means of these mysteries, O Lord,",
+                        "and by it may we be cleansed of earthly faults",
+                        "and led to the gifts of heaven."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 9, vv. 2, 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "I will recount all your wonders.",
+                                    "I will rejoice in you and be glad,",
+                                    "and sing psalms to your name, O Most High."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May the refreshment of this sacred table,",
+                        "O Lord, we pray,",
+                        "bring us an increase in devoutness of life",
+                        "and the constant help of your work of conciliation."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "Graciously hear the cries of your faithful, O Lord,",
+                        "and relieve the weariness of their souls,",
+                        "that, having received your forgiveness,",
+                        "they may ever rejoice in your blessing."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 1, vv. 10, 16 - 20",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Hear the word of the Lord, \nyou rulers of Sodom!",
+                                          "Listen to the teaching of our God, \nyou people of Gomorrah!"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Wash yourselves; make yourselves clean; \nremove the evil of your doings \nfrom before my eyes;",
+                                          "cease to do evil, \nlearn to do good;",
+                                          "seek justice, \nrescue the oppressed,",
+                                          "defend the orphan, \nplead for the widow."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Come now, let us argue it out, \nsays the Lord:",
+                                          "though your sins are like scarlet, \nthey shall be like snow;",
+                                          "though they are red like crimson, \nthey shall become like wool.",
+                                          "If you are willing and obedient, \nyou shall eat the good of the land;",
+                                          "but if you refuse and rebel, \nyou shall be devoured by the sword; \nfor the mouth of the Lord has spoken."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 50, vv. 8 - 9, 16bc - 17, 21 and 23",
+                  "response": "To the upright I will show the saving power of God.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Not for your sacrifices do I rebuke you; \nyour burnt offerings are continually before me.",
+                                    "I will not accept a bull from your house, \nor goats from your folds.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“What right have you to recite my statutes, \nor take my covenant on your lips?",
+                                    "For you hate discipline, \nand you cast my words behind you.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“These things you have done and I have been silent; \nyou thought that I was one just like yourself.",
+                                    "But now I rebuke you, and lay the charge before you.",
+                                    "Those who bring thanksgiving as their sacrifice honor me; \nto those who go the right way \nI will show the salvation of God.”"
+                              ]
+                        }
+                  ]
+            },
+            "gradual": {
+                  "verse_number": "Ezekiel ch. 18, v. 31",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Cast away from you all the crimes you have committed, says the Lord, and make for yourselves a new heart and a new spirit."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 23, vv. 1 - 12",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to the crowds and to his disciples, “The scribes and the Pharisees sit on Moses’ seat; therefore, do whatever they teach you and follow it; but do not do as they do, for they do not practice what they teach. They tie up heavy burdens, hard to bear, and lay them on the shoulders of others; but they themselves are unwilling to lift a finger to move them. They do all their deeds to be seen by others; for they make their phylacteries broad and their fringes long. They love to have the place of honor at banquets and the best seats in the synagogues, and to be greeted with respect in the marketplaces, and to have people call them rabbi. But you are not to be called rabbi, for you have one teacher, and you are all students. And call no one your father on earth, for you have one Father—the one in heaven. Nor are you to be called instructors, for you have one instructor, the Messiah. The greatest among you will be your servant. All who exalt themselves will be humbled, and all who humble themselves will be exalted.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

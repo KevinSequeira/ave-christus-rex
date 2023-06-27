@@ -1,0 +1,603 @@
+.disabled {
+      pointer-events: none;
+}
+
+.jumbotron {
+      height: 440px;
+      color: #FFFFFF;
+      padding: 240px 0px 0px 0px;
+      margin: 0px 0px 20px 0px;
+}
+
+.simplePrayersBackground {
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Simple Prayers.jpg');
+      background-size: cover;
+      background-position: bottom;
+      position: relative;
+}
+
+.liturgicalPrayersBackground {
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Liturgical Prayers.jpg');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+}
+
+.morningPrayersBackground {
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Morning Prayers.jpg');
+      background-size: cover;
+      background-position: bottom;
+      position: relative;
+}
+
+.eveningPrayersBackground {
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Evening Prayers.jpg');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+}
+
+.mostHolyRosaryBackground {
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Most Holy Rosary.jpg');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+}
+
+.novenasBackground {
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Novena.jpg');
+      background-size: cover;
+      background-position: top;
+      position: relative;
+}
+
+.beforeCommunionBackground {
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Before Communion.jpg');
+      background-size: cover;
+      background-position: bottom;
+      position: relative;
+}
+
+.afterCommunionBackground {
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/After Communion.jpg');
+      background-size: cover;
+      background-position: bottom;
+      position: relative;
+}
+
+.beforeConfessionBackground {
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Before Confession.jpg');
+      background-size: cover;
+      background-position: bottom;
+      position: relative;
+}
+
+.afterConfessionBackground {
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/After Confession.jpg');
+      background-size: cover;
+      background-position: bottom;
+      position: relative;
+}
+
+.popularDevotionsBackground {
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Extra Large/Popular Devotions.jpg');
+      background-size: cover;
+      background-position: bottom;
+      position: relative;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+      padding-right: 0px;
+      padding-left: 0px;
+      border-radius: 0px;
+}
+
+.prayerCategory {
+      padding-right: 30px;
+      padding-left: 30px;
+      position: absolute;
+      bottom: 50px;
+}
+
+.prayerCategory > h1 {
+      font-family: 'Vollkorn SC', serif;
+      margin-left: -2px;
+      font-size: 50px;
+      line-height: 34px;
+}
+
+.prayerCategory > h2 {
+      font-family: 'Vollkorn SC', serif;
+      margin-left: -2px;
+      font-size: 36px;
+      line-height: 28px;
+}
+
+.prayerCategory > p {
+      font-size: 18px;
+      font-family: 'Merriweather', sans-serif;
+}
+
+.row-left {
+      padding-right: 10px;
+      padding-left: 15px;
+}
+
+.row-right {
+      padding-right: 15px;
+      padding-left: 10px;
+}
+
+.btn {
+      border: 2px solid #FFFFFF;
+      border-radius: 0px;
+      background-color: transparent;
+      font-family: 'Merriweather', sans-serif;
+      color: #FFFFFF;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+}
+
+.default {
+      background-color: transparent;
+      border-color: #FFFFFF;
+      color: #FFFFFF;
+}
+
+.default:hover {
+      color: #FFFFFF;
+      background-color: rgba(255,255,255,0.4);
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+   background: #FFFFFF;
+   border-color: #FFFFFF;
+   color: #000000;
+}
+
+@media (max-width: 991px) {
+      .jumbotron {
+            color: #FFFFFF;
+            height: 300px;
+            padding: 160px 20px 20px 20px;
+            margin-bottom: 20px;
+      }
+
+      .simplePrayersBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Simple Prayers.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+      }
+
+      .liturgicalPrayersBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Liturgical Prayers.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+      }
+
+      .morningPrayersBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Morning Prayers.jpg');
+            background-size: cover;
+            background-position: bottom;
+            position: relative;
+      }
+
+      .eveningPrayersBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Evening Prayers.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+      }
+
+      .mostHolyRosaryBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Most Holy Rosary.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+      }
+
+      .novenasBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Novena.jpg');
+            background-size: cover;
+            background-position: top;
+            position: relative;
+      }
+
+      .beforeCommunionBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Before Communion.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+      }
+
+      .afterCommunionBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/After Communion.jpg');
+            background-size: cover;
+            background-position: bottom;
+            position: relative;
+      }
+
+      .beforeConfessionBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Before Confession.jpg');
+            background-size: cover;
+            background-position: bottom;
+            position: relative;
+      }
+
+      .afterConfessionBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/After Confession.jpg');
+            background-size: cover;
+            background-position: bottom;
+            position: relative;
+      }
+
+      .popularDevotionsBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Popular Devotions.jpg');
+            background-size: cover;
+            background-position: bottom;
+            position: relative;
+      }
+
+      .prayerCategory {
+            padding-right: 20px;
+            padding-left: 20px;
+            position: absolute;
+            bottom: 50px;
+      }
+
+      .prayerCategory > h1 {
+            font-family: 'Vollkorn SC', serif;
+            margin-left: -2px;
+            font-size: 30px;
+            line-height: 30px;
+      }
+
+      .prayerCategory > h2 {
+            font-family: 'Vollkorn SC', serif;
+            margin-left: -2px;
+            font-size: 26px;
+            line-height: 13px;
+      }
+
+      .prayerCategory > p {
+            font-size: 14px;
+            padding-bottom: 0px;
+            font-family: 'Merriweather', sans-serif;
+      }
+
+      .row-left {
+            padding-right: 10px;
+            padding-left: 15px;
+      }
+
+      .row-right {
+            padding-right: 15px;
+            padding-left: 10px;
+      }
+
+      .btn {
+            border: 2px solid #FFFFFF;
+            border-radius: 0px;
+            background-color: transparent;
+            font-family: 'Merriweather', sans-serif;
+            color: #FFFFFF;
+            padding: 10px 28px;
+            font-size: 14px;
+            cursor: pointer;
+      }
+
+      .default {
+            background-color: transparent;
+            border-color: #FFFFFF;
+            color: #FFFFFF;
+      }
+
+      .default:hover {
+            color: #FFFFFF;
+            background-color: rgba(255,255,255,0.2);
+      }
+
+      .btn:focus,.btn:active {
+         outline: none !important;
+         box-shadow: none;
+         background: #FFFFFF;
+         border-color: #FFFFFF;
+         color: #000000;
+      }
+}
+
+@media (max-width: 768px) {
+      .jumbotron {
+            color: #FFFFFF;
+            height: 300px;
+            padding: 130px 0px 0px 0px;
+            margin: 0px 0px 10px 0px;
+      }
+
+      .simplePrayersBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Simple Prayers.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .liturgicalPrayersBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Liturgical Prayers.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .morningPrayersBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Morning Prayers.jpg');
+            background-size: cover;
+            background-position: bottom;
+      }
+
+      .eveningPrayersBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Evening Prayers.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .mostHolyRosaryBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Most Holy Rosary.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .novenasBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Novena.jpg');
+            background-size: cover;
+            background-position: top;
+      }
+
+      .beforeCommunionBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Before Communion.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .afterCommunionBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/After Communion.jpg');
+            background-size: cover;
+            background-position: bottom;
+      }
+
+      .beforeConfessionBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Before Confession.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .afterConfessionBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/After Confession.jpg');
+            background-size: cover;
+            background-position: bottom;
+      }
+
+      .popularDevotionsBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Popular Devotions.jpg');
+            background-size: cover;
+            background-position: bottom;
+      }
+
+      .container .jumbotron, .container-fluid .jumbotron {
+            padding-right: 0px;
+            padding-left: 0px;
+            border-radius: 0px;
+      }
+
+      .prayerCategory {
+            padding-right: 20px;
+            padding-left: 20px;
+            position: absolute;
+            bottom: 50px;
+      }
+
+      .prayerCategory > h1 {
+            font-family: 'Vollkorn SC', serif;
+            padding: 0px 0px 0px 0px;
+            margin-left: 0px;
+            font-size: 26px;
+            line-height: 16px;
+      }
+
+      .prayerCategory > h2 {
+            font-family: 'Vollkorn SC', serif;
+            margin-left: 0px;
+            font-size: 26px;
+            line-height: 16px;
+      }
+
+      .prayerCategory > p {
+            font-size: 14px;
+            padding-bottom: 0px;
+            font-family: 'Merriweather', sans-serif;
+      }
+
+      .row-left {
+            padding-right: 15px;
+            padding-left: 15px;
+      }
+
+      .row-right {
+            padding-right: 15px;
+            padding-left: 15px;
+      }
+
+      .btn {
+            border: 2px solid #FFFFFF;
+            border-radius: 0px;
+            background-color: transparent;
+            font-family: 'Merriweather', sans-serif;
+            color: #FFFFFF;
+            padding: 10px 28px;
+            font-size: 14px;
+            cursor: pointer;
+      }
+
+      .default {
+            background-color: transparent;
+            border-color: #FFFFFF;
+            color: #FFFFFF;
+      }
+
+      .default:hover {
+            color: #FFFFFF;
+            background-color: rgba(255,255,255,0.2);
+      }
+
+      .btn:focus,.btn:active {
+         outline: none !important;
+         box-shadow: none;
+         background: #FFFFFF;
+         border-color: #FFFFFF;
+         color: #000000;
+      }
+}
+
+@media (max-width: 320px) {
+      .jumbotron {
+            color: #FFFFFF;
+            height: 300px;
+            padding: 130px 0px 0px 0px;
+            margin: 0px 0px 10px 0px;
+      }
+
+      .simplePrayersBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Simple Prayers.jpg');
+            background-size: cover;
+            background-position: bottom;
+      }
+
+      .liturgicalPrayersBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Liturgical Prayers.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .morningPrayersBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Morning Prayers.jpg');
+            background-size: cover;
+            background-position: bottom;
+      }
+
+      .eveningPrayersBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Evening Prayers.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .mostHolyRosaryBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Most Holy Rosary.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .novenasBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Novena.jpg');
+            background-size: cover;
+            background-position: top;
+      }
+
+      .beforeCommunionBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Before Communion.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .afterCommunionBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/After Communion.jpg');
+            background-size: cover;
+            background-position: bottom;
+      }
+
+      .beforeConfessionBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Before Confession.jpg');
+            background-size: cover;
+            background-position: bottom;
+      }
+
+      .afterConfessionBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/After Confession.jpg');
+            background-size: cover;
+            background-position: bottom;
+      }
+
+      .popularDevotionsBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Popular Devotions.jpg');
+            background-size: cover;
+            background-position: bottom;
+      }
+
+      .container .jumbotron, .container-fluid .jumbotron {
+            padding-right: 10px;
+            padding-left: 10px;
+            border-radius: 0px;
+      }
+
+      .prayerCategory > h1 {
+            font-family: 'Vollkorn SC', serif;
+            padding: 0px 0px 0px 0px;
+            margin-left: -2px;
+            font-size: 30px;
+            line-height: 16px;
+      }
+
+      .prayerCategory > h2 {
+            font-family: 'Vollkorn SC', serif;
+            margin-left: 0px;
+            font-size: 30px;
+            line-height: 16px;
+      }
+
+      .prayerCategory > p {
+            font-size: 10px;
+            padding-bottom: 0px;
+            font-family: 'Merriweather', sans-serif;
+      }
+
+      .row-left {
+            padding-right: 15px;
+            padding-left: 15px;
+      }
+
+      .row-right {
+            padding-right: 15px;
+            padding-left: 15px;
+      }
+
+      .btn {
+            border: 2px solid #FFFFFF;
+            border-radius: 0px;
+            background-color: transparent;
+            font-family: 'Merriweather', sans-serif;
+            color: #FFFFFF;
+            padding: 10px 18px;
+            font-size: 12px;
+            cursor: pointer;
+      }
+
+      .default {
+            background-color: transparent;
+            border-color: #FFFFFF;
+            color: #FFFFFF;
+      }
+
+      .default:hover {
+            color: #FFFFFF;
+            background-color: rgba(255,255,255,0.2);
+      }
+
+      .btn:focus,.btn:active {
+         outline: none !important;
+         box-shadow: none;
+         background: #FFFFFF;
+         border-color: #FFFFFF;
+         color: #000000;
+      }
+}

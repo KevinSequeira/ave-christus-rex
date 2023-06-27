@@ -1,0 +1,187 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_jerome_emiliani.png')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Mark ch. 10, v. 14",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let the children come to me; do not prevent them,",
+                                    "for the kingdom of God belongs to such as these."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Matthew ch. 5, v. 19",
+                  "content": [
+                        {
+                              "p": [
+                                    "Whoever obeys and teaches the commandments of the Lord",
+                                    "will be called great in the Kingdom of Heaven,",
+                                    "says the Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, Father of mercies,",
+                        "who sent Saint Jerome Emiliani as a helper and father to orphans,",
+                        "grant, through his intercession,",
+                        "that we may preserve faithfully the spirit of adoption,",
+                        "by which we are called, and truly are, your children."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May the oblation made by your consecrated people",
+                        "in commemoration of Saint Jerome Emiliani",
+                        "be acceptable to you, we pray, O Lord,",
+                        "and grant that by participation in this mystery",
+                        "we may reflect the pattern of your love."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Matthew ch. 18, v. 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "Unless you turn and become like children,",
+                                    "you will not enter the Kingdom of Heaven, says the Lord."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "John ch. 8, v. 12",
+                  "content": [
+                        {
+                              "p": [
+                                    "Whoever follows me will not walk in darkness,",
+                                    "but will have the light of life, says the Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May this holy meal give us strength, almighty God,",
+                        "so that, by the example of Saint Jerome Emiliani,",
+                        "we may show in our hearts and by our deeds",
+                        "both fraternal charity and the light of truth."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Tobit ch. 12, vv. 6 - 14a",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The Archangel Raphael called Tobit and his son privately and said to them, “Bless God and acknowledge him in the presence of all the living for the good things he has done for you. Bless and sing praise to his name. With fitting honor declare to all people the deeds of God. Do not be slow to acknowledge him. It is good to conceal the secret of a king, but to acknowledge and reveal the works of God, and with fitting honor to acknowledge him. Do good and evil will not overtake you. Prayer with fasting is good, but better than both is almsgiving with righteousness. A little with righteousness is better than wealth with wrongdoing. It is better to give alms than to lay up gold. For almsgiving saves from death and purges away every sin. Those who give alms will enjoy a full life, but those who commit sin and do wrong are their own worst enemies."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "“I will now declare the whole truth to you and will conceal nothing from you. Already I have declared it to you when I said, ‘It is good to conceal the secret of a king, but to reveal with due honor the works of God.’ So now when you and Sarah prayed, it was I who brought and read the record of your prayer before the glory of the Lord, and likewise whenever you would bury the dead. And that time when you did not hesitate to get up and leave your dinner to go and bury the dead, I was sent to you to test you. And at the same time God sent me to heal you and Sarah your daughter-in-law.”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 34, vv. 1 - 2, 3 - 4, 5 - 6, 7 - 8",
+                  "response": "I will bless the Lord at all times.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I will bless the Lord at all times; \nhis praise shall continually be in my mouth.",
+                                    "My soul makes its boast in the Lord; \nlet the humble hear and be glad."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O magnify the Lord with me, \nand let us exalt his name together.",
+                                    "I sought the Lord, and he answered me, \nand delivered me from all my fears."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Look to him, and be radiant; \nso your faces shall never be ashamed.",
+                                    "This poor soul cried, and was heard by the Lord, \nand was saved from every trouble."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The angel of the Lord encamps \naround those who fear him, and delivers them.",
+                                    "O taste and see that the Lord is good; \nhappy are those who take refuge in him."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 23, vv. 11, 12b",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The greatest among you must be your servant. Whoever humbles himself will be exalted."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 10, vv. 17 - 27",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "As Jesus was setting out on a journey, a man ran up and knelt before him, and asked him, “Good Teacher, what must I do to inherit eternal life?” Jesus said to him, “Why do you call me good? No one is good but God alone. You know the commandments: ‘You shall not murder; You shall not commit adultery; You shall not steal; You shall not bear false witness; You shall not defraud; Honor your father and mother.’” He said to him, “Teacher, I have kept all these since my youth.” Jesus, looking at him, loved him and said, “You lack one thing; go, sell what you own, and give the money to the poor, and you will have treasure in heaven; then come, follow me.” When he heard this, he was shocked and went away grieving, for he had many possessions."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then Jesus looked around and said to his disciples, “How hard it will be for those who have wealth to enter the kingdom of God!” And the disciples were perplexed at these words. But Jesus said to them again, “Children, how hard it is to enter the kingdom of God! It is easier for a camel to go through the eye of a needle than for someone who is rich to enter the kingdom of God.” They were greatly astounded and said to one another, “Then who can be saved?” Jesus looked at them and said, “For mortals it is impossible, but not for God; for God all things are possible.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

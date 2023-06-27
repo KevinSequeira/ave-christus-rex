@@ -1,0 +1,164 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_cyril_methodius.jpeg')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "These are holy men who became friends of God,",
+                                    "glorious heralds of divine truth."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who enlightened the Slavic peoples",
+                        "through the brothers Saints Cyril and Methodius,",
+                        "grant that our hearts may grasp the words of your teaching,",
+                        "and perfect us as a people of one accord",
+                        "in true faith and right confession."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Look, O Lord, upon the offerings",
+                        "which we bring before your majesty",
+                        "in commemoration of Saints Cyril and Methodius,",
+                        "and grant that these gifts may become the sign of a new humanity,",
+                        "reconciled to you in loving charity."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Mark ch. 16, v. 20",
+                  "content": [
+                        {
+                              "p": [
+                                    "The disciples went forth and preached the Gospel,",
+                                    "while the Lord worked with them,",
+                                    "confirming the word through accompanying signs."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "O God, Father of all nations,",
+                        "who make us sharers in the one Bread and the one Spirit",
+                        "and heirs of the eternal banquet,",
+                        "grant in your kindness",
+                        "on this feast day of Saints Cyril and Methodius,",
+                        "that the multitude of your children,",
+                        "persevering in the same faith,",
+                        "may be united in building up",
+                        "the Kingdom of justice and peace."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Acts ch. 13, vv. 46 - 49",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Both Paul and Barnabas spoke out boldly, saying, “It was necessary that the word of God should be spoken first to you. Since you reject it and judge yourselves to be unworthy of eternal life, we are now turning to the Gentiles. For so the Lord has commanded us, saying,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "‘I have set you to be a light for the Gentiles, \nso that you may bring salvation to the ends of the earth.’”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "When the Gentiles heard this, they were glad and praised the word of the Lord; and as many as had been destined for eternal life became believers. Thus the word of the Lord spread throughout the region."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 117, vv. 1bc, 2",
+                  "response": "Go out to all the world and tell the Good News.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Praise the Lord, all you nations! \nExtol him, all you peoples!"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For great is his steadfast love towards us, \nand the faithfulness of the Lord endures for ever.",
+                                    "Praise the Lord!"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "John ch. 8, v. 12",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "I am the light of the world, says the Lord: whoever follows me will have the light of life."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 10, vv. 1 - 9",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "The Lord Jesus Christ appointed seventy others and sent them on ahead of him in pairs",
+                                    "to every town and place where he himself intended to go. He said to them, “The harvest is plentiful,",
+                                    "but the laborers are few; therefore ask the Lord of the harvest to send out laborers into his harvest.",
+                                    "Go on your way. See, I am sending you out like lambs into the midst of wolves. Carry no purse, no bag,",
+                                    "no sandals; and greet no one on the road. Whatever house you enter, first say, ‘Peace to this house!’",
+                                    "And if anyone is there who shares in peace, your peace will rest on that person; but if not,",
+                                    "it will return to you. Remain in the same house, eating and drinking whatever they provide,",
+                                    "for the laborer deserves to be paid. Do not move about from house to house.",
+                                    "Whenever you enter a town and its people welcome you, eat what is set before you; cure the sick who are there,",
+                                    "and say to them, ‘The kingdom of God has come near to you.’”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

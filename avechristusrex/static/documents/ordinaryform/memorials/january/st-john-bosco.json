@@ -1,0 +1,180 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_john_bosco.jpeg')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 132, v. 9",
+                  "content": [
+                        {
+                              "p": [
+                                    "Your priests, O Lord, shall be clothed with justice;",
+                                    "your holy ones shall ring out their joy."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who raised up the Priest Saint John Bosco",
+                        "as a father and teacher of the young,",
+                        "grant, we pray,",
+                        "that, aflame with the same fire of love,",
+                        "we may seek out souls and serve you alone."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Receive, O Lord, we pray,",
+                        "the offerings placed on your altar",
+                        "in commemoration of Saint John Bosco,",
+                        "so that, as you brought him glory,",
+                        "you may, through these sacred mysteries,",
+                        "grant to us your pardon."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Matthew ch. 24, vv. 46, 47",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed is the servant whom the Lord finds watching",
+                                    "when he comes. Amen I say to you:",
+                                    "He will put that servant in charge of all his property."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Luke ch. 12, v. 42",
+                  "content": [
+                        {
+                              "p": [
+                                    "This is the steward, faithful and prudent,",
+                                    "whom the Lord set over his household,",
+                                    "to give them their allowance of food at the proper time."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May partaking at the heavenly table, almighty God,",
+                        "confirm and increase strength from on high",
+                        "in all who celebrate the feast day of Saint John Bosco,",
+                        "that we may preserve in integrity the gift of faith",
+                        "and walk in the path of salvation you trace for us."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Philippians ch. 4, vv. 4 - 9",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Beloved: Rejoice in the Lord always; again I will say, Rejoice. Let your gentleness be known to everyone. The Lord is near. Do not worry about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Finally, beloved, whatever is true, whatever is honorable, whatever is just, whatever is pure, whatever is pleasing, whatever is commendable, if there is any excellence and if there is anything worthy of praise, think about these things. Keep on doing the things that you have learned and received and heard and seen in me, and the God of peace will be with you."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 103, vv. 1bc - 2, 3 - 4, 8 - 9, 13 - 14, 17 - 18",
+                  "response": "O bless the Lord, my soul.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Bless the Lord, O my soul, \nand all that is within me, \nbless his holy name.",
+                                    "Bless the Lord, O my soul, \nand do not forget all his benefits."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "who forgives all your iniquity, \nwho heals all your diseases,",
+                                    "who redeems your life from the Pit, \nwho crowns you with steadfast love and mercy."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord is merciful and gracious, \nslow to anger and abounding in steadfast love.",
+                                    "He will not always accuse, \nnor will he keep his anger forever."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "As a father has compassion for his children, \nso the Lord has compassion for those who fear him.",
+                                    "For he knows how we were made; \nhe remembers that we are dust."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "But the steadfast love of the Lord is from everlasting to everlasting \non those who fear him, \nand his righteousness to children’s children,",
+                                    "to those who keep his covenant \nand remember to do his commandments."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 11, v. 28",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Come to me, all you who labour and are burdened, and I will give you rest, says the Lord."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 18, vv. 1 - 5",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "The disciples of Jesus asked him, “Who is the greatest in the kingdom of heaven?” Jesus called a child, whom he put among them, and said, “Truly I tell you, unless you change and become like children, you will never enter the kingdom of heaven. Whoever becomes humble like this child is the greatest in the kingdom of heaven. Whoever welcomes one such child in my name welcomes me.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

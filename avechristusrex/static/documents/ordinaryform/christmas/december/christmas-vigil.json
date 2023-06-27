@@ -1,0 +1,227 @@
+{
+      "feast_background_image": "linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_vigil.jpg')",
+      "feast_image_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Exodus ch. 16, vv. 6, 7",
+                  "content": [
+                        {
+                              "p": [
+                                    "Today you will know that the Lord will come, and he will save us,",
+                                    "and in the morning you will see his glory."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who gladden us year by year",
+                        "as we wait in hope for our redemption,",
+                        "grant that, just as we joyfully welcome",
+                        "your Only Begotten Son as our Redeemer,",
+                        "we may also merit to face him confidently",
+                        "when he comes again as our Judge."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "As we look forward, O Lord,",
+                        "to the coming festivities,",
+                        "may we serve you all the more eagerly",
+                        "for knowing that in them",
+                        "you make manifest the beginnings of our redemption."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "nicene_creed",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Isaiah ch. 40, v. 5",
+                  "content": [
+                        {
+                              "p": [
+                                    "The glory of the Lord will be revealed,",
+                                    "and all flesh will see the salvation of our God."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Grant, O Lord, we pray,",
+                        "that we may draw new vigor",
+                        "from celebrating the Nativity of your Only Begotten Son,",
+                        "by whose heavenly mystery we receive both food and drink."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 62, vv. 1 - 5",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "For Zion’s sake I will not keep silent, \nand for Jerusalem’s sake I will not rest,",
+                                          "until her vindication shines out like the dawn, \nand her salvation like a burning torch.",
+                                          "The nations shall see your vindication, \nand all the kings your glory;",
+                                          "and you shall be called by a new name \nthat the mouth of the Lord will give.",
+                                          "You shall be a crown of beauty in the hand of the Lord, \nand a royal diadem in the hand of your God.",
+                                          "You shall no more be termed Forsaken, \nand your land shall no more be termed Desolate;",
+                                          "but you shall be called My Delight Is in Her, \nand your land Married;",
+                                          "for the Lord delights in you, \nand your land shall be married.",
+                                          "For as a young man marries a young woman, \nso shall your builder marry you,",
+                                          "and as the bridegroom rejoices over the bride, \nso shall your God rejoice over you."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "responsorial_psalm": {
+                  "verse_number": "Psalm 89, vv. 3 - 4, 15 - 16, 26, 28",
+                  "response": "Forever I will sing the goodness of the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“I have made a covenant with my chosen one, \nI have sworn to my servant David:",
+                                    "‘I will establish your descendants forever, \nand build your throne for all generations.’”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Happy are the people who know the festal shout, \nwho walk, O Lord, in the light of your countenance;",
+                                    "they exult in your name all day long, \nand extol your righteousness."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "He shall cry to me, “You are my Father, \nmy God, and the Rock of my salvation!”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Forever I will keep my steadfast love for him, \nand my covenant with him will stand firm."
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": {
+                  "verse_number": "Acts ch. 13, vv. 16 - 17, 22 - 25",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Paul reached Antioch and when he entered the Synagoge he stood up and with a gesture began to speak:"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“You Israelites, and others who fear God, listen. The God of this people Israel chose our ancestors and made the",
+                                    "people great during their stay in the land of Egypt, and with uplifted arm he led them out of it."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“When he had removed him, he made David their king. In his testimony about him he said,",
+                                    "‘I have found David, son of Jesse, to be a man after my heart, who will carry out all my wishes.’",
+                                    "Of this man’s posterity God has brought to Israel a Savior, Jesus, as he promised; before his coming",
+                                    "John had already proclaimed a baptism of repentance to all the people of Israel.",
+                                    "And as John was finishing his work, he said, ‘What do you suppose that I am? I am not he.",
+                                    "No, but one is coming after me; I am not worthy to untie the thong of the sandals on his feet.’”"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Tomorrow the wickedness of the earth will be destroyed:",
+                                    "the Saviour of the world will reign over us."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 1, vv. 1 - 25",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "An account of the genealogy of Jesus the Messiah, the son of David, the son of Abraham."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Abraham was the father of Isaac, and Isaac the father of Jacob, and Jacob the father of Judah and his brothers,",
+                                    "and Judah the father of Perez and Zerah by Tamar, and Perez the father of Hezron, and Hezron the father of Aram,",
+                                    "and Aram the father of Aminadab, and Aminadab the father of Nahshon, and Nahshon the father of Salmon,",
+                                    "and Salmon the father of Boaz by Rahab, and Boaz the father of Obed by Ruth, and Obed the father of Jesse,",
+                                    "and Jesse the father of King David."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "And David was the father of Solomon by the wife of Uriah, and Solomon the father of Rehoboam,",
+                                    "and Rehoboam the father of Abijah, and Abijah the father of Asaph, and Asaph the father of Jehoshaphat,",
+                                    "and Jehoshaphat the father of Joram, and Joram the father of Uzziah, and Uzziah the father of Jotham,",
+                                    "and Jotham the father of Ahaz, and Ahaz the father of Hezekiah, and Hezekiah the father of Manasseh,",
+                                    "and Manasseh the father of Amos, and Amos the father of Josiah, and Josiah the father of Jechoniah and his brothers,",
+                                    "at the time of the deportation to Babylon."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "And after the deportation to Babylon: Jechoniah was the father of Salathiel, and Salathiel the father of Zerubbabel,",
+                                    "and Zerubbabel the father of Abiud, and Abiud the father of Eliakim, and Eliakim the father of Azor,",
+                                    "and Azor the father of Zadok, and Zadok the father of Achim, and Achim the father of Eliud,",
+                                    "and Eliud the father of Eleazar, and Eleazar the father of Matthan, and Matthan the father of Jacob,",
+                                    "and Jacob the father of Joseph the husband of Mary, of whom Jesus was born, who is called the Messiah."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "So all the generations from Abraham to David are fourteen generations; and from David to the deportation to Babylon,",
+                                    "fourteen generations; and from the deportation to Babylon to the Messiah, fourteen generations."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

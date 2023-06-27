@@ -1,0 +1,188 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_cyril_methodius.jpeg')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Ezekiel ch. 34, vv. 11, 23, 24",
+                  "content": [
+                        {
+                              "p": [
+                                    "I will look after my sheep, says the Lord,",
+                                    "and I will appoint a shepherd to pasture them,",
+                                    "and I, the Lord, will be their God."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Sirach ch. 15, v. 5",
+                  "content": [
+                        {
+                              "p": [
+                                    "In the midst of the Church he opened his mouth,",
+                                    "and the Lord filled him with the spirit of wisdom and understanding",
+                                    "and clothed him in a robe of glory."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who through the Bishop Saint Cyril of Jerusalem",
+                        "led your Church in a wonderful way",
+                        "to a deeper sense of the mysteries of salvation,",
+                        "grant us, through his intercession,",
+                        "that we may so acknowledge your Son",
+                        "as to have life ever more abundantly."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May the sacrifice which we gladly present on the feast day of",
+                        "Saint Cyril of Jerusalem,",
+                        "be pleasing to you, O God,",
+                        "for, taught by him, we, too, give ourselves entirely to you in praise."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. 1 Corinthians ch. 1, vv. 23, 24",
+                  "content": [
+                        {
+                              "p": [
+                                    "We proclaim Christ crucified;",
+                                    "Christ, the power of God and the wisdom of God."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. John ch. 15, v. 16",
+                  "content": [
+                        {
+                              "p": [
+                                    "It was not you who chose me, says the Lord,",
+                                    "but I who chose you and appointed you to go and bear fruit,",
+                                    "fruit that will last."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Psalm 1, vv. 2, 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "He who ponders the law of the Lord day and night",
+                                    "will yield his fruit in due season."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Through Christ the teacher, O Lord,",
+                        "instruct those you feed with Christ, the living Bread,",
+                        "that on the feast day of Saint Cyril of Jerusalem they may learn your truth",
+                        "and express it in works of charity."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "1 John ch. 5, vv. 1 - 5",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Beloved: Everyone who believes that Jesus is the Christ has been born of God, and everyone who loves the parent loves the child. By this we know that we love the children of God, when we love God and obey his commandments. For the love of God is this, that we obey his commandments. And his commandments are not burdensome, for whatever is born of God conquers the world. And this is the victory that conquers the world, our faith. Who is it that conquers the world but the one who believes that Jesus is the Son of God?"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 19, vv. 7, 8, 9, 10",
+                  "response": "The judgements of the Lord are true, and all of them are just.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The law of the Lord is perfect, \nreviving the soul;",
+                                    "the decrees of the Lord are sure, \nmaking wise the simple."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The precepts of the Lord are right, \nrejoicing the heart;",
+                                    "the commandment of the Lord is clear, \nenlightening the eyes."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The fear of the Lord is pure, \nenduring for ever;",
+                                    "the ordinances of the Lord are true \nand righteous altogether."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "More to be desired are they than gold, \neven much fine gold;",
+                                    "sweeter also than honey, \nand drippings of the honeycomb."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 5, v. 16",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let your light shine before others, that they may see your good deeds and glorify your heavenly Father."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 15, vv. 1 - 8",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “I am the true vine, and my Father is the vinegrower. He removes every branch in me that bears no fruit. Every branch that bears fruit he prunes to make it bear more fruit. You have already been cleansed by the word that I have spoken to you. Abide in me as I abide in you. Just as the branch cannot bear fruit by itself unless it abides in the vine, neither can you unless you abide in me. I am the vine, you are the branches. Those who abide in me and I in them bear much fruit, because apart from me you can do nothing. Whoever does not abide in me is thrown away like a branch and withers; such branches are gathered, thrown into the fire, and burned. If you abide in me, and my words abide in you, ask for whatever you wish, and it will be done for you. My Father is glorified by this, that you bear much fruit and become my disciples.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

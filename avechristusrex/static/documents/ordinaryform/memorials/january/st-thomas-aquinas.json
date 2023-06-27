@@ -1,0 +1,185 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_thomas_aquinas.jpeg')",
+      "saint_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Daniel ch. 12, v. 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "Those who are wise will shine brightly",
+                                    "like the splendor of the firmament",
+                                    "and those who lead the many to justice",
+                                    "shall be like the stars for ever."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Sirach ch. 44, vv. 15, 14",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let the peoples recount the wisdom of the Saints,",
+                                    "and let the Church proclaim their praise.",
+                                    "Their names will live on and on."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who made Saint Thomas Aquinas",
+                        "outstanding in his zeal for holiness",
+                        "and his study of sacred doctrine,",
+                        "grant us, we pray,",
+                        "that we may understand what he taught",
+                        "and imitate what he accomplished."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "As we celebrate the divine mysteries,",
+                        "O Lord, we pray,",
+                        "may the Holy Spirit fill us with that light of faith",
+                        "by which he constantly enlightened Saint Thomas Aquinas",
+                        "for the spreading of your glory."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Matthew ch. 19, v. 21",
+                  "content": [
+                        {
+                              "p": [
+                                    "We proclaim Christ crucified;",
+                                    "Christ, the power of God and the wisdom of God."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Refreshed by heavenly food,",
+                        "we humbly implore you, O Lord,",
+                        "that, attentive to the teaching of Saint Thomas Aquinas,",
+                        "we may abide at all times in thanksgiving",
+                        "for the gifts we have received."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Wisdom ch. 7, vv. 7 - 10",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "I prayed, and understanding was given me;",
+                                          "I called on God, and the spirit of wisdom came to me.",
+                                          "I preferred her to scepters and thrones,",
+                                          "and I accounted wealth as nothing in comparison with her.",
+                                          "Neither did I liken to her any priceless gem,",
+                                          "because all gold is but a little sand in her sight,",
+                                          "and silver will be accounted as clay before her.",
+                                          "I loved her more than health and beauty,",
+                                          "and I chose to have her rather than light,",
+                                          "because her radiance never ceases."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 119, vv. 9, 10, 11, 12, 13, 14",
+                  "response": "Lord, teach me your statues.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "How can young people keep their way pure? \nBy guarding it according to your word."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "With my whole heart I seek you; \ndo not let me stray from your commandments."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I treasure your word in my heart, \nso that I may not sin against you."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Blessed are you, O Lord; \nteach me your statutes."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "With my lips I declare \nall the ordinances of your mouth."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I delight in the way of your decrees \nas much as in all riches."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "1 Corinthians ch. 1, v. 18",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The message about the cross is foolishness to those who are perishing, but to us who are being saved it is the power of God."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 23, vv. 8 - 12",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his Apostles: “You are not to be called rabbi, for you have one teacher, and you are all students. And call no one your father on earth, for you have one Father—the one in heaven. Nor are you to be called instructors, for you have one instructor, the Messiah. The greatest among you will be your servant. All who exalt themselves will be humbled, and all who humble themselves will be exalted.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,174 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": {
+            "verse_number": "Cf. Jeremiah ch. 31, v. 10; Isaiah ch. 35, v. 4",
+            "content": [
+                  {
+                        "p": [
+                              "Hear the word of the Lord, O nations;",
+                              "declare it to the distant lands:",
+                              "Behold, our Savior will come; you need no longer fear."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Incline a merciful ear to our cry, we pray, O Lord,",
+                        "and, casting light on the darkness of our hearts,",
+                        "visit us with the grace of your Son."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns with you in the unity of the Holy Spirit, God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Accept, we pray, O Lord, these offerings we make,",
+                        "gathered from among your gifts to us,",
+                        "and may what you grant us to celebrate devoutly here below",
+                        "gain for us the prize of eternal redemption."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": {
+            "verse_number": "Psalm 106, vv. 4 - 5; Isaiah ch. 38, v. 3",
+            "content": [
+                  {
+                        "p": [
+                              "Come, O Lord, visit us in peace,",
+                              "that we may rejoice before you with a blameless heart."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May these mysteries, O Lord,",
+                        "in which we have participated,",
+                        "profit us, we pray,",
+                        "for even now, as we walk amid passing things,",
+                        "you teach us by them",
+                        "to love the things of heaven",
+                        "and hold fast to what endures."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Numbers ch. 24, vv. 2 - 7,c 15 - 17a",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Balaam looked up and saw Israel camping tribe by tribe.",
+                                    "Then the spirit of God came upon him, and he uttered his oracle, saying:"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“The oracle of Balaam son of Beor, \nthe oracle of the man whose eye is clear,",
+                                    "the oracle of one who hears the words of God, \nwho sees the vision of the Almighty, \nwho falls down, but with eyes uncovered:",
+                                    "how fair are your tents, O Jacob, \nyour encampments, O Israel!",
+                                    "Like palm groves that stretch far away, \nlike gardens beside a river,",
+                                    "like aloes that the Lord has planted, \nlike cedar trees beside the waters.",
+                                    "Water shall flow from his buckets, \nand his seed shall have abundant water,",
+                                    "his king shall be higher than Agag, \nand his kingdom shall be exalted.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "So he uttered his oracle, saying:"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“The oracle of Balaam son of Beor, \nthe oracle of the man whose eye is clear,",
+                                    "the oracle of one who hears the words of God, \nand knows the knowledge of the Most High,",
+                                    "who sees the vision of the Almighty, \nwho falls down, but with his eyes uncovered:",
+                                    "I see him, but not now; \nI behold him, but not near—",
+                                    "a star shall come out of Jacob, \nand a scepter shall rise out of Israel.”"
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 25, vv. 4 - 5ab, 6 and 7bc, 8 - 9",
+                  "response": "Teach me your ways, O Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Make me to know your ways, O Lord; \nteach me your paths.",
+                                    "Lead me in your truth, and teach me, \nfor you are the God of my salvation."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Be mindful of your mercy, O Lord, and of your steadfast love, \nfor they have been from of old.",
+                                    "According to your steadfast love remember me, \nfor your goodness’ sake, O Lord!"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Good and upright is the Lord; \ntherefore he instructs sinners in the way.",
+                                    "He leads the humble in what is right, \nand teaches the humble his way."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Psalm 85, v. 8",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Show us, Lord, your love, and grant us your salvation."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 21, vv. 23 - 27",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "When Jesus entered the temple, the chief priests and the elders of the people came to him as he was teaching,",
+                                    "and said, “By what authority are you doing these things, and who gave you this authority?”",
+                                    "Jesus said to them, “I will also ask you one question; if you tell me the answer,",
+                                    "then I will also tell you by what authority I do these things. Did the baptism of John come from heaven,",
+                                    "or was it of human origin?” And they argued with one another, “If we say, ‘From heaven,’",
+                                    "he will say to us, ‘Why then did you not believe him?’ But if we say, ‘Of human origin,’",
+                                    "we are afraid of the crowd; for all regard John as a prophet.” So they answered Jesus, “We do not know.”",
+                                    "And he said to them, “Neither will I tell you by what authority I am doing these things.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

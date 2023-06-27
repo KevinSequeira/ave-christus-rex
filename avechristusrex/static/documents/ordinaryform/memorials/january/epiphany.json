@@ -1,0 +1,201 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_daytime.jpg')",
+      "saint_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Malachi ch. 3, v. 1; 1 Chronicles ch. 29, v. 12",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold, the Lord, the Mighty One, has come;",
+                                    "and kingship is in his grasp, and power and dominion."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who on this day",
+                        "revealed your Only Begotten Son to the nations",
+                        "by the guidance of a star,",
+                        "grant in your mercy",
+                        "that we, who know you already by faith,",
+                        "may be brought to behold the beauty of your sublime glory."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Look with favor, Lord, we pray,",
+                        "on these gifts of your Church,",
+                        "in which are offered now not gold or frankincense or myrrh,",
+                        "but he who by them is proclaimed,",
+                        "sacrificed and received, Jesus Christ."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "nicene_creed",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Matthew ch. 2, v. 2",
+                  "content": [
+                        {
+                              "p": [
+                                    "We have seen his star in the East,",
+                                    "and have come with gifts to adore the Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Go before us with heavenly light, O Lord,",
+                        "always and everywhere,",
+                        "that we may perceive with clear sight",
+                        "and revere with true affection",
+                        "the mystery in which you have willed us to participate."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 60, vv. 1 - 6",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Arise, shine; for your light has come, \nand the glory of the Lord has risen upon you.",
+                                          "For darkness shall cover the earth, \nand thick darkness the peoples;",
+                                          "but the Lord will arise upon you, \nand his glory will appear over you.",
+                                          "Nations shall come to your light, \nand kings to the brightness of your dawn."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Lift up your eyes and look around; \nthey all gather together, they come to you;",
+                                          "your sons shall come from far away, \nand your daughters shall be carried on their nurses’ arms.",
+                                          "Then you shall see and be radiant; \nyour heart shall thrill and rejoice,",
+                                          "because the abundance of the sea shall be brought to you, \nthe wealth of the nations shall come to you.",
+                                          "A multitude of camels shall cover you, \nthe young camels of Midian and Ephah; \nall those from Sheba shall come.",
+                                          "They shall bring gold and frankincense, \nand shall proclaim the praise of the Lord."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 72, vv. 1 - 2, 7 - 8, 10 - 11, 12 - 13",
+                  "response": "Lord, every nation on earth will adore you.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Give the king your justice, O God, \nand your righteousness to a king’s son.",
+                                    "May he judge your people with righteousness, \nand your poor with justice."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "In his days may righteousness flourish \nand peace abound, until the moon is no more.",
+                                    "May he have dominion from sea to sea, \nand from the River to the ends of the earth."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "May the kings of Tarshish and of the isles \nrender him tribute,",
+                                    "may the kings of Sheba and Seba \nbring gifts.",
+                                    "May all kings fall down before him, \nall nations give him service."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For he delivers the needy when they call, \nthe poor and those who have no helper.",
+                                    "He has pity on the weak and the needy, \nand saves the lives of the needy."
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": [
+                  {
+                        "verse_number": "Ephesians ch. 3, vv. 2 - 3a, 5 - 6",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: You have already heard of the commission of God’s grace that was given me for you, and how the mystery was made known to me by revelation."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "In former generations this mystery was not made known to humankind, as it has now been revealed to his holy apostles and prophets by the Spirit: that is, the Gentiles have become fellow heirs, members of the same body, and sharers in the promise in Christ Jesus through the gospel."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 2, v. 2",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "We saw his star at its rising and have come to do him homage."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 2, vv. 1 - 12",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "In the time of King Herod, after Jesus was born in Bethlehem of Judea, wise men from the East came to Jerusalem, asking, “Where is the child who has been born king of the Jews? For we observed his star at its rising, and have come to pay him homage.” When King Herod heard this, he was frightened, and all Jerusalem with him; and calling together all the chief priests and scribes of the people, he inquired of them where the Messiah was to be born. They told him, “In Bethlehem of Judea; for so it has been written by the prophet:"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "‘And you, Bethlehem, in the land of Judah, \nare by no means least among the rulers of Judah;",
+                                    "for from you shall come a ruler \nwho is to shepherd my people Israel.’”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then Herod secretly called for the wise men and learned from them the exact time when the star had appeared. Then he sent them to Bethlehem, saying, “Go and search diligently for the child; and when you have found him, bring me word so that I may also go and pay him homage.” When they had heard the king, they set out; and there, ahead of them, went the star that they had seen at its rising, until it stopped over the place where the child was. When they saw that the star had stopped, they were overwhelmed with joy. On entering the house, they saw the child with Mary his mother; and they knelt down and paid him homage. Then, opening their treasure chests, they offered him gifts of gold, frankincense, and myrrh. And having been warned in a dream not to return to Herod, they left for their own country by another road."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,94 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_season_3rd.jpg')",
+      "liturgy_background_position": "center",
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "1 John ch. 2, v. 29 – ch. 3, v. 6",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Beloved: If you know that God is righteous, you may be sure that everyone who does right has been born of him."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "See what love the Father has given us, that we should be called children of God;",
+                                          "and that is what we are. The reason the world does not know us is that it did not know him.",
+                                          "Beloved, we are God’s children now; what we will be has not yet been revealed.",
+                                          "What we do know is this: when he is revealed, we will be like him, for we will see him as he is.",
+                                          "And all who have this hope in him purify themselves, just as he is pure."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Everyone who commits sin is guilty of lawlessness; sin is lawlessness. You know that he was revealed",
+                                          "to take away sins, and in him there is no sin. No one who abides in him sins;",
+                                          "no one who sins has either seen him or known him."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 98, vv. 1, 3cd - 4, 5 - 6",
+                  "response": "All the ends of the earth have seen the saving power of God.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O sing to the Lord a new song, \nfor he has done marvelous things.",
+                                    "His right hand and his holy arm \nhave gotten him victory."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "All the ends of the earth have seen \nthe victory of our God.",
+                                    "Make a joyful noise to the Lord, all the earth; \nbreak forth into joyous song and sing praises."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Sing praises to the Lord with the lyre, \nwith the lyre and the sound of melody.",
+                                    "With trumpets and the sound of the horn \nmake a joyful noise before the King, the Lord."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "John ch. 1, vv. 14a, 12a",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Word of God became flesh and dwelt among us. To those who accepted him he gave power to becpome the children of God."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "John ch. 1, vv. 29 - 34",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "John the Baptist saw Jesus coming toward him and declared, “Here is the Lamb of God",
+                                    "who takes away the sin of the world! This is he of whom I said,",
+                                    "‘After me comes a man who ranks ahead of me because he was before me.’",
+                                    "I myself did not know him; but I came baptizing with water for this reason,",
+                                    "that he might be revealed to Israel.” And John testified, “I saw the Spirit descending",
+                                    "from heaven like a dove, and it remained on him. I myself did not know him,",
+                                    "but the one who sent me to baptize with water said to me, ‘He on whom you see the Spirit",
+                                    "descend and remain is the one who baptizes with the Holy Spirit.’",
+                                    "And I myself have seen and have testified that this is the Son of God.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,75 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hebrews ch. 6, vv. 10 - 20",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: God is not unjust; he will not overlook your work and the love that you showed for his sake in serving the saints, as you still do. And we want each one of you to show the same diligence so as to realize the full assurance of hope to the very end, so that you may not become sluggish, but imitators of those who through faith and patience inherit the promises."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "When God made a promise to Abraham, because he had no one greater by whom to swear, he swore by himself, saying, “I will surely bless you and multiply you.” And thus Abraham, having patiently endured, obtained the promise. Human beings, of course, swear by someone greater than themselves, and an oath given as confirmation puts an end to all dispute. In the same way, when God desired to show even more clearly to the heirs of the promise the unchangeable character of his purpose, he guaranteed it by an oath, so that through two unchangeable things, in which it is impossible that God would prove false, we who have taken refuge might be strongly encouraged to seize the hope set before us. We have this hope, a sure and steadfast anchor of the soul, a hope that enters the inner shrine behind the curtain, where Jesus, a forerunner on our behalf, has entered, having become a high priest forever according to the order of Melchizedek."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 111, vv. 1 - 2, 4 - 5, 9 and 10c",
+                  "response": "The Lord will remember his covenant for ever.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Praise the Lord!",
+                                    "I will give thanks to the Lord with my whole heart, \nin the company of the upright, in the congregation.",
+                                    "Great are the works of the Lord, \nstudied by all who delight in them."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "He has gained renown by his wonderful deeds; \nthe Lord is gracious and merciful.",
+                                    "He provides food for those who fear him; \nhe is ever mindful of his covenant."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "He sent redemption to his people; \nhe has commanded his covenant forever. \nHoly and awesome is his name.",
+                                    "His praise endures forever."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Ephesians ch. 1, vv. 17, 18",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "May the Father of our Lord Jesus Christ enlighten the eyes of our hearts, that we may know what is the hope that belongs to our call."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 2, vv. 23 - 28",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "One sabbath Jesus was going through the grainfields; and as they made their way his disciples began to pluck heads of grain. The Pharisees said to him, “Look, why are they doing what is not lawful on the sabbath?” And he said to them, “Have you never read what David did when he and his companions were hungry and in need of food? He entered the house of God, when Abiathar was high priest, and ate the bread of the Presence, which it is not lawful for any but the priests to eat, and he gave some to his companions.” Then he said to them, “The sabbath was made for humankind, and not humankind for the sabbath; so the Son of Man is lord even of the sabbath.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,93 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/ordinary_time_06.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 95, vv. 6, 7",
+                  "content": [
+                        {
+                              "p": [
+                                    "Be my protector, O God,",
+                                    "a mighty stronghold to save me.",
+                                    "For you are my rock, my stronghold!",
+                                    "Lead me, guide me, for the sake of your name."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "collect": [
+            {
+                  "p": [
+                        "O God, who teach us that you abide",
+                        "in hearts that are just and true,",
+                        "grant that we may be so fashioned by your grace",
+                        "as to become a dwelling pleasing to you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May this oblation, O Lord, we pray,",
+                        "cleanse and renew us",
+                        "and may it become for those who do your will",
+                        "the source of eternal reward."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 78, vv. 29, 30",
+                  "content": [
+                        {
+                              "p": [
+                                    "They ate and had their fill,",
+                                    "and what they craved the Lord gave them;",
+                                    "they were not disappointed in what they craved."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "John ch. 3, v. 16",
+                  "content": [
+                        {
+                              "p": [
+                                    "God so loved the world",
+                                    "that he gave his Only Begotten Son,",
+                                    "so that all who believe in him may not perish,",
+                                    "but may have eternal life."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Having fed upon these heavenly delights,",
+                        "we pray, O Lord,",
+                        "that we may always long",
+                        "for that food by which we truly live."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ]
+}

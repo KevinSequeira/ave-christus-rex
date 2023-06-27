@@ -1,0 +1,169 @@
+{
+      "feast_background_image": "linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/christmas_dawn.jpg')",
+      "feast_image_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Isaiah ch. 9, v. 5; Luke ch. 1, v. 33",
+                  "content": [
+                        {
+                              "p": [
+                                    "Today a light will shine upon us, for the Lord is born for us;",
+                                    "and he will be called Wondrous God,",
+                                    "Prince of peace, Father of future ages:",
+                                    "and his reign will be without end."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "Grant, we pray, almighty God,",
+                        "that, as we are bathed in the new radiance of your incarnate Word,",
+                        "the light of faith, which illumines our minds,",
+                        "may also shine through in our deeds."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May our offerings be worthy, we pray, O Lord,",
+                        "of the mysteries of the Nativity this day,",
+                        "that, just as Christ was born a man and also shone forth as God,",
+                        "so these earthly gifts may confer on us what is divine."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "nicene_creed",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Zechariah 9, v. 9",
+                  "content": [
+                        {
+                              "p": [
+                                    "Rejoice, O Daughter Sion; lift up praise, Daughter Jerusalem:",
+                                    "Behold, your King will come, the Holy One and Savior of the world."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Grant us, Lord, as we honor with joyful devotion",
+                        "the Nativity of your Son,",
+                        "that we may come to know with fullness of faith",
+                        "the hidden depths of this mystery",
+                        "and to love them ever more and more."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 62, vv. 11 - 12",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "The Lord has proclaimed \nto the end of the earth:",
+                                          "Say to daughter Zion, \n“See, your salvation comes;",
+                                          "his reward is with him, \nand his recompense before him.”",
+                                          "They shall be called, “The Holy People, \nThe Redeemed of the Lord”;",
+                                          "and you shall be called, “Sought Out, \nA City Not Forsaken.”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "responsorial_psalm": {
+                  "verse_number": "Psalm 97, vv. 1, 6, 11 - 12",
+                  "response": "A light will shine on us this day: the Lord is born for us.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord is king! Let the earth rejoice; \nlet the many coastlands be glad!"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The heavens proclaim his righteousness; \nand all the peoples behold his glory."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Light dawns for the righteous, \nand joy for the upright in heart.",
+                                    "Rejoice in the Lord, O you righteous, \nand give thanks to his holy name!"
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": {
+                  "verse_number": "Titus ch. 3, vv. 4 - 7",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Beloved: When the goodness and loving kindness of God our Savior appeared, he saved us,",
+                                    "not because of any works of righteousness that we had done, but according to his mercy,",
+                                    "through the water of rebirth and renewal by the Holy Spirit. This Spirit he poured out on us",
+                                    "richly through Jesus Christ our Savior, so that, having been justified by his grace,",
+                                    "we might become heirs according to the hope of eternal life."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Luke ch. 2, v. 14",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Glory to God in the highest, and on earth peace to those on whom his favour rests."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 2, vv. 15 - 20",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "When the angels had left them and gone into heaven, the shepherds said to one another,",
+                                    "“Let us go now to Bethlehem and see this thing that has taken place, which the Lord has",
+                                    "made known to us.” So they went with haste and found Mary and Joseph, and the child lying",
+                                    "in the manger. When they saw this, they made known what had been told them about this child;",
+                                    "and all who heard it were amazed at what the shepherds told them. But Mary treasured",
+                                    "all these words and pondered them in her heart. The shepherds returned, glorifying and",
+                                    "praising God for all they had heard and seen, as it had been told them."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

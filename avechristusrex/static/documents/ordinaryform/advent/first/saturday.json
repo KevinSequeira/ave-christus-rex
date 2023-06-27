@@ -1,0 +1,188 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Season of Advent.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 80, vv. 4, 2",
+                  "content": [
+                        {
+                              "p": [
+                                    "Come and show us your face, O Lord,",
+                                    "who are seated upon the Cherubim, and we will be saved."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who sent your Only Begotten Son into this world",
+                        "to free the human race from its ancient enslavement,",
+                        "bestow on those who devoutly await him",
+                        "the grace of your compassion from on high,",
+                        "that we may attain the prize of true freedom."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May the sacrifice of our worship, Lord, we pray,",
+                        "be offered to you unceasingly,",
+                        "to complete what was begun in sacred mystery",
+                        "and powerfully accomplish for us your saving work."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Revelation ch. 22, v. 12",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold, I am coming soon",
+                                    "and my recompense is with me, says the Lord,",
+                                    "to bestow a reward according to the deeds of each."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "We implore your mercy, Lord,",
+                        "that this divine sustenance",
+                        "may cleanse us of our faults",
+                        "and prepare us for the coming feasts."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 30, vv. 19 - 21, 23 - 26",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Thus says the Lord, \nthe Holy One of Israel:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Truly, O people in Zion, inhabitants of Jerusalem, you shall weep no more.",
+                                          "He will surely be gracious to you at the sound of your cry; when he hears it,",
+                                          "he will answer you. Though the Lord may give you the bread of adversity and the water of affliction,",
+                                          "yet your Teacher will not hide himself any more, but your eyes shall see your Teacher.",
+                                          "And when you turn to the right or when you turn to the left, your ears shall hear a word behind you,",
+                                          "saying, “This is the way; walk in it.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "He will give rain for the seed with which you sow the ground, and grain, the produce of the ground,",
+                                          "which will be rich and plenteous. On that day your cattle will graze in broad pastures;",
+                                          "and the oxen and donkeys that till the ground will eat silage, which has been winnowed with shovel and fork.",
+                                          "On every lofty mountain and every high hill there will be brooks running with water—on a day of the great slaughter,",
+                                          "when the towers fall. Moreover the light of the moon will be like the light of the sun,",
+                                          "and the light of the sun will be sevenfold, like the light of seven days, on the day when the Lord binds up the injuries of his people,",
+                                          "and heals the wounds inflicted by his blow."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 147, vv. 1 - 2, 3 - 4, 5 - 6",
+                  "response": "The Lord is my light and my salvation.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Praise the Lord! \nHow good it is to sing praises to our God; \nfor he is gracious, and a song of praise is fitting.",
+                                    "The Lord builds up Jerusalem; \nhe gathers the outcasts of Israel."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "He heals the brokenhearted, \nand binds up their wounds.",
+                                    "He determines the number of the stars; \nhe gives to all of them their names."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Great is our Lord, and abundant in power; \nhis understanding is beyond measure.",
+                                    "The Lord lifts up the downtrodden; \nhe casts the wicked to the ground."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Isaiah ch. 33, v. 22",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Lord is our Judge, our Lawgiver, our King; he it is who will save us."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 9, vv. 35 – ch. 10, vv. 1, 5a, 6 - 8",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus went about all the cities and villages, teaching in their synagogues,",
+                                    "and proclaiming the good news of the kingdom, and curing every disease and every sickness.",
+                                    "When he saw the crowds, he had compassion for them, because they were harassed and helpless,",
+                                    "like sheep without a shepherd. Then he said to his disciples, “The harvest is plentiful, but the laborers are few;",
+                                    "therefore ask the Lord of the harvest to send out laborers into his harvest.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then Jesus summoned his twelve disciples and gave them authority over unclean spirits, to cast them out,",
+                                    "and to cure every disease and every sickness."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "These twelve Jesus sent out with the following instructions:",
+                                    "“Go rather to the lost sheep of the house of Israel. As you go, proclaim the good news,",
+                                    "‘The kingdom of heaven has come near.’ Cure the sick, raise the dead, cleanse the lepers, cast out demons.",
+                                    "You received without payment; give without payment.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

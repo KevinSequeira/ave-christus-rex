@@ -1,0 +1,179 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_scholastica.png')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 52, v. 10",
+                  "content": [
+                        {
+                              "p": [
+                                    "I am like a growing olive tree in the house of God.",
+                                    "I trust in the mercy of God, for ever and ever."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "I despised the kingdom of the world and all worldly finery",
+                                    "for love of my Lord, Jesus Christ,",
+                                    "whom I have seen, whom I have loved,",
+                                    "in whom I have believed, in whom has been my delight."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "As we celebrate anew the Memorial of the Virgin Saint",
+                        "Scholastica,",
+                        "we pray, O Lord,",
+                        "that, following her example,",
+                        "we may serve you with pure love",
+                        "and happily receive what comes from loving you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "We bring the offerings of our devotion",
+                        "to be consecrated by you, O Lord,",
+                        "in commemoration of Saint Scholastica,",
+                        "for by the consolation you give us in this life",
+                        "you show that we should not lose hope",
+                        "of what is promised for eternity."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Psalm 45, v. 2",
+                  "content": [
+                        {
+                              "p": [
+                                    "My heart overflows with noble words.",
+                                    "To the king I address the song I have made."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Luke ch. 10, v. 42",
+                  "content": [
+                        {
+                              "p": [
+                                    "One thing is necessary:",
+                                    "she has chosen the better part,",
+                                    "which shall not be taken away from her."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Renewed, O Lord, at the wellsprings of salvation,",
+                        "we humbly entreat you",
+                        "that through the intercession of Saint Scholastica,",
+                        "holding more closely day by day to Christ,",
+                        "we may merit to be coheirs in his Kingdom of grace."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Song of Solomon ch. 8, vv. 6 - 7",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Set me as a seal upon your heart, \nas a seal upon your arm;",
+                                          "for love is strong as death, \npassion fierce as the grave.",
+                                          "Its flashes are flashes of fire, \na raging flame.",
+                                          "Many waters cannot quench love, \nneither can floods drown it.",
+                                          "If one offered for love \nall the wealth of one’s house, \nit would be utterly scorned."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 148, vv. 1bc - 2, 11 - 13a, 13bc - 14",
+                  "response": "Young men and women, praise the name of the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Praise the Lord from the heavens; \npraise him in the heights!",
+                                    "Praise him, all his angels; \npraise him, all his host!"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Kings of the earth and all peoples, \nprinces and all rulers of the earth!",
+                                    "Young men and women alike, \nold and young together!",
+                                    "Let them praise the name of the Lord."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For his name alone is exalted; \nhis glory is above earth and heaven.",
+                                    "He has raised up a horn for his people, \npraise for all his faithful, \nfor the people of Israel who are close to him.",
+                                    "Praise the Lord!"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "John ch. 8, vv. 31b, 32",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "If you remain in my word, you will truly be my disciples, and you will know the truth, says the Lord."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 10, vv. 38 - 42",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus entered a certain village, where a woman named Martha welcomed him into her home. She had a sister named Mary, who sat at the Lord’s feet and listened to what he was saying. But Martha was distracted by her many tasks; so she came to him and asked, “Lord, do you not care that my sister has left me to do all the work by myself? Tell her then to help me.” But the Lord answered her, “Martha, Martha, you are worried and distracted by many things; there is need of only one thing. Mary has chosen the better part, which will not be taken away from her.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

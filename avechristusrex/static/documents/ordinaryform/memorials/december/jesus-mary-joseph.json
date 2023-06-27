@@ -1,0 +1,205 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/jesus_mary_jospeh.jpg')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Luke ch. 2, v. 16",
+                  "content": [
+                        {
+                              "p": [
+                                    "The shepherds went in haste,",
+                                    "and found Mary and Joseph and the Infant lying in a manger."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who were pleased to give us",
+                        "the shining example of the Holy Family,",
+                        "graciously grant that we may imitate them",
+                        "in practicing the virtues of family life and in the bonds of charity,",
+                        "and so, in the joy of your house,",
+                        "delight one day in eternal rewards."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "We offer you, Lord, the sacrifice of conciliation,",
+                        "humbly asking that,",
+                        "through the intercession of the Virgin Mother of God and",
+                        "Saint Joseph,",
+                        "you may establish our families firmly in your grace and your",
+                        "peace."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "nicene_creed",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Baruch ch. 3, v. 38",
+                  "content": [
+                        {
+                              "p": [
+                                    "Our God has appeared on the earth, and lived among us."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Bring those you refresh with this heavenly Sacrament,",
+                        "most merciful Father,",
+                        "to imitate constantly the example of the Holy Family,",
+                        "so that, after the trials of this world,",
+                        "we may share their company for ever."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Sirach ch. 3, vv. 2 - 6; 12 - 14",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "For the Lord honors a father above his children, \nand he confirms a mother’s right over her children.",
+                                          "Those who honor their father atone for sins, \nand those who respect their mother are like those who lay up treasure.",
+                                          "Those who honor their father will have joy in their own children, \nand when they pray they will be heard.",
+                                          "Those who respect their father will have long life, \nand those who honor their mother obey the Lord."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "My child, help your father in his old age, \nand do not grieve him as long as he lives;",
+                                          "even if his mind fails, be patient with him; \nbecause you have all your faculties do not despise him.",
+                                          "For kindness to a father will not be forgotten, \nand will be credited to you against your sins."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 128, vv. 1 - 2, 3, 4 - 5",
+                  "response": "Blessed are those who fear the Lord and walk in his ways.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Happy is everyone who fears the Lord, \nwho walks in his ways.",
+                                    "You shall eat the fruit of the labor of your hands; \nyou shall be happy, and it shall go well with you."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Your wife will be like a fruitful vine \nwithin your house;",
+                                    "your children will be like olive shoots \naround your table."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Thus shall the man be blessed \nwho fears the Lord.",
+                                    "The Lord bless you from Zion. \nMay you see the prosperity of Jerusalem \nall the days of your life."
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": [
+                  {
+                        "verse_number": "Colossians ch. 3, vv. 12 - 21",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: As God’s chosen ones, holy and beloved, clothe yourselves with compassion, kindness, humility,",
+                                          "meekness, and patience. Bear with one another and, if anyone has a complaint against another, forgive each other;",
+                                          "just as the Lord has forgiven you, so you also must forgive. Above all, clothe yourselves with love,",
+                                          "which binds everything together in perfect harmony. And let the peace of Christ rule in your hearts,",
+                                          "to which indeed you were called in the one body. And be thankful. Let the word of Christ dwell in you richly;",
+                                          "teach and admonish one another in all wisdom; and with gratitude in your hearts sing psalms, hymns, and spiritual songs to God.",
+                                          "And whatever you do, in word or deed, do everything in the name of the Lord Jesus, giving thanks to God the Father through him."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Wives, be subject to your husbands, as is fitting in the Lord. Husbands, love your wives and never treat them harshly."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Children, obey your parents in everything, for this is your acceptable duty in the Lord.",
+                                          "Fathers, do not provoke your children, or they may lose heart."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "gospel_acclamation": {
+                  "verse_number": "Colossians ch. 3, vv. 15a, 16a",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let the peace of Christ control your hearts; let the word of Christ dwell in you richly."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 2, vv. 13 - 15, 19 - 23",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Now after the wise men had left, an angel of the Lord appeared to Joseph in a dream and said,",
+                                    "“Get up, take the child and his mother, and flee to Egypt, and remain there until I tell you;",
+                                    "for Herod is about to search for the child, to destroy him.” Then Joseph got up, took the child",
+                                    "and his mother by night, and went to Egypt, and remained there until the death of Herod.",
+                                    "This was to fulfill what had been spoken by the Lord through the prophet, “Out of Egypt I have called my son.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "When Herod died, an angel of the Lord suddenly appeared in a dream to Joseph in Egypt and said,",
+                                    "“Get up, take the child and his mother, and go to the land of Israel, for those who were seeking the child’s life are dead.”",
+                                    "Then Joseph got up, took the child and his mother, and went to the land of Israel.",
+                                    "But when he heard that Archelaus was ruling over Judea in place of his father Herod, he was afraid to go there.",
+                                    "And after being warned in a dream, he went away to the district of Galilee. There he made his home in a town called Nazareth,",
+                                    "so that what had been spoken through the prophets might be fulfilled, “He will be called a Nazorean.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,181 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/baptism_jesus.jpeg')",
+      "saint_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Matthew ch. 3, vv. 16, 17",
+                  "content": [
+                        {
+                              "p": [
+                                    "After the Lord was baptized, the heavens were opened,",
+                                    "and the Spirit descended upon him like a dove,",
+                                    "and the voice of the Father thundered:",
+                                    "This is my beloved Son, with whom I am well pleased."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "Almighty ever-living God,",
+                        "who, when Christ had been baptized in the River Jordan",
+                        "and as the Holy Spirit descended upon him,",
+                        "solemnly declared him your beloved Son,",
+                        "grant that your children by adoption,",
+                        "reborn of water and the Holy Spirit,",
+                        "may always be well pleasing to you."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Accept, O Lord, the offerings",
+                        "we have brought to honor the revealing of your beloved Son,",
+                        "so that the oblation of your faithful",
+                        "may be transformed into the sacrifice of him",
+                        "who willed in his compassion",
+                        "to wash away the sins of the world."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "nicene_creed",
+      "communion_antiphon": [
+            {
+                  "verse_number": "John ch. 1, vv. 32, 34",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold the One of whom John said:",
+                                    "I have seen and testified that this is the Son of God."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Nourished with these sacred gifts,",
+                        "we humbly entreat your mercy, O Lord,",
+                        "that, faithfully listening to your Only Begotten Son,",
+                        "we may be your children in name and in truth."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 42, vv. 1 - 4, 6 - 7",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Thus says the Lord:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Here is my servant, whom I uphold, \nmy chosen, in whom my soul delights;",
+                                          "I have put my spirit upon him; \nhe will bring forth justice to the nations.",
+                                          "He will not cry or lift up his voice, \nor make it heard in the street;",
+                                          "a bruised reed he will not break, \nand a dimly burning wick he will not quench; \nhe will faithfully bring forth justice.",
+                                          "He will not grow faint or be crushed \nuntil he has established justice in the earth; \nand the coastlands wait for his teaching."
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "I am the Lord, I have called you in righteousness, \nI have taken you by the hand and kept you;",
+                                          "I have given you as a covenant to the people, \na light to the nations, \nto open the eyes that are blind,",
+                                          "to bring out the prisoners from the dungeon, \nfrom the prison those who sit in darkness."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 29, vv. 1 - 2, 3ac - 4, 3b and 9c - 10",
+                  "response": "The Lord will bless his people with peace.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Ascribe to the Lord, O heavenly beings, \nascribe to the Lord glory and strength.",
+                                    "Ascribe to the Lord the glory of his name; \nworship the Lord in holy splendor."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The voice of the Lord is over the waters; \nthe Lord, over mighty waters.",
+                                    "The voice of the Lord is powerful; \nthe voice of the Lord is full of majesty."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The God of glory thunders, \nand in his temple all say, “Glory!”",
+                                    "The Lord sits enthroned over the flood; \nthe Lord sits enthroned as king forever."
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": [
+                  {
+                        "verse_number": "Acts ch. 10, vv. 34 - 38",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Peter began to speak to those gathered in the house of Cornelius, saying: “I truly understand that God shows no partiality, but in every nation anyone who fears him and does what is right is acceptable to him. You know the message he sent to the people of Israel, preaching peace by Jesus Christ—he is Lord of all. That message spread throughout Judea, beginning in Galilee after the baptism that John announced: how God anointed Jesus of Nazareth with the Holy Spirit and with power; how he went about doing good and healing all who were oppressed by the devil, for God was with him.”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "gospel_acclamation": {
+                  "verse_number": "Cf. Mark ch. 9, v. 7",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The heavens were opened and the voice of the Father thundered: This is my beloved Son, listen to him."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 3, vv. 13 - 17",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus came from Galilee to John at the Jordan, to be baptized by him. John would have prevented him, saying, “I need to be baptized by you, and do you come to me?” But Jesus answered him, “Let it be so now; for it is proper for us in this way to fulfill all righteousness.” Then he consented. And when Jesus had been baptized, just as he came up from the water, suddenly the heavens were opened to him and he saw the Spirit of God descending like a dove and alighting on him. And a voice from heaven said, “This is my Son, the Beloved, with whom I am well pleased.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

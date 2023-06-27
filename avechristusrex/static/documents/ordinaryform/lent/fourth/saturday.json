@@ -1,0 +1,174 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_03.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 103, vv. 2, 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "Bless the Lord, O my soul, and never forget all his benefits;",
+                                    "it is he who forgives all your sins."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Rejoicing in this annual celebration",
+                        "of our Lenten observance,",
+                        "we pray, O Lord,",
+                        "that, with our hearts set on the paschal mysteries,",
+                        "we may be gladdened by their full effects."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "offertory": [
+            {
+                  "p": [
+                        "O God, by whose grace it comes to pass",
+                        "that we may approach your mysteries",
+                        "with minds made pure,",
+                        "grant, we pray,",
+                        "that, in reverently handing them on,",
+                        "we may offer you fitting homage."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Luke ch. 18, v. 13",
+                  "content": [
+                        {
+                              "p": [
+                                    "The tax collector stood at a distance, beating his breast and saying:",
+                                    "O God, be merciful to me, a sinner."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May we truly revere, O merciful God,",
+                        "these holy gifts, by which you ceaselessly nourish us,",
+                        "and may we always partake of them",
+                        "with abundant faith in our heart."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "Hold out to your faithful people, Lord,",
+                        "the right hand of heavenly assistance,",
+                        "that they may seek you with all their heart",
+                        "and merit the granting of what they ask."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hosea ch. 6, vv. 1 - 6",
+                        "content": [
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“Come, let us return to the Lord; \nfor it is he who has torn, and he will heal us; \nhe has struck down, and he will bind us up.",
+                                          "After two days he will revive us; \non the third day he will raise us up, \nthat we may live before him.",
+                                          "Let us know, let us press on to know the Lord; \nhis appearing is as sure as the dawn;",
+                                          "he will come to us like the showers, \nlike the spring rains that water the earth.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "What shall I do with you, O Ephraim? \nWhat shall I do with you, O Judah?",
+                                          "Your love is like a morning cloud, \nlike the dew that goes away early.",
+                                          "Therefore I have hewn them by the prophets, \nI have killed them by the words of my mouth, \nand my judgment goes forth as the light.",
+                                          "For I desire steadfast love and not sacrifice, \nthe knowledge of God rather than burnt offerings."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 51, vv. 3 - 4, 18 - 19, 20 - 21ab",
+                  "response": "It is mercy I desire, and not sacrifice.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Have mercy on me, O God, \naccording to your steadfast love;",
+                                    "according to your abundant mercy \nblot out my transgressions.",
+                                    "Wash me thoroughly from my iniquity, \nand cleanse me from my sin."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For you have no delight in sacrifice; \nif I were to give a burnt offering, you would not be pleased.",
+                                    "The sacrifice acceptable to God is a broken spirit; \na broken and contrite heart, O God, you will not despise."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Do good to Zion in your good pleasure; \nrebuild the walls of Jerusalem,",
+                                    "then you will delight in right sacrifices, \nin burnt offerings and whole burnt offerings."
+                              ]
+                        }
+                  ]
+            },
+            "gradual": {
+                  "verse_number": "See Psalm 95, v. 8",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "If today you hear his voice, harden not your hearts."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 18, vv. 9 - 14",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus told this parable to some who trusted in themselves that they were righteous and regarded others with contempt: “Two men went up to the temple to pray, one a Pharisee and the other a tax collector. The Pharisee, standing by himself, was praying thus, ‘God, I thank you that I am not like other people: thieves, rogues, adulterers, or even like this tax collector. I fast twice a week; I give a tenth of all my income.’ But the tax collector, standing far off, would not even look up to heaven, but was beating his breast and saying, ‘God, be merciful to me, a sinner!’ I tell you, this man went down to his home justified rather than the other; for all who exalt themselves will be humbled, but all who humble themselves will be exalted.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

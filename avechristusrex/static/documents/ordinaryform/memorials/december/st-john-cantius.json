@@ -1,0 +1,195 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_john_cantius.png')",
+      "saint_background_position": "top",
+      "opening_antiphon": {
+            "verse_number": "Cf. Psalm 132, v. 9",
+            "content": [
+                  {
+                        "p": [
+                              "Your priests, O Lord, shall be clothed with justice;",
+                              "your holy ones shall ring out their joy."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "Grant, we pray, almighty God,",
+                        "that by the example of the Priest Saint John Cantius",
+                        "we may advance in the knowledge of holy things",
+                        "and, by showing compassion to all,",
+                        "may gain forgiveness in your sight."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Receive, O Lord, the offerings of your people,",
+                        "and grant that we, who celebrate",
+                        "your Son’s work of boundless charity,",
+                        "may, by the example of Saint John Cantius,",
+                        "be confirmed in love of you and of our neighbor."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Psalm 34, v. 9",
+                  "content": [
+                        {
+                              "p": [
+                                    "Taste and see that the Lord is good;",
+                                    "blessed the man who seeks refuge in him."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Matthew ch. 5, v. 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed are the poor in spirit,",
+                                    "for theirs is the Kingdom of Heaven."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "We pray, almighty God,",
+                        "that we, who are fortified by the power of this Sacrament,",
+                        "may learn through the example of Saint John Cantius",
+                        "to seek you always above all things",
+                        "and to bear in this world the likeness of the New Man."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "James 2 : 14 - 17",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "What good is it, my brothers and sisters, if you say you have faith but do not have works?",
+                                          "Can faith save you? If a brother or sister is naked and lacks daily food, and one of you says to them,",
+                                          "“Go in peace; keep warm and eat your fill,” and yet you do not supply their bodily needs,",
+                                          "what is the good of that? So faith by itself, if it has no works, is dead."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 112, vv. 1bc - 2, 3 - 4, 5 - 7, 6 - 8, 9",
+                  "response": "Blessed the man who fears the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Happy are those who fear the Lord, \nwho greatly delight in his commandments.",
+                                    "Their descendants will be mighty in the land; \nthe generation of the upright will be blessed."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Wealth and riches are in their houses, \nand their righteousness endures forever.",
+                                    "They rise in the darkness as a light for the upright; \nthey are gracious, merciful, and righteous."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "It is well with those who deal generously and lend, \nwho conduct their affairs with justice.",
+                                    "For the righteous will never be moved; \nthey will be remembered forever.",
+                                    "They are not afraid of evil tidings; \ntheir hearts are firm, secure in the Lord."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For the righteous will never be moved; \nthey will be remembered forever.",
+                                    "They are not afraid of evil tidings; \ntheir hearts are firm, secure in the Lord.",
+                                    "Their hearts are steady, they will not be afraid; \nin the end they will look in triumph on their foes."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "They have distributed freely, they have given to the poor; \ntheir righteousness endures forever; \ntheir horn is exalted in honor."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 23, vv. 11, 12b",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The greatest among you must be your servant. Whoever humbles himself will be exalted."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 6, vv. 27 - 38",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “But I say to you that listen, Love your enemies, do good to those who hate you,",
+                                    "bless those who curse you, pray for those who abuse you. If anyone strikes you on the cheek, offer the other also;",
+                                    "and from anyone who takes away your coat do not withhold even your shirt. Give to everyone who begs from you;",
+                                    "and if anyone takes away your goods, do not ask for them again. Do to others as you would have them do to you."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“If you love those who love you, what credit is that to you? For even sinners love those who love them.",
+                                    "If you do good to those who do good to you, what credit is that to you? For even sinners do the same.",
+                                    "If you lend to those from whom you hope to receive, what credit is that to you? Even sinners lend to sinners,",
+                                    "to receive as much again. But love your enemies, do good, and lend, expecting nothing in return.",
+                                    "Your reward will be great, and you will be children of the Most High; for he is kind to the ungrateful and the wicked.",
+                                    "Be merciful, just as your Father is merciful."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“Do not judge, and you will not be judged; do not condemn, and you will not be condemned.",
+                                    "Forgive, and you will be forgiven; give, and it will be given to you. A good measure, pressed down,",
+                                    "shaken together, running over, will be put into your lap; for the measure you give will be the measure you get back.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

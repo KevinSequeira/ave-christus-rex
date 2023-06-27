@@ -1,0 +1,170 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent in Church.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": {
+            "verse_number": "Cf. Isaiah ch. 11, v. 1; ch. 40, v. 5; Luke ch. 3, v. 6",
+            "content": [
+                  {
+                        "p": [
+                              "A branch shall sprout from the root of Jesse,",
+                              "and the glory of the Lord will fill the whole earth,",
+                              "and all flesh will see the salvation of God."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, eternal majesty, whose ineffable Word",
+                        "the immaculate Virgin received through the message of an Angel",
+                        "and so became the dwelling-place of divinity,",
+                        "filled with the light of the Holy Spirit,",
+                        "grant, we pray, that by her example",
+                        "we may in humility hold fast to your will."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Look, O Lord, we pray,",
+                        "upon the one sacrifice of your Son,",
+                        "that, by participating in this mystery,",
+                        "we may possess at last the gifts we have awaited",
+                        "and for which our faith bids us hope."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": {
+            "verse_number": "Luke ch. 1, v. 31",
+            "content": [
+                  {
+                        "p": [
+                              "The Angel said to Mary:",
+                              "Behold, you will conceive and bear a son,",
+                              "and you shall name him Jesus."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Grant divine protection, O Lord,",
+                        "to those you renew with this heavenly gift,",
+                        "that to those who delight in your mysteries",
+                        "you may give the joy of true peace."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Isaiah ch. 7, vv. 10 - 14",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "The Lord spoke to Ahaz, saying, Ask a sign of the Lord your God; let it be deep as Sheol or high as heaven.",
+                                    "But Ahaz said, I will not ask, and I will not put the Lord to the test. Then Isaiah said:",
+                                    "“Hear then, O house of David! Is it too little for you to weary mortals, that you weary my God also?",
+                                    "Therefore the Lord himself will give you a sign. Look, the young woman is with child and shall bear a son,",
+                                    "and shall name him Immanuel."
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 24, vv. 1 - 2, 3 - 4ab, 5 - 6",
+                  "response": "Let the Lord enter; he is the king of glory.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The earth is the Lord’s and all that is in it, \nthe world, and those who live in it;",
+                                    "for he has founded it on the seas, \nand established it on the rivers."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Who shall ascend the hill of the Lord? \nAnd who shall stand in his holy place?",
+                                    "Those who have clean hands and pure hearts, \nwho do not lift up their souls to what is false"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "They will receive blessing from the Lord, \nand vindication from the God of their salvation.",
+                                    "Such is the company of those who seek him, \nwho seek the face of the God of Jacob."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "O Key of David, opening the gates of God’s eternal Kingdom: come and free the prisoners of darkness!"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 1, vv. 26 - 38",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "In the sixth month the angel Gabriel was sent by God to a town in Galilee called Nazareth,",
+                                    "to a virgin engaged to a man whose name was Joseph, of the house of David. The virgin’s name was Mary.",
+                                    "And he came to her and said, “Greetings, favored one! The Lord is with you.” But she was much",
+                                    "perplexed by his words and pondered what sort of greeting this might be. The angel said to her,",
+                                    "“Do not be afraid, Mary, for you have found favor with God. And now, you will conceive in your womb and bear a son,",
+                                    "and you will name him Jesus. He will be great, and will be called the Son of the Most High,",
+                                    "and the Lord God will give to him the throne of his ancestor David. He will reign over the house of Jacob forever,",
+                                    "and of his kingdom there will be no end.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Mary said to the angel, “How can this be, since I am a virgin?” The angel said to her,",
+                                    "“The Holy Spirit will come upon you, and the power of the Most High will overshadow you;",
+                                    "therefore the child to be born will be holy; he will be called Son of God. And now, your relative Elizabeth",
+                                    "in her old age has also conceived a son; and this is the sixth month for her who was said to be barren.",
+                                    "For nothing will be impossible with God.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then Mary said, “Here am I, the servant of the Lord; let it be with me according to your word.”",
+                                    "Then the angel departed from her."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,173 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(165, 55, 253, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Season of Advent.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 119, vv. 151, 152",
+                  "content": [
+                        {
+                              "p": [
+                                    "You, O Lord, are close, and all your ways are truth.",
+                                    "From of old I have known of your decrees, for you are eternal."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Stir up your power, O Lord,",
+                        "and come to our help with mighty strength,",
+                        "that what our sins impede",
+                        "the grace of your mercy may hasten."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Accept, we pray, O Lord, these offerings we make,",
+                        "gathered from among your gifts to us,",
+                        "and may what you grant us to celebrate devoutly here below",
+                        "gain for us the prize of eternal redemption."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Titus ch. 2, vv. 12, 13",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let us live justly and devoutly in this age,",
+                                    "as we await the blessed hope",
+                                    "and the coming of the glory of our great God."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May these mysteries, O Lord,",
+                        "in which we have participated,",
+                        "profit us, we pray,",
+                        "for even now, as we walk amid passing things,",
+                        "you teach us by them",
+                        "to love the things of heaven",
+                        "and hold fast to what endures."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Isaiah ch. 26, vv. 1 - 6",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "On that day this song will be sung in the land of Judah:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "Open the gates, \nso that the righteous nation that keeps faith \nmay enter in.",
+                                          "Those of steadfast mind you keep in peace— \nin peace because they trust in you.",
+                                          "Trust in the Lord for ever, \nfor in the Lord God \nyou have an everlasting rock.",
+                                          "For he has brought low \nthe inhabitants of the height; \nthe lofty city he lays low.",
+                                          "He lays it low to the ground, \ncasts it to the dust.",
+                                          "The foot tramples it, \nthe feet of the poor,",
+                                          "the steps of the needy."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 118, vv. 1 and 8 - 9, 19 - 21, 25 - 27a",
+                  "response": "Blessed is he who comes in the name of the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O give thanks to the Lord, for he is good; \nhis steadfast love endures for ever!",
+                                    "It is better to take refuge in the Lord \nthan to put confidence in mortals.",
+                                    "It is better to take refuge in the Lord \nthan to put confidence in princes."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Open to me the gates of righteousness, \nthat I may enter through them \nand give thanks to the Lord.",
+                                    "This is the gate of the Lord; \nthe righteous shall enter through it.",
+                                    "I thank you that you have answered me \nand have become my salvation."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Save us, we beseech you, O Lord! \nO Lord, we beseech you, give us success!",
+                                    "Blessed is the one who comes in the name of the Lord. \nWe bless you from the house of the Lord.",
+                                    "The Lord is God, \nand he has given us light."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Isaiah ch. 55. v. 6",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Seek the Lord while he may be found; call him while he is near."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 7, vv. 21, 24 - 27",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “Not everyone who says to me, ‘Lord, Lord,’ will enter the kingdom of heaven,",
+                                    "but only the one who does the will of my Father in heaven."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“Everyone then who hears these words of mine and acts on them will be like a wise man who built his house on rock.",
+                                    "The rain fell, the floods came, and the winds blew and beat on that house, but it did not fall,",
+                                    "because it had been founded on rock. And everyone who hears these words of mine and does not act on them",
+                                    "will be like a foolish man who built his house on sand. The rain fell, and the floods came,",
+                                    "and the winds blew and beat against that house, and it fell—and great was its fall!”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

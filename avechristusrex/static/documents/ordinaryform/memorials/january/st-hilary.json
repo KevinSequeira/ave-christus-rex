@@ -1,0 +1,184 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_hilary.jpg')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Sirach ch. 15, v. 5",
+                  "content": [
+                        {
+                              "p": [
+                                    "In the midst of the Church he opened his mouth,",
+                                    "and the Lord filled him with the spirit of wisdom and understanding",
+                                    "and clothed him in a robe of glory."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Psalm 37, vv. 30, 31",
+                  "content": [
+                        {
+                              "p": [
+                                    "The mouth of the just man utters wisdom,",
+                                    "and his tongue tells forth what is just;",
+                                    "the law of his God is in his heart."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Grant, we pray, almighty God,",
+                        "that we may rightly understand and truthfully profess",
+                        "the divinity of your Son,",
+                        "which the Bishop Saint Hilary taught with such constancy."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May the sacrifice which we gladly present on the feast day of",
+                        "Saint Hilary,",
+                        "be pleasing to you, O God,",
+                        "for, taught by him, we, too, give ourselves entirely to you in praise."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Luke ch. 12, v. 42",
+                  "content": [
+                        {
+                              "p": [
+                                    "Behold a faithful and prudent steward",
+                                    "to give them their allowance of food at the proper time."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Psalm 1, vv. 2, 3",
+                  "content": [
+                        {
+                              "p": [
+                                    "He who ponders the law of the Lord day and night",
+                                    "will yield his fruit in due season."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Through Christ the teacher, O Lord,",
+                        "instruct those you feed with Christ, the living Bread,",
+                        "that on the feast day of Saint Hilary they may learn your truth",
+                        "and express it in works of charity."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "1 John ch. 2, vv. 18 - 25",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Children, it is the last hour! As you have heard that antichrist is coming, so now many antichrists have come. From this we know that it is the last hour. They went out from us, but they did not belong to us; for if they had belonged to us, they would have remained with us. But by going out they made it plain that none of them belongs to us. But you have been anointed by the Holy One, and all of you have knowledge. I write to you, not because you do not know the truth, but because you know it, and you know that no lie comes from the truth. Who is the liar but the one who denies that Jesus is the Christ? This is the antichrist, the one who denies the Father and the Son. No one who denies the Son has the Father; everyone who confesses the Son has the Father also. Let what you heard from the beginning abide in you. If what you heard from the beginning abides in you, then you will abide in the Son and in the Father. And this is what he has promised us, eternal life."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 110, vv. 1, 2, 3, 4",
+                  "response": "You are a priest forever, in the line of Melchizedek.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord says to my lord, \n“Sit at my right hand",
+                                    "until I make your enemies your footstool.”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord sends out from Zion \nyour mighty scepter. \nRule in the midst of your foes."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Your people will offer themselves willingly \non the day you lead your forces \non the holy mountains.",
+                                    "From the womb of the morning, \nlike dew, your youth will come to you."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord has sworn and will not change his mind, \n“You are a priest forever according to the order of Melchizedek.”"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 5, v. 16",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Let your light shine before others, that they may see your good deeds and glorify your heavenly Father."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 5, vv. 13 - 19",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “You are the salt of the earth; but if salt has lost its taste, how can its saltiness be restored? It is no longer good for anything, but is thrown out and trampled under foot."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“You are the light of the world. A city built on a hill cannot be hid. No one after lighting a lamp puts it under the bushel basket, but on the lampstand, and it gives light to all in the house. In the same way, let your light shine before others, so that they may see your good works and give glory to your Father in heaven."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "“Do not think that I have come to abolish the law or the prophets; I have come not to abolish but to fulfill. For truly I tell you, until heaven and earth pass away, not one letter, not one stroke of a letter, will pass from the law until all is accomplished. Therefore, whoever breaks one of the least of these commandments, and teaches others to do the same, will be called least in the kingdom of heaven; but whoever does them and teaches them will be called great in the kingdom of heaven.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

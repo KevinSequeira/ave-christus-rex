@@ -1,0 +1,158 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/guadalupe.png')",
+      "saint_background_position": "top",
+      "opening_antiphon": {
+            "verse_number": "Revelation ch. 12, v. 1",
+            "content": [
+                  {
+                        "p": [
+                              "A great sign appeared in the sky, a woman clothed with the sun,",
+                              "with the moon under her feet, and on her head a crown of twelve stars."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "O God, Father of mercies,",
+                        "who placed your people under the singular protection",
+                        "of your Son’s most holy Mother,",
+                        "grant that all who invoke the Blessed Virgin of Guadalupe,",
+                        "may seek with ever more lively faith",
+                        "the progress of peoples in the ways of justice and of peace."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ your Son, who lives and reigns with you in the unity of the Holy Spirit, God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Accept, O Lord, the gifts we present to you",
+                        "on this feast of Our Lady of Guadalupe,",
+                        "and grant that this sacrifice",
+                        "may strengthen us to fulfill your commandments",
+                        "as true children of the Virgin Mary."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "nicene_creed",
+      "communion_antiphon": {
+            "verse_number": "Luke ch. 1, v. 52",
+            "content": [
+                  {
+                        "p": [
+                              "The Lord has cast down the mighty from their thrones,",
+                              "and has lifted up the lowly."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Lord God, may the Body and Blood of your Son,",
+                        "which we receive in this sacrament,",
+                        "reconcile us always in your love;",
+                        "and may we who rejoice in Our Lady of Guadalupe",
+                        "live united and at peace in this world",
+                        "until the day of the Lord dawns in glory."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": {
+                  "verse_number": "Zephaniah ch. 2, vv. 14 - 17",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Sing aloud, O daughter Zion; \nshout, O Israel!",
+                                    "Rejoice and exult with all your heart, \nO daughter Jerusalem!",
+                                    "The Lord has taken away the judgments against you, \nhe has turned away your enemies.",
+                                    "The king of Israel, the Lord, is in your midst; \nyou shall fear disaster no more.",
+                                    "On that day it shall be said to Jerusalem:",
+                                    "Do not fear, O Zion; \ndo not let your hands grow weak.",
+                                    "The Lord, your God, is in your midst, \na warrior who gives victory;",
+                                    "he will rejoice over you with gladness, \nhe will renew you in his love;",
+                                    "he will exult over you with loud singing."
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Judith ch. 13, vv. 18bcde, 19",
+                  "response": "You are the highest honour of our race.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O daughter, you are blessed by the Most High God \nabove all other women on earth;",
+                                    "and blessed be the Lord God, \nwho created the heavens and the earth"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Your praise will never depart from the hearts \nof those who remember the power of God."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed are you, holy Virgin Mary, deserving of all praise; \nfrom you rose the sun of justice, Christ our God."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 1, vv. 39 - 47",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Mary set out and went with haste to a Judean town in the hill country,",
+                                    "where she entered the house of Zechariah and greeted Elizabeth. When Elizabeth heard Mary’s greeting,",
+                                    "the child leaped in her womb. And Elizabeth was filled with the Holy Spirit and exclaimed with a loud cry,",
+                                    "“Blessed are you among women, and blessed is the fruit of your womb. And why has this happened to me,",
+                                    "that the mother of my Lord comes to me? For as soon as I heard the sound of your greeting,",
+                                    "the child in my womb leaped for joy. And blessed is she who believed that there would be a fulfillment",
+                                    "of what was spoken to her by the Lord.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "And Mary said,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“My soul magnifies the Lord, \nand my spirit rejoices in God my Savior.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

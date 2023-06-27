@@ -1,0 +1,478 @@
+.jumbotron {
+      height: 500px;
+      color: #FFFFFF;
+      margin: 0px 0px 20px 0px;
+}
+
+.disabled {
+      pointer-events: none;
+}
+
+.jumbotronBackground {
+      background-size: cover;
+      background-position: center;
+      position: relative;
+}
+
+.documentsBackground {
+      background-size: cover;
+      background-position: center;
+      position: relative;
+}
+
+.letUsPrayBackground {
+      background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Liturgical Prayers.jpg');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+      padding-right: 30px;
+      padding-left: 30px;
+      border-radius: 0px;
+}
+
+.liturgyForTheDay {
+      position: absolute;
+      bottom: 60px;
+}
+
+p.liturgyForTheDayForm {
+      margin: 0px 0px 4px 0px;
+      font-size: 20px;
+      font-family: 'Merriweather', serif;
+}
+
+h1.liturgyForTheDayHeader {
+      font-family: 'Vollkorn SC', serif;
+      margin: 0px 0px 0px -2px;
+      font-size: 50px;
+      line-height: 50px;
+}
+
+p.liturgyForTheDayWeek {
+      font-size: 20px;
+      font-family: 'Merriweather', serif;
+      margin-right: 40px;
+}
+
+.memorialForTheDay {
+      position: absolute;
+      bottom: 60px;
+}
+
+p.memorialForTheDayForm {
+      margin: 0px 0px 4px 0px;
+      font-size: 18px;
+      font-family: 'Merriweather', serif;
+}
+
+h1.memorialForTheDayHeader {
+      font-family: 'Vollkorn SC', serif;
+      margin: 0px 20px 0px -2px;
+      font-size: 36px;
+      line-height: 36px;
+}
+
+p.memorialForTheDayWeek {
+      font-size: 18px;
+      font-family: 'Merriweather', serif;
+      margin-right: 40px;
+}
+
+.row-left {
+      padding-right: 10px;
+      padding-left: 15px;
+}
+
+.row-right {
+      padding-right: 15px;
+      padding-left: 10px;
+}
+
+.btn {
+      border: 2px solid #FFFFFF;
+      border-radius: 0px;
+      background-color: transparent;
+      font-family: 'Merriweather', serif;
+      color: #FFFFFF;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+}
+
+.default {
+      background-color: transparent;
+      border-color: #FFFFFF;
+      color: #FFFFFF;
+}
+
+.default:hover {
+      color: #FFFFFF;
+      background-color: rgba(255,255,255,0.4);
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+   background: #FFFFFF;
+   border-color: #FFFFFF;
+   color: #000000;
+}
+
+@media (max-width: 991px) {
+      .jumbotron {
+            color: #FFFFFF;
+            height: 300px;
+            padding: 190px 20px 20px 20px;
+            margin-bottom: 20px;
+      }
+
+      .jumbotronBackground {
+            background-size: cover;
+            background-position: center;
+            position: relative;
+      }
+
+      .documentsBackground {
+            background-size: cover;
+            background-position: center;
+            padding: 140px 0px 0px 0px;
+            position: relative;
+      }
+
+      .letUsPrayBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Liturgical Prayers.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 140px 0px 0px 0px;
+            position: relative;
+      }
+
+      .container .jumbotron, .container-fluid .jumbotron {
+            padding-right: 20px;
+            padding-left: 20px;
+            border-radius: 0px;
+      }
+
+
+      .jumbotron h2 {
+            font-family: 'Vollkorn SC', serif;
+            margin-left: -2px;
+            font-size: 26px;
+            line-height: 13px;
+      }
+
+      .liturgyForTheDay {
+            position: absolute;
+            bottom: 60px;
+      }
+
+      p.liturgyForTheDayForm {
+            margin: 0px 0px 2px 0px;
+            font-size: 16px;
+            font-family: 'Merriweather', serif;
+      }
+
+      h1.liturgyForTheDayHeader {
+            font-family: 'Vollkorn SC', serif;
+            margin: 0px 0px 2px -2px;
+            font-size: 40px;
+            line-height: 30px;
+      }
+
+      p.liturgyForTheDayWeek {
+            font-size: 16px;
+            font-family: 'Merriweather', serif;
+      }
+
+      .memorialForTheDay {
+            position: absolute;
+            bottom: 60px;
+      }
+
+      p.memorialForTheDayForm {
+            margin: 0px 0px 2px 0px;
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+      h1.memorialForTheDayHeader {
+            font-family: 'Vollkorn SC', serif;
+            margin: 0px 20px 0px -2px;
+            font-size: 30px;
+            line-height: 30px;
+      }
+
+      p.memorialForTheDayWeek {
+            margin-right: 40px;
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+      .row-left {
+            padding-right: 10px;
+            padding-left: 15px;
+      }
+
+      .row-right {
+            padding-right: 15px;
+            padding-left: 10px;
+      }
+
+      .btn {
+            border: 2px solid #FFFFFF;
+            border-radius: 0px;
+            background-color: transparent;
+            font-family: 'Merriweather', serif;
+            color: #FFFFFF;
+            padding: 10px 28px;
+            font-size: 14px;
+            cursor: pointer;
+      }
+
+      .default {
+            background-color: transparent;
+            border-color: #FFFFFF;
+            color: #FFFFFF;
+      }
+
+      .default:hover {
+            color: #FFFFFF;
+            background-color: rgba(255,255,255,0.2);
+      }
+
+      .btn:focus,.btn:active {
+         outline: none !important;
+         box-shadow: none;
+         background: #FFFFFF;
+         border-color: #FFFFFF;
+         color: #000000;
+      }
+}
+
+@media (max-width: 768px) {
+      .jumbotron {
+            color: #FFFFFF;
+            height: 350px;
+            padding: 190px 0px 0px 0px;
+            margin: 0px 0px 10px 0px;
+      }
+
+      .jumbotronBackground {
+            background-size: cover;
+            background-position: right;
+      }
+
+      .documentsBackground {
+            background-size: cover;
+            background-position: center;
+      }
+
+      .letUsPrayBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Liturgical Prayers.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .container .jumbotron, .container-fluid .jumbotron {
+            padding-right: 30px;
+            padding-left: 30px;
+            border-radius: 0px;
+      }
+
+      .jumbotron h1 {
+            font-family: 'Vollkorn SC', serif;
+            padding: 0px 0px 0px 0px;
+            margin-left: -2px;
+            font-size: 26px;
+            line-height: 16px;
+      }
+
+      .jumbotron h2 {
+            font-family: 'Vollkorn SC', serif;
+            margin-left: -2px;
+            font-size: 26px;
+            line-height: 16px;
+      }
+
+      .liturgyForTheDay {
+            position: absolute;
+            bottom: 60px;
+      }
+
+      p.liturgyForTheDayForm {
+            margin: 0px 0px 2px 0px;
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+      h1.liturgyForTheDayHeader {
+            font-family: 'Vollkorn SC', serif;
+            margin: 0px 0px 0px -2px;
+            font-size: 24px;
+            line-height: 24px;
+      }
+
+      p.liturgyForTheDayWeek {
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+      .memorialForTheDay {
+            position: absolute;
+            bottom: 60px;
+      }
+
+      p.memorialForTheDayForm {
+            margin: 0px 0px 2px 0px;
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+      h1.memorialForTheDayHeader {
+            font-family: 'Vollkorn SC', serif;
+            margin: 0px 0px 0px -2px;
+            font-size: 24px;
+            line-height: 24px;
+      }
+
+      p.memorialForTheDayWeek {
+            font-size: 14px;
+            font-family: 'Merriweather', serif;
+      }
+
+
+      .row-left {
+            padding-right: 15px;
+            padding-left: 15px;
+      }
+
+      .row-right {
+            padding-right: 15px;
+            padding-left: 15px;
+      }
+
+      .btn {
+            border: 2px solid #FFFFFF;
+            border-radius: 0px;
+            background-color: transparent;
+            font-family: 'Merriweather', serif;
+            color: #FFFFFF;
+            padding: 10px 28px;
+            font-size: 12px;
+            cursor: pointer;
+      }
+
+      .default {
+            background-color: transparent;
+            border-color: #FFFFFF;
+            color: #FFFFFF;
+      }
+
+      .default:hover {
+            color: #FFFFFF;
+            background-color: rgba(255,255,255,0.2);
+      }
+
+      .btn:focus,.btn:active {
+         outline: none !important;
+         box-shadow: none;
+         background: #FFFFFF;
+         border-color: #FFFFFF;
+         color: #000000;
+      }
+}
+
+@media (max-width: 320px) {
+      .jumbotron {
+            color: #FFFFFF;
+            height: 300px;
+            padding: 130px 0px 0px 0px;
+            margin: 0px 0px 10px 0px;
+      }
+
+      .jumbotronBackground {
+            background-size: cover;
+            background-position: center;
+      }
+
+      .documentsBackground {
+            background-size: cover;
+            background-position: center;
+      }
+
+      .letUsPrayBackground {
+            background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Small/Liturgical Prayers.jpg');
+            background-size: cover;
+            background-position: center;
+      }
+
+      .container .jumbotron, .container-fluid .jumbotron {
+            padding-right: 10px;
+            padding-left: 10px;
+            border-radius: 0px;
+      }
+
+      .jumbotron h1 {
+            font-family: 'Vollkorn SC', serif;
+            padding: 0px 0px 0px 0px;
+            margin-left: -2px;
+            font-size: 30px;
+            line-height: 16px;
+      }
+
+      .jumbotron h2 {
+            font-family: 'Vollkorn SC', serif;
+            margin-left: -2px;
+            font-size: 30px;
+            line-height: 16px;
+      }
+
+      .jumbotron p {
+            font-size: 10px;
+            padding-bottom: 0px;
+            font-family: 'Montserrat', sans-serif;
+      }
+
+      .row-left {
+            padding-right: 15px;
+            padding-left: 15px;
+      }
+
+      .row-right {
+            padding-right: 15px;
+            padding-left: 15px;
+      }
+
+      .btn {
+            border: 2px solid #FFFFFF;
+            border-radius: 0px;
+            background-color: transparent;
+            font-family: 'Merriweather', serif;
+            color: #FFFFFF;
+            padding: 10px 18px;
+            font-size: 12px;
+            cursor: pointer;
+      }
+
+      .default {
+            background-color: transparent;
+            border-color: #FFFFFF;
+            color: #FFFFFF;
+      }
+
+      .default:hover {
+            color: #FFFFFF;
+            background-color: rgba(255,255,255,0.2);
+      }
+
+      .btn:focus,.btn:active {
+         outline: none !important;
+         box-shadow: none;
+         background: #FFFFFF;
+         border-color: #FFFFFF;
+         color: #000000;
+      }
+}

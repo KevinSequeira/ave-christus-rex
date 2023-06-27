@@ -1,0 +1,82 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hebrews ch. 13, vv. 15 - 17, 20 - 21",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: Through Jesus Christ, then, let us continually offer a sacrifice of praise to God, that is, the fruit of lips that confess his name. Do not neglect to do good and to share what you have, for such sacrifices are pleasing to God."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Obey your leaders and submit to them, for they are keeping watch over your souls and will give an account. Let them do this with joy and not with sighing—for that would be harmful to you."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 23, vv. 1 - 3a, 3b - 4, 5, 6",
+                  "response": "The Lord is my shepherd; there is nothing I shall want.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord is my shepherd, I shall not want. \nHe makes me lie down in green pastures;",
+                                    "he leads me beside still waters; \nhe restores my soul."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "He leads me in right paths \nfor his name’s sake.",
+                                    "Even though I walk through the darkest valley, \nI fear no evil;",
+                                    "for you are with me; \nyour rod and your staff— \nthey comfort me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "You prepare a table before me \nin the presence of my enemies;",
+                                    "you anoint my head with oil; \nmy cup overflows."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Surely goodness and mercy shall follow me \nall the days of my life,",
+                                    "and I shall dwell in the house of the Lord \nmy whole life long."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "John ch. 10, v. 27",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "My sheep hear my voice, says the Lord; I know them, and they follow me."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 6, vv. 30 - 34",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "The apostles gathered around Jesus, and told him all that they had done and taught. He said to them, “Come away to a deserted place all by yourselves and rest a while.” For many were coming and going, and they had no leisure even to eat. And they went away in the boat to a deserted place by themselves. Now many saw them going and recognized them, and they hurried there on foot from all the towns and arrived ahead of them. As he went ashore, he saw a great crowd; and he had compassion for them, because they were like sheep without a shepherd; and he began to teach them many things."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

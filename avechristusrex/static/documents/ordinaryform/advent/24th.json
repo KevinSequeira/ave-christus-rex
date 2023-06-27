@@ -1,0 +1,189 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent in Church.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": {
+            "verse_number": "Cf. Galatians ch. 4 : 4",
+            "content": [
+                  {
+                        "p": [
+                              "Behold, when the fullness of time had come,",
+                              "God sent his Son into the world."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Come quickly, we pray, Lord Jesus,",
+                        "and do not delay,",
+                        "that those who trust in your compassion",
+                        "may find solace and relief in your coming."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who live and reign with God the Father",
+                        "in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Graciously make your own, O Lord,",
+                        "the offerings which we bring,",
+                        "that, partaking of them, we be cleansed of our sins",
+                        "and merit to stand ready with pure hearts",
+                        "for the coming in glory of your Son."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Luke ch. 1, v. 68",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed be the Lord, the God of Israel!",
+                                    "He has visited his people and redeemed them."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Grant to us who find new vigor, O Lord,",
+                        "in these your wondrous gifts,",
+                        "that, as we prepare to celebrate in adoration",
+                        "the festivities of your Son’s Nativity,",
+                        "so we may possess in gladness",
+                        "his everlasting rewards."
+                  ]
+            },
+            {
+                  "p": [
+                        "Who lives and reigns for ever and ever."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "2 Samuel ch. 7, vv. 1 - 5, 8b - 12, 14a, 16",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "When King David was settled in his house, and the Lord had given him rest from all his enemies around him,",
+                                          "the king said to the prophet Nathan, “See now, I am living in a house of cedar, but the ark of God stays in a tent.”",
+                                          "Nathan said to the king, “Go, do all that you have in mind; for the Lord is with you.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "But that same night the word of the Lord came to Nathan: Go and tell my servant David: Thus says the Lord:",
+                                          "Are you the one to build me a house to live in?"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Thus says the Lord of hosts: I took you from the pasture, from following the sheep to be prince over my people Israel;",
+                                          "and I have been with you wherever you went, and have cut off all your enemies from before you;",
+                                          "and I will make for you a great name, like the name of the great ones of the earth.",
+                                          "And I will appoint a place for my people Israel and will plant them, so that they may live in their own place,",
+                                          "and be disturbed no more; and evildoers shall afflict them no more, as formerly, from the time that",
+                                          "I appointed judges over my people Israel; and I will give you rest from all your enemies.",
+                                          "Moreover the Lord declares to you that the Lord will make you a house. When your days are fulfilled and you",
+                                          "lie down with your ancestors, I will raise up your offspring after you, who shall come forth from your body,",
+                                          "and I will establish his kingdom."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "I will be a father to him, and he shall be a son to me. Your house and your kingdom shall be made sure forever before me;",
+                                          "your throne shall be established forever."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 89, vv. 1 - 2, 3 - 4, 26 and 28",
+                  "response": "For ever I will sing the goodness of the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I will sing of your steadfast love, O Lord, forever; \nwith my mouth I will proclaim your faithfulness to all generations.",
+                                    "I declare that your steadfast love is established forever; \nyour faithfulness is as firm as the heavens."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "You said, “I have made a covenant with my chosen one, \nI have sworn to my servant David:",
+                                    "‘I will establish your descendants forever, \nand build your throne for all generations.’”"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "He shall cry to me, ‘You are my Father, \nmy God, and the Rock of my salvation!",
+                                    "Forever I will keep my steadfast love for him, \nand my covenant with him will stand firm."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "O Radiant Daw, splendour of eternal light, sun of justice: come and shine on those who dwell in darkness and in the shadow of death."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 1, vv. 67 - 79",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then his father Zechariah was filled with the Holy Spirit and spoke this prophecy:"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "“Blessed be the Lord God of Israel, \nfor he has looked favorably on his people and redeemed them.",
+                                    "He has raised up a mighty savior for us \nin the house of his servant David,",
+                                    "as he spoke through the mouth of his holy prophets from of old, \nthat we would be saved from our enemies and from the hand of all who hate us.",
+                                    "Thus he has shown the mercy promised to our ancestors, \nand has remembered his holy covenant,",
+                                    "the oath that he swore to our ancestor Abraham, \nto grant us that we, being rescued from the hands of our enemies,",
+                                    "might serve him without fear, in holiness and righteousness \nbefore him all our days.",
+                                    "And you, child, will be called the prophet of the Most High; \nfor you will go before the Lord to prepare his ways,",
+                                    "to give knowledge of salvation to his people \nby the forgiveness of their sins.",
+                                    "By the tender mercy of our God, \nthe dawn from on high will break upon us,",
+                                    "to give light to those who sit in darkness and in the shadow of death, \nto guide our feet into the way of peace.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

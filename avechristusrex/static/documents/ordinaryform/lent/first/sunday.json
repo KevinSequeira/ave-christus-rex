@@ -1,0 +1,259 @@
+{
+      "liturgy_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/lent_01.jpg')",
+      "liturgy_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 91, vv. 15, 16",
+                  "content": [
+                        {
+                              "p": [
+                                    "When he calls on me, I will answer him;",
+                                    "I will deliver him and give him glory,",
+                                    "I will grant him length of days."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Grant, almighty God,",
+                        "through the yearly observances of holy Lent,",
+                        "that we may grow in understanding",
+                        "of the riches hidden in Christ",
+                        "and by worthy conduct pursue their effects."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "offertory": [
+            {
+                  "p": [
+                        "Give us the right dispositions, O Lord, we pray,",
+                        "to make these offerings,",
+                        "for with them we celebrate the beginning",
+                        "of this venerable and sacred time."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Matthew ch. 4, v. 4",
+                  "content": [
+                        {
+                              "p": [
+                                    "One does not live by bread alone,",
+                                    "but by every word that comes forth from the mouth of God."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Psalm 91, v. 4",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Lord will conceal you with his pinions,",
+                                    "and under his wings you will trust."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Renewed now with heavenly bread,",
+                        "by which faith is nourished, hope increased,",
+                        "and charity strengthened,",
+                        "we pray, O Lord,",
+                        "that we may learn to hunger for Christ,",
+                        "the true and living Bread,",
+                        "and strive to live by every word",
+                        "which proceeds from your mouth."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "prayer_over_the_people": [
+            {
+                  "p": [
+                        "May bountiful blessing, O Lord, we pray,",
+                        "come down upon your people,",
+                        "that hope may grow in tribulation,",
+                        "virtue be strengthened in temptation,",
+                        "and eternal redemption be assured."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": [
+                  {
+                        "verse_number": "Genesis ch. 2, vv. 7 - 9; ch. 3, vv. 1 - 7",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "The Lord God formed man from the dust of the ground, and breathed into his nostrils the breath of life; and the man became a living being. And the Lord God planted a garden in Eden, in the east; and there he put the man whom he had formed. Out of the ground the Lord God made to grow every tree that is pleasant to the sight and good for food, the tree of life also in the midst of the garden, and the tree of the knowledge of good and evil."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Now the serpent was more crafty than any other wild animal that the Lord God had made. He said to the woman, “Did God say, ‘You shall not eat from any tree in the garden’?” The woman said to the serpent, “We may eat of the fruit of the trees in the garden; but God said, ‘You shall not eat of the fruit of the tree that is in the middle of the garden, nor shall you touch it, or you shall die.’” But the serpent said to the woman, “You will not die; for God knows that when you eat of it your eyes will be opened, and you will be like God, knowing good and evil.” So when the woman saw that the tree was good for food, and that it was a delight to the eyes, and that the tree was to be desired to make one wise, she took of its fruit and ate; and she also gave some to her husband, who was with her, and he ate. Then the eyes of both were opened, and they knew that they were naked; and they sewed fig leaves together and made loincloths for themselves."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 51, vv. 1 - 2, 3 - 4, 10 - 11, 12 and 15",
+                  "response": "Be merciful, O Lord, for we have sinned.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Have mercy on me, O God, \naccording to your steadfast love;",
+                                    "according to your abundant mercy \nblot out my transgressions.",
+                                    "Wash me thoroughly from my iniquity, \nand cleanse me from my sin."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "For I know my transgressions, \nand my sin is ever before me.",
+                                    "Against you, you alone, have I sinned, \nand done what is evil in your sight,",
+                                    "so that you are justified in your sentence \nand blameless when you pass judgment."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Create in me a clean heart, O God, \nand put a new and right spirit within me.",
+                                    "Do not cast me away from your presence, \nand do not take your holy spirit from me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Restore to me the joy of your salvation, \nand sustain in me a willing spirit.",
+                                    "O Lord, open my lips, \nand my mouth will declare your praise."
+                              ]
+                        }
+                  ]
+            },
+            "second_reading": [
+                  {
+                        "verse_number": "Romans ch. 5, vv. 12 - 19",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: Just as sin came into the world through one man, and death came through sin, and so death spread to all because all have sinned— sin was indeed in the world before the law, but sin is not reckoned when there is no law. Yet death exercised dominion from Adam to Moses, even over those whose sins were not like the transgression of Adam, who is a type of the one who was to come."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "But the free gift is not like the trespass. For if the many died through the one man’s trespass, much more surely have the grace of God and the free gift in the grace of the one man, Jesus Christ, abounded for the many. And the free gift is not like the effect of the one man’s sin. For the judgment following one trespass brought condemnation, but the free gift following many trespasses brings justification. If, because of the one man’s trespass, death exercised dominion through that one, much more surely will those who receive the abundance of grace and the free gift of righteousness exercise dominion in life through the one man, Jesus Christ."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Therefore just as one man’s trespass led to condemnation for all, so one man’s act of righteousness leads to justification and life for all. For just as by the one man’s disobedience the many were made sinners, so by the one man’s obedience the many will be made righteous."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "gradual": {
+                  "verse_number": "Matthew ch. 4, v. 4b",
+                  "acclamation": "Glory and praise to you, Lord Jesus Christ!",
+                  "content": [
+                        {
+                              "p": [
+                                    "One does not live on bread alone, but on every word that comes forth from the mouth of God."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 4, vv. 1 - 11",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then Jesus was led up by the Spirit into the wilderness to be tempted by the devil. He fasted forty days and forty nights, and afterwards he was famished. The tempter came and said to him, “If you are the Son of God, command these stones to become loaves of bread.” But he answered, “It is written,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "‘One does not live by bread alone, \nbut by every word that comes from the mouth of God.’”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then the devil took him to the holy city and placed him on the pinnacle of the temple, saying to him, “If you are the Son of God, throw yourself down; for it is written,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "‘He will command his angels concerning you,’ \nand ‘On their hands they will bear you up,",
+                                    "so that you will not dash your foot against a stone.’”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to him, “Again it is written, ‘Do not put the Lord your God to the test.’”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Again, the devil took him to a very high mountain and showed him all the kingdoms of the world and their splendor; and he said to him, “All these I will give you, if you will fall down and worship me.” Jesus said to him, “Away with you, Satan! for it is written,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "‘Worship the Lord your God, \nand serve only him.’”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then the devil left him, and suddenly angels came and waited on him."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

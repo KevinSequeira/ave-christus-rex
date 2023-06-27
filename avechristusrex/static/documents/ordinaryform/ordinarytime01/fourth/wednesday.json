@@ -1,0 +1,105 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hebrews ch. 12, vv. 4 - 7, 11 - 15",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: In your struggle against sin you have not yet resisted to the point of shedding your blood. And you have forgotten the exhortation that addresses you as children—"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“My child, do not regard lightly the discipline of the Lord, \nor lose heart when you are punished by him;",
+                                          "for the Lord disciplines those whom he loves, \nand chastises every child whom he accepts.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Endure trials for the sake of discipline. God is treating you as children; for what child is there whom a parent does not discipline?"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Now, discipline always seems painful rather than pleasant at the time, but later it yields the peaceful fruit of righteousness to those who have been trained by it."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Therefore lift your drooping hands and strengthen your weak knees, and make straight paths for your feet, so that what is lame may not be put out of joint, but rather be healed."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Pursue peace with everyone, and the holiness without which no one will see the Lord. See to it that no one fails to obtain the grace of God; that no root of bitterness springs up and causes trouble, and through it many become defiled."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 103, vv. 1 - 2, 13 - 14, 17 - 18a",
+                  "response": "The Lord's kindness is everlasting to those who fear him.'",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Bless the Lord, O my soul, \nand all that is within me, \nbless his holy name.",
+                                    "Bless the Lord, O my soul, \nand do not forget all his benefits."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "As a father has compassion for his children, \nso the Lord has compassion for those who fear him.",
+                                    "For he knows how we were made; \nhe remembers that we are dust."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "But the steadfast love of the Lord is from everlasting to everlasting \non those who fear him, \nand his righteousness to children’s children,",
+                                    "to those who keep his covenant \nand remember to do his commandments."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "John ch. 10, v. 27",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "My sheep hear my voice, says the Lord. I know them, and they follow me."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 6, vv. 1 - 6",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus left that place and came to his hometown, and his disciples followed him. On the sabbath he began to teach in the synagogue, and many who heard him were astounded. They said, “Where did this man get all this? What is this wisdom that has been given to him? What deeds of power are being done by his hands! Is not this the carpenter, the son of Mary and brother of James and Joses and Judas and Simon, and are not his sisters here with us?” And they took offense at him. Then Jesus said to them, “Prophets are not without honor, except in their hometown, and among their own kin, and in their own house.” And he could do no deed of power there, except that he laid his hands on a few sick people and cured them. And he was amazed at their unbelief."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Then he went about among the villages teaching."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

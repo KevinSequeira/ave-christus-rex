@@ -1,0 +1,100 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hebrews ch. 10, vv. 32 - 39",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Recall those earlier days when, after you had been enlightened, you endured a hard struggle with sufferings, sometimes being publicly exposed to abuse and persecution, and sometimes being partners with those so treated. For you had compassion for those who were in prison, and you cheerfully accepted the plundering of your possessions, knowing that you yourselves possessed something better and more lasting. Do not, therefore, abandon that confidence of yours; it brings a great reward. For you need endurance, so that when you have done the will of God, you may receive what was promised. For yet"
+                                    ]
+                              },
+                              {
+                                    "content_type": "stanza",
+                                    "p": [
+                                          "“in a very little while, \nthe one who is coming will come and will not delay;",
+                                          "but my righteous one will live by faith. \nMy soul takes no pleasure in anyone who shrinks back.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "But we are not among those who shrink back and so are lost, but among those who have faith and so are saved."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 37, vv. 3 - 4, 5 - 6, 23 - 24, 39 - 40",
+                  "response": "The salvation of the just comes from the Lord.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Trust in the Lord, and do good; \nso you will live in the land, and enjoy security.",
+                                    "Take delight in the Lord, \nand he will give you the desires of your heart."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Commit your way to the Lord; \ntrust in him, and he will act.",
+                                    "He will make your vindication shine like the light, \nand the justice of your cause like the noonday."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Our steps are made firm by the Lord, \nwhen he delights in our way;",
+                                    "though we stumble, we shall not fall headlong, \nfor the Lord holds us by the hand."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The salvation of the righteous is from the Lord; \nhe is their refuge in the time of trouble.",
+                                    "The Lord helps them and rescues them; \nhe rescues them from the wicked, and saves them, \nbecause they take refuge in him."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "See Matthew ch. 11, v. 25",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed are you, Father, Lord of heaven and earth; you have revealed to little ones the mysteries of the Kingdom."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 4, vv. 26 - 34",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said, “The kingdom of God is as if someone would scatter seed on the ground, and would sleep and rise night and day, and the seed would sprout and grow, he does not know how. The earth produces of itself, first the stalk, then the head, then the full grain in the head. But when the grain is ripe, at once he goes in with his sickle, because the harvest has come.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "He also said, “With what can we compare the kingdom of God, or what parable will we use for it? It is like a mustard seed, which, when sown upon the ground, is the smallest of all the seeds on earth; yet when it is sown it grows up and becomes the greatest of all shrubs, and puts forth large branches, so that the birds of the air can make nests in its shade.”"
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "With many such parables he spoke the word to them, as they were able to hear it; he did not speak to them except in parables, but he explained everything in private to his disciples."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

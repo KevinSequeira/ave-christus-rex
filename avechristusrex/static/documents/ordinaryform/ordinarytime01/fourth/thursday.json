@@ -1,0 +1,82 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hebrews ch. 12, vv. 18 - 19, 21 - 24",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: You have not come to something that can be touched, a blazing fire, and darkness, and gloom, and a tempest, and the sound of a trumpet, and a voice whose words made the hearers beg that not another word be spoken to them."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Indeed, so terrifying was the sight that Moses said, “I tremble with fear.”) But you have come to Mount Zion and to the city of the living God, the heavenly Jerusalem, and to innumerable angels in festal gathering, and to the assembly of the firstborn who are enrolled in heaven, and to God the judge of all, and to the spirits of the righteous made perfect, and to Jesus, the mediator of a new covenant, and to the sprinkled blood that speaks a better word than the blood of Abel."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 48, vv. 1 - 2ab, 2cd - 3, 8, 9 - 10",
+                  "response": "O God, we ponder your mercy within your temple.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Great is the Lord and greatly to be praised \nin the city of our God.",
+                                    "His holy mountain, beautiful in elevation, \nis the joy of all the earth."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Mount Zion, in the far north, \nthe city of the great King.",
+                                    "Within its citadels God \nhas shown himself a sure defense."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "As we have heard, so have we seen \nin the city of the Lord of hosts,",
+                                    "in the city of our God, \nwhich God establishes forever."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "We ponder your steadfast love, O God, \nin the midst of your temple.",
+                                    "Your name, O God, like your praise, \nreaches to the ends of the earth.",
+                                    "Your right hand is filled with victory."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Mark ch. 1, v. 15",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Kingdom of God is at hand; repent and believe in the Gospel."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 6, vv. 7 - 13",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus called the twelve and began to send them out two by two, and gave them authority over the unclean spirits. He ordered them to take nothing for their journey except a staff; no bread, no bag, no money in their belts; but to wear sandals and not to put on two tunics. He said to them, “Wherever you enter a house, stay there until you leave the place. If any place will not welcome you and they refuse to hear you, as you leave, shake off the dust that is on your feet as a testimony against them.” So they went out and proclaimed that all should repent. They cast out many demons, and anointed with oil many who were sick and cured them."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

@@ -1,0 +1,204 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_timothy_titus.png')",
+      "saint_background_position": "center",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Psalm 96, vv. 3, 4",
+                  "content": [
+                        {
+                              "p": [
+                                    "Tell among the nations his glory,",
+                                    "and his wonders among all the peoples,",
+                                    "for the Lord is great and highly to be praised."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who adorned Saints Timothy and Titus",
+                        "with apostolic virtues,",
+                        "grant, through the intercession of them both,",
+                        "that, living justly and devoutly in this present age,",
+                        "we may merit to reach our heavenly homeland."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Receive, O Lord, we pray, the offerings of your people,",
+                        "which we bring in celebration of Saints Timothy and Titus,",
+                        "and, in your kindness, render us fully acceptable",
+                        "by giving us sincerity of heart."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Mark ch. 16, v. 15; Matthew ch. 28, v. 20",
+                  "content": [
+                        {
+                              "p": [
+                                    "Go into all the world, and proclaim the Gospel.",
+                                    "I am with you always, says the Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "May the Sacrament we have received, O Lord our God,",
+                        "nourish in us that faith",
+                        "taught by the preaching of the Apostles",
+                        "and kept safe by the labors of Saints Timothy and Titus."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Ephesians ch. 6, vv. 10 - 13, 18",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Paul, an apostle of Christ Jesus by the will of God, for the sake of the promise of life that is in Christ Jesus,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "To Timothy, my beloved child:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Grace, mercy, and peace from God the Father and Christ Jesus our Lord."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "I am grateful to God—whom I worship with a clear conscience, as my ancestors did—when I remember you constantly in my prayers night and day. Recalling your tears, I long to see you so that I may be filled with joy. I am reminded of your sincere faith, a faith that lived first in your grandmother Lois and your mother Eunice and now, I am sure, lives in you. For this reason I remind you to rekindle the gift of God that is within you through the laying on of my hands; for God did not give us a spirit of cowardice, but rather a spirit of power and of love and of self-discipline."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Do not be ashamed, then, of the testimony about our Lord or of me his prisoner, but join with me in suffering for the gospel, relying on the power of God."
+                                    ]
+                              }
+                        ]
+                  },
+                  {
+                        "verse_number": "Titus ch. 1, vv. 1 - 5",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Paul, a servant of God and an apostle of Jesus Christ, for the sake of the faith of God’s elect and the knowledge of the truth that is in accordance with godliness, in the hope of eternal life that God, who never lies, promised before the ages began— in due time he revealed his word through the proclamation with which I have been entrusted by the command of God our Savior,"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "To Titus, my loyal child in the faith we share:"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Grace and peace from God the Father and Christ Jesus our Savior."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "I left you behind in Crete for this reason, so that you should put in order what remained to be done, and should appoint elders in every town, as I directed you."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 96, vv. 1 - 2a, 2b - 3, 7 - 8a, 10",
+                  "response": "Proclaim God's marvelous deeds to all the nations.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O sing to the Lord a new song; \nsing to the Lord, all the earth.",
+                                    "Sing to the Lord, bless his name."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Tell of his salvation from day to day.",
+                                    "Declare his glory among the nations, \nhis marvelous works among all the peoples."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Ascribe to the Lord, O families of the peoples, \nascribe to the Lord glory and strength.",
+                                    "Ascribe to the Lord the glory due his name; \nbring an offering, and come into his courts."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Say among the nations, “The Lord is king! \nThe world is firmly established; it shall never be moved. \nHe will judge the peoples with equity.”"
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Luke ch. 4, v. 18",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "The Lord sent me to bring glad tidings to the poor and to proclaim liberty to captives."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Luke ch. 10, vv. 1 - 9",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "The Lord appointed seventy others and sent them on ahead of him in pairs to every town and place where he himself intended to go. He said to them, “The harvest is plentiful, but the laborers are few; therefore ask the Lord of the harvest to send out laborers into his harvest. Go on your way. See, I am sending you out like lambs into the midst of wolves. Carry no purse, no bag, no sandals; and greet no one on the road. Whatever house you enter, first say, ‘Peace to this house!’ And if anyone is there who shares in peace, your peace will rest on that person; but if not, it will return to you. Remain in the same house, eating and drinking whatever they provide, for the laborer deserves to be paid. Do not move about from house to house. Whenever you enter a town and its people welcome you, eat what is set before you; cure the sick who are there, and say to them, ‘The kingdom of God has come near to you.’”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

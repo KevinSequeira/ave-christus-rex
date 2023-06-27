@@ -1,0 +1,168 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/st_stephen_protomartyr.png')",
+      "saint_background_position": "top",
+      "opening_antiphon": [
+            {
+                  "verse_number": "",
+                  "content": [
+                        {
+                              "p": [
+                                    "The gates of heaven were opened for blessed Stephen,",
+                                    "who was found to be first among the number of the Martyrs",
+                                    "and therefore is crowned triumphant in heaven."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "yes",
+      "collect": [
+            {
+                  "p": [
+                        "Grant, Lord, we pray,",
+                        "that we may imitate what we worship,",
+                        "and so learn to love even our enemies,",
+                        "for we celebrate the heavenly birthday",
+                        "of a man who knew how to pray even for his persecutors."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May these offerings of our devotion today,",
+                        "be acceptable to you, we pray, O Lord,",
+                        "for they are prompted",
+                        "by the glorious commemoration of Saint Stephen the Martyr."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "apostles_creed",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Acts ch. 7, v. 58",
+                  "content": [
+                        {
+                              "p": [
+                                    "As they were stoning Stephen, he called out:",
+                                    "Lord Jesus, receive my spirit."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "For the many mercies which surround us",
+                        "we give thanks to you, O Lord,",
+                        "who save us through the Nativity of your Son",
+                        "and gladden us with the celebration of the blessed",
+                        "Martyr Stephen."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Acts ch. 6, vv. 8 - 10; ch. 7 : 54 - 59",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Stephen, full of grace and power, did great wonders and signs among the people.",
+                                          "Then some of those who belonged to the synagogue of the Freedmen (as it was called),",
+                                          "Cyrenians, Alexandrians, and others of those from Cilicia and Asia, stood up and argued with Stephen.",
+                                          "But they could not withstand the wisdom and the Spirit with which he spoke."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "When they heard these things, they became enraged and ground their teeth at Stephen.",
+                                          "But filled with the Holy Spirit, he gazed into heaven and saw the glory of God and Jesus standing",
+                                          "at the right hand of God. “Look,” he said, “I see the heavens opened and the Son of Man standing",
+                                          "at the right hand of God!” But they covered their ears, and with a loud shout all rushed together against him.",
+                                          "Then they dragged him out of the city and began to stone him; and the witnesses laid their coats",
+                                          "at the feet of a young man named Saul. While they were stoning Stephen, he prayed,",
+                                          "“Lord Jesus, receive my spirit.”"
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 31, vv. 2cd - 3, 5 and 7ab, 15bc and 16",
+                  "response": "Into your hands, O Lord, I commend my spirit.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Be a rock of refuge for me, \na strong fortress to save me.",
+                                    "You are indeed my rock and my fortress; \nfor your name’s sake lead me and guide me."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Into your hand I commit my spirit; \nyou have redeemed me, O Lord, faithful God.",
+                                    "I will exult and rejoice in your steadfast love, \nbecause you have seen my affliction."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Deliver me from the hand of my enemies and persecutors.",
+                                    "Let your face shine upon your servant; \nsave me in your steadfast love."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Psalm 118, vv. 26a, 27a",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed is he who comes in the name of the Lord: the Lord is God and has given us light."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 10, vv. 17 - 22",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to his disciples: “Beware of them, for they will hand you over to councils",
+                                    "and flog you in their synagogues; and you will be dragged before governors and kings because of me,",
+                                    "as a testimony to them and the Gentiles. When they hand you over, do not worry about how you are",
+                                    "to speak or what you are to say; for what you are to say will be given to you at that time;",
+                                    "for it is not you who speak, but the Spirit of your Father speaking through you.",
+                                    "Brother will betray brother to death, and a father his child, and children will rise against parents",
+                                    "and have them put to death; and you will be hated by all because of my name. But the one who endures",
+                                    "to the end will be saved.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

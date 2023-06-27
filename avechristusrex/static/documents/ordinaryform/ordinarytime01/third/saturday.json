@@ -1,0 +1,85 @@
+{
+      "gloria": "no",
+      "credo": "no",
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hebrews ch. 11, vv. 1 - 2, 8 - 19",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: Faith is the assurance of things hoped for, the conviction of things not seen. Indeed, by faith our ancestors received approval."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "By faith Abraham obeyed when he was called to set out for a place that he was to receive as an inheritance; and he set out, not knowing where he was going. By faith he stayed for a time in the land he had been promised, as in a foreign land, living in tents, as did Isaac and Jacob, who were heirs with him of the same promise. For he looked forward to the city that has foundations, whose architect and builder is God. By faith he received power of procreation, even though he was too old—and Sarah herself was barren—because he considered him faithful who had promised. Therefore from one person, and this one as good as dead, descendants were born, “as many as the stars of heaven and as the innumerable grains of sand by the seashore.”"
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "All of these died in faith without having received the promises, but from a distance they saw and greeted them. They confessed that they were strangers and foreigners on the earth, for people who speak in this way make it clear that they are seeking a homeland. If they had been thinking of the land that they had left behind, they would have had opportunity to return. But as it is, they desire a better country, that is, a heavenly one. Therefore God is not ashamed to be called their God; indeed, he has prepared a city for them."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "By faith Abraham, when put to the test, offered up Isaac. He who had received the promises was ready to offer up his only son, of whom he had been told, “It is through Isaac that descendants shall be named for you.” He considered the fact that God is able even to raise someone from the dead—and figuratively speaking, he did receive him back."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Luke 1, vv. 69 - 70a, 70b - 72, 73 - 75",
+                  "response": "Blessed be the Lord the God of Israel; he has come to his people.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "THe has raised up a mighty savior for us \nin the house of his servant David."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "He spoke through the mouth of his holy prophets from of old, \nthat we would be saved from our enemies and from the hand of all who hate us.",
+                                    "Thus he has shown the mercy promised to our ancestors, \nand has remembered his holy covenant,"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The oath that he swore to our ancestor Abraham, \nto grant us that we, being rescued from the hands of our enemies,",
+                                    "might serve him without fear, in holiness and righteousness \nbefore him all our days."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "John ch. 3, v. 16",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "God so loved the world that he gave his only-begotten Son, so that everyone who believes in him might have eternal life."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 3, vv. 35 - 41",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "On that day, when evening had come, he said to them, “Let us go across to the other side.” And leaving the crowd behind, they took him with them in the boat, just as he was. Other boats were with him. A great windstorm arose, and the waves beat into the boat, so that the boat was already being swamped. But he was in the stern, asleep on the cushion; and they woke him up and said to him, “Teacher, do you not care that we are perishing?” He woke up and rebuked the wind, and said to the sea, “Peace! Be still!” Then the wind ceased, and there was a dead calm. He said to them, “Why are you afraid? Have you still no faith?” And they were filled with great awe and said to one another, “Who then is this, that even the wind and the sea obey him?”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

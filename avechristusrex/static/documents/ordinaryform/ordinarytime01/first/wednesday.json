@@ -1,0 +1,85 @@
+{
+      "year_i": {
+            "first_reading": [
+                  {
+                        "verse_number": "Hebrews ch. 2, vv. 14 - 18",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Since, therefore, the children share flesh and blood, he himself likewise shared the same things, so that through death he might destroy the one who has the power of death, that is, the devil, and free those who all their lives were held in slavery by the fear of death. For it is clear that he did not come to help angels, but the descendants of Abraham. Therefore he had to become like his brothers and sisters in every respect, so that he might be a merciful and faithful high priest in the service of God, to make a sacrifice of atonement for the sins of the people. Because he himself was tested by what he suffered, he is able to help those who are being tested."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 105, vv. 1 - 2, 3 - 4, 6 - 7, 8 - 9",
+                  "response": "The Lord remembers his covenant for ever.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O give thanks to the Lord, call on his name, \nmake known his deeds among the peoples.",
+                                    "Sing to him, sing praises to him; \ntell of all his wonderful works."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Glory in his holy name; \nlet the hearts of those who seek the Lord rejoice.",
+                                    "Seek the Lord and his strength; \nseek his presence continually."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O offspring of his servant Abraham, \nchildren of Jacob, his chosen ones.",
+                                    "He is the Lord our God; \nhis judgments are in all the earth."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "He is mindful of his covenant forever, \nof the word that he commanded, for a thousand generations,",
+                                    "the covenant that he made with Abraham, \nhis sworn promise to Isaac."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "John ch. 10, v. 27",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "My sheep hear my voice, says the Lord. I know them, and they follow me."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Mark ch. 1, vv. 29 - 39",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "On leaving the synagogue, Jesus entered the house of Simon and Andrew, with James and John. Now Simon’s mother-in-law was in bed with a fever, and they told him about her at once. He came and took her by the hand and lifted her up. Then the fever left her, and she began to serve them."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "That evening, at sunset, they brought to him all who were sick or possessed with demons. And the whole city was gathered around the door. And he cured many who were sick with various diseases, and cast out many demons; and he would not permit the demons to speak, because they knew him."
+                              ]
+                        },
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "In the morning, while it was still very dark, he got up and went out to a deserted place, and there he prayed. And Simon and his companions hunted for him. When they found him, they said to him, “Everyone is searching for you.” He answered, “Let us go on to the neighboring towns, so that I may proclaim the message there also; for that is what I came out to do.” And he went throughout Galilee, proclaiming the message in their synagogues and casting out demons."
+                              ]
+                        }
+                  ]
+            }
+      }
+}

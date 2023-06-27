@@ -1,0 +1,184 @@
+{
+      "liturgy_background_image": "linear-gradient( rgba(183, 110, 121, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/Large/Advent Pink Candle.jpg')",
+      "liturgy_background_position": "center",
+      "opening_antiphon": {
+            "verse_number": "Cf. Zecariah ch. 14, vv. 5, 7",
+            "content": [
+                  {
+                        "p": [
+                              "Behold, the Lord will come, and all his holy ones with him;",
+                              "and on that day there will be a great light."
+                        ]
+                  }
+            ]
+      },
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "O God, who through your Only Begotten Son",
+                        "have made us a new creation,",
+                        "look kindly, we pray,",
+                        "on the handiwork of your mercy,",
+                        "and at your Son’s coming",
+                        "cleanse us from every stain of the old way of life."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "Be pleased, O Lord, with our humble prayers and offerings,",
+                        "and, since we have no merits to plead our cause,",
+                        "come, we pray, to our rescue with the protection of your mercy."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": {
+            "verse_number": "Cf. 2 Timothy ch. 4, v. 8",
+            "content": [
+                  {
+                        "p": [
+                              "The Just Judge will bestow a crown of righteousness",
+                              "on those who eagerly await his coming."
+                        ]
+                  }
+            ]
+      },
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "Replenished by the food of spiritual nourishment,",
+                        "we humbly beseech you, O Lord,",
+                        "that, through our partaking in this mystery,",
+                        "you may teach us to judge wisely the things of earth",
+                        "and hold firm to the things of heaven."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "year_a": {
+            "first_reading": {
+                  "verse_number": "Zephaniah ch. 3, vv. 1 - 2, 9 - 13",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Thus says the Lord:"
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Ah, soiled, defiled, \noppressing city!",
+                                    "It has listened to no voice; \nit has accepted no correction.",
+                                    "It has not trusted in the Lord; \nit has not drawn near to its God."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "At that time I will change the speech of the peoples \nto a pure speech,",
+                                    "that all of them may call on the name of the Lord \nand serve him with one accord.",
+                                    "From beyond the rivers of Ethiopia \nmy suppliants, my scattered ones, \nshall bring my offering."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "On that day you shall not be put to shame \nbecause of all the deeds by which you have rebelled against me;",
+                                    "for then I will remove from your midst \nyour proudly exultant ones,",
+                                    "and you shall no longer be haughty \nin my holy mountain.",
+                                    "For I will leave in the midst of you \na people humble and lowly.",
+                                    "They shall seek refuge in the name of the Lord— \nthe remnant of Israel;",
+                                    "they shall do no wrong \nand utter no lies,",
+                                    "nor shall a deceitful tongue \nbe found in their mouths.",
+                                    "Then they will pasture and lie down, \nand no one shall make them afraid."
+                              ]
+                        }
+                  ]
+            },
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 34, vv. 1 - 2, 5 - 6, 16 - 17, 18 and 23",
+                  "response": "The Lord hears the cry of the poor.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I will bless the Lord at all times; \nhis praise shall continually be in my mouth.",
+                                    "My soul makes its boast in the Lord; \nlet the humble hear and be glad."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Look to him, and be radiant; \nso your faces shall never be ashamed.",
+                                    "This poor soul cried, and was heard by the Lord, \nand was saved from every trouble."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The face of the Lord is against evildoers, \nto cut off the remembrance of them from the earth.",
+                                    "When the righteous cry for help, the Lord hears, \nand rescues them from all their troubles."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The Lord is near to the brokenhearted, \nand saves the crushed in spirit.",
+                                    "The Lord redeems the life of his servants; \nnone of those who take refuge in him will be condemned."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Come, O Lord, do not delay; forgive the sins of your people."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 21, vv. 28 - 32",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Jesus said to the chief priests and the elders of the people:",
+                                    "“What do you think? A man had two sons; he went to the first and said,",
+                                    "‘Son, go and work in the vineyard today.’ He answered, ‘I will not’;",
+                                    "but later he changed his mind and went. The father went to the second and said the same;",
+                                    "and he answered, ‘I go, sir’; but he did not go. Which of the two did the will of his father?”",
+                                    "They said, “The first.” Jesus said to them, “Truly I tell you, the tax collectors and the",
+                                    "prostitutes are going into the kingdom of God ahead of you.",
+                                    "For John came to you in the way of righteousness and you did not believe him,",
+                                    "but the tax collectors and the prostitutes believed him; and even after you saw it,",
+                                    "you did not change your minds and believe him.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}

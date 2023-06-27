@@ -1,0 +1,188 @@
+{
+      "saint_background_image": "linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0) ), url('../../../static/images/saints/servite_founders.png')",
+      "saint_background_position": "bottom",
+      "opening_antiphon": [
+            {
+                  "verse_number": "Cf. Psalm 16, v. 5",
+                  "content": [
+                        {
+                              "p": [
+                                    "O Lord, it is you who are my portion and cup;",
+                                    "you yourself who secure my portion."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Cf. Psalm 24, vv. 5, 6",
+                  "content": [
+                        {
+                              "p": [
+                                    "These are the holy ones, who have received blessings from the Lord,",
+                                    "and mercy from the God who saves them,",
+                                    "such is the people who seek the Lord."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "gloria": "no",
+      "collect": [
+            {
+                  "p": [
+                        "Impart to us, O Lord, in kindness",
+                        "the filial devotion with which the holy brothers",
+                        "venerated so devoutly the Mother of God",
+                        "and led your people to yourself."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through our Lord Jesus Christ, your Son,",
+                        "who lives and reigns with you in the unity of the Holy Spirit,",
+                        "one God, for ever and ever."
+                  ]
+            }
+      ],
+      "offertory": [
+            {
+                  "p": [
+                        "May these offerings of our service,",
+                        "placed on your altar in commemoration the Holy Founders of the Servite Order,",
+                        "be acceptable to you, O Lord, we pray,",
+                        "and grant that, released from earthly attachments,",
+                        "we may have our riches in you alone."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "credo": "no",
+      "communion_antiphon": [
+            {
+                  "verse_number": "Cf. Matthew ch. 19, vv. 27 - 29",
+                  "content": [
+                        {
+                              "p": [
+                                    "Amen I say to you: That you who have left all and followed me",
+                                    "will receive a hundredfold and possess eternal life."
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "verse_number": "Psalm 34, v. 9",
+                  "content": [
+                        {
+                              "p": [
+                                    "Taste and see that the Lord is good;",
+                                    "blessed the man who seeks refuge in him."
+                              ]
+                        }
+                  ]
+            }
+      ],
+      "prayer_after_communion": [
+            {
+                  "p": [
+                        "We pray, almighty God,",
+                        "that we, who are fortified by the power of this Sacrament,",
+                        "may learn through the example of the holy brothers",
+                        "to seek you always above all things",
+                        "and to bear in this world the likeness of the New Man."
+                  ]
+            },
+            {
+                  "p": [
+                        "Through Christ our Lord."
+                  ]
+            }
+      ],
+      "readings": {
+            "first_reading": [
+                  {
+                        "verse_number": "Romans ch. 8, vv. 26 - 30",
+                        "content": [
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "Brothers and sisters: The Spirit helps us in our weakness; for we do not know how to pray as we ought, but that very Spirit intercedes with sighs too deep for words. And God, who searches the heart, knows what is the mind of the Spirit, because the Spirit intercedes for the saints according to the will of God."
+                                    ]
+                              },
+                              {
+                                    "content_type": "paragraph",
+                                    "p": [
+                                          "We know that all things work together for good for those who love God, who are called according to his purpose. For those whom he foreknew he also predestined to be conformed to the image of his Son, in order that he might be the firstborn within a large family. And those whom he predestined he also called; and those whom he called he also justified; and those whom he justified he also glorified."
+                                    ]
+                              }
+                        ]
+                  }
+            ],
+            "first_responsorial_psalm": {
+                  "verse_number": "Psalm 34, vv. 1 - 2, 3 - 4, 5 - 6, 7 - 8, 9 - 10",
+                  "response": "The Lord delivered me from all my fears.",
+                  "content": [
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "I will bless the Lord at all times; \nhis praise shall continually be in my mouth.",
+                                    "My soul makes its boast in the Lord; \nlet the humble hear and be glad."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O magnify the Lord with me, \nand let us exalt his name together.",
+                                    "I sought the Lord, and he answered me, \nand delivered me from all my fears."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "Look to him, and be radiant; \nso your faces shall never be ashamed.",
+                                    "This poor soul cried, and was heard by the Lord, \nand was saved from every trouble."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "The angel of the Lord encamps \naround those who fear him, and delivers them.",
+                                    "O taste and see that the Lord is good; \nhappy are those who take refuge in him."
+                              ]
+                        },
+                        {
+                              "content_type": "stanza",
+                              "p": [
+                                    "O fear the Lord, you his holy ones, \nfor those who fear him have no want.",
+                                    "The young lions suffer want and hunger, \nbut those who seek the Lord lack no good thing."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_acclamation": {
+                  "verse_number": "Matthew ch. 5, v. 3",
+                  "acclamation": "Alleluia! Alleluia!",
+                  "content": [
+                        {
+                              "p": [
+                                    "Blessed are the poor in spirit, for theirs is the Kingdom of Heaven."
+                              ]
+                        }
+                  ]
+            },
+            "gospel_reading": {
+                  "verse_number": "Matthew ch. 19, vv. 27 - 29",
+                  "content": [
+                        {
+                              "content_type": "paragraph",
+                              "p": [
+                                    "Peter said to Jesus, “Look, we have left everything and followed you. What then will we have?” Jesus said to them, “Truly I tell you, at the renewal of all things, when the Son of Man is seated on the throne of his glory, you who have followed me will also sit on twelve thrones, judging the twelve tribes of Israel. And everyone who has left houses or brothers or sisters or father or mother or children or fields, for my name’s sake, will receive a hundredfold, and will inherit eternal life.”"
+                              ]
+                        }
+                  ]
+            }
+      }
+}
