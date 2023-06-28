@@ -6,8 +6,11 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-            <meta name="description" content="">
-            <meta name="author" content="">
+            <meta property="og:url"                content="https://www.avechristusrex/blog/signum-crucis" />
+            <meta property="og:type"               content="article" />
+            <meta property="og:title"              content="{{ blog_title }}" />
+            <meta property="og:description"        content="{{ blog_tagline }}?" />
+            <meta property="og:image"              content="https://www.avechristusrex.com/static/images/{{ blog_background }}" />
             <link rel="icon" href="{% static 'favicon.ico' %}">
             <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/navbar/">
 
@@ -34,6 +37,8 @@
 
       <body>
 
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0" nonce="ICMx8EHf"></script>
+
             <div class="container">
 
                   {% include 'navbar.html' %}
@@ -54,10 +59,7 @@
                         {% endautoescape %}
                   </div>
 
-                  {% load social_share %}
-                  {% post_to_facebook object_or_url "<p style='color: green;'>facebook</p>" %}
-                  {% post_to_linkedin object_or_url %}
-                  {% post_to_telegram "New Song: " object_or_url %}}
+                  <div class="fb-share-button" data-href="https://avechristusrex.com/blog/signum-crucis" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 
                   <hr>
 
