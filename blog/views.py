@@ -65,6 +65,7 @@ def blogArticle(request, blog_tag = "season-of-advent"):
         "blog_title": record[0][1],
         "blog_tagline": record[0][2],
         "blog_content": record[0][5],
+        "blog_tag": record[0][6],
         "blog_background": record[0][7]
     }
 

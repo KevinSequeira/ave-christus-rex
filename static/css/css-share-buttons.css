@@ -1,0 +1,51 @@
+/* .shareButtons, .shareButtons:hover, .shareButtons:active, .shareButtons:link {
+      text-decoration: none !important;
+} */
+
+.shareOnSocialMedia {
+      position: inherit;
+      margin: 0px 0px 15px 0px;
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-size: 1.2em;
+      text-align: center;
+}
+
+.shareButtons {
+      position: inherit;
+      text-align: center;
+}
+
+.fb-share-button {
+      opacity: 1;
+      transform-origin: top left;
+      display: inline-block;
+}
+
+.tw-share-button {
+      display: inline-block;
+}
+
+@media (max-width: 786px) {
+      .shareOnSocialMedia {
+            position: inherit;
+            margin: 0px 0px 10px 0px;
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 0.8em;
+            text-align: center;
+      }
+      
+      .shareButtons {
+            position: inherit;
+            text-align: center;
+      }
+      
+      .fb-share-button {
+            opacity: 1;
+            transform-origin: top left;
+            display: inline-block;
+      }
+      
+      .tw-share-button {
+            display: inline-block;
+      }
+}
