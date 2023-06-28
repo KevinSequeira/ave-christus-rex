@@ -5,19 +5,26 @@
       <div class="shareOnSocialMedia">
             Share this article on:
       </div>
-      <div class="shareButtons" style="position: inherit; text-align: center;">
+      <div class="shareButtons">
             <div class="fb-share-button" data-href="https://www.avechristusrex.com/blog/{{ blog_tag }}" data-layout="" data-size="">
-                  <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
+                  <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.avechristusrex.com/blog/{{ blog_tag }}">
                         <span style="font-size: 1.5em; color: #555555;">
                               <i class="fa-brands fa-facebook fa-xl"></i>
                         </span>
                   </a>
-            </div>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <div class="tw-share-button">
-                  <a class="twitter-share-button"
+                  <a class="twitter-share-button" target="_blank"
                   href="https://twitter.com/intent/tweet?url=https://avechristusrex.com/blog/{{ blog_tag }}/&text={{ blog_tagline }}">
                         <span style="font-size: 1.5em; color: #555555;">
                               <i class="fa-brands fa-twitter fa-xl"></i>
+                        </span>
+                  </a>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="rddt-share-button">
+                  <a href="https://reddit.com/submit?url={{blog_tagline}}%0Ahttps://www.avechristusrex.com/blog/{{ blog_tag }}&title={{blog_title}}" onclick="window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Share on Reddit" rel="noopener" >
+                        <span style="font-size: 1.5em; color: #555555;">
+                              <i class="fa-brands fa-reddit fa-xl"></i>
                         </span>
                   </a>
             </div>

@@ -25,6 +25,10 @@
       display: inline-block;
 }
 
+.rddt-share-button {
+      display: inline-block;
+}
+
 @media (max-width: 786px) {
       .shareOnSocialMedia {
             position: inherit;
@@ -46,6 +50,10 @@
       }
       
       .tw-share-button {
+            display: inline-block;
+      }
+
+      .rddt-share-button {
             display: inline-block;
       }
 }
