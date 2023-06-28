@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'ordinaryform',
     'blog',
     'tinymce',
+    'django_social_share'
 ]
 
 MIDDLEWARE = [
