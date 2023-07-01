@@ -46,11 +46,16 @@ def blog(request):
     print(record)
     cursor.close()
 
-    context = {
-        "blog_list": record
-    }
-
-    return render(request, "blogList.html", context)
+    if record is not None:
+        context = {
+            "blog_list": record
+        }
+        return render(request, "blogList.html", context)
+    else:
+        context = {
+            "error_background": "Large/Error.jpg"
+        }
+        return render(request, "errorpage.html")
 
 def blogArticle(request, blog_tag = "season-of-advent"):
     # Get blog details
@@ -61,12 +66,17 @@ def blogArticle(request, blog_tag = "season-of-advent"):
     record = cursor.fetchall()
     cursor.close()
 
-    context = {
-        "blog_title": record[0][1],
-        "blog_tagline": record[0][2],
-        "blog_content": record[0][5],
-        "blog_tag": record[0][6],
-        "blog_background": record[0][7]
-    }
-
-    return render(request, "blogpost.html", context)
+    if record is not None:
+        context = {
+            "blog_title": record[0][1],
+            "blog_tagline": record[0][2],
+            "blog_content": record[0][5],
+            "blog_tag": record[0][6],
+            "blog_background": record[0][7]
+        }
+        return render(request, "blogpost.html", context)
+    else:
+        context = {
+            "error_background": "Large/Error.jpg"
+        }
+        return render(request, "errorpage.html")
