@@ -124,33 +124,34 @@ p.simplePrayersTagline {
 }
 
 .btn {
-      border: 2px solid #FFFFFF;
+      border: 2px solid #777777;
       border-radius: 0px;
       background-color: transparent;
-      font-family: 'Montserrat', sans-serif;
-      color: #FFFFFF;
+      font-family: 'Merriweather', sans-serif;
+      color: #777777;
       padding: 14px 28px;
       font-size: 14px;
       cursor: pointer;
 }
 
 .default {
-      background-color: transparent;
-      border-color: #FFFFFF;
-      color: #FFFFFF;
+      background-color: #FFFFFF;
+      border-color: #777777;
+      color: #777777;
 }
 
-.default:hover {
-      color: #FFFFFF;
-      background-color: rgba(255,255,255,0.4);
+.default:hover, .btn:hover {
+      background-color: #E5CE85;
+      border-color: #333333;
+      color: #333333;
 }
 
 .btn:focus,.btn:active {
    outline: none !important;
    box-shadow: none;
    background: #FFFFFF;
-   border-color: #FFFFFF;
-   color: #000000;
+   border-color: #777777;
+   color: #777777;
 }
 
 @media (max-width: 991px) {
@@ -262,11 +263,11 @@ p.simplePrayersTagline {
       }
 
       .btn {
-            border: 2px solid #FFFFFF;
+            border: 2px solid #777777;
             border-radius: 0px;
             background-color: transparent;
-            font-family: 'Montserrat', sans-serif;
-            color: #FFFFFF;
+            font-family: 'Merriweather', sans-serif;
+            color: #777777;
             padding: 10px 28px;
             font-size: 12px;
             cursor: pointer;
@@ -274,12 +275,13 @@ p.simplePrayersTagline {
 
       .default {
             background-color: transparent;
-            border-color: #FFFFFF;
-            color: #FFFFFF;
+            border-color: #333333;
+            color: #333333;
       }
 
-      .default:hover {
-            color: #FFFFFF;
+      .default:hover, .btn:hover {
+            background-color: #E5CE85;
+            color: #333333;
             background-color: rgba(255,255,255,0.2);
       }
 
@@ -287,8 +289,8 @@ p.simplePrayersTagline {
          outline: none !important;
          box-shadow: none;
          background: #FFFFFF;
-         border-color: #FFFFFF;
-         color: #000000;
+         border-color: #777777;
+         color: #777777;
       }
 }
 
@@ -402,11 +404,11 @@ p.simplePrayersTagline {
       }
 
       .btn {
-            border: 2px solid #FFFFFF;
+            border: 2px solid #777777;
             border-radius: 0px;
             background-color: transparent;
-            font-family: 'Montserrat', sans-serif;
-            color: #FFFFFF;
+            font-family: 'Merriweather', sans-serif;
+            color: #777777;
             padding: 10px 28px;
             font-size: 12px;
             cursor: pointer;
@@ -418,7 +420,8 @@ p.simplePrayersTagline {
             color: #FFFFFF;
       }
 
-      .default:hover {
+      .default:hover, .btn:hover {
+            background-color: #E5CE85;
             color: #FFFFFF;
             background-color: rgba(255,255,255,0.2);
       }
@@ -427,8 +430,8 @@ p.simplePrayersTagline {
          outline: none !important;
          box-shadow: none;
          background: #FFFFFF;
-         border-color: #FFFFFF;
-         color: #000000;
+         border-color: #777777;
+         color: #777777;
       }
 }
 
@@ -523,11 +526,11 @@ p.simplePrayersTagline {
       }
 
       .btn {
-            border: 2px solid #FFFFFF;
+            border: 2px solid #777777;
             border-radius: 0px;
             background-color: transparent;
-            font-family: 'Montserrat', sans-serif;
-            color: #FFFFFF;
+            font-family: 'Merriweather', sans-serif;
+            color: #777777;
             padding: 10px 18px;
             font-size: 12px;
             cursor: pointer;
@@ -535,12 +538,13 @@ p.simplePrayersTagline {
 
       .default {
             background-color: transparent;
-            border-color: #FFFFFF;
-            color: #FFFFFF;
+            border-color: #777777;
+            color: #777777;
       }
 
-      .default:hover {
-            color: #FFFFFF;
+      .default:hover, .btn:hover {
+            background-color: #E5CE85;
+            color: #333333;
             background-color: rgba(255,255,255,0.2);
       }
 
@@ -548,7 +552,7 @@ p.simplePrayersTagline {
          outline: none !important;
          box-shadow: none;
          background: #FFFFFF;
-         border-color: #FFFFFF;
-         color: #000000;
+         border-color: #777777;
+         color: #777777;
       }
 }

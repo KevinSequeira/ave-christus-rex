@@ -6,7 +6,7 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-            <meta property="og:url"                content="https://www.avechristusrex/blog/signum-crucis" />
+            <meta property="og:url"                content="https://www.avechristusrex/blog/{{ blog_tag }}" />
             <meta property="og:type"               content="article" />
             <meta property="og:title"              content="{{ blog_title }}" />
             <meta property="og:description"        content="{{ blog_tagline }}?" />
@@ -67,7 +67,7 @@ fjs.parentNode.insertBefore(js, fjs);
                         {% endautoescape %}
                   </div>
 
-                  {% include 'shareButtons.html' %}
+                  {% include 'shareButtonsBlog.html' %}
 
                   <hr>
 

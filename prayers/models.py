@@ -22,3 +22,8 @@ class detail(models.Model):
     prayer_category_tag = models.CharField(max_length = 256)
     prayer_name_tag = models.CharField(max_length = 256)
     prayer_image = models.CharField(max_length = 256)
+
+class category(models.Model):
+    prayer_category = models.CharField(max_length = 256)
+    prayer_category_tag = models.CharField(max_length = 256)
+    prayer_category_tagline = models.CharField(max_length = 1024)

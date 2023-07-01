@@ -10,15 +10,23 @@ def prayers(request):
 def prayerCategory(request, prayer_category_tag = ""):
     sqliteConnection = sqlite3.connect('db.sqlite3')
     cursor = sqliteConnection.cursor()
-    print(prayer_category_tag)
+    sqlite_select_Query = f"SELECT * FROM [prayers_category] WHERE [prayer_category_tag] = '{prayer_category_tag}';"
+    cursor.execute(sqlite_select_Query)
+    record = cursor.fetchone()
+    cursor.close()
+    context = {
+        "prayer_category": record[1],
+        "prayer_category_tag": record[2],
+        "prayer_category_tagline": record[3]
+    }
+
+    sqliteConnection = sqlite3.connect('db.sqlite3')
+    cursor = sqliteConnection.cursor()
     sqlite_select_Query = f"SELECT * FROM [prayers_content] WHERE [prayer_category_tag] = '{prayer_category_tag}';"
     cursor.execute(sqlite_select_Query)
     record = cursor.fetchall()
     cursor.close()
-    context = {
-        "prayerCategory": record[0][1],
-        "prayers": record
-    }
+    context["prayers"] = record
     return render(request, "allPrayersInACategory.html", context)
 
 def prayerDetails(request, prayer_category_tag = "", prayer_name_tag = ""):
