@@ -8,8 +8,8 @@ def blog(request):
     cursor = sqliteConnection.cursor()
     sqlite_select_Query = f"""SELECT [blog_title],
         [blog_subtitle],
-        CAST(STRFTIME('%d-%m-%Y', [created_at]) AS TEXT) AS [created_at],
-        CAST(STRFTIME('%d-%m-%Y', [updated_at]) AS TEXT) AS [updated_at],
+        CAST(STRFTIME('%d-%m-%Y', [created_at]) AS TEXT) AS [created_at_text],
+        CAST(STRFTIME('%d-%m-%Y', [updated_at]) AS TEXT) AS [updated_at_text],
         [blog_tag],
         STRFTIME('%d', [created_at]) || ' ' || CASE STRFTIME('%m', [created_at])
             WHEN '01' THEN 'January'
@@ -43,7 +43,6 @@ def blog(request):
         ORDER BY [created_at] DESC;"""
     cursor.execute(sqlite_select_Query)
     record = cursor.fetchall()
-    print(record)
     cursor.close()
 
     if record is not None:
@@ -65,8 +64,7 @@ def blogArticle(request, blog_tag = "season-of-advent"):
     cursor.execute(sqlite_select_Query)
     record = cursor.fetchall()
     cursor.close()
-
-    if record is not None:
+    if len(record) > 0:
         context = {
             "blog_title": record[0][1],
             "blog_tagline": record[0][2],
