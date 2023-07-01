@@ -31,7 +31,9 @@ def prayerCategory(request, prayer_category_tag = ""):
         context["prayers"] = record
         return render(request, "allPrayersInACategory.html", context)
     else:
-        context = {}
+        context = {
+            "error_background": "Large/Error.jpg"
+        }
         return render(request, "errorpage.html")
 
 def prayerDetails(request, prayer_category_tag = "", prayer_name_tag = ""):
@@ -40,13 +42,18 @@ def prayerDetails(request, prayer_category_tag = "", prayer_name_tag = ""):
     sqlite_select_Query = f"SELECT * FROM [prayers_detail] WHERE [prayer_category_tag] = '{prayer_category_tag}' AND [prayer_name_tag] = '{prayer_name_tag}';"
     cursor.execute(sqlite_select_Query)
     record = cursor.fetchone()
-    print(prayer_category_tag, "  lol  ", prayer_name_tag)
     cursor.close()
-    context = {
-        "prayerCategory": record[4],
-        "prayerDetail": record
-    }
-    return render(request, "allPrayerDetails.html", context)
+    if record is not None:
+        context = {
+            "prayerCategory": record[4],
+            "prayerDetail": record
+        }
+        return render(request, "allPrayerDetails.html", context)
+    else:
+        context = {
+            "error_background": "Large/Error.jpg"
+        }
+        return render(request, "errorpage.html")
 
 def essentialPrayers(request):
     context = {}

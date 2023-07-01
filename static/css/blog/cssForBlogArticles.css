@@ -137,6 +137,15 @@ p.blogTitleTagline {
       text-align: justify;
 }
 
+.blogPostBody > ol > li {
+      padding-left: 10px;
+      font-family: 'Merriweather', serif;
+      font-size: 14px;
+      line-height: 16px;
+      margin: 0px 0px 4px 0px;
+      text-align: justify;
+}
+
 .prayerBodyContent > span > strong {
       font-family: 'Merriweather', serif;
       font-size: 16px;
@@ -291,6 +300,15 @@ p.blogTitleTagline {
             display: inline-block;
             padding: 10px 10px 10px 20px;
             text-align: left;
+      }
+
+      .blogPostBody > ol > li {
+            padding-left: 10px;
+            font-family: 'Merriweather', serif;
+            font-size: 14px;
+            line-height: 16px;
+            margin: 0px 0px 4px 0px;
+            text-align: justify;
       }
 
       .prayerBodyContent > span > strong {
@@ -458,6 +476,15 @@ p.blogTitleTagline {
       .blogPostBody > p > span {
             display: inline-block;
             padding: 10px 10px 10px 20px;
+            text-align: left;
+      }
+
+      .blogPostBody > ol > li {
+            padding-left: 5px;
+            font-family: 'Merriweather', serif;
+            font-size: 14px;
+            line-height: 16px;
+            margin: 0px 0px 4px 0px;
             text-align: left;
       }
 
