@@ -50,19 +50,21 @@
 
                   <div class="blogPostBody">
                         {% for article in blog_list %}
-                        <a href="{% url 'article' article.4 %}">
+                        <div id="{{ article.7 }}" class="blogBody">
                               <h2 class="blogName">{{ article.0 }}</h2> 
                               <p class="blogTagline">{{ article.1 }}</p>
                               <p class="blogUpdatedDate">
                               {% if article.3 > article.2 %}
-                              <span class="blogUpdatedOn">Updated On:</span> {{ article.6 }}
+                                    <span class="blogUpdatedOn">Updated On:</span> {{ article.6 }}
                               {% else %}
-                              <span class="blogUpdatedOn">Created On:</span> {{ article.5 }}
-                              {% endif %}</p>
-                              </a>
+                                    <span class="blogUpdatedOn">Created On:</span> {{ article.5 }}
+                              {% endif %}
+                              </p>
+                              <a class="btn default {{ article.7 }}" href="{% url 'article' article.7 %}" target="_blank" role="button" hidden>Read more ...</a>
                               {% if forloop.last %}
                               <br>
                               {% endif %}
+                        </div>
                         {% endfor %}
                   </div>
 
@@ -79,6 +81,23 @@
             <!-- Placed at the end of the document so the pages load faster -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
             <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+            <script>
+                  jQuery(document).ready(function() {
+                        jQuery(this).find('.btn').hide();
+                        $('.blogBody').hover(function() {
+                              myelementID = $(this).attr('id');
+                              jQuery(this).find('.' + myelementID).show();
+                        }, function() {
+                              myelementID = $(this).attr('id');
+                              jQuery(this).find('.' + myelementID).hide();
+                        });
+                        // jQuery('.product-images').hover(function() {
+                        //       jQuery(this).find('img:first').hide()
+                        // }, function() {
+                        //       jQuery(this).find('img:first').show();
+                        // });
+                  });
+            </script>
             <script src="{% static 'js/bootstrap.min.js' %}"></script>
             <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
             <script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>

@@ -38,7 +38,8 @@ def blog(request):
             WHEN '10' THEN 'October'
             WHEN '11' THEN 'November'
             WHEN '12' THEN 'December'
-            END || ', ' || STRFTIME('%Y', [updated_at]) AS [updated_at_text]
+            END || ', ' || STRFTIME('%Y', [updated_at]) AS [updated_at_text],
+        [blog_tag]
         FROM [blog_post]
         ORDER BY [created_at] DESC;"""
     cursor.execute(sqlite_select_Query)
