@@ -48,7 +48,7 @@
                         </div>
                   </div>
 
-                  <div class="blogPostBody">
+                  <div class="blogListBody">
                         {% for article in blog_list %}
                         <div id="{{ article.7 }}" class="blogBody">
                               <h2 class="blogName">{{ article.0 }}</h2> 
@@ -61,9 +61,9 @@
                               {% endif %}
                               </p>
                               <a class="btn default {{ article.7 }}" href="{% url 'article' article.7 %}" target="_blank" role="button" hidden>Read more ...</a>
-                              {% if forloop.last %}
+                              <!-- {% if forloop.last %}
                               <br>
-                              {% endif %}
+                              {% endif %} -->
                         </div>
                         {% endfor %}
                   </div>

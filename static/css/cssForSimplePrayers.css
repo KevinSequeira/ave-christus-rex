@@ -11,6 +11,7 @@
 
 .jumbotronBackground {
       background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Large/Simple Prayers.jpg');
+      height: 400px;
       background-size: cover;
       background-position: center;
       position: relative;
@@ -164,6 +165,7 @@ p.simplePrayersTagline {
 
       .jumbotronBackground {
             background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../images/Large/Simple Prayers.jpg');
+            height: 400px;
             background-size: cover;
             background-position: center;
             position: relative;
@@ -304,6 +306,7 @@ p.simplePrayersTagline {
 
       .jumbotronBackground {
             background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.0) ), url('../images/Small/Simple Prayers.jpg');
+            height: 400px;
             background-size: cover;
             background-position: center;
             position: relative;
@@ -445,6 +448,7 @@ p.simplePrayersTagline {
 
       .jumbotronBackground {
             background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../images/Small/Simple Prayers.jpg');
+            height: 400px;
             background-size: cover;
             background-position: center;
       }
