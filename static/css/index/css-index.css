@@ -11,7 +11,7 @@
 .jumbotronBackground {
       background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1.0) ), url('../../images/Large/Signum Crucis.jpg');
       background-size: cover;
-      background-position: top;
+      background-position: bottom;
       padding: 0px 0px 0px 0px;
       position: relative;
 }
@@ -43,7 +43,7 @@
 
 .carouselForJumbotron > .carouselInnerForJumbotron {
       background-size: cover;
-      background-position: bottom;
+      /* background-position: bottom; */
       position: absolute !important;
       width: inherit;
       height: inherit;
