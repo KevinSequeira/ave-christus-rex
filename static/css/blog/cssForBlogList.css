@@ -79,8 +79,8 @@ p.blogTitleTagline {
 }
 
 .blogBody > p.blogUpdatedDate {
-      font-size: 14px;
-      margin: 0px 0px 4px 0px;
+      font-size: 16px;
+      margin: 0px 0px 8px 0px;
       font-family: 'Merriweather', serif;
       color: #333333;
 }
@@ -88,7 +88,7 @@ p.blogTitleTagline {
 .blogBody > p.blogUpdatedDate > span.blogUpdatedOn {
       padding: 0px;
       margin: 0px;
-      font-size: 14px;
+      font-size: 16px;
       line-height: 10px;
       font-family: 'Merriweather', serif;
       color: #777777;
@@ -180,7 +180,7 @@ p.blogTitleTagline {
       .blogBody > h2.blogName {
             font-family: 'Vollkorn SC', serif;
             color: #D7B546;
-            margin: 20px 0px 0px -2px;
+            margin: 0px 0px 0px -2px;
             font-size: 30px;
             line-height: 30px;
             font-style: normal;
@@ -195,9 +195,9 @@ p.blogTitleTagline {
 
       .blogBody > p.blogUpdatedDate > span.blogUpdatedOn {
             font-size: 16px;
-            margin: 0px 0px 4px 0px;
+            margin: 0px 0px 8px 0px;
             font-family: 'Merriweather', serif;
-            color: #333333;
+            color: #777777;
       }
 
       .row-left {
@@ -275,7 +275,7 @@ p.blogTitleTagline {
       .jumbotron h1 {
             font-family: 'Vollkorn SC', serif;
             margin: 0px 0px 6px -2px;
-            font-size: 24px;
+            font-size: 30px;
             line-height: 24px;
       }
 
@@ -309,13 +309,13 @@ p.blogTitleTagline {
       .blogBody > p.blogTagline {
             font-size: 14px;
             line-height: 18px;
-            margin: 0px 0px 5px 0px;
+            margin: 0px 0px 8px 0px;
             font-family: 'Merriweather', serif;
             color: #333333;
       }
 
       .blogBody > p.blogUpdatedDate > span.blogUpdatedOn {
-            font-size: 12px;
+            font-size: 14px;
             margin: 0px 0px 0px 0px;
             font-family: 'Merriweather', serif;
             color: #333333;
@@ -348,7 +348,7 @@ p.blogTitleTagline {
             padding: 10px 28px;
             font-size: 12px;
             cursor: pointer;
-            margin: 5px 0px 0px 0px;
+            margin: 5px 0px 10px 0px;
       }
 
       .default {
@@ -436,7 +436,7 @@ p.blogTitleTagline {
             padding: 10px 18px;
             font-size: 12px;
             cursor: pointer;
-            margin-bottom: 0px;
+            margin: 5px 0px 10px 0px;
       }
 
       .default {

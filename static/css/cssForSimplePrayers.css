@@ -135,6 +135,14 @@ p.simplePrayersTagline {
       cursor: pointer;
 }
 
+.btn-top {
+      margin: 0px 0px 10px 0px;
+}
+
+.btn-bottom {
+      margin: 2px 0px 10px 0px;
+}
+
 .default {
       background-color: #E5CE85;
       border-color: #333333;
@@ -274,6 +282,14 @@ p.simplePrayersTagline {
             font-size: 12px;
             cursor: pointer;
       }
+      
+      .btn-top {
+            margin: 0px 0px 10px 0px;
+      }
+      
+      .btn-bottom {
+            margin: 2px 0px 10px 0px;
+      }
 
       .default {
             background-color: #E5CE85;
@@ -412,10 +428,17 @@ p.simplePrayersTagline {
             background-color: #E5CE85;
             font-family: 'Merriweather', sans-serif;
             color: #333333;
-            padding: 10px 28px;
+            padding: 10px 18px;
             font-size: 12px;
             cursor: pointer;
-            margin-bottom: 20px;
+      }
+
+      .btn-top {
+            margin: 0px 0px 8px 0px;
+      }
+      
+      .btn-bottom {
+            margin: 2px 0px 10px 0px;
       }
 
       .default {
@@ -538,7 +561,7 @@ p.simplePrayersTagline {
             padding: 10px 18px;
             font-size: 12px;
             cursor: pointer;
-            margin-bottom: 20px;
+            margin-bottom: 0px;
       }
 
       .default {

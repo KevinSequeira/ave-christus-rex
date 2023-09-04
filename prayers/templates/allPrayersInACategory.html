@@ -55,13 +55,14 @@
                         <div id = "{{ prayer.6 }}" class="prayerBody" onhover="showReadMoreButton(1, 0, this)">
                               <h1 class="prayerBodyHeader">{{ prayer.5 }}</h1>
                               <p class="prayerBodyTagline"><i>{{ prayer.7 }}</i></p>
+                              {% if prayer.6 %}
+                              <a class="btn default {{ prayer.6 }} btn-top" href="{% url 'prayers' prayer.2 prayer.6 %}" target="_blank" role="button" hidden>Read more ...</a>
+                              {% endif %}
                               {% autoescape off %}
                               {{ prayer.9 }}
                               {% endautoescape %}
                               {% if prayer.6 %}
-                              <a class="btn default {{ prayer.6 }}" href="{% url 'prayers' prayer.2 prayer.6 %}" target="_blank" role="button" hidden>Read more ...</a>
-                              {% else %}
-                              <a class="btn default disabled {{ prayer.6 }}" href="{% url 'prayers' prayer.2 prayer.6 %}" target="_blank" role="button" hidden>Coming soon ...</a>
+                              <a class="btn default {{ prayer.6 }} btn-bottom" href="{% url 'prayers' prayer.2 prayer.6 %}" target="_blank" role="button" hidden>Read more ...</a>
                               {% endif %}
                         </div>
                         {% endfor %}
